@@ -1,4 +1,9 @@
 #root {
+  --main-dark-color: #242424;
+  --main-light-color: #ffffff;
+  --main-accent-color: #df633b;
+  --shadow: #00000033;
+
   max-width: 1280px;
   margin: 0 auto;
   padding: 1rem 2rem;
@@ -6,4 +11,94 @@
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
+}
+
+.page-banner {
+  h1, h2 {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+.card {
+  min-height: 16rem;
+  min-width: 16rem;
+  border: 1px solid var(--main-dark-color);
+  border-radius: 4px;
+  padding: 2rem;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 var(--shadow);
+  transition: 0.3s;
+  text-align: center;
+
+  h2 {
+    font-size: 4rem;
+    transition: 0.3s;
+  }
+
+  p {
+    letter-spacing: 0.2rem;
+    transition: 0.3s;
+  }
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 var(--shadow);
+  border: 1px solid var(--main-accent-color);
+
+  h2 {
+    letter-spacing: 0.2rem;
+    color: var(--main-accent-color);
+  }
+
+  p {
+    letter-spacing: 0.3rem;
+    color: var(--main-accent-color);
+  }
+}
+
+.card-container {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-wrapper {
+  padding: 4rem 0 2rem 0;
+}
+
+@keyframes softRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-1deg)
+  }
+  50% {
+      transform: rotate(0deg);
+  }
+  75% {
+      transform: rotate(1deg);
+  }
+  100% {
+      transform: rotate(0deg);
+  }
+}
+
+.experience-selection {
+  padding: 2rem 0;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  font-size: 2rem;
+  transition: 0.6s;
+  animation: softRotate 5s linear infinite;
+}
+
+.experience-selection:hover {
+  color: var(--main-accent-color);
+}
+
+footer {
+  text-align: center;
 }

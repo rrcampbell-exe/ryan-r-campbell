@@ -1,22 +1,27 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import LandingPage from './experiences/shared/pages/Landing/LandingPage.jsx'
-import AboutPage from './experiences/shared/pages/About/AboutPage.jsx'
+import GeneralLanding from './experiences/shared/pages/Landing/GeneralLanding.jsx'
+import AuthorLanding from './experiences/author/pages/Landing/AuthorLanding.jsx'
+import GeneralAbout from './experiences/shared/pages/About/GeneralAbout.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom'
 import './index.css'
+import './App.css'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <LandingPage />
+    element: <GeneralLanding />
+  },
+  {
+    path: '/author',
+    element: <AuthorLanding />
   },
   {
     path: '/about',
-    element: <AboutPage />
+    element: <GeneralAbout />
   },
 ])
 
