@@ -1,13 +1,17 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
+// TODO: add toggle for theme
+// TODO: pivot to using sass or make some shared components for header, etc.
+// TODO: add animation (or something fun?) to colorful dot in banner
+
 const GeneralLanding = () => {
   const navigate = useNavigate()
   const currentYear = new Date().getFullYear()
   return (
     <body>
       <header className='page-banner'>
-        <h1>ryan r. campbell</h1>
+        <h1>ryan r<span id='banner-dot'>.</span> campbell</h1>
         <h2>author | technologist</h2>
       </header>
       <main className='section-wrapper'>
