@@ -9,8 +9,6 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: light-dark(var(--main-light-color), var(--main-dark-color));
-  background-color: light-dark(var(--main-light-color), var(--main-dark-color));
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,6 +20,9 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 1rem 2rem;
+
+  color: light-dark(var(--main-dark-color), var(--main-light-color));
+  background-color: light-dark(var(--main-light-color), var(--main-dark-color));
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,7 +39,8 @@ h1, h2, h3, h4, h5, h6 {
 .card {
   min-height: 16rem;
   min-width: 16rem;
-  border: 1px solid light-dark(var(--main-dark-color), var(--main-light-color));
+  border: 1px solid;
+  border-color: light-dark(var(--main-dark-color), var(--main-light-color));
   border-radius: 4px;
   padding: 2rem;
   margin: 1rem;
