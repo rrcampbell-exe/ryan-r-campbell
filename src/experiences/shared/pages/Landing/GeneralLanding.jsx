@@ -4,7 +4,6 @@ import MoonSVG from '../../../../assets/MoonSVG'
 import SunSVG from '../../../../assets/SunSVG'
  
 // TODO: add toggle for theme
-// TODO: update size of svgs, flex appropriately
 // TODO: pivot to using sass or make some shared components for header, etc.
 // TODO: add animation (or something fun?) to colorful dot in banner
 
