@@ -1,7 +1,10 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-
+import MoonSVG from '../../../../assets/MoonSVG'
+import SunSVG from '../../../../assets/SunSVG'
+ 
 // TODO: add toggle for theme
+// TODO: update size of svgs, flex appropriately
 // TODO: pivot to using sass or make some shared components for header, etc.
 // TODO: add animation (or something fun?) to colorful dot in banner
 
@@ -11,8 +14,18 @@ const GeneralLanding = () => {
   return (
     <body>
       <header className='page-banner'>
-        <h1>ryan r<span id='banner-dot'>.</span> campbell</h1>
-        <h2>author | technologist</h2>
+        <div>
+          <h1>ryan r<span id='banner-dot'>.</span> campbell</h1>
+          <h2>author | technologist</h2>
+        </div>
+        <div>
+          <button className='theme-toggle-button'>
+            <SunSVG />
+          </button>
+          <button className='theme-toggle-button'>
+            <MoonSVG />
+          </button>
+        </div>
       </header>
       <main className='section-wrapper'>
         <div className='card-container'>
