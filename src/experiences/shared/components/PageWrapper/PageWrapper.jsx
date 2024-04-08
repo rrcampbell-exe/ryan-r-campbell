@@ -4,11 +4,11 @@ import Footer from '../../components/Footer/Footer'
 
 const PageWrapper = ({ pageTitle, children }) => {
   return (
-    <body>
+    <>
       <Header pageTitle={pageTitle} />
         {children}
       <Footer />
-    </body>
+    </>
   )
 }
 

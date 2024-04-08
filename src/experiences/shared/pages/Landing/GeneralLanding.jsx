@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom'
 import PageWrapper from '../../components/PageWrapper/PageWrapper'
  
 // TODO: add toggle for theme
-// TODO: add animation (or something fun?) to colorful dot in banner
 
 const GeneralLanding = () => {
   const navigate = useNavigate()

@@ -1,19 +1,13 @@
 import React from 'react'
+import PageWrapper from '../../../shared/components/PageWrapper/PageWrapper'
 
 const AuthorLanding = () => {
   return (
-    <div>
-      <header className='page-banner'>
-        <h1>ryan r. campbell</h1>
-        <h2>two-time international book awards finalist</h2>
-      </header>
+    <PageWrapper pageTitle='two-time international book awards finalist'>
       <main className='section-wrapper'>
         some content
       </main>
-      <footer>
-        hello
-      </footer>
-    </div>
+    </PageWrapper>
   )
 }
 

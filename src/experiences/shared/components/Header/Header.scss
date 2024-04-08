@@ -18,9 +18,38 @@
   stroke: var(--main-dark-color);
 }
 
+// TODO: refine animation at a later date (see next TODO in file)
+// @keyframes drop-and-roll {
+//   0% {
+//     transform: translateX(0px);
+//   }
+//   10% {
+//     transform: translateX(5px);
+//   }
+//   22% {
+//     transform: translateY(20px) translateX(8px)
+//   }
+//   90% {
+//     transform: translateY(20px) translateX(107px)
+//   }
+//   100% {
+//     transform: translateY(24.5px) translateX(108px);
+//   }
+// }
+
 #header-dot {
+  display: inline-block;
   color: var(--main-accent-color);
+  transition: 0.3s;
 }
+
+// TODO: restore animation as part of separate issue
+// .page-header h1:hover {
+//   #header-dot {
+//     animation: 5s ease-in-out 1 drop-and-roll;
+//     animation-fill-mode: forwards;
+//   }
+// }
 
 .header-svg {
   width: 100%;
@@ -30,13 +59,13 @@
 
 @keyframes spin {
   0% {
-    transform: rotate(0deg);
+    transform: rotate(0deg) scale(1, 1);
   }
   50% {
-      transform: rotate(180deg);
+    transform: rotate(45deg) scale(0.9, 0.9);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(90deg) scale(1, 1);
   }
 }
 
@@ -77,7 +106,6 @@
 
   #sun-svg {
     stroke: var(--main-accent-color);
-    /* TODO: update animation so rays of sun pulse or something, maybe rotate slower */
-    animation: spin 3s infinite;
+    animation: spin 2s infinite;
   }
 }
