@@ -1,0 +1,120 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+
+  h1, h2 {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+#moon-svg {
+  stroke: var(--main-light-color);
+  fill: var(--main-light-color);
+  stroke-width: 1.5;
+}
+
+#sun-svg {
+  stroke: var(--main-dark-color);
+}
+
+// TODO: refine animation at a later date (see next TODO in file)
+// @keyframes drop-and-roll {
+//   0% {
+//     transform: translateX(0px);
+//   }
+//   10% {
+//     transform: translateX(5px);
+//   }
+//   22% {
+//     transform: translateY(20px) translateX(8px)
+//   }
+//   90% {
+//     transform: translateY(20px) translateX(107px)
+//   }
+//   100% {
+//     transform: translateY(24.5px) translateX(108px);
+//   }
+// }
+
+#header-dot {
+  display: inline-block;
+  color: var(--main-accent-color);
+  transition: 0.3s;
+}
+
+// TODO: restore animation as part of separate issue
+// .page-header h1:hover {
+//   #header-dot {
+//     animation: 5s ease-in-out 1 drop-and-roll;
+//     animation-fill-mode: forwards;
+//   }
+// }
+
+.header-svg {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(1, 1);
+  }
+  50% {
+    transform: rotate(45deg) scale(0.9, 0.9);
+  }
+  100% {
+    transform: rotate(90deg) scale(1, 1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1, 1) rotate(0deg);
+  }
+  50% {
+    transform: scale(0.9, 0.9) rotate(-5deg);
+  }
+  100% {
+    transform: scale(1, 1) rotate(0deg);
+  }
+}
+
+// TODO: get border colors to be responsive, look at step 4 to see how you can set variables to variables
+
+.theme-toggle-button {
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  border-radius: 50%;
+  border-width: 1px; 
+  border-style: solid;
+  padding: 6px;
+  box-shadow: 0 4px 8px 0 var(--shadow);
+  transition: 0.5s;
+}
+
+.dark-theme .theme-toggle-button {
+  border-color: var(--main-light-color);
+}
+
+.light-theme .theme-toggle-button {
+  border-color: var(--main-dark-color);
+}
+
+.theme-toggle-button:hover {
+  box-shadow: 0 8px 16px 0 var(--shadow);
+  border-color: var(--main-accent-color);
+
+  #moon-svg {
+    stroke: var(--main-accent-color);
+    fill: var(--main-accent-color);
+    animation: pulse 3s infinite;
+  }
+
+  #sun-svg {
+    stroke: var(--main-accent-color);
+    animation: spin 2s infinite;
+  }
+}

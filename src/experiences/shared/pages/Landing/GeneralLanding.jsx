@@ -1,15 +1,11 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-
+import PageWrapper from '../../components/PageWrapper/PageWrapper'
+ 
 const GeneralLanding = () => {
   const navigate = useNavigate()
-  const currentYear = new Date().getFullYear()
   return (
-    <body>
-      <header className='page-banner'>
-        <h1>ryan r. campbell</h1>
-        <h2>author | technologist</h2>
-      </header>
+    <PageWrapper pageTitle='author | technologist' >
       <main className='section-wrapper'>
         <div className='card-container'>
           <div className='card' onClick={() => navigate('/author')}>
@@ -25,10 +21,7 @@ const GeneralLanding = () => {
           <p>choose your experience</p>
         </div>
       </main>
-      <footer>
-        © 2012 - {currentYear} Ryan R. Campbell
-      </footer>
-    </body>
+    </PageWrapper>
   )
 }
 
