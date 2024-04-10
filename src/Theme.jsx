@@ -25,7 +25,7 @@ const ThemeProvider = ({ children }) => {
 
   useEffect(() => {
     const refreshTheme = () => {
-      localStorage.setItem('theme', theme)
+      localStorage.setItem('ryan-r-campbell-theme', theme)
     }
 
     refreshTheme()
