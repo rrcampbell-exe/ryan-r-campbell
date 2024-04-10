@@ -81,6 +81,8 @@
   }
 }
 
+// TODO: get border colors to be responsive, look at step 4 to see how you can set variables to variables
+
 .theme-toggle-button {
   width: 45px;
   height: 45px;
@@ -88,10 +90,17 @@
   border-radius: 50%;
   border-width: 1px; 
   border-style: solid;
-  border-color: light-dark(var(--main-dark-color), var(--main-light-color));
   padding: 6px;
   box-shadow: 0 4px 8px 0 var(--shadow);
   transition: 0.3s;
+}
+
+.dark-theme .theme-toggle-button {
+  border-color: var(--main-light-color);
+}
+
+.light-theme .theme-toggle-button {
+  border-color: var(--main-dark-color);
 }
 
 .theme-toggle-button:hover {
