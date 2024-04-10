@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
 import MoonSVG from '../../../../assets/MoonSVG'
 import SunSVG from '../../../../assets/SunSVG'
+import { ThemeContext } from '../../../../Theme'
 
 const Header = ({ pageTitle }) => {
+  const { theme, toggleTheme } = useContext(ThemeContext)
   return (
     <header className='page-header'>
       <div>
@@ -10,11 +12,8 @@ const Header = ({ pageTitle }) => {
         <h2>{pageTitle}</h2>
       </div>
       <div>
-        <button className='theme-toggle-button'>
-          <SunSVG />
-        </button>
-        <button className='theme-toggle-button'>
-          <MoonSVG />
+        <button className='theme-toggle-button' onClick={() => toggleTheme()}>
+          {theme === 'light-theme' ? <SunSVG /> : <MoonSVG />}
         </button>
       </div>
     </header>

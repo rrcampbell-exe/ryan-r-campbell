@@ -2,8 +2,6 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import PageWrapper from '../../components/PageWrapper/PageWrapper'
  
-// TODO: add toggle for theme
-
 const GeneralLanding = () => {
   const navigate = useNavigate()
   return (
