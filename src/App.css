@@ -49,6 +49,10 @@ a {
   letter-spacing: 0.1rem;
 }
 
+.accent-color {
+  color: var(--main-accent-color);
+}
+
 .author-headshot {
   border-radius: 50%;
   height: 10rem;
