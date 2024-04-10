@@ -12,7 +12,7 @@ const GeneralLanding = () => {
             <h2>asdf</h2>
             <p>author</p>
           </div>
-          <div className='card'>
+          <div className='card' onClick={() => navigate('/tech')}>
             <h2>{"</>"}</h2>
             <p>technologist</p>
           </div>
