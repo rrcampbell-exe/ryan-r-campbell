@@ -13,7 +13,7 @@ const AuthorLanding = () => {
           <div className='about-col'>
             <h2>about</h2>
             <p>
-              Ryan R. Campbell is a two-time International Book Awards finalist, the founder of the Writescast Network, and the co-founder of Kill Your Darlings Candle Company. 
+              I'm a two-time International Book Awards finalist, the founder of the Writescast Network, and the co-founder of Kill Your Darlings Candle Company. 
             </p>
             <Link to='/author/about'>learn more</Link>
           </div>

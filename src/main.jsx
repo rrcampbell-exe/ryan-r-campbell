@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import GeneralLanding from './experiences/shared/pages/Landing/GeneralLanding.jsx'
 import AuthorLanding from './experiences/author/pages/Landing/AuthorLanding.jsx'
 import GeneralAbout from './experiences/shared/pages/About/GeneralAbout.jsx'
+import TechLanding from './experiences/tech/pages/Landing/TechLanding.jsx'
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -22,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <GeneralAbout />
+  },
+  {
+    path: '/tech',
+    element: <TechLanding />
   },
 ])
 
