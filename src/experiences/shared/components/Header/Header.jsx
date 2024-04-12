@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext } from 'react'
 import MoonSVG from '../../../../assets/MoonSVG'
 import SunSVG from '../../../../assets/SunSVG'
 import { ThemeContext } from '../../../../Theme'
