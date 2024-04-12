@@ -1,0 +1,31 @@
+// TODO: style text, including color, spacing, line-height, etc.
+// TODO: create standard button in App.css
+
+.Books {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  flex-wrap: wrap;
+
+  .book {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    max-width: 10rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .book-cover {
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 var(--shadow);
+  }
+
+  .book-title {
+    font-style: italic;
+    margin-bottom: 0;
+  }
+}
