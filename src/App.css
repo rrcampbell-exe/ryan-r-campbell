@@ -1,12 +1,15 @@
 @import './experiences/shared/components/Header/Header.scss';
 @import './experiences/shared/components/Footer/Footer.scss';
 @import './experiences/shared/pages/Landing/GeneralLanding.scss';
+@import './experiences/shared/components/Books/Books.scss';
+@import './experiences/shared/components/Builds/Builds.scss';
 
 :root {
   --main-dark-color: #242424;
   --main-light-color: #ffffff;
   --main-accent-color: #df633b;
   --shadow: #00000033;
+  --main-accent-shadow: #df643b78;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -22,6 +25,18 @@ body {
   margin: 0;
 }
 
+.shadow-bg-main-accent {
+  margin: 2rem -2rem;
+  padding: 1rem 2rem;
+  background-color: var(--main-accent-shadow);
+}
+
+.shadow-bg-gray {
+  margin: 2rem -2rem;
+  padding: 1rem 2rem;
+  background-color: var(--shadow);
+}
+
 .light-theme {
   color: var(--main-dark-color);
   background-color: var(--main-light-color);
@@ -29,6 +44,18 @@ body {
   padding: 1rem 2rem;
   margin: 0 auto;
   transition: 0.5s;
+
+  .pop-content h2 {
+    color: var(--main-light-color)
+  }
+
+  .build {
+    border: 1px solid var(--main-dark-color);
+  }
+
+  .app-overview-underline {
+    background-color: var(--main-dark-color);
+  }
 }
 
 .dark-theme {
@@ -38,6 +65,14 @@ body {
   padding: 1rem 2rem;
   margin: 0 auto;
   transition: 0.5s;
+
+  .build {
+    border: 1px solid var(--main-light-color);
+  }
+
+  .app-overview-underline {
+    background-color: var(--main-light-color);
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,13 +90,29 @@ a {
 
 .author-headshot {
   border-radius: 50%;
-  height: 10rem;
-  width: 10rem;
-  padding-right: 1.5rem;
+  height: 20rem;
+  width: 20rem;
+  margin-right: 1.5rem;
+  transition: 0.3s;
 }
 
 .about-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+button {
+  background-color: var(--main-accent-color);
+  color: var(--main-light-color);
+  box-shadow: 0px 4px 8px var(--shadow);
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  border: 1px solid var(--main-light-color);
+}
+
+.grow-on-hover {
+  &:hover {
+    transform: scale(1.01);
+  }
 }
