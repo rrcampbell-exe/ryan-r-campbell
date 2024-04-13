@@ -3,6 +3,7 @@
 @import './experiences/shared/pages/Landing/GeneralLanding.scss';
 @import './experiences/shared/components/Books/Books.scss';
 @import './experiences/shared/components/Builds/Builds.scss';
+@import './experiences/shared/components/SubNav/SubNav.scss';
 
 :root {
   --main-dark-color: #242424;
@@ -19,6 +20,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -82,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: var(--main-accent-color);
   letter-spacing: 0.1rem;
+  text-decoration: none;
 }
 
 .accent-color {
