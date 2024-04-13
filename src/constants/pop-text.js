@@ -15,13 +15,10 @@ const popText = [
     text: 'stargazer'
   },
   {
-    text: 'dog dad'
+    text: 'pet padre'
   },
   {
     text: 'traveler'
-  },
-  {
-    text: 'cat dad'
   },
   {
     text: 'polyglot'
