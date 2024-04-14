@@ -4,6 +4,8 @@
 @import './experiences/shared/components/Books/Books.scss';
 @import './experiences/shared/components/Builds/Builds.scss';
 @import './experiences/shared/components/SubNav/SubNav.scss';
+@import './experiences/shared/components/Contact/Contact.scss';
+@import './experiences/shared/components/Blog/Blog.scss';
 
 :root {
   --main-dark-color: #242424;
@@ -56,8 +58,12 @@ body {
     border: 1px solid var(--main-dark-color);
   }
 
-  .app-overview-underline {
+  .app-overview-underline, .blog-post-underline {
     background-color: var(--main-dark-color);
+  }
+
+  .Header a {
+    color: var(--main-dark-color);
   }
 }
 
@@ -73,8 +79,12 @@ body {
     border: 1px solid var(--main-light-color);
   }
 
-  .app-overview-underline {
+  .app-overview-underline, .blog-post-underline {
     background-color: var(--main-light-color);
+  }
+
+  .Header a {
+    color: var(--main-light-color);
   }
 }
 
