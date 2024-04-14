@@ -22,6 +22,9 @@ const popText = [
   },
   {
     text: 'polyglot'
+  },
+  {
+    text: 'entrepreneur'
   }
 ]
 
