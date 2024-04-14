@@ -1,79 +1,77 @@
-.card {
-  min-height: 16rem;
-  min-width: 16rem;
-  border: 1px solid;
-  border-color: light-dark(var(--main-dark-color), var(--main-light-color));
-  border-radius: 4px;
-  padding: 2rem;
-  margin: 1rem;
-  box-shadow: 0 4px 8px 0 var(--shadow);
-  transition: 0.3s;
-  text-align: center;
-
-  h2 {
-    font-size: 4rem;
-    transition: 0.3s;
+.General-landing {
+  .photo-banner {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
   }
-
-  p {
-    letter-spacing: 0.2rem;
-    transition: 0.3s;
+  
+  .section-wrapper {
+    padding-bottom: 2rem;
   }
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 var(--shadow);
-  border: 1px solid var(--main-accent-color);
-
-  h2 {
-    letter-spacing: 0.2rem;
-    color: var(--main-accent-color);
-  }
-
-  p {
-    letter-spacing: 0.3rem;
-    color: var(--main-accent-color);
-  }
-}
-
-.card-container {
-  padding: 0 2rem;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.section-wrapper {
-  padding: 4rem 0 2rem 0;
-}
-
-@keyframes softRotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(-1deg)
-  }
-  50% {
+  
+  @keyframes softRotate {
+    0%, 50%, 100% {
       transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-1deg)
+    }
+    75% {
+        transform: rotate(1deg);
+    }
   }
-  75% {
-      transform: rotate(1deg);
-  }
-  100% {
-      transform: rotate(0deg);
-  }
-}
+  
+  .experience-selection {
+    padding: 2rem 0;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-size: 2rem;
+    transition: 0.6s;
+    animation: softRotate 5s linear infinite;
 
-.experience-selection {
-  padding: 2rem 0;
-  letter-spacing: 0.2rem;
-  text-align: center;
-  font-size: 2rem;
-  transition: 0.6s;
-  animation: softRotate 5s linear infinite;
-}
-
-.experience-selection:hover {
-  color: var(--main-accent-color);
+    &:hover {
+      color: var(--main-accent-color);
+    }
+  }
+  
+  
+  .pop-text-container {
+    width: 15rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+  
+    h2 {
+      margin: 0;
+    }
+  }
+  
+  .pop-content {
+    animation: fade 2s ease-in-out infinite;
+  } 
+  
+  @keyframes fade {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .photo-banner {
+      .pop-text-container {
+        margin-top: 1.5rem;
+        margin-left: 0;
+      }
+    
+      .author-headshot {
+        height: 15rem;
+        width: 15rem;
+      }
+    }
+  }
+  
 }
