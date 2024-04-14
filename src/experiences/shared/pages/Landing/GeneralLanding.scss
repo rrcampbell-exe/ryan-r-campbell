@@ -1,49 +1,4 @@
 .General-landing {
-  .card {
-    min-height: 16rem;
-    min-width: 16rem;
-    border: 1px solid;
-    border-color: light-dark(var(--main-dark-color), var(--main-light-color));
-    border-radius: 4px;
-    padding: 2rem;
-    margin: 1rem;
-    box-shadow: 0 4px 8px 0 var(--shadow);
-    transition: 0.3s;
-    text-align: center;
-  
-    h2 {
-      font-size: 4rem;
-      transition: 0.3s;
-    }
-  
-    p {
-      letter-spacing: 0.2rem;
-      transition: 0.3s;
-    }
-
-    &:hover {
-      box-shadow: 0 8px 16px 0 var(--shadow);
-      border: 1px solid var(--main-accent-color);
-    
-      h2 {
-        letter-spacing: 0.2rem;
-        color: var(--main-accent-color);
-      }
-    
-      p {
-        letter-spacing: 0.3rem;
-        color: var(--main-accent-color);
-      }
-    }
-  }
-  
-  .card-container {
-    padding: 0 2rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
   .photo-banner {
     padding: 2rem;
     display: flex;
