@@ -1,6 +1,10 @@
-.page-header {
+.Header {
   display: flex;
   justify-content: space-between;
+
+  a {
+    transition: 0.3s;
+  }
 
   h1, h2 {
     margin: 0 auto;
