@@ -4,6 +4,7 @@ import GeneralLanding from './experiences/shared/pages/Landing/GeneralLanding.js
 import AuthorLanding from './experiences/author/pages/Landing/AuthorLanding.jsx'
 import GeneralAbout from './experiences/shared/pages/About/GeneralAbout.jsx'
 import TechLanding from './experiences/tech/pages/Landing/TechLanding.jsx'
+import { BlogPost } from './experiences/shared/components/index.js'
 
 import {
   createBrowserRouter,
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: '/tech',
     element: <TechLanding />
+  },
+  {
+    path: '/:year/:month/:day/:slug',
+    element: <BlogPost />
   },
 ])
 
