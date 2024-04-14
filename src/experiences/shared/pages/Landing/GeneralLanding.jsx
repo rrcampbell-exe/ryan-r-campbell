@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import PopText from './PopText'
 import popText from '../../../../constants/pop-text'
-import { Books, Builds, BlogTeaser, PageWrapper, SubNav } from '../../../shared/components'
+import { Books, Builds, BlogTeaser, PageWrapper, SubNav, Contact } from '../../../shared/components'
 
 const GeneralLanding = () => {
   const navigate = useNavigate()
@@ -38,21 +38,9 @@ const GeneralLanding = () => {
         </div>
         <div id='contact' className='section-wrapper shadow-bg-main-accent'>
           <h2>contact</h2>
+          <Contact />
           <h2>subscribe</h2>
         </div>
-        {/* <div className='card-container section-wrapper'>
-          <div className='card' onClick={() => navigate('/author')}>
-            <h2>asdf</h2>
-            <p>author</p>
-          </div>
-          <div className='card' onClick={() => navigate('/tech')}>
-            <h2>{"</>"}</h2>
-            <p>technologist</p>
-          </div>
-        </div>
-        <div className='experience-selection'>
-          <p>choose your experience</p>
-        </div> */}
       </main>
     </PageWrapper>
   )
