@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Subnav = ({ sections }) => {
+const SubNav = ({ sections }) => {
   return (
     <nav className='SubNav'>
       {sections.map((section) => (
-        <div className='section'>
+        <div className='section' >
           <a href={`#${section}`}>
             {section}
           </a>
@@ -14,4 +14,4 @@ const Subnav = ({ sections }) => {
   )
 }
 
-export default Subnav
+export default SubNav
