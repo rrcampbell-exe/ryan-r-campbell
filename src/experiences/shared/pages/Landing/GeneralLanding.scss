@@ -6,9 +6,12 @@
     flex-wrap: wrap;
     align-items: center;
   }
-  
-  .section-wrapper {
-    padding-bottom: 2rem;
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    transition: 0.3s;
   }
   
   @keyframes softRotate {
