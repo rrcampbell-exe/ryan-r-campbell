@@ -1,0 +1,32 @@
+.Author-landing {
+  padding-top: 2rem;
+
+  .featured-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    .featured-img {
+      width: 10rem;
+      display: flex;
+      margin: 2rem;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.light-theme {
+  .featured-img.dark {
+    filter: invert(100%);
+  }
+}
+
+.dark-theme {
+  .featured-img.light {
+    filter: invert(100%);
+  }
+}
