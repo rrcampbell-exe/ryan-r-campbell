@@ -31,10 +31,20 @@ const GeneralLanding = () => {
         <div id='books' className='section-wrapper shadow-bg-gray'>
           <h2>books</h2>
           <Books />
+          <div className='button-container grow-on-hover'>
+            <button onClick={() => navigate('/author')}>
+                about the author
+            </button>
+          </div>
         </div>
         <div id='builds' className='section-wrapper'>
           <h2>builds</h2>
           <Builds />
+          <div className='button-container grow-on-hover'>
+            <button onClick={() => navigate('/technologist')}>
+                about the engineer
+            </button>
+          </div>
         </div>
         <div id='contact' className='section-wrapper shadow-bg-main-accent'>
           <h2>contact</h2>
