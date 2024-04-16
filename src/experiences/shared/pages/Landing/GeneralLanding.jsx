@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import PopText from './PopText'
+import PopText from '../../components/PopText/PopText'
 import popText from '../../../../constants/pop-text'
 import { Books, Builds, BlogTeaser, PageWrapper, SubNav, Contact } from '../../../shared/components'
 

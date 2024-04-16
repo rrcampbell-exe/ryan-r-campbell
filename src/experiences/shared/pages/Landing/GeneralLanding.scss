@@ -39,30 +39,6 @@
     }
   }
   
-  
-  .pop-text-container {
-    width: 15rem;
-    margin-left: 1.5rem;
-    margin-top: 1rem;
-  
-    h2 {
-      margin: 0;
-    }
-  }
-  
-  .pop-content {
-    animation: fade 2s ease-in-out infinite;
-  } 
-  
-  @keyframes fade {
-    0%, 100% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-  }
-  
   @media (max-width: 600px) {
     .photo-banner {
       .pop-text-container {
