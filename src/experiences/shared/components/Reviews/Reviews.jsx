@@ -3,10 +3,6 @@ import reviews from '../../../../constants/reviews'
 import QuotesSVG from '../../../../assets/QuotesSVG'
 import PopText from '../PopText/PopText'
 
-// TODO: ensure height of section stays consistent, sometimes changes currently due to review length
-// TODO: make an issue to do this as a carousel eventually
-// TODO: add link to reviews as well, but do this to books page on site with anchor tag, hopefully
-
 const buildReviewerName = (reviewer, reviewerTitle) => `- ${reviewer}${reviewerTitle ? `, ${reviewerTitle}` : ''}`
 
 const Reviews = () => {
