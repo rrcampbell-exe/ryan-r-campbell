@@ -1,0 +1,18 @@
+.Reviews {
+  text-align: center;
+
+  .review-container {
+    transition: 0.3s;
+  }
+
+  .quotes-svg {
+    height: 5rem;
+    width: 5rem;
+  }
+}
+
+.dark-theme {
+  .quotes-svg {
+    filter: invert(100%);
+  }
+}

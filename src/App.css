@@ -6,6 +6,8 @@
 @import './experiences/shared/components/SubNav/SubNav.scss';
 @import './experiences/shared/components/Contact/Contact.scss';
 @import './experiences/shared/components/Blog/Blog.scss';
+@import './experiences/author/pages/Landing/AuthorLanding.scss';
+@import './experiences/shared/components/Reviews/Reviews.scss';
 
 :root {
   --main-dark-color: #242424;
@@ -31,13 +33,13 @@ body {
 }
 
 .shadow-bg-main-accent {
-  margin: 2rem -2rem;
+  margin: 0 -2rem 2rem -2rem;
   padding: 1rem 2rem;
   background-color: var(--main-accent-shadow);
 }
 
 .shadow-bg-gray {
-  margin: 2rem -2rem;
+  margin: 0 -2rem 2rem -2rem;
   padding: 1rem 2rem;
   background-color: var(--shadow);
 }
@@ -116,17 +118,53 @@ a {
   justify-content: space-between;
 }
 
+.section-wrapper {
+  padding-bottom: 2rem;
+}
+
 button {
-  background-color: var(--main-accent-color);
-  color: var(--main-light-color);
+  background-color: transparent;
+  color: var(--main-accent-color);
   box-shadow: 0px 4px 8px var(--shadow);
   padding: 0.5rem 1rem;
   border-radius: 30px;
-  border: 1px solid var(--main-light-color);
+  border: 1px solid var(--main-accent-color);
+  letter-spacing: 0.1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .grow-on-hover {
   &:hover {
     transform: scale(1.01);
+  }
+}
+
+.pop-text-container {
+  width: 15rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+
+  h2 {
+    margin: 0;
+  }
+}
+
+.pop-content {
+  animation: fade 2s ease-in-out infinite;
+} 
+
+.pop-content-slow {
+  animation: fade 7s ease-in-out infinite;
+} 
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
   }
 }

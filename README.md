@@ -28,7 +28,7 @@ Coming soon
 - [Ryan R. Campbell](https://www.github.com/rrcampbell-exe/)
 
 ### SVG Icons
-- [Sun](https://www.svgrepo.com/svg/525084/sun) and [Moon](https://www.svgrepo.com/svg/524757/moon-stars) SVG vectors licensed under CC Attribution License and sourced from svgrepo.com.
+- [Sun](https://www.svgrepo.com/svg/525084/sun), [Moon](https://www.svgrepo.com/svg/524757/moon-stars), and [Quotation Mark](https://www.svgrepo.com/svg/346784/double-quotes-l) SVG vectors licensed under CC Attribution License and sourced from svgrepo.com.
 
 ## Questions, Comments, Suggestions
 Please email [Ryan R. Campbell](mailto:campbell.ryan.r@gmail.com) with any questions, to report any bugs, or to make any feature suggestions. You can also [contact Ryan R. Campbell on GitHub](https://www.github.com/rrcampbell-exe/).
