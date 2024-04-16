@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react'
 
-const PopText = ({ children }) => {
+const PopText = ({ children, slow }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentContent, setCurrentContent] = useState(children[currentIndex])
+
+  const timeout = slow ? 7000 : 2000
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex(prevIndex => (prevIndex + 1) % children.length)
-    }, 2000)
+    }, timeout)
 
     return () => clearInterval(interval)
   }, [children])
@@ -18,7 +20,7 @@ const PopText = ({ children }) => {
 
   return (
     <div>
-      <div className='pop-content'>{currentContent}</div>
+      <div className={`pop-content${slow ? `-slow` : ''}`}>{currentContent}</div>
     </div>
   );
 };

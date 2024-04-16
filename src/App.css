@@ -7,6 +7,7 @@
 @import './experiences/shared/components/Contact/Contact.scss';
 @import './experiences/shared/components/Blog/Blog.scss';
 @import './experiences/author/pages/Landing/AuthorLanding.scss';
+@import './experiences/shared/components/Reviews/Reviews.scss';
 
 :root {
   --main-dark-color: #242424;
@@ -138,5 +139,32 @@ button {
 .grow-on-hover {
   &:hover {
     transform: scale(1.01);
+  }
+}
+
+.pop-text-container {
+  width: 15rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+
+  h2 {
+    margin: 0;
+  }
+}
+
+.pop-content {
+  animation: fade 2s ease-in-out infinite;
+} 
+
+.pop-content-slow {
+  animation: fade 7s ease-in-out infinite;
+} 
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
   }
 }
