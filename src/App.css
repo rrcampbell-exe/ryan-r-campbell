@@ -8,6 +8,7 @@
 @import './experiences/shared/components/Blog/Blog.scss';
 @import './experiences/author/pages/Landing/AuthorLanding.scss';
 @import './experiences/shared/components/Reviews/Reviews.scss';
+@import './experiences/author/pages/Books/BooksLanding.scss';
 
 :root {
   --main-dark-color: #242424;

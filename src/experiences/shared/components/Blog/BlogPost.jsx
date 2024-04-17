@@ -5,7 +5,7 @@ import fetchPost from '../../../../utils/fetch-post'
 import extractHTMLContent from '../../../../utils/extract-html'
 import PageWrapper from '../PageWrapper/PageWrapper'
 import formatDate from '../../../../utils/format-date'
-import shortBio from '../../../../constants/short-bio'
+import { shortBio } from '../../../../constants'
 
 // TODO: need to insert category tags (if possible)
 // TODO: need to sanitize remaining HTML of comments related to divi
