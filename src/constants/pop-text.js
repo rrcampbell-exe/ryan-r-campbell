@@ -25,6 +25,9 @@ const popText = [
   },
   {
     text: 'entrepreneur'
+  },
+  {
+    text: 'storyteller'
   }
 ]
 
