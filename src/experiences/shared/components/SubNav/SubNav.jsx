@@ -6,7 +6,7 @@ const SubNav = ({ sections }) => {
       {sections.map((section) => (
         <div className='section' >
           <a href={`#${section}`}>
-            {section}
+            {section.replace(/-/g, ' ')}
           </a>
         </div>
       ))}
