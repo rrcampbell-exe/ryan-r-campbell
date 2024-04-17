@@ -101,18 +101,6 @@ body {
   .Header a {
     color: var(--main-light-color);
   }
-
-  .BlogTeaser, .Books {
-    a {
-      color: var(--main-light-color);
-      letter-spacing: normal;
-  
-      a {
-        color: var(--main-accent-color);
-        letter-spacing: 0.1rem;
-      }
-    }
-  }
 }
 
 h1, h2, h3, h4, h5, h6 {
