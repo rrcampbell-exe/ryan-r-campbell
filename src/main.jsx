@@ -4,6 +4,7 @@ import GeneralLanding from './experiences/shared/pages/Landing/GeneralLanding.js
 import AuthorLanding from './experiences/author/pages/Landing/AuthorLanding.jsx'
 import GeneralAbout from './experiences/shared/pages/About/GeneralAbout.jsx'
 import TechLanding from './experiences/tech/pages/Landing/TechLanding.jsx'
+import BooksLanding from './experiences/author/pages/Books/BooksLanding.jsx'
 import { BlogPost } from './experiences/shared/components/index.js'
 
 import {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: '/author',
     element: <AuthorLanding />
+  },
+  {
+    path: '/books',
+    element: <BooksLanding />
   },
   {
     path: '/about',
