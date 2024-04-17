@@ -1,5 +1,5 @@
 import React from 'react'
-import builds from '../../../../constants/builds-data'
+import { builds } from '../../../../constants'
 
 const Builds = () => {
   return (

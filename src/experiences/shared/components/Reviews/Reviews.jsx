@@ -1,5 +1,5 @@
 import React from 'react'
-import reviews from '../../../../constants/reviews'
+import { reviews } from '../../../../constants'
 import QuotesSVG from '../../../../assets/QuotesSVG'
 import PopText from '../PopText/PopText'
 

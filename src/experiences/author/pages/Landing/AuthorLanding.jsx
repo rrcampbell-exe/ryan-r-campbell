@@ -2,8 +2,7 @@ import React from 'react'
 import PageWrapper from '../../../shared/components/PageWrapper/PageWrapper'
 import { Link } from 'react-router-dom'
 import { Books, Contact, SubNav, Reviews } from '../../../shared/components'
-import featuredIn from '../../../../constants/featured-in'
-import awards from '../../../../constants/awards'
+import { featuredIn, awards } from '../../../../constants'
 
 const AuthorLanding = () => {
   return (
