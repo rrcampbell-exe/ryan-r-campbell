@@ -26,7 +26,12 @@ const GeneralLanding = () => {
         </div>
         <div id='blog' className='section-wrapper'>
           <h2>blog</h2>
-          <BlogTeaser />
+          <BlogTeaser postsToDisplay={3} postsPage={1} />
+          <div className='button-container grow-on-hover'>
+            <button onClick={() => navigate('/blog')}>
+                to the blog
+            </button>
+          </div>
         </div>
         <div id='books' className='section-wrapper shadow-bg-gray'>
           <h2>books</h2>
