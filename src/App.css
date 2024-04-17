@@ -68,6 +68,18 @@ body {
   .Header a {
     color: var(--main-dark-color);
   }
+
+  .BlogTeaser, .Books {
+    a {
+      color: var(--main-dark-color);
+      letter-spacing: normal;
+  
+      a {
+        color: var(--main-accent-color);
+        letter-spacing: 0.1rem;
+      }
+    }
+  }
 }
 
 .dark-theme {
@@ -88,6 +100,18 @@ body {
 
   .Header a {
     color: var(--main-light-color);
+  }
+
+  .BlogTeaser, .Books {
+    a {
+      color: var(--main-light-color);
+      letter-spacing: normal;
+  
+      a {
+        color: var(--main-accent-color);
+        letter-spacing: 0.1rem;
+      }
+    }
   }
 }
 

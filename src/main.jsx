@@ -5,6 +5,7 @@ import AuthorLanding from './experiences/author/pages/Landing/AuthorLanding.jsx'
 import GeneralAbout from './experiences/shared/pages/About/GeneralAbout.jsx'
 import TechLanding from './experiences/tech/pages/Landing/TechLanding.jsx'
 import BooksLanding from './experiences/author/pages/Books/BooksLanding.jsx'
+import BlogHub from './experiences/shared/pages/BlogHub/BlogHub.jsx'
 import { BlogPost } from './experiences/shared/components/index.js'
 
 import {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: '/:year/:month/:day/:slug',
     element: <BlogPost />
+  },
+  {
+    path: '/blog',
+    element: <BlogHub />
   },
 ])
 

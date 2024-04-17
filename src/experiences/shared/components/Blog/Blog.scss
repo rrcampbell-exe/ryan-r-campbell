@@ -1,6 +1,7 @@
 .BlogTeaser {
   .blog-post {
     transition: 0.3s;
+    margin-bottom: 2rem;
   }
   h3 {
     margin-bottom: 0;
@@ -84,5 +85,32 @@
     width: 2.5rem;
     height: 1px;
     margin-top: 1rem;
+  }
+}
+
+.BlogHub {
+  margin-top: 2rem;
+
+  .BlogTeaser {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .blog-post {
+    transition: 0.3s;
+    margin: 0 1rem 2rem 1rem;
+    width: 20rem;
+  }
+
+  .cover-image {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+
+  .blog-hub-nav {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
   }
 }
