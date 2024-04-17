@@ -12,14 +12,16 @@ const BlogTeaser = ({ postsToDisplay, showCoverImage, postsPage }) => {
   return (
     <div className='BlogTeaser'>
       {teaserPosts.map((post) => (
-        <div className='blog-post grow-on-hover'>
-          {showCoverImage && <img className='cover-image' src={post.episode_featured_image} />}
-          <h3>{post.title.rendered}</h3>
-          <span>Posted on {formatDate(post.date)}</span>
-          <p>{post.excerpt.rendered}</p>
-          <Link to={buildBlogParams(post.link)}>read more</Link>
-          <div className='blog-post-underline' />
-        </div>
+        <Link to={buildBlogParams(post.link)}>
+          <div className='blog-post grow-on-hover'>
+            {showCoverImage && <img className='cover-image' src={post.episode_featured_image} />}
+            <h3>{post.title.rendered}</h3>
+            <span>Posted on {formatDate(post.date)}</span>
+            <p>{post.excerpt.rendered}</p>
+            <Link to={buildBlogParams(post.link)}>read more</Link>
+            <div className='blog-post-underline' />
+          </div>
+        </Link>
       ))}
     </div>
   )

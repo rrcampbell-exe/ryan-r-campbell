@@ -68,6 +68,16 @@ body {
   .Header a {
     color: var(--main-dark-color);
   }
+
+  .BlogTeaser {
+    a {
+      color: var(--main-dark-color);
+  
+      a {
+        color: var(--main-accent-color);
+      }
+    }
+  }
 }
 
 .dark-theme {
@@ -88,6 +98,16 @@ body {
 
   .Header a {
     color: var(--main-light-color);
+  }
+
+  .BlogTeaser {
+    a {
+      color: var(--main-light-color);
+  
+      a {
+        color: var(--main-accent-color);
+      }
+    }
   }
 }
 
