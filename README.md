@@ -15,7 +15,10 @@ The website, blog, and portfolio for Ryan R. Campbell.
 
 
  ## Features
- - n/a
+ 
+ ### Wordcloud
+ 
+ Code for the Skills wordcloud based on [visx wordcloud documentation](https://airbnb.io/visx/wordcloud).
 
 ## Tests
 Coming soon
