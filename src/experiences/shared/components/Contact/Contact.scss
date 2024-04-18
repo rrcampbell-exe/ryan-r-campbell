@@ -7,4 +7,15 @@
     margin-top: 0;
     font-size: 0.875rem;
   }
+  a {
+    letter-spacing: normal;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin: 0.15rem 0 0 0.05rem;
+      height: 12px;
+    }
+  }
 }
