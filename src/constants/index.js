@@ -5,5 +5,6 @@ import featuredIn from './featured-in'
 import popText from './pop-text'
 import reviews from './reviews'
 import shortBio from './short-bio'
+import boasts from './boasts.jsx'
 
-export { awards, books, builds, featuredIn, popText, reviews, shortBio }
+export { awards, books, builds, featuredIn, popText, reviews, shortBio, boasts }
