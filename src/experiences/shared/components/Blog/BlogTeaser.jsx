@@ -1,10 +1,11 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import posts from '../../../../assets/posts/posts'
 import formatDate from '../../../../utils/format-date'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import buildBlogParams from '../../../../utils/build-blog-params'
 
 const BlogTeaser = ({ postsToDisplay, showCoverImage, postsPage }) => {
+  const navigate = useNavigate()
   const maxPostIndex = postsPage * postsToDisplay
 
   const teaserPosts = posts.slice(0, maxPostIndex)
@@ -12,7 +13,7 @@ const BlogTeaser = ({ postsToDisplay, showCoverImage, postsPage }) => {
   return (
     <div className='BlogTeaser'>
       {teaserPosts.map((post) => (
-        <Link to={buildBlogParams(post.link)}>
+        <div onClick={() => navigate(buildBlogParams(post.link))} key={post.id}>
           <div className='blog-post grow-on-hover'>
             {showCoverImage && <img className='cover-image' src={post.episode_featured_image} />}
             <h3>{post.title.rendered}</h3>
@@ -21,7 +22,7 @@ const BlogTeaser = ({ postsToDisplay, showCoverImage, postsPage }) => {
             <Link to={buildBlogParams(post.link)}>read more</Link>
             <div className='blog-post-underline' />
           </div>
-        </Link>
+        </div>
       ))}
     </div>
   )

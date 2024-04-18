@@ -14,7 +14,6 @@ const BlogHub = () => {
         <div id='contact' className='section-wrapper shadow-bg-main-accent'>
           <h2>contact</h2>
           <Contact />
-          <h2>subscribe</h2>
         </div>
       </main>
     </PageWrapper>

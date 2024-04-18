@@ -4,7 +4,7 @@ const SubNav = ({ sections }) => {
   return (
     <nav className='SubNav'>
       {sections.map((section) => (
-        <div className='section' >
+        <div className='section' key={section}>
           <a href={`#${section}`}>
             {section.replace(/-/g, ' ')}
           </a>

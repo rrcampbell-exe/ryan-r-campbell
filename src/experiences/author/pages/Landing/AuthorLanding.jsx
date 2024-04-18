@@ -13,7 +13,7 @@ const AuthorLanding = () => {
           <div>
             <img className='author-headshot' src='./2024-ryan-r-campbell-website-headshot.png' />
           </div>
-          <div className='section-wrapper'>
+          <div className='section-wrapper about-description'>
             <h2>about</h2>
             <p>
               I'm a two-time International Book Awards finalist, the founder of the Writescast Network, and the co-founder of Kill Your Darlings Candle Company. 
@@ -56,7 +56,6 @@ const AuthorLanding = () => {
         <div id='contact' className='shadow-bg-main-accent section-wrapper'>
           <h2>contact</h2>
           <Contact />
-          <h2>subscribe</h2>
         </div>
       </main>
     </PageWrapper>

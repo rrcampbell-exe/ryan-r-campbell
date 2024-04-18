@@ -10,10 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@visx/responsive": "^3.10.2",
+    "@visx/scale": "^3.5.0",
+    "@visx/text": "^3.3.0",
+    "@visx/wordcloud": "^3.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
-    "sass": "^1.74.1"
+    "sass": "^1.74.1",
+    "typescript": "^5.4.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

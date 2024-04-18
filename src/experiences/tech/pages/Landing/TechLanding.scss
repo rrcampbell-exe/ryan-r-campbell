@@ -1,0 +1,80 @@
+.Tech-landing {
+  .about-row {
+    padding-top: 2rem;
+  }
+
+  .wordcloud {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    align-items: center;
+    width: 100%;
+    transition: 0.3s;
+  }
+  .wordcloud svg {
+    margin: 1rem 0;
+  }
+
+  .wordcloud label {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  .wordcloud textarea {
+    min-height: 100px;
+  }
+
+  #skills {
+    p {
+      text-align: center;
+      margin-top: 0;
+    }
+  }
+}
+
+.Boasts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  flex-wrap: wrap;
+
+  .boast {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    max-width: 15rem;
+    padding: 2rem;
+    margin: 1rem;
+    border: 1px solid;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 var(--shadow);
+    transition: 0.3s;
+
+    h3 {
+      font-weight: 500;
+    }
+
+    svg {
+      max-width: 60%;
+      fill: var(--main-accent-color);
+    }
+  }
+
+  .boast-category {
+    margin-bottom: 0;
+  }
+}
+
+.light-theme {
+  .boast {
+    border-color: var(--main-dark-color);
+  }
+}
+
+.dark-theme {
+  .boast {
+    border-color: var(--main-light-color);
+  }
+}

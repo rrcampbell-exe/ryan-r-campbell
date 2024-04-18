@@ -15,7 +15,10 @@ The website, blog, and portfolio for Ryan R. Campbell.
 
 
  ## Features
- - n/a
+ 
+ ### Wordcloud
+ 
+ Code for the Skills wordcloud based on [visx wordcloud documentation](https://airbnb.io/visx/wordcloud).
 
 ## Tests
 Coming soon
@@ -28,7 +31,7 @@ Coming soon
 - [Ryan R. Campbell](https://www.github.com/rrcampbell-exe/)
 
 ### SVG Icons
-- [Sun](https://www.svgrepo.com/svg/525084/sun), [Moon](https://www.svgrepo.com/svg/524757/moon-stars), and [Quotation Mark](https://www.svgrepo.com/svg/346784/double-quotes-l) SVG vectors licensed under CC Attribution License and sourced from svgrepo.com.
+- [Sun](https://www.svgrepo.com/svg/525084/sun), [Moon](https://www.svgrepo.com/svg/524757/moon-stars), [External Link](https://www.svgrepo.com/svg/510970/external-link), [Laptop](https://www.svgrepo.com/svg/280756/laptop-computer-code), [Browser](https://www.svgrepo.com/svg/214139/browser-website), [Management](https://www.svgrepo.com/svg/109477/management), and [Quotation Mark](https://www.svgrepo.com/svg/346784/double-quotes-l) SVG vectors licensed under CC Attribution License and sourced from svgrepo.com.
 
 ## Questions, Comments, Suggestions
 Please email [Ryan R. Campbell](mailto:campbell.ryan.r@gmail.com) with any questions, to report any bugs, or to make any feature suggestions. You can also [contact Ryan R. Campbell on GitHub](https://www.github.com/rrcampbell-exe/).

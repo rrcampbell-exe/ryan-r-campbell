@@ -33,7 +33,6 @@ const BooksLanding = () => {
         <div id='contact' className='shadow-bg-main-accent section-wrapper'>
           <h2>contact</h2>
           <Contact />
-          <h2>subscribe</h2>
         </div>
       </main>
     </PageWrapper>
