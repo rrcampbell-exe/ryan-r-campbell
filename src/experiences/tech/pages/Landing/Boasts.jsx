@@ -5,11 +5,11 @@ const Boasts = () => {
   return (
     <div className='Boasts'>
       {boasts.map((boast) => (
-        <div className='boast grow-on-hover'>
+        <div className='boast grow-on-hover' key={boast.category}>
           {boast.image}
           <h3 className='boast-category'>{boast.category}</h3>
           {boast.description.map((description) => (
-            <p>{description}</p>
+            <p key={description}>{description}</p>
           ))}
         </div>
       ))}
