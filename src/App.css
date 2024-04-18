@@ -9,6 +9,7 @@
 @import './experiences/author/pages/Landing/AuthorLanding.scss';
 @import './experiences/shared/components/Reviews/Reviews.scss';
 @import './experiences/author/pages/Books/BooksLanding.scss';
+@import './experiences/tech/pages/Landing/TechLanding.scss';
 
 :root {
   --main-dark-color: #242424;
@@ -65,20 +66,12 @@ body {
     background-color: var(--main-dark-color);
   }
 
-  .Header a {
+  .Header a, .Contact a {
     color: var(--main-dark-color);
   }
 
-  .BlogTeaser, .Books {
-    a {
-      color: var(--main-dark-color);
-      letter-spacing: normal;
-  
-      a {
-        color: var(--main-accent-color);
-        letter-spacing: 0.1rem;
-      }
-    }
+  .external-link-svg {
+    stroke: var(--main-dark-color);
   }
 }
 
@@ -98,8 +91,12 @@ body {
     background-color: var(--main-light-color);
   }
 
-  .Header a {
+  .Header a, .Contact a {
     color: var(--main-light-color);
+  }
+
+  .external-link-svg {
+    stroke: var(--main-light-color);
   }
 }
 
