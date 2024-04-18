@@ -7,7 +7,7 @@ const Books = () => {
   return (
     <div className='Books'>
       {books.map((book) => (
-        <div onClick={() => navigate('/books')}>
+        <div key={book.id} onClick={() => navigate('/books')}>
           <div className='book grow-on-hover'>
             <img className='book-cover' src={book.cover} alt={book.alt} />
             <h3 className='book-title'>{book.title}</h3>

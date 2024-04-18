@@ -17,7 +17,7 @@ const GeneralLanding = () => {
               <h2>home of</h2>
               <PopText>
                 {popText.map((obj) => (
-                  <h2>{obj.text}</h2>
+                  <h2 key={obj.id}>{obj.text}</h2>
                 ))}
               </PopText>
               <h2>ryan r. campbell</h2>
@@ -46,7 +46,7 @@ const GeneralLanding = () => {
           <h2>builds</h2>
           <Builds />
           <div className='button-container grow-on-hover'>
-            <button onClick={() => navigate('/technologist')}>
+            <button onClick={() => navigate('/tech')}>
                 about the engineer
             </button>
           </div>
@@ -54,7 +54,6 @@ const GeneralLanding = () => {
         <div id='contact' className='section-wrapper shadow-bg-main-accent'>
           <h2>contact</h2>
           <Contact />
-          <h2>subscribe</h2>
         </div>
       </main>
     </PageWrapper>

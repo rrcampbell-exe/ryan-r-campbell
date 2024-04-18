@@ -13,7 +13,7 @@ const BlogTeaser = ({ postsToDisplay, showCoverImage, postsPage }) => {
   return (
     <div className='BlogTeaser'>
       {teaserPosts.map((post) => (
-        <div onClick={() => navigate(buildBlogParams(post.link))}>
+        <div onClick={() => navigate(buildBlogParams(post.link))} key={post.id}>
           <div className='blog-post grow-on-hover'>
             {showCoverImage && <img className='cover-image' src={post.episode_featured_image} />}
             <h3>{post.title.rendered}</h3>

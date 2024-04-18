@@ -1,33 +1,43 @@
 const popText = [
   {
-    text: 'author'
+    text: 'author',
+    id: 'author'
   },
   {
-    text: 'technologist'
+    text: 'technologist',
+    id: 'technologist'
   },
   {
-    text: 'software engineer'
+    text: 'software engineer',
+    id: 'software-engineer'
   },
   {
-    text: 'linguist'
+    text: 'linguist',
+    id: 'linguist'
   },
   {
-    text: 'stargazer'
+    text: 'stargazer',
+    id: 'stargazer'
   },
   {
-    text: 'pet padre'
+    text: 'pet padre',
+    id: 'pet-padre'
   },
   {
-    text: 'traveler'
+    text: 'traveler',
+    id: 'traveler'
   },
   {
-    text: 'polyglot'
+    text: 'polyglot',
+    id: 'polyglot'
   },
   {
-    text: 'entrepreneur'
+    text: 'entrepreneur',
+    id: 'entrepreneur'
   },
   {
-    text: 'storyteller'
+    text: 'storyteller',
+    id: 'storyteller'
   }
 ]
 

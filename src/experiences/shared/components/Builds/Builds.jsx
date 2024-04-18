@@ -5,7 +5,7 @@ const Builds = () => {
   return (
     <div className='Builds'>
       {builds.map((app) => (
-        <div className='build grow-on-hover'>
+        <div className='build grow-on-hover' key={app.logo}>
           <div className='app-overview'>
             <img className='app-logo' src={app.logo} alt={app.alt} />
             <h3 className='app-title'>{app.title}</h3>
