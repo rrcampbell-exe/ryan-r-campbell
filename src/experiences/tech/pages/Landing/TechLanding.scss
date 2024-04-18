@@ -1,5 +1,36 @@
 .Tech-landing {
-  padding-top: 2rem;
+  .about-row {
+    padding-top: 2rem;
+  }
+
+  .wordcloud {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    align-items: center;
+    width: 100%;
+    transition: 0.3s;
+  }
+  .wordcloud svg {
+    margin: 1rem 0;
+  }
+
+  .wordcloud label {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  .wordcloud textarea {
+    min-height: 100px;
+  }
+
+  #skills {
+    p {
+      text-align: center;
+      margin-top: 0;
+    }
+  }
 }
 
 .Boasts {
@@ -14,7 +45,7 @@
     justify-content: top;
     align-items: center;
     max-width: 15rem;
-    padding: 1rem 2rem;
+    padding: 2rem;
     margin: 1rem;
     border: 1px solid;
     border-radius: 4px;
