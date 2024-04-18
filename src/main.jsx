@@ -43,7 +43,7 @@ const router = createBrowserRouter([
   {
     path: '/blog',
     element: <BlogHub />
-  },
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
