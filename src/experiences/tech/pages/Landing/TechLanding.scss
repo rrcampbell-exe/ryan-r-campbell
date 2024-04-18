@@ -1,0 +1,49 @@
+.Tech-landing {
+  padding-top: 2rem;
+}
+
+.Boasts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  flex-wrap: wrap;
+
+  .boast {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    max-width: 15rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: 1px solid;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 var(--shadow);
+    transition: 0.3s;
+
+    h3 {
+      font-weight: 500;
+    }
+
+    svg {
+      max-width: 60%;
+      fill: var(--main-accent-color);
+    }
+  }
+
+  .boast-category {
+    margin-bottom: 0;
+  }
+}
+
+.light-theme {
+  .boast {
+    border-color: var(--main-dark-color);
+  }
+}
+
+.dark-theme {
+  .boast {
+    border-color: var(--main-light-color);
+  }
+}
