@@ -1,0 +1,19 @@
+.Podcast-landing {
+  padding-top: 2rem;
+  
+  .podcast-player {
+    padding: 0 4rem;
+  }
+
+  iframe {
+    padding: 1rem 0;
+    width: 100%;
+  }
+
+  @media (max-width: 600px) {
+    .podcast-player {
+      padding: 0;
+    }
+  }
+
+}

@@ -7,6 +7,7 @@ import TechLanding from './experiences/tech/pages/Landing/TechLanding.jsx'
 import BooksLanding from './experiences/author/pages/Books/BooksLanding.jsx'
 import BlogHub from './experiences/shared/pages/BlogHub/BlogHub.jsx'
 import { BlogPost } from './experiences/shared/components/index.js'
+import PodcastLanding from './experiences/author/pages/Podcast/PodcastLanding.jsx'
 
 import {
   createBrowserRouter,
@@ -43,7 +44,11 @@ const router = createBrowserRouter([
   {
     path: '/blog',
     element: <BlogHub />
-  }
+  },
+  {
+    path: '/podcasts',
+    element: <PodcastLanding />
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
