@@ -1,9 +1,7 @@
 import React from 'react'
 import { PageWrapper, Contact } from '../../../shared/components'
 import { useParams } from 'react-router-dom'
-import fetchEpisode from '../../../../utils/fetch-episode'
-import findEpisodeUUID from '../../../../utils/find-episode-uuid'
-import formatDate from '../../../../utils/format-date'
+import { fetchEpisode, findEpisodeUUID, formatDate } from '../../../../utils'
 
 const PodcastEpisode = () => {
   const { slug } = useParams()
@@ -12,7 +10,7 @@ const PodcastEpisode = () => {
   const uuid = findEpisodeUUID(episode)
 
   return (
-    <PageWrapper pageTitle='home of the writescast network'>
+    <PageWrapper pageTitle='podcaster | community-builder'>
       <main className='Podcast'>
         <h3>{episode.title}</h3>
         <span className=''>Posted on {formatDate(episode.pubDate)}</span>

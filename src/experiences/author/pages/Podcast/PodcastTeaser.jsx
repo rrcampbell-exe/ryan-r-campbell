@@ -1,8 +1,7 @@
 import React from 'react'
 import podcasts from '../../../../assets/podcasts/pinecast-podcasts'
 import { Link, useNavigate } from 'react-router-dom'
-import formatDate from '../../../../utils/format-date'
-import buildBlogParams from '../../../../utils/build-blog-params'
+import { formatDate, buildNavURL } from '../../../../utils'
 
 const PodcastTeaser = ({ episodesToDisplay, episodesPage }) => {
   const navigate = useNavigate()
@@ -12,16 +11,16 @@ const PodcastTeaser = ({ episodesToDisplay, episodesPage }) => {
   const teaserEpisodes = podcasts.slice(0, maxPostIndex)
 
   return (
-    <div className='BlogTeaser'>
+    <div className='ContentTeaser'>
       {teaserEpisodes.map((episode) => (
-        <div onClick={() => navigate(buildBlogParams(episode.link))} key={episode.link}>
-          <div className='blog-post grow-on-hover'>
+        <div onClick={() => navigate(buildNavURL(episode.link))} key={episode.link}>
+          <div className='content-post grow-on-hover'>
             <img className='cover-image' src={episode.image._href} />
             <h3>{episode.title}</h3>
-            <span>Posted on {formatDate(episode.pubDate)}</span>
+            <span>Released on {formatDate(episode.pubDate)}</span>
             <p>{episode.description}</p>
             <Link to={episode.link}>listen here</Link>
-            <div className='blog-post-underline' />
+            <div className='content-post-underline' />
           </div>
         </div>
       ))}

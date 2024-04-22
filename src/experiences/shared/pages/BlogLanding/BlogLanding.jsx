@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { PageWrapper, BlogTeaser, Contact } from '../../components'
 import posts from '../../../../assets/posts/posts'
 
-const BlogHub = () => {
+const BlogLanding = () => {
   const [postsPage, setPostsPage] = useState(1)
 
   const totalPostsQty = posts.length
@@ -14,9 +14,9 @@ const BlogHub = () => {
 
   return (
     <PageWrapper pageTitle='blogger'>
-      <main className='BlogHub'>
+      <main className='ContentHub'>
         <BlogTeaser postsToDisplay={postsToDisplay} showCoverImage postsPage={postsPage} />
-        <div className='blog-hub-nav'>
+        <div className='content-hub-nav'>
           <button onClick={() => setPostsPage(postsPage + 1)} disabled={allBlogPostsShown}>{buttonText}</button>
         </div>
         <div id='contact' className='section-wrapper shadow-bg-main-accent'>
@@ -28,4 +28,4 @@ const BlogHub = () => {
   )
 }
 
-export default BlogHub
+export default BlogLanding

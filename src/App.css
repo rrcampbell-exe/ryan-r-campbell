@@ -5,7 +5,7 @@
 @import './experiences/shared/components/Builds/Builds.scss';
 @import './experiences/shared/components/SubNav/SubNav.scss';
 @import './experiences/shared/components/Contact/Contact.scss';
-@import './experiences/shared/components/Blog/Blog.scss';
+@import './experiences/shared/styles/ContentHub.scss';
 @import './experiences/author/pages/Landing/AuthorLanding.scss';
 @import './experiences/shared/components/Reviews/Reviews.scss';
 @import './experiences/author/pages/Books/BooksLanding.scss';
@@ -65,7 +65,7 @@ body {
     border: 1px solid var(--main-dark-color);
   }
 
-  .app-overview-underline, .blog-post-underline {
+  .app-overview-underline, .content-post-underline {
     background-color: var(--main-dark-color);
   }
 
@@ -90,7 +90,7 @@ body {
     border: 1px solid var(--main-light-color);
   }
 
-  .app-overview-underline, .blog-post-underline {
+  .app-overview-underline, .content-post-underline {
     background-color: var(--main-light-color);
   }
 

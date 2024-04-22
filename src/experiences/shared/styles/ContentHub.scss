@@ -1,5 +1,5 @@
-.BlogTeaser {
-  .blog-post {
+.ContentTeaser {
+  .content-post {
     transition: 0.3s;
     margin-bottom: 2rem;
 
@@ -15,7 +15,7 @@
   }
 }
 
-.BlogPost {
+.Post {
   padding: 2rem 4rem;
 
   img {
@@ -84,24 +84,24 @@
   }
 }
 
-.BlogTeaser, .BlogPost {
-  .blog-post-underline {
+.ContentTeaser, .Post {
+  .content-post-underline {
     width: 2.5rem;
     height: 1px;
     margin-top: 1rem;
   }
 }
 
-.BlogHub {
+.ContentHub {
   margin-top: 2rem;
 
-  .BlogTeaser {
+  .ContentTeaser {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
 
-  .blog-post {
+  .content-post {
     transition: 0.3s;
     margin: 0 1rem 2rem 1rem;
     width: 20rem;
@@ -112,7 +112,7 @@
     border-radius: 4px;
   }
 
-  .blog-hub-nav {
+  .content-hub-nav {
     display: flex;
     justify-content: center;
     margin: 2rem;

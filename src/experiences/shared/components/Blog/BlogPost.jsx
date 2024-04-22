@@ -1,10 +1,8 @@
 import React from 'react'
 import posts from '../../../../assets/posts/posts'
 import { useParams } from 'react-router-dom'
-import fetchPost from '../../../../utils/fetch-post'
-import extractHTMLContent from '../../../../utils/extract-html'
+import { fetchPost, formatDate, extractHTMLContent } from '../../../../utils'
 import PageWrapper from '../PageWrapper/PageWrapper'
-import formatDate from '../../../../utils/format-date'
 import { shortBio } from '../../../../constants'
 
 // TODO: need to insert category tags (if possible)
@@ -23,7 +21,7 @@ const BlogPost = () => {
   return (
     <PageWrapper pageTitle='author | technologist'>
       <main>
-        <div className='BlogPost'>
+        <div className='Post'>
           <div className='masthead'>
             <img className='cover-image' src={episode_featured_image} />
             <div>
@@ -39,7 +37,7 @@ const BlogPost = () => {
                   </div>
                 </div>
                 <p className='bio'>{shortBio}</p>
-                <div className='blog-post-underline' />
+                <div className='content-post-underline' />
               </div>
             </div>
           </div>
