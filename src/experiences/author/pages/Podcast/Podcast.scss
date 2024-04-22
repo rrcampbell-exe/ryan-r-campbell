@@ -1,4 +1,4 @@
-.Podcast-landing {
+.Podcast {
   padding-top: 2rem;
   
   .podcast-player {
@@ -10,10 +10,18 @@
     width: 100%;
   }
 
+  h3 {
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+
+  span {
+    font-size: 0.875rem;
+  }
+
   @media (max-width: 600px) {
     .podcast-player {
       padding: 0;
     }
   }
-
 }

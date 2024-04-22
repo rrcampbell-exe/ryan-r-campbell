@@ -8,6 +8,7 @@ import BooksLanding from './experiences/author/pages/Books/BooksLanding.jsx'
 import BlogHub from './experiences/shared/pages/BlogHub/BlogHub.jsx'
 import { BlogPost } from './experiences/shared/components/index.js'
 import PodcastLanding from './experiences/author/pages/Podcast/PodcastLanding.jsx'
+import PodcastEpisode from './experiences/author/pages/Podcast/PodcastEpisode.jsx'
 
 import {
   createBrowserRouter,
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
     path: '/podcasts',
     element: <PodcastLanding />
   },
+  {
+    path: '/podcast/:slug',
+    element: <PodcastEpisode />
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

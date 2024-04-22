@@ -10,7 +10,7 @@
 @import './experiences/shared/components/Reviews/Reviews.scss';
 @import './experiences/author/pages/Books/BooksLanding.scss';
 @import './experiences/tech/pages/Landing/TechLanding.scss';
-@import './experiences/author/pages/Podcast/PodcastLanding.scss';
+@import './experiences/author/pages/Podcast/Podcast.scss';
 @import './experiences/shared/components/HamburgerMenu/HamburgerMenu.scss';
 
 :root {
