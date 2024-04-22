@@ -16,7 +16,7 @@ const PodcastEpisode = () => {
         <span className=''>Posted on {formatDate(episode.pubDate)}</span>
         <p>{episode.description}</p>
         <div className='podcast-player'>
-          <iframe src={`https://pinecast.com/player/${uuid}?theme=flat`} seamless height="200" style={{ border: '0', borderRadius: '4px' }} class="pinecast-embed" frameborder="0" width="100%"></iframe>
+          <iframe src={`https://pinecast.com/player/${uuid}?theme=flat`} seamless height="200" style={{ border: '0', borderRadius: '4px' }} className="pinecast-embed" frameBorder="0" width="100%"></iframe>
         </div>
         <div id='contact' className='shadow-bg-main-accent section-wrapper'>
           <h2>contact</h2>
