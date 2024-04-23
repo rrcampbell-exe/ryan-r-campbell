@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import HamburgerIcon from '../../../../assets/HamburgerIcon'
-import CloseSVG from '../../../../assets/CloseSVG'
+import { HamburgerIcon, CloseSVG } from '../../../../assets/svg'
 
 const HamburgerMenu = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false)

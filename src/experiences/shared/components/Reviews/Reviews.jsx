@@ -1,6 +1,6 @@
 import React from 'react'
 import { reviews } from '../../../../constants'
-import QuotesSVG from '../../../../assets/QuotesSVG'
+import { QuotesSVG } from '../../../../assets/svg'
 import PopText from '../PopText/PopText'
 
 const buildReviewerName = (reviewer, reviewerTitle) => `- ${reviewer}${reviewerTitle ? `, ${reviewerTitle}` : ''}`

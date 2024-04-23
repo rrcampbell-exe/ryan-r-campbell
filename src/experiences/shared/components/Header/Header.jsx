@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
-import MoonSVG from '../../../../assets/MoonSVG'
-import SunSVG from '../../../../assets/SunSVG'
+import { MoonSVG, SunSVG } from '../../../../assets/svg'
 import { ThemeContext } from '../../../../Theme'
 import { Link } from 'react-router-dom'
 import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'

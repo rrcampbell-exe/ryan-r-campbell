@@ -1,5 +1,5 @@
 import React from 'react'
-import RobotSVG from '../../../../assets/RobotSVG'
+import { RobotSVG } from '../../../../assets/svg'
 import { Link } from 'react-router-dom'
 
 const NotFound = ({ contentType }) => {

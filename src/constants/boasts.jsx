@@ -1,4 +1,4 @@
-import { BrowserSVG, LaptopSVG, ManagementSVG } from "../assets/BoastsSVG"
+import { BrowserSVG, LaptopSVG, ManagementSVG } from '../assets/svg'
 
 const boasts = [
   {
