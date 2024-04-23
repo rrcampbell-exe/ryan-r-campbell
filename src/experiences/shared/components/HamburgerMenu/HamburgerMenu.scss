@@ -8,6 +8,12 @@
       stroke: var(--main-dark-color);
       transition: 0.5s;
     }
+
+    &:hover {
+      line {
+        stroke: var(--main-accent-color);
+      }
+    }
   }
 
   .menu-content {
@@ -36,12 +42,24 @@
       padding: 1rem 0;
       color: var(--main-light-color);
       font-size: 1.2rem;
+      transition: 0.5s;
+
+      &:hover {
+        color: var(--main-accent-color);
+        letter-spacing: 0.2rem;
+      }
     }
 
     svg {
       padding: 0.4rem 0.25rem 1rem 0;
       stroke: var(--main-light-color);
       fill: var(--main-light-color);
+      transition: 0.5s;
+
+      &:hover {
+        stroke: var(--main-accent-color);
+        fill: var(--main-accent-color);
+      }
     }
 
     @media (max-width: 600px) {
