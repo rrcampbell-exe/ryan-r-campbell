@@ -1,6 +1,12 @@
 .SubNav {
   display: flex;
-  padding: 0.5rem 0 2rem 0;
+  padding: 0.5rem 0 1rem 0;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: var(--main-accent-color) var(--main-dark-color);
+  margin-bottom: 1rem;
+  transition: 0.5s;
 
   .section {
     border-right: 0.5px solid;
@@ -9,5 +15,11 @@
     &:first-child {
       border-left: 0.5px solid;
     }
+  }
+}
+
+.light-theme {
+  .SubNav {
+    scrollbar-color: var(--main-accent-color) var(--main-light-color);
   }
 }

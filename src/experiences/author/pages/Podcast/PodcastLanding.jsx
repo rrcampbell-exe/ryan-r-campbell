@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { PageWrapper, Contact, SubNav } from '../../../shared/components'
+import { PageWrapper, Contact, SubNav, Loading } from '../../../shared/components'
 import PodcastTeaser from './PodcastTeaser'
 import podcasts from '../../../../assets/podcasts/pinecast-podcasts'
 
 const PodcastLanding = () => {
   const [episodesPage, setEpisodesPage] = useState(1)
+  const [isLoaded, setIsLoaded] = useState(false)
   const episodesToDisplay = 9
 
   const totalEpisodesQty = podcasts.length
@@ -27,7 +28,8 @@ const PodcastLanding = () => {
           </div>
         </div>
         <div id='podcast-player' className='podcast-player'>
-          <iframe src='https://pinecast.com/embed/player_playlist/the-writescast-network?color.primary=%23000000&amp;color.secondary=%23cbd3da&amp;color.accent=%23df633b' border='0' style={{ border: '0', borderRadius: '4px' }} height='400'></iframe>
+          {!isLoaded && <Loading height='400px'/>}
+          <iframe onLoad={() => setIsLoaded(true)} src='https://pinecast.com/embed/player_playlist/the-writescast-network?color.primary=%23000000&amp;color.secondary=%23cbd3da&amp;color.accent=%23df633b' border='0' style={{ border: '0', borderRadius: '4px' }} height={isLoaded ? '400' : '0'}></iframe>
         </div>
         <div id='all-episodes' className='ContentHub'>
           <PodcastTeaser episodesToDisplay={episodesToDisplay} episodesPage={episodesPage}/>

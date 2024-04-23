@@ -38,7 +38,7 @@ const BlogPost = () => {
         <div className='Post'>
           <div className='masthead'>
             <img className='cover-image' src={episode_featured_image} />
-            {year <= 2022 && <NotificationBanner title='This is a legacy blog post.' text='Content may be formatted awkwardly until long-term fixes are in place. Thank you for your patience, and thanks for visiting.' />}
+            {year <= 2022 && <NotificationBanner title='This is a legacy post.' text='Content may be formatted awkwardly until long-term fixes are in place. Thank you for your patience, and thanks for visiting.' />}
             <div>
               <h2 className='title'>{title}</h2>
               <div className='credits'>
