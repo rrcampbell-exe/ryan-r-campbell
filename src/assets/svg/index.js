@@ -6,5 +6,6 @@ import MoonSVG from './MoonSVG'
 import QuotesSVG from './QuotesSVG'
 import RobotSVG from './RobotSVG'
 import SunSVG from './SunSVG'
+import CalendarSVG from './CalendarSVG'
 
-export { BrowserSVG, LaptopSVG, ManagementSVG, CloseSVG, ExternalLinkSVG, HamburgerIcon, MoonSVG, QuotesSVG, RobotSVG, SunSVG }
+export { BrowserSVG, LaptopSVG, ManagementSVG, CloseSVG, ExternalLinkSVG, HamburgerIcon, MoonSVG, QuotesSVG, RobotSVG, SunSVG, CalendarSVG }
