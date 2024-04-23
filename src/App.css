@@ -12,6 +12,7 @@
 @import './experiences/tech/pages/Landing/TechLanding.scss';
 @import './experiences/author/pages/Podcast/Podcast.scss';
 @import './experiences/shared/components/HamburgerMenu/HamburgerMenu.scss';
+@import './experiences/shared/components/NotFound/NotFound.scss';
 
 :root {
   --main-dark-color: #242424;
@@ -76,6 +77,11 @@ body {
   .external-link-svg {
     stroke: var(--main-dark-color);
   }
+
+  #robot-svg {
+    fill: var(--main-dark-color);
+    transition: 0.5s;
+  }
 }
 
 .dark-theme {
@@ -100,6 +106,11 @@ body {
 
   .external-link-svg {
     stroke: var(--main-light-color);
+  }
+
+  #robot-svg {
+    fill: var(--main-light-color);
+    transition: 0.5s;
   }
 }
 

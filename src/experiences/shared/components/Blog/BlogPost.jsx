@@ -2,8 +2,8 @@ import React from 'react'
 import posts from '../../../../assets/posts/posts'
 import { useParams } from 'react-router-dom'
 import { fetchPost, formatDate, extractHTMLContent } from '../../../../utils'
-import PageWrapper from '../PageWrapper/PageWrapper'
 import { shortBio } from '../../../../constants'
+import { NotFound, Contact, PageWrapper } from '../'
 
 // TODO: need to insert category tags (if possible)
 // TODO: need to sanitize remaining HTML of comments related to divi
@@ -13,6 +13,19 @@ const BlogPost = () => {
   const { year, month, day, slug } = useParams()
 
   const post = fetchPost(year, month, day, slug, posts)
+
+  if (!post) return (
+    <PageWrapper pageTitle='author | technologist'>
+      <main>
+        <div>
+          <NotFound contentType='blog post' />
+        </div>
+        <div className='section-wrapper shadow-bg-main-accent'>
+          <Contact />
+        </div>
+      </main>
+    </PageWrapper>
+  )
 
   const { title: { rendered: title }, date, episode_featured_image, content: { rendered: contentToRender } } = post
 

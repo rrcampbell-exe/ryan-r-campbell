@@ -10,7 +10,6 @@ const fetchEpisode = (slug) => {
       }
   }
   // Return null if no matching post is found
-  // TODO: update this to return something meaningful for error handling
   return null
 }
 
