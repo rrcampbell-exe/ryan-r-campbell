@@ -11,7 +11,7 @@ const AuthorLanding = () => {
       <main className='Author-landing'>
         <div id='about' className='about-row section-wrapper'>
           <div>
-            <img className='author-headshot' src='./2024-ryan-r-campbell-website-headshot.png' />
+            <img className='about-img' src='./2024-ryan-r-campbell-website-headshot.png' />
           </div>
           <div className='section-wrapper about-description'>
             <h2>about</h2>

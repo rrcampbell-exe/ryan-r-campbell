@@ -22,7 +22,7 @@ const GeneralLanding = ({ pageNotFound }) => {
           <main className='General-landing'>
             <div id='about' className='shadow-bg-main-accent section-wrapper'>
               <div className='photo-banner'>
-                <img className='author-headshot' src='./2024-ryan-r-campbell-website-headshot.png' />
+                <img className='about-img' src='./2024-ryan-r-campbell-website-headshot.png' />
                 <div className='pop-text-container'>
                   <h2>home of</h2>
                   <PopText>
