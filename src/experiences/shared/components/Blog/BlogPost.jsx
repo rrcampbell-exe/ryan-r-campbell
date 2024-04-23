@@ -3,7 +3,7 @@ import posts from '../../../../assets/posts/posts'
 import { useParams } from 'react-router-dom'
 import { fetchPost, formatDate, extractHTMLContent } from '../../../../utils'
 import { shortBio } from '../../../../constants'
-import { NotFound, Contact, PageWrapper } from '../'
+import { NotFound, Contact, PageWrapper, NotificationBanner } from '../'
 
 // TODO: need to insert category tags (if possible)
 // TODO: need to sanitize remaining HTML of comments related to divi
@@ -38,6 +38,7 @@ const BlogPost = () => {
         <div className='Post'>
           <div className='masthead'>
             <img className='cover-image' src={episode_featured_image} />
+            {year <= 2022 && <NotificationBanner title='This is a legacy blog post.' text='Content may be formatted awkwardly until long-term fixes are in place. Thank you for your patience, and thanks for visiting.' />}
             <div>
               <h2 className='title'>{title}</h2>
               <div className='credits'>
@@ -55,7 +56,7 @@ const BlogPost = () => {
               </div>
             </div>
           </div>
-          <div dangerouslySetInnerHTML={{ __html: HTMLcontent }}/>
+          <article dangerouslySetInnerHTML={{ __html: HTMLcontent }}/>
         </div>
       </main>
     </PageWrapper>

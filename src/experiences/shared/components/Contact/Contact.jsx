@@ -1,5 +1,5 @@
 import React from 'react'
-import ExternalLinkSVG from '../../../../assets/ExternalLinkSVG'
+import { ExternalLinkSVG } from '../../../../assets/svg'
 
 const Contact = () => {
   return (

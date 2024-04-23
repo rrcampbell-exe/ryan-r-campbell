@@ -1,0 +1,36 @@
+.NotificationBanner {
+  margin: 1rem 0;
+  border-left: 4px solid var(--main-accent-color);
+  padding: 1rem;
+  background-color: var(--main-accent-shadow);
+  width: 100%;
+  display: flex;
+
+  svg {
+    margin-right: 0.75rem;
+    stroke: var(--main-light-color);
+  }
+
+  .banner-title {
+    font-weight: 500;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  span {
+    font-size: 0.875rem;
+  }
+
+  @media (max-width: 600px) {
+    svg {
+      display: none;
+    }
+  }
+}
+
+.light-theme .NotificationBanner svg {
+  stroke: var(--main-dark-color);
+
+}

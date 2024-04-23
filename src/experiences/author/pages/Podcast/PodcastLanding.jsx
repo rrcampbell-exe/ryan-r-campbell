@@ -19,7 +19,7 @@ const PodcastLanding = () => {
       <main className='Podcast'>
         <div id='about' className='about-row section-wrapper shadow-bg-gray'>
           <div>
-            <img className='author-headshot' src='./podcasts/writescast-network-circle-logo.png' />
+            <img className='about-img' src='./podcasts/writescast-network-circle-logo.png' />
           </div>
           <div className='section-wrapper about-description'>
             <h2>about</h2>

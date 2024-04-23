@@ -1,29 +1,29 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
-import HamburgerIcon from '../../../../assets/HamburgerIcon'
-
-// TODO: need icon to update on menu open, change of theme
-// TODO: styles for menu, including animation
-// TODO: ensure all pages accounted for in menu
+import { Link } from 'react-router-dom'
+import { HamburgerIcon, CloseSVG } from '../../../../assets/svg'
 
 const HamburgerMenu = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
-  const navigate = useNavigate()
   return (
-    <div className='Hamburger-menu'>
+    <div className={`Hamburger-menu ${menuIsOpen ? 'menu-open' : ''}`}>
       <button onClick={() => setMenuIsOpen(!menuIsOpen)}>
         <HamburgerIcon />
       </button>
-      {menuIsOpen &&
-        <>
-          <div onClick={() => navigate('/about')}>about</div>
-          <div onClick={() => navigate('/author')}>author</div>
-          <div onClick={() => navigate('/books')}>books</div>
-          <div onClick={() => navigate('/tech')}>technologist</div>
-          <div onClick={() => navigate('/blog')}>blog</div>
-          <div onClick={() => navigate('/podcasts')}>podcasts</div>
-        </>
-      }
+      <div className='menu-content'>
+        <div className='icon-container'>
+          <button onClick={() => setMenuIsOpen(!menuIsOpen)}>
+            <CloseSVG />
+          </button>
+        </div>
+        <div className='link-container'>
+          <Link to='/' className='hamburger-link'>home</Link>
+          <Link to='/about' className='hamburger-link'>about</Link>
+          <Link to='/blog' className='hamburger-link'>blog</Link>
+          <Link to='/author' className='hamburger-link'>author hub</Link>
+          <Link to='/tech' className='hamburger-link'>tech hub</Link>
+          <Link to='/podcasts' className='hamburger-link'>podcasts</Link>
+        </div>
+      </div>
     </div>
   )
 }

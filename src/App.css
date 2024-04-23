@@ -13,6 +13,7 @@
 @import './experiences/author/pages/Podcast/Podcast.scss';
 @import './experiences/shared/components/HamburgerMenu/HamburgerMenu.scss';
 @import './experiences/shared/components/NotFound/NotFound.scss';
+@import './experiences/shared/components/NotificationBanner/NotificationBanner.scss';
 
 :root {
   --main-dark-color: #242424;
@@ -128,18 +129,34 @@ a {
   color: var(--main-accent-color);
 }
 
-.author-headshot {
+.about-img {
   border-radius: 50%;
-  height: 20rem;
   width: 20rem;
-  margin-right: 1.5rem;
   transition: 0.3s;
 }
 
 .about-row {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.about-description {
+  flex: 1;
+  margin-left: 1.5rem;
+  max-width: calc(100% - 20rem);
+  min-width: 20rem;
+}
+
+.about-row .about-description:last-child {
+  max-width: none;
+}
+
+@media (max-width: 600px) {
+  .about-img {
+    width: 15rem;
+  }
 }
 
 .section-wrapper {
