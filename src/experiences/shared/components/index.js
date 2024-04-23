@@ -10,5 +10,6 @@ import Contact from './Contact/Contact'
 import Reviews from './Reviews/Reviews'
 import NotFound from './NotFound/NotFound'
 import NotificationBanner from './NotificationBanner/NotificationBanner'
+import Loading from './Loading/Loading'
 
-export { BlogPost, BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound, NotificationBanner }
+export { BlogPost, BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound, NotificationBanner, Loading }

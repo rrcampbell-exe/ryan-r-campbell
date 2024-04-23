@@ -1,0 +1,30 @@
+.Loading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #efefef;
+  border-radius: 4px;
+  margin: 2rem 0 1rem 0;
+
+  p {
+    margin: 0.5rem 0;
+    color: var(--main-dark-color);
+  }
+
+  .loader-content {
+    animation: load 1s infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @keyframes load {
+    0%, 100% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(0.9, 0.9);
+    }
+  }
+}

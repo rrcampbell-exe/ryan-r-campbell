@@ -1,9 +1,10 @@
-import React from 'react'
-import { PageWrapper, Contact, NotFound } from '../../../shared/components'
+import React, { useState } from 'react'
+import { PageWrapper, Contact, NotFound, Loading } from '../../../shared/components'
 import { useParams } from 'react-router-dom'
 import { fetchEpisode, findEpisodeUUID, formatDate } from '../../../../utils'
 
 const PodcastEpisode = () => {
+  const [isLoaded, setIsLoaded] = useState(false)
   const { slug } = useParams()
 
   const episode = fetchEpisode(slug)
@@ -18,7 +19,8 @@ const PodcastEpisode = () => {
             <span className=''>Posted on {formatDate(episode.pubDate)}</span>
             <p>{episode.description}</p>
             <div className='podcast-player'>
-              <iframe src={`https://pinecast.com/player/${uuid}?theme=flat`} seamless height="200" style={{ border: '0', borderRadius: '4px' }} className="pinecast-embed" frameborder="0" width="100%"></iframe>
+              {!isLoaded && <Loading height='200px' />}
+              <iframe onLoad={() => setIsLoaded(true)} src={`https://pinecast.com/player/${uuid}?theme=flat`} seamless height={isLoaded ? '200' : '0' } style={{ border: '0', borderRadius: '4px' }} className="pinecast-embed" frameBorder="0" width="100%"></iframe>
             </div>
           </>
           ) : (
