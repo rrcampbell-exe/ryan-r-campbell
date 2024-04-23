@@ -50,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: '/podcast/:slug',
     element: <PodcastEpisode />
+  },
+  {
+    path: '/*',
+    element: <GeneralLanding pageNotFound />
   }
 ])
 

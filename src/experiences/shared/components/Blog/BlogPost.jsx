@@ -21,6 +21,7 @@ const BlogPost = () => {
           <NotFound contentType='blog post' />
         </div>
         <div className='section-wrapper shadow-bg-main-accent'>
+          <h2>contact</h2>
           <Contact />
         </div>
       </main>
