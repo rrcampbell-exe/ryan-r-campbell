@@ -5,11 +5,14 @@
 @import './experiences/shared/components/Builds/Builds.scss';
 @import './experiences/shared/components/SubNav/SubNav.scss';
 @import './experiences/shared/components/Contact/Contact.scss';
-@import './experiences/shared/components/Blog/Blog.scss';
+@import './experiences/shared/styles/ContentHub.scss';
 @import './experiences/author/pages/Landing/AuthorLanding.scss';
 @import './experiences/shared/components/Reviews/Reviews.scss';
 @import './experiences/author/pages/Books/BooksLanding.scss';
 @import './experiences/tech/pages/Landing/TechLanding.scss';
+@import './experiences/author/pages/Podcast/Podcast.scss';
+@import './experiences/shared/components/HamburgerMenu/HamburgerMenu.scss';
+@import './experiences/shared/components/NotFound/NotFound.scss';
 
 :root {
   --main-dark-color: #242424;
@@ -63,7 +66,7 @@ body {
     border: 1px solid var(--main-dark-color);
   }
 
-  .app-overview-underline, .blog-post-underline {
+  .app-overview-underline, .content-post-underline {
     background-color: var(--main-dark-color);
   }
 
@@ -73,6 +76,11 @@ body {
 
   .external-link-svg {
     stroke: var(--main-dark-color);
+  }
+
+  #robot-svg {
+    fill: var(--main-dark-color);
+    transition: 0.5s;
   }
 }
 
@@ -88,7 +96,7 @@ body {
     border: 1px solid var(--main-light-color);
   }
 
-  .app-overview-underline, .blog-post-underline {
+  .app-overview-underline, .content-post-underline {
     background-color: var(--main-light-color);
   }
 
@@ -98,6 +106,11 @@ body {
 
   .external-link-svg {
     stroke: var(--main-light-color);
+  }
+
+  #robot-svg {
+    fill: var(--main-light-color);
+    transition: 0.5s;
   }
 }
 
@@ -144,6 +157,10 @@ button {
 
   &:hover {
     cursor: pointer;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
   }
 }
 

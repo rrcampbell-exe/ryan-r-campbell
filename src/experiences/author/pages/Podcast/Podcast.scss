@@ -1,0 +1,29 @@
+.Podcast {
+  .about-row {
+    padding-top: 2rem;
+  }
+  
+  .podcast-player {
+    padding: 0 4rem;
+  }
+
+  iframe {
+    padding: 1rem 0;
+    width: 100%;
+  }
+
+  h3 {
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+
+  span {
+    font-size: 0.875rem;
+  }
+
+  @media (max-width: 600px) {
+    .podcast-player {
+      padding: 0;
+    }
+  }
+}

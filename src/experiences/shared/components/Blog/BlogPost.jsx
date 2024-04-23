@@ -1,11 +1,9 @@
 import React from 'react'
 import posts from '../../../../assets/posts/posts'
 import { useParams } from 'react-router-dom'
-import fetchPost from '../../../../utils/fetch-post'
-import extractHTMLContent from '../../../../utils/extract-html'
-import PageWrapper from '../PageWrapper/PageWrapper'
-import formatDate from '../../../../utils/format-date'
+import { fetchPost, formatDate, extractHTMLContent } from '../../../../utils'
 import { shortBio } from '../../../../constants'
+import { NotFound, Contact, PageWrapper } from '../'
 
 // TODO: need to insert category tags (if possible)
 // TODO: need to sanitize remaining HTML of comments related to divi
@@ -16,6 +14,20 @@ const BlogPost = () => {
 
   const post = fetchPost(year, month, day, slug, posts)
 
+  if (!post) return (
+    <PageWrapper pageTitle='author | technologist'>
+      <main>
+        <div>
+          <NotFound contentType='blog post' />
+        </div>
+        <div className='section-wrapper shadow-bg-main-accent'>
+          <h2>contact</h2>
+          <Contact />
+        </div>
+      </main>
+    </PageWrapper>
+  )
+
   const { title: { rendered: title }, date, episode_featured_image, content: { rendered: contentToRender } } = post
 
   const HTMLcontent = extractHTMLContent(contentToRender)
@@ -23,7 +35,7 @@ const BlogPost = () => {
   return (
     <PageWrapper pageTitle='author | technologist'>
       <main>
-        <div className='BlogPost'>
+        <div className='Post'>
           <div className='masthead'>
             <img className='cover-image' src={episode_featured_image} />
             <div>
@@ -39,7 +51,7 @@ const BlogPost = () => {
                   </div>
                 </div>
                 <p className='bio'>{shortBio}</p>
-                <div className='blog-post-underline' />
+                <div className='content-post-underline' />
               </div>
             </div>
           </div>

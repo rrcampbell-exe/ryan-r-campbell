@@ -1,4 +1,4 @@
-function buildBlogParams(link) {
+function buildNavURL(link) {
   const dotComIndex = link.indexOf('.com');
   if (dotComIndex !== -1) {
       return link.substring(dotComIndex + 4)
@@ -7,4 +7,4 @@ function buildBlogParams(link) {
   }
 }
 
-export default buildBlogParams
+export default buildNavURL

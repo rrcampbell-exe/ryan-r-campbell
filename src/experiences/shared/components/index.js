@@ -8,5 +8,6 @@ import PageWrapper from './PageWrapper/PageWrapper'
 import SubNav from './SubNav/SubNav'
 import Contact from './Contact/Contact'
 import Reviews from './Reviews/Reviews'
+import NotFound from './NotFound/NotFound'
 
-export { BlogPost, BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews }
+export { BlogPost, BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound }

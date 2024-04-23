@@ -3,6 +3,7 @@ import MoonSVG from '../../../../assets/MoonSVG'
 import SunSVG from '../../../../assets/SunSVG'
 import { ThemeContext } from '../../../../Theme'
 import { Link } from 'react-router-dom'
+import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
 
 const Header = ({ pageTitle }) => {
   const { theme, toggleTheme } = useContext(ThemeContext)
@@ -14,10 +15,11 @@ const Header = ({ pageTitle }) => {
           <h2>{pageTitle}</h2>
         </div>
       </Link>
-      <div>
+      <div className='header-toggles'>
         <button className='theme-toggle-button' onClick={() => toggleTheme()}>
           {theme === 'light-theme' ? <SunSVG /> : <MoonSVG />}
         </button>
+        <HamburgerMenu right />
       </div>
     </header>
   )
