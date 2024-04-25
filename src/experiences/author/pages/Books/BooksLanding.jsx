@@ -6,7 +6,7 @@ import { books } from '../../../../constants'
 const BooksLanding = () => {
   return (
     <PageWrapper pageTitle='international book awards finalist'>
-      <SubNav sections={['scambait', 'and-ampersand', 'imminent-dawn', 'mourning-dove', 'reviews']} />
+      <SubNav sections={['scambait', 'and-ampersand', 'imminent-dawn', 'mourning-dove', 'reviews', 'contact']} />
       <main className='Books-landing'>
         {books.map((book) => (
           <div id={book.id} className='section-wrapper book-section' key={book.id}>
