@@ -1,9 +1,14 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { HamburgerIcon, CloseSVG } from '../../../../assets/svg'
 
 const HamburgerMenu = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
+
+  const { pathname } = useLocation()
+
+  const className = (pathname, linkTo) => pathname === linkTo ? 'hamburger-link active' : 'hamburger-link'
+
   return (
     <div className={`Hamburger-menu ${menuIsOpen ? 'menu-open' : ''}`}>
       <button onClick={() => setMenuIsOpen(!menuIsOpen)}>
@@ -16,12 +21,12 @@ const HamburgerMenu = () => {
           </button>
         </div>
         <div className='link-container'>
-          <Link to='/' className='hamburger-link'>home</Link>
-          <Link to='/about' className='hamburger-link'>about</Link>
-          <Link to='/blog' className='hamburger-link'>blog</Link>
-          <Link to='/author' className='hamburger-link'>author hub</Link>
-          <Link to='/tech' className='hamburger-link'>tech hub</Link>
-          <Link to='/podcasts' className='hamburger-link'>podcasts</Link>
+          <Link to='/' className={className(pathname, '/')}>home</Link>
+          <Link to='/about' className={className(pathname, '/about')}>about</Link>
+          <Link to='/blog' className={className(pathname, '/blog')}>blog</Link>
+          <Link to='/author' className={className(pathname, '/author')}>author hub</Link>
+          <Link to='/tech' className={className(pathname, '/tech')}>tech hub</Link>
+          <Link to='/podcasts' className={className(pathname, '/podcasts')}>podcasts</Link>
         </div>
       </div>
     </div>

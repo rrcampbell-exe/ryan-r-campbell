@@ -39,7 +39,7 @@
     }
 
     .hamburger-link {
-      padding: 1rem 0;
+      margin: 1rem 0;
       color: var(--main-light-color);
       font-size: 1.2rem;
       transition: 0.5s;
@@ -48,6 +48,13 @@
         color: var(--main-accent-color);
         letter-spacing: 0.2rem;
       }
+    }
+
+    .hamburger-link.active {
+      color: var(--main-accent-color);
+      letter-spacing: 0.2rem;
+      border-right: 4px solid var(--main-accent-color);
+      padding-right: 0.5rem;
     }
 
     svg {
