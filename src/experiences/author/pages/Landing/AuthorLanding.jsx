@@ -18,7 +18,7 @@ const AuthorLanding = () => {
             <p>
               I'm a two-time International Book Awards finalist, the founder of the Writescast Network, and the co-founder of Kill Your Darlings Candle Company. 
             </p>
-            <Link to='/author/about'>learn more</Link>
+            <Link to='/about'>learn more</Link>
           </div>
         </div>
         <div id='books' className='shadow-bg-gray section-wrapper'>

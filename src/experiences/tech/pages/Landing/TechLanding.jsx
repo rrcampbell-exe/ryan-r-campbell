@@ -19,7 +19,7 @@ const TechLanding = () => {
             <p>
               I'm a full-stack (React, Express, Node) software engineer for a Fortune 100 insurance and financial services firm. When I'm not squashing bugs or building a better client experience, I'm fine-tuning my foreign language repetoire or gazing at the stars.
             </p>
-            <Link to='/tech/about'>learn more</Link>
+            <Link to='/about'>learn more</Link>
           </div>
         </div>
         <div id='builds' className='section-wrapper'>
