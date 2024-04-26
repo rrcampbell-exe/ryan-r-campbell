@@ -15,6 +15,7 @@
 @import './experiences/shared/components/NotFound/NotFound.scss';
 @import './experiences/shared/components/NotificationBanner/NotificationBanner.scss';
 @import './experiences/shared/components/Loading/Loading.scss';
+@import './experiences/shared/pages/About/GeneralAbout.scss';
 
 :root {
   --main-dark-color: #242424;
