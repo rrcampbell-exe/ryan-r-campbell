@@ -6,11 +6,11 @@ export const ShortStory = ({ setIsShortStory }) =>
     <h2>a little bit of this, a little bit of that</h2>
     <div>
       <p>Author. Technologist. Podcast. Blogger. The list goes on.</p>
-      <p>In an adult life of transitions from from pizza-slinging pyscholinguist to international sales support to international book awards finalist, it'd be easy to view the bounce-about nature of my path as that of a wanderer.</p>
+      <p>In an adult life of transitions from pizza-slinging pyscholinguist to international sales support to international book awards finalist, it'd be easy to view the bounce-about nature of my path as that of a wanderer.</p>
       <p>And, with a career spanning industries including agriculture, medical devices, international regulatory affairs, and publishing, I'd be hard pressed to tell you you're wrong. But, if there's anything I've learned in my travels—both physical and professional—it's that to wander is wonderful, but to wander with a sense of wonder is, if you'll pardon the excessive alliteration, <em>wondrous</em>.</p>
-      <p>It's in following that sense of wonder that I've been most comfortable over the years. Whether while interviewing dozens (a hundred? more?) authors and publishing professionals as part of <Link to='/podcasts'>the Writescast Network</Link>, immersing myself in the <Link to='/author'>writing of another manuscript</Link>, or untangling <Link to='/tech'>twisted tangles of code</Link>, curiosity and wonder have served me well as binary north stars.</p>
+      <p>It's in following that sense of wonder that I've been most comfortable over the years. Whether interviewing dozens (a hundred? more?) of authors and publishing professionals as part of <Link to='/podcasts'>the Writescast Network</Link>, immersing myself in the <Link to='/author'>writing of another manuscript</Link>, or untangling <Link to='/tech'>twisted tangles of code</Link>, curiosity and wonder have served me well as binary north stars.</p>
       <p>So, go on: cultivate your curiosity. Walk with that sense of wonder. Do some exploring of your own and learn all there is to learn.</p>
-      <p>And, if you're really up for it, consider reading <span className='story-toggle-span' onClick={() => setIsShortStory(false)}>the extended version of the story so far</span>. I think you might like what you find.</p>
+      <p>And, if you're really up for it, consider reading <span className='story-toggle-span' onClick={() => { setIsShortStory(false); window.scrollTo(top) }}>the extended version of the story so far</span>. I think you might like what you find.</p>
     </div>
   </>
 
