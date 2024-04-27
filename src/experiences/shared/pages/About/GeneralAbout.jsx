@@ -11,8 +11,6 @@ const GeneralAbout = () => {
     setHasSelectionBeenMade(true)
   }
 
-  // TODO: when switching between versions, fade out contents first before fading in others
-
   return (
     <PageWrapper pageTitle='spinner of yarns'>
       <main className='About'>
