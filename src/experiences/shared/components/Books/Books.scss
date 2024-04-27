@@ -10,7 +10,7 @@
     justify-content: top;
     align-items: center;
     max-width: 10rem;
-    padding: 1rem 2rem;
+    margin: 1rem 2rem;
     text-align: center;
     transition: 0.3s;
 
@@ -20,7 +20,7 @@
   }
 
   .book-cover {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 var(--shadow);
