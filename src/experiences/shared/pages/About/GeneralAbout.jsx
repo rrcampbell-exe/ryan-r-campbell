@@ -11,13 +11,15 @@ const GeneralAbout = () => {
     setHasSelectionBeenMade(true)
   }
 
-  // TODO: write two versions, populate them dynamically
-  // TODO: ensure page sections are updated dynamically as well
   // TODO: when switching between versions, fade out contents first before fading in others
 
   return (
     <PageWrapper pageTitle='spinner of yarns'>
       <main className='About'>
+        <div className='about-container'>
+          <img className='about-img' src='/ryan-r-campbell-bookshelf-background.jpg' alt='Ryan R. Campbell in front of a blurry bookshelf' />
+          <h2>the story (so far)</h2>
+        </div>
         <div id='tale-selection' className={hasSelectionBeenMade ? 'display-none' : ''}>
           <h3>Which version would you prefer?</h3>
           <div className={`options-container ${hasSelectionBeenMade ? 'selection-made-container' : ''}`}>
@@ -27,7 +29,7 @@ const GeneralAbout = () => {
         </div>
         {hasSelectionBeenMade &&
           <div className={hasSelectionBeenMade ? 'story-contents' : ''}>
-            {isShortStory ? <ShortStory /> : <LongStory />}
+            {isShortStory ? <ShortStory setIsShortStory={setIsShortStory} /> : <LongStory />}
           </div>
         }
       </main>
