@@ -9,11 +9,21 @@
   h1, h2 {
     margin: 0 auto;
     padding: 0;
+    transition: 0.3s;
   }
 
   .header-toggles {
     display: flex;
     margin-top: 0.2rem;
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+    }
   }
 
 }
@@ -71,6 +81,13 @@
   padding: 6px;
   box-shadow: 0 4px 8px 0 var(--shadow);
   transition: 0.5s;
+}
+
+@media (max-width: 600px) {
+  .theme-toggle-button {
+    width: 35px;
+    height: 35px;
+  }
 }
 
 .dark-theme .theme-toggle-button {
