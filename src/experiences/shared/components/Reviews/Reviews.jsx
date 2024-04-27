@@ -16,7 +16,7 @@ const Reviews = () => {
     <div className='Reviews'>
       <PopText slow>
         {shuffledReviews.map((review) => (
-          <div className='review-container grow-on-hover'>
+          <div className='review-container grow-on-hover' key={review.quote}>
             <QuotesSVG />
             <h3>{review.quote}</h3>
             <p>{buildReviewerName(review.reviewer, review.reviewerTitle)}</p>

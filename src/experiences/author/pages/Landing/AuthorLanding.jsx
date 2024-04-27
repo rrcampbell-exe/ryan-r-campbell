@@ -33,7 +33,7 @@ const AuthorLanding = () => {
           <h2>awards</h2>
           <div className='featured-img-container'>
             {awards.map((award) => (
-              <div className={`featured-img ${award.className} grow-on-hover`} >
+              <div className={`featured-img ${award.className} grow-on-hover`} key={award.alt}>
                 <a href={award.link} target='_blank' rel='noopener noreferrer'>
                   <img src={award.src} alt={award.alt}/>
                 </a>
@@ -45,7 +45,7 @@ const AuthorLanding = () => {
           <h2>featured in</h2>
           <div className='featured-img-container'>
             {featuredIn.map((feature) => (
-              <div className={`featured-img ${feature.className} grow-on-hover`} >
+              <div className={`featured-img ${feature.className} grow-on-hover`} key={feature.alt}>
                 <a href={feature.link} target='_blank' rel='noopener noreferrer'>
                   <img src={feature.src} alt={feature.alt}/>
                 </a>
