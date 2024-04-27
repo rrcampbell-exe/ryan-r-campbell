@@ -6,6 +6,11 @@
 ## Description
 The website, blog, and portfolio for Ryan R. Campbell.
 
+### History
+I started blogging in the early 2010s on Blogger before moving to WordPress in 2015. Since that time, I've become a web developer in my own right and, as such, it felt only fitting to finally build out the digital footprint for my personal and professional endeavors from scratch.
+
+For more on my journey to becoming a web developer—as well as what went into creating a backwards-compatible site experience that hosts WordPress-era content—be sure to visit the site's [about page](https://www.ryanrcampbell.com/about) and keep an eye on the [blog](https://www.ryanrcampbell.com/blog).
+
 ## Table of Contents
 - [Features](#features)
 - [Tests](#tests)
@@ -15,13 +20,18 @@ The website, blog, and portfolio for Ryan R. Campbell.
 
 
  ## Features
+ - React
+ - Sass
+ - Vite
+ - react-router
+ - Vercel
  
  ### Wordcloud
  
  Code for the Skills wordcloud based on [visx wordcloud documentation](https://airbnb.io/visx/wordcloud).
 
 ## Tests
-Coming soon
+Unit tests will be deployed shortly.
 
 ## License
 © 2024 Ryan R. Campbell. All rights reserved.
