@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { PageWrapper, SubNav, Contact } from '../../components'
+import { PageWrapper, Contact } from '../../components'
 import { ShortStory, LongStory } from './AboutContents'
 
 const GeneralAbout = () => {
