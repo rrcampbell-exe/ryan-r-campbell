@@ -11,7 +11,7 @@ const HamburgerMenu = () => {
 
   return (
     <div className={`Hamburger-menu ${menuIsOpen ? 'menu-open' : ''}`}>
-      <button onClick={() => setMenuIsOpen(!menuIsOpen)}>
+      <button className='theme-toggle-button' onClick={() => setMenuIsOpen(!menuIsOpen)}>
         <HamburgerIcon />
       </button>
       <div className='menu-content'>
