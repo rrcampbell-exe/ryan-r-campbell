@@ -10,6 +10,7 @@ const Builds = () => {
             <img className='app-logo' src={app.logo} alt={app.alt} />
             <h3 className='app-title'>{app.title}</h3>
             <i className='app-teaser'>{app.teaser}</i>
+            <p>{app.description}</p>
             <div className='app-overview-underline' />
           </div>
           <div className='app-details'>
