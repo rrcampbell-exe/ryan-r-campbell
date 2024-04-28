@@ -11,10 +11,24 @@
     &:last-child {
       margin-bottom: 0;
     }
+
+    @media (max-width: 600px) {
+      padding: 1rem;
+    }
   }
 
   .app-overview {
     margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      margin: 0.5rem 0;
+    }
+  }
+
+  .app-teaser {
+    font-size: 0.875rem;
   }
 
   .app-overview-underline {
@@ -27,6 +41,11 @@
     border-radius: 4px;
     height: 5rem;
     width: 5rem;
+
+    @media (max-width: 600px) {
+      height: 4rem;
+      width: 4rem;
+    }
   }
 
   .app-title {
@@ -35,7 +54,7 @@
 
   .app-details {
     p {
-      margin: 0 0 0.5rem 0;
+      margin: 0.5rem 0;
     }
 
     &:last-child {
