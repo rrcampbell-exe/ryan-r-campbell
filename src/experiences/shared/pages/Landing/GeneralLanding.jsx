@@ -20,7 +20,7 @@ const GeneralLanding = ({ pageNotFound }) => {
         <>
           <SubNav sections={['blog', 'books', 'builds', 'contact']}/>
           <main className='General-landing'>
-            <div id='about' className='shadow-bg-main-accent section-wrapper'>
+            <div id='about' className='shadow-bg-main-accent'>
               <div className='photo-banner'>
                 <img className='about-img' src='./2024-ryan-r-campbell-website-headshot.png' />
                 <div className='pop-text-container'>
