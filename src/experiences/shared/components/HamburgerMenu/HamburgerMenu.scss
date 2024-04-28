@@ -36,6 +36,13 @@
     .link-container {
       display: flex;
       flex-direction: column;
+      overflow-y: auto;
+      scrollbar-width: none; // hide scrollbar on Firefox
+      -ms-overflow-style: none; // hide scrollbar on IE and Edge
+    }
+
+    .link-container::-webkit-scrollbar {
+      display: none; //  hide scrollbar on Safari and Chrome
     }
 
     .hamburger-link {
