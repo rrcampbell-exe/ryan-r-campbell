@@ -38,7 +38,7 @@ const GeneralLanding = ({ pageNotFound }) => {
               <h2>blog</h2>
               <BlogTeaser postsToDisplay={3} postsPage={1} />
               <div className='button-container grow-on-hover'>
-                <button onClick={() => navigate('/blog')}>
+                <button onClick={() => { navigate('/blog'); window.scrollTo(top) }}>
                     to the blog
                 </button>
               </div>
@@ -47,7 +47,7 @@ const GeneralLanding = ({ pageNotFound }) => {
               <h2>books</h2>
               <Books />
               <div className='button-container grow-on-hover'>
-                <button onClick={() => navigate('/author')}>
+                <button onClick={() => { navigate('/author'); window.scrollTo(top) }}>
                     about the author
                 </button>
               </div>
@@ -56,7 +56,7 @@ const GeneralLanding = ({ pageNotFound }) => {
               <h2>builds</h2>
               <Builds />
               <div className='button-container grow-on-hover'>
-                <button onClick={() => navigate('/tech')}>
+                <button onClick={() => { navigate('/tech'); window.scrollTo(top) }}>
                     about the engineer
                 </button>
               </div>
