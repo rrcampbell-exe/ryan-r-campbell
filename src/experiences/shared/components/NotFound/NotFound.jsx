@@ -11,7 +11,7 @@ const NotFound = ({ contentType }) => {
         <div>
           <RobotSVG />
         </div>
-        <div className='about-description section-wrapper'>
+        <div className='about-description'>
           <h2>{content} not found</h2>
           <p>I couldn't find the {content} you were looking for. It might have been moved or relocated as part of a recent site migration.</p>
           <Link to='/'>return to the homepage here.</Link>
