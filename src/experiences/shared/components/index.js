@@ -11,5 +11,7 @@ import Reviews from './Reviews/Reviews'
 import NotFound from './NotFound/NotFound'
 import NotificationBanner from './NotificationBanner/NotificationBanner'
 import Loading from './Loading/Loading'
+import Quote from './Quote/Quote'
+import TextAndImage from './TextAndImage/TextAndImage'
 
-export { BlogPost, BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound, NotificationBanner, Loading }
+export { BlogPost, BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound, NotificationBanner, Loading, Quote, TextAndImage }
