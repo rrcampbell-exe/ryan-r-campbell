@@ -1,0 +1,19 @@
+.Quote {
+  text-align: center;
+  padding: 1rem 4rem;
+
+  h3 {
+    margin-top: 0.5rem;
+    font-weight: 400;
+  }
+
+  .quotes-svg {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  @media (max-width: 600px) {
+    padding: 1rem 2rem;
+  }
+}
+
