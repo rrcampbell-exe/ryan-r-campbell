@@ -16,6 +16,8 @@
 @import './experiences/shared/components/NotificationBanner/NotificationBanner.scss';
 @import './experiences/shared/components/Loading/Loading.scss';
 @import './experiences/shared/pages/About/GeneralAbout.scss';
+@import './experiences/shared/components/Quote/Quote.scss';
+@import './experiences/shared/components/TextAndImage/TextAndImage.scss';
 
 :root {
   --main-dark-color: #242424;
