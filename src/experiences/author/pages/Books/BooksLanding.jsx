@@ -20,8 +20,8 @@ const BooksLanding = () => {
               <p>{book.fullDescription.paragraphOne}</p>
               {book.fullDescription.paragraphTwo && <p>{book.fullDescription.paragraphTwo}</p>}
               <div className='book-cta-button-container'>
-                <button onClick={() => window.open(`${book.readMoreLink}`, '_blank')}>read a sample</button>
-                <button onClick={() => window.open(`${book.buyLink}`, '_blank')}>buy this book</button>
+                <button data-testid={book.id} onClick={() => window.open(`${book.readMoreLink}`, '_blank')}>read a sample</button>
+                <button data-testid={book.buyLink} onClick={() => window.open(`${book.buyLink}`, '_blank')}>buy this book</button>
               </div>
             </div>
           </div>
