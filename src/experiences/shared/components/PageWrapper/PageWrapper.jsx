@@ -1,10 +1,9 @@
 import React, { useContext, useEffect } from 'react'
-import Header from '../../components/Header/Header'
-import Footer from '../../components/Footer/Footer'
 import { ThemeContext } from '../../../../Theme'
 import { useLocation } from 'react-router-dom'
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
+import { Header, Footer } from '../'
 
 const PageWrapper = ({ pageTitle, children }) => {
   const { theme } = useContext(ThemeContext)
