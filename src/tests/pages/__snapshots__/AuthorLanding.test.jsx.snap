@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`BooksLanding > default snapshot 1`] = `
+exports[`AuthorLanding > default snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -192,36 +192,18 @@ exports[`BooksLanding > default snapshot 1`] = `
             class="section"
           >
             <a
-              href="#scambait"
+              href="#about"
             >
-              scambait
+              about
             </a>
           </div>
           <div
             class="section"
           >
             <a
-              href="#and-ampersand"
+              href="#books"
             >
-              and ampersand
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#imminent-dawn"
-            >
-              imminent dawn
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#mourning-dove"
-            >
-              mourning dove
+              books
             </a>
           </div>
           <div
@@ -237,6 +219,24 @@ exports[`BooksLanding > default snapshot 1`] = `
             class="section"
           >
             <a
+              href="#awards"
+            >
+              awards
+            </a>
+          </div>
+          <div
+            class="section"
+          >
+            <a
+              href="#featured-in"
+            >
+              featured in
+            </a>
+          </div>
+          <div
+            class="section"
+          >
+            <a
               href="#contact"
             >
               contact
@@ -244,215 +244,140 @@ exports[`BooksLanding > default snapshot 1`] = `
           </div>
         </nav>
         <main
-          class="Books-landing"
+          class="Author-landing"
         >
           <div
-            class="section-wrapper book-section"
-            id="scambait"
+            class="about-row section-wrapper"
+            id="about"
           >
-            <div
-              class="book-wrapper"
-            >
+            <div>
               <img
-                class="book-cover"
-                src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+                class="about-img"
+                src="./2024-ryan-r-campbell-website-headshot.png"
               />
             </div>
             <div
-              class="section-wrapper book-metadata"
+              class="section-wrapper about-description"
             >
-              <h2
-                class="book-title"
-              >
-                <i>
-                  scambait
-                </i>
+              <h2>
+                about
               </h2>
-              <p
-                class="book-genre"
+              <p>
+                I'm a two-time International Book Awards finalist, the founder of the Writescast Network, and the co-founder of Kill Your Darlings Candle Company.
+              </p>
+              <a
+                data-testid="about-link"
+                href="/about"
               >
-                Contemporary Fiction | Humor
-              </p>
-              <p>
-                <i>
-                  The 2022 International Book Awards Finalist in Humor and Satire.
-                </i>
-              </p>
-              <p>
-                Ever since his grandma squandered the family fortune to two-bit hucksters from “Microsoft Tech Support,” corporate do-little Eric Amundsen has spent his workdays wasting the time of Nigerian princes and car warranty salesmen everywhere.
-              </p>
-              <p>
-                But when Eric's supposedly long-deceased father contacts him through his spam folder, Eric—whose workday mantra isn't exactly “solutions-oriented”—has serious problems to solve.
-              </p>
-              <div
-                class="book-cta-button-container"
-              >
-                <button
-                  data-testid="scambait"
-                >
-                  read a sample
-                </button>
-                <button
-                  data-testid="https://www.amazon.com/dp/B09SY4P6FR"
-                >
-                  buy this book
-                </button>
-              </div>
+                learn more
+              </a>
             </div>
           </div>
           <div
-            class="section-wrapper book-section"
-            id="and-ampersand"
+            class="shadow-bg-gray section-wrapper"
+            id="books"
           >
+            <h2>
+              books
+            </h2>
             <div
-              class="book-wrapper"
+              class="Books"
             >
-              <img
-                class="book-cover"
-                src="./books/and-ampersand/and-ampersand-flat-cover.png"
-              />
-            </div>
-            <div
-              class="section-wrapper book-metadata"
-            >
-              <h2
-                class="book-title"
-              >
-                <i>
-                  and ampersand
-                </i>
-              </h2>
-              <p
-                class="book-genre"
-              >
-                Works of Short Fiction
-              </p>
-              <p>
-                <i>
-                  The perfect pocket companion for any reader who's tussled with the tie between beginning and end.
-                </i>
-              </p>
-              <p>
-                Your death comes on slowly, while elsewhere, a nameless man fakes his own. Encased in glass, a young man navigates a world meant for those beyond. A mudslide washes away a once romantic weekend, and a childhood swim drowns all illusion of innocence.
-              </p>
-              <p>
-                These are but some of the tales in this collection of flash fiction, short stories, and freeform prose.
-              </p>
-              <div
-                class="book-cta-button-container"
-              >
-                <button
-                  data-testid="and-ampersand"
+              <div>
+                <div
+                  class="book grow-on-hover"
                 >
-                  read a sample
-                </button>
-                <button
-                  data-testid="https://www.amazon.com/dp/1736387111"
-                >
-                  buy this book
-                </button>
+                  <img
+                    alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
+                    class="book-cover"
+                    src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+                  />
+                  <h3
+                    class="book-title"
+                  >
+                    Scambait
+                  </h3>
+                  <p>
+                    The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
+                  </p>
+                  <a
+                    href="/books"
+                  >
+                    read more
+                  </a>
+                </div>
               </div>
-            </div>
-          </div>
-          <div
-            class="section-wrapper book-section"
-            id="imminent-dawn"
-          >
-            <div
-              class="book-wrapper"
-            >
-              <img
-                class="book-cover"
-                src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
-              />
-            </div>
-            <div
-              class="section-wrapper book-metadata"
-            >
-              <h2
-                class="book-title"
-              >
-                <i>
-                  imminent dawn
-                </i>
-              </h2>
-              <p
-                class="book-genre"
-              >
-                Science Fiction
-              </p>
-              <p>
-                <i>
-                  The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.
-                </i>
-              </p>
-              <p>
-                When an art-school dropout enrolls in the first round of human trials for an internet-access brain implant, she never expects to find herself at the center of conspiracies stretching from the highest levels of the North American Union government to the lowest dredges of its shadowy hacking collectives.
-              </p>
-              <div
-                class="book-cta-button-container"
-              >
-                <button
-                  data-testid="imminent-dawn"
+              <div>
+                <div
+                  class="book grow-on-hover"
                 >
-                  read a sample
-                </button>
-                <button
-                  data-testid="https://www.amazon.com/dp/B07N1Q8C6G"
-                >
-                  buy this book
-                </button>
+                  <img
+                    alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
+                    class="book-cover"
+                    src="./books/and-ampersand/and-ampersand-flat-cover.png"
+                  />
+                  <h3
+                    class="book-title"
+                  >
+                    And Ampersand
+                  </h3>
+                  <p>
+                    A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
+                  </p>
+                  <a
+                    href="/books"
+                  >
+                    read more
+                  </a>
+                </div>
               </div>
-            </div>
-          </div>
-          <div
-            class="section-wrapper book-section"
-            id="mourning-dove"
-          >
-            <div
-              class="book-wrapper"
-            >
-              <img
-                class="book-cover"
-                src="./books/mourning-dove/mourning-dove-flat-cover.png"
-              />
-            </div>
-            <div
-              class="section-wrapper book-metadata"
-            >
-              <h2
-                class="book-title"
-              >
-                <i>
-                  mourning dove
-                </i>
-              </h2>
-              <p
-                class="book-genre"
-              >
-                Science Fiction
-              </p>
-              <p>
-                <i>
-                  The sequel to International Book Awards finalist, Imminent Dawn.
-                </i>
-              </p>
-              <p>
-                In the aftermath of the Human/Etech research study, spouse is further pit against spouse, brother against sister, and governments against their people. In the end, all must choose between reclaiming the past or surrendering to an intractable world of their own creation.
-              </p>
-              <div
-                class="book-cta-button-container"
-              >
-                <button
-                  data-testid="mourning-dove"
+              <div>
+                <div
+                  class="book grow-on-hover"
                 >
-                  read a sample
-                </button>
-                <button
-                  data-testid="https://www.amazon.com/dp/B07QZGSDX6"
+                  <img
+                    alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
+                    class="book-cover"
+                    src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
+                  />
+                  <h3
+                    class="book-title"
+                  >
+                    Imminent Dawn
+                  </h3>
+                  <p>
+                    The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.
+                  </p>
+                  <a
+                    href="/books"
+                  >
+                    read more
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="book grow-on-hover"
                 >
-                  buy this book
-                </button>
+                  <img
+                    alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
+                    class="book-cover"
+                    src="./books/mourning-dove/mourning-dove-flat-cover.png"
+                  />
+                  <h3
+                    class="book-title"
+                  >
+                    Mourning Dove
+                  </h3>
+                  <p>
+                    An evocative, sweeping symphony of love, revenge, and desperation in cacophonous times.
+                  </p>
+                  <a
+                    href="/books"
+                  >
+                    read more
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -489,10 +414,10 @@ exports[`BooksLanding > default snapshot 1`] = `
                       </g>
                     </svg>
                     <h3>
-                      An incisive techno-thriller that gets more tense with every page...
+                      [Imminent Dawn is] a rollercoaster of intrigue, suspense, and gorgeously crafted wonder.
                     </h3>
                     <p>
-                      - Matt Forbeck, New York Times bestselling author
+                      - author Evie Drae
                     </p>
                     <p>
                       on 
@@ -502,6 +427,195 @@ exports[`BooksLanding > default snapshot 1`] = `
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="section-wrapper shadow-bg-gray"
+            id="awards"
+          >
+            <h2>
+              awards
+            </h2>
+            <div
+              class="featured-img-container"
+            >
+              <div
+                class="featured-img light award grow-on-hover"
+              >
+                <a
+                  data-testid="https://www.internationalbookawards.com/2022pressrelease.html"
+                  href="https://www.internationalbookawards.com/2022pressrelease.html"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="A wreath containing the words International Book Awards Finalist - 2022 | Humor & Satire"
+                    src="./awards/2022-international-book-awards-finalist-humor-and-satire.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img award grow-on-hover"
+              >
+                <a
+                  data-testid="https://readersfavorite.com/book-review/scambait"
+                  href="https://readersfavorite.com/book-review/scambait"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for the Readers' Favorite Five Stars award, which is a silver medallion that features five stars"
+                    src="./awards/readers-favorite-five-stars.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img light award grow-on-hover"
+              >
+                <a
+                  data-testid="https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/"
+                  href="https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="A wreath containing the words International Book Awards Finalist - 2020 | Science Fiction"
+                    src="./awards/2020-international-book-awards-finalist-science-fiction.png"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="section-wrapper"
+            id="featured-in"
+          >
+            <h2>
+              featured in
+            </h2>
+            <div
+              class="featured-img-container"
+            >
+              <div
+                class="featured-img dark grow-on-hover"
+              >
+                <a
+                  data-testid="https://isthmus.com/arts/books/rr-campbell-imminent-dawn/"
+                  href="https://isthmus.com/arts/books/rr-campbell-imminent-dawn/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The all-capital-letters logo for Isthmus, a publication from Madison, Wisconsin"
+                    src="./featured-in/isthmus-logo.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img dark grow-on-hover"
+              >
+                <a
+                  data-testid="https://getcareerclarity.com/episode95/"
+                  href="https://getcareerclarity.com/episode95/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for the Career Clarity podcast, including the words lucrative, soulful, and joyful"
+                    src="./featured-in/Career-Clarity-Logo.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img  grow-on-hover"
+              >
+                <a
+                  data-testid="https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/"
+                  href="https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for The Lifelong Learner, news from UW-Madison's Continuing Studies department"
+                    src="./featured-in/Lifelong-Learner-Logo-UW.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img light grow-on-hover"
+              >
+                <a
+                  data-testid="https://ryanrcampbell.com/podcasts/"
+                  href="https://ryanrcampbell.com/podcasts/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for the Writescast Network, featuring a pencil, a microphone, and books"
+                    src="./featured-in/The-Writescast-Network-Logo-No-Icons.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img minify grow-on-hover"
+              >
+                <a
+                  data-testid="http://www.wrotepodcast.com/tag/r-r-campbell/"
+                  href="http://www.wrotepodcast.com/tag/r-r-campbell/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for the WROTE podcast, which features each letter of the word in large text"
+                    src="./featured-in/Wrote-Podcast-Logo.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img  grow-on-hover"
+              >
+                <a
+                  data-testid="https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html"
+                  href="https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for the Columbus Journal, which is based out of Columbus, Wisconsin"
+                    src="./featured-in/Columbus-Journal-Logo.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img dark grow-on-hover"
+              >
+                <a
+                  data-testid="https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/"
+                  href="https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for Appleton Monthly, a print magazine from Wisconsin's Fox Valley"
+                    src="./featured-in/Appleton-Monthly-Logo.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img minify grow-on-hover"
+              >
+                <a
+                  data-testid="https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa"
+                  href="https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for the Neurotic Nourishment podcast, which shows host Lindsay Weisner laughing"
+                    src="./featured-in/Neurotic-Nourishment-Logo.png"
+                  />
+                </a>
               </div>
             </div>
           </div>
@@ -755,36 +869,18 @@ exports[`BooksLanding > default snapshot 1`] = `
           class="section"
         >
           <a
-            href="#scambait"
+            href="#about"
           >
-            scambait
+            about
           </a>
         </div>
         <div
           class="section"
         >
           <a
-            href="#and-ampersand"
+            href="#books"
           >
-            and ampersand
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#imminent-dawn"
-          >
-            imminent dawn
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#mourning-dove"
-          >
-            mourning dove
+            books
           </a>
         </div>
         <div
@@ -800,6 +896,24 @@ exports[`BooksLanding > default snapshot 1`] = `
           class="section"
         >
           <a
+            href="#awards"
+          >
+            awards
+          </a>
+        </div>
+        <div
+          class="section"
+        >
+          <a
+            href="#featured-in"
+          >
+            featured in
+          </a>
+        </div>
+        <div
+          class="section"
+        >
+          <a
             href="#contact"
           >
             contact
@@ -807,215 +921,140 @@ exports[`BooksLanding > default snapshot 1`] = `
         </div>
       </nav>
       <main
-        class="Books-landing"
+        class="Author-landing"
       >
         <div
-          class="section-wrapper book-section"
-          id="scambait"
+          class="about-row section-wrapper"
+          id="about"
         >
-          <div
-            class="book-wrapper"
-          >
+          <div>
             <img
-              class="book-cover"
-              src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+              class="about-img"
+              src="./2024-ryan-r-campbell-website-headshot.png"
             />
           </div>
           <div
-            class="section-wrapper book-metadata"
+            class="section-wrapper about-description"
           >
-            <h2
-              class="book-title"
-            >
-              <i>
-                scambait
-              </i>
+            <h2>
+              about
             </h2>
-            <p
-              class="book-genre"
+            <p>
+              I'm a two-time International Book Awards finalist, the founder of the Writescast Network, and the co-founder of Kill Your Darlings Candle Company.
+            </p>
+            <a
+              data-testid="about-link"
+              href="/about"
             >
-              Contemporary Fiction | Humor
-            </p>
-            <p>
-              <i>
-                The 2022 International Book Awards Finalist in Humor and Satire.
-              </i>
-            </p>
-            <p>
-              Ever since his grandma squandered the family fortune to two-bit hucksters from “Microsoft Tech Support,” corporate do-little Eric Amundsen has spent his workdays wasting the time of Nigerian princes and car warranty salesmen everywhere.
-            </p>
-            <p>
-              But when Eric's supposedly long-deceased father contacts him through his spam folder, Eric—whose workday mantra isn't exactly “solutions-oriented”—has serious problems to solve.
-            </p>
-            <div
-              class="book-cta-button-container"
-            >
-              <button
-                data-testid="scambait"
-              >
-                read a sample
-              </button>
-              <button
-                data-testid="https://www.amazon.com/dp/B09SY4P6FR"
-              >
-                buy this book
-              </button>
-            </div>
+              learn more
+            </a>
           </div>
         </div>
         <div
-          class="section-wrapper book-section"
-          id="and-ampersand"
+          class="shadow-bg-gray section-wrapper"
+          id="books"
         >
+          <h2>
+            books
+          </h2>
           <div
-            class="book-wrapper"
+            class="Books"
           >
-            <img
-              class="book-cover"
-              src="./books/and-ampersand/and-ampersand-flat-cover.png"
-            />
-          </div>
-          <div
-            class="section-wrapper book-metadata"
-          >
-            <h2
-              class="book-title"
-            >
-              <i>
-                and ampersand
-              </i>
-            </h2>
-            <p
-              class="book-genre"
-            >
-              Works of Short Fiction
-            </p>
-            <p>
-              <i>
-                The perfect pocket companion for any reader who's tussled with the tie between beginning and end.
-              </i>
-            </p>
-            <p>
-              Your death comes on slowly, while elsewhere, a nameless man fakes his own. Encased in glass, a young man navigates a world meant for those beyond. A mudslide washes away a once romantic weekend, and a childhood swim drowns all illusion of innocence.
-            </p>
-            <p>
-              These are but some of the tales in this collection of flash fiction, short stories, and freeform prose.
-            </p>
-            <div
-              class="book-cta-button-container"
-            >
-              <button
-                data-testid="and-ampersand"
+            <div>
+              <div
+                class="book grow-on-hover"
               >
-                read a sample
-              </button>
-              <button
-                data-testid="https://www.amazon.com/dp/1736387111"
-              >
-                buy this book
-              </button>
+                <img
+                  alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
+                  class="book-cover"
+                  src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+                />
+                <h3
+                  class="book-title"
+                >
+                  Scambait
+                </h3>
+                <p>
+                  The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
+                </p>
+                <a
+                  href="/books"
+                >
+                  read more
+                </a>
+              </div>
             </div>
-          </div>
-        </div>
-        <div
-          class="section-wrapper book-section"
-          id="imminent-dawn"
-        >
-          <div
-            class="book-wrapper"
-          >
-            <img
-              class="book-cover"
-              src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
-            />
-          </div>
-          <div
-            class="section-wrapper book-metadata"
-          >
-            <h2
-              class="book-title"
-            >
-              <i>
-                imminent dawn
-              </i>
-            </h2>
-            <p
-              class="book-genre"
-            >
-              Science Fiction
-            </p>
-            <p>
-              <i>
-                The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.
-              </i>
-            </p>
-            <p>
-              When an art-school dropout enrolls in the first round of human trials for an internet-access brain implant, she never expects to find herself at the center of conspiracies stretching from the highest levels of the North American Union government to the lowest dredges of its shadowy hacking collectives.
-            </p>
-            <div
-              class="book-cta-button-container"
-            >
-              <button
-                data-testid="imminent-dawn"
+            <div>
+              <div
+                class="book grow-on-hover"
               >
-                read a sample
-              </button>
-              <button
-                data-testid="https://www.amazon.com/dp/B07N1Q8C6G"
-              >
-                buy this book
-              </button>
+                <img
+                  alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
+                  class="book-cover"
+                  src="./books/and-ampersand/and-ampersand-flat-cover.png"
+                />
+                <h3
+                  class="book-title"
+                >
+                  And Ampersand
+                </h3>
+                <p>
+                  A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
+                </p>
+                <a
+                  href="/books"
+                >
+                  read more
+                </a>
+              </div>
             </div>
-          </div>
-        </div>
-        <div
-          class="section-wrapper book-section"
-          id="mourning-dove"
-        >
-          <div
-            class="book-wrapper"
-          >
-            <img
-              class="book-cover"
-              src="./books/mourning-dove/mourning-dove-flat-cover.png"
-            />
-          </div>
-          <div
-            class="section-wrapper book-metadata"
-          >
-            <h2
-              class="book-title"
-            >
-              <i>
-                mourning dove
-              </i>
-            </h2>
-            <p
-              class="book-genre"
-            >
-              Science Fiction
-            </p>
-            <p>
-              <i>
-                The sequel to International Book Awards finalist, Imminent Dawn.
-              </i>
-            </p>
-            <p>
-              In the aftermath of the Human/Etech research study, spouse is further pit against spouse, brother against sister, and governments against their people. In the end, all must choose between reclaiming the past or surrendering to an intractable world of their own creation.
-            </p>
-            <div
-              class="book-cta-button-container"
-            >
-              <button
-                data-testid="mourning-dove"
+            <div>
+              <div
+                class="book grow-on-hover"
               >
-                read a sample
-              </button>
-              <button
-                data-testid="https://www.amazon.com/dp/B07QZGSDX6"
+                <img
+                  alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
+                  class="book-cover"
+                  src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
+                />
+                <h3
+                  class="book-title"
+                >
+                  Imminent Dawn
+                </h3>
+                <p>
+                  The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.
+                </p>
+                <a
+                  href="/books"
+                >
+                  read more
+                </a>
+              </div>
+            </div>
+            <div>
+              <div
+                class="book grow-on-hover"
               >
-                buy this book
-              </button>
+                <img
+                  alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
+                  class="book-cover"
+                  src="./books/mourning-dove/mourning-dove-flat-cover.png"
+                />
+                <h3
+                  class="book-title"
+                >
+                  Mourning Dove
+                </h3>
+                <p>
+                  An evocative, sweeping symphony of love, revenge, and desperation in cacophonous times.
+                </p>
+                <a
+                  href="/books"
+                >
+                  read more
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -1052,10 +1091,10 @@ exports[`BooksLanding > default snapshot 1`] = `
                     </g>
                   </svg>
                   <h3>
-                    An incisive techno-thriller that gets more tense with every page...
+                    [Imminent Dawn is] a rollercoaster of intrigue, suspense, and gorgeously crafted wonder.
                   </h3>
                   <p>
-                    - Matt Forbeck, New York Times bestselling author
+                    - author Evie Drae
                   </p>
                   <p>
                     on 
@@ -1065,6 +1104,195 @@ exports[`BooksLanding > default snapshot 1`] = `
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="section-wrapper shadow-bg-gray"
+          id="awards"
+        >
+          <h2>
+            awards
+          </h2>
+          <div
+            class="featured-img-container"
+          >
+            <div
+              class="featured-img light award grow-on-hover"
+            >
+              <a
+                data-testid="https://www.internationalbookawards.com/2022pressrelease.html"
+                href="https://www.internationalbookawards.com/2022pressrelease.html"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="A wreath containing the words International Book Awards Finalist - 2022 | Humor & Satire"
+                  src="./awards/2022-international-book-awards-finalist-humor-and-satire.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img award grow-on-hover"
+            >
+              <a
+                data-testid="https://readersfavorite.com/book-review/scambait"
+                href="https://readersfavorite.com/book-review/scambait"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for the Readers' Favorite Five Stars award, which is a silver medallion that features five stars"
+                  src="./awards/readers-favorite-five-stars.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img light award grow-on-hover"
+            >
+              <a
+                data-testid="https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/"
+                href="https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="A wreath containing the words International Book Awards Finalist - 2020 | Science Fiction"
+                  src="./awards/2020-international-book-awards-finalist-science-fiction.png"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="section-wrapper"
+          id="featured-in"
+        >
+          <h2>
+            featured in
+          </h2>
+          <div
+            class="featured-img-container"
+          >
+            <div
+              class="featured-img dark grow-on-hover"
+            >
+              <a
+                data-testid="https://isthmus.com/arts/books/rr-campbell-imminent-dawn/"
+                href="https://isthmus.com/arts/books/rr-campbell-imminent-dawn/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The all-capital-letters logo for Isthmus, a publication from Madison, Wisconsin"
+                  src="./featured-in/isthmus-logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img dark grow-on-hover"
+            >
+              <a
+                data-testid="https://getcareerclarity.com/episode95/"
+                href="https://getcareerclarity.com/episode95/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for the Career Clarity podcast, including the words lucrative, soulful, and joyful"
+                  src="./featured-in/Career-Clarity-Logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img  grow-on-hover"
+            >
+              <a
+                data-testid="https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/"
+                href="https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for The Lifelong Learner, news from UW-Madison's Continuing Studies department"
+                  src="./featured-in/Lifelong-Learner-Logo-UW.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img light grow-on-hover"
+            >
+              <a
+                data-testid="https://ryanrcampbell.com/podcasts/"
+                href="https://ryanrcampbell.com/podcasts/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for the Writescast Network, featuring a pencil, a microphone, and books"
+                  src="./featured-in/The-Writescast-Network-Logo-No-Icons.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img minify grow-on-hover"
+            >
+              <a
+                data-testid="http://www.wrotepodcast.com/tag/r-r-campbell/"
+                href="http://www.wrotepodcast.com/tag/r-r-campbell/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for the WROTE podcast, which features each letter of the word in large text"
+                  src="./featured-in/Wrote-Podcast-Logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img  grow-on-hover"
+            >
+              <a
+                data-testid="https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html"
+                href="https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for the Columbus Journal, which is based out of Columbus, Wisconsin"
+                  src="./featured-in/Columbus-Journal-Logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img dark grow-on-hover"
+            >
+              <a
+                data-testid="https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/"
+                href="https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for Appleton Monthly, a print magazine from Wisconsin's Fox Valley"
+                  src="./featured-in/Appleton-Monthly-Logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img minify grow-on-hover"
+            >
+              <a
+                data-testid="https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa"
+                href="https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for the Neurotic Nourishment podcast, which shows host Lindsay Weisner laughing"
+                  src="./featured-in/Neurotic-Nourishment-Logo.png"
+                />
+              </a>
             </div>
           </div>
         </div>
