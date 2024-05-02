@@ -54,7 +54,7 @@ const GeneralLanding = ({ pageNotFound }) => {
             </div>
             <div id='builds' className='section-wrapper'>
               <h2>builds</h2>
-              <Builds />
+              <Builds buildsToDisplay={3}/>
               <div className='button-container grow-on-hover'>
                 <button onClick={() => { navigate('/tech'); window.scrollTo(top) }}>
                     about the engineer

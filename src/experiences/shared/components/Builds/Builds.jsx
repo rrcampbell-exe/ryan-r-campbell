@@ -1,7 +1,8 @@
 import React from 'react'
 import { builds } from '../../../../constants'
 
-const Builds = () => {
+const Builds = ({ buildsToDisplay }) => {
+  const buildsToRender = buildsToDisplay ? builds.slice(0, buildsToDisplay) : builds
   return (
     <div className='Builds'>
       {builds.map((app) => (
