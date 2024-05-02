@@ -1,4 +1,4 @@
-import { TextAndImage } from '../../experiences/shared/components'
+// TODO: need more quotes or images to break up post
 
 const posts = [
   {
@@ -84,8 +84,8 @@ const posts = [
       rendered: "It's been a while—nearly two years, to be exact—but golly, do I have some updates.",
       protected: false
     },
-    tags: ['Personal News', 'Web Development', 'On Writing'],
-    episode_featured_image: "/wp-content/uploads/2022/05/Ryan-R-Campbell-Lakefly-Conference-and-Puerto-Rico-Recap.jpg"
+    tags: ['Site Migration', 'Web Development', 'On Writing'],
+    episode_featured_image: "/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
   }
 ];
 
