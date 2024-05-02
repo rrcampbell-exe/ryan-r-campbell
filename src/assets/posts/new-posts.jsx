@@ -53,22 +53,30 @@ const posts = [
           </div>
           <div>
             <h2>New Business</h2>
-            <p>In my time away, I realized something: at one time, I'd become so caught up in the idea of being an author that I forsook so many other parts of myself in service of that singular identity. And that is, dare I say, not great.</p>
+            <p>In my time away, I realized something: at one point, I'd become so caught up in the idea of being an author that I forsook so many other parts of myself in service of that singular identity. And that is, dare I say, not great.</p>
             <p>Like I detail throughout this new site and over on that <a href='/about'>new about page</a> (can you tell I want you to read it?), I've returned to embracing the idea of self as <em>more than</em>, by which I mean we are more than any one thing, idea, or act. We are <em>everything people</em>, and I felt it was time I start acting like it.</p>
-            <p>Inspired by this to once again to clickity-clack at my keyboard—and equipped now with the skills necessary to take on a task such as this—I decided enough was enough: I was no longer going to pay WordPress for something that, equipped with my new skills as a software engineer and web developer, I could do on my own.</p>
+            <p>Inspired by this notion to once again to clickity-clack at my keyboard, I decided enough was enough: I was no longer going to pay WordPress for something that, equipped with my new skills as a software engineer and web developer, I could do on my own.</p>
             <p>And so, this new site was born. From scratch. Bits and bytes HTML tags and all.</p>
           </div>
           <div>
             <h3>What To Expect</h3>
             <p><em>Everything</em> is about to become a very important word, or at least <em>everything</em> as I see it.</p>
-            <p>As you bounce around this new site, you'll notice in the upper-left-hand corners that I change the terms under my name more often than a chameleon changes color (I don't think they change color as often as we like to believe). This is intentional, and not, I hope, a defense mechanism (as is the case with chameleons).</p>
-            <p>The topics and ideas and identities I hint at both in page banners and on the site's landing page are precisely the types of matters we're going to explore here going forward. We'll talk tech, language, literature, and life, and we'll do it in ways that stimulate our curiosity and expand our understanding of ourselves and the universe we live in.</p>
+            <p>As you bounce around this new site, you'll notice in the upper-left-hand corners that I change the descriptors under my name more often than a chameleon changes color (though I don't think they change color as often as we like to believe). This is intentional, and not, I hope, a defense mechanism (as is the case with chameleons).</p>
+            <p>The topics, ideas, and identities I hint at in those page banners and on the site's landing page are precisely the matters we're going to explore here going forward. We'll talk tech, language, literature, and life, and we'll do it in ways that stimulate our curiosity and expand our understanding of ourselves and the universe we live in.</p>
             <p>That's the goal, anyway.</p>
           </div>
-
-          // DISCUSS HOW THERE WN'T BE A CONSISTENT POSTING SCHEDCULE (FOCUSES ON THE WHAT INSTEAD OF THE WHY)
-          // QUALITY > QUANTITY
-          // MAYBE SOME SURPRISES IN STORE (IF THINGS WORK OUT)
+          <div>
+            <h3>The Philosophy Going Forward</h3>
+            <p>To achieve that goal, we won't embrace a regular posting schedule; I want to ensure that what I'm sharing with you is more than something thrown together to meet a personally-imposed deadline.</p>
+            <p>In this way, we'll focus more on quality than quantity, on purpose more than frequency.</p>
+            <p>And, if some of the pursuits I'm kicking around prove to be worth their while, there might be some surprises in store for you, too.</p>
+          </div>
+          <div>
+            <h3>A Work in Progress</h3>
+            <p>In the meantime, I ask for your patience. Building this site from the ground up was no done-in-a-day task, and mapping the WordPress version to this new one was not without its tribulations.</p>
+            <p>What this means from a visitor's perspective is that, for legacy blog posts, you may encounter awkward formatting or missing links. Images may be strangely sized (or missing altogether), and some previously available content may have been removed so that it can be refined and repurposed.</p>
+            <p>I promise you, though, your patience will pay off. It's all for the better, in the end, because we're better when we're all of us—when we're <em>everything people</em>—and I'm so looking forward to the <em>everything</em> we'll discover together.</p>
+          </div>
         </div>`,
       protected: false
     },
@@ -76,7 +84,7 @@ const posts = [
       rendered: "It's been a while—nearly two years, to be exact—but golly, do I have some updates.",
       protected: false
     },
-    tags: ['Tech', 'Web Development', 'On Writing'],
+    tags: ['Personal News', 'Web Development', 'On Writing'],
     episode_featured_image: "/wp-content/uploads/2022/05/Ryan-R-Campbell-Lakefly-Conference-and-Puerto-Rico-Recap.jpg"
   }
 ];
