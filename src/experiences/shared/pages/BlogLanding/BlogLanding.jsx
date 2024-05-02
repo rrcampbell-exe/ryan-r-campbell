@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import { PageWrapper, BlogTeaser, Contact } from '../../components'
-import posts from '../../../../assets/posts/posts'
+import legacyPosts from '../../../../assets/posts/legacy-posts'
+import posts from '../../../../assets/posts/new-posts'
 
 const BlogLanding = () => {
   const [postsPage, setPostsPage] = useState(1)
 
-  const totalPostsQty = posts.length
+  const totalPostsQty = legacyPosts.length + posts.length
   const postsToDisplay = 9
   const numberOfPostsShown = postsToDisplay * postsPage
   const allBlogPostsShown = numberOfPostsShown >= totalPostsQty
