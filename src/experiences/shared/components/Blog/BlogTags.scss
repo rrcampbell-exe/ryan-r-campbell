@@ -1,0 +1,26 @@
+.Blog-tags {
+  margin-top: 2rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+
+  .tag {
+    background-color: transparent;
+    border: 1px solid var(--main-dark-color);
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.dark-theme {
+  .tag {
+    border-color: var(--main-light-color);
+  }
+}

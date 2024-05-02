@@ -13,5 +13,6 @@ import NotificationBanner from './NotificationBanner/NotificationBanner'
 import Loading from './Loading/Loading'
 import Quote from './Quote/Quote'
 import TextAndImage from './TextAndImage/TextAndImage'
+import BlogTags from './Blog/BlogTags'
 
-export { BlogPost, BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound, NotificationBanner, Loading, Quote, TextAndImage }
+export { BlogPost, BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound, NotificationBanner, Loading, Quote, TextAndImage, BlogTags }

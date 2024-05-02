@@ -4,7 +4,7 @@ import posts from '../../../../assets/posts/new-posts.jsx'
 import { useParams } from 'react-router-dom'
 import { fetchPost, formatDate, extractHTMLContent } from '../../../../utils'
 import { shortBio } from '../../../../constants'
-import { NotFound, Contact, PageWrapper, NotificationBanner } from '../'
+import { NotFound, Contact, PageWrapper, NotificationBanner, BlogTags } from '../'
 
 // TODO: need to insert category tags (if possible)
 // TODO: need to sanitize remaining HTML of comments related to divi
@@ -62,6 +62,11 @@ const BlogPost = () => {
             </div>
           </div>
           <article dangerouslySetInnerHTML={{ __html: HTMLcontent }}/>
+          {year > 2023 && post.tags.length > 0 && (
+            <div className='tags'>
+              <BlogTags tags={post.tags} />
+            </div>
+          )}
         </div>
       </main>
     </PageWrapper>
