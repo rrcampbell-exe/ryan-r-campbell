@@ -5,7 +5,7 @@ const Builds = ({ buildsToDisplay }) => {
   const buildsToRender = buildsToDisplay ? builds.slice(0, buildsToDisplay) : builds
   return (
     <div className='Builds'>
-      {builds.map((app) => (
+      {buildsToRender.map((app) => (
         <div className='build grow-on-hover' key={app.logo}>
           <div className='app-overview'>
             <img className='app-logo' src={app.logo} alt={app.alt} />
