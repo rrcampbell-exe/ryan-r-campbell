@@ -494,6 +494,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             >
               <div
                 class="build grow-on-hover"
+                data-testid="build"
               >
                 <div
                   class="app-overview"
@@ -553,6 +554,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               </div>
               <div
                 class="build grow-on-hover"
+                data-testid="build"
               >
                 <div
                   class="app-overview"
@@ -612,6 +614,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               </div>
               <div
                 class="build grow-on-hover"
+                data-testid="build"
               >
                 <div
                   class="app-overview"
@@ -629,7 +632,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <i
                     class="app-teaser"
                   >
-                    Make a README users will actually read.
+                    Make READMEs users will actually read.
                   </i>
                   <p>
                     This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!
@@ -1237,6 +1240,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
           >
             <div
               class="build grow-on-hover"
+              data-testid="build"
             >
               <div
                 class="app-overview"
@@ -1296,6 +1300,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </div>
             <div
               class="build grow-on-hover"
+              data-testid="build"
             >
               <div
                 class="app-overview"
@@ -1355,6 +1360,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </div>
             <div
               class="build grow-on-hover"
+              data-testid="build"
             >
               <div
                 class="app-overview"
@@ -1372,7 +1378,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <i
                   class="app-teaser"
                 >
-                  Make a README users will actually read.
+                  Make READMEs users will actually read.
                 </i>
                 <p>
                   This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!
