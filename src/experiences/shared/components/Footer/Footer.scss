@@ -1,3 +1,41 @@
 footer {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.875rem;
+
+  .site-logo-container {
+    height: 20px;
+    width: 20px;
+    margin-right: 0.5rem;
+
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px 0 var(--shadow);
+      transition: 0.5s;
+    }
+  }
+
+  span {
+    margin: 1rem 0;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    margin-top: 2rem;
+
+    .site-logo-container {
+      height: 35px;
+      width: 35px;
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    span {
+      margin-top: 0;
+    }
+  }
 }
