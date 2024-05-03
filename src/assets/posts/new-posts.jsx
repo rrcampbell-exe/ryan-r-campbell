@@ -18,8 +18,8 @@ const posts = [
               <p>It's been a while—nearly two years, to be exact—but golly, do I have some updates, one of which is the very site you're visiting now.</p>
               <p>But first, since most of you are more likely familiar with me as an author than anything else (at least at this point), let's start there.</p>
               <h2>Author Business</h2>
-              <p>Hey, remember <em><a href='/books'>Scambait?</a></em> When I last posted, it had hardly been out for a month. Since then, your support and reviews have been wonderful to read, and I'm thrilled to announce that (back in 2022), <em><b>Scambait</em> was named a finalist in the International Book Awards!</b></p>
-              <p><em>Scambait</em> remains a favorite of mine, personally, so it was deeply gratifying to see it get that recognition.</p>
+              <p>Hey, remember <em><a href='/books'>Scambait?</a></em> When I last posted, it had hardly been out for a month. Since then, your support and reviews have been wonderful to be on the receiving end of, and I'm thrilled to announce that (back in 2022), <em><b>Scambait</em> was named a finalist in the International Book Awards!</b></p>
+              <p>Of books I've written, <em>Scambait</em> remains a favorite for me, personally, so it was deeply gratifying to see it get that recognition.</p>
               <p>In light of <em>Scambait</em>'s success, one might be wondering, "what's next?" or, given that it's been two years without a writerly update, "what happened?"</p>
               <p>Be patient. We're getting to that. Like, now.</p>
             </div>
@@ -32,7 +32,7 @@ const posts = [
           </div>
           <div>
             <h2>Business Business</h2>
-            <p>Those of you who <a href='http://eepurl.com/dhBxcv' rel='noopener noreferrer' target='_blank'>subscribe my newsletter</a>, followed me on Twitch, or otherwise know me from around the web may also recall that in late 2021, my wife and I moved from Madison to Milwaukee. You might also know this move was part of a career transition for me, too.</p>
+            <p>Those of you who <a href='http://eepurl.com/dhBxcv' rel='noopener noreferrer' target='_blank'>subscribe my newsletter</a>, follow me on Twitch (or did back when I was still streaming), or otherwise know me from around the web may also recall that in late 2021, my wife and I moved from Madison to Milwaukee. You might also know this move was part of a career transition for me, too.</p>
             <p>I won't recap all of that change here since I already documented it extensively in the extended version of this site's <a href='/about'>new about page</a>, but one of the consequences of adapting to my new life as a full-time software engineer is that writing fell to the wayside.</p>
             <p>Like way-way-way to the wayside.</p>
             <div class='Quote'>
