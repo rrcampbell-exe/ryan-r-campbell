@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`AuthorLanding > default snapshot 1`] = `
+exports[`GeneralLanding > default snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -26,7 +26,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
                  campbell
               </h1>
               <h2>
-                international book awards finalist
+                author | technologist
               </h2>
             </div>
           </a>
@@ -192,9 +192,9 @@ exports[`AuthorLanding > default snapshot 1`] = `
             class="section"
           >
             <a
-              href="#about"
+              href="#blog"
             >
-              about
+              blog
             </a>
           </div>
           <div
@@ -210,27 +210,9 @@ exports[`AuthorLanding > default snapshot 1`] = `
             class="section"
           >
             <a
-              href="#reviews"
+              href="#builds"
             >
-              reviews
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#awards"
-            >
-              awards
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#featured-in"
-            >
-              featured in
+              builds
             </a>
           </div>
           <div
@@ -244,37 +226,144 @@ exports[`AuthorLanding > default snapshot 1`] = `
           </div>
         </nav>
         <main
-          class="Author-landing"
+          class="General-landing"
         >
           <div
-            class="about-row section-wrapper"
+            class="shadow-bg-main-accent"
             id="about"
           >
-            <div>
+            <div
+              class="photo-banner"
+            >
               <img
                 class="about-img"
                 src="./2024-ryan-r-campbell-website-headshot.png"
               />
-            </div>
-            <div
-              class="section-wrapper about-description"
-            >
-              <h2>
-                about
-              </h2>
-              <p>
-                I'm a two-time International Book Awards finalist, the founder of the Writescast Network, and the co-founder of Kill Your Darlings Candle Company.
-              </p>
-              <a
-                data-testid="about-link"
-                href="/about"
+              <div
+                class="pop-text-container"
               >
-                learn more
-              </a>
+                <h2>
+                  home of
+                </h2>
+                <div>
+                  <div
+                    class="pop-content"
+                  >
+                    <h2>
+                      author
+                    </h2>
+                  </div>
+                </div>
+                <h2>
+                  ryan r. campbell
+                </h2>
+              </div>
             </div>
           </div>
           <div
-            class="shadow-bg-gray section-wrapper"
+            class="section-wrapper"
+            id="blog"
+          >
+            <h2>
+              blog
+            </h2>
+            <div
+              class="ContentTeaser"
+              data-testid="blog-teaser"
+            >
+              <div>
+                <div
+                  class="content-post grow-on-hover"
+                >
+                  <h3>
+                    Welcome to the New Ryan R. Campbell (Or at Least the New Website)
+                  </h3>
+                  <span>
+                    Posted on 
+                    May 3, 2024
+                  </span>
+                  <p>
+                    It's been a while—nearly two years, to be exact—but golly, do I have some updates.
+                  </p>
+                  <div
+                    class="teaser-tags"
+                  >
+                    <p>
+                      FILED UNDER:
+                    </p>
+                    <p>
+                      SITE MIGRATION, WEB DEVELOPMENT, ON WRITING
+                    </p>
+                  </div>
+                  <a
+                    href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
+                  >
+                    read more
+                  </a>
+                  <div
+                    class="content-post-underline"
+                  />
+                </div>
+              </div>
+              <div>
+                <div
+                  class="content-post grow-on-hover"
+                >
+                  <h3>
+                    From Conference to Coffee (On the Beach)
+                  </h3>
+                  <span>
+                    Posted on 
+                    May 19, 2022
+                  </span>
+                  <p>
+                    After a couple of years off the speakers' circuit and without a vacation (thanks, pandemic), the last couple of weeks were a welcome reprieve.
+                  </p>
+                  <a
+                    href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
+                  >
+                    read more
+                  </a>
+                  <div
+                    class="content-post-underline"
+                  />
+                </div>
+              </div>
+              <div>
+                <div
+                  class="content-post grow-on-hover"
+                >
+                  <h3>
+                    Not A Cult, I Promise: On What Comes Next
+                  </h3>
+                  <span>
+                    Posted on 
+                    May 16, 2022
+                  </span>
+                  <p>
+                    Scambait is finally here! But what comes next?
+                  </p>
+                  <a
+                    href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
+                  >
+                    read more
+                  </a>
+                  <div
+                    class="content-post-underline"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="button-container grow-on-hover"
+            >
+              <button>
+                to the blog
+              </button>
+            </div>
+          </div>
+          <div
+            class="section-wrapper shadow-bg-gray"
             id="books"
           >
             <h2>
@@ -384,247 +473,209 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 </div>
               </div>
             </div>
+            <div
+              class="button-container grow-on-hover"
+            >
+              <button>
+                about the author
+              </button>
+            </div>
           </div>
           <div
             class="section-wrapper"
-            id="reviews"
+            id="builds"
           >
             <h2>
-              reviews
+              builds
             </h2>
             <div
-              class="Reviews"
+              class="Builds"
             >
-              <div>
+              <div
+                class="build grow-on-hover"
+              >
                 <div
-                  class="pop-content-slow"
+                  class="app-overview"
                 >
-                  <div
-                    class="review-container grow-on-hover"
+                  <img
+                    alt="The cartoon outline of a bird against a forest green background"
+                    class="app-logo"
+                    src="./builds/real-fake-birds-app-logo.png"
+                  />
+                  <h3
+                    class="app-title"
                   >
-                    <svg
-                      class="quotes-svg"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
+                    Real Fake Birds
+                  </h3>
+                  <i
+                    class="app-teaser"
+                  >
+                    Some are real. Some are fake. Tell them apart.
+                  </i>
+                  <p>
+                    Earn badges and extend your streak in this real-or-fake guessing game that puts even the most ardent birders to the test.
+                  </p>
+                  <div
+                    class="app-overview-underline"
+                  />
+                </div>
+                <div
+                  class="app-details"
+                >
+                  <p>
+                    <b>
+                      Technologies used: 
+                    </b>
+                    React, Node, axios, styled-components, react-router, REST APIs
+                  </p>
+                  <p>
+                    <a
+                      href="https://www.realfakebirds.app"
+                      rel="noopener"
+                      target="_blank"
                     >
-                      <g>
-                        <path
-                          d="M0 0h24v24H0z"
-                          fill="none"
-                        />
-                        <path
-                          d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"
-                        />
-                      </g>
-                    </svg>
-                    <h3>
-                      [Scambait is] laugh-out-loud funny. My highest recommendation.
-                    </h3>
-                    <p>
-                      - Robb Grindstaff, award-winning author
-                    </p>
-                    <p>
-                      on 
-                      <i>
-                        Scambait
-                      </i>
-                    </p>
-                  </div>
+                      play the game
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="https://github.com/rrcampbell-exe/real-fake-birds"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      view 
+                      real fake birds
+                       on github
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div
+                class="build grow-on-hover"
+              >
+                <div
+                  class="app-overview"
+                >
+                  <img
+                    alt="The cartoon cat Yarnsworth grins mischieviously"
+                    class="app-logo"
+                    src="./builds/yarnsworths-tales-app-logo.png"
+                  />
+                  <h3
+                    class="app-title"
+                  >
+                    Yarnsworth's Tales
+                  </h3>
+                  <i
+                    class="app-teaser"
+                  >
+                    Trillions of tales await.
+                  </i>
+                  <p>
+                    This storyline generator for fantasy tabletop roleplaying games inspires players at every stage of gameplay.
+                  </p>
+                  <div
+                    class="app-overview-underline"
+                  />
+                </div>
+                <div
+                  class="app-details"
+                >
+                  <p>
+                    <b>
+                      Technologies used: 
+                    </b>
+                    HTML, JavaScript, CSS, Bootstrap
+                  </p>
+                  <p>
+                    <a
+                      href="https://rrcampbell-exe.github.io/yarnsworths-tales/"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      discover your next d&d adventure
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="https://github.com/rrcampbell-exe/yarnsworths-tales"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      view 
+                      yarnsworth's tales
+                       on github
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div
+                class="build grow-on-hover"
+              >
+                <div
+                  class="app-overview"
+                >
+                  <img
+                    alt="A piece of paper with a folded corner and a lower-case letter I"
+                    class="app-logo"
+                    src="./builds/file-info-svgrepo-com.png"
+                  />
+                  <h3
+                    class="app-title"
+                  >
+                    README Generator
+                  </h3>
+                  <i
+                    class="app-teaser"
+                  >
+                    Make a README users will actually read.
+                  </i>
+                  <p>
+                    This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!
+                  </p>
+                  <div
+                    class="app-overview-underline"
+                  />
+                </div>
+                <div
+                  class="app-details"
+                >
+                  <p>
+                    <b>
+                      Technologies used: 
+                    </b>
+                    Node, Inquirer, fs, JavaScript, ESM
+                  </p>
+                  <p>
+                    <a
+                      rel="noopener"
+                      target="_blank"
+                    />
+                  </p>
+                  <p>
+                    <a
+                      href="https://github.com/rrcampbell-exe/readme-generator"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      view 
+                      readme generator
+                       on github
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            class="section-wrapper shadow-bg-gray"
-            id="awards"
-          >
-            <h2>
-              awards
-            </h2>
             <div
-              class="featured-img-container"
+              class="button-container grow-on-hover"
             >
-              <div
-                class="featured-img light award grow-on-hover"
-              >
-                <a
-                  data-testid="https://www.internationalbookawards.com/2022pressrelease.html"
-                  href="https://www.internationalbookawards.com/2022pressrelease.html"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="A wreath containing the words International Book Awards Finalist - 2022 | Humor & Satire"
-                    src="./awards/2022-international-book-awards-finalist-humor-and-satire.png"
-                  />
-                </a>
-              </div>
-              <div
-                class="featured-img award grow-on-hover"
-              >
-                <a
-                  data-testid="https://readersfavorite.com/book-review/scambait"
-                  href="https://readersfavorite.com/book-review/scambait"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="The logo for the Readers' Favorite Five Stars award, which is a silver medallion that features five stars"
-                    src="./awards/readers-favorite-five-stars.png"
-                  />
-                </a>
-              </div>
-              <div
-                class="featured-img light award grow-on-hover"
-              >
-                <a
-                  data-testid="https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/"
-                  href="https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="A wreath containing the words International Book Awards Finalist - 2020 | Science Fiction"
-                    src="./awards/2020-international-book-awards-finalist-science-fiction.png"
-                  />
-                </a>
-              </div>
+              <button>
+                about the engineer
+              </button>
             </div>
           </div>
           <div
-            class="section-wrapper"
-            id="featured-in"
-          >
-            <h2>
-              featured in
-            </h2>
-            <div
-              class="featured-img-container"
-            >
-              <div
-                class="featured-img dark grow-on-hover"
-              >
-                <a
-                  data-testid="https://isthmus.com/arts/books/rr-campbell-imminent-dawn/"
-                  href="https://isthmus.com/arts/books/rr-campbell-imminent-dawn/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="The all-capital-letters logo for Isthmus, a publication from Madison, Wisconsin"
-                    src="./featured-in/isthmus-logo.png"
-                  />
-                </a>
-              </div>
-              <div
-                class="featured-img dark grow-on-hover"
-              >
-                <a
-                  data-testid="https://getcareerclarity.com/episode95/"
-                  href="https://getcareerclarity.com/episode95/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="The logo for the Career Clarity podcast, including the words lucrative, soulful, and joyful"
-                    src="./featured-in/Career-Clarity-Logo.png"
-                  />
-                </a>
-              </div>
-              <div
-                class="featured-img  grow-on-hover"
-              >
-                <a
-                  data-testid="https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/"
-                  href="https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="The logo for The Lifelong Learner, news from UW-Madison's Continuing Studies department"
-                    src="./featured-in/Lifelong-Learner-Logo-UW.png"
-                  />
-                </a>
-              </div>
-              <div
-                class="featured-img light grow-on-hover"
-              >
-                <a
-                  data-testid="https://ryanrcampbell.com/podcasts/"
-                  href="https://ryanrcampbell.com/podcasts/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="The logo for the Writescast Network, featuring a pencil, a microphone, and books"
-                    src="./featured-in/The-Writescast-Network-Logo-No-Icons.png"
-                  />
-                </a>
-              </div>
-              <div
-                class="featured-img minify grow-on-hover"
-              >
-                <a
-                  data-testid="http://www.wrotepodcast.com/tag/r-r-campbell/"
-                  href="http://www.wrotepodcast.com/tag/r-r-campbell/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="The logo for the WROTE podcast, which features each letter of the word in large text"
-                    src="./featured-in/Wrote-Podcast-Logo.png"
-                  />
-                </a>
-              </div>
-              <div
-                class="featured-img  grow-on-hover"
-              >
-                <a
-                  data-testid="https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html"
-                  href="https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="The logo for the Columbus Journal, which is based out of Columbus, Wisconsin"
-                    src="./featured-in/Columbus-Journal-Logo.png"
-                  />
-                </a>
-              </div>
-              <div
-                class="featured-img dark grow-on-hover"
-              >
-                <a
-                  data-testid="https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/"
-                  href="https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="The logo for Appleton Monthly, a print magazine from Wisconsin's Fox Valley"
-                    src="./featured-in/Appleton-Monthly-Logo.png"
-                  />
-                </a>
-              </div>
-              <div
-                class="featured-img minify grow-on-hover"
-              >
-                <a
-                  data-testid="https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa"
-                  href="https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <img
-                    alt="The logo for the Neurotic Nourishment podcast, which shows host Lindsay Weisner laughing"
-                    src="./featured-in/Neurotic-Nourishment-Logo.png"
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="shadow-bg-main-accent section-wrapper"
+            class="section-wrapper shadow-bg-main-accent"
             id="contact"
           >
             <h2>
@@ -717,7 +768,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
                campbell
             </h1>
             <h2>
-              international book awards finalist
+              author | technologist
             </h2>
           </div>
         </a>
@@ -883,9 +934,9 @@ exports[`AuthorLanding > default snapshot 1`] = `
           class="section"
         >
           <a
-            href="#about"
+            href="#blog"
           >
-            about
+            blog
           </a>
         </div>
         <div
@@ -901,27 +952,9 @@ exports[`AuthorLanding > default snapshot 1`] = `
           class="section"
         >
           <a
-            href="#reviews"
+            href="#builds"
           >
-            reviews
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#awards"
-          >
-            awards
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#featured-in"
-          >
-            featured in
+            builds
           </a>
         </div>
         <div
@@ -935,37 +968,144 @@ exports[`AuthorLanding > default snapshot 1`] = `
         </div>
       </nav>
       <main
-        class="Author-landing"
+        class="General-landing"
       >
         <div
-          class="about-row section-wrapper"
+          class="shadow-bg-main-accent"
           id="about"
         >
-          <div>
+          <div
+            class="photo-banner"
+          >
             <img
               class="about-img"
               src="./2024-ryan-r-campbell-website-headshot.png"
             />
-          </div>
-          <div
-            class="section-wrapper about-description"
-          >
-            <h2>
-              about
-            </h2>
-            <p>
-              I'm a two-time International Book Awards finalist, the founder of the Writescast Network, and the co-founder of Kill Your Darlings Candle Company.
-            </p>
-            <a
-              data-testid="about-link"
-              href="/about"
+            <div
+              class="pop-text-container"
             >
-              learn more
-            </a>
+              <h2>
+                home of
+              </h2>
+              <div>
+                <div
+                  class="pop-content"
+                >
+                  <h2>
+                    author
+                  </h2>
+                </div>
+              </div>
+              <h2>
+                ryan r. campbell
+              </h2>
+            </div>
           </div>
         </div>
         <div
-          class="shadow-bg-gray section-wrapper"
+          class="section-wrapper"
+          id="blog"
+        >
+          <h2>
+            blog
+          </h2>
+          <div
+            class="ContentTeaser"
+            data-testid="blog-teaser"
+          >
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <h3>
+                  Welcome to the New Ryan R. Campbell (Or at Least the New Website)
+                </h3>
+                <span>
+                  Posted on 
+                  May 3, 2024
+                </span>
+                <p>
+                  It's been a while—nearly two years, to be exact—but golly, do I have some updates.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    SITE MIGRATION, WEB DEVELOPMENT, ON WRITING
+                  </p>
+                </div>
+                <a
+                  href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <h3>
+                  From Conference to Coffee (On the Beach)
+                </h3>
+                <span>
+                  Posted on 
+                  May 19, 2022
+                </span>
+                <p>
+                  After a couple of years off the speakers' circuit and without a vacation (thanks, pandemic), the last couple of weeks were a welcome reprieve.
+                </p>
+                <a
+                  href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <h3>
+                  Not A Cult, I Promise: On What Comes Next
+                </h3>
+                <span>
+                  Posted on 
+                  May 16, 2022
+                </span>
+                <p>
+                  Scambait is finally here! But what comes next?
+                </p>
+                <a
+                  href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="button-container grow-on-hover"
+          >
+            <button>
+              to the blog
+            </button>
+          </div>
+        </div>
+        <div
+          class="section-wrapper shadow-bg-gray"
           id="books"
         >
           <h2>
@@ -1075,247 +1215,209 @@ exports[`AuthorLanding > default snapshot 1`] = `
               </div>
             </div>
           </div>
+          <div
+            class="button-container grow-on-hover"
+          >
+            <button>
+              about the author
+            </button>
+          </div>
         </div>
         <div
           class="section-wrapper"
-          id="reviews"
+          id="builds"
         >
           <h2>
-            reviews
+            builds
           </h2>
           <div
-            class="Reviews"
+            class="Builds"
           >
-            <div>
+            <div
+              class="build grow-on-hover"
+            >
               <div
-                class="pop-content-slow"
+                class="app-overview"
               >
-                <div
-                  class="review-container grow-on-hover"
+                <img
+                  alt="The cartoon outline of a bird against a forest green background"
+                  class="app-logo"
+                  src="./builds/real-fake-birds-app-logo.png"
+                />
+                <h3
+                  class="app-title"
                 >
-                  <svg
-                    class="quotes-svg"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
+                  Real Fake Birds
+                </h3>
+                <i
+                  class="app-teaser"
+                >
+                  Some are real. Some are fake. Tell them apart.
+                </i>
+                <p>
+                  Earn badges and extend your streak in this real-or-fake guessing game that puts even the most ardent birders to the test.
+                </p>
+                <div
+                  class="app-overview-underline"
+                />
+              </div>
+              <div
+                class="app-details"
+              >
+                <p>
+                  <b>
+                    Technologies used: 
+                  </b>
+                  React, Node, axios, styled-components, react-router, REST APIs
+                </p>
+                <p>
+                  <a
+                    href="https://www.realfakebirds.app"
+                    rel="noopener"
+                    target="_blank"
                   >
-                    <g>
-                      <path
-                        d="M0 0h24v24H0z"
-                        fill="none"
-                      />
-                      <path
-                        d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"
-                      />
-                    </g>
-                  </svg>
-                  <h3>
-                    [Scambait is] laugh-out-loud funny. My highest recommendation.
-                  </h3>
-                  <p>
-                    - Robb Grindstaff, award-winning author
-                  </p>
-                  <p>
-                    on 
-                    <i>
-                      Scambait
-                    </i>
-                  </p>
-                </div>
+                    play the game
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://github.com/rrcampbell-exe/real-fake-birds"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    view 
+                    real fake birds
+                     on github
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div
+              class="build grow-on-hover"
+            >
+              <div
+                class="app-overview"
+              >
+                <img
+                  alt="The cartoon cat Yarnsworth grins mischieviously"
+                  class="app-logo"
+                  src="./builds/yarnsworths-tales-app-logo.png"
+                />
+                <h3
+                  class="app-title"
+                >
+                  Yarnsworth's Tales
+                </h3>
+                <i
+                  class="app-teaser"
+                >
+                  Trillions of tales await.
+                </i>
+                <p>
+                  This storyline generator for fantasy tabletop roleplaying games inspires players at every stage of gameplay.
+                </p>
+                <div
+                  class="app-overview-underline"
+                />
+              </div>
+              <div
+                class="app-details"
+              >
+                <p>
+                  <b>
+                    Technologies used: 
+                  </b>
+                  HTML, JavaScript, CSS, Bootstrap
+                </p>
+                <p>
+                  <a
+                    href="https://rrcampbell-exe.github.io/yarnsworths-tales/"
+                    rel="noopener"
+                    target="_blank"
+                  >
+                    discover your next d&d adventure
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://github.com/rrcampbell-exe/yarnsworths-tales"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    view 
+                    yarnsworth's tales
+                     on github
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div
+              class="build grow-on-hover"
+            >
+              <div
+                class="app-overview"
+              >
+                <img
+                  alt="A piece of paper with a folded corner and a lower-case letter I"
+                  class="app-logo"
+                  src="./builds/file-info-svgrepo-com.png"
+                />
+                <h3
+                  class="app-title"
+                >
+                  README Generator
+                </h3>
+                <i
+                  class="app-teaser"
+                >
+                  Make a README users will actually read.
+                </i>
+                <p>
+                  This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!
+                </p>
+                <div
+                  class="app-overview-underline"
+                />
+              </div>
+              <div
+                class="app-details"
+              >
+                <p>
+                  <b>
+                    Technologies used: 
+                  </b>
+                  Node, Inquirer, fs, JavaScript, ESM
+                </p>
+                <p>
+                  <a
+                    rel="noopener"
+                    target="_blank"
+                  />
+                </p>
+                <p>
+                  <a
+                    href="https://github.com/rrcampbell-exe/readme-generator"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    view 
+                    readme generator
+                     on github
+                  </a>
+                </p>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="section-wrapper shadow-bg-gray"
-          id="awards"
-        >
-          <h2>
-            awards
-          </h2>
           <div
-            class="featured-img-container"
+            class="button-container grow-on-hover"
           >
-            <div
-              class="featured-img light award grow-on-hover"
-            >
-              <a
-                data-testid="https://www.internationalbookawards.com/2022pressrelease.html"
-                href="https://www.internationalbookawards.com/2022pressrelease.html"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="A wreath containing the words International Book Awards Finalist - 2022 | Humor & Satire"
-                  src="./awards/2022-international-book-awards-finalist-humor-and-satire.png"
-                />
-              </a>
-            </div>
-            <div
-              class="featured-img award grow-on-hover"
-            >
-              <a
-                data-testid="https://readersfavorite.com/book-review/scambait"
-                href="https://readersfavorite.com/book-review/scambait"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="The logo for the Readers' Favorite Five Stars award, which is a silver medallion that features five stars"
-                  src="./awards/readers-favorite-five-stars.png"
-                />
-              </a>
-            </div>
-            <div
-              class="featured-img light award grow-on-hover"
-            >
-              <a
-                data-testid="https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/"
-                href="https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="A wreath containing the words International Book Awards Finalist - 2020 | Science Fiction"
-                  src="./awards/2020-international-book-awards-finalist-science-fiction.png"
-                />
-              </a>
-            </div>
+            <button>
+              about the engineer
+            </button>
           </div>
         </div>
         <div
-          class="section-wrapper"
-          id="featured-in"
-        >
-          <h2>
-            featured in
-          </h2>
-          <div
-            class="featured-img-container"
-          >
-            <div
-              class="featured-img dark grow-on-hover"
-            >
-              <a
-                data-testid="https://isthmus.com/arts/books/rr-campbell-imminent-dawn/"
-                href="https://isthmus.com/arts/books/rr-campbell-imminent-dawn/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="The all-capital-letters logo for Isthmus, a publication from Madison, Wisconsin"
-                  src="./featured-in/isthmus-logo.png"
-                />
-              </a>
-            </div>
-            <div
-              class="featured-img dark grow-on-hover"
-            >
-              <a
-                data-testid="https://getcareerclarity.com/episode95/"
-                href="https://getcareerclarity.com/episode95/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="The logo for the Career Clarity podcast, including the words lucrative, soulful, and joyful"
-                  src="./featured-in/Career-Clarity-Logo.png"
-                />
-              </a>
-            </div>
-            <div
-              class="featured-img  grow-on-hover"
-            >
-              <a
-                data-testid="https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/"
-                href="https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="The logo for The Lifelong Learner, news from UW-Madison's Continuing Studies department"
-                  src="./featured-in/Lifelong-Learner-Logo-UW.png"
-                />
-              </a>
-            </div>
-            <div
-              class="featured-img light grow-on-hover"
-            >
-              <a
-                data-testid="https://ryanrcampbell.com/podcasts/"
-                href="https://ryanrcampbell.com/podcasts/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="The logo for the Writescast Network, featuring a pencil, a microphone, and books"
-                  src="./featured-in/The-Writescast-Network-Logo-No-Icons.png"
-                />
-              </a>
-            </div>
-            <div
-              class="featured-img minify grow-on-hover"
-            >
-              <a
-                data-testid="http://www.wrotepodcast.com/tag/r-r-campbell/"
-                href="http://www.wrotepodcast.com/tag/r-r-campbell/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="The logo for the WROTE podcast, which features each letter of the word in large text"
-                  src="./featured-in/Wrote-Podcast-Logo.png"
-                />
-              </a>
-            </div>
-            <div
-              class="featured-img  grow-on-hover"
-            >
-              <a
-                data-testid="https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html"
-                href="https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="The logo for the Columbus Journal, which is based out of Columbus, Wisconsin"
-                  src="./featured-in/Columbus-Journal-Logo.png"
-                />
-              </a>
-            </div>
-            <div
-              class="featured-img dark grow-on-hover"
-            >
-              <a
-                data-testid="https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/"
-                href="https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="The logo for Appleton Monthly, a print magazine from Wisconsin's Fox Valley"
-                  src="./featured-in/Appleton-Monthly-Logo.png"
-                />
-              </a>
-            </div>
-            <div
-              class="featured-img minify grow-on-hover"
-            >
-              <a
-                data-testid="https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa"
-                href="https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img
-                  alt="The logo for the Neurotic Nourishment podcast, which shows host Lindsay Weisner laughing"
-                  src="./featured-in/Neurotic-Nourishment-Logo.png"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div
-          class="shadow-bg-main-accent section-wrapper"
+          class="section-wrapper shadow-bg-main-accent"
           id="contact"
         >
           <h2>

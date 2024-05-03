@@ -489,10 +489,16 @@ exports[`BooksLanding > default snapshot 1`] = `
                       </g>
                     </svg>
                     <h3>
-                      Campbell is a master storyteller... a breath of fresh air.
+                      An incisive techno-thriller that gets more tense with every page...
                     </h3>
                     <p>
-                      - author Jeremy Martin
+                      - Matt Forbeck, New York Times bestselling author
+                    </p>
+                    <p>
+                      on 
+                      <i>
+                        Imminent Dawn
+                      </i>
                     </p>
                   </div>
                 </div>
@@ -1056,10 +1062,16 @@ exports[`BooksLanding > default snapshot 1`] = `
                     </g>
                   </svg>
                   <h3>
-                    Campbell is a master storyteller... a breath of fresh air.
+                    An incisive techno-thriller that gets more tense with every page...
                   </h3>
                   <p>
-                    - author Jeremy Martin
+                    - Matt Forbeck, New York Times bestselling author
+                  </p>
+                  <p>
+                    on 
+                    <i>
+                      Imminent Dawn
+                    </i>
                   </p>
                 </div>
               </div>
