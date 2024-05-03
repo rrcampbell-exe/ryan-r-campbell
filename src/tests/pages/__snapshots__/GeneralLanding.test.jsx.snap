@@ -59,6 +59,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </button>
             <div
               class="Hamburger-menu "
+              data-testid="menu"
             >
               <button
                 class="theme-toggle-button"
@@ -128,7 +129,9 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <div
                   class="icon-container"
                 >
-                  <button>
+                  <button
+                    data-testid="close-button"
+                  >
                     <svg
                       height="35px"
                       viewBox="0 0 24 24"
@@ -805,6 +808,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
           </button>
           <div
             class="Hamburger-menu "
+            data-testid="menu"
           >
             <button
               class="theme-toggle-button"
@@ -874,7 +878,9 @@ exports[`GeneralLanding > default snapshot 1`] = `
               <div
                 class="icon-container"
               >
-                <button>
+                <button
+                  data-testid="close-button"
+                >
                   <svg
                     height="35px"
                     viewBox="0 0 24 24"

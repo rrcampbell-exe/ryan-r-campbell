@@ -59,6 +59,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
             </button>
             <div
               class="Hamburger-menu "
+              data-testid="menu"
             >
               <button
                 class="theme-toggle-button"
@@ -128,7 +129,9 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 <div
                   class="icon-container"
                 >
-                  <button>
+                  <button
+                    data-testid="close-button"
+                  >
                     <svg
                       height="35px"
                       viewBox="0 0 24 24"
@@ -419,15 +422,15 @@ exports[`AuthorLanding > default snapshot 1`] = `
                       </g>
                     </svg>
                     <h3>
-                      Fast-paced and laugh-out-loud witty. I highly recommend this book.
+                      Lyrical, thought-provoking, poignant, and memorable...
                     </h3>
                     <p>
-                      - Michelle Caffrey, Wisconsin Writers Association
+                      - author Valerie Biel
                     </p>
                     <p>
                       on 
                       <i>
-                        Scambait
+                        And Ampersand
                       </i>
                     </p>
                   </div>
@@ -751,6 +754,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
           </button>
           <div
             class="Hamburger-menu "
+            data-testid="menu"
           >
             <button
               class="theme-toggle-button"
@@ -820,7 +824,9 @@ exports[`AuthorLanding > default snapshot 1`] = `
               <div
                 class="icon-container"
               >
-                <button>
+                <button
+                  data-testid="close-button"
+                >
                   <svg
                     height="35px"
                     viewBox="0 0 24 24"
@@ -1111,15 +1117,15 @@ exports[`AuthorLanding > default snapshot 1`] = `
                     </g>
                   </svg>
                   <h3>
-                    Fast-paced and laugh-out-loud witty. I highly recommend this book.
+                    Lyrical, thought-provoking, poignant, and memorable...
                   </h3>
                   <p>
-                    - Michelle Caffrey, Wisconsin Writers Association
+                    - author Valerie Biel
                   </p>
                   <p>
                     on 
                     <i>
-                      Scambait
+                      And Ampersand
                     </i>
                   </p>
                 </div>

@@ -59,6 +59,7 @@ exports[`BooksLanding > default snapshot 1`] = `
             </button>
             <div
               class="Hamburger-menu "
+              data-testid="menu"
             >
               <button
                 class="theme-toggle-button"
@@ -128,7 +129,9 @@ exports[`BooksLanding > default snapshot 1`] = `
                 <div
                   class="icon-container"
                 >
-                  <button>
+                  <button
+                    data-testid="close-button"
+                  >
                     <svg
                       height="35px"
                       viewBox="0 0 24 24"
@@ -489,15 +492,15 @@ exports[`BooksLanding > default snapshot 1`] = `
                       </g>
                     </svg>
                     <h3>
-                      [Imminent Dawn is] a rollercoaster of intrigue, suspense, and gorgeously crafted wonder.
+                      Fast-paced and laugh-out-loud witty. I highly recommend this book.
                     </h3>
                     <p>
-                      - author Evie Drae
+                      - Michelle Caffrey, Wisconsin Writers Association
                     </p>
                     <p>
                       on 
                       <i>
-                        Imminent Dawn
+                        Scambait
                       </i>
                     </p>
                   </div>
@@ -632,6 +635,7 @@ exports[`BooksLanding > default snapshot 1`] = `
           </button>
           <div
             class="Hamburger-menu "
+            data-testid="menu"
           >
             <button
               class="theme-toggle-button"
@@ -701,7 +705,9 @@ exports[`BooksLanding > default snapshot 1`] = `
               <div
                 class="icon-container"
               >
-                <button>
+                <button
+                  data-testid="close-button"
+                >
                   <svg
                     height="35px"
                     viewBox="0 0 24 24"
@@ -1062,15 +1068,15 @@ exports[`BooksLanding > default snapshot 1`] = `
                     </g>
                   </svg>
                   <h3>
-                    [Imminent Dawn is] a rollercoaster of intrigue, suspense, and gorgeously crafted wonder.
+                    Fast-paced and laugh-out-loud witty. I highly recommend this book.
                   </h3>
                   <p>
-                    - author Evie Drae
+                    - Michelle Caffrey, Wisconsin Writers Association
                   </p>
                   <p>
                     on 
                     <i>
-                      Imminent Dawn
+                      Scambait
                     </i>
                   </p>
                 </div>
