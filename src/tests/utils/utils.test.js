@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { buildNavURL, extractHTMLContent, fetchEpisode, fetchPost, findEpisodeUUID, formatDate } from '../../utils/index.js'
 import podcasts from '../../assets/podcasts/pinecast-podcasts.js'
-import posts from '../../assets/posts/posts.js'
+import legacyPosts from '../../assets/posts/legacy-posts.js'
 
 describe('utils', () => {
   test('buildNavURL should return the correct URL', () => {
@@ -47,15 +47,15 @@ describe('utils', () => {
     const month = '05'
     const day = '19'
     const slug = 'from-conference-to-coffee-on-the-beach'
-    const result = fetchPost(year, month, day, slug, posts)
-    expect(result).toEqual(posts[0])
+    const result = fetchPost(year, month, day, slug, legacyPosts)
+    expect(result).toEqual(legacyPosts[0])
   })
   test('fetchPost should return null when no matching post is found', () => {
     const year = '2022'
     const month = '05'
     const day = '20'
     const slug = 'from-conference-to-coffee-on-the-beach'
-    const result = fetchPost(year, month, day, slug, posts)
+    const result = fetchPost(year, month, day, slug, legacyPosts)
     expect(result).toBe(null)
   })
 

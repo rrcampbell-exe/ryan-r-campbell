@@ -9,7 +9,7 @@ const Books = () => {
       {books.map((book) => (
         <div key={book.id} onClick={() => navigate('/books')}>
           <div className='book grow-on-hover'>
-            <img className='book-cover' src={book.cover} alt={book.alt} />
+            <img data-testid='book-cover' className='book-cover' src={book.cover} alt={book.alt} />
             <h3 className='book-title'>{book.title}</h3>
             <p>{book.summary}</p>
             <Link to={'/books'}>read more</Link>

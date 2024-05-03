@@ -14,12 +14,12 @@ describe('BooksLanding', () => {
   })
 
   test('renders the correct number of books', () => {
-    render(
+    const { container } = render(
       <ContextAndRouterProvider>
         <BooksLanding />
       </ContextAndRouterProvider>
     )
-    const books = screen.getAllByRole('img')
+    const books = container.querySelectorAll('.book-cover')
     expect(books.length).toBe(4)
   })
 

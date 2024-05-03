@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`BooksLanding > default snapshot 1`] = `
+exports[`BlogLanding > default snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -26,7 +26,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                  campbell
               </h1>
               <h2>
-                international book awards finalist
+                blogger
               </h2>
             </div>
           </a>
@@ -185,322 +185,285 @@ exports[`BooksLanding > default snapshot 1`] = `
             </div>
           </div>
         </header>
-        <nav
-          class="SubNav"
-        >
-          <div
-            class="section"
-          >
-            <a
-              href="#scambait"
-            >
-              scambait
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#and-ampersand"
-            >
-              and ampersand
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#imminent-dawn"
-            >
-              imminent dawn
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#mourning-dove"
-            >
-              mourning dove
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#reviews"
-            >
-              reviews
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#contact"
-            >
-              contact
-            </a>
-          </div>
-        </nav>
         <main
-          class="Books-landing"
+          class="ContentHub"
         >
           <div
-            class="section-wrapper book-section"
-            id="scambait"
+            class="ContentTeaser"
+            data-testid="blog-teaser"
           >
-            <div
-              class="book-wrapper"
-            >
-              <img
-                class="book-cover"
-                src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
-              />
-            </div>
-            <div
-              class="section-wrapper book-metadata"
-            >
-              <h2
-                class="book-title"
-              >
-                <i>
-                  scambait
-                </i>
-              </h2>
-              <p
-                class="book-genre"
-              >
-                Contemporary Fiction | Humor
-              </p>
-              <p>
-                <i>
-                  The 2022 International Book Awards Finalist in Humor and Satire.
-                </i>
-              </p>
-              <p>
-                Ever since his grandma squandered the family fortune to two-bit hucksters from “Microsoft Tech Support,” corporate do-little Eric Amundsen has spent his workdays wasting the time of Nigerian princes and car warranty salesmen everywhere.
-              </p>
-              <p>
-                But when Eric's supposedly long-deceased father contacts him through his spam folder, Eric—whose workday mantra isn't exactly “solutions-oriented”—has serious problems to solve.
-              </p>
+            <div>
               <div
-                class="book-cta-button-container"
+                class="content-post grow-on-hover"
               >
-                <button
-                  data-testid="scambait"
-                >
-                  read a sample
-                </button>
-                <button
-                  data-testid="https://www.amazon.com/dp/B09SY4P6FR"
-                >
-                  buy this book
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="section-wrapper book-section"
-            id="and-ampersand"
-          >
-            <div
-              class="book-wrapper"
-            >
-              <img
-                class="book-cover"
-                src="./books/and-ampersand/and-ampersand-flat-cover.png"
-              />
-            </div>
-            <div
-              class="section-wrapper book-metadata"
-            >
-              <h2
-                class="book-title"
-              >
-                <i>
-                  and ampersand
-                </i>
-              </h2>
-              <p
-                class="book-genre"
-              >
-                Works of Short Fiction
-              </p>
-              <p>
-                <i>
-                  The perfect pocket companion for any reader who's tussled with the tie between beginning and end.
-                </i>
-              </p>
-              <p>
-                Your death comes on slowly, while elsewhere, a nameless man fakes his own. Encased in glass, a young man navigates a world meant for those beyond. A mudslide washes away a once romantic weekend, and a childhood swim drowns all illusion of innocence.
-              </p>
-              <p>
-                These are but some of the tales in this collection of flash fiction, short stories, and freeform prose.
-              </p>
-              <div
-                class="book-cta-button-container"
-              >
-                <button
-                  data-testid="and-ampersand"
-                >
-                  read a sample
-                </button>
-                <button
-                  data-testid="https://www.amazon.com/dp/1736387111"
-                >
-                  buy this book
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="section-wrapper book-section"
-            id="imminent-dawn"
-          >
-            <div
-              class="book-wrapper"
-            >
-              <img
-                class="book-cover"
-                src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
-              />
-            </div>
-            <div
-              class="section-wrapper book-metadata"
-            >
-              <h2
-                class="book-title"
-              >
-                <i>
-                  imminent dawn
-                </i>
-              </h2>
-              <p
-                class="book-genre"
-              >
-                Science Fiction
-              </p>
-              <p>
-                <i>
-                  The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.
-                </i>
-              </p>
-              <p>
-                When an art-school dropout enrolls in the first round of human trials for an internet-access brain implant, she never expects to find herself at the center of conspiracies stretching from the highest levels of the North American Union government to the lowest dredges of its shadowy hacking collectives.
-              </p>
-              <div
-                class="book-cta-button-container"
-              >
-                <button
-                  data-testid="imminent-dawn"
-                >
-                  read a sample
-                </button>
-                <button
-                  data-testid="https://www.amazon.com/dp/B07N1Q8C6G"
-                >
-                  buy this book
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="section-wrapper book-section"
-            id="mourning-dove"
-          >
-            <div
-              class="book-wrapper"
-            >
-              <img
-                class="book-cover"
-                src="./books/mourning-dove/mourning-dove-flat-cover.png"
-              />
-            </div>
-            <div
-              class="section-wrapper book-metadata"
-            >
-              <h2
-                class="book-title"
-              >
-                <i>
-                  mourning dove
-                </i>
-              </h2>
-              <p
-                class="book-genre"
-              >
-                Science Fiction
-              </p>
-              <p>
-                <i>
-                  The sequel to International Book Awards finalist, Imminent Dawn.
-                </i>
-              </p>
-              <p>
-                In the aftermath of the Human/Etech research study, spouse is further pit against spouse, brother against sister, and governments against their people. In the end, all must choose between reclaiming the past or surrendering to an intractable world of their own creation.
-              </p>
-              <div
-                class="book-cta-button-container"
-              >
-                <button
-                  data-testid="mourning-dove"
-                >
-                  read a sample
-                </button>
-                <button
-                  data-testid="https://www.amazon.com/dp/B07QZGSDX6"
-                >
-                  buy this book
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            class="section-wrapper"
-            id="reviews"
-          >
-            <h2>
-              reviews
-            </h2>
-            <div
-              class="Reviews"
-            >
-              <div>
+                <img
+                  class="cover-image"
+                  src="/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
+                />
+                <h3>
+                  Welcome to the New Ryan R. Campbell (Or at Least the New Website)
+                </h3>
+                <span>
+                  Posted on 
+                  May 3, 2024
+                </span>
+                <p>
+                  It's been a while—nearly two years, to be exact—but golly, do I have some updates.
+                </p>
                 <div
-                  class="pop-content-slow"
+                  class="teaser-tags"
                 >
-                  <div
-                    class="review-container grow-on-hover"
-                  >
-                    <svg
-                      class="quotes-svg"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g>
-                        <path
-                          d="M0 0h24v24H0z"
-                          fill="none"
-                        />
-                        <path
-                          d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"
-                        />
-                      </g>
-                    </svg>
-                    <h3>
-                      Campbell is a master storyteller... a breath of fresh air.
-                    </h3>
-                    <p>
-                      - author Jeremy Martin
-                    </p>
-                  </div>
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    SITE MIGRATION, WEB DEVELOPMENT, ON WRITING
+                  </p>
                 </div>
+                <a
+                  href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  class="cover-image"
+                  src="/wp-content/uploads/2022/05/Ryan-R-Campbell-Lakefly-Conference-and-Puerto-Rico-Recap.jpg"
+                />
+                <h3>
+                  From Conference to Coffee (On the Beach)
+                </h3>
+                <span>
+                  Posted on 
+                  May 19, 2022
+                </span>
+                <p>
+                  After a couple of years off the speakers' circuit and without a vacation (thanks, pandemic), the last couple of weeks were a welcome reprieve.
+                </p>
+                <a
+                  href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  class="cover-image"
+                  src="/wp-content/uploads/2022/05/Not-a-Cult-I-Promise-Announcement-Header-Ryan-R-Campbell.jpg"
+                />
+                <h3>
+                  Not A Cult, I Promise: On What Comes Next
+                </h3>
+                <span>
+                  Posted on 
+                  May 16, 2022
+                </span>
+                <p>
+                  Scambait is finally here! But what comes next?
+                </p>
+                <a
+                  href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  class="cover-image"
+                  src="/wp-content/uploads/2022/04/Scambait-Release-Post-Cover-Image.jpg"
+                />
+                <h3>
+                  Happy Book Birthday to Scambait!
+                </h3>
+                <span>
+                  Posted on 
+                  April 18, 2022
+                </span>
+                <p>
+                  Scambait is now available from retailers everywhere!
+                </p>
+                <a
+                  href="/2022/04/18/happy-book-birthday-to-scambait/"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  class="cover-image"
+                  src="/wp-content/uploads/2022/02/Scambait-Book-Cover-Reveal-Teaser-No-Date.png"
+                />
+                <h3>
+                  The SCAMBAIT Cover Reveal!
+                </h3>
+                <span>
+                  Posted on 
+                  February 23, 2022
+                </span>
+                <p>
+                  Surprise! It's time for the SCAMBAIT cover reveal.
+                </p>
+                <a
+                  href="/2022/02/23/the-scambait-cover-reveal/"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  class="cover-image"
+                  src="/wp-content/uploads/2022/02/Scambait-Cover-Copy-Blog-Post-Header.jpg"
+                />
+                <h3>
+                  Your First Look: A Scambait Back Cover Teaser!
+                </h3>
+                <span>
+                  Posted on 
+                  February 8, 2022
+                </span>
+                <p>
+                  The work to publish Scambait is progressing nicely, but I need your help to continue—and I've got a teaser in exchange for your help.
+                </p>
+                <a
+                  href="/2022/02/08/your-first-look-a-scambait-back-cover-teaser/"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  class="cover-image"
+                  src="/wp-content/uploads/2022/01/Hop-in-My-Step-January-2022-Scambait-Update.png"
+                />
+                <h3>
+                  A Hop In My Step: The Revision Division (And More!)
+                </h3>
+                <span>
+                  Posted on 
+                  January 25, 2022
+                </span>
+                <p>
+                  In the last week, I've completed revisions for the final draft of Scambait, have begun to work on the back cover copy, and I've initiated conversations with book cover designers.
+                </p>
+                <a
+                  href="/2022/01/25/a-hop-in-my-step-the-revision-division-and-more/"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  class="cover-image"
+                  src="/wp-content/uploads/2022/01/2022-Blog-Post-Calendar-Routines-Habits.png"
+                />
+                <h3>
+                  Old Habits, Born Hard, Never Dead
+                </h3>
+                <span>
+                  Posted on 
+                  January 11, 2022
+                </span>
+                <p>
+                  In a new home in a new city with a new schedule, re-establishing a writing routine has proven challenging.
+                </p>
+                <a
+                  href="/2022/01/11/old-habits-born-hard-never-dead/"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  class="cover-image"
+                  src="/wp-content/uploads/2021/12/Across-the-Threshold-2022-Starter-Post.png"
+                />
+                <h3>
+                  And So, Again: Across the Threshold
+                </h3>
+                <span>
+                  Posted on 
+                  January 1, 2022
+                </span>
+                <p>
+                  Nearly seven months after the announcement I'd be stepping away for a time, I'm here to tell you I'm back.
+                </p>
+                <a
+                  href="/2022/01/01/and-so-again-across-the-threshold/"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
               </div>
             </div>
           </div>
           <div
-            class="shadow-bg-main-accent section-wrapper"
+            class="content-hub-nav"
+          >
+            <button>
+              load more posts
+            </button>
+          </div>
+          <div
+            class="section-wrapper shadow-bg-main-accent"
             id="contact"
           >
             <h2>
@@ -593,7 +556,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                campbell
             </h1>
             <h2>
-              international book awards finalist
+              blogger
             </h2>
           </div>
         </a>
@@ -752,322 +715,285 @@ exports[`BooksLanding > default snapshot 1`] = `
           </div>
         </div>
       </header>
-      <nav
-        class="SubNav"
-      >
-        <div
-          class="section"
-        >
-          <a
-            href="#scambait"
-          >
-            scambait
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#and-ampersand"
-          >
-            and ampersand
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#imminent-dawn"
-          >
-            imminent dawn
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#mourning-dove"
-          >
-            mourning dove
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#reviews"
-          >
-            reviews
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#contact"
-          >
-            contact
-          </a>
-        </div>
-      </nav>
       <main
-        class="Books-landing"
+        class="ContentHub"
       >
         <div
-          class="section-wrapper book-section"
-          id="scambait"
+          class="ContentTeaser"
+          data-testid="blog-teaser"
         >
-          <div
-            class="book-wrapper"
-          >
-            <img
-              class="book-cover"
-              src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
-            />
-          </div>
-          <div
-            class="section-wrapper book-metadata"
-          >
-            <h2
-              class="book-title"
-            >
-              <i>
-                scambait
-              </i>
-            </h2>
-            <p
-              class="book-genre"
-            >
-              Contemporary Fiction | Humor
-            </p>
-            <p>
-              <i>
-                The 2022 International Book Awards Finalist in Humor and Satire.
-              </i>
-            </p>
-            <p>
-              Ever since his grandma squandered the family fortune to two-bit hucksters from “Microsoft Tech Support,” corporate do-little Eric Amundsen has spent his workdays wasting the time of Nigerian princes and car warranty salesmen everywhere.
-            </p>
-            <p>
-              But when Eric's supposedly long-deceased father contacts him through his spam folder, Eric—whose workday mantra isn't exactly “solutions-oriented”—has serious problems to solve.
-            </p>
+          <div>
             <div
-              class="book-cta-button-container"
+              class="content-post grow-on-hover"
             >
-              <button
-                data-testid="scambait"
-              >
-                read a sample
-              </button>
-              <button
-                data-testid="https://www.amazon.com/dp/B09SY4P6FR"
-              >
-                buy this book
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="section-wrapper book-section"
-          id="and-ampersand"
-        >
-          <div
-            class="book-wrapper"
-          >
-            <img
-              class="book-cover"
-              src="./books/and-ampersand/and-ampersand-flat-cover.png"
-            />
-          </div>
-          <div
-            class="section-wrapper book-metadata"
-          >
-            <h2
-              class="book-title"
-            >
-              <i>
-                and ampersand
-              </i>
-            </h2>
-            <p
-              class="book-genre"
-            >
-              Works of Short Fiction
-            </p>
-            <p>
-              <i>
-                The perfect pocket companion for any reader who's tussled with the tie between beginning and end.
-              </i>
-            </p>
-            <p>
-              Your death comes on slowly, while elsewhere, a nameless man fakes his own. Encased in glass, a young man navigates a world meant for those beyond. A mudslide washes away a once romantic weekend, and a childhood swim drowns all illusion of innocence.
-            </p>
-            <p>
-              These are but some of the tales in this collection of flash fiction, short stories, and freeform prose.
-            </p>
-            <div
-              class="book-cta-button-container"
-            >
-              <button
-                data-testid="and-ampersand"
-              >
-                read a sample
-              </button>
-              <button
-                data-testid="https://www.amazon.com/dp/1736387111"
-              >
-                buy this book
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="section-wrapper book-section"
-          id="imminent-dawn"
-        >
-          <div
-            class="book-wrapper"
-          >
-            <img
-              class="book-cover"
-              src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
-            />
-          </div>
-          <div
-            class="section-wrapper book-metadata"
-          >
-            <h2
-              class="book-title"
-            >
-              <i>
-                imminent dawn
-              </i>
-            </h2>
-            <p
-              class="book-genre"
-            >
-              Science Fiction
-            </p>
-            <p>
-              <i>
-                The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.
-              </i>
-            </p>
-            <p>
-              When an art-school dropout enrolls in the first round of human trials for an internet-access brain implant, she never expects to find herself at the center of conspiracies stretching from the highest levels of the North American Union government to the lowest dredges of its shadowy hacking collectives.
-            </p>
-            <div
-              class="book-cta-button-container"
-            >
-              <button
-                data-testid="imminent-dawn"
-              >
-                read a sample
-              </button>
-              <button
-                data-testid="https://www.amazon.com/dp/B07N1Q8C6G"
-              >
-                buy this book
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="section-wrapper book-section"
-          id="mourning-dove"
-        >
-          <div
-            class="book-wrapper"
-          >
-            <img
-              class="book-cover"
-              src="./books/mourning-dove/mourning-dove-flat-cover.png"
-            />
-          </div>
-          <div
-            class="section-wrapper book-metadata"
-          >
-            <h2
-              class="book-title"
-            >
-              <i>
-                mourning dove
-              </i>
-            </h2>
-            <p
-              class="book-genre"
-            >
-              Science Fiction
-            </p>
-            <p>
-              <i>
-                The sequel to International Book Awards finalist, Imminent Dawn.
-              </i>
-            </p>
-            <p>
-              In the aftermath of the Human/Etech research study, spouse is further pit against spouse, brother against sister, and governments against their people. In the end, all must choose between reclaiming the past or surrendering to an intractable world of their own creation.
-            </p>
-            <div
-              class="book-cta-button-container"
-            >
-              <button
-                data-testid="mourning-dove"
-              >
-                read a sample
-              </button>
-              <button
-                data-testid="https://www.amazon.com/dp/B07QZGSDX6"
-              >
-                buy this book
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="section-wrapper"
-          id="reviews"
-        >
-          <h2>
-            reviews
-          </h2>
-          <div
-            class="Reviews"
-          >
-            <div>
+              <img
+                class="cover-image"
+                src="/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
+              />
+              <h3>
+                Welcome to the New Ryan R. Campbell (Or at Least the New Website)
+              </h3>
+              <span>
+                Posted on 
+                May 3, 2024
+              </span>
+              <p>
+                It's been a while—nearly two years, to be exact—but golly, do I have some updates.
+              </p>
               <div
-                class="pop-content-slow"
+                class="teaser-tags"
               >
-                <div
-                  class="review-container grow-on-hover"
-                >
-                  <svg
-                    class="quotes-svg"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g>
-                      <path
-                        d="M0 0h24v24H0z"
-                        fill="none"
-                      />
-                      <path
-                        d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"
-                      />
-                    </g>
-                  </svg>
-                  <h3>
-                    Campbell is a master storyteller... a breath of fresh air.
-                  </h3>
-                  <p>
-                    - author Jeremy Martin
-                  </p>
-                </div>
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  SITE MIGRATION, WEB DEVELOPMENT, ON WRITING
+                </p>
               </div>
+              <a
+                href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
+              >
+                read more
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                class="cover-image"
+                src="/wp-content/uploads/2022/05/Ryan-R-Campbell-Lakefly-Conference-and-Puerto-Rico-Recap.jpg"
+              />
+              <h3>
+                From Conference to Coffee (On the Beach)
+              </h3>
+              <span>
+                Posted on 
+                May 19, 2022
+              </span>
+              <p>
+                After a couple of years off the speakers' circuit and without a vacation (thanks, pandemic), the last couple of weeks were a welcome reprieve.
+              </p>
+              <a
+                href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
+              >
+                read more
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                class="cover-image"
+                src="/wp-content/uploads/2022/05/Not-a-Cult-I-Promise-Announcement-Header-Ryan-R-Campbell.jpg"
+              />
+              <h3>
+                Not A Cult, I Promise: On What Comes Next
+              </h3>
+              <span>
+                Posted on 
+                May 16, 2022
+              </span>
+              <p>
+                Scambait is finally here! But what comes next?
+              </p>
+              <a
+                href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
+              >
+                read more
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                class="cover-image"
+                src="/wp-content/uploads/2022/04/Scambait-Release-Post-Cover-Image.jpg"
+              />
+              <h3>
+                Happy Book Birthday to Scambait!
+              </h3>
+              <span>
+                Posted on 
+                April 18, 2022
+              </span>
+              <p>
+                Scambait is now available from retailers everywhere!
+              </p>
+              <a
+                href="/2022/04/18/happy-book-birthday-to-scambait/"
+              >
+                read more
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                class="cover-image"
+                src="/wp-content/uploads/2022/02/Scambait-Book-Cover-Reveal-Teaser-No-Date.png"
+              />
+              <h3>
+                The SCAMBAIT Cover Reveal!
+              </h3>
+              <span>
+                Posted on 
+                February 23, 2022
+              </span>
+              <p>
+                Surprise! It's time for the SCAMBAIT cover reveal.
+              </p>
+              <a
+                href="/2022/02/23/the-scambait-cover-reveal/"
+              >
+                read more
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                class="cover-image"
+                src="/wp-content/uploads/2022/02/Scambait-Cover-Copy-Blog-Post-Header.jpg"
+              />
+              <h3>
+                Your First Look: A Scambait Back Cover Teaser!
+              </h3>
+              <span>
+                Posted on 
+                February 8, 2022
+              </span>
+              <p>
+                The work to publish Scambait is progressing nicely, but I need your help to continue—and I've got a teaser in exchange for your help.
+              </p>
+              <a
+                href="/2022/02/08/your-first-look-a-scambait-back-cover-teaser/"
+              >
+                read more
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                class="cover-image"
+                src="/wp-content/uploads/2022/01/Hop-in-My-Step-January-2022-Scambait-Update.png"
+              />
+              <h3>
+                A Hop In My Step: The Revision Division (And More!)
+              </h3>
+              <span>
+                Posted on 
+                January 25, 2022
+              </span>
+              <p>
+                In the last week, I've completed revisions for the final draft of Scambait, have begun to work on the back cover copy, and I've initiated conversations with book cover designers.
+              </p>
+              <a
+                href="/2022/01/25/a-hop-in-my-step-the-revision-division-and-more/"
+              >
+                read more
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                class="cover-image"
+                src="/wp-content/uploads/2022/01/2022-Blog-Post-Calendar-Routines-Habits.png"
+              />
+              <h3>
+                Old Habits, Born Hard, Never Dead
+              </h3>
+              <span>
+                Posted on 
+                January 11, 2022
+              </span>
+              <p>
+                In a new home in a new city with a new schedule, re-establishing a writing routine has proven challenging.
+              </p>
+              <a
+                href="/2022/01/11/old-habits-born-hard-never-dead/"
+              >
+                read more
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                class="cover-image"
+                src="/wp-content/uploads/2021/12/Across-the-Threshold-2022-Starter-Post.png"
+              />
+              <h3>
+                And So, Again: Across the Threshold
+              </h3>
+              <span>
+                Posted on 
+                January 1, 2022
+              </span>
+              <p>
+                Nearly seven months after the announcement I'd be stepping away for a time, I'm here to tell you I'm back.
+              </p>
+              <a
+                href="/2022/01/01/and-so-again-across-the-threshold/"
+              >
+                read more
+              </a>
+              <div
+                class="content-post-underline"
+              />
             </div>
           </div>
         </div>
         <div
-          class="shadow-bg-main-accent section-wrapper"
+          class="content-hub-nav"
+        >
+          <button>
+            load more posts
+          </button>
+        </div>
+        <div
+          class="section-wrapper shadow-bg-main-accent"
           id="contact"
         >
           <h2>

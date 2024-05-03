@@ -290,6 +290,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   <img
                     alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
                     class="book-cover"
+                    data-testid="book-cover"
                     src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
                   />
                   <h3
@@ -314,6 +315,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   <img
                     alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
                     class="book-cover"
+                    data-testid="book-cover"
                     src="./books/and-ampersand/and-ampersand-flat-cover.png"
                   />
                   <h3
@@ -338,6 +340,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   <img
                     alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
                     class="book-cover"
+                    data-testid="book-cover"
                     src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
                   />
                   <h3
@@ -362,6 +365,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   <img
                     alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
                     class="book-cover"
+                    data-testid="book-cover"
                     src="./books/mourning-dove/mourning-dove-flat-cover.png"
                   />
                   <h3
@@ -414,16 +418,10 @@ exports[`AuthorLanding > default snapshot 1`] = `
                       </g>
                     </svg>
                     <h3>
-                      [Imminent Dawn] hooked me and reeled me in with twists aplenty... intriguing, troubling, and all too real-feeling.
+                      Campbell is a master storyteller... a breath of fresh air.
                     </h3>
                     <p>
-                      - Dan Schiro, author of Rogue Destiny and This Bloody Game
-                    </p>
-                    <p>
-                      on 
-                      <i>
-                        Imminent Dawn
-                      </i>
+                      - author Jeremy Martin
                     </p>
                   </div>
                 </div>
@@ -977,6 +975,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 <img
                   alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
                   class="book-cover"
+                  data-testid="book-cover"
                   src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
                 />
                 <h3
@@ -1001,6 +1000,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 <img
                   alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
                   class="book-cover"
+                  data-testid="book-cover"
                   src="./books/and-ampersand/and-ampersand-flat-cover.png"
                 />
                 <h3
@@ -1025,6 +1025,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 <img
                   alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
                   class="book-cover"
+                  data-testid="book-cover"
                   src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
                 />
                 <h3
@@ -1049,6 +1050,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 <img
                   alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
                   class="book-cover"
+                  data-testid="book-cover"
                   src="./books/mourning-dove/mourning-dove-flat-cover.png"
                 />
                 <h3
@@ -1101,16 +1103,10 @@ exports[`AuthorLanding > default snapshot 1`] = `
                     </g>
                   </svg>
                   <h3>
-                    [Imminent Dawn] hooked me and reeled me in with twists aplenty... intriguing, troubling, and all too real-feeling.
+                    Campbell is a master storyteller... a breath of fresh air.
                   </h3>
                   <p>
-                    - Dan Schiro, author of Rogue Destiny and This Bloody Game
-                  </p>
-                  <p>
-                    on 
-                    <i>
-                      Imminent Dawn
-                    </i>
+                    - author Jeremy Martin
                   </p>
                 </div>
               </div>
