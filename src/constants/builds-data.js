@@ -25,7 +25,7 @@ const builds = [
     logo: './builds/file-info-svgrepo-com.png',
     alt: 'A piece of paper with a folded corner and a lower-case letter I',
     title: 'README Generator',
-    teaser: 'Make a README users will actually read.',
+    teaser: 'Make READMEs users will actually read.',
     description: 'This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!',
     technologies: 'Node, Inquirer, fs, JavaScript, ESM',
     gitHub: 'https://github.com/rrcampbell-exe/readme-generator'
@@ -36,7 +36,7 @@ const builds = [
     title: 'The Ryan R. Campbell Website',
     teaser: 'Books and builds and blogs, oh my!',
     description: 'The blog, portfolio, and personal site for author and technologist Ryan R. Campbell.',
-    technologies: 'React, Sass, Vite, react-router, visx',
+    technologies: 'React, Sass, Vite, react-router, visx, Vitest, @testing-library/react, husky',
     link: 'https://ryanrcampbell.com/',
     linkText: 'return to the homepage',
     gitHub: 'https://github.com/rrcampbell-exe/ryan-r-campbell'
