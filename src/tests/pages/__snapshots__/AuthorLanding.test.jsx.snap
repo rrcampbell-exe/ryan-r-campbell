@@ -414,10 +414,16 @@ exports[`AuthorLanding > default snapshot 1`] = `
                       </g>
                     </svg>
                     <h3>
-                      Campbell is a master storyteller... a breath of fresh air.
+                      [Imminent Dawn] hooked me and reeled me in with twists aplenty... intriguing, troubling, and all too real-feeling.
                     </h3>
                     <p>
-                      - author Jeremy Martin
+                      - Dan Schiro, author of Rogue Destiny and This Bloody Game
+                    </p>
+                    <p>
+                      on 
+                      <i>
+                        Imminent Dawn
+                      </i>
                     </p>
                   </div>
                 </div>
@@ -1095,10 +1101,16 @@ exports[`AuthorLanding > default snapshot 1`] = `
                     </g>
                   </svg>
                   <h3>
-                    Campbell is a master storyteller... a breath of fresh air.
+                    [Imminent Dawn] hooked me and reeled me in with twists aplenty... intriguing, troubling, and all too real-feeling.
                   </h3>
                   <p>
-                    - author Jeremy Martin
+                    - Dan Schiro, author of Rogue Destiny and This Bloody Game
+                  </p>
+                  <p>
+                    on 
+                    <i>
+                      Imminent Dawn
+                    </i>
                   </p>
                 </div>
               </div>
