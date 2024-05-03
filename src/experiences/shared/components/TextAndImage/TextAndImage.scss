@@ -12,8 +12,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 1rem 0 1rem 2rem;
     flex: 1 1 20rem;
+    padding: 1rem 2rem;
 
     img {
       max-width: 20rem;
@@ -31,6 +31,14 @@
       font-size: 0.875rem;
       display: block;
     }
+
+    @media (max-width: 600px) {
+      padding: 1rem 0;
+
+      img {
+        max-width: 80%;
+      }
+    }
   }
 
 }
@@ -39,6 +47,8 @@
   flex-direction: row-reverse;
 
   .image-block {
-    margin: 1rem 2rem 1rem 0;
+    @media (max-width: 600px) {
+      padding: 1rem 0;
+    }
   }
 }

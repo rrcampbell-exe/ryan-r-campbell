@@ -22,6 +22,15 @@ const builds = [
     gitHub: 'https://github.com/rrcampbell-exe/yarnsworths-tales'
   },
   {
+    logo: './builds/file-info-svgrepo-com.png',
+    alt: 'A piece of paper with a folded corner and a lower-case letter I',
+    title: 'README Generator',
+    teaser: 'Make a README users will actually read.',
+    description: 'This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!',
+    technologies: 'Node, Inquirer, fs, JavaScript, ESM',
+    gitHub: 'https://github.com/rrcampbell-exe/readme-generator'
+  },
+  {
     logo: './builds/ryan-r-campbell-app-logo.png',
     alt: 'A black-and-white image of Ryan R. Campbell gazing to the right',
     title: 'The Ryan R. Campbell Website',

@@ -1,9 +1,10 @@
 import React from 'react'
-import posts from '../../../../assets/posts/posts'
+import legacyPosts from '../../../../assets/posts/legacy-posts'
+import posts from '../../../../assets/posts/new-posts.jsx'
 import { useParams } from 'react-router-dom'
 import { fetchPost, formatDate, extractHTMLContent } from '../../../../utils'
 import { shortBio } from '../../../../constants'
-import { NotFound, Contact, PageWrapper, NotificationBanner } from '../'
+import { NotFound, Contact, PageWrapper, NotificationBanner, BlogTags } from '../'
 
 // TODO: need to insert category tags (if possible)
 // TODO: need to sanitize remaining HTML of comments related to divi
@@ -12,7 +13,9 @@ import { NotFound, Contact, PageWrapper, NotificationBanner } from '../'
 const BlogPost = () => {
   const { year, month, day, slug } = useParams()
 
-  const post = fetchPost(year, month, day, slug, posts)
+  const postsArr = parseInt(year) < 2023 ? legacyPosts : posts
+
+  const post = fetchPost(year, month, day, slug, postsArr)
 
   if (!post) return (
     <PageWrapper pageTitle='author | technologist'>
@@ -31,6 +34,8 @@ const BlogPost = () => {
   const { title: { rendered: title }, date, episode_featured_image, content: { rendered: contentToRender } } = post
 
   const HTMLcontent = extractHTMLContent(contentToRender)
+
+  console.log('this is HTML content', HTMLcontent)
 
   return (
     <PageWrapper pageTitle='author | technologist'>
@@ -57,6 +62,11 @@ const BlogPost = () => {
             </div>
           </div>
           <article dangerouslySetInnerHTML={{ __html: HTMLcontent }}/>
+          {year > 2023 && post.tags.length > 0 && (
+            <div className='tags'>
+              <BlogTags tags={post.tags} />
+            </div>
+          )}
         </div>
       </main>
     </PageWrapper>
