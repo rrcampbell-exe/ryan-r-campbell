@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { MoonSVG, SunSVG } from '../../../../assets/svg'
 import { ThemeContext } from '../../../../Theme'
 import { Link } from 'react-router-dom'
-import HamburgerMenu from '../HamburgerMenu/HamburgerMenu'
+import { HamburgerMenu } from '../'
 
 const Header = ({ pageTitle }) => {
   const { theme, toggleTheme } = useContext(ThemeContext)
