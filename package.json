@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0 --fix",
     "preview": "vite preview",
     "test": "vitest",
-    "prepush": "npm run test"
+    "prepush": "npm test"
   },
   "dependencies": {
     "@vercel/analytics": "^1.2.2",
