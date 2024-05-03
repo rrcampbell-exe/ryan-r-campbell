@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 const Books = () => {
   const navigate = useNavigate()
   return (
-    <div className='Books'>
+    <div className='Books' data-testid='books'>
       {books.map((book) => (
         <div key={book.id} onClick={() => navigate('/books')}>
           <div className='book grow-on-hover'>
