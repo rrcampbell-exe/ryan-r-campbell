@@ -6,7 +6,6 @@ import { fetchPost, formatDate, extractHTMLContent } from '../../../../utils'
 import { shortBio } from '../../../../constants'
 import { NotFound, Contact, PageWrapper, NotificationBanner, BlogTags } from '../'
 
-// TODO: need to insert category tags (if possible)
 // TODO: need to sanitize remaining HTML of comments related to divi
 // TODO: need to remove footer contents with book recommendation at the end
 
@@ -34,8 +33,6 @@ const BlogPost = () => {
   const { title: { rendered: title }, date, episode_featured_image, content: { rendered: contentToRender } } = post
 
   const HTMLcontent = extractHTMLContent(contentToRender)
-
-  console.log('this is HTML content', HTMLcontent)
 
   return (
     <PageWrapper pageTitle='author | technologist'>
