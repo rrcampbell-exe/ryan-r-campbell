@@ -2,9 +2,6 @@ import AuthorLanding from '../../experiences/author/pages/Landing/AuthorLanding'
 import { describe, expect, test } from 'vitest'
 import { screen, render, fireEvent } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
-import { featuredIn } from '../../constants'
-
-// TODO: add more testing for author landing page
 
 describe('AuthorLanding', () => {
   test('default snapshot', () => {
