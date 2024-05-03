@@ -419,10 +419,16 @@ exports[`AuthorLanding > default snapshot 1`] = `
                       </g>
                     </svg>
                     <h3>
-                      Campbell is a master storyteller... a breath of fresh air.
+                      Lyrical, thought-provoking, poignant, and memorable...
                     </h3>
                     <p>
-                      - author Jeremy Martin
+                      - author Valerie Biel
+                    </p>
+                    <p>
+                      on 
+                      <i>
+                        And Ampersand
+                      </i>
                     </p>
                   </div>
                 </div>
@@ -1105,10 +1111,16 @@ exports[`AuthorLanding > default snapshot 1`] = `
                     </g>
                   </svg>
                   <h3>
-                    Campbell is a master storyteller... a breath of fresh air.
+                    Lyrical, thought-provoking, poignant, and memorable...
                   </h3>
                   <p>
-                    - author Jeremy Martin
+                    - author Valerie Biel
+                  </p>
+                  <p>
+                    on 
+                    <i>
+                      And Ampersand
+                    </i>
                   </p>
                 </div>
               </div>
