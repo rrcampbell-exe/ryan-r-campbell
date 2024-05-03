@@ -282,6 +282,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
             </h2>
             <div
               class="Books"
+              data-testid="books"
             >
               <div>
                 <div
@@ -973,6 +974,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
           </h2>
           <div
             class="Books"
+            data-testid="books"
           >
             <div>
               <div
