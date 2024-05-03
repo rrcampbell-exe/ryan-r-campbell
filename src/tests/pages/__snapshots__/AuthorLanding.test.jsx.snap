@@ -414,16 +414,10 @@ exports[`AuthorLanding > default snapshot 1`] = `
                       </g>
                     </svg>
                     <h3>
-                      [Imminent Dawn is] a rollercoaster of intrigue, suspense, and gorgeously crafted wonder.
+                      Campbell is a master storyteller... a breath of fresh air.
                     </h3>
                     <p>
-                      - author Evie Drae
-                    </p>
-                    <p>
-                      on 
-                      <i>
-                        Imminent Dawn
-                      </i>
+                      - author Jeremy Martin
                     </p>
                   </div>
                 </div>
@@ -674,9 +668,19 @@ exports[`AuthorLanding > default snapshot 1`] = `
           </div>
         </main>
         <footer>
-          © 2012 - 
-          2024
-           Ryan R. Campbell
+          <div
+            class="site-logo-container"
+          >
+            <img
+              alt="ryan r. campbell logo"
+              src="/favicon-2024-ryan-r-campbell.png"
+            />
+          </div>
+          <span>
+            © 2012 - 
+            2024
+             Ryan R. Campbell
+          </span>
         </footer>
       </div>
     </div>
@@ -1091,16 +1095,10 @@ exports[`AuthorLanding > default snapshot 1`] = `
                     </g>
                   </svg>
                   <h3>
-                    [Imminent Dawn is] a rollercoaster of intrigue, suspense, and gorgeously crafted wonder.
+                    Campbell is a master storyteller... a breath of fresh air.
                   </h3>
                   <p>
-                    - author Evie Drae
-                  </p>
-                  <p>
-                    on 
-                    <i>
-                      Imminent Dawn
-                    </i>
+                    - author Jeremy Martin
                   </p>
                 </div>
               </div>
@@ -1351,9 +1349,19 @@ exports[`AuthorLanding > default snapshot 1`] = `
         </div>
       </main>
       <footer>
-        © 2012 - 
-        2024
-         Ryan R. Campbell
+        <div
+          class="site-logo-container"
+        >
+          <img
+            alt="ryan r. campbell logo"
+            src="/favicon-2024-ryan-r-campbell.png"
+          />
+        </div>
+        <span>
+          © 2012 - 
+          2024
+           Ryan R. Campbell
+        </span>
       </footer>
     </div>
   </div>,

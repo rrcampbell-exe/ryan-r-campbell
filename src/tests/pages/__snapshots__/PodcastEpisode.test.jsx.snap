@@ -281,9 +281,19 @@ exports[`PodcastEpisode > default snapshot 1`] = `
           </div>
         </main>
         <footer>
-          © 2012 - 
-          2024
-           Ryan R. Campbell
+          <div
+            class="site-logo-container"
+          >
+            <img
+              alt="ryan r. campbell logo"
+              src="/favicon-2024-ryan-r-campbell.png"
+            />
+          </div>
+          <span>
+            © 2012 - 
+            2024
+             Ryan R. Campbell
+          </span>
         </footer>
       </div>
     </div>
@@ -565,9 +575,19 @@ exports[`PodcastEpisode > default snapshot 1`] = `
         </div>
       </main>
       <footer>
-        © 2012 - 
-        2024
-         Ryan R. Campbell
+        <div
+          class="site-logo-container"
+        >
+          <img
+            alt="ryan r. campbell logo"
+            src="/favicon-2024-ryan-r-campbell.png"
+          />
+        </div>
+        <span>
+          © 2012 - 
+          2024
+           Ryan R. Campbell
+        </span>
       </footer>
     </div>
   </div>,
