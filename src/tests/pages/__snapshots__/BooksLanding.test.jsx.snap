@@ -492,15 +492,15 @@ exports[`BooksLanding > default snapshot 1`] = `
                       </g>
                     </svg>
                     <h3>
-                      [Imminent Dawn is] a rollercoaster of intrigue, suspense, and gorgeously crafted wonder.
+                      To say so much with so few words is a gift.
                     </h3>
                     <p>
-                      - author Evie Drae
+                      - Gregory Lee Renz, author of Beneath the Flames
                     </p>
                     <p>
                       on 
                       <i>
-                        Imminent Dawn
+                        And Ampersand
                       </i>
                     </p>
                   </div>
@@ -562,6 +562,12 @@ exports[`BooksLanding > default snapshot 1`] = `
             </div>
           </div>
         </main>
+        <div
+          data-testid="analytics"
+        />
+        <div
+          data-testid="speed-insights"
+        />
         <footer>
           <div
             class="site-logo-container"
@@ -1068,15 +1074,15 @@ exports[`BooksLanding > default snapshot 1`] = `
                     </g>
                   </svg>
                   <h3>
-                    [Imminent Dawn is] a rollercoaster of intrigue, suspense, and gorgeously crafted wonder.
+                    To say so much with so few words is a gift.
                   </h3>
                   <p>
-                    - author Evie Drae
+                    - Gregory Lee Renz, author of Beneath the Flames
                   </p>
                   <p>
                     on 
                     <i>
-                      Imminent Dawn
+                      And Ampersand
                     </i>
                   </p>
                 </div>
@@ -1138,6 +1144,12 @@ exports[`BooksLanding > default snapshot 1`] = `
           </div>
         </div>
       </main>
+      <div
+        data-testid="analytics"
+      />
+      <div
+        data-testid="speed-insights"
+      />
       <footer>
         <div
           class="site-logo-container"

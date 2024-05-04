@@ -519,6 +519,12 @@ exports[`BlogLanding > default snapshot 1`] = `
             </div>
           </div>
         </main>
+        <div
+          data-testid="analytics"
+        />
+        <div
+          data-testid="speed-insights"
+        />
         <footer>
           <div
             class="site-logo-container"
@@ -1052,6 +1058,12 @@ exports[`BlogLanding > default snapshot 1`] = `
           </div>
         </div>
       </main>
+      <div
+        data-testid="analytics"
+      />
+      <div
+        data-testid="speed-insights"
+      />
       <footer>
         <div
           class="site-logo-container"

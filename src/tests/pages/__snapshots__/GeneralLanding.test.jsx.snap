@@ -735,6 +735,12 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </div>
           </div>
         </main>
+        <div
+          data-testid="analytics"
+        />
+        <div
+          data-testid="speed-insights"
+        />
         <footer>
           <div
             class="site-logo-container"
@@ -1484,6 +1490,12 @@ exports[`GeneralLanding > default snapshot 1`] = `
           </div>
         </div>
       </main>
+      <div
+        data-testid="analytics"
+      />
+      <div
+        data-testid="speed-insights"
+      />
       <footer>
         <div
           class="site-logo-container"
