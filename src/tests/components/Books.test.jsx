@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { render } from '@testing-library/react'
+import { act, render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
 import { Books } from '../../experiences/shared/components'
 
@@ -30,7 +30,9 @@ describe('Books', () => {
     )
 
     const book = getAllByTestId('book-cover')[0]
-    book.click()
+    act(() => {
+      book.click()
+    })
     expect(window.location.pathname).toBe('/books')
   })
 })

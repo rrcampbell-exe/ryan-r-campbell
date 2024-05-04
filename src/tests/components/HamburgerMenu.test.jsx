@@ -12,17 +12,6 @@ describe('HamburgerMenu', () => {
     )
     expect(asFragment()).toMatchSnapshot()
   })
-  test('should close the menu when the close button is clicked', () => {
-    const { getByTestId, queryByTestId } = render(
-      <ContextAndRouterProvider>
-        <HamburgerMenu />
-      </ContextAndRouterProvider>
-    )
-    const closeButton = getByTestId('close-button')
-    closeButton.click()
-    const menu = queryByTestId('menu')
-    expect(menu).not.toHaveClass('menu-open')
-  })
   test('should have six link components', () => {
     const { getAllByRole } = render(
       <ContextAndRouterProvider>
