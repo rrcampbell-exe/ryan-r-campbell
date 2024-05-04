@@ -15,10 +15,10 @@ const Header = ({ pageTitle }) => {
         </div>
       </Link>
       <div className='header-toggles'>
-        <button className='theme-toggle-button' onClick={() => toggleTheme()}>
+        <button className='theme-toggle-button' onClick={toggleTheme}>
           {theme === 'light-theme' ? <SunSVG /> : <MoonSVG />}
         </button>
-        <HamburgerMenu right />
+        <HamburgerMenu />
       </div>
     </header>
   )
