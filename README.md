@@ -25,13 +25,23 @@ For more on my journey to becoming a web developer—as well as what went into c
  - Vite
  - react-router
  - Vercel
+ - Vitest
+ - v8
+ - @testing-library/react
+ - husky
  
  ### Wordcloud
  
  Code for the Skills wordcloud based on [visx wordcloud documentation](https://airbnb.io/visx/wordcloud).
 
 ## Tests
-Unit tests will be deployed shortly.
+This site uses Vitest and @testing-library/react to support its unit testing. These tests can be run by using the `test` or `coverage` scripts in the `package.json`.
+
+As reported by `v8`, this repository features 27 test files with 122 unit tests that ultimately provide coverage for:
+
+- 99.45% of statements
+- 80.55% of functions
+- 99.45% of lines
 
 ## License
 © 2024 Ryan R. Campbell. All rights reserved.
