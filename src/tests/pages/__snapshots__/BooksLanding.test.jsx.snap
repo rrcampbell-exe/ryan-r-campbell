@@ -492,15 +492,15 @@ exports[`BooksLanding > default snapshot 1`] = `
                       </g>
                     </svg>
                     <h3>
-                      [And Ampersand is] reminiscent of Hemingway and de Lillo...
+                      An incisive techno-thriller that gets more tense with every page...
                     </h3>
                     <p>
-                      - author Ivy Ngeow
+                      - Matt Forbeck, New York Times bestselling author
                     </p>
                     <p>
                       on 
                       <i>
-                        And Ampersand
+                        Imminent Dawn
                       </i>
                     </p>
                   </div>
@@ -1074,15 +1074,15 @@ exports[`BooksLanding > default snapshot 1`] = `
                     </g>
                   </svg>
                   <h3>
-                    [And Ampersand is] reminiscent of Hemingway and de Lillo...
+                    An incisive techno-thriller that gets more tense with every page...
                   </h3>
                   <p>
-                    - author Ivy Ngeow
+                    - Matt Forbeck, New York Times bestselling author
                   </p>
                   <p>
                     on 
                     <i>
-                      And Ampersand
+                      Imminent Dawn
                     </i>
                   </p>
                 </div>
