@@ -12,7 +12,7 @@ const SunSVG = () => {
       <path d="M5.32178 18.6777L4.92894 19.0706" strokeWidth="2" strokeLinecap="round"/>
       <path d="M19.0708 19.0703L18.678 18.6775" strokeWidth="2" strokeLinecap="round"/>
       <path d="M5.32178 5.32227L4.92894 4.92943" strokeWidth="2" strokeLinecap="round"/>
-      </svg>
+    </svg>
   )
 }
 
