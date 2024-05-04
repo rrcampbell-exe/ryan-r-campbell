@@ -492,10 +492,10 @@ exports[`BooksLanding > default snapshot 1`] = `
                       </g>
                     </svg>
                     <h3>
-                      To say so much with so few words is a gift.
+                      [And Ampersand is] reminiscent of Hemingway and de Lillo...
                     </h3>
                     <p>
-                      - Gregory Lee Renz, author of Beneath the Flames
+                      - author Ivy Ngeow
                     </p>
                     <p>
                       on 
@@ -1074,10 +1074,10 @@ exports[`BooksLanding > default snapshot 1`] = `
                     </g>
                   </svg>
                   <h3>
-                    To say so much with so few words is a gift.
+                    [And Ampersand is] reminiscent of Hemingway and de Lillo...
                   </h3>
                   <p>
-                    - Gregory Lee Renz, author of Beneath the Flames
+                    - author Ivy Ngeow
                   </p>
                   <p>
                     on 

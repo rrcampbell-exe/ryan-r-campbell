@@ -3,7 +3,7 @@ import { boasts } from '../../../../constants'
 
 const Boasts = () => {
   return (
-    <div className='Boasts'>
+    <div className='Boasts' data-testid='boasts'>
       {boasts.map((boast) => (
         <div className='boast grow-on-hover' key={boast.category}>
           {boast.image}
