@@ -1,1 +1,1 @@
-npm test -- -u run --coverage
+npm test run --coverage
