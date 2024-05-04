@@ -17,8 +17,12 @@ const PageWrapper = ({ pageTitle, children }) => {
     <div className={theme}>
       <Header pageTitle={pageTitle} />
         {children}
-        <Analytics />
-        <SpeedInsights />
+        <div data-testid='analytics'>
+          <Analytics />
+        </div>
+        <div data-testid='speed-insights'>
+          <SpeedInsights />
+        </div>
       <Footer />
     </div>
   )
