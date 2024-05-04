@@ -1,18 +1,51 @@
 .Reviews {
   text-align: center;
+  margin: 0 -2rem;
+  padding: 2rem 0;
 
-  .review-container {
-    transition: 0.3s;
+  .quote-contents {
+    margin: 0 6rem;
   }
 
   .quotes-svg {
     height: 5rem;
     width: 5rem;
   }
+
+  .slick-prev:before, .slick-next:before {
+    color: var(--main-dark-color);
+    font-size: 24px;
+  }
+
+  .slick-prev {
+    left: 40px;
+    z-index: 1;
+  }
+
+  .slick-next {
+    right: 40px;
+    z-index: 1;
+  }
+
+  @media (max-width: 600px) {
+    .slick-prev:before, .slick-next:before, button {
+      display: none;
+      box-shadow: none;
+    }
+  }
+}
+
+.Reviews.shadow-bg-gray {
+  padding: 3rem 0;
+  margin-bottom: 0;
 }
 
 .dark-theme {
   .quotes-svg {
     filter: invert(100%);
+  }
+
+  .slick-prev:before, .slick-next:before {
+    color: var(--main-light-color);
   }
 }

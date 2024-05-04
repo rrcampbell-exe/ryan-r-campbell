@@ -20,6 +20,9 @@
 @import './experiences/shared/components/TextAndImage/TextAndImage.scss';
 @import './experiences/shared/components/Blog/BlogTags.scss';
 
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
 :root {
   --main-dark-color: #242424;
   --main-light-color: #ffffff;
