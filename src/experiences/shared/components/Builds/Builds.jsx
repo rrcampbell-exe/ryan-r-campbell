@@ -6,7 +6,7 @@ const Builds = ({ buildsToDisplay }) => {
   return (
     <div className='Builds'>
       {buildsToRender.map((app) => (
-        <div className='build grow-on-hover' key={app.logo}>
+        <div className='build grow-on-hover' key={app.logo} data-testid='build'>
           <div className='app-overview'>
             <img className='app-logo' src={app.logo} alt={app.alt} />
             <h3 className='app-title'>{app.title}</h3>

@@ -1,0 +1,239 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Builds > default snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Builds"
+  >
+    <div
+      class="build grow-on-hover"
+      data-testid="build"
+    >
+      <div
+        class="app-overview"
+      >
+        <img
+          alt="The cartoon outline of a bird against a forest green background"
+          class="app-logo"
+          src="./builds/real-fake-birds-app-logo.png"
+        />
+        <h3
+          class="app-title"
+        >
+          Real Fake Birds
+        </h3>
+        <i
+          class="app-teaser"
+        >
+          Some are real. Some are fake. Tell them apart.
+        </i>
+        <p>
+          Earn badges and extend your streak in this real-or-fake guessing game that puts even the most ardent birders to the test.
+        </p>
+        <div
+          class="app-overview-underline"
+        />
+      </div>
+      <div
+        class="app-details"
+      >
+        <p>
+          <b>
+            Technologies used: 
+          </b>
+          React, Node, axios, styled-components, react-router, REST APIs
+        </p>
+        <p>
+          <a
+            href="https://www.realfakebirds.app"
+            rel="noopener"
+            target="_blank"
+          >
+            play the game
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://github.com/rrcampbell-exe/real-fake-birds"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            view real fake birds on github
+          </a>
+        </p>
+      </div>
+    </div>
+    <div
+      class="build grow-on-hover"
+      data-testid="build"
+    >
+      <div
+        class="app-overview"
+      >
+        <img
+          alt="The cartoon cat Yarnsworth grins mischieviously"
+          class="app-logo"
+          src="./builds/yarnsworths-tales-app-logo.png"
+        />
+        <h3
+          class="app-title"
+        >
+          Yarnsworth's Tales
+        </h3>
+        <i
+          class="app-teaser"
+        >
+          Trillions of tales await.
+        </i>
+        <p>
+          This storyline generator for fantasy tabletop roleplaying games inspires players at every stage of gameplay.
+        </p>
+        <div
+          class="app-overview-underline"
+        />
+      </div>
+      <div
+        class="app-details"
+      >
+        <p>
+          <b>
+            Technologies used: 
+          </b>
+          HTML, JavaScript, CSS, Bootstrap
+        </p>
+        <p>
+          <a
+            href="https://rrcampbell-exe.github.io/yarnsworths-tales/"
+            rel="noopener"
+            target="_blank"
+          >
+            discover your next d&d adventure
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://github.com/rrcampbell-exe/yarnsworths-tales"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            view yarnsworth's tales on github
+          </a>
+        </p>
+      </div>
+    </div>
+    <div
+      class="build grow-on-hover"
+      data-testid="build"
+    >
+      <div
+        class="app-overview"
+      >
+        <img
+          alt="A piece of paper with a folded corner and a lower-case letter I"
+          class="app-logo"
+          src="./builds/file-info-svgrepo-com.png"
+        />
+        <h3
+          class="app-title"
+        >
+          README Generator
+        </h3>
+        <i
+          class="app-teaser"
+        >
+          Make READMEs users will actually read.
+        </i>
+        <p>
+          This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!
+        </p>
+        <div
+          class="app-overview-underline"
+        />
+      </div>
+      <div
+        class="app-details"
+      >
+        <p>
+          <b>
+            Technologies used: 
+          </b>
+          Node, Inquirer, fs, JavaScript, ESM
+        </p>
+        <p>
+          <a
+            rel="noopener"
+            target="_blank"
+          />
+        </p>
+        <p>
+          <a
+            href="https://github.com/rrcampbell-exe/readme-generator"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            view readme generator on github
+          </a>
+        </p>
+      </div>
+    </div>
+    <div
+      class="build grow-on-hover"
+      data-testid="build"
+    >
+      <div
+        class="app-overview"
+      >
+        <img
+          alt="A black-and-white image of Ryan R. Campbell gazing to the right"
+          class="app-logo"
+          src="./builds/ryan-r-campbell-app-logo.png"
+        />
+        <h3
+          class="app-title"
+        >
+          The Ryan R. Campbell Website
+        </h3>
+        <i
+          class="app-teaser"
+        >
+          Books and builds and blogs, oh my!
+        </i>
+        <p>
+          The blog, portfolio, and personal site for author and technologist Ryan R. Campbell.
+        </p>
+        <div
+          class="app-overview-underline"
+        />
+      </div>
+      <div
+        class="app-details"
+      >
+        <p>
+          <b>
+            Technologies used: 
+          </b>
+          React, Sass, Vite, react-router, visx, Vitest, @testing-library/react, husky
+        </p>
+        <p>
+          <a
+            href="https://ryanrcampbell.com/"
+            rel="noopener"
+            target="_blank"
+          >
+            return to the homepage
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://github.com/rrcampbell-exe/ryan-r-campbell"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            view the ryan r. campbell website on github
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

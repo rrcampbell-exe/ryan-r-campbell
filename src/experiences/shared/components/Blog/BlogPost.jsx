@@ -6,7 +6,6 @@ import { fetchPost, formatDate, extractHTMLContent } from '../../../../utils'
 import { shortBio } from '../../../../constants'
 import { NotFound, Contact, PageWrapper, NotificationBanner, BlogTags } from '../'
 
-// TODO: need to insert category tags (if possible)
 // TODO: need to sanitize remaining HTML of comments related to divi
 // TODO: need to remove footer contents with book recommendation at the end
 
@@ -35,8 +34,6 @@ const BlogPost = () => {
 
   const HTMLcontent = extractHTMLContent(contentToRender)
 
-  console.log('this is HTML content', HTMLcontent)
-
   return (
     <PageWrapper pageTitle='author | technologist'>
       <main>
@@ -61,7 +58,7 @@ const BlogPost = () => {
               </div>
             </div>
           </div>
-          <article dangerouslySetInnerHTML={{ __html: HTMLcontent }}/>
+          <article data-testid='article' dangerouslySetInnerHTML={{ __html: HTMLcontent }}/>
           {year > 2023 && post.tags.length > 0 && (
             <div className='tags'>
               <BlogTags tags={post.tags} />

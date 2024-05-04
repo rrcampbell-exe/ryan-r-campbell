@@ -18,7 +18,7 @@ const PodcastEpisode = () => {
             <h3>{episode.title}</h3>
             <span className=''>Posted on {formatDate(episode.pubDate)}</span>
             <p>{episode.description}</p>
-            <div className='podcast-player'>
+            <div className='podcast-player' data-testid='podcast-player'>
               {!isLoaded && <Loading height='200px' />}
               <iframe onLoad={() => setIsLoaded(true)} src={`https://pinecast.com/player/${uuid}?theme=flat`} seamless height={isLoaded ? '200' : '0' } style={{ border: '0', borderRadius: '4px' }} className="pinecast-embed" frameBorder="0" width="100%"></iframe>
             </div>

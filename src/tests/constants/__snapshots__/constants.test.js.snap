@@ -1,0 +1,377 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`constants should match snapshots > awards 1`] = `
+[
+  {
+    "alt": "A wreath containing the words International Book Awards Finalist - 2022 | Humor & Satire",
+    "className": "light award",
+    "link": "https://www.internationalbookawards.com/2022pressrelease.html",
+    "name": "2022 International Book Awards Finalist - Humor and Satire",
+    "src": "./awards/2022-international-book-awards-finalist-humor-and-satire.png",
+  },
+  {
+    "alt": "The logo for the Readers' Favorite Five Stars award, which is a silver medallion that features five stars",
+    "className": "award",
+    "link": "https://readersfavorite.com/book-review/scambait",
+    "name": "Readers' Favorite Five Stars",
+    "src": "./awards/readers-favorite-five-stars.png",
+  },
+  {
+    "alt": "A wreath containing the words International Book Awards Finalist - 2020 | Science Fiction",
+    "className": "light award",
+    "link": "https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/",
+    "name": "2020 International Book Awards Finalist - Science Fiction",
+    "src": "./awards/2020-international-book-awards-finalist-science-fiction.png",
+  },
+]
+`;
+
+exports[`constants should match snapshots > boasts 1`] = `
+[
+  {
+    "category": "Hackathons",
+    "description": [
+      "Finalist in 2022 Hack for Good with augmented reality project to ease treatment for pediatric cancer patients",
+      "Awarded "Most Innovative" in 2024 Developer Experience Hackathon for AI-powered sentiment analysis application",
+    ],
+    "image": <LaptopSVG />,
+  },
+  {
+    "category": "Leadership & Culture",
+    "description": [
+      "Founded company-internal podcast to better connect teams and discuss pressing technical topics",
+      "Presented on organizational impact of well-crafted mission statements",
+      "Frequent contributor to company blog on topics related to sharpening technical and non-technical skills",
+      "Developed documentation for and trained others on Kubernetes namespace migration",
+    ],
+    "image": <ManagementSVG />,
+  },
+  {
+    "category": "UI/UX",
+    "description": [
+      "Created React library of reusable components to streamline implementation of common design patterns",
+      "Led team initiative to migrate to modern enterprise design system",
+      "Contributed directly to the codebases of bandwidth-strained teams to squash bugs and improve client experience",
+      "Exceeded organizational goal of 60% unit testing coverage by achieving 93.9% and 82.7% coverage for new applications",
+    ],
+    "image": <BrowserSVG />,
+  },
+]
+`;
+
+exports[`constants should match snapshots > books 1`] = `
+[
+  {
+    "alt": "Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side",
+    "buyLink": "https://www.amazon.com/dp/B09SY4P6FR",
+    "cover": "./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png",
+    "fullDescription": {
+      "paragraphOne": "Ever since his grandma squandered the family fortune to two-bit hucksters from “Microsoft Tech Support,” corporate do-little Eric Amundsen has spent his workdays wasting the time of Nigerian princes and car warranty salesmen everywhere.",
+      "paragraphTwo": "But when Eric's supposedly long-deceased father contacts him through his spam folder, Eric—whose workday mantra isn't exactly “solutions-oriented”—has serious problems to solve.",
+    },
+    "genre": "Contemporary Fiction | Humor",
+    "id": "scambait",
+    "readMoreLink": "./books/scambait/scambait-teaser-chapters.pdf",
+    "shortPromoDescription": "The 2022 International Book Awards Finalist in Humor and Satire.",
+    "summary": "The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"",
+    "title": "Scambait",
+  },
+  {
+    "alt": "The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively",
+    "buyLink": "https://www.amazon.com/dp/1736387111",
+    "cover": "./books/and-ampersand/and-ampersand-flat-cover.png",
+    "fullDescription": {
+      "paragraphOne": "Your death comes on slowly, while elsewhere, a nameless man fakes his own. Encased in glass, a young man navigates a world meant for those beyond. A mudslide washes away a once romantic weekend, and a childhood swim drowns all illusion of innocence.",
+      "paragraphTwo": "These are but some of the tales in this collection of flash fiction, short stories, and freeform prose.",
+    },
+    "genre": "Works of Short Fiction",
+    "id": "and-ampersand",
+    "readMoreLink": "./books/and-ampersand/glassed-excerpt-from-and-ampersand.pdf",
+    "shortPromoDescription": "The perfect pocket companion for any reader who's tussled with the tie between beginning and end.",
+    "summary": "A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.",
+    "title": "And Ampersand",
+  },
+  {
+    "alt": "The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry",
+    "buyLink": "https://www.amazon.com/dp/B07N1Q8C6G",
+    "cover": "./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png",
+    "fullDescription": {
+      "paragraphOne": "When an art-school dropout enrolls in the first round of human trials for an internet-access brain implant, she never expects to find herself at the center of conspiracies stretching from the highest levels of the North American Union government to the lowest dredges of its shadowy hacking collectives.",
+      "paragraphTwo": "",
+    },
+    "genre": "Science Fiction",
+    "id": "imminent-dawn",
+    "readMoreLink": "./books/imminent-dawn/imminent-dawn-sample-chapter.pdf",
+    "shortPromoDescription": "The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.",
+    "summary": "The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.",
+    "title": "Imminent Dawn",
+  },
+  {
+    "alt": "The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots",
+    "buyLink": "https://www.amazon.com/dp/B07QZGSDX6",
+    "cover": "./books/mourning-dove/mourning-dove-flat-cover.png",
+    "fullDescription": {
+      "paragraphOne": "In the aftermath of the Human/Etech research study, spouse is further pit against spouse, brother against sister, and governments against their people. In the end, all must choose between reclaiming the past or surrendering to an intractable world of their own creation.",
+      "paragraphTwo": "",
+    },
+    "genre": "Science Fiction",
+    "id": "mourning-dove",
+    "readMoreLink": "./books/mourning-dove/mourning-dove-sample-chapter.pdf",
+    "shortPromoDescription": "The sequel to International Book Awards finalist, Imminent Dawn.",
+    "summary": "An evocative, sweeping symphony of love, revenge, and desperation in cacophonous times.",
+    "title": "Mourning Dove",
+  },
+]
+`;
+
+exports[`constants should match snapshots > builds 1`] = `
+[
+  {
+    "alt": "The cartoon outline of a bird against a forest green background",
+    "description": "Earn badges and extend your streak in this real-or-fake guessing game that puts even the most ardent birders to the test.",
+    "gitHub": "https://github.com/rrcampbell-exe/real-fake-birds",
+    "link": "https://www.realfakebirds.app",
+    "linkText": "play the game",
+    "logo": "./builds/real-fake-birds-app-logo.png",
+    "teaser": "Some are real. Some are fake. Tell them apart.",
+    "technologies": "React, Node, axios, styled-components, react-router, REST APIs",
+    "title": "Real Fake Birds",
+  },
+  {
+    "alt": "The cartoon cat Yarnsworth grins mischieviously",
+    "description": "This storyline generator for fantasy tabletop roleplaying games inspires players at every stage of gameplay.",
+    "gitHub": "https://github.com/rrcampbell-exe/yarnsworths-tales",
+    "link": "https://rrcampbell-exe.github.io/yarnsworths-tales/",
+    "linkText": "discover your next d&d adventure",
+    "logo": "./builds/yarnsworths-tales-app-logo.png",
+    "teaser": "Trillions of tales await.",
+    "technologies": "HTML, JavaScript, CSS, Bootstrap",
+    "title": "Yarnsworth's Tales",
+  },
+  {
+    "alt": "A piece of paper with a folded corner and a lower-case letter I",
+    "description": "This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!",
+    "gitHub": "https://github.com/rrcampbell-exe/readme-generator",
+    "logo": "./builds/file-info-svgrepo-com.png",
+    "teaser": "Make READMEs users will actually read.",
+    "technologies": "Node, Inquirer, fs, JavaScript, ESM",
+    "title": "README Generator",
+  },
+  {
+    "alt": "A black-and-white image of Ryan R. Campbell gazing to the right",
+    "description": "The blog, portfolio, and personal site for author and technologist Ryan R. Campbell.",
+    "gitHub": "https://github.com/rrcampbell-exe/ryan-r-campbell",
+    "link": "https://ryanrcampbell.com/",
+    "linkText": "return to the homepage",
+    "logo": "./builds/ryan-r-campbell-app-logo.png",
+    "teaser": "Books and builds and blogs, oh my!",
+    "technologies": "React, Sass, Vite, react-router, visx, Vitest, @testing-library/react, husky",
+    "title": "The Ryan R. Campbell Website",
+  },
+]
+`;
+
+exports[`constants should match snapshots > featuredIn 1`] = `
+[
+  {
+    "alt": "The all-capital-letters logo for Isthmus, a publication from Madison, Wisconsin",
+    "className": "dark",
+    "link": "https://isthmus.com/arts/books/rr-campbell-imminent-dawn/",
+    "name": "Isthmus",
+    "src": "./featured-in/isthmus-logo.png",
+  },
+  {
+    "alt": "The logo for the Career Clarity podcast, including the words lucrative, soulful, and joyful",
+    "className": "dark",
+    "link": "https://getcareerclarity.com/episode95/",
+    "name": "Career Clarity",
+    "src": "./featured-in/Career-Clarity-Logo.png",
+  },
+  {
+    "alt": "The logo for The Lifelong Learner, news from UW-Madison's Continuing Studies department",
+    "className": "",
+    "link": "https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/",
+    "name": "The Lifelong Learner",
+    "src": "./featured-in/Lifelong-Learner-Logo-UW.png",
+  },
+  {
+    "alt": "The logo for the Writescast Network, featuring a pencil, a microphone, and books",
+    "className": "light",
+    "link": "https://ryanrcampbell.com/podcasts/",
+    "name": "The Writescast Network",
+    "src": "./featured-in/The-Writescast-Network-Logo-No-Icons.png",
+  },
+  {
+    "alt": "The logo for the WROTE podcast, which features each letter of the word in large text",
+    "className": "minify",
+    "link": "http://www.wrotepodcast.com/tag/r-r-campbell/",
+    "name": "The WROTE Podcast",
+    "src": "./featured-in/Wrote-Podcast-Logo.png",
+  },
+  {
+    "alt": "The logo for the Columbus Journal, which is based out of Columbus, Wisconsin",
+    "className": "",
+    "link": "https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html",
+    "name": "Columbus Journal",
+    "src": "./featured-in/Columbus-Journal-Logo.png",
+  },
+  {
+    "alt": "The logo for Appleton Monthly, a print magazine from Wisconsin's Fox Valley",
+    "className": "dark",
+    "link": "https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/",
+    "name": "Appleton Monthly",
+    "src": "./featured-in/Appleton-Monthly-Logo.png",
+  },
+  {
+    "alt": "The logo for the Neurotic Nourishment podcast, which shows host Lindsay Weisner laughing",
+    "className": "minify",
+    "link": "https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa",
+    "name": "Neurotic Nourishment",
+    "src": "./featured-in/Neurotic-Nourishment-Logo.png",
+  },
+]
+`;
+
+exports[`constants should match snapshots > popText 1`] = `
+[
+  {
+    "id": "author",
+    "text": "author",
+  },
+  {
+    "id": "technologist",
+    "text": "technologist",
+  },
+  {
+    "id": "software-engineer",
+    "text": "software engineer",
+  },
+  {
+    "id": "linguist",
+    "text": "linguist",
+  },
+  {
+    "id": "stargazer",
+    "text": "stargazer",
+  },
+  {
+    "id": "pet-padre",
+    "text": "pet padre",
+  },
+  {
+    "id": "traveler",
+    "text": "traveler",
+  },
+  {
+    "id": "polyglot",
+    "text": "polyglot",
+  },
+  {
+    "id": "entrepreneur",
+    "text": "entrepreneur",
+  },
+  {
+    "id": "storyteller",
+    "text": "storyteller",
+  },
+]
+`;
+
+exports[`constants should match snapshots > reviews 1`] = `
+[
+  {
+    "book": "Imminent Dawn",
+    "link": "",
+    "quote": "An incisive techno-thriller that gets more tense with every page...",
+    "reviewer": "Matt Forbeck",
+    "reviewerTitle": "New York Times bestselling author",
+  },
+  {
+    "book": "Scambait",
+    "link": "",
+    "quote": "[Scambait is] laugh-out-loud funny. My highest recommendation.",
+    "reviewer": "Robb Grindstaff",
+    "reviewerTitle": "award-winning author",
+  },
+  {
+    "book": "And Ampersand",
+    "link": "",
+    "quote": "To say so much with so few words is a gift.",
+    "reviewer": "Gregory Lee Renz",
+    "reviewerTitle": "author of Beneath the Flames",
+  },
+  {
+    "book": "Imminent Dawn",
+    "link": "",
+    "quote": "[Imminent Dawn is] a rollercoaster of intrigue, suspense, and gorgeously crafted wonder.",
+    "reviewer": "author Evie Drae",
+    "reviewerTitle": null,
+  },
+  {
+    "book": null,
+    "link": "",
+    "quote": "Campbell is a master storyteller... a breath of fresh air.",
+    "reviewer": "author Jeremy Martin",
+    "reviewerTitle": null,
+  },
+  {
+    "book": "Scambait",
+    "link": "",
+    "quote": "Astounding... a modern Holden Caulfield takes readers on a twisting, humorous and poignant ride.",
+    "reviewer": "Christine DeSmet",
+    "reviewerTitle": "award-winning author",
+  },
+  {
+    "book": "Scambait",
+    "link": "",
+    "quote": "Fast-paced and laugh-out-loud witty. I highly recommend this book.",
+    "reviewer": "Michelle Caffrey",
+    "reviewerTitle": "Wisconsin Writers Association",
+  },
+  {
+    "book": "Scambait",
+    "link": "",
+    "quote": "Scambait has a humorous and idiosyncratic tone in all the right places.",
+    "reviewer": "Readers' Favorite 5-Star Review",
+    "reviewerTitle": null,
+  },
+  {
+    "book": "Imminent Dawn",
+    "link": "",
+    "quote": "[Imminent Dawn] hooked me and reeled me in with twists aplenty... intriguing, troubling, and all too real-feeling.",
+    "reviewer": "Dan Schiro",
+    "reviewerTitle": "author of Rogue Destiny and This Bloody Game",
+  },
+  {
+    "book": "And Ampersand",
+    "link": "",
+    "quote": "Lyrical, thought-provoking, poignant, and memorable...",
+    "reviewer": "author Valerie Biel",
+    "reviewerTitle": "",
+  },
+  {
+    "book": "And Ampersand",
+    "link": "",
+    "quote": "[And Ampersand is] reminiscent of Hemingway and de Lillo...",
+    "reviewer": "author Ivy Ngeow",
+    "reviewerTitle": null,
+  },
+  {
+    "book": "And Ampersand",
+    "link": "",
+    "quote": "[And Ampersand is] filled with grace, something we all need right now - along with another volume of these types of essays from this gifted writer.",
+    "reviewer": "Laurie Scheer",
+    "reviewerTitle": "co-founder, New Nature Writers",
+  },
+]
+`;
+
+exports[`constants should match snapshots > shortBio 1`] = `"Ryan R. Campbell is an author, technologist, and software engineer. He is a two-time international book awards finalist, the founder of the Writescast Network, and the co-founder of Kill Your Darlings Candle Company."`;
+
+exports[`constants should match snapshots > skills 1`] = `
+"react react react react react react node node node node express express express HTML5 HTML5 HTML5 CSS CSS CSS CSS GraphQL
+GraphQL GraphQL SQL REST REST REST REST insomnia insomnia insomnia Postman MongoDB apollo apollo apollo jQuery
+vite vite vite webpack jest jest jest vitest vitest vitest typescript typescript kubernetes kubernetes javascript javascript
+javascript javascript styled-components styled-components styled-components styled-components sass sass sass sass redux redux 
+redux react-router-dom react-router-dom vercel vercel"
+`;

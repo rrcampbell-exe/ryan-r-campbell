@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Quote, TextAndImage } from '../../components'
 
 export const ShortStory = ({ setIsShortStory }) =>
-  <>
+  <div data-testid='short-story'>
     <h2>a little bit of this, a little bit of that</h2>
     <div>
       <p>Author. Technologist. Podcast. Blogger. The list goes on.</p>
@@ -13,10 +13,10 @@ export const ShortStory = ({ setIsShortStory }) =>
       <p>So, go on: cultivate <em>your</em> curiosity. Walk with that sense of wonder. Do some exploring of your own and learn all there is to learn.</p>
       <p>And, if you're really up for it, consider reading <span className='story-toggle-span' onClick={() => { setIsShortStory(false); window.scrollTo(top) }}>the extended version of the story so far</span>. I think you might like what you find.</p>
     </div>
-  </>
+  </div>
 
 export const LongStory = () =>
-  <>
+  <div data-testid='long-story'>
     <TextAndImage 
     jsx={
         `
@@ -134,5 +134,5 @@ export const LongStory = () =>
       <p>So, if ever you find yourself wondering who—or which of some subset of <em>who</em>s—you are, choose not to define yourself as any one of these; choose <em>all of the above</em>. It won't be easy—we can't be everything to everyone all of the time—but it will mean you can bring the most of yourself to the world every day, and that has to count for something.</p>
       <p>Besides, if whatever you're doing isn't working out, there's nothing a trip to Brazil won't fix.</p>
     </div>
-  </>
+  </div>
 

@@ -18,7 +18,7 @@ const AuthorLanding = () => {
             <p>
               I'm a two-time International Book Awards finalist, the founder of the Writescast Network, and the co-founder of Kill Your Darlings Candle Company. 
             </p>
-            <Link to='/about'>learn more</Link>
+            <Link data-testid='about-link' to='/about'>learn more</Link>
           </div>
         </div>
         <div id='books' className='shadow-bg-gray section-wrapper'>
@@ -34,7 +34,7 @@ const AuthorLanding = () => {
           <div className='featured-img-container'>
             {awards.map((award) => (
               <div className={`featured-img ${award.className} grow-on-hover`} key={award.alt}>
-                <a href={award.link} target='_blank' rel='noopener noreferrer'>
+                <a data-testid={award.link} href={award.link} target='_blank' rel='noopener noreferrer'>
                   <img src={award.src} alt={award.alt}/>
                 </a>
               </div>
@@ -46,7 +46,7 @@ const AuthorLanding = () => {
           <div className='featured-img-container'>
             {featuredIn.map((feature) => (
               <div className={`featured-img ${feature.className} grow-on-hover`} key={feature.alt}>
-                <a href={feature.link} target='_blank' rel='noopener noreferrer'>
+                <a data-testid={feature.link} href={feature.link} target='_blank' rel='noopener noreferrer'>
                   <img src={feature.src} alt={feature.alt}/>
                 </a>
               </div>

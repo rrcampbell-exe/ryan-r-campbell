@@ -10,13 +10,13 @@ const HamburgerMenu = () => {
   const className = (pathname, linkTo) => pathname === linkTo ? 'hamburger-link active' : 'hamburger-link'
 
   return (
-    <div className={`Hamburger-menu ${menuIsOpen ? 'menu-open' : ''}`}>
+    <div className={`Hamburger-menu ${menuIsOpen ? 'menu-open' : ''}`} data-testid='menu'>
       <button className='theme-toggle-button' onClick={() => setMenuIsOpen(!menuIsOpen)}>
         <HamburgerIcon />
       </button>
       <div className='menu-content'>
         <div className='icon-container'>
-          <button onClick={() => setMenuIsOpen(!menuIsOpen)}>
+          <button onClick={() => setMenuIsOpen(!menuIsOpen)} data-testid='close-button'>
             <CloseSVG />
           </button>
         </div>

@@ -27,7 +27,7 @@ const BlogTeaser = ({ postsToDisplay, showCoverImage, postsPage }) => {
   const teaserPosts = allPosts.slice(0, maxPostIndex)
 
   return (
-    <div className='ContentTeaser'>
+    <div className='ContentTeaser' data-testid='blog-teaser'>
       {teaserPosts.map((post) => (
         <div onClick={() => navigate(buildNavURL(post.link))} key={post.id}>
           <div className='content-post grow-on-hover'>

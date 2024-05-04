@@ -1,5 +1,3 @@
-// TODO: need more quotes or images to break up post
-
 const posts = [
   {
     id: 10088,
