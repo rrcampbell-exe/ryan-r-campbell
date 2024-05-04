@@ -8,9 +8,9 @@ const BooksLanding = () => {
     <PageWrapper pageTitle='international book awards finalist'>
       <SubNav sections={['scambait', 'and-ampersand', 'imminent-dawn', 'mourning-dove', 'reviews', 'contact']} />
       <main className='Books-landing'>
-        {books.map((book) => (
-          <>
-            <div id={book.id} className='section-wrapper book-section' key={book.id}>
+        {books.map((book, index) => (
+          <div key={index}>
+            <div id={book.id} className='section-wrapper book-section'>
               <div className='book-wrapper'>
                 <img className='book-cover' src={book.cover} />
               </div>
@@ -27,7 +27,7 @@ const BooksLanding = () => {
               </div>
             </div>
             <Reviews selectReviews bookIdToDisplay={book.id} shadowBg />
-          </>
+          </div>
         ))}
         <div id='contact' className='shadow-bg-main-accent section-wrapper'>
           <h2>contact</h2>
