@@ -1,8 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import PopText from '../../components/PopText/PopText'
 import { popText } from '../../../../constants'
-import { Books, Builds, BlogTeaser, PageWrapper, SubNav, Contact, NotFound } from '../../../shared/components'
+import { Books, Builds, BlogTeaser, PageWrapper, SubNav, Contact, NotFound, PopText } from '../../../shared/components'
 
 const GeneralLanding = ({ pageNotFound }) => {
   const navigate = useNavigate()

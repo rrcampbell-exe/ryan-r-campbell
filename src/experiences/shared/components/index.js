@@ -15,5 +15,6 @@ import Quote from './Quote/Quote'
 import TextAndImage from './TextAndImage/TextAndImage'
 import BlogTags from './Blog/BlogTags'
 import HamburgerMenu from './HamburgerMenu/HamburgerMenu'
+import PopText from './PopText/PopText'
 
-export { BlogPost, BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound, NotificationBanner, Loading, Quote, TextAndImage, BlogTags, HamburgerMenu }
+export { BlogPost, BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound, NotificationBanner, Loading, Quote, TextAndImage, BlogTags, HamburgerMenu, PopText }
