@@ -7,6 +7,8 @@
     box-shadow: 0 4px 8px 0 var(--shadow);
     margin-bottom: 2rem;
     transition: 0.3s;
+    border: 1px solid var(--main-dark-color);
+
 
     &:last-child {
       margin-bottom: 0;
@@ -60,5 +62,11 @@
     &:last-child {
       margin: 0;
     }
+  }
+}
+
+.dark-theme {
+  .build {
+    border: 1px solid var(--main-light-color);
   }
 }
