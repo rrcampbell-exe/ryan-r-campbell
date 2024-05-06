@@ -112,6 +112,6 @@
   transform: translateX(0);
 }
 
-.Hamburger-menu.menu-open #hamburger-icon {
+.Hamburger-menu.menu-open .theme-toggle-button {
   opacity: 0; // hide icon when menu is open
 }
