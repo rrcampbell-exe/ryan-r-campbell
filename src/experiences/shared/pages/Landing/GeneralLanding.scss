@@ -1,4 +1,5 @@
 .General-landing {
+  // TOP OF LANDING PAGE, "HOME OF..."
   .photo-banner {
     padding: 2rem;
     display: flex;
@@ -7,6 +8,7 @@
     align-items: center;
   }
 
+  // CONTAINER FOR BOTTOM OF LANDING PAGE SECTIONS (ABOUT THE AUTHOR/ENGINEER, TO THE BLOG)
   .button-container {
     display: flex;
     justify-content: center;
@@ -14,36 +16,11 @@
     transition: 0.3s;
   }
   
-  @keyframes softRotate {
-    0%, 50%, 100% {
-      transform: rotate(0deg);
-    }
-    25% {
-      transform: rotate(-1deg)
-    }
-    75% {
-        transform: rotate(1deg);
-    }
-  }
-  
-  .experience-selection {
-    padding: 2rem 0;
-    letter-spacing: 0.2rem;
-    text-align: center;
-    font-size: 2rem;
-    transition: 0.6s;
-    animation: softRotate 5s linear infinite;
-
-    &:hover {
-      color: var(--main-accent-color);
-    }
-  }
-  
+  // RESPONSIVE STYLES
   @media (max-width: 600px) {
     .photo-banner {
       .pop-text-container {
         margin-top: 1.5rem;
-        margin-left: 0;
       }
     }
   }
