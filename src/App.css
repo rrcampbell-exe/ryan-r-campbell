@@ -163,6 +163,10 @@ button {
   padding: 1rem 2rem;
   margin: 0 auto;
   transition: 0.5s;
+
+  @media (max-width: 600px) {
+    padding: 1rem;
+  }
 }
 
 /* LIGHT THEME-SPECIFIC STYLES */

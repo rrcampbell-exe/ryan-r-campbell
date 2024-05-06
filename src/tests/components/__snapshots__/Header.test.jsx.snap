@@ -92,7 +92,7 @@ exports[`Header > default snapshot 1`] = `
                     <line
                       id="Path"
                       stroke-linecap="round"
-                      stroke-width="2"
+                      stroke-width="1.5"
                       x1="5"
                       x2="19"
                       y1="7"
@@ -101,7 +101,7 @@ exports[`Header > default snapshot 1`] = `
                     <line
                       id="Path"
                       stroke-linecap="round"
-                      stroke-width="2"
+                      stroke-width="1.5"
                       x1="5"
                       x2="19"
                       y1="17"
@@ -110,7 +110,7 @@ exports[`Header > default snapshot 1`] = `
                     <line
                       id="Path"
                       stroke-linecap="round"
-                      stroke-width="2"
+                      stroke-width="1.5"
                       x1="5"
                       x2="19"
                       y1="12"
@@ -275,7 +275,7 @@ exports[`Header > default snapshot 1`] = `
                   <line
                     id="Path"
                     stroke-linecap="round"
-                    stroke-width="2"
+                    stroke-width="1.5"
                     x1="5"
                     x2="19"
                     y1="7"
@@ -284,7 +284,7 @@ exports[`Header > default snapshot 1`] = `
                   <line
                     id="Path"
                     stroke-linecap="round"
-                    stroke-width="2"
+                    stroke-width="1.5"
                     x1="5"
                     x2="19"
                     y1="17"
@@ -293,7 +293,7 @@ exports[`Header > default snapshot 1`] = `
                   <line
                     id="Path"
                     stroke-linecap="round"
-                    stroke-width="2"
+                    stroke-width="1.5"
                     x1="5"
                     x2="19"
                     y1="12"
