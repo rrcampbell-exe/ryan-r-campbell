@@ -377,7 +377,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             >
               <div>
                 <div
-                  class="book grow-on-hover"
+                  class="book-container grow-on-hover"
                 >
                   <img
                     alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
@@ -402,7 +402,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               </div>
               <div>
                 <div
-                  class="book grow-on-hover"
+                  class="book-container grow-on-hover"
                 >
                   <img
                     alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
@@ -427,7 +427,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               </div>
               <div>
                 <div
-                  class="book grow-on-hover"
+                  class="book-container grow-on-hover"
                 >
                   <img
                     alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
@@ -452,7 +452,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               </div>
               <div>
                 <div
-                  class="book grow-on-hover"
+                  class="book-container grow-on-hover"
                 >
                   <img
                     alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
@@ -1131,7 +1131,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
           >
             <div>
               <div
-                class="book grow-on-hover"
+                class="book-container grow-on-hover"
               >
                 <img
                   alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
@@ -1156,7 +1156,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </div>
             <div>
               <div
-                class="book grow-on-hover"
+                class="book-container grow-on-hover"
               >
                 <img
                   alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
@@ -1181,7 +1181,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </div>
             <div>
               <div
-                class="book grow-on-hover"
+                class="book-container grow-on-hover"
               >
                 <img
                   alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
@@ -1206,7 +1206,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </div>
             <div>
               <div
-                class="book grow-on-hover"
+                class="book-container grow-on-hover"
               >
                 <img
                   alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
