@@ -7,6 +7,7 @@
   --shadow: #00000033;
   --main-accent-shadow: #df643b78;
   --main-accent-extended: #f36738cc;
+  --standard-box-shadow: 0px 4px 8px var(--shadow);
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -40,7 +41,7 @@ a {
 button {
   background-color: transparent;
   color: var(--main-accent-color);
-  box-shadow: 0px 4px 8px var(--shadow);
+  box-shadow: var(--standard-box-shadow);
   padding: 0.5rem 1rem;
   border-radius: 30px;
   border: 1px solid var(--main-accent-color);

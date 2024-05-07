@@ -70,7 +70,7 @@
     border-width: 1px; 
     border-style: solid;
     padding: 6px;
-    box-shadow: 0 4px 8px 0 var(--shadow);
+    box-shadow: var(--standard-box-shadow);
     transition: 0.5s;
 
     // HOVER STATE FOR THEME TOGGLE BUTTONS

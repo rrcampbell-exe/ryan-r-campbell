@@ -49,7 +49,7 @@
     margin: 1rem;
     border: 1px solid;
     border-radius: 4px;
-    box-shadow: 0 4px 8px 0 var(--shadow);
+    box-shadow: var(--standard-box-shadow);
     transition: 0.3s;
 
     h3 {

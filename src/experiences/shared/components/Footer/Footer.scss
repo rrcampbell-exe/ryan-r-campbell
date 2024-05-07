@@ -15,7 +15,7 @@ footer {
       height: 100%;
       width: 100%;
       border-radius: 50%;
-      box-shadow: 0 4px 8px 0 var(--shadow);
+      box-shadow: var(--standard-box-shadow);
       transition: 0.5s;
     }
   }

@@ -4,7 +4,7 @@
     flex-direction: column;
     padding: 2rem;
     border-radius: 4px;
-    box-shadow: 0 4px 8px 0 var(--shadow);
+    box-shadow: var(--standard-box-shadow);
     margin-bottom: 2rem;
     transition: 0.3s;
     border: 1px solid var(--main-dark-color);
