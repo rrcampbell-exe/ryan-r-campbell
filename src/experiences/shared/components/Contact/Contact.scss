@@ -12,12 +12,12 @@
     font-size: 0.875rem;
     display: flex;
     align-items: center;
-    transition: 0.3s;
+    transition: var(--fast-transition);
 
     svg {
       margin: 0.15rem 0 0 0.05rem;
       height: 12px;
-      transition: 0.3s;
+      transition: var(--fast-transition);
     }
   }
 }

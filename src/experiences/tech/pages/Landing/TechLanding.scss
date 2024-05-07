@@ -9,7 +9,7 @@
     user-select: none;
     align-items: center;
     width: 100%;
-    transition: 0.3s;
+    transition: var(--fast-transition);
   }
   .wordcloud svg {
     margin: 1rem 0;
@@ -50,7 +50,7 @@
     border: 1px solid;
     border-radius: 4px;
     box-shadow: var(--standard-box-shadow);
-    transition: 0.3s;
+    transition: var(--fast-transition);
 
     h3 {
       font-weight: 500;

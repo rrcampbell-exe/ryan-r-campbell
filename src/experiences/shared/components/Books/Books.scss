@@ -12,7 +12,7 @@
     max-width: 10rem;
     margin: 1rem 2rem;
     text-align: center;
-    transition: 0.3s;
+    transition: var(--fast-transition);
 
     &:hover {
       cursor: pointer;

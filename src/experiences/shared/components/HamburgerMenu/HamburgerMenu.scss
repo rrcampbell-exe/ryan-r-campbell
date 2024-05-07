@@ -2,11 +2,11 @@
   padding-left: 0.25rem;
 
   #hamburger-icon {
-    transition: opacity 0.3s ease-in-out; // apply transition to opacity
+    transition: opacity var(--fast-transition) ease-in-out; // apply transition to opacity
     opacity: 1; // ensure icon is initially visible
     line {
       stroke: var(--main-dark-color);
-      transition: 0.5s;
+      transition: var(--slow-transition);
     }
 
     &:hover {
@@ -49,7 +49,7 @@
       margin: 1rem 0;
       color: var(--main-light-color);
       font-size: 1.2rem;
-      transition: 0.5s;
+      transition: var(--slow-transition);
 
       &:hover {
         color: var(--main-accent-color);
@@ -68,7 +68,7 @@
       padding: 1rem 0.25rem 1rem 0;
       stroke: var(--main-light-color);
       fill: var(--main-light-color);
-      transition: 0.5s;
+      transition: var(--slow-transition);
       height: 30px;
       width: 30px;
 
