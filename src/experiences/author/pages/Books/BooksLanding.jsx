@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PageWrapper from '../../../shared/components/PageWrapper/PageWrapper'
 import { Contact, SubNav, Reviews } from '../../../shared/components'
 import { books } from '../../../../constants'
+import { useLocation } from 'react-router-dom'
 
 const BooksLanding = () => {
+  const { state } = useLocation()
+
+  useEffect(() => {
+    if (state && state.hash) {
+      const element = document.getElementById(state.hash)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' })
+      }
+    }
+  }, [])
+
   return (
     <PageWrapper pageTitle='international book awards finalist'>
       <SubNav sections={['scambait', 'and-ampersand', 'imminent-dawn', 'mourning-dove', 'reviews', 'contact']} />

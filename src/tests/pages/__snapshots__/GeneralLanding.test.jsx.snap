@@ -375,106 +375,122 @@ exports[`GeneralLanding > default snapshot 1`] = `
               class="Books"
               data-testid="books"
             >
-              <div>
-                <div
-                  class="book-container grow-on-hover"
-                >
-                  <img
-                    alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
-                    class="book-cover"
-                    data-testid="book-cover"
-                    src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
-                  />
-                  <h3
-                    class="book-title"
+              <a
+                href="/books"
+              >
+                <div>
+                  <div
+                    class="book-container grow-on-hover"
                   >
-                    Scambait
-                  </h3>
-                  <p>
-                    The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
-                  </p>
-                  <a
-                    href="/books"
-                  >
-                    read more
-                  </a>
+                    <img
+                      alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
+                      class="book-cover"
+                      data-testid="book-cover"
+                      src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+                    />
+                    <h3
+                      class="book-title"
+                    >
+                      Scambait
+                    </h3>
+                    <p>
+                      The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
+                    </p>
+                    <a
+                      href="/books"
+                    >
+                      read more
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <div
-                  class="book-container grow-on-hover"
-                >
-                  <img
-                    alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
-                    class="book-cover"
-                    data-testid="book-cover"
-                    src="./books/and-ampersand/and-ampersand-flat-cover.png"
-                  />
-                  <h3
-                    class="book-title"
+              </a>
+              <a
+                href="/books"
+              >
+                <div>
+                  <div
+                    class="book-container grow-on-hover"
                   >
-                    And Ampersand
-                  </h3>
-                  <p>
-                    A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
-                  </p>
-                  <a
-                    href="/books"
-                  >
-                    read more
-                  </a>
+                    <img
+                      alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
+                      class="book-cover"
+                      data-testid="book-cover"
+                      src="./books/and-ampersand/and-ampersand-flat-cover.png"
+                    />
+                    <h3
+                      class="book-title"
+                    >
+                      And Ampersand
+                    </h3>
+                    <p>
+                      A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
+                    </p>
+                    <a
+                      href="/books"
+                    >
+                      read more
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <div
-                  class="book-container grow-on-hover"
-                >
-                  <img
-                    alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
-                    class="book-cover"
-                    data-testid="book-cover"
-                    src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
-                  />
-                  <h3
-                    class="book-title"
+              </a>
+              <a
+                href="/books"
+              >
+                <div>
+                  <div
+                    class="book-container grow-on-hover"
                   >
-                    Imminent Dawn
-                  </h3>
-                  <p>
-                    The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.
-                  </p>
-                  <a
-                    href="/books"
-                  >
-                    read more
-                  </a>
+                    <img
+                      alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
+                      class="book-cover"
+                      data-testid="book-cover"
+                      src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
+                    />
+                    <h3
+                      class="book-title"
+                    >
+                      Imminent Dawn
+                    </h3>
+                    <p>
+                      The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.
+                    </p>
+                    <a
+                      href="/books"
+                    >
+                      read more
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <div
-                  class="book-container grow-on-hover"
-                >
-                  <img
-                    alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
-                    class="book-cover"
-                    data-testid="book-cover"
-                    src="./books/mourning-dove/mourning-dove-flat-cover.png"
-                  />
-                  <h3
-                    class="book-title"
+              </a>
+              <a
+                href="/books"
+              >
+                <div>
+                  <div
+                    class="book-container grow-on-hover"
                   >
-                    Mourning Dove
-                  </h3>
-                  <p>
-                    An evocative, sweeping symphony of love, revenge, and desperation in cacophonous times.
-                  </p>
-                  <a
-                    href="/books"
-                  >
-                    read more
-                  </a>
+                    <img
+                      alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
+                      class="book-cover"
+                      data-testid="book-cover"
+                      src="./books/mourning-dove/mourning-dove-flat-cover.png"
+                    />
+                    <h3
+                      class="book-title"
+                    >
+                      Mourning Dove
+                    </h3>
+                    <p>
+                      An evocative, sweeping symphony of love, revenge, and desperation in cacophonous times.
+                    </p>
+                    <a
+                      href="/books"
+                    >
+                      read more
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div
               class="button-container grow-on-hover"
@@ -1129,106 +1145,122 @@ exports[`GeneralLanding > default snapshot 1`] = `
             class="Books"
             data-testid="books"
           >
-            <div>
-              <div
-                class="book-container grow-on-hover"
-              >
-                <img
-                  alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
-                  class="book-cover"
-                  data-testid="book-cover"
-                  src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
-                />
-                <h3
-                  class="book-title"
+            <a
+              href="/books"
+            >
+              <div>
+                <div
+                  class="book-container grow-on-hover"
                 >
-                  Scambait
-                </h3>
-                <p>
-                  The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
-                </p>
-                <a
-                  href="/books"
-                >
-                  read more
-                </a>
+                  <img
+                    alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
+                    class="book-cover"
+                    data-testid="book-cover"
+                    src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+                  />
+                  <h3
+                    class="book-title"
+                  >
+                    Scambait
+                  </h3>
+                  <p>
+                    The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
+                  </p>
+                  <a
+                    href="/books"
+                  >
+                    read more
+                  </a>
+                </div>
               </div>
-            </div>
-            <div>
-              <div
-                class="book-container grow-on-hover"
-              >
-                <img
-                  alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
-                  class="book-cover"
-                  data-testid="book-cover"
-                  src="./books/and-ampersand/and-ampersand-flat-cover.png"
-                />
-                <h3
-                  class="book-title"
+            </a>
+            <a
+              href="/books"
+            >
+              <div>
+                <div
+                  class="book-container grow-on-hover"
                 >
-                  And Ampersand
-                </h3>
-                <p>
-                  A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
-                </p>
-                <a
-                  href="/books"
-                >
-                  read more
-                </a>
+                  <img
+                    alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
+                    class="book-cover"
+                    data-testid="book-cover"
+                    src="./books/and-ampersand/and-ampersand-flat-cover.png"
+                  />
+                  <h3
+                    class="book-title"
+                  >
+                    And Ampersand
+                  </h3>
+                  <p>
+                    A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
+                  </p>
+                  <a
+                    href="/books"
+                  >
+                    read more
+                  </a>
+                </div>
               </div>
-            </div>
-            <div>
-              <div
-                class="book-container grow-on-hover"
-              >
-                <img
-                  alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
-                  class="book-cover"
-                  data-testid="book-cover"
-                  src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
-                />
-                <h3
-                  class="book-title"
+            </a>
+            <a
+              href="/books"
+            >
+              <div>
+                <div
+                  class="book-container grow-on-hover"
                 >
-                  Imminent Dawn
-                </h3>
-                <p>
-                  The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.
-                </p>
-                <a
-                  href="/books"
-                >
-                  read more
-                </a>
+                  <img
+                    alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
+                    class="book-cover"
+                    data-testid="book-cover"
+                    src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
+                  />
+                  <h3
+                    class="book-title"
+                  >
+                    Imminent Dawn
+                  </h3>
+                  <p>
+                    The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.
+                  </p>
+                  <a
+                    href="/books"
+                  >
+                    read more
+                  </a>
+                </div>
               </div>
-            </div>
-            <div>
-              <div
-                class="book-container grow-on-hover"
-              >
-                <img
-                  alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
-                  class="book-cover"
-                  data-testid="book-cover"
-                  src="./books/mourning-dove/mourning-dove-flat-cover.png"
-                />
-                <h3
-                  class="book-title"
+            </a>
+            <a
+              href="/books"
+            >
+              <div>
+                <div
+                  class="book-container grow-on-hover"
                 >
-                  Mourning Dove
-                </h3>
-                <p>
-                  An evocative, sweeping symphony of love, revenge, and desperation in cacophonous times.
-                </p>
-                <a
-                  href="/books"
-                >
-                  read more
-                </a>
+                  <img
+                    alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
+                    class="book-cover"
+                    data-testid="book-cover"
+                    src="./books/mourning-dove/mourning-dove-flat-cover.png"
+                  />
+                  <h3
+                    class="book-title"
+                  >
+                    Mourning Dove
+                  </h3>
+                  <p>
+                    An evocative, sweeping symphony of love, revenge, and desperation in cacophonous times.
+                  </p>
+                  <a
+                    href="/books"
+                  >
+                    read more
+                  </a>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div
             class="button-container grow-on-hover"

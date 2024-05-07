@@ -3,11 +3,12 @@
   justify-content: space-evenly;
   align-items: flex-start;
   flex-wrap: wrap;
+  letter-spacing: normal;
 
   .book-container {
     display: flex;
     flex-direction: column;
-    justify-content: top;
+    justify-content: flex-start;
     align-items: center;
     max-width: 10rem;
     margin: 1rem 2rem;
@@ -29,5 +30,23 @@
   .book-title {
     font-style: italic;
     margin-bottom: 0;
+  }
+
+  a {
+    .book-title, p {
+      text-decoration: none;
+      color: var(--main-light-color);
+      letter-spacing: normal;
+    }
+  }
+}
+
+.light-theme {
+  .Books {
+    a {
+      .book-title, p {
+        color: var(--main-dark-color);
+      }
+    }
   }
 }
