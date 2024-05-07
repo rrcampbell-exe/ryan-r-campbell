@@ -57,7 +57,7 @@ export const LongStory = () =>
         <p>This is not at all what transpired.</p>
       `}
       src='/post-content/2024/04/sao-carlos-bedroom-office.jpeg'
-      caption='My bedroom and office in Brazil, where I wrote my first novel-length manuscript. Yes, the mattress just flopped down onto the floor.'
+      caption='My bedroom and office in Brazil, where I wrote my first novel-length manuscript. Yes, the mattress just flopped down onto the floor. (2012)'
       imageOnLeft
     />
     <div>
@@ -78,7 +78,7 @@ export const LongStory = () =>
         <p>Wait. What? <em>Being offered a publishing contract for a novel?</em></p>
       `}
       src='/post-content/2024/04/ryan-r-campbell-drinks-mate.jpeg'
-      caption="Testing the hypothesis that if one drinks enough mate, all of life's problems go away"
+      caption="Testing the hypothesis that if one drinks enough mate, all of life's problems go away (2014)"
     />
     <div>
       <h2>rise of all things bookish</h2>
@@ -114,7 +114,7 @@ export const LongStory = () =>
           `
         }
       src='/personal-photos/ryan-r-campbell-kyd-hat-in-car.jpeg'
-      caption='Heading out on a candle delivery run for KYD Candle Co.' 
+      caption='Heading out on a candle delivery run for KYD Candle Co. (2020)' 
       imageOnLeft
     />
     <TextAndImage 
