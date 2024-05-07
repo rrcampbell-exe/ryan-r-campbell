@@ -5,8 +5,8 @@ const ThemeContext = createContext()
 const getTheme = () => {
   const theme = localStorage.getItem('ryan-r-campbell-theme')
   if (!theme) {
-    localStorage.setItem('ryan-r-campbell-theme', 'light-theme')
-    return 'light-theme'
+    localStorage.setItem('ryan-r-campbell-theme', 'dark-theme')
+    return 'dark-theme'
   } else {
     return theme
   }
