@@ -1,12 +1,17 @@
 .Contact {
+  // inquiries label
   h4 {
     letter-spacing: 0.2rem;
     margin-bottom: 0;
   }
+
+  // email addresses
   p {
     margin-top: 0;
     font-size: 0.875rem;
   }
+
+  // subscribe link
   a {
     letter-spacing: normal;
     font-size: 0.875rem;
@@ -14,6 +19,7 @@
     align-items: center;
     transition: var(--fast-transition);
 
+    // external link svg
     svg {
       margin: 0.15rem 0 0 0.05rem;
       height: 12px;
