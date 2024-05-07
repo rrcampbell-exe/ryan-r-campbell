@@ -6,8 +6,9 @@
   scrollbar-width: thin;
   scrollbar-color: var(--main-accent-color) var(--main-dark-color);
   margin-bottom: 1rem;
-  transition: 0.5s;
+  transition: var(--slow-transition);
 
+  // Individual sections of the subnav (e.g. "About", "Reviews", "Contact")
   .section {
     border-right: 0.5px solid;
     padding: 0rem 1rem;

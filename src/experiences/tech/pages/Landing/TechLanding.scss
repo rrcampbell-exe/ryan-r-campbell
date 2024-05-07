@@ -9,7 +9,7 @@
     user-select: none;
     align-items: center;
     width: 100%;
-    transition: 0.3s;
+    transition: var(--fast-transition);
   }
   .wordcloud svg {
     margin: 1rem 0;
@@ -18,7 +18,7 @@
   .wordcloud label {
     display: inline-flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-right: 8px;
   }
   .wordcloud textarea {
@@ -49,8 +49,8 @@
     margin: 1rem;
     border: 1px solid;
     border-radius: 4px;
-    box-shadow: 0 4px 8px 0 var(--shadow);
-    transition: 0.3s;
+    box-shadow: var(--standard-box-shadow);
+    transition: var(--fast-transition);
 
     h3 {
       font-weight: 500;

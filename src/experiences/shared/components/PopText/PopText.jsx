@@ -20,7 +20,7 @@ const PopText = ({ children, slow }) => {
 
   return (
     <div>
-      <div className={`pop-content${slow ? `-slow` : ''}`}>{currentContent}</div>
+      <div className='pop-content'>{currentContent}</div>
     </div>
   );
 };

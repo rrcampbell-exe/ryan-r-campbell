@@ -1,16 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PageWrapper from '../../../shared/components/PageWrapper/PageWrapper'
 import { Contact, SubNav, Reviews } from '../../../shared/components'
 import { books } from '../../../../constants'
+import { useLocation } from 'react-router-dom'
 
 const BooksLanding = () => {
+  const { state } = useLocation()
+
+  useEffect(() => {
+    if (state && state.hash) {
+      const element = document.getElementById(state.hash)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' })
+      }
+    }
+  }, [])
+
   return (
     <PageWrapper pageTitle='international book awards finalist'>
       <SubNav sections={['scambait', 'and-ampersand', 'imminent-dawn', 'mourning-dove', 'reviews', 'contact']} />
       <main className='Books-landing'>
-        {books.map((book) => (
-          <>
-            <div id={book.id} className='section-wrapper book-section' key={book.id}>
+        {books.map((book, index) => (
+          <div key={index}>
+            <div id={book.id} className='section-wrapper book-section'>
               <div className='book-wrapper'>
                 <img className='book-cover' src={book.cover} />
               </div>
@@ -27,7 +39,7 @@ const BooksLanding = () => {
               </div>
             </div>
             <Reviews selectReviews bookIdToDisplay={book.id} shadowBg />
-          </>
+          </div>
         ))}
         <div id='contact' className='shadow-bg-main-accent section-wrapper'>
           <h2>contact</h2>
