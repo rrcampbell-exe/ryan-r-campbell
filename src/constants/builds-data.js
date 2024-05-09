@@ -1,5 +1,16 @@
 const builds = [
   {
+    logo: './builds/ryan-r-campbell-app-logo.png',
+    alt: 'A black-and-white image of Ryan R. Campbell gazing to the right',
+    title: 'The Ryan R. Campbell Website',
+    teaser: 'Books and builds and blogs, oh my!',
+    description: 'The blog, portfolio, and personal site for author and technologist Ryan R. Campbell.',
+    technologies: 'React, Sass, Vite, react-router, visx, Vitest, @testing-library/react, husky',
+    link: 'https://ryanrcampbell.com/',
+    linkText: 'return to the homepage',
+    gitHub: 'https://github.com/rrcampbell-exe/ryan-r-campbell'
+  },
+  {
     logo: './builds/real-fake-birds-app-logo.png',
     alt: 'The cartoon outline of a bird against a forest green background',
     title: 'Real Fake Birds',
@@ -29,18 +40,7 @@ const builds = [
     description: 'This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!',
     technologies: 'Node, Inquirer, fs, JavaScript, ESM',
     gitHub: 'https://github.com/rrcampbell-exe/readme-generator'
-  },
-  {
-    logo: './builds/ryan-r-campbell-app-logo.png',
-    alt: 'A black-and-white image of Ryan R. Campbell gazing to the right',
-    title: 'The Ryan R. Campbell Website',
-    teaser: 'Books and builds and blogs, oh my!',
-    description: 'The blog, portfolio, and personal site for author and technologist Ryan R. Campbell.',
-    technologies: 'React, Sass, Vite, react-router, visx, Vitest, @testing-library/react, husky',
-    link: 'https://ryanrcampbell.com/',
-    linkText: 'return to the homepage',
-    gitHub: 'https://github.com/rrcampbell-exe/ryan-r-campbell'
-  },
+  }
 ]
 
 export default builds

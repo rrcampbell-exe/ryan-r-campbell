@@ -2,7 +2,7 @@ import React from 'react'
 import { builds } from '../../../../constants'
 
 const Builds = ({ buildsToDisplay }) => {
-  const buildsToRender = buildsToDisplay ? builds.slice(0, buildsToDisplay) : builds
+  const buildsToRender = buildsToDisplay ? builds.slice(1, buildsToDisplay + 1) : builds
   return (
     <div className='Builds'>
       {buildsToRender.map((app) => (
@@ -16,7 +16,7 @@ const Builds = ({ buildsToDisplay }) => {
           </div>
           <div className='app-details'>
             <p><b>Technologies used: </b>{app.technologies}</p>
-            <p><a href={app.link} target='_blank' rel='noopener'>{app.linkText}</a></p>
+            <p><a href={app.link} target={app.link && app.link.includes('ryanrcampbell.com') ? '' : '_blank'} rel='noopener'>{app.linkText}</a></p>
             <p><a href={app.gitHub} target='_blank' rel='noopener noreferrer'>view {app.title.toLowerCase()} on github</a></p>
           </div>
         </div>
