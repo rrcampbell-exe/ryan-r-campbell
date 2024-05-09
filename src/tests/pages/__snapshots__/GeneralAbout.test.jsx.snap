@@ -196,7 +196,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
             <img
               alt="Ryan R. Campbell in front of a blurry bookshelf"
               class="about-img"
-              src="/ryan-r-campbell-bookshelf-background.jpg"
+              src="./2024-ryan-r-campbell-with-hat-on-outdoors.jpg"
             />
             <h2>
               the story (so far)
@@ -494,7 +494,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
           <img
             alt="Ryan R. Campbell in front of a blurry bookshelf"
             class="about-img"
-            src="/ryan-r-campbell-bookshelf-background.jpg"
+            src="./2024-ryan-r-campbell-with-hat-on-outdoors.jpg"
           />
           <h2>
             the story (so far)

@@ -15,7 +15,7 @@ const GeneralAbout = () => {
     <PageWrapper pageTitle='spinner of yarns'>
       <main className='About'>
         <div className='about-container'>
-          <img className='about-img' src='/ryan-r-campbell-bookshelf-background.jpg' alt='Ryan R. Campbell in front of a blurry bookshelf' />
+          <img className='about-img' src='./2024-ryan-r-campbell-with-hat-on-outdoors.jpg' alt='Ryan R. Campbell in front of a blurry bookshelf' />
           <h2>the story (so far)</h2>
         </div>
         <div id='tale-selection' className={hasSelectionBeenMade ? 'display-none' : ''}>

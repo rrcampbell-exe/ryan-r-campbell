@@ -230,15 +230,6 @@ exports[`BooksLanding > default snapshot 1`] = `
             class="section"
           >
             <a
-              href="#reviews"
-            >
-              reviews
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
               href="#contact"
             >
               contact
@@ -3068,15 +3059,6 @@ exports[`BooksLanding > default snapshot 1`] = `
             href="#mourning-dove"
           >
             mourning dove
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#reviews"
-          >
-            reviews
           </a>
         </div>
         <div
