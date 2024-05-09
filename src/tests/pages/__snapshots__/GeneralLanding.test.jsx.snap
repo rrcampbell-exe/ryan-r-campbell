@@ -773,6 +773,9 @@ exports[`GeneralLanding > default snapshot 1`] = `
         </footer>
       </div>
     </div>
+    <div
+      class="ReactModalPortal"
+    />
   </body>,
   "container": <div>
     <div>
