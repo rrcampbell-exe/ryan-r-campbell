@@ -12,6 +12,8 @@ const BooksLanding = () => {
       const element = document.getElementById(state.hash)
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' })
+      } else {
+        window.scrollTo(top)
       }
     }
   }, [])
