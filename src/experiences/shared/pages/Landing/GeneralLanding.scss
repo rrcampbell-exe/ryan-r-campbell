@@ -26,3 +26,40 @@
   }
   
 }
+
+// MODAL STYLES
+.modal-content {
+  text-align: center;
+  padding: 1rem;
+  margin: -1rem;
+  background-color: var(--main-dark-color);
+  height: 100%;
+  border-radius: 4px;
+  color: var(--main-light-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2, h3 {
+    margin-top: 1rem;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+  }
+
+  @media (max-width: 600px) {
+    img {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
