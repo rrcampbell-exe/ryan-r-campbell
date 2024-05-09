@@ -10,57 +10,28 @@ import { BlogPost } from './experiences/shared/components/index.js'
 import PodcastLanding from './experiences/author/pages/Podcast/PodcastLanding.jsx'
 import PodcastEpisode from './experiences/author/pages/Podcast/PodcastEpisode.jsx'
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { Navigate, BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import { ThemeProvider } from './Theme.jsx'
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <GeneralLanding />
-  },
-  {
-    path: '/author',
-    element: <AuthorLanding />
-  },
-  {
-    path: '/books',
-    element: <BooksLanding />
-  },
-  {
-    path: '/about',
-    element: <GeneralAbout />
-  },
-  {
-    path: '/tech',
-    element: <TechLanding />
-  },
-  {
-    path: '/:year/:month/:day/:slug',
-    element: <BlogPost />
-  },
-  {
-    path: '/blog',
-    element: <BlogLanding />
-  },
-  {
-    path: '/podcasts',
-    element: <PodcastLanding />
-  },
-  {
-    path: '/podcast/:slug',
-    element: <PodcastEpisode />
-  },
-  {
-    path: '/*',
-    element: <GeneralLanding pageNotFound />
-  }
-])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider>
-      <RouterProvider router={router} />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<GeneralLanding />} />
+          <Route path='/author' element={<AuthorLanding />} />
+          <Route path='/books/*' element={<Navigate to='/books' />} />
+          <Route path='/books' element={<BooksLanding />} />
+          <Route path='/about' element={<GeneralAbout />} />
+          <Route path='/tech' element={<TechLanding />} />
+          <Route path='/:year/:month/:day/:slug/amp?' element={<BlogPost />} />
+          <Route path='/blog' element={<BlogLanding />} />
+          <Route path='/podcasts' element={<PodcastLanding />} />
+          <Route path='/podcast/:slug/amp?' element={<PodcastEpisode />} />
+          <Route path='/*' element={<GeneralLanding pageNotFound />} />
+        </Routes>
+      </BrowserRouter>
     </ThemeProvider>
   </React.StrictMode>
 )
