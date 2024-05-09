@@ -127,6 +127,17 @@ exports[`constants should match snapshots > books 1`] = `
 exports[`constants should match snapshots > builds 1`] = `
 [
   {
+    "alt": "A black-and-white image of Ryan R. Campbell gazing to the right",
+    "description": "The blog, portfolio, and personal site for author and technologist Ryan R. Campbell.",
+    "gitHub": "https://github.com/rrcampbell-exe/ryan-r-campbell",
+    "link": "https://ryanrcampbell.com/",
+    "linkText": "return to the homepage",
+    "logo": "./builds/ryan-r-campbell-app-logo.png",
+    "teaser": "Books and builds and blogs, oh my!",
+    "technologies": "React, Sass, Vite, react-router, visx, Vitest, @testing-library/react, husky",
+    "title": "The Ryan R. Campbell Website",
+  },
+  {
     "alt": "The cartoon outline of a bird against a forest green background",
     "description": "Earn badges and extend your streak in this real-or-fake guessing game that puts even the most ardent birders to the test.",
     "gitHub": "https://github.com/rrcampbell-exe/real-fake-birds",
@@ -156,17 +167,6 @@ exports[`constants should match snapshots > builds 1`] = `
     "teaser": "Make READMEs users will actually read.",
     "technologies": "Node, Inquirer, fs, JavaScript, ESM",
     "title": "README Generator",
-  },
-  {
-    "alt": "A black-and-white image of Ryan R. Campbell gazing to the right",
-    "description": "The blog, portfolio, and personal site for author and technologist Ryan R. Campbell.",
-    "gitHub": "https://github.com/rrcampbell-exe/ryan-r-campbell",
-    "link": "https://ryanrcampbell.com/",
-    "linkText": "return to the homepage",
-    "logo": "./builds/ryan-r-campbell-app-logo.png",
-    "teaser": "Books and builds and blogs, oh my!",
-    "technologies": "React, Sass, Vite, react-router, visx, Vitest, @testing-library/react, husky",
-    "title": "The Ryan R. Campbell Website",
   },
 ]
 `;

@@ -13,6 +13,64 @@ exports[`Builds > default snapshot 1`] = `
         class="app-overview"
       >
         <img
+          alt="A black-and-white image of Ryan R. Campbell gazing to the right"
+          class="app-logo"
+          src="./builds/ryan-r-campbell-app-logo.png"
+        />
+        <h3
+          class="app-title"
+        >
+          The Ryan R. Campbell Website
+        </h3>
+        <i
+          class="app-teaser"
+        >
+          Books and builds and blogs, oh my!
+        </i>
+        <p>
+          The blog, portfolio, and personal site for author and technologist Ryan R. Campbell.
+        </p>
+        <div
+          class="app-overview-underline"
+        />
+      </div>
+      <div
+        class="app-details"
+      >
+        <p>
+          <b>
+            Technologies used: 
+          </b>
+          React, Sass, Vite, react-router, visx, Vitest, @testing-library/react, husky
+        </p>
+        <p>
+          <a
+            href="https://ryanrcampbell.com/"
+            rel="noopener"
+            target=""
+          >
+            return to the homepage
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://github.com/rrcampbell-exe/ryan-r-campbell"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            view the ryan r. campbell website on github
+          </a>
+        </p>
+      </div>
+    </div>
+    <div
+      class="build grow-on-hover"
+      data-testid="build"
+    >
+      <div
+        class="app-overview"
+      >
+        <img
           alt="The cartoon outline of a bird against a forest green background"
           class="app-logo"
           src="./builds/real-fake-birds-app-logo.png"
@@ -172,64 +230,6 @@ exports[`Builds > default snapshot 1`] = `
             target="_blank"
           >
             view readme generator on github
-          </a>
-        </p>
-      </div>
-    </div>
-    <div
-      class="build grow-on-hover"
-      data-testid="build"
-    >
-      <div
-        class="app-overview"
-      >
-        <img
-          alt="A black-and-white image of Ryan R. Campbell gazing to the right"
-          class="app-logo"
-          src="./builds/ryan-r-campbell-app-logo.png"
-        />
-        <h3
-          class="app-title"
-        >
-          The Ryan R. Campbell Website
-        </h3>
-        <i
-          class="app-teaser"
-        >
-          Books and builds and blogs, oh my!
-        </i>
-        <p>
-          The blog, portfolio, and personal site for author and technologist Ryan R. Campbell.
-        </p>
-        <div
-          class="app-overview-underline"
-        />
-      </div>
-      <div
-        class="app-details"
-      >
-        <p>
-          <b>
-            Technologies used: 
-          </b>
-          React, Sass, Vite, react-router, visx, Vitest, @testing-library/react, husky
-        </p>
-        <p>
-          <a
-            href="https://ryanrcampbell.com/"
-            rel="noopener"
-            target="_blank"
-          >
-            return to the homepage
-          </a>
-        </p>
-        <p>
-          <a
-            href="https://github.com/rrcampbell-exe/ryan-r-campbell"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            view the ryan r. campbell website on github
           </a>
         </p>
       </div>
