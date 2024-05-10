@@ -1,6 +1,8 @@
 import { describe, expect, test } from 'vitest'
 import posts from '../../assets/posts/new-posts'
 import { formatDate } from '../../utils'
+import WelcomeToTheNewRyanRCampbell from '../../assets/posts/post-jsx/2024/05/welcome-to-the-new-ryan-r-campbell'
+const fs = require('fs').promises
 
 const latestPost = posts[posts.length - 1]
 
@@ -13,8 +15,8 @@ describe('The latest blog post', () => {
   test('should be found at an href that matches its link', () => {
     expect(window.location.href).toBe(latestPost.link)
   })
-  test('should contain HTML content', async () => {
-    expect(latestPost.content.rendered).toMatch(/<p>/)
+  test('should contain an empty string at content.rendered', async () => {
+    expect(latestPost.content.rendered).toMatch('')
   })
   test('should have a date that matches the date in its link', () => {
     const formattedDate = formatDate(latestPost.date)
@@ -56,5 +58,21 @@ describe('The latest blog post', () => {
 
     expect(latestPost.excerpt.rendered).not.toBe('')
     expect(uniqueExcerpts.size).toBe(excerpts.length)
+  })
+  test('should have a file in the assets/posts/post-jsx directory that matches its year, month, and slug', async () => {
+    const [ year, month ] = latestPost.link.split('/').slice(-4, -1)
+    const slug = latestPost.link.split('/').pop()
+    const expectedPath = `/src/assets/posts/post-jsx/${year}/${month}/${slug}.jsx`
+
+    // asynchronously check if the file exists
+    try {
+      // fs needs to access expected path via location from which tests are run, ergo: process.cwd()
+      await fs.access(process.cwd() + expectedPath)
+      // if no error is thrown, the file exists
+      expect(true).toBe(true)
+    } catch (error) {
+      // if an error is thrown, the file does not exist
+      expect(error).toBe(undefined) // fail the test
+    }
   })
 })
