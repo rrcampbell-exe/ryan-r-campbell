@@ -1,0 +1,660 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BlogPost > default snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <header
+          class="Header"
+        >
+          <a
+            class="link"
+            href="/"
+          >
+            <div
+              class="page-details"
+            >
+              <h1>
+                ryan r
+                <span
+                  id="header-dot"
+                >
+                  .
+                </span>
+                 campbell
+              </h1>
+              <h2>
+                author | technologist
+              </h2>
+            </div>
+          </a>
+          <div
+            class="header-toggles"
+          >
+            <button
+              class="theme-toggle-button"
+            >
+              <svg
+                class="header-svg"
+                fill="none"
+                id="moon-svg"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.9001 2.30719C19.7392 1.8976 19.1616 1.8976 19.0007 2.30719L18.5703 3.40247C18.5212 3.52752 18.4226 3.62651 18.298 3.67583L17.2067 4.1078C16.7986 4.26934 16.7986 4.849 17.2067 5.01054L18.298 5.44252C18.4226 5.49184 18.5212 5.59082 18.5703 5.71587L19.0007 6.81115C19.1616 7.22074 19.7392 7.22074 19.9001 6.81116L20.3305 5.71587C20.3796 5.59082 20.4782 5.49184 20.6028 5.44252L21.6941 5.01054C22.1022 4.849 22.1022 4.26934 21.6941 4.1078L20.6028 3.67583C20.4782 3.62651 20.3796 3.52752 20.3305 3.40247L19.9001 2.30719Z"
+                  stroke-width="0.15"
+                />
+                <path
+                  d="M16.0328 8.12967C15.8718 7.72009 15.2943 7.72009 15.1333 8.12967L14.9764 8.52902C14.9273 8.65407 14.8287 8.75305 14.7041 8.80237L14.3062 8.95987C13.8981 9.12141 13.8981 9.70107 14.3062 9.86261L14.7041 10.0201C14.8287 10.0694 14.9273 10.1684 14.9764 10.2935L15.1333 10.6928C15.2943 11.1024 15.8718 11.1024 16.0328 10.6928L16.1897 10.2935C16.2388 10.1684 16.3374 10.0694 16.462 10.0201L16.8599 9.86261C17.268 9.70107 17.268 9.12141 16.8599 8.95987L16.462 8.80237C16.3374 8.75305 16.2388 8.65407 16.1897 8.52902L16.0328 8.12967Z"
+                  stroke-width="0.15"
+                />
+                <path
+                  d="M21.0672 11.8568L20.4253 11.469L21.0672 11.8568ZM12.1432 2.93276L11.7553 2.29085V2.29085L12.1432 2.93276ZM21.25 12C21.25 17.1086 17.1086 21.25 12 21.25V22.75C17.9371 22.75 22.75 17.9371 22.75 12H21.25ZM12 21.25C6.89137 21.25 2.75 17.1086 2.75 12H1.25C1.25 17.9371 6.06294 22.75 12 22.75V21.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75V1.25C6.06294 1.25 1.25 6.06294 1.25 12H2.75ZM15.5 14.25C12.3244 14.25 9.75 11.6756 9.75 8.5H8.25C8.25 12.5041 11.4959 15.75 15.5 15.75V14.25ZM20.4253 11.469C19.4172 13.1373 17.5882 14.25 15.5 14.25V15.75C18.1349 15.75 20.4407 14.3439 21.7092 12.2447L20.4253 11.469ZM9.75 8.5C9.75 6.41182 10.8627 4.5828 12.531 3.57467L11.7553 2.29085C9.65609 3.5593 8.25 5.86509 8.25 8.5H9.75ZM12 2.75C11.9115 2.75 11.8077 2.71008 11.7324 2.63168C11.6686 2.56527 11.6538 2.50244 11.6503 2.47703C11.6461 2.44587 11.6482 2.35557 11.7553 2.29085L12.531 3.57467C13.0342 3.27065 13.196 2.71398 13.1368 2.27627C13.0754 1.82126 12.7166 1.25 12 1.25V2.75ZM21.7092 12.2447C21.6444 12.3518 21.5541 12.3539 21.523 12.3497C21.4976 12.3462 21.4347 12.3314 21.3683 12.2676C21.2899 12.1923 21.25 12.0885 21.25 12H22.75C22.75 11.2834 22.1787 10.9246 21.7237 10.8632C21.286 10.804 20.7293 10.9658 20.4253 11.469L21.7092 12.2447Z"
+                  stroke-width="0.15"
+                />
+              </svg>
+            </button>
+            <div
+              class="Hamburger-menu "
+              data-testid="menu"
+            >
+              <button
+                class="theme-toggle-button"
+              >
+                <svg
+                  id="hamburger-icon"
+                  version="1.1"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <title>
+                    Menu
+                  </title>
+                  <g
+                    fill="none"
+                    fill-rule="evenodd"
+                    id="Page-1"
+                    stroke="none"
+                    stroke-width="1"
+                  >
+                    <g
+                      id="Menu"
+                    >
+                      <rect
+                        fill-rule="nonzero"
+                        height="24"
+                        id="Rectangle"
+                        width="24"
+                        x="0"
+                        y="0"
+                      />
+                      <line
+                        id="Path"
+                        stroke-linecap="round"
+                        stroke-width="1.5"
+                        x1="5"
+                        x2="19"
+                        y1="7"
+                        y2="7"
+                      />
+                      <line
+                        id="Path"
+                        stroke-linecap="round"
+                        stroke-width="1.5"
+                        x1="5"
+                        x2="19"
+                        y1="17"
+                        y2="17"
+                      />
+                      <line
+                        id="Path"
+                        stroke-linecap="round"
+                        stroke-width="1.5"
+                        x1="5"
+                        x2="19"
+                        y1="12"
+                        y2="12"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </button>
+              <div
+                class="menu-content"
+              >
+                <div
+                  class="icon-container"
+                >
+                  <button
+                    data-testid="close-button"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M20.7457 3.32851C20.3552 2.93798 19.722 2.93798 19.3315 3.32851L12.0371 10.6229L4.74275 3.32851C4.35223 2.93798 3.71906 2.93798 3.32854 3.32851C2.93801 3.71903 2.93801 4.3522 3.32854 4.74272L10.6229 12.0371L3.32856 19.3314C2.93803 19.722 2.93803 20.3551 3.32856 20.7457C3.71908 21.1362 4.35225 21.1362 4.74277 20.7457L12.0371 13.4513L19.3315 20.7457C19.722 21.1362 20.3552 21.1362 20.7457 20.7457C21.1362 20.3551 21.1362 19.722 20.7457 19.3315L13.4513 12.0371L20.7457 4.74272C21.1362 4.3522 21.1362 3.71903 20.7457 3.32851Z"
+                        stroke-width="0.5"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div
+                  class="link-container"
+                >
+                  <a
+                    class="hamburger-link active"
+                    href="/"
+                  >
+                    home
+                  </a>
+                  <a
+                    class="hamburger-link"
+                    href="/about"
+                  >
+                    about
+                  </a>
+                  <a
+                    class="hamburger-link"
+                    href="/blog"
+                  >
+                    blog
+                  </a>
+                  <a
+                    class="hamburger-link"
+                    href="/author"
+                  >
+                    author hub
+                  </a>
+                  <a
+                    class="hamburger-link"
+                    href="/tech"
+                  >
+                    tech hub
+                  </a>
+                  <a
+                    class="hamburger-link"
+                    href="/podcasts"
+                  >
+                    podcasts
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main>
+          <div>
+            <div
+              class="NotFound"
+            >
+              <div
+                class="about-row section-wrapper"
+              >
+                <div>
+                  <svg
+                    class="about-img"
+                    id="robot-svg"
+                    viewBox="0 0 256 256"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M200,48H136V16a8,8,0,0,0-16,0V48H56A32.03635,32.03635,0,0,0,24,80V192a32.03635,32.03635,0,0,0,32,32H200a32.03635,32.03635,0,0,0,32-32V80A32.03635,32.03635,0,0,0,200,48ZM72,108a12,12,0,1,1,12,12A12,12,0,0,1,72,108Zm28,76H92a16,16,0,0,1,0-32h8Zm40,0H116V152h24Zm24,0h-8V152h8a16,16,0,0,1,0,32Zm8-64a12,12,0,1,1,12-12A12,12,0,0,1,172,120Z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="about-description"
+                >
+                  <h2>
+                    blog post
+                     not found
+                  </h2>
+                  <p>
+                    I couldn't find the 
+                    blog post
+                     you were looking for. It might have been moved or relocated as part of a recent site migration.
+                  </p>
+                  <a
+                    href="/"
+                  >
+                    return to the homepage here.
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="section-wrapper shadow-bg-main-accent"
+          >
+            <h2>
+              contact
+            </h2>
+            <div
+              class="Contact"
+            >
+              <h4>
+                tech inquiries
+              </h4>
+              <p>
+                campbell [dot] ryan [dot] r [at] gmail [dot] com
+              </p>
+              <h4>
+                author inquiries
+              </h4>
+              <p>
+                rrcampbellwrites [at] gmail [dot] com
+              </p>
+              <h4>
+                subscribe
+              </h4>
+              <a
+                class="subscription-link"
+                href="http://eepurl.com/dhBxcv"
+                rel="noopener"
+                target="_blank"
+              >
+                subscribe to my newsletter 
+                <svg
+                  class="external-link-svg"
+                  fill="transparent"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    id="Interface / External_Link"
+                  >
+                    <path
+                      d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                      id="Vector"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </main>
+        <div
+          data-testid="analytics"
+        />
+        <div
+          data-testid="speed-insights"
+        />
+        <footer>
+          <div
+            class="site-logo-container"
+          >
+            <img
+              alt="ryan r. campbell logo"
+              src="/favicon-2024-ryan-r-campbell.png"
+            />
+          </div>
+          <span>
+            © 2012 - 
+            2024
+             Ryan R. Campbell
+          </span>
+        </footer>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <header
+        class="Header"
+      >
+        <a
+          class="link"
+          href="/"
+        >
+          <div
+            class="page-details"
+          >
+            <h1>
+              ryan r
+              <span
+                id="header-dot"
+              >
+                .
+              </span>
+               campbell
+            </h1>
+            <h2>
+              author | technologist
+            </h2>
+          </div>
+        </a>
+        <div
+          class="header-toggles"
+        >
+          <button
+            class="theme-toggle-button"
+          >
+            <svg
+              class="header-svg"
+              fill="none"
+              id="moon-svg"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19.9001 2.30719C19.7392 1.8976 19.1616 1.8976 19.0007 2.30719L18.5703 3.40247C18.5212 3.52752 18.4226 3.62651 18.298 3.67583L17.2067 4.1078C16.7986 4.26934 16.7986 4.849 17.2067 5.01054L18.298 5.44252C18.4226 5.49184 18.5212 5.59082 18.5703 5.71587L19.0007 6.81115C19.1616 7.22074 19.7392 7.22074 19.9001 6.81116L20.3305 5.71587C20.3796 5.59082 20.4782 5.49184 20.6028 5.44252L21.6941 5.01054C22.1022 4.849 22.1022 4.26934 21.6941 4.1078L20.6028 3.67583C20.4782 3.62651 20.3796 3.52752 20.3305 3.40247L19.9001 2.30719Z"
+                stroke-width="0.15"
+              />
+              <path
+                d="M16.0328 8.12967C15.8718 7.72009 15.2943 7.72009 15.1333 8.12967L14.9764 8.52902C14.9273 8.65407 14.8287 8.75305 14.7041 8.80237L14.3062 8.95987C13.8981 9.12141 13.8981 9.70107 14.3062 9.86261L14.7041 10.0201C14.8287 10.0694 14.9273 10.1684 14.9764 10.2935L15.1333 10.6928C15.2943 11.1024 15.8718 11.1024 16.0328 10.6928L16.1897 10.2935C16.2388 10.1684 16.3374 10.0694 16.462 10.0201L16.8599 9.86261C17.268 9.70107 17.268 9.12141 16.8599 8.95987L16.462 8.80237C16.3374 8.75305 16.2388 8.65407 16.1897 8.52902L16.0328 8.12967Z"
+                stroke-width="0.15"
+              />
+              <path
+                d="M21.0672 11.8568L20.4253 11.469L21.0672 11.8568ZM12.1432 2.93276L11.7553 2.29085V2.29085L12.1432 2.93276ZM21.25 12C21.25 17.1086 17.1086 21.25 12 21.25V22.75C17.9371 22.75 22.75 17.9371 22.75 12H21.25ZM12 21.25C6.89137 21.25 2.75 17.1086 2.75 12H1.25C1.25 17.9371 6.06294 22.75 12 22.75V21.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75V1.25C6.06294 1.25 1.25 6.06294 1.25 12H2.75ZM15.5 14.25C12.3244 14.25 9.75 11.6756 9.75 8.5H8.25C8.25 12.5041 11.4959 15.75 15.5 15.75V14.25ZM20.4253 11.469C19.4172 13.1373 17.5882 14.25 15.5 14.25V15.75C18.1349 15.75 20.4407 14.3439 21.7092 12.2447L20.4253 11.469ZM9.75 8.5C9.75 6.41182 10.8627 4.5828 12.531 3.57467L11.7553 2.29085C9.65609 3.5593 8.25 5.86509 8.25 8.5H9.75ZM12 2.75C11.9115 2.75 11.8077 2.71008 11.7324 2.63168C11.6686 2.56527 11.6538 2.50244 11.6503 2.47703C11.6461 2.44587 11.6482 2.35557 11.7553 2.29085L12.531 3.57467C13.0342 3.27065 13.196 2.71398 13.1368 2.27627C13.0754 1.82126 12.7166 1.25 12 1.25V2.75ZM21.7092 12.2447C21.6444 12.3518 21.5541 12.3539 21.523 12.3497C21.4976 12.3462 21.4347 12.3314 21.3683 12.2676C21.2899 12.1923 21.25 12.0885 21.25 12H22.75C22.75 11.2834 22.1787 10.9246 21.7237 10.8632C21.286 10.804 20.7293 10.9658 20.4253 11.469L21.7092 12.2447Z"
+                stroke-width="0.15"
+              />
+            </svg>
+          </button>
+          <div
+            class="Hamburger-menu "
+            data-testid="menu"
+          >
+            <button
+              class="theme-toggle-button"
+            >
+              <svg
+                id="hamburger-icon"
+                version="1.1"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>
+                  Menu
+                </title>
+                <g
+                  fill="none"
+                  fill-rule="evenodd"
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                >
+                  <g
+                    id="Menu"
+                  >
+                    <rect
+                      fill-rule="nonzero"
+                      height="24"
+                      id="Rectangle"
+                      width="24"
+                      x="0"
+                      y="0"
+                    />
+                    <line
+                      id="Path"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                      x1="5"
+                      x2="19"
+                      y1="7"
+                      y2="7"
+                    />
+                    <line
+                      id="Path"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                      x1="5"
+                      x2="19"
+                      y1="17"
+                      y2="17"
+                    />
+                    <line
+                      id="Path"
+                      stroke-linecap="round"
+                      stroke-width="1.5"
+                      x1="5"
+                      x2="19"
+                      y1="12"
+                      y2="12"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </button>
+            <div
+              class="menu-content"
+            >
+              <div
+                class="icon-container"
+              >
+                <button
+                  data-testid="close-button"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.7457 3.32851C20.3552 2.93798 19.722 2.93798 19.3315 3.32851L12.0371 10.6229L4.74275 3.32851C4.35223 2.93798 3.71906 2.93798 3.32854 3.32851C2.93801 3.71903 2.93801 4.3522 3.32854 4.74272L10.6229 12.0371L3.32856 19.3314C2.93803 19.722 2.93803 20.3551 3.32856 20.7457C3.71908 21.1362 4.35225 21.1362 4.74277 20.7457L12.0371 13.4513L19.3315 20.7457C19.722 21.1362 20.3552 21.1362 20.7457 20.7457C21.1362 20.3551 21.1362 19.722 20.7457 19.3315L13.4513 12.0371L20.7457 4.74272C21.1362 4.3522 21.1362 3.71903 20.7457 3.32851Z"
+                      stroke-width="0.5"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="link-container"
+              >
+                <a
+                  class="hamburger-link active"
+                  href="/"
+                >
+                  home
+                </a>
+                <a
+                  class="hamburger-link"
+                  href="/about"
+                >
+                  about
+                </a>
+                <a
+                  class="hamburger-link"
+                  href="/blog"
+                >
+                  blog
+                </a>
+                <a
+                  class="hamburger-link"
+                  href="/author"
+                >
+                  author hub
+                </a>
+                <a
+                  class="hamburger-link"
+                  href="/tech"
+                >
+                  tech hub
+                </a>
+                <a
+                  class="hamburger-link"
+                  href="/podcasts"
+                >
+                  podcasts
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div>
+          <div
+            class="NotFound"
+          >
+            <div
+              class="about-row section-wrapper"
+            >
+              <div>
+                <svg
+                  class="about-img"
+                  id="robot-svg"
+                  viewBox="0 0 256 256"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M200,48H136V16a8,8,0,0,0-16,0V48H56A32.03635,32.03635,0,0,0,24,80V192a32.03635,32.03635,0,0,0,32,32H200a32.03635,32.03635,0,0,0,32-32V80A32.03635,32.03635,0,0,0,200,48ZM72,108a12,12,0,1,1,12,12A12,12,0,0,1,72,108Zm28,76H92a16,16,0,0,1,0-32h8Zm40,0H116V152h24Zm24,0h-8V152h8a16,16,0,0,1,0,32Zm8-64a12,12,0,1,1,12-12A12,12,0,0,1,172,120Z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="about-description"
+              >
+                <h2>
+                  blog post
+                   not found
+                </h2>
+                <p>
+                  I couldn't find the 
+                  blog post
+                   you were looking for. It might have been moved or relocated as part of a recent site migration.
+                </p>
+                <a
+                  href="/"
+                >
+                  return to the homepage here.
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="section-wrapper shadow-bg-main-accent"
+        >
+          <h2>
+            contact
+          </h2>
+          <div
+            class="Contact"
+          >
+            <h4>
+              tech inquiries
+            </h4>
+            <p>
+              campbell [dot] ryan [dot] r [at] gmail [dot] com
+            </p>
+            <h4>
+              author inquiries
+            </h4>
+            <p>
+              rrcampbellwrites [at] gmail [dot] com
+            </p>
+            <h4>
+              subscribe
+            </h4>
+            <a
+              class="subscription-link"
+              href="http://eepurl.com/dhBxcv"
+              rel="noopener"
+              target="_blank"
+            >
+              subscribe to my newsletter 
+              <svg
+                class="external-link-svg"
+                fill="transparent"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  id="Interface / External_Link"
+                >
+                  <path
+                    d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                    id="Vector"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </main>
+      <div
+        data-testid="analytics"
+      />
+      <div
+        data-testid="speed-insights"
+      />
+      <footer>
+        <div
+          class="site-logo-container"
+        >
+          <img
+            alt="ryan r. campbell logo"
+            src="/favicon-2024-ryan-r-campbell.png"
+          />
+        </div>
+        <span>
+          © 2012 - 
+          2024
+           Ryan R. Campbell
+        </span>
+      </footer>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
