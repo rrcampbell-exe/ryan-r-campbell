@@ -1,6 +1,6 @@
 import React from 'react'
 import legacyPosts from '../../../../assets/posts/legacy-posts'
-import posts from '../../../../assets/posts/new-posts.jsx'
+import posts from '../../../../assets/posts/new-posts'
 import { formatDate, buildNavURL } from '../../../../utils'
 import { Link, useNavigate } from 'react-router-dom'
 

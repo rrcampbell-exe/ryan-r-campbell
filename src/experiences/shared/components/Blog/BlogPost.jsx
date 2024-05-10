@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import legacyPosts from '../../../../assets/posts/legacy-posts'
-import posts from '../../../../assets/posts/new-posts.jsx'
+import posts from '../../../../assets/posts/new-posts'
 import { useParams } from 'react-router-dom'
 import { fetchPost, formatDate, extractHTMLContent } from '../../../../utils'
 import { shortBio } from '../../../../constants'
