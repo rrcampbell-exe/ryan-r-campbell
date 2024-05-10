@@ -13,7 +13,7 @@ const PodcastEpisode = () => {
   return (
     <PageWrapper pageTitle='podcaster | community-builder'>
       <main className='Podcast'>
-        {episode ? (
+        {(episode && uuid) ? (
           <>
             <h3>{episode.title}</h3>
             <span className=''>Posted on {formatDate(episode.pubDate)}</span>
