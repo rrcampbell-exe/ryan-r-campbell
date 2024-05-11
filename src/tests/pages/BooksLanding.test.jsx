@@ -1,6 +1,6 @@
-import BooksLanding from '../../experiences/author/pages/Books/BooksLanding'
+import { BooksLanding } from '../../pages'
 import { describe, expect, test } from 'vitest'
-import { screen, render, fireEvent } from '@testing-library/react'
+import { render, fireEvent } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
 
 describe('BooksLanding', () => {

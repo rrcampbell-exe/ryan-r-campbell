@@ -1,4 +1,4 @@
-import GeneralLanding from '../../experiences/shared/pages/Landing/GeneralLanding'
+import GeneralLanding from '../../pages/Landing/GeneralLanding'
 import { describe, expect, test } from 'vitest'
 import { render, fireEvent } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'

@@ -1,25 +1,25 @@
 /* LOCALLY CREATED SASS FILES */
-@import './experiences/shared/components/Header/Header.scss';
-@import './experiences/shared/components/Footer/Footer.scss';
-@import './experiences/shared/pages/Landing/GeneralLanding.scss';
-@import './experiences/shared/components/Books/Books.scss';
-@import './experiences/shared/components/Builds/Builds.scss';
-@import './experiences/shared/components/SubNav/SubNav.scss';
-@import './experiences/shared/components/Contact/Contact.scss';
-@import './experiences/shared/styles/ContentHub.scss';
-@import './experiences/author/pages/Landing/AuthorLanding.scss';
-@import './experiences/shared/components/Reviews/Reviews.scss';
-@import './experiences/author/pages/Books/BooksLanding.scss';
-@import './experiences/tech/pages/Landing/TechLanding.scss';
-@import './experiences/author/pages/Podcast/Podcast.scss';
-@import './experiences/shared/components/HamburgerMenu/HamburgerMenu.scss';
-@import './experiences/shared/components/NotFound/NotFound.scss';
-@import './experiences/shared/components/NotificationBanner/NotificationBanner.scss';
-@import './experiences/shared/components/Loading/Loading.scss';
-@import './experiences/shared/pages/About/GeneralAbout.scss';
-@import './experiences/shared/components/Quote/Quote.scss';
-@import './experiences/shared/components/TextAndImage/TextAndImage.scss';
-@import './experiences/shared/components/Blog/BlogTags.scss';
+@import './components/Header/Header.scss';
+@import './components/Footer/Footer.scss';
+@import './pages/Landing/GeneralLanding.scss';
+@import './components/Books/Books.scss';
+@import './components/Builds/Builds.scss';
+@import './components/SubNav/SubNav.scss';
+@import './components/Contact/Contact.scss';
+@import './styles/ContentHub.scss';
+@import './pages/Author/AuthorLanding.scss';
+@import './components/Reviews/Reviews.scss';
+@import './pages/Books/BooksLanding.scss';
+@import './pages/Tech/TechLanding.scss';
+@import './pages/Podcast/Podcast.scss';
+@import './components/HamburgerMenu/HamburgerMenu.scss';
+@import './components/NotFound/NotFound.scss';
+@import './components/NotificationBanner/NotificationBanner.scss';
+@import './components/Loading/Loading.scss';
+@import './pages/About/GeneralAbout.scss';
+@import './components/Quote/Quote.scss';
+@import './components/TextAndImage/TextAndImage.scss';
+@import './components/Blog/BlogTags.scss';
 
 /* EXTERNALLY IMPORTED CSS FILES */
 @import 'slick-carousel/slick/slick.css';

@@ -1,4 +1,4 @@
-import { ShortStory, LongStory } from '../../experiences/shared/pages/About/AboutContents'
+import { ShortStory, LongStory } from '../../pages/About/AboutContents'
 import { describe, expect, test } from 'vitest'
 import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'

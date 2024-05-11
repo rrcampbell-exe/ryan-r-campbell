@@ -1,4 +1,4 @@
-import AuthorLanding from '../../experiences/author/pages/Landing/AuthorLanding'
+import { AuthorLanding } from '../../pages'
 import { describe, expect, test } from 'vitest'
 import { screen, render, fireEvent } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'

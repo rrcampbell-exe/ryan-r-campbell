@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
-import { NotificationBanner } from '../../experiences/shared/components'
+import { NotificationBanner } from '../../components'
 
 describe('NotificationBanner', () => {
   test('default snapshot', () => {

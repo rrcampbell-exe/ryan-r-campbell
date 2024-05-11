@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { render, fireEvent } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
-import { Reviews } from '../../experiences/shared/components'
+import { Reviews } from '../../components'
 import { reviews } from '../../constants'
 
 describe('Reviews', () => {

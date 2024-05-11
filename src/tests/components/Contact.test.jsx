@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { Contact } from '../../experiences/shared/components'
+import { Contact } from '../../components'
 import { render } from '@testing-library/react'
 
 describe('Contact', () => {

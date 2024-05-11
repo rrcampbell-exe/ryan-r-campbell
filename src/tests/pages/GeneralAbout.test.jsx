@@ -1,4 +1,4 @@
-import GeneralAbout from '../../experiences/shared/pages/About/GeneralAbout'
+import GeneralAbout from '../../pages/About/GeneralAbout'
 import { describe, expect, test } from 'vitest'
 import { render, fireEvent } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'

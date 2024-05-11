@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
-import { NotFound } from '../../experiences/shared/components'
+import { NotFound } from '../../components'
 
 describe('NotFound', () => {
   test('default snapshot', () => {

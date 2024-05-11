@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { act, render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
-import { Books } from '../../experiences/shared/components'
+import { Books } from '../../components'
 
 describe('Books', () => {
   test('should render Books', () => {

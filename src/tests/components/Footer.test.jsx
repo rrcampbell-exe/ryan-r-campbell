@@ -1,7 +1,6 @@
 import { describe, expect, test } from 'vitest'
-import { Footer } from '../../experiences/shared/components'
+import { Footer } from '../../components'
 import { render } from '@testing-library/react'
-import { builds } from '../../constants'
 
 describe('Footer', () => {
   test('default snapshot', () => {

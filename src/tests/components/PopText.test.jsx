@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
-import { PopText } from '../../experiences/shared/components'
+import { PopText } from '../../components'
 import { popText } from '../../constants'
 
 describe('PopText', () => {

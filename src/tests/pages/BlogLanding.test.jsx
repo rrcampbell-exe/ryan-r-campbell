@@ -1,4 +1,4 @@
-import BlogLanding from '../../experiences/shared/pages/BlogLanding/BlogLanding'
+import { BlogLanding } from '../../pages'
 import { describe, expect, test, vi } from 'vitest'
 import { render, fireEvent } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'

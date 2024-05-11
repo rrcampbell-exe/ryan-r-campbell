@@ -1,4 +1,4 @@
-import PodcastLanding from '../../experiences/author/pages/Podcast/PodcastLanding'
+import { PodcastLanding } from '../../pages'
 import { describe, expect, test } from 'vitest'
 import { screen, render, fireEvent } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'

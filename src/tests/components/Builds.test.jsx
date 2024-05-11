@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import Builds from '../../experiences/shared/components/Builds/Builds'
+import { Builds } from '../../components'
 import { render } from '@testing-library/react'
 import { builds } from '../../constants'
 

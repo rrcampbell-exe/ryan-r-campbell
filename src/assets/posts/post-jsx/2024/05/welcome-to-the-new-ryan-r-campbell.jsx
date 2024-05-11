@@ -1,5 +1,5 @@
 import React from 'react'
-import { TextAndImage, Quote } from '../../../../../experiences/shared/components'
+import { TextAndImage, Quote } from '../../../../../components'
 
 const WelcomeToTheNewRyanRCampbell = () => {
   return (
