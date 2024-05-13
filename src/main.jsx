@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { GeneralLanding, AuthorLanding, GeneralAbout, TechLanding, BooksLanding, BlogLanding, BlogPost, PodcastLanding, PodcastEpisode } from './pages/index.js'
+import { GeneralLanding, AuthorLanding, GeneralAbout, TechLanding, BooksLanding, BlogLanding, BlogPost, PodcastLanding, PodcastEpisode, ContactPage } from './pages/index.js'
 import { Navigate, BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import { ThemeProvider } from './Theme.jsx'
@@ -20,6 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='/blog' element={<BlogLanding />} />
           <Route path='/podcasts' element={<PodcastLanding />} />
           <Route path='/podcast/:slug/amp?' element={<PodcastEpisode />} />
+          <Route path='/contact' element={<ContactPage />} />
           <Route path='/*' element={<GeneralLanding pageNotFound />} />
         </Routes>
       </BrowserRouter>

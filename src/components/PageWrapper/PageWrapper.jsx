@@ -5,7 +5,7 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Header, Footer } from '../'
 
-const PageWrapper = ({ pageTitle, children }) => {
+const PageWrapper = ({ pageTitle, children, className }) => {
   const { theme } = useContext(ThemeContext)
   const { pathname } = useLocation()
 
@@ -13,8 +13,10 @@ const PageWrapper = ({ pageTitle, children }) => {
     window.scrollTo(top);
   }, [pathname])
 
+  const classNameString = className ? `${theme} ${className}` : `${theme}`
+
   return (
-    <div className={theme}>
+    <div className={classNameString}>
       <Header pageTitle={pageTitle} />
         {children}
         <div data-testid='analytics'>

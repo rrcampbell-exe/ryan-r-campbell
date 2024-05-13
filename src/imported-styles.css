@@ -20,6 +20,7 @@
 @import './components/Quote/Quote.scss';
 @import './components/TextAndImage/TextAndImage.scss';
 @import './components/Blog/BlogTags.scss';
+@import './pages/Contact/ContactPage.scss';
 
 /* EXTERNALLY IMPORTED CSS FILES */
 @import 'slick-carousel/slick/slick.css';
