@@ -172,6 +172,12 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   </a>
                   <a
                     class="hamburger-link"
+                    href="/books"
+                  >
+                    books
+                  </a>
+                  <a
+                    class="hamburger-link"
                     href="/tech"
                   >
                     tech hub
@@ -792,6 +798,12 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   href="/author"
                 >
                   author hub
+                </a>
+                <a
+                  class="hamburger-link"
+                  href="/books"
+                >
+                  books
                 </a>
                 <a
                   class="hamburger-link"
