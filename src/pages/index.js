@@ -8,5 +8,6 @@ import GeneralLanding from './Landing/GeneralLanding.jsx'
 import PodcastEpisode from './Podcast/PodcastEpisode.jsx'
 import PodcastLanding from './Podcast/PodcastLanding.jsx'
 import TechLanding from './Tech/TechLanding.jsx'
+import ContactPage from './Contact/ContactPage.jsx'
 
-export { LongStory, ShortStory, GeneralAbout, AuthorLanding, BlogLanding, BlogPost, BooksLanding, GeneralLanding, PodcastEpisode, PodcastLanding, TechLanding }
+export { LongStory, ShortStory, GeneralAbout, AuthorLanding, BlogLanding, BlogPost, BooksLanding, GeneralLanding, PodcastEpisode, PodcastLanding, TechLanding, ContactPage }
