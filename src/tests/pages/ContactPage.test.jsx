@@ -1,6 +1,6 @@
 import { ContactPage } from '../../pages'
 import { describe, expect, test } from 'vitest'
-import { screen, render, fireEvent } from '@testing-library/react'
+import { screen, render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
 
 describe('ContactPage', () => {
