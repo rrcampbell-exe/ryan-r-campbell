@@ -5,7 +5,9 @@ exports[`BooksLanding > default snapshot 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <div
+        class="undefined"
+      >
         <header
           class="Header"
         >
@@ -166,6 +168,12 @@ exports[`BooksLanding > default snapshot 1`] = `
                   </a>
                   <a
                     class="hamburger-link"
+                    href="/books"
+                  >
+                    books
+                  </a>
+                  <a
+                    class="hamburger-link"
                     href="/author"
                   >
                     author hub
@@ -181,6 +189,12 @@ exports[`BooksLanding > default snapshot 1`] = `
                     href="/podcasts"
                   >
                     podcasts
+                  </a>
+                  <a
+                    class="hamburger-link"
+                    href="/contact"
+                  >
+                    contact
                   </a>
                 </div>
               </div>
@@ -247,10 +261,21 @@ exports[`BooksLanding > default snapshot 1`] = `
               <div
                 class="book-wrapper"
               >
-                <img
-                  class="book-cover"
-                  src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
-                />
+                <div>
+                  <img
+                    class="book-cover"
+                    src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+                  />
+                  <div
+                    class="glare-wrapper"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0; pointer-events: none;"
+                  >
+                    <div
+                      class="glare"
+                      style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px;"
+                    />
+                  </div>
+                </div>
               </div>
               <div
                 class="section-wrapper book-metadata"
@@ -924,10 +949,21 @@ exports[`BooksLanding > default snapshot 1`] = `
               <div
                 class="book-wrapper"
               >
-                <img
-                  class="book-cover"
-                  src="./books/and-ampersand/and-ampersand-flat-cover.png"
-                />
+                <div>
+                  <img
+                    class="book-cover"
+                    src="./books/and-ampersand/and-ampersand-flat-cover.png"
+                  />
+                  <div
+                    class="glare-wrapper"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0; pointer-events: none;"
+                  >
+                    <div
+                      class="glare"
+                      style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px;"
+                    />
+                  </div>
+                </div>
               </div>
               <div
                 class="section-wrapper book-metadata"
@@ -1601,10 +1637,21 @@ exports[`BooksLanding > default snapshot 1`] = `
               <div
                 class="book-wrapper"
               >
-                <img
-                  class="book-cover"
-                  src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
-                />
+                <div>
+                  <img
+                    class="book-cover"
+                    src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
+                  />
+                  <div
+                    class="glare-wrapper"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0; pointer-events: none;"
+                  >
+                    <div
+                      class="glare"
+                      style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px;"
+                    />
+                  </div>
+                </div>
               </div>
               <div
                 class="section-wrapper book-metadata"
@@ -2185,10 +2232,21 @@ exports[`BooksLanding > default snapshot 1`] = `
               <div
                 class="book-wrapper"
               >
-                <img
-                  class="book-cover"
-                  src="./books/mourning-dove/mourning-dove-flat-cover.png"
-                />
+                <div>
+                  <img
+                    class="book-cover"
+                    src="./books/mourning-dove/mourning-dove-flat-cover.png"
+                  />
+                  <div
+                    class="glare-wrapper"
+                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0; pointer-events: none;"
+                  >
+                    <div
+                      class="glare"
+                      style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px;"
+                    />
+                  </div>
+                </div>
               </div>
               <div
                 class="section-wrapper book-metadata"
@@ -2840,7 +2898,9 @@ exports[`BooksLanding > default snapshot 1`] = `
     </div>
   </body>,
   "container": <div>
-    <div>
+    <div
+      class="undefined"
+    >
       <header
         class="Header"
       >
@@ -3001,6 +3061,12 @@ exports[`BooksLanding > default snapshot 1`] = `
                 </a>
                 <a
                   class="hamburger-link"
+                  href="/books"
+                >
+                  books
+                </a>
+                <a
+                  class="hamburger-link"
                   href="/author"
                 >
                   author hub
@@ -3016,6 +3082,12 @@ exports[`BooksLanding > default snapshot 1`] = `
                   href="/podcasts"
                 >
                   podcasts
+                </a>
+                <a
+                  class="hamburger-link"
+                  href="/contact"
+                >
+                  contact
                 </a>
               </div>
             </div>
@@ -3082,10 +3154,21 @@ exports[`BooksLanding > default snapshot 1`] = `
             <div
               class="book-wrapper"
             >
-              <img
-                class="book-cover"
-                src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
-              />
+              <div>
+                <img
+                  class="book-cover"
+                  src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+                />
+                <div
+                  class="glare-wrapper"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0; pointer-events: none;"
+                >
+                  <div
+                    class="glare"
+                    style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px;"
+                  />
+                </div>
+              </div>
             </div>
             <div
               class="section-wrapper book-metadata"
@@ -3759,10 +3842,21 @@ exports[`BooksLanding > default snapshot 1`] = `
             <div
               class="book-wrapper"
             >
-              <img
-                class="book-cover"
-                src="./books/and-ampersand/and-ampersand-flat-cover.png"
-              />
+              <div>
+                <img
+                  class="book-cover"
+                  src="./books/and-ampersand/and-ampersand-flat-cover.png"
+                />
+                <div
+                  class="glare-wrapper"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0; pointer-events: none;"
+                >
+                  <div
+                    class="glare"
+                    style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px;"
+                  />
+                </div>
+              </div>
             </div>
             <div
               class="section-wrapper book-metadata"
@@ -4436,10 +4530,21 @@ exports[`BooksLanding > default snapshot 1`] = `
             <div
               class="book-wrapper"
             >
-              <img
-                class="book-cover"
-                src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
-              />
+              <div>
+                <img
+                  class="book-cover"
+                  src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
+                />
+                <div
+                  class="glare-wrapper"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0; pointer-events: none;"
+                >
+                  <div
+                    class="glare"
+                    style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px;"
+                  />
+                </div>
+              </div>
             </div>
             <div
               class="section-wrapper book-metadata"
@@ -5020,10 +5125,21 @@ exports[`BooksLanding > default snapshot 1`] = `
             <div
               class="book-wrapper"
             >
-              <img
-                class="book-cover"
-                src="./books/mourning-dove/mourning-dove-flat-cover.png"
-              />
+              <div>
+                <img
+                  class="book-cover"
+                  src="./books/mourning-dove/mourning-dove-flat-cover.png"
+                />
+                <div
+                  class="glare-wrapper"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0; pointer-events: none;"
+                >
+                  <div
+                    class="glare"
+                    style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px;"
+                  />
+                </div>
+              </div>
             </div>
             <div
               class="section-wrapper book-metadata"

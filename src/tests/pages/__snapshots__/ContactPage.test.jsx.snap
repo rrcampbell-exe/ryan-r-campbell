@@ -1,12 +1,12 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`PodcastEpisode > default snapshot 1`] = `
+exports[`ContactPage > default snapshot 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="undefined"
+        class="undefined Contact-Page"
       >
         <header
           class="Header"
@@ -28,7 +28,7 @@ exports[`PodcastEpisode > default snapshot 1`] = `
                  campbell
               </h1>
               <h2>
-                podcaster | community-builder
+                inquirer | inquiree
               </h2>
             </div>
           </a>
@@ -201,101 +201,68 @@ exports[`PodcastEpisode > default snapshot 1`] = `
             </div>
           </div>
         </header>
-        <main
-          class="Podcast"
+        <div
+          class="about-container"
         >
+          <img
+            alt="Ryan R. Campbell in front of a blurry bookshelf"
+            class="about-img"
+            src="./ryan-r-campbell-bookshelf-background.jpg"
+          />
+        </div>
+        <div
+          class="section-wrapper contact-container"
+          id="contact"
+        >
+          <h2>
+            contact
+          </h2>
           <div
-            class="NotFound"
+            class="Contact"
           >
-            <div
-              class="about-row section-wrapper"
+            <h4>
+              tech inquiries
+            </h4>
+            <p>
+              campbell [dot] ryan [dot] r [at] gmail [dot] com
+            </p>
+            <h4>
+              author inquiries
+            </h4>
+            <p>
+              rrcampbellwrites [at] gmail [dot] com
+            </p>
+            <h4>
+              subscribe
+            </h4>
+            <a
+              class="subscription-link"
+              href="http://eepurl.com/dhBxcv"
+              rel="noopener"
+              target="_blank"
             >
-              <div>
-                <svg
-                  class="about-img"
-                  id="robot-svg"
-                  viewBox="0 0 256 256"
-                  xmlns="http://www.w3.org/2000/svg"
+              subscribe to my newsletter 
+              <svg
+                class="external-link-svg"
+                fill="transparent"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  id="Interface / External_Link"
                 >
                   <path
-                    d="M200,48H136V16a8,8,0,0,0-16,0V48H56A32.03635,32.03635,0,0,0,24,80V192a32.03635,32.03635,0,0,0,32,32H200a32.03635,32.03635,0,0,0,32-32V80A32.03635,32.03635,0,0,0,200,48ZM72,108a12,12,0,1,1,12,12A12,12,0,0,1,72,108Zm28,76H92a16,16,0,0,1,0-32h8Zm40,0H116V152h24Zm24,0h-8V152h8a16,16,0,0,1,0,32Zm8-64a12,12,0,1,1,12-12A12,12,0,0,1,172,120Z"
+                    d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                    id="Vector"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
                   />
-                </svg>
-              </div>
-              <div
-                class="about-description"
-              >
-                <h2>
-                  podcast
-                   not found
-                </h2>
-                <p>
-                  I couldn't find the 
-                  podcast
-                   you were looking for. It might have been moved or relocated as part of a recent site migration.
-                </p>
-                <a
-                  href="/"
-                >
-                  return to the homepage here.
-                </a>
-              </div>
-            </div>
+                </g>
+              </svg>
+            </a>
           </div>
-          <div
-            class="shadow-bg-main-accent section-wrapper"
-            id="contact"
-          >
-            <h2>
-              contact
-            </h2>
-            <div
-              class="Contact"
-            >
-              <h4>
-                tech inquiries
-              </h4>
-              <p>
-                campbell [dot] ryan [dot] r [at] gmail [dot] com
-              </p>
-              <h4>
-                author inquiries
-              </h4>
-              <p>
-                rrcampbellwrites [at] gmail [dot] com
-              </p>
-              <h4>
-                subscribe
-              </h4>
-              <a
-                class="subscription-link"
-                href="http://eepurl.com/dhBxcv"
-                rel="noopener"
-                target="_blank"
-              >
-                subscribe to my newsletter 
-                <svg
-                  class="external-link-svg"
-                  fill="transparent"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g
-                    id="Interface / External_Link"
-                  >
-                    <path
-                      d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
-                      id="Vector"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                    />
-                  </g>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </main>
+        </div>
         <div
           data-testid="analytics"
         />
@@ -322,7 +289,7 @@ exports[`PodcastEpisode > default snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="undefined"
+      class="undefined Contact-Page"
     >
       <header
         class="Header"
@@ -344,7 +311,7 @@ exports[`PodcastEpisode > default snapshot 1`] = `
                campbell
             </h1>
             <h2>
-              podcaster | community-builder
+              inquirer | inquiree
             </h2>
           </div>
         </a>
@@ -517,101 +484,68 @@ exports[`PodcastEpisode > default snapshot 1`] = `
           </div>
         </div>
       </header>
-      <main
-        class="Podcast"
+      <div
+        class="about-container"
       >
+        <img
+          alt="Ryan R. Campbell in front of a blurry bookshelf"
+          class="about-img"
+          src="./ryan-r-campbell-bookshelf-background.jpg"
+        />
+      </div>
+      <div
+        class="section-wrapper contact-container"
+        id="contact"
+      >
+        <h2>
+          contact
+        </h2>
         <div
-          class="NotFound"
+          class="Contact"
         >
-          <div
-            class="about-row section-wrapper"
+          <h4>
+            tech inquiries
+          </h4>
+          <p>
+            campbell [dot] ryan [dot] r [at] gmail [dot] com
+          </p>
+          <h4>
+            author inquiries
+          </h4>
+          <p>
+            rrcampbellwrites [at] gmail [dot] com
+          </p>
+          <h4>
+            subscribe
+          </h4>
+          <a
+            class="subscription-link"
+            href="http://eepurl.com/dhBxcv"
+            rel="noopener"
+            target="_blank"
           >
-            <div>
-              <svg
-                class="about-img"
-                id="robot-svg"
-                viewBox="0 0 256 256"
-                xmlns="http://www.w3.org/2000/svg"
+            subscribe to my newsletter 
+            <svg
+              class="external-link-svg"
+              fill="transparent"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                id="Interface / External_Link"
               >
                 <path
-                  d="M200,48H136V16a8,8,0,0,0-16,0V48H56A32.03635,32.03635,0,0,0,24,80V192a32.03635,32.03635,0,0,0,32,32H200a32.03635,32.03635,0,0,0,32-32V80A32.03635,32.03635,0,0,0,200,48ZM72,108a12,12,0,1,1,12,12A12,12,0,0,1,72,108Zm28,76H92a16,16,0,0,1,0-32h8Zm40,0H116V152h24Zm24,0h-8V152h8a16,16,0,0,1,0,32Zm8-64a12,12,0,1,1,12-12A12,12,0,0,1,172,120Z"
+                  d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                  id="Vector"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
                 />
-              </svg>
-            </div>
-            <div
-              class="about-description"
-            >
-              <h2>
-                podcast
-                 not found
-              </h2>
-              <p>
-                I couldn't find the 
-                podcast
-                 you were looking for. It might have been moved or relocated as part of a recent site migration.
-              </p>
-              <a
-                href="/"
-              >
-                return to the homepage here.
-              </a>
-            </div>
-          </div>
+              </g>
+            </svg>
+          </a>
         </div>
-        <div
-          class="shadow-bg-main-accent section-wrapper"
-          id="contact"
-        >
-          <h2>
-            contact
-          </h2>
-          <div
-            class="Contact"
-          >
-            <h4>
-              tech inquiries
-            </h4>
-            <p>
-              campbell [dot] ryan [dot] r [at] gmail [dot] com
-            </p>
-            <h4>
-              author inquiries
-            </h4>
-            <p>
-              rrcampbellwrites [at] gmail [dot] com
-            </p>
-            <h4>
-              subscribe
-            </h4>
-            <a
-              class="subscription-link"
-              href="http://eepurl.com/dhBxcv"
-              rel="noopener"
-              target="_blank"
-            >
-              subscribe to my newsletter 
-              <svg
-                class="external-link-svg"
-                fill="transparent"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g
-                  id="Interface / External_Link"
-                >
-                  <path
-                    d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
-                    id="Vector"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                  />
-                </g>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </main>
+      </div>
       <div
         data-testid="analytics"
       />

@@ -5,7 +5,9 @@ exports[`PodcastLanding > default snapshot 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <div
+        class="undefined"
+      >
         <header
           class="Header"
         >
@@ -166,6 +168,12 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   </a>
                   <a
                     class="hamburger-link"
+                    href="/books"
+                  >
+                    books
+                  </a>
+                  <a
+                    class="hamburger-link"
                     href="/author"
                   >
                     author hub
@@ -181,6 +189,12 @@ exports[`PodcastLanding > default snapshot 1`] = `
                     href="/podcasts"
                   >
                     podcasts
+                  </a>
+                  <a
+                    class="hamburger-link"
+                    href="/contact"
+                  >
+                    contact
                   </a>
                 </div>
               </div>
@@ -628,7 +642,9 @@ exports[`PodcastLanding > default snapshot 1`] = `
     </div>
   </body>,
   "container": <div>
-    <div>
+    <div
+      class="undefined"
+    >
       <header
         class="Header"
       >
@@ -789,6 +805,12 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 </a>
                 <a
                   class="hamburger-link"
+                  href="/books"
+                >
+                  books
+                </a>
+                <a
+                  class="hamburger-link"
                   href="/author"
                 >
                   author hub
@@ -804,6 +826,12 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   href="/podcasts"
                 >
                   podcasts
+                </a>
+                <a
+                  class="hamburger-link"
+                  href="/contact"
+                >
+                  contact
                 </a>
               </div>
             </div>
