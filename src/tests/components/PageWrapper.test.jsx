@@ -1,7 +1,7 @@
 import { describe, expect, test, vi } from 'vitest'
 import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
-import { PageWrapper } from '../../experiences/shared/components'
+import { PageWrapper } from '../../components'
 
 describe('PageWrapper', () => {
   test('default snapshot', () => {

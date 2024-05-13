@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
-import { SubNav } from '../../experiences/shared/components'
+import { SubNav } from '../../components'
 
 describe('SubNav', () => {
   test('default snapshot', () => {

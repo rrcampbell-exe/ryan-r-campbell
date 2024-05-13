@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { HamburgerMenu } from '../../experiences/shared/components'
+import { HamburgerMenu } from '../../components'
 import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
 

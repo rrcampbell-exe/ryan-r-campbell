@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
-import { Header } from '../../experiences/shared/components'
+import { Header } from '../../components'
 
 describe('Header', () => {
   test('default snapshot', () => {

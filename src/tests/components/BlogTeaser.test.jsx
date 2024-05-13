@@ -1,8 +1,8 @@
 import { describe, expect, test } from 'vitest'
 import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
-import { BlogTeaser } from '../../experiences/shared/components'
-import posts from '../../assets/posts/new-posts'
+import { BlogTeaser } from '../../components'
+import { posts } from '../../assets/posts'
 import { formatDate } from '../../utils'
 
 const latestPost = posts[posts.length - 1]

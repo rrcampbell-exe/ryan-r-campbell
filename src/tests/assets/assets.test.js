@@ -1,6 +1,5 @@
 import podcasts from '../../assets/podcasts/pinecast-podcasts'
-import posts from '../../assets/posts/new-posts'
-import legacyPosts from '../../assets/posts/legacy-posts'
+import { posts, legacyPosts } from '../../assets/posts'
 import { describe, expect, test } from 'vitest'
 
 describe('assets should match snapshots', () => {

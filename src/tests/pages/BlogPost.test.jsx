@@ -1,4 +1,4 @@
-import { BlogPost } from '../../experiences/shared/components'
+import { BlogPost } from '../../pages'
 import { describe, expect, test } from 'vitest'
 import { screen, render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'

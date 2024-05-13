@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
-import { Loading } from '../../experiences/shared/components'
+import { Loading } from '../../components'
 
 describe('Loading', () => {
   test('default snapshot', () => {

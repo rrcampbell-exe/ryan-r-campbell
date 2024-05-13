@@ -1,7 +1,6 @@
 import { describe, expect, test } from 'vitest'
-import posts from '../../assets/posts/new-posts'
+import { posts } from '../../assets/posts'
 import { formatDate } from '../../utils'
-import WelcomeToTheNewRyanRCampbell from '../../assets/posts/post-jsx/2024/05/welcome-to-the-new-ryan-r-campbell'
 const fs = require('fs').promises
 
 const latestPost = posts[posts.length - 1]

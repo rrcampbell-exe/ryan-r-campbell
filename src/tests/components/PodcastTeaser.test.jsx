@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
-import PodcastTeaser from '../../experiences/author/pages/Podcast/PodcastTeaser'
+import { PodcastTeaser } from '../../components'
 
 describe('PodcastTeaser', () => {
   test('default snapshot', () => {

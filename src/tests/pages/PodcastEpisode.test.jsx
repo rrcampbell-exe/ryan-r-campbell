@@ -1,4 +1,4 @@
-import PodcastEpisode from '../../experiences/author/pages/Podcast/PodcastEpisode'
+import { PodcastEpisode } from '../../pages'
 import { describe, expect, test } from 'vitest'
 import { screen, render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
