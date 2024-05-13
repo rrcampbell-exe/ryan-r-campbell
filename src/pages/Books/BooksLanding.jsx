@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { Contact, SubNav, Reviews, PageWrapper } from '../../components'
 import { books } from '../../constants'
 import { useLocation } from 'react-router-dom'
+import Tilt from 'react-parallax-tilt'
 
 const BooksLanding = () => {
   const { state } = useLocation()
@@ -24,9 +25,17 @@ const BooksLanding = () => {
         {books.map((book, index) => (
           <div key={index}>
             <div id={book.id} className='section-wrapper book-section'>
-              <div className='book-wrapper'>
-                <img className='book-cover' src={book.cover} />
-              </div>
+                <div className='book-wrapper'>
+                  <Tilt 
+                    glareEnable={true}
+                    perspective={2000}
+                    glareMaxOpacity={0.45}
+                    scale={1.05}
+                    transitionSpeed={1000}
+                  >
+                    <img className='book-cover' src={book.cover} />
+                  </Tilt>
+                </div>
               <div className='section-wrapper book-metadata'>
                 <h2 className='book-title'><i>{book.title}</i></h2>
                 <p className='book-genre'>{book.genre}</p>
