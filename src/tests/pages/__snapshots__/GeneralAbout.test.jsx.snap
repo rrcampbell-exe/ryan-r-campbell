@@ -5,7 +5,9 @@ exports[`GeneralAbout > default snapshot 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <div
+        class="undefined"
+      >
         <header
           class="Header"
         >
@@ -166,15 +168,15 @@ exports[`GeneralAbout > default snapshot 1`] = `
                   </a>
                   <a
                     class="hamburger-link"
-                    href="/author"
-                  >
-                    author hub
-                  </a>
-                  <a
-                    class="hamburger-link"
                     href="/books"
                   >
                     books
+                  </a>
+                  <a
+                    class="hamburger-link"
+                    href="/author"
+                  >
+                    author hub
                   </a>
                   <a
                     class="hamburger-link"
@@ -188,6 +190,12 @@ exports[`GeneralAbout > default snapshot 1`] = `
                   >
                     podcasts
                   </a>
+                  <a
+                    class="hamburger-link"
+                    href="/contact"
+                  >
+                    contact
+                  </a>
                 </div>
               </div>
             </div>
@@ -200,7 +208,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
             class="about-container"
           >
             <img
-              alt="Ryan R. Campbell in front of a blurry bookshelf"
+              alt="Ryan R. Campbell outdoors with a black baseball cap on"
               class="about-img"
               src="./2024-ryan-r-campbell-with-hat-on-outdoors.jpg"
             />
@@ -309,7 +317,9 @@ exports[`GeneralAbout > default snapshot 1`] = `
     </div>
   </body>,
   "container": <div>
-    <div>
+    <div
+      class="undefined"
+    >
       <header
         class="Header"
       >
@@ -470,15 +480,15 @@ exports[`GeneralAbout > default snapshot 1`] = `
                 </a>
                 <a
                   class="hamburger-link"
-                  href="/author"
-                >
-                  author hub
-                </a>
-                <a
-                  class="hamburger-link"
                   href="/books"
                 >
                   books
+                </a>
+                <a
+                  class="hamburger-link"
+                  href="/author"
+                >
+                  author hub
                 </a>
                 <a
                   class="hamburger-link"
@@ -492,6 +502,12 @@ exports[`GeneralAbout > default snapshot 1`] = `
                 >
                   podcasts
                 </a>
+                <a
+                  class="hamburger-link"
+                  href="/contact"
+                >
+                  contact
+                </a>
               </div>
             </div>
           </div>
@@ -504,7 +520,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
           class="about-container"
         >
           <img
-            alt="Ryan R. Campbell in front of a blurry bookshelf"
+            alt="Ryan R. Campbell outdoors with a black baseball cap on"
             class="about-img"
             src="./2024-ryan-r-campbell-with-hat-on-outdoors.jpg"
           />

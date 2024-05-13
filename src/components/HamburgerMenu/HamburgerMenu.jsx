@@ -24,10 +24,11 @@ const HamburgerMenu = () => {
           <Link to='/' className={className(pathname, '/')}>home</Link>
           <Link to='/about' className={className(pathname, '/about')}>about</Link>
           <Link to='/blog' className={className(pathname, '/blog')}>blog</Link>
-          <Link to='/author' className={className(pathname, '/author')}>author hub</Link>
           <Link to='/books' className={className(pathname, '/books')}>books</Link>
+          <Link to='/author' className={className(pathname, '/author')}>author hub</Link>
           <Link to='/tech' className={className(pathname, '/tech')}>tech hub</Link>
           <Link to='/podcasts' className={className(pathname, '/podcasts')}>podcasts</Link>
+          <Link to='/contact' className={className(pathname, '/contact')}>contact</Link>
         </div>
       </div>
     </div>

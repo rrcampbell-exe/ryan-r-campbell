@@ -12,14 +12,14 @@ describe('HamburgerMenu', () => {
     )
     expect(asFragment()).toMatchSnapshot()
   })
-  test('should have seven link components', () => {
+  test('should have eight link components', () => {
     const { getAllByRole } = render(
       <ContextAndRouterProvider>
         <HamburgerMenu />
       </ContextAndRouterProvider>
     )
     const links = getAllByRole('link')
-    expect(links.length).toBe(7)
+    expect(links.length).toBe(8)
   })
   test('should show the active link', () => {
     const { getAllByRole } = render(
