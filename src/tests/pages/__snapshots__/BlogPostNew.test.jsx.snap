@@ -294,6 +294,30 @@ exports[`BlogPost > default snapshot 1`] = `
                 </div>
               </div>
             </div>
+            <div
+              class="nav-footer"
+            >
+              <div
+                class="post-nav-container previous-post"
+              >
+                <a>
+                  &lt; previous post
+                </a>
+                <span>
+                  From Conference to Coffee (On the Beach)
+                </span>
+              </div>
+              <div
+                class="post-nav-container next-post"
+              >
+                <a>
+                  back to blog
+                </a>
+                <span>
+                  Keep Curious
+                </span>
+              </div>
+            </div>
           </div>
         </main>
         <div
@@ -608,6 +632,30 @@ exports[`BlogPost > default snapshot 1`] = `
                   On Writing
                 </span>
               </div>
+            </div>
+          </div>
+          <div
+            class="nav-footer"
+          >
+            <div
+              class="post-nav-container previous-post"
+            >
+              <a>
+                &lt; previous post
+              </a>
+              <span>
+                From Conference to Coffee (On the Beach)
+              </span>
+            </div>
+            <div
+              class="post-nav-container next-post"
+            >
+              <a>
+                back to blog
+              </a>
+              <span>
+                Keep Curious
+              </span>
             </div>
           </div>
         </div>

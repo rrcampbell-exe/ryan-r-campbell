@@ -1,7 +1,7 @@
 import { describe, expect, test } from 'vitest'
 import { buildNavURL, extractHTMLContent, fetchEpisode, fetchPost, findEpisodeUUID, formatDate } from '../../utils/index.js'
 import podcasts from '../../assets/podcasts/pinecast-podcasts.js'
-import legacyPosts from '../../assets/posts/legacy-posts.js'
+import { posts, legacyPosts } from '../../assets/posts'
 
 describe('utils', () => {
   test('buildNavURL should return the correct URL', () => {
@@ -57,6 +57,14 @@ describe('utils', () => {
     const slug = 'from-conference-to-coffee-on-the-beach'
     const result = fetchPost(year, month, day, slug, legacyPosts)
     expect(result).toBe(null)
+  })
+  test('fetchPost should return index of post', () => {
+    const year = '2016'
+    const month = '10'
+    const day = '14'
+    const slug = 'murder-the-literarily-literal-1'
+    const result = fetchPost(year, month, day, slug, legacyPosts)
+    expect(result.postIndex).toBe([...posts, ...legacyPosts].length - 1)
   })
 
   test('findEpisodeUUID should return the correct episode UUID', () => {
