@@ -37,10 +37,10 @@ For more on my journey to becoming a web developer—as well as what went into c
 ## Tests
 This site uses Vitest and @testing-library/react to support its unit testing. These tests can be run by using the `test` or `coverage` scripts in the `package.json`.
 
-As reported by `v8`, this repository features 35 test files with 140 unit tests that ultimately provide coverage for:
+As reported by `v8`, this repository features 36 test files with 147 unit tests that ultimately provide coverage for:
 
 - 99.76% of statements
-- 80.48% of functions
+- 80.45% of functions
 - 99.76% of lines
 
 ## License
