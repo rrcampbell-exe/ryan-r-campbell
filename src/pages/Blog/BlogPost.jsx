@@ -3,7 +3,7 @@ import { legacyPosts, posts } from '../../assets/posts'
 import { useParams } from 'react-router-dom'
 import { fetchPost, formatDate, extractHTMLContent } from '../../utils'
 import { shortBio } from '../../constants'
-import { NotFound, Contact, PageWrapper, NotificationBanner, BlogTags } from '../../components'
+import { NotFound, Contact, PageWrapper, NotificationBanner, BlogTags, BlogFooter } from '../../components'
 
 // TODO: need to sanitize remaining HTML of comments related to divi
 // TODO: need to remove footer contents with book recommendation at the end
@@ -88,6 +88,7 @@ const BlogPost = () => {
               <BlogTags tags={post.tags} />
             </div>
           )}
+          <BlogFooter post={post} />
         </div>
       </main>
     </PageWrapper>
