@@ -2,11 +2,15 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { posts, legacyPosts } from '../../assets/posts'
 
-const BackToBlog = () =>
-  <>
-    <a onClick={() => navigate('/blog')}>back to blog</a>
-    <span>Keep Curious</span>
-  </>
+const BackToBlog = () => {
+  const navigate = useNavigate()
+  return (
+    <>
+      <a onClick={() => navigate('/blog')}>back to blog</a>
+      <span>Keep Curious</span>
+    </>
+  )
+}
 
 const BlogFooter = ({ post }) => {
   // get current post index
