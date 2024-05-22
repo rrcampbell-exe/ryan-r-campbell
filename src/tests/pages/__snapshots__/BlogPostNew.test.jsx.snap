@@ -311,10 +311,10 @@ exports[`BlogPost > default snapshot 1`] = `
                 class="post-nav-container next-post"
               >
                 <a>
-                  back to blog
+                  next post &gt;
                 </a>
                 <span>
-                  Keep Curious
+                  Book Review: The Good Enough Job
                 </span>
               </div>
             </div>
@@ -651,10 +651,10 @@ exports[`BlogPost > default snapshot 1`] = `
               class="post-nav-container next-post"
             >
               <a>
-                back to blog
+                next post &gt;
               </a>
               <span>
-                Keep Curious
+                Book Review: The Good Enough Job
               </span>
             </div>
           </div>

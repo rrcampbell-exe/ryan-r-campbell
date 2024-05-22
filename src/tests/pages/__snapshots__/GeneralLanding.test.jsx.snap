@@ -292,6 +292,40 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <h3>
+                    Book Review: The Good Enough Job
+                  </h3>
+                  <span>
+                    Posted on 
+                    May 23, 2024
+                  </span>
+                  <p>
+                    The right book. The right time. Right on.
+                  </p>
+                  <div
+                    class="teaser-tags"
+                  >
+                    <p>
+                      FILED UNDER:
+                    </p>
+                    <p>
+                      BOOK REVIEW, PERSONAL DEVELOPMENT, IDENTITY
+                    </p>
+                  </div>
+                  <a
+                    href="/2024/05/23/book-review-the-good-enough-job"
+                  >
+                    read more
+                  </a>
+                  <div
+                    class="content-post-underline"
+                  />
+                </div>
+              </div>
+              <div>
+                <div
+                  class="content-post grow-on-hover"
+                >
+                  <h3>
                     Welcome to the New Ryan R. Campbell (Or at Least the New Website)
                   </h3>
                   <span>
@@ -337,30 +371,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   </p>
                   <a
                     href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
-                  >
-                    read more
-                  </a>
-                  <div
-                    class="content-post-underline"
-                  />
-                </div>
-              </div>
-              <div>
-                <div
-                  class="content-post grow-on-hover"
-                >
-                  <h3>
-                    Not A Cult, I Promise: On What Comes Next
-                  </h3>
-                  <span>
-                    Posted on 
-                    May 16, 2022
-                  </span>
-                  <p>
-                    Scambait is finally here! But what comes next?
-                  </p>
-                  <a
-                    href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
                   >
                     read more
                   </a>
@@ -1079,6 +1089,40 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <h3>
+                  Book Review: The Good Enough Job
+                </h3>
+                <span>
+                  Posted on 
+                  May 23, 2024
+                </span>
+                <p>
+                  The right book. The right time. Right on.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    BOOK REVIEW, PERSONAL DEVELOPMENT, IDENTITY
+                  </p>
+                </div>
+                <a
+                  href="/2024/05/23/book-review-the-good-enough-job"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <h3>
                   Welcome to the New Ryan R. Campbell (Or at Least the New Website)
                 </h3>
                 <span>
@@ -1124,30 +1168,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </p>
                 <a
                   href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
-                >
-                  read more
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <h3>
-                  Not A Cult, I Promise: On What Comes Next
-                </h3>
-                <span>
-                  Posted on 
-                  May 16, 2022
-                </span>
-                <p>
-                  Scambait is finally here! But what comes next?
-                </p>
-                <a
-                  href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
                 >
                   read more
                 </a>

@@ -217,6 +217,44 @@ exports[`BlogLanding > default snapshot 1`] = `
                   src="/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
                 />
                 <h3>
+                  Book Review: The Good Enough Job
+                </h3>
+                <span>
+                  Posted on 
+                  May 23, 2024
+                </span>
+                <p>
+                  The right book. The right time. Right on.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    BOOK REVIEW, PERSONAL DEVELOPMENT, IDENTITY
+                  </p>
+                </div>
+                <a
+                  href="/2024/05/23/book-review-the-good-enough-job"
+                >
+                  read more
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  class="cover-image"
+                  src="/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
+                />
+                <h3>
                   Welcome to the New Ryan R. Campbell (Or at Least the New Website)
                 </h3>
                 <span>
@@ -434,34 +472,6 @@ exports[`BlogLanding > default snapshot 1`] = `
                 </p>
                 <a
                   href="/2022/01/11/old-habits-born-hard-never-dead/"
-                >
-                  read more
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <img
-                  class="cover-image"
-                  src="/wp-content/uploads/2021/12/Across-the-Threshold-2022-Starter-Post.png"
-                />
-                <h3>
-                  And So, Again: Across the Threshold
-                </h3>
-                <span>
-                  Posted on 
-                  January 1, 2022
-                </span>
-                <p>
-                  Nearly seven months after the announcement I'd be stepping away for a time, I'm here to tell you I'm back.
-                </p>
-                <a
-                  href="/2022/01/01/and-so-again-across-the-threshold/"
                 >
                   read more
                 </a>
@@ -769,6 +779,44 @@ exports[`BlogLanding > default snapshot 1`] = `
                 src="/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
               />
               <h3>
+                Book Review: The Good Enough Job
+              </h3>
+              <span>
+                Posted on 
+                May 23, 2024
+              </span>
+              <p>
+                The right book. The right time. Right on.
+              </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  BOOK REVIEW, PERSONAL DEVELOPMENT, IDENTITY
+                </p>
+              </div>
+              <a
+                href="/2024/05/23/book-review-the-good-enough-job"
+              >
+                read more
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                class="cover-image"
+                src="/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
+              />
+              <h3>
                 Welcome to the New Ryan R. Campbell (Or at Least the New Website)
               </h3>
               <span>
@@ -986,34 +1034,6 @@ exports[`BlogLanding > default snapshot 1`] = `
               </p>
               <a
                 href="/2022/01/11/old-habits-born-hard-never-dead/"
-              >
-                read more
-              </a>
-              <div
-                class="content-post-underline"
-              />
-            </div>
-          </div>
-          <div>
-            <div
-              class="content-post grow-on-hover"
-            >
-              <img
-                class="cover-image"
-                src="/wp-content/uploads/2021/12/Across-the-Threshold-2022-Starter-Post.png"
-              />
-              <h3>
-                And So, Again: Across the Threshold
-              </h3>
-              <span>
-                Posted on 
-                January 1, 2022
-              </span>
-              <p>
-                Nearly seven months after the announcement I'd be stepping away for a time, I'm here to tell you I'm back.
-              </p>
-              <a
-                href="/2022/01/01/and-so-again-across-the-threshold/"
               >
                 read more
               </a>
