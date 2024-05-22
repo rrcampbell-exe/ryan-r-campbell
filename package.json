@@ -20,6 +20,7 @@
     "@visx/text": "^3.3.0",
     "@visx/wordcloud": "^3.3.0",
     "react": "^18.2.0",
+    "react-code-blocks": "^0.1.6",
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
     "react-parallax-tilt": "^1.7.226",
