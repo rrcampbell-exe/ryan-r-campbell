@@ -5,7 +5,7 @@ import { BlogTeaser } from '../../components'
 import { posts } from '../../assets/posts'
 import { formatDate } from '../../utils'
 
-const latestPost = posts[posts.length - 1]
+const latestPost = posts[0]
 
 describe('BlogTeaser', () => {
   test('default snapshot', () => {
