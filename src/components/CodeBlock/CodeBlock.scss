@@ -1,0 +1,23 @@
+.Code-Block {
+  border-radius: 4px;
+  max-width: 100%;
+
+  .bash {
+    font-family: monospace;
+    font-size: 0.875rem;
+    width: 100%;
+
+    button {
+      border-color: var(--main-light-color);
+    }
+  }
+}
+
+.code-span {
+  font-family: monospace;
+  font-size: 0.875rem;
+  background-color: black;
+  padding: 0 0.3rem;
+  border-radius: 4px;
+  color: var(--main-light-color);
+}
