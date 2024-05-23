@@ -1,7 +1,7 @@
 {
   "name": "ryan-r-campbell-personal-website",
   "private": true,
-  "version": "2.2.1",
+  "version": "2.2.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
