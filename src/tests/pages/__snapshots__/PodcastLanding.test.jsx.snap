@@ -133,6 +133,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   class="icon-container"
                 >
                   <button
+                    aria-label="close menu"
                     data-testid="close-button"
                   >
                     <svg
@@ -771,6 +772,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 class="icon-container"
               >
                 <button
+                  aria-label="close menu"
                   data-testid="close-button"
                 >
                   <svg

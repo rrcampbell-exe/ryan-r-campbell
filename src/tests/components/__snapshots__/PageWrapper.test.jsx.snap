@@ -131,6 +131,7 @@ exports[`PageWrapper > default snapshot 1`] = `
                   class="icon-container"
                 >
                   <button
+                    aria-label="close menu"
                     data-testid="close-button"
                   >
                     <svg
@@ -351,6 +352,7 @@ exports[`PageWrapper > default snapshot 1`] = `
                 class="icon-container"
               >
                 <button
+                  aria-label="close menu"
                   data-testid="close-button"
                 >
                   <svg
