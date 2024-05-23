@@ -36,6 +36,7 @@ exports[`BooksLanding > default snapshot 1`] = `
             class="header-toggles"
           >
             <button
+              aria-label="theme toggle button"
               class="theme-toggle-button"
             >
               <svg
@@ -132,6 +133,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                   class="icon-container"
                 >
                   <button
+                    aria-label="close menu"
                     data-testid="close-button"
                   >
                     <svg
@@ -2929,6 +2931,7 @@ exports[`BooksLanding > default snapshot 1`] = `
           class="header-toggles"
         >
           <button
+            aria-label="theme toggle button"
             class="theme-toggle-button"
           >
             <svg
@@ -3025,6 +3028,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                 class="icon-container"
               >
                 <button
+                  aria-label="close menu"
                   data-testid="close-button"
                 >
                   <svg

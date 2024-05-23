@@ -6,8 +6,8 @@ const Books = () => {
   return (
     <div className='Books' data-testid='books'>
       {books.map((book) => (
-        <Link to={'/books'} state={{ hash: book.id }}>
-          <div key={book.id}>
+        <Link to={'/books'} state={{ hash: book.id }} key={book.id}>
+          <div>
             <div className='book-container grow-on-hover'>
               <img data-testid='book-cover' className='book-cover' src={book.cover} alt={book.alt} />
               <h3 className='book-title'>{book.title}</h3>

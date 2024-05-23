@@ -36,6 +36,7 @@ exports[`BlogPost > default snapshot 1`] = `
             class="header-toggles"
           >
             <button
+              aria-label="theme toggle button"
               class="theme-toggle-button"
             >
               <svg
@@ -132,6 +133,7 @@ exports[`BlogPost > default snapshot 1`] = `
                   class="icon-container"
                 >
                   <button
+                    aria-label="close menu"
                     data-testid="close-button"
                   >
                     <svg
@@ -209,6 +211,7 @@ exports[`BlogPost > default snapshot 1`] = `
               class="masthead"
             >
               <img
+                alt="A cut-out image of Ryan R. Campbell next to text that welcomes visitors to the new website."
                 class="cover-image"
                 src="/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
               />
@@ -228,6 +231,7 @@ exports[`BlogPost > default snapshot 1`] = `
                       class="author-photo"
                     >
                       <img
+                        alt="A headshot of Ryan R. Campbell"
                         src="/2024-ryan-r-campbell-website-headshot.png"
                       />
                     </div>
@@ -300,7 +304,9 @@ exports[`BlogPost > default snapshot 1`] = `
               <div
                 class="post-nav-container previous-post"
               >
-                <a>
+                <a
+                  title="link to previous post"
+                >
                   &lt; previous post
                 </a>
                 <span>
@@ -310,11 +316,13 @@ exports[`BlogPost > default snapshot 1`] = `
               <div
                 class="post-nav-container next-post"
               >
-                <a>
-                  back to blog
+                <a
+                  title="link to next post"
+                >
+                  next post &gt;
                 </a>
                 <span>
-                  Keep Curious
+                  Book Review: The Good Enough Job
                 </span>
               </div>
             </div>
@@ -376,6 +384,7 @@ exports[`BlogPost > default snapshot 1`] = `
           class="header-toggles"
         >
           <button
+            aria-label="theme toggle button"
             class="theme-toggle-button"
           >
             <svg
@@ -472,6 +481,7 @@ exports[`BlogPost > default snapshot 1`] = `
                 class="icon-container"
               >
                 <button
+                  aria-label="close menu"
                   data-testid="close-button"
                 >
                   <svg
@@ -549,6 +559,7 @@ exports[`BlogPost > default snapshot 1`] = `
             class="masthead"
           >
             <img
+              alt="A cut-out image of Ryan R. Campbell next to text that welcomes visitors to the new website."
               class="cover-image"
               src="/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
             />
@@ -568,6 +579,7 @@ exports[`BlogPost > default snapshot 1`] = `
                     class="author-photo"
                   >
                     <img
+                      alt="A headshot of Ryan R. Campbell"
                       src="/2024-ryan-r-campbell-website-headshot.png"
                     />
                   </div>
@@ -640,7 +652,9 @@ exports[`BlogPost > default snapshot 1`] = `
             <div
               class="post-nav-container previous-post"
             >
-              <a>
+              <a
+                title="link to previous post"
+              >
                 &lt; previous post
               </a>
               <span>
@@ -650,11 +664,13 @@ exports[`BlogPost > default snapshot 1`] = `
             <div
               class="post-nav-container next-post"
             >
-              <a>
-                back to blog
+              <a
+                title="link to next post"
+              >
+                next post &gt;
               </a>
               <span>
-                Keep Curious
+                Book Review: The Good Enough Job
               </span>
             </div>
           </div>

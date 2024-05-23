@@ -3,7 +3,7 @@ import { posts } from '../../assets/posts'
 import { formatDate } from '../../utils'
 const fs = require('fs').promises
 
-const latestPost = posts[posts.length - 1]
+const latestPost = posts[0]
 
 Object.defineProperty(window, 'location', {
   writable: true,
