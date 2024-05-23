@@ -36,6 +36,7 @@ exports[`ContactPage > default snapshot 1`] = `
             class="header-toggles"
           >
             <button
+              aria-label="theme toggle button"
               class="theme-toggle-button"
             >
               <svg
@@ -319,6 +320,7 @@ exports[`ContactPage > default snapshot 1`] = `
           class="header-toggles"
         >
           <button
+            aria-label="theme toggle button"
             class="theme-toggle-button"
           >
             <svg

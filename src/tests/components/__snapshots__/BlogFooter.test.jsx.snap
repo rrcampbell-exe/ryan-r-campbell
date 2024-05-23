@@ -11,7 +11,9 @@ exports[`BlogFooter > default snapshot 1`] = `
         <div
           class="post-nav-container previous-post"
         >
-          <a>
+          <a
+            title="link to previous post"
+          >
             &lt; previous post
           </a>
           <span />
@@ -19,7 +21,9 @@ exports[`BlogFooter > default snapshot 1`] = `
         <div
           class="post-nav-container next-post"
         >
-          <a>
+          <a
+            title="link to next post"
+          >
             next post &gt;
           </a>
           <span />
@@ -34,7 +38,9 @@ exports[`BlogFooter > default snapshot 1`] = `
       <div
         class="post-nav-container previous-post"
       >
-        <a>
+        <a
+          title="link to previous post"
+        >
           &lt; previous post
         </a>
         <span />
@@ -42,7 +48,9 @@ exports[`BlogFooter > default snapshot 1`] = `
       <div
         class="post-nav-container next-post"
       >
-        <a>
+        <a
+          title="link to next post"
+        >
           next post &gt;
         </a>
         <span />
