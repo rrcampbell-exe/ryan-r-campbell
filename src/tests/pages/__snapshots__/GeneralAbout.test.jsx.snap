@@ -251,21 +251,21 @@ exports[`GeneralAbout > default snapshot 1`] = `
           <div
             class="Contact"
           >
-            <h4>
+            <h3>
               tech inquiries
-            </h4>
+            </h3>
             <p>
               campbell [dot] ryan [dot] r [at] gmail [dot] com
             </p>
-            <h4>
+            <h3>
               author inquiries
-            </h4>
+            </h3>
             <p>
               rrcampbellwrites [at] gmail [dot] com
             </p>
-            <h4>
+            <h3>
               subscribe
-            </h4>
+            </h3>
             <a
               class="subscription-link"
               href="http://eepurl.com/dhBxcv"
@@ -565,21 +565,21 @@ exports[`GeneralAbout > default snapshot 1`] = `
         <div
           class="Contact"
         >
-          <h4>
+          <h3>
             tech inquiries
-          </h4>
+          </h3>
           <p>
             campbell [dot] ryan [dot] r [at] gmail [dot] com
           </p>
-          <h4>
+          <h3>
             author inquiries
-          </h4>
+          </h3>
           <p>
             rrcampbellwrites [at] gmail [dot] com
           </p>
-          <h4>
+          <h3>
             subscribe
-          </h4>
+          </h3>
           <a
             class="subscription-link"
             href="http://eepurl.com/dhBxcv"

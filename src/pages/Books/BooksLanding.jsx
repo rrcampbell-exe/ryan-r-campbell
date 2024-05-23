@@ -33,7 +33,7 @@ const BooksLanding = () => {
                     scale={1.05}
                     transitionSpeed={1000}
                   >
-                    <img className='book-cover' src={book.cover} />
+                    <img className='book-cover' src={book.cover} alt={book.alt} />
                   </Tilt>
                 </div>
               <div className='section-wrapper book-metadata'>

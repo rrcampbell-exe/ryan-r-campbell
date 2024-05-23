@@ -215,6 +215,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="The book cover for The Good Enough Job rests on a white table alongside a green succulent plant."
                   class="cover-image"
                   src="/post-content/2024/05/book-review-the-good-enough-job-cover-img.png"
                 />
@@ -241,7 +242,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <a
                   href="/2024/05/23/book-review-the-good-enough-job"
                 >
-                  read more
+                  read the full post
                 </a>
                 <div
                   class="content-post-underline"
@@ -253,6 +254,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="A cut-out image of Ryan R. Campbell next to text that welcomes visitors to the new website."
                   class="cover-image"
                   src="/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
                 />
@@ -279,7 +281,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <a
                   href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
                 >
-                  read more
+                  read the full post
                 </a>
                 <div
                   class="content-post-underline"
@@ -291,6 +293,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="The cover image for a blog post"
                   class="cover-image"
                   src="/wp-content/uploads/2022/05/Ryan-R-Campbell-Lakefly-Conference-and-Puerto-Rico-Recap.jpg"
                 />
@@ -307,7 +310,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <a
                   href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
                 >
-                  read more
+                  read the full post
                 </a>
                 <div
                   class="content-post-underline"
@@ -319,6 +322,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="The cover image for a blog post"
                   class="cover-image"
                   src="/wp-content/uploads/2022/05/Not-a-Cult-I-Promise-Announcement-Header-Ryan-R-Campbell.jpg"
                 />
@@ -335,7 +339,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <a
                   href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
                 >
-                  read more
+                  read the full post
                 </a>
                 <div
                   class="content-post-underline"
@@ -347,6 +351,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="The cover image for a blog post"
                   class="cover-image"
                   src="/wp-content/uploads/2022/04/Scambait-Release-Post-Cover-Image.jpg"
                 />
@@ -363,7 +368,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <a
                   href="/2022/04/18/happy-book-birthday-to-scambait/"
                 >
-                  read more
+                  read the full post
                 </a>
                 <div
                   class="content-post-underline"
@@ -375,6 +380,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="The cover image for a blog post"
                   class="cover-image"
                   src="/wp-content/uploads/2022/02/Scambait-Book-Cover-Reveal-Teaser-No-Date.png"
                 />
@@ -391,7 +397,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <a
                   href="/2022/02/23/the-scambait-cover-reveal/"
                 >
-                  read more
+                  read the full post
                 </a>
                 <div
                   class="content-post-underline"
@@ -403,6 +409,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="The cover image for a blog post"
                   class="cover-image"
                   src="/wp-content/uploads/2022/02/Scambait-Cover-Copy-Blog-Post-Header.jpg"
                 />
@@ -419,7 +426,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <a
                   href="/2022/02/08/your-first-look-a-scambait-back-cover-teaser/"
                 >
-                  read more
+                  read the full post
                 </a>
                 <div
                   class="content-post-underline"
@@ -431,6 +438,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="The cover image for a blog post"
                   class="cover-image"
                   src="/wp-content/uploads/2022/01/Hop-in-My-Step-January-2022-Scambait-Update.png"
                 />
@@ -447,7 +455,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <a
                   href="/2022/01/25/a-hop-in-my-step-the-revision-division-and-more/"
                 >
-                  read more
+                  read the full post
                 </a>
                 <div
                   class="content-post-underline"
@@ -459,6 +467,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="The cover image for a blog post"
                   class="cover-image"
                   src="/wp-content/uploads/2022/01/2022-Blog-Post-Calendar-Routines-Habits.png"
                 />
@@ -475,7 +484,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <a
                   href="/2022/01/11/old-habits-born-hard-never-dead/"
                 >
-                  read more
+                  read the full post
                 </a>
                 <div
                   class="content-post-underline"
@@ -500,21 +509,21 @@ exports[`BlogLanding > default snapshot 1`] = `
             <div
               class="Contact"
             >
-              <h4>
+              <h3>
                 tech inquiries
-              </h4>
+              </h3>
               <p>
                 campbell [dot] ryan [dot] r [at] gmail [dot] com
               </p>
-              <h4>
+              <h3>
                 author inquiries
-              </h4>
+              </h3>
               <p>
                 rrcampbellwrites [at] gmail [dot] com
               </p>
-              <h4>
+              <h3>
                 subscribe
-              </h4>
+              </h3>
               <a
                 class="subscription-link"
                 href="http://eepurl.com/dhBxcv"
@@ -779,6 +788,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               class="content-post grow-on-hover"
             >
               <img
+                alt="The book cover for The Good Enough Job rests on a white table alongside a green succulent plant."
                 class="cover-image"
                 src="/post-content/2024/05/book-review-the-good-enough-job-cover-img.png"
               />
@@ -805,7 +815,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               <a
                 href="/2024/05/23/book-review-the-good-enough-job"
               >
-                read more
+                read the full post
               </a>
               <div
                 class="content-post-underline"
@@ -817,6 +827,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               class="content-post grow-on-hover"
             >
               <img
+                alt="A cut-out image of Ryan R. Campbell next to text that welcomes visitors to the new website."
                 class="cover-image"
                 src="/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
               />
@@ -843,7 +854,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               <a
                 href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
               >
-                read more
+                read the full post
               </a>
               <div
                 class="content-post-underline"
@@ -855,6 +866,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               class="content-post grow-on-hover"
             >
               <img
+                alt="The cover image for a blog post"
                 class="cover-image"
                 src="/wp-content/uploads/2022/05/Ryan-R-Campbell-Lakefly-Conference-and-Puerto-Rico-Recap.jpg"
               />
@@ -871,7 +883,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               <a
                 href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
               >
-                read more
+                read the full post
               </a>
               <div
                 class="content-post-underline"
@@ -883,6 +895,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               class="content-post grow-on-hover"
             >
               <img
+                alt="The cover image for a blog post"
                 class="cover-image"
                 src="/wp-content/uploads/2022/05/Not-a-Cult-I-Promise-Announcement-Header-Ryan-R-Campbell.jpg"
               />
@@ -899,7 +912,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               <a
                 href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
               >
-                read more
+                read the full post
               </a>
               <div
                 class="content-post-underline"
@@ -911,6 +924,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               class="content-post grow-on-hover"
             >
               <img
+                alt="The cover image for a blog post"
                 class="cover-image"
                 src="/wp-content/uploads/2022/04/Scambait-Release-Post-Cover-Image.jpg"
               />
@@ -927,7 +941,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               <a
                 href="/2022/04/18/happy-book-birthday-to-scambait/"
               >
-                read more
+                read the full post
               </a>
               <div
                 class="content-post-underline"
@@ -939,6 +953,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               class="content-post grow-on-hover"
             >
               <img
+                alt="The cover image for a blog post"
                 class="cover-image"
                 src="/wp-content/uploads/2022/02/Scambait-Book-Cover-Reveal-Teaser-No-Date.png"
               />
@@ -955,7 +970,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               <a
                 href="/2022/02/23/the-scambait-cover-reveal/"
               >
-                read more
+                read the full post
               </a>
               <div
                 class="content-post-underline"
@@ -967,6 +982,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               class="content-post grow-on-hover"
             >
               <img
+                alt="The cover image for a blog post"
                 class="cover-image"
                 src="/wp-content/uploads/2022/02/Scambait-Cover-Copy-Blog-Post-Header.jpg"
               />
@@ -983,7 +999,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               <a
                 href="/2022/02/08/your-first-look-a-scambait-back-cover-teaser/"
               >
-                read more
+                read the full post
               </a>
               <div
                 class="content-post-underline"
@@ -995,6 +1011,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               class="content-post grow-on-hover"
             >
               <img
+                alt="The cover image for a blog post"
                 class="cover-image"
                 src="/wp-content/uploads/2022/01/Hop-in-My-Step-January-2022-Scambait-Update.png"
               />
@@ -1011,7 +1028,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               <a
                 href="/2022/01/25/a-hop-in-my-step-the-revision-division-and-more/"
               >
-                read more
+                read the full post
               </a>
               <div
                 class="content-post-underline"
@@ -1023,6 +1040,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               class="content-post grow-on-hover"
             >
               <img
+                alt="The cover image for a blog post"
                 class="cover-image"
                 src="/wp-content/uploads/2022/01/2022-Blog-Post-Calendar-Routines-Habits.png"
               />
@@ -1039,7 +1057,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               <a
                 href="/2022/01/11/old-habits-born-hard-never-dead/"
               >
-                read more
+                read the full post
               </a>
               <div
                 class="content-post-underline"
@@ -1064,21 +1082,21 @@ exports[`BlogLanding > default snapshot 1`] = `
           <div
             class="Contact"
           >
-            <h4>
+            <h3>
               tech inquiries
-            </h4>
+            </h3>
             <p>
               campbell [dot] ryan [dot] r [at] gmail [dot] com
             </p>
-            <h4>
+            <h3>
               author inquiries
-            </h4>
+            </h3>
             <p>
               rrcampbellwrites [at] gmail [dot] com
             </p>
-            <h4>
+            <h3>
               subscribe
-            </h4>
+            </h3>
             <a
               class="subscription-link"
               href="http://eepurl.com/dhBxcv"

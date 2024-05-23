@@ -15,7 +15,7 @@ const PodcastTeaser = ({ episodesToDisplay, episodesPage }) => {
       {teaserEpisodes.map((episode) => (
         <div onClick={() => navigate(buildNavURL(episode.link))} key={episode.link}>
           <div className='content-post grow-on-hover'>
-            <img className='cover-image' src={episode.image._href} />
+            <img className='cover-image' src={episode.image._href} alt="A headshot of the episode's guest" />
             <h3>{episode.title}</h3>
             <span>Released on {formatDate(episode.pubDate)}</span>
             <p>{episode.description}</p>

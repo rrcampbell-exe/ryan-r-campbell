@@ -12,7 +12,7 @@ const Books = () => {
               <img data-testid='book-cover' className='book-cover' src={book.cover} alt={book.alt} />
               <h3 className='book-title'>{book.title}</h3>
               <p>{book.summary}</p>
-              <Link to={'/books'} state={{ hash: book.id }}>read more</Link>
+              <Link to={'/books'} state={{ hash: book.id }}>read more about {book.title.toLowerCase()}</Link>
             </div>
           </div>
         </Link>

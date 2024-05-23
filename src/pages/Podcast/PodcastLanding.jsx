@@ -19,7 +19,7 @@ const PodcastLanding = () => {
       <main className='Podcast'>
         <div id='about' className='about-row section-wrapper shadow-bg-gray'>
           <div>
-            <img className='about-img' src='./podcasts/writescast-network-circle-logo.png' />
+            <img className='about-img' src='./podcasts/writescast-network-circle-logo.png' alt='The Writescast Network logo' />
           </div>
           <div className='section-wrapper about-description'>
             <h2>about</h2>
@@ -28,7 +28,7 @@ const PodcastLanding = () => {
         </div>
         <div id='podcast-player' className='podcast-player'>
           {!isLoaded && <Loading height='400px'/>}
-          <iframe onLoad={() => setIsLoaded(true)} src='https://pinecast.com/embed/player_playlist/the-writescast-network?color.primary=%23000000&amp;color.secondary=%23cbd3da&amp;color.accent=%23df633b' border='0' style={{ border: '0', borderRadius: '4px' }} height={isLoaded ? '400' : '0'}></iframe>
+          <iframe title='A playlist of the 100 most-recent Writescast Network episodes' onLoad={() => setIsLoaded(true)} src='https://pinecast.com/embed/player_playlist/the-writescast-network?color.primary=%23000000&amp;color.secondary=%23cbd3da&amp;color.accent=%23df633b' border='0' style={{ border: '0', borderRadius: '4px' }} height={isLoaded ? '400' : '0'}></iframe>
         </div>
         <div id='all-episodes' className='ContentHub'>
           <PodcastTeaser episodesToDisplay={episodesToDisplay} episodesPage={episodesPage}/>

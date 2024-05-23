@@ -37,7 +37,7 @@ exports[`Books > Books default snapshot 1`] = `
         <a
           href="/books"
         >
-          read more
+          read more about scambait
         </a>
       </div>
     </div>
@@ -72,7 +72,7 @@ exports[`Books > Books default snapshot 1`] = `
         <a
           href="/books"
         >
-          read more
+          read more about and ampersand
         </a>
       </div>
     </div>
@@ -107,7 +107,7 @@ exports[`Books > Books default snapshot 1`] = `
         <a
           href="/books"
         >
-          read more
+          read more about imminent dawn
         </a>
       </div>
     </div>
@@ -142,7 +142,7 @@ exports[`Books > Books default snapshot 1`] = `
         <a
           href="/books"
         >
-          read more
+          read more about mourning dove
         </a>
       </div>
     </div>
