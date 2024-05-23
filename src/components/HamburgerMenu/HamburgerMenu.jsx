@@ -16,7 +16,7 @@ const HamburgerMenu = () => {
       </button>
       <div className='menu-content'>
         <div className='icon-container'>
-          <button onClick={() => setMenuIsOpen(!menuIsOpen)} data-testid='close-button'>
+          <button onClick={() => setMenuIsOpen(!menuIsOpen)} data-testid='close-button' aria-label='close menu'>
             <CloseSVG />
           </button>
         </div>
