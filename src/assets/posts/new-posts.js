@@ -17,7 +17,8 @@ const posts = [
       protected: false
     },
     tags: ['Book Review', 'Personal Development', 'Identity'],
-    episode_featured_image: "/post-content/2024/05/book-review-the-good-enough-job-cover-img.png"
+    episode_featured_image: "/post-content/2024/05/book-review-the-good-enough-job-cover-img.png",
+    featured_image_alt: "The book cover for The Good Enough Job rests on a white table alongside a green succulent plant."
   },
   {
     id: 10088,
@@ -37,7 +38,8 @@ const posts = [
       protected: false
     },
     tags: ['Site Migration', 'Web Development', 'On Writing'],
-    episode_featured_image: "/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
+    episode_featured_image: "/post-content/2024/05/welcome-to-the-new-site-cover-img.png",
+    featured_image_alt: "A cut-out image of Ryan R. Campbell next to text that welcomes visitors to the new website."
   }
 ];
 

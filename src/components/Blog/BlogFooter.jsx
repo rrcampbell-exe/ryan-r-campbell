@@ -6,7 +6,7 @@ const BackToBlog = () => {
   const navigate = useNavigate()
   return (
     <>
-      <a onClick={() => navigate('/blog')}>back to blog</a>
+      <a onClick={() => navigate('/blog')} title='link back to blog'>back to blog</a>
       <span>Keep Curious</span>
     </>
   )
@@ -41,7 +41,7 @@ const BlogFooter = ({ post }) => {
       <div className='post-nav-container previous-post'>
         {!isOldestPost ? (
           <>
-            <a onClick={() => navigate(cleanPreviousLink)}>&lt; previous post</a>
+            <a onClick={() => navigate(cleanPreviousLink)} title='link to previous post'>&lt; previous post</a>
             <span>{previousPostTitle}</span>
           </>
         ) : (
@@ -51,7 +51,7 @@ const BlogFooter = ({ post }) => {
       <div className='post-nav-container next-post'>
         {!isLatestPost ? (
           <>
-            <a onClick={() => navigate(cleanNextLink)}>next post &gt;</a>
+            <a onClick={() => navigate(cleanNextLink)} title='link to next post'>next post &gt;</a>
             <span>{nextPostTitle}</span>
           </>
         ) : (

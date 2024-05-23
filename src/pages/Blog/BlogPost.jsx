@@ -49,7 +49,7 @@ const BlogPost = () => {
   )
 
   // destructuring post object
-  const { title: { rendered: title }, date, episode_featured_image, content: { rendered: contentToRender } } = post
+  const { title: { rendered: title }, date, episode_featured_image, featured_image_alt, content: { rendered: contentToRender } } = post
 
   // if post is a legacy post, render the content as is; otherwise, fetch JSX for new post
   const postContent = year < 2023 ? extractHTMLContent(contentToRender) : jsxContent
@@ -59,14 +59,14 @@ const BlogPost = () => {
       <main>
         <div className='Post'>
           <div className='masthead'>
-            <img className='cover-image' src={episode_featured_image} />
+            <img className='cover-image' src={episode_featured_image} alt={featured_image_alt ? featured_image_alt : 'The cover image for a blog post'}/>
             {year < 2023 && <NotificationBanner title='This is a legacy post.' text='Content may be formatted awkwardly until long-term fixes are in place. Thank you for your patience, and thanks for visiting.' />}
             <div>
               <h2 className='title'>{title}</h2>
               <div className='credits'>
                 <div className='byline-container'>
                   <div className='author-photo'>
-                    <img src='/2024-ryan-r-campbell-website-headshot.png' />
+                    <img src='/2024-ryan-r-campbell-website-headshot.png' alt='A headshot of Ryan R. Campbell'/>
                   </div>
                   <div>
                     <p>Written by Ryan R. Campbell</p> 
