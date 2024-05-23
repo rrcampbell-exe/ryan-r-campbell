@@ -98,6 +98,7 @@ exports[`PodcastTeaser > default snapshot >
         class="content-post grow-on-hover"
       >
         <img
+          alt="A headshot of the episode's guest"
           class="cover-image"
           src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/c383bb8c-ad6d-445f-a783-7bc734d879a2/2020DanSchiroAuthorPhotoWritescastGuest.png"
         />
@@ -125,6 +126,7 @@ exports[`PodcastTeaser > default snapshot >
         class="content-post grow-on-hover"
       >
         <img
+          alt="A headshot of the episode's guest"
           class="cover-image"
           src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/e759cfd3-56b5-4080-8722-65ff96a377f1/2020WritescastNetworkLaceyPhoto.png"
         />
@@ -152,6 +154,7 @@ exports[`PodcastTeaser > default snapshot >
         class="content-post grow-on-hover"
       >
         <img
+          alt="A headshot of the episode's guest"
           class="cover-image"
           src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/96687bee-289d-4085-b2c3-e80b7f872ca9/2020WritescastSarahSmithAuthorPhoto.png"
         />

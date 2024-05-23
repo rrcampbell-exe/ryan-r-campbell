@@ -12,7 +12,7 @@ const GeneralLanding = ({ pageNotFound }) => {
       <main className='General-landing'>
         <div id='about' className='shadow-bg-main-accent'>
           <div className='photo-banner'>
-            <img className='about-img' src='./2024-ryan-r-campbell-website-headshot.png' />
+            <img className='about-img' src='./2024-ryan-r-campbell-website-headshot.png' alt='A headshot of Ryan R. Campbell'/>
             <div className='pop-text-container'>
               <h2>home of</h2>
               <PopText>

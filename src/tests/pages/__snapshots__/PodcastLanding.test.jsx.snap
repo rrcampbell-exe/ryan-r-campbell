@@ -243,6 +243,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
           >
             <div>
               <img
+                alt="The Writescast Network logo"
                 class="about-img"
                 src="./podcasts/writescast-network-circle-logo.png"
               />
@@ -295,6 +296,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
               height="0"
               src="https://pinecast.com/embed/player_playlist/the-writescast-network?color.primary=%23000000&color.secondary=%23cbd3da&color.accent=%23df633b"
               style="border: 0px; border-radius: 4px;"
+              title="A playlist of the 100 most-recent Writescast Network episodes"
             />
           </div>
           <div
@@ -309,6 +311,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <img
+                    alt="A headshot of the episode's guest"
                     class="cover-image"
                     src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/c383bb8c-ad6d-445f-a783-7bc734d879a2/2020DanSchiroAuthorPhotoWritescastGuest.png"
                   />
@@ -337,6 +340,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <img
+                    alt="A headshot of the episode's guest"
                     class="cover-image"
                     src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/e759cfd3-56b5-4080-8722-65ff96a377f1/2020WritescastNetworkLaceyPhoto.png"
                   />
@@ -365,6 +369,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <img
+                    alt="A headshot of the episode's guest"
                     class="cover-image"
                     src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/96687bee-289d-4085-b2c3-e80b7f872ca9/2020WritescastSarahSmithAuthorPhoto.png"
                   />
@@ -393,6 +398,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <img
+                    alt="A headshot of the episode's guest"
                     class="cover-image"
                     src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/55e10d7c-661e-4876-b3ce-d4abe84c8013/2020M.A.HinkleAuthorPhoto.png"
                   />
@@ -421,6 +427,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <img
+                    alt="A headshot of the episode's guest"
                     class="cover-image"
                     src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/0f544bf8-18be-4d76-a377-78b2ef5ea354/2020AuthorPhotoLindsayWeisner.jpg"
                   />
@@ -449,6 +456,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <img
+                    alt="A headshot of the episode's guest"
                     class="cover-image"
                     src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/b84715ec-087c-4bc0-a471-fca8cbacaa46/2020WritescastLaurieScheerFeaturedImage.png"
                   />
@@ -477,6 +485,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <img
+                    alt="A headshot of the episode's guest"
                     class="cover-image"
                     src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/233f9ff4-afe2-45cf-ba6d-c77e79bfef65/2020BiblioBreakdownLogo.png"
                   />
@@ -505,6 +514,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <img
+                    alt="A headshot of the episode's guest"
                     class="cover-image"
                     src="https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2020/10/2020-Carol-VanDenHende-Featured-Image.png?fit=1080%2C1080&ssl=1"
                   />
@@ -533,6 +543,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <img
+                    alt="A headshot of the episode's guest"
                     class="cover-image"
                     src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/22464bda-bc6c-4c33-b1c9-3eafde907c03/2020MaryJaneCappsAuthorFeaturedImage.png"
                   />
@@ -575,21 +586,21 @@ exports[`PodcastLanding > default snapshot 1`] = `
             <div
               class="Contact"
             >
-              <h4>
+              <h3>
                 tech inquiries
-              </h4>
+              </h3>
               <p>
                 campbell [dot] ryan [dot] r [at] gmail [dot] com
               </p>
-              <h4>
+              <h3>
                 author inquiries
-              </h4>
+              </h3>
               <p>
                 rrcampbellwrites [at] gmail [dot] com
               </p>
-              <h4>
+              <h3>
                 subscribe
-              </h4>
+              </h3>
               <a
                 class="subscription-link"
                 href="http://eepurl.com/dhBxcv"
@@ -882,6 +893,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
         >
           <div>
             <img
+              alt="The Writescast Network logo"
               class="about-img"
               src="./podcasts/writescast-network-circle-logo.png"
             />
@@ -934,6 +946,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
             height="0"
             src="https://pinecast.com/embed/player_playlist/the-writescast-network?color.primary=%23000000&color.secondary=%23cbd3da&color.accent=%23df633b"
             style="border: 0px; border-radius: 4px;"
+            title="A playlist of the 100 most-recent Writescast Network episodes"
           />
         </div>
         <div
@@ -948,6 +961,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="A headshot of the episode's guest"
                   class="cover-image"
                   src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/c383bb8c-ad6d-445f-a783-7bc734d879a2/2020DanSchiroAuthorPhotoWritescastGuest.png"
                 />
@@ -976,6 +990,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="A headshot of the episode's guest"
                   class="cover-image"
                   src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/e759cfd3-56b5-4080-8722-65ff96a377f1/2020WritescastNetworkLaceyPhoto.png"
                 />
@@ -1004,6 +1019,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="A headshot of the episode's guest"
                   class="cover-image"
                   src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/96687bee-289d-4085-b2c3-e80b7f872ca9/2020WritescastSarahSmithAuthorPhoto.png"
                 />
@@ -1032,6 +1048,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="A headshot of the episode's guest"
                   class="cover-image"
                   src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/55e10d7c-661e-4876-b3ce-d4abe84c8013/2020M.A.HinkleAuthorPhoto.png"
                 />
@@ -1060,6 +1077,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="A headshot of the episode's guest"
                   class="cover-image"
                   src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/0f544bf8-18be-4d76-a377-78b2ef5ea354/2020AuthorPhotoLindsayWeisner.jpg"
                 />
@@ -1088,6 +1106,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="A headshot of the episode's guest"
                   class="cover-image"
                   src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/b84715ec-087c-4bc0-a471-fca8cbacaa46/2020WritescastLaurieScheerFeaturedImage.png"
                 />
@@ -1116,6 +1135,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="A headshot of the episode's guest"
                   class="cover-image"
                   src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/233f9ff4-afe2-45cf-ba6d-c77e79bfef65/2020BiblioBreakdownLogo.png"
                 />
@@ -1144,6 +1164,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="A headshot of the episode's guest"
                   class="cover-image"
                   src="https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2020/10/2020-Carol-VanDenHende-Featured-Image.png?fit=1080%2C1080&ssl=1"
                 />
@@ -1172,6 +1193,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="A headshot of the episode's guest"
                   class="cover-image"
                   src="https://storage.pinecast.net/podcasts/517076a7-8734-40ed-b67f-c3d3284a137d/image/22464bda-bc6c-4c33-b1c9-3eafde907c03/2020MaryJaneCappsAuthorFeaturedImage.png"
                 />
@@ -1214,21 +1236,21 @@ exports[`PodcastLanding > default snapshot 1`] = `
           <div
             class="Contact"
           >
-            <h4>
+            <h3>
               tech inquiries
-            </h4>
+            </h3>
             <p>
               campbell [dot] ryan [dot] r [at] gmail [dot] com
             </p>
-            <h4>
+            <h3>
               author inquiries
-            </h4>
+            </h3>
             <p>
               rrcampbellwrites [at] gmail [dot] com
             </p>
-            <h4>
+            <h3>
               subscribe
-            </h4>
+            </h3>
             <a
               class="subscription-link"
               href="http://eepurl.com/dhBxcv"

@@ -30,12 +30,12 @@ const BlogTeaser = ({ postsToDisplay, showCoverImage, postsPage }) => {
       {teaserPosts.map((post) => (
         <div onClick={() => navigate(buildNavURL(post.link))} key={post.id}>
           <div className='content-post grow-on-hover'>
-            {showCoverImage && <img className='cover-image' src={post.episode_featured_image} />}
+            {showCoverImage && <img className='cover-image' src={post.episode_featured_image} alt={post.featured_image_alt ? post.featured_image_alt : 'The cover image for a blog post'} />}
             <h3>{post.title.rendered}</h3>
             <span>Posted on {formatDate(post.date)}</span>
             <p>{post.excerpt.rendered}</p>
             {renderTags(post)}
-            <Link to={buildNavURL(post.link)}>read more</Link>
+            <Link to={buildNavURL(post.link)}>read the full post</Link>
             <div className='content-post-underline' />
           </div>
         </div>

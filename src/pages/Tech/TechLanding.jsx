@@ -9,14 +9,14 @@ const TechLanding = () => {
       <main className='Tech-landing'>
         <div id='about' className='about-row section-wrapper shadow-bg-gray'>
           <div>
-            <img className='about-img' src='./2024-ryan-r-campbell-website-headshot.png' />
+            <img className='about-img' src='./2024-ryan-r-campbell-website-headshot.png' alt='A headshot of Ryan R. Campbell' />
           </div>
           <div className='section-wrapper about-description'>
             <h2>about</h2>
             <p>
               I'm a full-stack (React, Express, Node) software engineer for a Fortune 100 insurance and financial services firm. When I'm not squashing bugs or building a better client experience, I'm fine-tuning my foreign language repetoire or gazing at the stars.
             </p>
-            <Link to='/about'>learn more</Link>
+            <Link to='/about'>learn more about the technologist</Link>
           </div>
         </div>
         <div id='builds' className='section-wrapper'>

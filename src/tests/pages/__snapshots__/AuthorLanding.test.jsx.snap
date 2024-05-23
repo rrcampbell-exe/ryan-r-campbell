@@ -270,6 +270,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
           >
             <div>
               <img
+                alt="A headshot of Ryan R. Campbell"
                 class="about-img"
                 src="./2024-ryan-r-campbell-website-headshot.png"
               />
@@ -287,7 +288,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 data-testid="about-link"
                 href="/about"
               >
-                learn more
+                learn more about the author
               </a>
             </div>
           </div>
@@ -326,7 +327,8 @@ exports[`AuthorLanding > default snapshot 1`] = `
                     <a
                       href="/books"
                     >
-                      read more
+                      read more about 
+                      scambait
                     </a>
                   </div>
                 </div>
@@ -355,7 +357,8 @@ exports[`AuthorLanding > default snapshot 1`] = `
                     <a
                       href="/books"
                     >
-                      read more
+                      read more about 
+                      and ampersand
                     </a>
                   </div>
                 </div>
@@ -384,7 +387,8 @@ exports[`AuthorLanding > default snapshot 1`] = `
                     <a
                       href="/books"
                     >
-                      read more
+                      read more about 
+                      imminent dawn
                     </a>
                   </div>
                 </div>
@@ -413,7 +417,8 @@ exports[`AuthorLanding > default snapshot 1`] = `
                     <a
                       href="/books"
                     >
-                      read more
+                      read more about 
+                      mourning dove
                     </a>
                   </div>
                 </div>
@@ -2766,21 +2771,21 @@ exports[`AuthorLanding > default snapshot 1`] = `
             <div
               class="Contact"
             >
-              <h4>
+              <h3>
                 tech inquiries
-              </h4>
+              </h3>
               <p>
                 campbell [dot] ryan [dot] r [at] gmail [dot] com
               </p>
-              <h4>
+              <h3>
                 author inquiries
-              </h4>
+              </h3>
               <p>
                 rrcampbellwrites [at] gmail [dot] com
               </p>
-              <h4>
+              <h3>
                 subscribe
-              </h4>
+              </h3>
               <a
                 class="subscription-link"
                 href="http://eepurl.com/dhBxcv"
@@ -3100,6 +3105,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
         >
           <div>
             <img
+              alt="A headshot of Ryan R. Campbell"
               class="about-img"
               src="./2024-ryan-r-campbell-website-headshot.png"
             />
@@ -3117,7 +3123,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
               data-testid="about-link"
               href="/about"
             >
-              learn more
+              learn more about the author
             </a>
           </div>
         </div>
@@ -3156,7 +3162,8 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   <a
                     href="/books"
                   >
-                    read more
+                    read more about 
+                    scambait
                   </a>
                 </div>
               </div>
@@ -3185,7 +3192,8 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   <a
                     href="/books"
                   >
-                    read more
+                    read more about 
+                    and ampersand
                   </a>
                 </div>
               </div>
@@ -3214,7 +3222,8 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   <a
                     href="/books"
                   >
-                    read more
+                    read more about 
+                    imminent dawn
                   </a>
                 </div>
               </div>
@@ -3243,7 +3252,8 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   <a
                     href="/books"
                   >
-                    read more
+                    read more about 
+                    mourning dove
                   </a>
                 </div>
               </div>
@@ -5596,21 +5606,21 @@ exports[`AuthorLanding > default snapshot 1`] = `
           <div
             class="Contact"
           >
-            <h4>
+            <h3>
               tech inquiries
-            </h4>
+            </h3>
             <p>
               campbell [dot] ryan [dot] r [at] gmail [dot] com
             </p>
-            <h4>
+            <h3>
               author inquiries
-            </h4>
+            </h3>
             <p>
               rrcampbellwrites [at] gmail [dot] com
             </p>
-            <h4>
+            <h3>
               subscribe
-            </h4>
+            </h3>
             <a
               class="subscription-link"
               href="http://eepurl.com/dhBxcv"

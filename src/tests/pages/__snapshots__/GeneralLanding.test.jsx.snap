@@ -254,6 +254,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               class="photo-banner"
             >
               <img
+                alt="A headshot of Ryan R. Campbell"
                 class="about-img"
                 src="./2024-ryan-r-campbell-website-headshot.png"
               />
@@ -316,7 +317,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <a
                     href="/2024/05/23/book-review-the-good-enough-job"
                   >
-                    read more
+                    read the full post
                   </a>
                   <div
                     class="content-post-underline"
@@ -350,7 +351,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <a
                     href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
                   >
-                    read more
+                    read the full post
                   </a>
                   <div
                     class="content-post-underline"
@@ -374,7 +375,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <a
                     href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
                   >
-                    read more
+                    read the full post
                   </a>
                   <div
                     class="content-post-underline"
@@ -425,7 +426,8 @@ exports[`GeneralLanding > default snapshot 1`] = `
                     <a
                       href="/books"
                     >
-                      read more
+                      read more about 
+                      scambait
                     </a>
                   </div>
                 </div>
@@ -454,7 +456,8 @@ exports[`GeneralLanding > default snapshot 1`] = `
                     <a
                       href="/books"
                     >
-                      read more
+                      read more about 
+                      and ampersand
                     </a>
                   </div>
                 </div>
@@ -483,7 +486,8 @@ exports[`GeneralLanding > default snapshot 1`] = `
                     <a
                       href="/books"
                     >
-                      read more
+                      read more about 
+                      imminent dawn
                     </a>
                   </div>
                 </div>
@@ -512,7 +516,8 @@ exports[`GeneralLanding > default snapshot 1`] = `
                     <a
                       href="/books"
                     >
-                      read more
+                      read more about 
+                      mourning dove
                     </a>
                   </div>
                 </div>
@@ -732,21 +737,21 @@ exports[`GeneralLanding > default snapshot 1`] = `
             <div
               class="Contact"
             >
-              <h4>
+              <h3>
                 tech inquiries
-              </h4>
+              </h3>
               <p>
                 campbell [dot] ryan [dot] r [at] gmail [dot] com
               </p>
-              <h4>
+              <h3>
                 author inquiries
-              </h4>
+              </h3>
               <p>
                 rrcampbellwrites [at] gmail [dot] com
               </p>
-              <h4>
+              <h3>
                 subscribe
-              </h4>
+              </h3>
               <a
                 class="subscription-link"
                 href="http://eepurl.com/dhBxcv"
@@ -1053,6 +1058,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             class="photo-banner"
           >
             <img
+              alt="A headshot of Ryan R. Campbell"
               class="about-img"
               src="./2024-ryan-r-campbell-website-headshot.png"
             />
@@ -1115,7 +1121,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <a
                   href="/2024/05/23/book-review-the-good-enough-job"
                 >
-                  read more
+                  read the full post
                 </a>
                 <div
                   class="content-post-underline"
@@ -1149,7 +1155,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <a
                   href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
                 >
-                  read more
+                  read the full post
                 </a>
                 <div
                   class="content-post-underline"
@@ -1173,7 +1179,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <a
                   href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
                 >
-                  read more
+                  read the full post
                 </a>
                 <div
                   class="content-post-underline"
@@ -1224,7 +1230,8 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <a
                     href="/books"
                   >
-                    read more
+                    read more about 
+                    scambait
                   </a>
                 </div>
               </div>
@@ -1253,7 +1260,8 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <a
                     href="/books"
                   >
-                    read more
+                    read more about 
+                    and ampersand
                   </a>
                 </div>
               </div>
@@ -1282,7 +1290,8 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <a
                     href="/books"
                   >
-                    read more
+                    read more about 
+                    imminent dawn
                   </a>
                 </div>
               </div>
@@ -1311,7 +1320,8 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <a
                     href="/books"
                   >
-                    read more
+                    read more about 
+                    mourning dove
                   </a>
                 </div>
               </div>
@@ -1531,21 +1541,21 @@ exports[`GeneralLanding > default snapshot 1`] = `
           <div
             class="Contact"
           >
-            <h4>
+            <h3>
               tech inquiries
-            </h4>
+            </h3>
             <p>
               campbell [dot] ryan [dot] r [at] gmail [dot] com
             </p>
-            <h4>
+            <h3>
               author inquiries
-            </h4>
+            </h3>
             <p>
               rrcampbellwrites [at] gmail [dot] com
             </p>
-            <h4>
+            <h3>
               subscribe
-            </h4>
+            </h3>
             <a
               class="subscription-link"
               href="http://eepurl.com/dhBxcv"
