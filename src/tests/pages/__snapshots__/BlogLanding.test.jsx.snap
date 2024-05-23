@@ -214,7 +214,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               >
                 <img
                   class="cover-image"
-                  src="/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
+                  src="/post-content/2024/05/book-review-the-good-enough-job-cover-img.png"
                 />
                 <h3>
                   Book Review: The Good Enough Job
@@ -776,7 +776,7 @@ exports[`BlogLanding > default snapshot 1`] = `
             >
               <img
                 class="cover-image"
-                src="/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
+                src="/post-content/2024/05/book-review-the-good-enough-job-cover-img.png"
               />
               <h3>
                 Book Review: The Good Enough Job

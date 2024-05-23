@@ -17,7 +17,7 @@ const posts = [
       protected: false
     },
     tags: ['Book Review', 'Personal Development', 'Identity'],
-    episode_featured_image: "/post-content/2024/05/welcome-to-the-new-site-cover-img.png"
+    episode_featured_image: "/post-content/2024/05/book-review-the-good-enough-job-cover-img.png"
   },
   {
     id: 10088,
