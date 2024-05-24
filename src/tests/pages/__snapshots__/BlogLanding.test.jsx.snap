@@ -224,7 +224,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 </h3>
                 <span>
                   Posted on 
-                  May 17, 2024
+                  May 24, 2024
                 </span>
                 <p>
                   In the beginning, there was light mode, but lo! After a time, the retinas of webizens did cry out, yearning for reprieve.
@@ -240,7 +240,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                   </p>
                 </div>
                 <a
-                  href="/2024/05/17/let-there-be-light-dark"
+                  href="/2024/05/24/let-there-be-light-dark"
                 >
                   read the full post
                 </a>
@@ -807,7 +807,7 @@ exports[`BlogLanding > default snapshot 1`] = `
               </h3>
               <span>
                 Posted on 
-                May 17, 2024
+                May 24, 2024
               </span>
               <p>
                 In the beginning, there was light mode, but lo! After a time, the retinas of webizens did cry out, yearning for reprieve.
@@ -823,7 +823,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 </p>
               </div>
               <a
-                href="/2024/05/17/let-there-be-light-dark"
+                href="/2024/05/24/let-there-be-light-dark"
               >
                 read the full post
               </a>
