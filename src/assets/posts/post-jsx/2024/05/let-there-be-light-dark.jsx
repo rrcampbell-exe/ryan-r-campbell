@@ -12,7 +12,7 @@ const LetThereBeLightDark = () => {
         colorScheme='cool'
       />
       <h2>From the Light (Mode), Darkness</h2>
-      <p>Among the more <a href='https://www.theverge.com/2021/1/20/22240864/new-white-house-website-dark-mode-accessibility' rel='noopener noreferrer' target='_blank'>popular</a> <a href='https://www.techradar.com/how-to/zoom-dark-mode' rel='noopener noreferrer' target='_blank'>trends</a> in UI/UX in the last few years is the build-out of dark modes to create a more robust and accessible online experience. Unfamiliar with the idea of dark mode? That may not be as true as you think.</p>
+      <p>Among the more <a href='https://www.theverge.com/2021/1/20/22240864/new-white-house-website-dark-mode-accessibility' rel='noopener noreferrer' target='_blank'>popular</a> <a href='https://www.techradar.com/how-to/zoom-dark-mode' rel='noopener noreferrer' target='_blank'>trends</a> in UI/UX in the last few years is the build-out of dark modes to create a more robust and accessible online experience. Think you're unfamiliar with the idea of dark mode? That may not be as true as you think.</p>
       <p>In the upper-right hand corner of this page, you'll see either a sun or moon-and-stars icon. Clicking or tapping that icon will fundamentally change the site's appearance, shifting it to either the more traditional white-out background with black text or to an experience that is comprised of light text against a dark background. The latter, which I made the default experience as part of my <Link to='/2024/05/03/welcome-to-the-new-ryan-r-campbell'>recent site migration</Link>, is what is known as <b>dark mode</b>.</p>
       <h2>Dark Mode as a Matter of Accessibility</h2>
       <p>One thing you may notice in shifting between light and dark mode is, quite simply, <em>how it feels</em>. If you don't believe me, try a couple of toggles for yourself now. You may notice that, after a few seconds of engaging with the site in light mode, your eyes strain to endure the blast of light.</p>
@@ -111,7 +111,7 @@ body {
       <p>Alright, let's take a look at our browser and inspect our work so far.</p>
       <p>We removed the <CodeSpan text='prefers-color-scheme' /> media query, yes, but if the app still appears in dark mode for you—which it should if that's the preference you've set at the OS level—that's to be expected at this juncture.</p>
       <p>How? Why? Let's explore.</p>
-      <p>It turns out, setting <CodeSpan text='color-scheme: light dark' /> at the <CodeSpan text=':root' /> level is enough to trigger some responsive behavior in the browser, <em>even if you haven't set additional color-related styles of your own.</em> This is acehived by the browser applying its user-agent styles to the <CodeSpan text=':root' /> pseudo-class, which in turn apply to the rest of the page.</p>
+      <p>It turns out, setting <CodeSpan text='color-scheme: light dark' /> at the <CodeSpan text=':root' /> level is enough to trigger some responsive behavior in the browser, <em>even if you haven't set additional color-related styles of your own.</em> This is achieved by the browser applying its user-agent styles to the <CodeSpan text=':root' /> pseudo-class, which in turn apply to the rest of the page.</p>
       <p>But we're not here to rely on the browser's default styles, are we? No, we're here to implement <CodeSpan text='light-dark()' />! To do this, let's add some <CodeSpan text='color' /> and <CodeSpan text='background-color' /> styles to the <CodeSpan text='body' /> element styles in <CodeSpan text='App.css' />, at long last making use of <CodeSpan text='light-dark()' />.</p>
       <CSS 
         text={`body {
@@ -155,7 +155,7 @@ body {
         colorScheme='cool'
       />
       <p>To test both themes, you could, yes, change your operating system's preference (or, if you embrace dynamic color scheme preference, wait for the sun to go up or come down, depending on the time of day), but that's a bit of a hassle. Instead, you can use the browser's developer tools to simulate each theme.</p>
-      <p>In Chrome, this can be achieved by opening your dev tools, clicing the three dots in the top right corner, selecting "More tools," then "Rendering," and finally selecting the color scheme you'd like to simulate in the "emulate CSS media feature prefers-color-scheme" dropdown. You should see the page's styles update to reflect the selected color scheme the moment you select the optino you'd like to simulate from the dropdown.</p>
+      <p>In Chrome, this can be achieved by opening your dev tools, clicking the three dots in the top right corner, selecting "More tools," then "Rendering," and finally selecting the color scheme you'd like to simulate in the "emulate CSS media feature prefers-color-scheme" dropdown. You should see the page's styles update to reflect the selected color scheme the moment you select the option you'd like to simulate from the dropdown.</p>
       <div className='image-gallery'>
         <div className='image-and-caption'>
           <img src='/post-content/2024/05/light-dark-dev-tools.png' alt="The location of the prefers-color-scheme toggle in Chrome's dev tools" />
