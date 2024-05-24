@@ -8,5 +8,6 @@ import RobotSVG from './RobotSVG'
 import SunSVG from './SunSVG'
 import CalendarSVG from './CalendarSVG'
 import MicrophoneSVG from './MicrophoneSVG'
+import LightBulbSVG from './LightBulbSVG'
 
-export { BrowserSVG, LaptopSVG, ManagementSVG, CloseSVG, ExternalLinkSVG, HamburgerIcon, MoonSVG, QuotesSVG, RobotSVG, SunSVG, CalendarSVG, MicrophoneSVG }
+export { BrowserSVG, LaptopSVG, ManagementSVG, CloseSVG, ExternalLinkSVG, HamburgerIcon, MoonSVG, QuotesSVG, RobotSVG, SunSVG, CalendarSVG, MicrophoneSVG, LightBulbSVG }
