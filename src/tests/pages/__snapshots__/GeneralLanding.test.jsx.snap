@@ -295,6 +295,40 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <h3>
+                    Let There Be light-dark()
+                  </h3>
+                  <span>
+                    Posted on 
+                    May 24, 2024
+                  </span>
+                  <p>
+                    In the beginning, there was light mode, but lo! After a time, the retinas of webizens did cry out, yearning for reprieve.
+                  </p>
+                  <div
+                    class="teaser-tags"
+                  >
+                    <p>
+                      FILED UNDER:
+                    </p>
+                    <p>
+                      CSS, WEB DEVELOPMENT, SITE MIGRATION
+                    </p>
+                  </div>
+                  <a
+                    href="/2024/05/24/let-there-be-light-dark"
+                  >
+                    read the full post
+                  </a>
+                  <div
+                    class="content-post-underline"
+                  />
+                </div>
+              </div>
+              <div>
+                <div
+                  class="content-post grow-on-hover"
+                >
+                  <h3>
                     Book Review: The Good Enough Job
                   </h3>
                   <span>
@@ -350,30 +384,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   </div>
                   <a
                     href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
-                  >
-                    read the full post
-                  </a>
-                  <div
-                    class="content-post-underline"
-                  />
-                </div>
-              </div>
-              <div>
-                <div
-                  class="content-post grow-on-hover"
-                >
-                  <h3>
-                    From Conference to Coffee (On the Beach)
-                  </h3>
-                  <span>
-                    Posted on 
-                    May 19, 2022
-                  </span>
-                  <p>
-                    After a couple of years off the speakers' circuit and without a vacation (thanks, pandemic), the last couple of weeks were a welcome reprieve.
-                  </p>
-                  <a
-                    href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
                   >
                     read the full post
                   </a>
@@ -1099,6 +1109,40 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <h3>
+                  Let There Be light-dark()
+                </h3>
+                <span>
+                  Posted on 
+                  May 24, 2024
+                </span>
+                <p>
+                  In the beginning, there was light mode, but lo! After a time, the retinas of webizens did cry out, yearning for reprieve.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    CSS, WEB DEVELOPMENT, SITE MIGRATION
+                  </p>
+                </div>
+                <a
+                  href="/2024/05/24/let-there-be-light-dark"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <h3>
                   Book Review: The Good Enough Job
                 </h3>
                 <span>
@@ -1154,30 +1198,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </div>
                 <a
                   href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <h3>
-                  From Conference to Coffee (On the Beach)
-                </h3>
-                <span>
-                  Posted on 
-                  May 19, 2022
-                </span>
-                <p>
-                  After a couple of years off the speakers' circuit and without a vacation (thanks, pandemic), the last couple of weeks were a welcome reprieve.
-                </p>
-                <a
-                  href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
                 >
                   read the full post
                 </a>

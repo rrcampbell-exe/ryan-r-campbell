@@ -6,7 +6,7 @@ exports[`NotificationBanner > default snapshot 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="NotificationBanner"
+        class="NotificationBanner "
       >
         <div>
           <svg
@@ -35,7 +35,7 @@ exports[`NotificationBanner > default snapshot 1`] = `
   </body>,
   "container": <div>
     <div
-      class="NotificationBanner"
+      class="NotificationBanner "
     >
       <div>
         <svg

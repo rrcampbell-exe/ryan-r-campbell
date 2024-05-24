@@ -7,6 +7,8 @@
   --shadow: #00000033;
   --main-accent-shadow: #df643b78;
   --main-accent-extended: #f36738cc;
+  --cool-dark-color: #8C52FF;
+  --cool-light-color: #E6B6F4;
   --standard-box-shadow: 0px 4px 8px var(--shadow);
   --fast-transition: 0.3s;
   --slow-transition: 0.5s;

@@ -4,7 +4,20 @@
   padding: 1rem;
   background-color: var(--main-accent-shadow);
   width: 100%;
+  box-sizing: border-box;
   display: flex;
+  align-items: center;
+
+  &.cool {
+    border-color: var(--cool-light-color);
+    background-color: var(--cool-dark-color);
+    p, span, a {
+      color: var(--main-light-color);
+    }
+    a {
+      text-decoration: underline;
+    }
+  }
 
   svg {
     margin-right: 0.75rem;
@@ -12,15 +25,11 @@
   }
 
   .banner-title {
-    font-weight: 500;
+    font-weight: 600;
   }
 
   p {
     margin: 0;
-  }
-
-  span {
-    font-size: 0.875rem;
   }
 
   @media (max-width: 600px) {

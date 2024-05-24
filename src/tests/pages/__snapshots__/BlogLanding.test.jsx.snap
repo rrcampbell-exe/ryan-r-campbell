@@ -215,6 +215,45 @@ exports[`BlogLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <img
+                  alt="The cover image for a blog post"
+                  class="cover-image"
+                  src="/post-content/2024/05/let-there-be-light-dark-cover-img.png"
+                />
+                <h3>
+                  Let There Be light-dark()
+                </h3>
+                <span>
+                  Posted on 
+                  May 24, 2024
+                </span>
+                <p>
+                  In the beginning, there was light mode, but lo! After a time, the retinas of webizens did cry out, yearning for reprieve.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    CSS, WEB DEVELOPMENT, SITE MIGRATION
+                  </p>
+                </div>
+                <a
+                  href="/2024/05/24/let-there-be-light-dark"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
                   alt="The book cover for The Good Enough Job rests on a white table alongside a green succulent plant."
                   class="cover-image"
                   src="/post-content/2024/05/book-review-the-good-enough-job-cover-img.png"
@@ -454,35 +493,6 @@ exports[`BlogLanding > default snapshot 1`] = `
                 </p>
                 <a
                   href="/2022/01/25/a-hop-in-my-step-the-revision-division-and-more/"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <img
-                  alt="The cover image for a blog post"
-                  class="cover-image"
-                  src="/wp-content/uploads/2022/01/2022-Blog-Post-Calendar-Routines-Habits.png"
-                />
-                <h3>
-                  Old Habits, Born Hard, Never Dead
-                </h3>
-                <span>
-                  Posted on 
-                  January 11, 2022
-                </span>
-                <p>
-                  In a new home in a new city with a new schedule, re-establishing a writing routine has proven challenging.
-                </p>
-                <a
-                  href="/2022/01/11/old-habits-born-hard-never-dead/"
                 >
                   read the full post
                 </a>
@@ -788,6 +798,45 @@ exports[`BlogLanding > default snapshot 1`] = `
               class="content-post grow-on-hover"
             >
               <img
+                alt="The cover image for a blog post"
+                class="cover-image"
+                src="/post-content/2024/05/let-there-be-light-dark-cover-img.png"
+              />
+              <h3>
+                Let There Be light-dark()
+              </h3>
+              <span>
+                Posted on 
+                May 24, 2024
+              </span>
+              <p>
+                In the beginning, there was light mode, but lo! After a time, the retinas of webizens did cry out, yearning for reprieve.
+              </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  CSS, WEB DEVELOPMENT, SITE MIGRATION
+                </p>
+              </div>
+              <a
+                href="/2024/05/24/let-there-be-light-dark"
+              >
+                read the full post
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
                 alt="The book cover for The Good Enough Job rests on a white table alongside a green succulent plant."
                 class="cover-image"
                 src="/post-content/2024/05/book-review-the-good-enough-job-cover-img.png"
@@ -1027,35 +1076,6 @@ exports[`BlogLanding > default snapshot 1`] = `
               </p>
               <a
                 href="/2022/01/25/a-hop-in-my-step-the-revision-division-and-more/"
-              >
-                read the full post
-              </a>
-              <div
-                class="content-post-underline"
-              />
-            </div>
-          </div>
-          <div>
-            <div
-              class="content-post grow-on-hover"
-            >
-              <img
-                alt="The cover image for a blog post"
-                class="cover-image"
-                src="/wp-content/uploads/2022/01/2022-Blog-Post-Calendar-Routines-Habits.png"
-              />
-              <h3>
-                Old Habits, Born Hard, Never Dead
-              </h3>
-              <span>
-                Posted on 
-                January 11, 2022
-              </span>
-              <p>
-                In a new home in a new city with a new schedule, re-establishing a writing routine has proven challenging.
-              </p>
-              <a
-                href="/2022/01/11/old-habits-born-hard-never-dead/"
               >
                 read the full post
               </a>

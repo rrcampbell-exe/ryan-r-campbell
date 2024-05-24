@@ -21,6 +21,7 @@
 @import './components/TextAndImage/TextAndImage.scss';
 @import './components/Blog/BlogTags.scss';
 @import './pages/Contact/ContactPage.scss';
+@import './components/CodeBlock/CodeBlock.scss';
 
 /* EXTERNALLY IMPORTED CSS FILES */
 @import 'slick-carousel/slick/slick.css';

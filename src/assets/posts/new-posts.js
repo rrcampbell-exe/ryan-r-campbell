@@ -1,5 +1,25 @@
 const posts = [
   {
+    id: 10090,
+    date: "2024-05-24T06:00:00",
+    slug: "let-there-be-light-dark",
+    link: "https://ryanrcampbell.com/2024/05/24/let-there-be-light-dark",
+    title: {
+      rendered: "Let There Be light-dark()"
+    },
+    content: {
+      rendered:
+        '',
+      protected: false
+    },
+    excerpt: {
+      rendered: "In the beginning, there was light mode, but lo! After a time, the retinas of webizens did cry out, yearning for reprieve.",
+      protected: false
+    },
+    tags: ['CSS', 'Web Development', 'Site Migration'],
+    episode_featured_image: "/post-content/2024/05/let-there-be-light-dark-cover-img.png"
+  },
+  {
     id: 10089,
     date: "2024-05-23T06:00:00",
     slug: "book-review-the-good-enough-job",
