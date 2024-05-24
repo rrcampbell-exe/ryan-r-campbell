@@ -1,13 +1,16 @@
 import React from 'react'
-import { TextAndImage, Quote, Bash, CodeSpan } from '../../../../../components'
+import { Bash, CodeSpan, CSS, JavaScript, NotificationBanner } from '../../../../../components'
 import { Link } from 'react-router-dom'
-import { CodeBlock, sunburst } from 'react-code-blocks'
 
 const LetThereBeLightDark = () => {
   return (
     <>
-      {/* ADD SOMETHING UP HERE THAT LETS FOLKS SKIP DOWN TO THE DEMO IF THEY JUST WANT THE CODE */}
-
+      <NotificationBanner
+        type='tip'
+        title='Already have some familiarity with CSS and accessibility?'
+        text={<>You can skip ahead to the demo by <a href='#demo'>clicking here</a>.</>}
+        colorScheme='cool'
+      />
       <h2>From the Light (Mode), Darkness</h2>
       <p>Among the more <a href='https://www.theverge.com/2021/1/20/22240864/new-white-house-website-dark-mode-accessibility' rel='noopener noreferrer' target='_blank'>popular</a> <a href='https://www.techradar.com/how-to/zoom-dark-mode' rel='noopener noreferrer' target='_blank'>trends</a> in UI/UX in the last few years is the build-out of dark modes to create a more robust and accessible online experience. Unfamiliar with the idea of dark mode? That may not be as true as you think.</p>
       <p>In the upper-right hand corner of this page, you'll see either a sun or moon-and-stars icon. Clicking or tapping that icon will fundamentally change the site's appearance, shifting it to either the more traditional white-out background with black text or to an experience that is comprised of light text against a dark background. The latter, which I made the default experience as part of my <Link to='/2024/05/03/welcome-to-the-new-ryan-r-campbell'>recent site migration</Link>, is what is known as <b>dark mode</b>.</p>
@@ -22,7 +25,7 @@ const LetThereBeLightDark = () => {
       <h2>Let There Be light-dark()</h2>
       <p>Before we explore <CodeSpan text='light-dark()' />—one of the latest ways to add a secondary mode to one's site—I should note that <CodeSpan text='light-dark()' /> is <b>not</b> how I ultimately chose to implement dark mode via the toggle at the top of the page. We'll explore the reasons why I opted for a distinct approach later, but <CodeSpan text='light-dark()' /> does offer a light-weight, CSS-native approach to making dark mode available to your site's users, so it's worth knowing how to take advantage of it.</p>
       <p>Alright, all of that said, I think we're ready for the how-to.</p>
-      <h2>The What and How-To of It All</h2>
+      <h2 id='demo'>The What and How-To of It All</h2>
       <p><a href='https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark' rel='noopener noreferrer' target='_blank'>light-dark()</a> is a CSS function that allows you to easily implement light and dark themes on your site. It requires no JavaScript, no third-party packages, and no additional HTML elements. In other words, it can be implemented only with vanilla CSS, making it, as I mentioned earlier, about as light-weight as light-weight can be.</p>
       <h3>Spin Up a New App</h3>
       <p>For the purposes of this exploration, let's spin up a new React app called <em>theme-machine</em> with Vite.</p>
@@ -38,13 +41,142 @@ code theme-machine`}
         showLineNumbers={false}
       />
       <p>Now head to <CodeSpan text='http://localhost:5173' /> in your browser to see the Vite template in action. If you're an acolyte of the darkness like me—by which I mean you have already set your OS to prefer dark mode—you'll notice that the Vite template is already in dark mode.</p>
-      {/* TODO: make image gallery to handle and display groups of images */}
-      <div>
-        <img src='/post-content/2024/05/vite-template-dark-mode.png' alt='The Vite template in dark mode' />
-        <em>The dark mode Vite template</em>
-        <img src='/post-content/2024/05/vite-template-light-mode.png' alt='The Vite template in light mode' />
-        <em>The light mode Vite template</em>
+      <div className='image-gallery'>
+        <div className='image-and-caption'>
+          <img src='/post-content/2024/05/vite-template-dark-mode.png' alt='The Vite template in dark mode' />
+          <em>The dark mode Vite template</em>
+        </div>
+        <div className='image-and-caption'>
+          <img src='/post-content/2024/05/vite-template-light-mode.png' alt='The Vite template in light mode' />
+          <em>The light mode Vite template</em>
+        </div>
       </div>
+      <p>If the Vite React template is already preference-responsive out of the box, we're done, right? Ha! Only if you plan to turn your back on <CodeSpan text='light-dark()' />!</p>
+      <p>As it turns out, the Vite React template achieves a similar effect to <CodeSpan text='light-dark()' /> by implementing the <CodeSpan text='prefers-color-scheme' /> media query instead. This can be seen in portions of the <CodeSpan text='index.css' /> file the template generates below.</p>
+      <CSS 
+        text={`:root {
+  ...
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+...
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+`}
+        showLineNumbers={false}
+      />
+      <p>We could call it quits here, yes, and say we implemented both a light mode and a dark mode, but... we haven't yet done it with <CodeSpan text='light-dark()' />, which, you know, is the entire point of the post, so let's pivot away from <CodeSpan text='prefers-color-scheme' /> and instead, at long last, implement <CodeSpan text='light-dark()' />.</p>
+      <h3>Turning On (or Off!) the Lights: Implementing light-dark()</h3>
+      <p>To truly make this app our own, let's visit <CodeSpan text='src/App.jsx' /> in our <CodeSpan text='theme-machine' /> app and replace it with the following code.</p>
+      <JavaScript 
+        text={`import './App.css'
+
+function App() {
+  return <h1>It's me, your pal light-dark()</h1>
+}
+
+export default App`}
+        showLineNumbers={false}
+      />
+      <p>Next, replace the contents of <CodeSpan text='src/index.css' /> with the following code.</p>
+      <CSS 
+        text={`:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+`}
+        showLineNumbers={false}
+      />
+      <p>Alright, let's take a look at our browser and inspect our work so far.</p>
+      <p>We removed the <CodeSpan text='prefers-color-scheme' /> media query, yes, but if the app still appears in dark mode for you—which it should if that's the preference you've set at the OS level—that's to be expected at this juncture.</p>
+      <p>How? Why? Let's explore.</p>
+      <p>It turns out, setting <CodeSpan text='color-scheme: light dark' /> at the <CodeSpan text=':root' /> level is enough to trigger some responsive behavior in the browser, <em>even if you haven't set additional color-related styles of your own.</em> This is acehived by the browser applying its user-agent styles to the <CodeSpan text=':root' /> pseudo-class, which in turn apply to the rest of the page.</p>
+      <p>But we're not here to rely on the browser's default styles, are we? No, we're here to implement <CodeSpan text='light-dark()' />! To do this, let's add some <CodeSpan text='color' /> and <CodeSpan text='background-color' /> styles to the <CodeSpan text='body' /> element styles in <CodeSpan text='App.css' />, at long last making use of <CodeSpan text='light-dark()' />.</p>
+      <CSS 
+        text={`body {
+  /* BEHOLD, LIGHT-DARK() AT LAST */
+  color: light-dark(midnightblue, aliceblue);
+  background-color: light-dark(aliceblue, midnightblue);  
+
+  /* STYLES THAT WERE HERE BEFORE */
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+`}
+        showLineNumbers={false}
+      />
+      <NotificationBanner
+        type='tip'
+        title='Color Me (Un)Surprised'
+        text={<><CodeSpan text='light-dark()' /> accepts more than named colors as arguments! You can use hex codes, RGB values, HSL values, or even custom properties.</>}
+        colorScheme='cool'
+      />
+      <p>In your browser, you should now see one of the following, depending on your OS's color scheme preference.</p>
+      <div className='image-gallery'>
+        <div className='image-and-caption'>
+          <img src='/post-content/2024/05/light-dark-dark-mode.png' alt='The theme-machine app in dark mode' />
+          <em>The theme-machine app in dark mode</em>
+        </div>
+        <div className='image-and-caption'>
+          <img src='/post-content/2024/05/light-dark-light-mode.png' alt='The theme-machine app in light mode' />
+          <em>The theme-machine app in light mode</em>
+        </div>
+      </div>
+      <h2>How It Works and Testing Both Themes</h2>
+      <p>As one might surmise from the implementation above, <CodeSpan text='light-dark()' /> takes two arguments, with the first of these accounting for the color that should be used in light mode, and the second representing the color to display in dark mode. The function then returns the appropriate color based on the user's preference. In the case of the <CodeSpan text='body' /> element in our app, the text color is <CodeSpan text='midnightblue' /> in light mode and <CodeSpan text='aliceblue' /> in dark mode, while the background color is <CodeSpan text='aliceblue' /> in light mode and <CodeSpan text='midnightblue' /> in dark mode.</p>
+      <NotificationBanner
+        type='tip'
+        title='Fun Fact'
+        text={<><CodeSpan text='light-dark()' /> can be used with any CSS property that accepts a color value, not just <CodeSpan text='color' /> and <CodeSpan text='background-color' />!</>}
+        colorScheme='cool'
+      />
+      <p>To test both themes, you could, yes, change your operating system's preference (or, if you embrace dynamic color scheme preference, wait for the sun to go up or come down, depending on the time of day), but that's a bit of a hassle. Instead, you can use the browser's developer tools to simulate each theme.</p>
+      <p>In Chrome, this can be achieved by opening your dev tools, clicing the three dots in the top right corner, selecting "More tools," then "Rendering," and finally selecting the color scheme you'd like to simulate in the "emulate CSS media feature prefers-color-scheme" dropdown. You should see the page's styles update to reflect the selected color scheme the moment you select the optino you'd like to simulate from the dropdown.</p>
+      <div className='image-gallery'>
+        <div className='image-and-caption'>
+          <img src='/post-content/2024/05/light-dark-dev-tools.png' alt="The location of the prefers-color-scheme toggle in Chrome's dev tools" />
+          <em>The location of the prefers-color-scheme toggle in Chrome's dev tools</em>
+        </div>
+      </div>
+      <h2>Congratulations and Cautions</h2>
+      <p>You did it! You've successfully implemented <CodeSpan text='light-dark()' /> and know how to test it out for yourself.</p>
+      <p>That said, <strong>maybe don't start slapping it in all of your apps quite yet.</strong></p>
+      <p>Why? Because as of the date of publication for this post, <CodeSpan text='light-dark()' /> has only just become available to all of the most popular browsers. <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark' noopener noreferrer target='_blank'>MDN indicates</a> it's available in all of the below browsers, though only in the latest versions of them.</p>
+      <div className='image-gallery'>
+        <div className='image-and-caption'>
+          <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark#browser_compatibility' noopener noreferrer target='_blank'>
+            <img src='/post-content/2024/05/light-dark-availability.png' alt='A table that displays the availability of light-dark() as of May 2024' />
+          </a>
+          <em>As of May 2024, <CodeSpan text='light-dark()' /> is available in most browsers, though only in some of the latest versions of them.</em>
+        </div>
+      </div>
+      <p>Beyond browser limitations, it should be noted that <CodeSpan text='light-dark()' /> is also always tied to a user's color scheme preference, which means there's no innate way to let users toggle between light and dark mode when they visit your site. And, as we explored above, providing users with a toggle is important for any developer who wants to maximize their site's accessibility.</p>
+      <p>This is among the reasons I ultimately chose to forego the use of <CodeSpan text='light-dark()' /> when rebuilding this site. Providing users with the ability to toggle between light mode and dark mode was an important feature for me to provide, personally, but if you're looking to provide some baseline responsiveness with respect to your site's color scheme, <CodeSpan text='light-dark()' /> is, as stated previously, a light-weight, CSS-native approach that will get you to MVP expeditiously.</p>
+      <p>Just keep in mind that the <em>M</em> in <em>MVP</em> stands for <em>minimum</em> viable product, and I like to think that, whenever possible, we should strive for a little more than <em>minimum</em>, whether we're in the dark or the light.</p>
     </>
   )
 }
