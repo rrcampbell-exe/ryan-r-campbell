@@ -1,9 +1,9 @@
 const posts = [
   {
     id: 10090,
-    date: "2024-05-17T06:00:00",
+    date: "2024-05-24T06:00:00",
     slug: "let-there-be-light-dark",
-    link: "https://ryanrcampbell.com/2024/05/17/let-there-be-light-dark",
+    link: "https://ryanrcampbell.com/2024/05/24/let-there-be-light-dark",
     title: {
       rendered: "Let There Be light-dark()"
     },
