@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bash, CodeSpan, CSS, JavaScript, NotificationBanner } from '../../../../../components'
+import { CodeSpan,NotificationBanner, CodeBlock } from '../../../../../components'
 import { Link } from 'react-router-dom'
 
 const LetThereBeLightDark = () => {
@@ -30,15 +30,13 @@ const LetThereBeLightDark = () => {
       <h3>Spin Up a New App</h3>
       <p>For the purposes of this exploration, let's spin up a new React app called <em>theme-machine</em> with Vite.</p>
       <p><b>Note:</b> You may be prompted to install Vite when running the first command. If you are, do so.</p>
-      <Bash 
-        text={`npm create vite@latest theme-machine -- --template react
+      <CodeBlock 
+        code={`npm create vite@latest theme-machine -- --template react
 code theme-machine`}
-        showLineNumbers={false}
       />
       <p>Once you've got your app open in your IDE, be sure to install the necessary dependencies before running the app.</p>
-      <Bash 
-        text={`npm i && npm run dev`}
-        showLineNumbers={false}
+      <CodeBlock 
+        code={`npm i && npm run dev`}
       />
       <p>Now head to <CodeSpan text='http://localhost:5173' /> in your browser to see the Vite template in action. If you're an acolyte of the darkness like me—by which I mean you have already set your OS to prefer dark mode—you'll notice that the Vite template is already in dark mode.</p>
       <div className='image-gallery'>
@@ -53,8 +51,8 @@ code theme-machine`}
       </div>
       <p>If the Vite React template is already preference-responsive out of the box, we're done, right? Ha! Only if you plan to turn your back on <CodeSpan text='light-dark()' />!</p>
       <p>As it turns out, the Vite React template achieves a similar effect to <CodeSpan text='light-dark()' /> by implementing the <CodeSpan text='prefers-color-scheme' /> media query instead. This can be seen in portions of the <CodeSpan text='index.css' /> file the template generates below.</p>
-      <CSS 
-        text={`:root {
+      <CodeBlock 
+        code={`:root {
   ...
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -81,19 +79,18 @@ code theme-machine`}
       <p>We could call it quits here, yes, and say we implemented both a light mode and a dark mode, but... we haven't yet done it with <CodeSpan text='light-dark()' />, which, you know, is the entire point of the post, so let's pivot away from <CodeSpan text='prefers-color-scheme' /> and instead, at long last, implement <CodeSpan text='light-dark()' />.</p>
       <h3>Turning On (or Off!) the Lights: Implementing light-dark()</h3>
       <p>To truly make this app our own, let's visit <CodeSpan text='src/App.jsx' /> in our <CodeSpan text='theme-machine' /> app and replace it with the following code.</p>
-      <JavaScript 
-        text={`import './App.css'
+      <CodeBlock 
+        code={`import './App.css'
 
 function App() {
   return <h1>It's me, your pal light-dark()</h1>
 }
 
 export default App`}
-        showLineNumbers={false}
       />
       <p>Next, replace the contents of <CodeSpan text='src/index.css' /> with the following code.</p>
-      <CSS 
-        text={`:root {
+      <CodeBlock 
+        code={`:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color-scheme: light dark;
 }
@@ -106,15 +103,14 @@ body {
   min-height: 100vh;
 }
 `}
-        showLineNumbers={false}
       />
       <p>Alright, let's take a look at our browser and inspect our work so far.</p>
       <p>We removed the <CodeSpan text='prefers-color-scheme' /> media query, yes, but if the app still appears in dark mode for you—which it should if that's the preference you've set at the OS level—that's to be expected at this juncture.</p>
       <p>How? Why? Let's explore.</p>
       <p>It turns out, setting <CodeSpan text='color-scheme: light dark' /> at the <CodeSpan text=':root' /> level is enough to trigger some responsive behavior in the browser, <em>even if you haven't set additional color-related styles of your own.</em> This is achieved by the browser applying its user-agent styles to the <CodeSpan text=':root' /> pseudo-class, which in turn apply to the rest of the page.</p>
       <p>But we're not here to rely on the browser's default styles, are we? No, we're here to implement <CodeSpan text='light-dark()' />! To do this, let's add some <CodeSpan text='color' /> and <CodeSpan text='background-color' /> styles to the <CodeSpan text='body' /> element styles in <CodeSpan text='App.css' />, at long last making use of <CodeSpan text='light-dark()' />.</p>
-      <CSS 
-        text={`body {
+      <CodeBlock 
+        code={`body {
   /* BEHOLD, LIGHT-DARK() AT LAST */
   color: light-dark(midnightblue, aliceblue);
   background-color: light-dark(aliceblue, midnightblue);  
@@ -127,7 +123,6 @@ body {
   min-height: 100vh;
 }
 `}
-        showLineNumbers={false}
       />
       <NotificationBanner
         type='tip'

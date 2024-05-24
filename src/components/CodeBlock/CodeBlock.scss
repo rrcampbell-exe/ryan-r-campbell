@@ -1,14 +1,35 @@
-.Code-Block {
-  border-radius: 4px;
-  width: 100%;
+.Code-Block-Container {
+  position: relative;
 
-  .bash, .css, .javascript {
+  .code-block {
+    border-radius: 4px;
+    max-width: 100%;
+    background-color: black;
+    color: white;
     font-family: monospace;
-    font-size: 14px;
+    font-size: 0.875rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    white-space: pre;
+    overflow-x: auto;
   }
 
   button {
-    border-color: var(--main-light-color);
+    position: absolute;
+    top: 0.625rem;
+    right: 0.625rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    z-index: 9999;
+    border-color: white;
+    background-color: black;
+    transition: opacity 0.3s ease;
+  }
+
+  button:hover {
+    opacity: 0.7;
   }
 }
 
