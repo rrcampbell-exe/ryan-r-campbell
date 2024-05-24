@@ -7,7 +7,7 @@
   .bash, .css, .javascript {
     div span code {
       font-family: monospace;
-      font-size: 14px;
+      font-size: 14px !important; // necessary to override inline-styles and maintain consistency
     }
   }
 
