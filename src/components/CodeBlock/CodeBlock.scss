@@ -1,8 +1,11 @@
 .Code-Block {
   border-radius: 4px;
-  font-family: monospace;
-  font-size: 14px;
   width: 100%;
+
+  .bash, .css, .javascript {
+    font-family: monospace;
+    font-size: 14px;
+  }
 
   button {
     border-color: var(--main-light-color);
