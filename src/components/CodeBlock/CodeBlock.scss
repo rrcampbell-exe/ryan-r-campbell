@@ -1,15 +1,12 @@
 .Code-Block {
   border-radius: 4px;
-  max-width: 100%;
+  // max-width: 100%;
+  font-family: monospace;
+  font-size: 0.875rem;
+  width: 100%;
 
-  .bash {
-    font-family: monospace;
-    font-size: 0.875rem;
-    width: 100%;
-
-    button {
-      border-color: var(--main-light-color);
-    }
+  button {
+    border-color: var(--main-light-color);
   }
 }
 
