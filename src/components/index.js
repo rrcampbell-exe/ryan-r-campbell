@@ -19,6 +19,6 @@ import PodcastTeaser from './Podcast/PodcastTeaser'
 import Boasts from './Tech/Boasts'
 import SkillsCloud from './Tech/SkillsCloud'
 import BlogFooter from './Blog/BlogFooter'
-import { Bash, CodeSpan } from './CodeBlock/CodeBlock'
+import { Bash, CodeSpan, CSS, JavaScript } from './CodeBlock/CodeBlock'
 
-export { BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound, NotificationBanner, Loading, Quote, TextAndImage, BlogTags, HamburgerMenu, PopText, PodcastTeaser, Boasts, SkillsCloud, BlogFooter, Bash, CodeSpan }
+export { BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound, NotificationBanner, Loading, Quote, TextAndImage, BlogTags, HamburgerMenu, PopText, PodcastTeaser, Boasts, SkillsCloud, BlogFooter, Bash, CodeSpan, CSS, JavaScript }
