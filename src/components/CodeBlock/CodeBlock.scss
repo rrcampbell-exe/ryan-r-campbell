@@ -1,14 +1,10 @@
 .Code-Block {
   border-radius: 4px;
   width: 100%;
-  font-family: monospace;
-  font-size: 14px;
 
   .bash, .css, .javascript {
-    div span code {
-      font-family: monospace;
-      font-size: 14px !important; // necessary to override inline-styles and maintain consistency
-    }
+    font-family: monospace;
+    font-size: 14px;
   }
 
   button {
