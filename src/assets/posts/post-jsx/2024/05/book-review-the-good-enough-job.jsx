@@ -2,8 +2,6 @@ import React from 'react'
 import { Quote } from '../../../../../components'
 import { Link } from 'react-router-dom'
 
-// TODO: update header image on post
-
 const BookReviewTheGoodEnoughJob = () => {
   const moreThanQuote = `By subsequently accepting ourselves as more than, we empower ourselves to be defined not merely by what we do for a living or by our relationships to others, but by who we are to ourselves, both now and in the future.`
   return (
@@ -70,7 +68,7 @@ const BookReviewTheGoodEnoughJob = () => {
       <div className='footnotes'>
         <p>--</p>
         <p id='anti-work'><em>*For the record, I hold acolytes of the anti-work movement in a fair amount of esteem. That said, as with many other movements on the cutting edge of redefining or reframing deeply entrenched social or cultural narratives, there are a number of boisterous hangers-on who undermine the message and whose volume, I suspect, is increased by those who would see the movement stymied. It's far easier to uphold a prevailing narrative—even one worth questioning—when those who benefit from its hegemony make caricatures of select targets in the counterculture.</em> <br/><a className='bookmark-link' href='#footnote-marker'>back to bookmarked section^</a></p>
-        <p id='music-industry'><em>**Yes, this example is taken from the realm of music publication, but, as an "of the arts" industry that is historically difficult to break into without the aid of a record label, the point remains. As it turns out, it's hard to find individual authors speaking out about their naivete having been taken advantage of a publisher. This</em> could <em>be because it simply doesn't happen. I can think of at least one other reason why there might be an absence of stories about this, though, too... That said, I'm working on a follow-up post that will explore this in more detail and offer plenty of counterpoints to this assertion as well, so stay tuned.</em> <br/><a className='bookmark-link' href='#footnote-marker-2'>back to bookmarked section^</a></p>
+        <p id='music-industry'><em>**Yes, this example is taken from the realm of music publication, but, as an "of the arts" industry that is historically difficult to break into without the aid of a record label, the point remains. As it turns out—excepting the obvious abuses at the hands of vanity publishers and outright scammers—it's hard to find individual authors speaking out about their naivete having been taken advantage of by a publisher. This</em> could <em>be because it simply doesn't happen. I can think of at least one other reason why there might be an absence of stories about this, though, too. That said, I'm working on a follow-up post that will explore this in more detail and offer plenty of counterpoints to this assertion as well, so stay tuned.</em> <br/><a className='bookmark-link' href='#footnote-marker-2'>back to bookmarked section^</a></p>
       </div>
     </>
   )
