@@ -11,6 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<GeneralLanding />} />
+          <Route path='/author/*' element={<Navigate to='/author' />} />
           <Route path='/author' element={<AuthorLanding />} />
           <Route path='/books/*' element={<Navigate to='/books' />} />
           <Route path='/books' element={<BooksLanding />} />
