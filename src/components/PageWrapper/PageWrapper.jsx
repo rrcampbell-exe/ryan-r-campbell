@@ -9,6 +9,16 @@ const PageWrapper = ({ pageTitle, children, className }) => {
   const { theme } = useContext(ThemeContext)
   const { pathname } = useLocation()
 
+  // ensures legacy redirects from google display page content correctly
+  useEffect(() => {
+    // if window.location.href ends in a slash, remove it
+    if (window.location.href.endsWith('/') && pathname !== '/') {
+      // remove ending slash from window.location.href and update the history
+      window.location.href = window.location.href.slice(0, -1)
+      window.history.replaceState(null, '', newUrl)
+    }
+  }, [pathname])
+
   useEffect(() => {
     window.scrollTo(top);
   }, [pathname])
