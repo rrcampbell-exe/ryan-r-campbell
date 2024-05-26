@@ -69,7 +69,7 @@ const GeneralLanding = ({ pageNotFound }) => {
           </div>
           <h3>But we couldn't find the page you were looking for...</h3>
           <p>It might have been moved as part of a recent site migration.</p>
-          <p><Link to='/'>homepage</Link> | <Link to='mailto:campbell.ryan.r@gmail.com'>contact</Link></p>
+          <p><Link to='/'>homepage</Link> | <Link to='/contact'>contact</Link></p>
         </div>
       </ReactModal>
     </PageWrapper>
