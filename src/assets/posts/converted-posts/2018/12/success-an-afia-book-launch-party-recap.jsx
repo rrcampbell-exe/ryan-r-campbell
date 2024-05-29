@@ -1,0 +1,19 @@
+import React from 'react'
+
+const SuccessAnAFIABookLaunchPartyRecap = () =>
+  <div>
+    <p>I'm so grateful for everyone who came out to show their support during yesterday's book launch party for <em><a href="http://accountingforitall.com/book/" target="_blank" rel="noopener">Accounting for It All</a></em>! I had a wonderful time hosting this event and am looking forward to holding more signings and book launch parties for <a href="http://www.empathynovel.com" target="_blank" rel="noopener">my other forthcoming releases</a>.</p>
+<p>Here are some of my favorite photos from the party. Thanks to Blaize Communications for taking these, and thanks to the Atomic Koi for providing the venue.</p>
+<div id="attachment_455" style="width: 2676px" class="wp-caption alignnone"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-455" class="alignnone size-full wp-image-455" src="https://thursdaysatpornucopia.files.wordpress.com/2018/12/img_1003-4.jpg?resize=1080%2C1350" alt="IMG_1003-4" width="1080" height="1350" data-recalc-dims="1" /><p id="caption-attachment-455" class="wp-caption-text">The book poster and related swag: bookmarks, stickers, and other fun!</p></div>
+<div id="attachment_456" style="width: 3444px" class="wp-caption alignnone"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-456" class="alignnone size-full wp-image-456" src="https://thursdaysatpornucopia.files.wordpress.com/2018/12/img_1010-7.jpg?resize=1080%2C1080" alt="IMG_1010-7" width="1080" height="1080" data-recalc-dims="1" /><p id="caption-attachment-456" class="wp-caption-text">Signing books!</p></div>
+<div id="attachment_457" style="width: 4250px" class="wp-caption alignnone"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-457" class="alignnone size-full wp-image-457" src="https://thursdaysatpornucopia.files.wordpress.com/2018/12/img_1021-13.jpg?resize=1080%2C864" alt="IMG_1021-13" width="1080" height="864" data-recalc-dims="1" /><p id="caption-attachment-457" class="wp-caption-text">Signing *more* books!</p></div>
+<div id="attachment_458" style="width: 4690px" class="wp-caption alignnone"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-458" class="alignnone size-full wp-image-458" src="https://thursdaysatpornucopia.files.wordpress.com/2018/12/img_1025-14.jpg?resize=1080%2C864" alt="IMG_1025-14" width="1080" height="864" data-recalc-dims="1" /><p id="caption-attachment-458" class="wp-caption-text">Friends old and new made it out to join the fun.</p></div>
+<p>&nbsp;</p>
+
+<div id="attachment_461" style="width: 4362px" class="wp-caption alignnone"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-461" class="alignnone size-full wp-image-461" src="https://thursdaysatpornucopia.files.wordpress.com/2018/12/img_1052-24.jpg?resize=1080%2C864" alt="IMG_1052-24" width="1080" height="864" data-recalc-dims="1" /><p id="caption-attachment-461" class="wp-caption-text">Attendees had a chance to watch the soon-to-be-released trailer for my upcoming sci-fi debut, EMPATHY: IMMINENT DAWN.</p></div>
+<div id="attachment_462" style="width: 4469px" class="wp-caption alignnone"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-462" class="alignnone size-full wp-image-462" src="https://thursdaysatpornucopia.files.wordpress.com/2018/12/img_6777-2-e1543783577690.jpg?resize=1080%2C597" alt="IMG_6777-2" width="1080" height="597" data-recalc-dims="1" /><p id="caption-attachment-462" class="wp-caption-text">What would a book launch party be without support from family?</p></div>
+<p>Thanks again to everyone who was able to make it. I'm excited to do it all again for my sci-fi debut in a few months.</p>
+<span class="et_bloom_bottom_trigger"></span>
+  </div>
+
+export default SuccessAnAFIABookLaunchPartyRecap

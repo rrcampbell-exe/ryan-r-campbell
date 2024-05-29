@@ -1,0 +1,36 @@
+import React from 'react'
+
+const NicefollowercountyouvegotthereSurewouldbeashameifitsvaluewerediluted = () =>
+  <div>
+    <p><em>Take to the internet!</em></p>
+<p>Or so goes nearly all platform-building advice, at least all the advice I've heard since I came to the world of writing in 2013.</p>
+<p>I'll admit I was a social media skeptic for a time. How are we supposed to focus on our writing if we're also meant to be tweeting our every thought, Instagramming our every read, and pinning our every book aesthetic?</p>
+<p>Oh, and you need to be on Facebook. You <em>must </em>have a fan page on Facebook.</p>
+<p>Even across the vast expanses of cyberspace, I can feel a few of you readers already leaning in, eagerly anticipating a declaration of <em>social media is useless! Forsake it entirely and focus only on your manuscripts!</em></p>
+<p>Unfortunately, I can't do that. You <em>are</em> going to want to build a platform, and you need to start doing that <em>before you've got an agent or signed a book deal</em>.</p>
+<p>This truism has led thousands of writers to take to their preferred social media hubs, keen to amass hordes of followers with the dream of their follower quantity being <em>just enough </em>to convince an agent or editor to take them on when they otherwise might not.</p>
+<p>As a result, much of the writing community (especially on Twitter) has devolved into endless “follow back pacts” and “comment on this post so we can all follow each other” trains. This way everyone is meant to end up with massive follower counts, and those who participate will have tens of thousands of people ready to click “buy” on the date of their first book's release. Perfect, right?</p>
+<p>Wrong.</p>
+<p>There are three fundamental flaws to these approaches, the first of which being that if <em>everyone</em> ends up with fifty-thousand followers from these schemes, it means… nothing. One hundred thousand followers becomes the new fifty thousand followers becomes the new twenty thousand followers and so on and so forth all the way down.</p>
+<p>To use a comparison to the world of economics, it's like printing more money in the interest of eliminating poverty; sure, we all might end up with a million dollars, but the printing of all these extra bills will just cause an increase in the price of goods. What you used to be able to buy with a dollar will now cost five or ten or fifteen.</p>
+<p>The second flaw to these feverish followership rackets has to do with engagement. If everyone is following everyone else simply to pump up their numbers, how many of those people have you engaged with meaningfully enough to create a true community of support? How many of them can you maintain a regular relationship with? How many of them are actually interested in your genre or you as a person?</p>
+<p>If you're on Twitter, start keeping an eye on how many people engage with the tweets on your timeline (these engagements include comments, likes, or retweets). See a tweet with a few dozen engagements? Check out how many people are following that person.</p>
+<p>If they've got a hundred followers, wow! The people who are following them for their tweets are truly interested. If they've got a <em>hundred thousand</em> followers… what? That means well fewer than one percent of their followers are actually engaging with them. Doesn't that look… sad? In some (many) ways, that undercuts one's social media credibility more than an inflated follower count could ever bolster it.</p>
+<p>Thirdly, the make up of one's followership (audience) is of critical importance as well, something these follower exchanges overlook entirely. If ten thousand writers are following ten thousand other writers who are simply following them back, how will you reach… readers?</p>
+<p>Granted, writers are readers by their nature (at least I hope so), but, as I suggested earlier, how many of the writers following you are interested in your genre? How many of them read in your category? How many of them can afford to buy the books of all ten thousand people they follow who are also following them back?</p>
+<p>It's silly. Really, really silly.</p>
+<p>By now, you're probably circling back to, “Well, r.r., if you're such a social media curmudgeon, how can you still possibly claim it's important to build an online platform?”</p>
+<p>Because it is&#8212;it's just no longer as “simple” as standing atop a mountain of fifty-thousand followers and expecting someone to offer you a publishing deal (another myth since one's story, it turns out, is actually the most important component in signing with an agent or editor).</p>
+<p>At this point in time, <em>engagement </em>is what counts more than follower quantity. In my view and <a href="https://www.mixtusmedia.com/blog/five-social-media-myths-that-will-sabotage-your-book-marketing?utm_source=Mixtus+Media+Newsletter&amp;utm_campaign=4135f8d1fc-EMAIL_CAMPAIGN_2019_07_18_09_25&amp;utm_medium=email&amp;utm_term=0_1eeb3721f2-4135f8d1fc-139420521" target="_blank" rel="noopener noreferrer">that of others</a>, it's better to have a hundred ravenous supporters than a hundred thousand followers who hardly recognize your profile picture when it shows up on their feed. Simply put, it's “quality over quantity.”</p>
+<p>That's all fine and good, but how do we <em>get</em> to quality?</p>
+<p>By being ourselves. Like attracts like, as they say, and this is true regardless of the social media platform any writer chooses to make the cornerstone of their platform.</p>
+<p>For example, are you great at photos but not at short, clever one-liners? Focus on Instagram over Twitter. Love video but loathe blogging? Start a YouTube channel with weekly updates instead of putting those updates down in writing. Prefer private communication to public chest-pounding? Build up your email list instead of shouting into the vacuousness of cyberspace.</p>
+<p>There are so many unique ways to assemble one's platform these days, the beauty of which is we can use the tools we're most comfortable with to build it.</p>
+<p>And in my view, that knowledge is worth more than any follower count.</p>
+<p>What outlets do you emphasize in your online platform? Why did you choose the outlets you chose? Have you considered a shift in your emphasis at one time or another? Why or why not? Tell me in the comments!</p>
+<hr />
+<p>Like what you've read here? You can <a href="http://eepurl.com/dhBxcv" target="_blank" rel="noopener noreferrer">subscribe to my newsletter</a> to get more articles like these throughout the year. And don't forget to follow me on <a href="http://www.twitter.com/iamrrcampbell" target="_blank" rel="noopener noreferrer">Twitter</a>, <a href="http://www.instagram.com/iamrrcampbell" target="_blank" rel="noopener noreferrer">Instagram</a>, and <a href="http://www.facebook.com/iamrrcampbell" target="_blank" rel="noopener noreferrer">Facebook</a>, too. You can also meet me at any one of <a href="http://www.rrcampbellwrites.com/events">my upcoming events</a>, or <a href="http://www.rrcampbellwrites.com/contact">reach out about having me speak at one of your own</a>.</p>
+<span class="et_bloom_bottom_trigger"></span>
+  </div>
+
+export default NicefollowercountyouvegotthereSurewouldbeashameifitsvaluewerediluted

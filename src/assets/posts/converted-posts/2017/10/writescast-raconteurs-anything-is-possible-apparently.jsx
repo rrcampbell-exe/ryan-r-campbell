@@ -1,0 +1,16 @@
+import React from 'react'
+
+const WritescastRaconteursAnythingisPossibleApparently = () =>
+  <div>
+    <p style="text-align: center;"><em>This is part eight of the misadventures of the <a href="http://www.rrcampbellwrites.com/podcasts">Writescast</a> Raconteurs. For more on what this is and why it’s happening, feel free to check out the <a href="https://ryanrcampbell.com/writescast-raconteurs/">Writescast Raconteurs home page</a>.</em></p>
+<h1>Scoreboard</h1>
+<div id="attachment_4490" style="width: 980px" class="wp-caption alignnone"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-4490" data-attachment-id="4490" data-permalink="https://ryanrcampbell.com/scoreboard-3/" data-orig-file="https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2017/10/scoreboard-2.png?fit=970%2C502&amp;ssl=1" data-orig-size="970,502" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="scoreboard" data-image-description="" data-image-caption="&lt;p&gt;I'm as confused as you are.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2017/10/scoreboard-2.png?fit=300%2C155&amp;ssl=1" data-large-file="https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2017/10/scoreboard-2.png?fit=970%2C502&amp;ssl=1" class="alignnone size-full wp-image-4490" src="https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2017/10/scoreboard-2.png?resize=970%2C502&#038;ssl=1" alt="scoreboard" width="970" height="502" srcset="https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2017/10/scoreboard-2.png?w=970&amp;ssl=1 970w, https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2017/10/scoreboard-2.png?resize=300%2C155&amp;ssl=1 300w" sizes="(max-width: 970px) 100vw, 970px" data-recalc-dims="1" /><p id="caption-attachment-4490" class="wp-caption-text">I'm as confused as you are.</p></div>
+<p>So we won another game, I guess, which brings our record to 2-5 (I know it says 1-5 in the image, but the image was taken before the records were updated).</p>
+<p>All it took was a breakout performance from Amari “I've been Asleep on the Field All Season” Cooper, a great day from Russell “Always a Badger” Wilson, and an epic performance from kicker Chris Boswell to bring victory our way.</p>
+<p>The interesting thing is that even given these performances, the team won despite me, in a way. A number of players I left on the bench this week actually outperformed some of my starters, so that's something I'll have to keep an eye on going forward in the event I actually end up in a position to win a few more games.</p>
+<p>I suppose the coming weeks will reveal whether these breakout performances were simple one-offs or if a trend is about to emerge, but for now I'll take what I can get and gladly slide out of last place doing so.</p>
+<span class="et_bloom_bottom_trigger"></span>
+  </div>
+
+export default WritescastRaconteursAnythingisPossibleApparently

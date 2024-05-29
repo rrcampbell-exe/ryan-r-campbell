@@ -1,0 +1,18 @@
+import React from 'react'
+
+const ThisWeekrrcampbellatWisCon = () =>
+  <div>
+    <p>I can't believe it's already here!</p>
+<p>This Friday, May 24th through Monday, May 27th, I'll be at WisCon as an invited speaker, panelist, and vendor.</p>
+<p>Though I'll be posted outside the Dealers' Room with my full EMPATHY setup throughout the conference, the conference will really kick-off for me on Friday with <a href="https://account.wiscon.net/program/detail?idItems=4897" target="_blank" rel="noopener noreferrer">a 4:00 p.m. panel</a> on writing a series!</p>
+<div id="attachment_846" style="width: 3019px" class="wp-caption alignnone"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-846" class="alignnone size-full wp-image-846" src="https://empathynovel.files.wordpress.com/2019/05/image2-e1558131389566.jpeg?resize=1080%2C839" alt="image2.jpeg" width="1080" height="839" data-recalc-dims="1" /><p id="caption-attachment-846" class="wp-caption-text">A scaled-down version of the booth I'll have set up during the conference!</p></div>
+<p>Then, on Saturday evening, I'll be talking <a href="https://account.wiscon.net/program/detail?idItems=4774" target="_blank" rel="noopener noreferrer">scene structure</a> before closing out my sessions with a <a href="https://account.wiscon.net/program/detail?idItems=4775">workshop on conflict and tension</a> Sunday morning. Once that's wrapped up, I'll hang around the rest of the day on Sunday and Monday to meet other conference attendees and chat all things sci-fi and fantasy.</p>
+<p>Can't wait until this weekend to get your hands on the books in the EMPATHY series to date? You can find them at the links below.</p>
+<h2 style="text-align: center;"><em>Imminent Dawn</em></h2>
+<p style="text-align: center;"><a href="https://www.amazon.com/dp/B07N1Q8C6G/" target="_blank" rel="noopener noreferrer">Amazon</a> | <a href="https://www.barnesandnoble.com/w/imminent-dawn-rr-campbell/1130343569?ean=2940161198599" target="_blank" rel="noopener noreferrer">Barnes &amp; Noble</a> | <a href="https://ninestarpress.com/product/imminent-dawn/" target="_blank" rel="noopener noreferrer">NineStar Press</a> | <a href="https://www.kobo.com/us/en/ebook/imminent-dawn" target="_blank" rel="noopener noreferrer">Kobo</a> | <a href="https://www.smashwords.com/books/view/919525" target="_blank" rel="noopener noreferrer">Smashwords</a>| <a href="https://www.goodreads.com/book/show/43196570-imminent-dawn">Goodreads</a> | <a href="https://ryanrcampbell.com/product/signedimminentdawn/" target="_blank" rel="noopener noreferrer">Author Website</a></p>
+<h2 style="text-align: center;"><em>Mourning Dove</em></h2>
+<p style="text-align: center;"><a href="https://www.amazon.com/dp/B07QZGSDX6/">Amazon</a> | <a href="https://www.barnesandnoble.com/w/books/1131295072" target="_blank" rel="noopener noreferrer">Barnes &amp; Noble</a> | <a href="http://ninestarpress.com/product/mourning-dove" target="_blank" rel="noopener noreferrer">NineStar Press</a> | <a href="https://www.kobo.com/us/en/ebook/mourning-dove-7" target="_blank" rel="noopener noreferrer">Kobo</a> | <a href="https://www.smashwords.com/books/view/935036" target="_blank" rel="noopener noreferrer">Smashwords</a> | <a href="https://www.goodreads.com/book/show/43728390-mourning-dove" target="_blank" rel="noopener noreferrer">Goodreads</a>| <a href="https://ryanrcampbell.com/?post_type=product&amp;p=5816&amp;preview=true" target="_blank" rel="noopener noreferrer">Author Website</a></p>
+<span class="et_bloom_bottom_trigger"></span>
+  </div>
+
+export default ThisWeekrrcampbellatWisCon

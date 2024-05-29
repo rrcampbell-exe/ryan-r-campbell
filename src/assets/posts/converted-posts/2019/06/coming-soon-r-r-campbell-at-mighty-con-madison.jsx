@@ -1,0 +1,17 @@
+import React from 'react'
+
+const ComingSoonRRCampbellatMightyConMadison = () =>
+  <div>
+    <p>There may be <a href="https://www.facebook.com/events/413453452791377/" target="_blank" rel="noopener noreferrer">one event left</a> in my spring tour, but I'm already looking forward to events this late summer and fall, including this <strong>newly announced stop at Mighty Con in Madison, Wisconsin on August 4th, 2019.</strong></p>
+<p><a href="https://mightyconshows.com/show/madison">You can find full details about the conference here</a>, and don't forget to <a href="https://www.facebook.com/events/2328604007355588/">RSVP that you'll be swinging by my table</a> during the course of the day.</p>
+<p>As always, I'll have books available to purchase and will be there to talk all things EMPATHY and sci-fi. Be sure to find me in the exhibition hall and say hello!</p>
+<p>If you can't wait until August to get your hands on the first two books of the EMPATHY series (and I can't blame you for not wanting to wait), you can buy them at the links below. And of course I'll gladly sign any copies you've bought prior to the event at Mighty Con in August.</p>
+<p>Oh, and this June, <em><strong><a href="https://ryanrcampbell.com/shop/" target="_blank" rel="noopener noreferrer">signed print copies are 15% off with keyword SUMMER19</a>!</strong> </em>And you can get <em><strong><a href="https://ninestarpress.com/product/imminent-dawn/" target="_blank" rel="noopener noreferrer">40% off ebooks with keyword PRIDE</a></strong> </em>if you order directly from my publisher.</p>
+<h2 style="text-align: center;"><em>Imminent Dawn</em></h2>
+<p style="text-align: center;"><a href="https://www.amazon.com/dp/B07N1Q8C6G/" target="_blank" rel="noopener noreferrer">Amazon</a> | <a href="https://www.barnesandnoble.com/w/imminent-dawn-rr-campbell/1130343569?ean=2940161198599" target="_blank" rel="noopener noreferrer">Barnes &amp; Noble</a> | <a href="https://ninestarpress.com/product/imminent-dawn/" target="_blank" rel="noopener noreferrer">NineStar Press</a> | <a href="https://www.kobo.com/us/en/ebook/imminent-dawn" target="_blank" rel="noopener noreferrer">Kobo</a> | <a href="https://www.smashwords.com/books/view/919525" target="_blank" rel="noopener noreferrer">Smashwords</a> | <a href="https://www.goodreads.com/book/show/43196570-imminent-dawn">Goodreads</a> | <a href="https://ryanrcampbell.com/product/signedimminentdawn/" target="_blank" rel="noopener noreferrer">Author Website</a></p>
+<h2 style="text-align: center;"><em>Mourning Dove</em></h2>
+<p style="text-align: center;"><a href="https://www.amazon.com/dp/B07QZGSDX6/">Amazon</a> | <a href="https://www.barnesandnoble.com/w/books/1131295072" target="_blank" rel="noopener noreferrer">Barnes &amp; Noble</a> | <a href="http://ninestarpress.com/product/mourning-dove" target="_blank" rel="noopener noreferrer">NineStar Press</a> | <a href="https://www.kobo.com/us/en/ebook/mourning-dove-7" target="_blank" rel="noopener noreferrer">Kobo</a> | <a href="https://www.smashwords.com/books/view/935036" target="_blank" rel="noopener noreferrer">Smashwords</a> | <a href="https://www.goodreads.com/book/show/43728390-mourning-dove" target="_blank" rel="noopener noreferrer">Goodreads</a> | <a href="https://ryanrcampbell.com/?post_type=product&amp;p=5816&amp;preview=true" target="_blank" rel="noopener noreferrer">Author Website</a></p>
+<span class="et_bloom_bottom_trigger"></span>
+  </div>
+
+export default ComingSoonRRCampbellatMightyConMadison

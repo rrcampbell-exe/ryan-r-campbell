@@ -1,0 +1,27 @@
+import React from 'react'
+
+const JulyUpdateAccountingforitAll = () =>
+  <div>
+    <p>One might think there's still plenty of time between now and the release of <em><a href="https://ryanrcampbell.com/books/accountingforitall/" target="_blank" rel="noopener">Accounting for it All</a> </em>given that there are still 131 days until November 19th, but with how fast time has flown this summer, I feel like I could wake up tomorrow and release date would be here!</p>
+<p>I'm grateful that (probably) <em>won't</em> happen though, not because I'm not thrilled to be able to share the story with all of you, but because there's still so much work to be done, and so many more exciting steps to take along the way! With that in mind, let's take a look at the steps that have been taken in the last month, as well as some of those still to come.</p>
+<h2>New Site</h2>
+<p>In case you missed it, I've now got a full site dedicated exclusively to the book and subjects related to it. I've loved putting together weekly posts for it, as they've given me an opportunity to publicly explore crucial topics in the adult industry, how they tie into <em><a href="https://ryanrcampbell.com/books/accountingforitall/" target="_blank" rel="noopener">Accounting for it All</a></em>, and why it's important those matters be addressed head on both in the world of fiction and non-fiction.</p>
+<p>I also recently welcomed romance and erotica writer Stefanie Simpson to the blog as a contributing member. Her insight into the differences between romance and erotica has proven of great interest to our audiences on Twitter, and the other posts she plans to write for the site are sure to be equally engaging.</p>
+<p>To check out the site, you can visit it at <a href="http://www.thursdaysatpornucopia.com" target="_blank" rel="noopener">ThursdaysAtPornucopia.com</a>. Given the site's subject matter, it's likely not safe for browsing at work, but I otherwise absolutely encourage you to give its many posts a read.</p>
+<h2>The Final Countdown</h2>
+<p>We've still got a few months to go until the book's release, but <strong>edits with my editor will start only a few weeks from now. </strong>I'm both excited and terrified to see what notes he has for me, but am overall really looking forward to diving back into this story! It's been a few months since I've visited this manuscript, and I'm sure hopping back into it will feel much like catching up with an old friend.</p>
+<h2>Media Appearance</h2>
+<p>As mentioned in last month's update, I was shortly thereafter going to be swinging by the Work in Progress Podcast to talk all things writerly and to discuss <em><a href="https://ryanrcampbell.com/books/accountingforitall/" target="_blank" rel="noopener">Accounting for it All</a></em>. <a href="https://anchor.fm/wip-podcast/episodes/24---Relaxing-All-Cool-Outside---the-Podcast-e1kkdb/a-a3v0al" target="_blank" rel="noopener">That episode is now live at this link!</a> I definitely recommend you give it a listen, especially if you're also a creative looking for new things to try during downtime from your work.</p>
+<p>I'm also pleased to announce I'll be appearing on <a href="http://wrotepodcast.com/" target="_blank" rel="noopener">the WROTE Podcast</a> in the final week leading up to the book's release, so stay tuned for that (and surely many other media appearances in the meantime).</p>
+<h2>Advance Reader Copies and Reviewers</h2>
+<p>I'll also be working with <a href="https://indigomarketingdesign.com/" target="_blank" rel="noopener">IndiGo Marketing</a> to help promote the book and find advance reviewers for it in the lead-up to the book's release and beyond! Not only will they help find a greater audience for the book itself, they'll also be organizing a ten-day blog tour in the week or so before the book's release, so there'll be plenty of buzz about and insight on <em><a href="https://ryanrcampbell.com/books/accountingforitall/" target="_blank" rel="noopener">Accounting for it All</a></em> to be found all over the web in early November. Stay tuned for that!</p>
+<h2>Character Sketches</h2>
+<p>In previous posts, I've also mentioned I commissioned artwork of both the book's main character and her primary love interest, and I'm happy to report that as of last week, I've now got my hands on the final version of both individual character sketches!</p>
+<p>I plan on doing a “character reveal launch” in the weeks leading up to the debut of <em><a href="https://ryanrcampbell.com/books/accountingforitall/" target="_blank" rel="noopener">Accounting for it All</a></em>, so be sure to stay tuned then. In the meantime, artist Maggie Derrick will also be putting together a third drawing of these two characters together, which I'll also share shortly before the book launch.</p>
+<p>Simply put, there are SO MANY THINGS to look forward to in the coming months, and I'm so glad to have you along on this journey with me. Thank you for reading and for your support.</p>
+<hr />
+<p>Want updates like these delivered to your inbox? <a href="https://rrcampbellwrites.us16.list-manage.com/subscribe?u=d5b261c0c9ed58a1907dfdc4e&amp;id=26327b8a65" target="_blank" rel="noopener">You can sign up for the r. r. campbell newsletter at this link!</a> Be sure to subscribe if you’re looking for updates on pre-orders and other release-related news!</p>
+<span class="et_bloom_bottom_trigger"></span>
+  </div>
+
+export default JulyUpdateAccountingforitAll

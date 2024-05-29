@@ -1,0 +1,21 @@
+import React from 'react'
+
+const TheEMPATHYSeriesattheUWWritersInstitute = () =>
+  <div>
+    <p>This last weekend I had the good fortune to visit the UW Writers' Institute in Madison, Wisconsin as an invited speaker and book day participant! Not only did I have a great time and meet some exceptionally talented writers, but a number of attendees swung by the EMPATHY table during the book sale to nab copies of <em>Imminent Dawn</em>!</p>
+<p>With that in mind, I thought I'd share some of my favorite photos from the event.</p>
+<div id="attachment_721" style="width: 484px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-721" class="alignnone  wp-image-721" src="https://empathynovel.files.wordpress.com/2019/04/eid-book-sale-2-e1554827655700.jpeg?resize=474%2C645" alt="EID Book Sale 2" width="474" height="645"  data-recalc-dims="1"><p id="caption-attachment-721" class="wp-caption-text">All set up before the book event kicked off!</p></div>
+<div id="attachment_723" style="width: 970px" class="wp-caption alignnone"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-723" class="alignnone size-full wp-image-723" src="https://empathynovel.files.wordpress.com/2019/04/eid-success-panel.jpg?resize=960%2C720" alt="EID Success Panel" width="960" height="720"  data-recalc-dims="1"><p id="caption-attachment-723" class="wp-caption-text">On the Institute's success panel alongside a number of other wonderful authors! Photo credit: Kristin Oakley</p></div>
+<div id="attachment_724" style="width: 516px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-724" class="alignnone  wp-image-724" src="https://empathynovel.files.wordpress.com/2019/04/podcast-presentation.jpeg?resize=506%2C675" alt="Podcast Presentation" width="506" height="675"  data-recalc-dims="1"><p id="caption-attachment-724" class="wp-caption-text">Leading a session on podcasting. Photo credit: Sue Urasky</p></div>
+<p>All in all, I had a wonderful time at this conference and am already looking forward to next year.</p>
+<p>Were you unable to make it to the Institute but still want to attend an EMPATHY book event? Good news! <a href="http://empathyseries.com/2019/03/20/hello-wisconsin/" target="_blank" rel="noopener noreferrer">Check out this list of my other Wisconsin events this spring and summer.</a></p>
+<p>And if you still haven't gotten your hands on&nbsp;<em>Imminent Dawn&nbsp;</em>or preordered its sequel,&nbsp;<em>Mourning Dove</em>, you can find them at the below links!</p>
+<h3 style="text-align: center;"><em><strong>Imminent Dawn</strong></em></h3>
+<p style="text-align: center;"><a href="https://www.amazon.com/Imminent-Dawn-EMPATHY-Book-1-ebook/dp/B07N1Q8C6G/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;qid=1548982375&amp;sr=8-1" target="_blank" rel="noopener noreferrer">Amazon</a>&nbsp;|&nbsp;<a href="https://www.barnesandnoble.com/w/imminent-dawn-rr-campbell/1130343569?ean=2940161198599" target="_blank" rel="noopener noreferrer">Barnes &amp; Noble</a>&nbsp;|&nbsp;<a href="https://ninestarpress.com/product/imminent-dawn/" target="_blank" rel="noopener noreferrer">NineStar Press</a>&nbsp;|&nbsp;<a href="https://www.kobo.com/us/en/ebook/imminent-dawn" target="_blank" rel="noopener noreferrer">Kobo</a>&nbsp;|&nbsp;<a href="https://www.smashwords.com/books/view/919525" target="_blank" rel="noopener noreferrer">Smashwords</a>&nbsp;|&nbsp;<a href="https://www.goodreads.com/book/show/43196570-imminent-dawn">Goodreads</a>&nbsp;|&nbsp;<a href="https://ryanrcampbell.com/product/signedimminentdawn/" target="_blank" rel="noopener noreferrer">Author Website</a></p>
+<h3 style="text-align: center;"><em><strong>Mourning Dove<br />
+</strong></em>(preorders)</h3>
+<p style="text-align: center;"><a href="http://ninestarpress.com/product/mourning-dove" target="_blank" rel="noopener noreferrer">NineStar Press (ebook)</a>&nbsp;|&nbsp;<a href="https://www.goodreads.com/book/show/43728390-mourning-dove" target="_blank" rel="noopener noreferrer">Goodreads</a>&nbsp;|&nbsp;<a href="https://ryanrcampbell.com/?post_type=product&amp;p=5816&amp;preview=true" target="_blank" rel="noopener noreferrer">Author Website (print)</a></p>
+<span class="et_bloom_bottom_trigger"></span>
+  </div>
+
+export default TheEMPATHYSeriesattheUWWritersInstitute

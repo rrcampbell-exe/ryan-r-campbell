@@ -1,0 +1,14 @@
+import React from 'react'
+
+const WritescastRaconteursVeniVidiOhWhoAmIKidding = () =>
+  <div>
+    <p style="text-align: center;"><em>This is part eleven of the misadventures of the <a href="http://www.rrcampbellwrites.com/podcasts">Writescast</a> Raconteurs. For more on what this is and why it’s happening, feel free to check out the <a href="https://ryanrcampbell.com/writescast-raconteurs/">Writescast Raconteurs home page</a>.</em></p>
+<h1>Scoreboard</h1>
+<div id="attachment_4711" style="width: 980px" class="wp-caption alignnone"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-4711" data-attachment-id="4711" data-permalink="https://ryanrcampbell.com/2017/11/14/writescast-raconteurs-veni-vidi-oh-who-am-i-kidding/scoreboard-4/" data-orig-file="https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2017/11/scoreboard.png?fit=970%2C490&amp;ssl=1" data-orig-size="970,490" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="scoreboard" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2017/11/scoreboard.png?fit=300%2C152&amp;ssl=1" data-large-file="https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2017/11/scoreboard.png?fit=970%2C490&amp;ssl=1" class="alignnone size-full wp-image-4711" src="https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2017/11/scoreboard.png?resize=970%2C490&#038;ssl=1" alt="scoreboard.png" width="970" height="490" srcset="https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2017/11/scoreboard.png?w=970&amp;ssl=1 970w, https://i0.wp.com/ryanrcampbell.com/wp-content/uploads/2017/11/scoreboard.png?resize=300%2C152&amp;ssl=1 300w" sizes="(max-width: 970px) 100vw, 970px" data-recalc-dims="1" /><p id="caption-attachment-4711" class="wp-caption-text">Not as bad as it looks.</p></div>
+<p>I chose the title of this post purposely: my team did show up, they did see some good results, but we ultimately came up short&#8212;not because they were trash this week, but because our opponent happened to go off in spectacular fashion.</p>
+<p>The good news is I can now surrender any hope of the playoffs and look instead to trying my best in the consolation ladder. I have an advantageous waiver wire position this week, which will allow me to make some improvements at running back, where I've been in bad shape for some time.</p>
+<p>Here's to hoping there's some kind of payoff for remaining diligent.</p>
+<span class="et_bloom_bottom_trigger"></span>
+  </div>
+
+export default WritescastRaconteursVeniVidiOhWhoAmIKidding

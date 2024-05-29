@@ -1,0 +1,30 @@
+import React from 'react'
+
+const RecapofSonofaPitch = () =>
+  <div>
+    <p>A few weeks ago while trolling the Twitterwebs, I stumbled into a pitch game I hadn't heard of before: <a href="http://kjhstories.blogspot.com/2017/01/say-what-son-of-pitch-is-back.html">#SonofaPitch</a>. I'd done in-person agent pitches for earlier projects, but never written a query letter. Having recently recently completed my manuscript for <i>EMPATHY: Imminent Dawn</i>, though, I figured I may as well give it a shot.</p>
+<p>Hoo-wee, am I ever glad I did.</p>
+<p>Some of you may remember <a href="https://ryanrcampbell.com/2017/02/13/its-time-for-sonofapitch/" target="_blank">this post</a> from mid-February on which other writers left their comments regarding my draft query for the first round of the event. The feedback I received was helpful, but what I took from that first round more than anything were new writer friends (it counts as friends even if it's only through Twitter, right?).</p>
+<p>With their comments in mind, I geared up for round two, in which only select published authors could provide feedback on individual pitches. I managed to sneak into the second round (because I am a prompt emailer, not because I did anything special with my writing, mind you), and was just happy to be there. But then, as it did in the first round, something magical happened.</p>
+<p>As I followed <a href="http://samanthadunawaybryant.blogspot.com/2017/02/sonofapitch-query-8-empathy-imminent.html">the post</a> hosted on <a href="https://twitter.com/mirymom1">Samantha Dunaway Bryant</a>‘s blog throughout the week, the generosity of the feedback I received amazed me. More impressive still was the fact that with fifty-one qualifiers for the second round, some of the critiquing authors went through every entry&#8212;<i>every entry</i>&#8212;to help each one of us improve our pitches (I'm looking at you, <a href="https://twitter.com/KathleenPalm">Kathy Palm</a>). As you can see in the comments on the post, each one of them helped me revamp my pitch throughout the week in preparation for the game's final round.</p>
+<p>Excited as I was to be getting all of this insightful, critical feedback, I never thought I'd make the final round once the votes (and alternate votes) were tallied. There were so many amazing premises, queries, and first 250 words in the second round that I was ready to take what feedback I had received and be satisfied with that.</p>
+<p>But then again, something magical happened: my pitch qualified for the final round alongside nineteen others.</p>
+<p>This was the one. Big time. For the third and final round, editors from a number of publishers would patrol <a href="http://kjhstories.blogspot.com/2017/02/son-of-pitch-round-three-finalists.html">the posts</a> throughout the week, making requests for pages if they liked what they saw. Based on feedback I received in the previous round as well as some side conversations with other entrants and event organizers, I was out of my mind over the prospect of having an editor reach out and ask for more of my manuscript.</p>
+<p>I mean it: I lost sleep with how real the excitement was. A week from then, there was a chance I'd have my work in the hands of an acquisitions editor, taking another step toward my goal of getting <i>EMPATHY</i> published.</p>
+<p>And guess what? Once more, something magical happened. As <a href="http://kjhstories.blogspot.com/2017/02/son-of-pitch-entry-empathy-imminent-dawn.html">this link</a> can attest, I received no requests. Zero. Not a one.</p>
+<p>Magical indeed&#8212;though for reasons I had yet to come to grips with.</p>
+<p>I'd be lying if I said I wasn't disappointed. Rejection is something every writer faces, but after those weeks of positive affirmation and engagement with others, I made two classic mistakes. One, I'd forgotten I'd been here before, and two, I lost sight of what the game was about in the first place.</p>
+<p>If you've followed my blog for a while (and if you have, please identify yourself because this would be news to me), you know a few years back I pitched my first novel <i>The Fugue</i> to a combo of three agents and editors while at a conference. After going three-for-three with partial or full manuscript requests, I was over the moon. That was it! I was going to hear back from them and end up with representation and then work with my agent to get published in short order!</p>
+<p>A quick search of Amazon for <i>The Fugue</i> by r. r. campbell will tell you how well that worked out.</p>
+<p>I was disappointed at the time with how things turned out, but, as I would only later accept, the experience pitching that first (hot garbage) manuscript was more valuable than any immediate success could have been.</p>
+<p>Forgetting this lesson is what had me lose sight of what #SonofaPitch was about in the first place. It wasn't about the end goal of getting published (though I'm still absolutely working toward that), it was about engaging with the community, making friends, and enjoying in the growth and success of others. Oh, and coming out on the far side of the game with an improved pitch didn't hurt either.</p>
+<p>Beyond the new friends and a <a href="https://ryanrcampbell.com/current-projects/">much more solid pitch</a>, my main takeaway was a reminder of something that I'm ashamed to have forgotten. It's not about how our stories end. It's about how we <i>get to</i> that end, whatever it may be. The same is true for our characters, and it will, more importantly, always be true for us writers, too.</p>
+<p>I plan to keep pitching. I plan to keep connecting. I plan to keep writing&#8212;and I hope you do, too.</p>
+<p>You never know when something magical might happen.</p>
+<p>&#8212;</p>
+<p>Thanks for reading. As always, you can reach out <a href="http://www.twitter.com/iamrrcampbell">Twitter</a> or get in touch through my <a href="https://ryanrcampbell.com/contact/">contact page</a>.</p>
+<p>&nbsp;</p>
+<span class="et_bloom_bottom_trigger"></span>
+  </div>
+
+export default RecapofSonofaPitch
