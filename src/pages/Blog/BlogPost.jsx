@@ -8,6 +8,8 @@ import { NotFound, Contact, PageWrapper, NotificationBanner, BlogTags, BlogFoote
 // TODO: need to sanitize remaining HTML of comments related to divi
 // TODO: need to remove footer contents with book recommendation at the end
 
+// TODO: need to update this to look for converted-posts if year < 2023
+
 const BlogPost = () => {
   const { year, month, day, slug } = useParams()
   const [jsxContent, setJsxContent] = useState(null)
@@ -19,19 +21,22 @@ const BlogPost = () => {
 
   // fetch JSX content for new posts, which requires async import of JSX file, ergo: useEffect
   useEffect(() => {
-    if (parseInt(year) > 2023) {
       // fetch JSX content for new posts, set JSX content to state
       const fetchJsx = async () => {
         try {
-          const module = await import(`../../assets/posts/post-jsx/${year}/${month}/${slug}.jsx`)
-          setJsxContent(module.default)
+          if (parseInt(year) > 2023) {
+            const module = await import(`../../assets/posts/post-jsx/${year}/${month}/${slug}.jsx`)
+            setJsxContent(module.default)
+          } else {
+            const module = await import(`../../assets/posts/converted-posts/${year}/${month}/${slug}.jsx`)
+            setJsxContent(module.default)
+          }
         } catch (error) {
           setIsError(true)
         }
       }
 
       fetchJsx()
-    }
   }, [year, month, slug])
 
   if (!post || isError) return (
@@ -52,7 +57,7 @@ const BlogPost = () => {
   const { title: { rendered: title }, date, episode_featured_image, featured_image_alt, content: { rendered: contentToRender } } = post
 
   // if post is a legacy post, render the content as is; otherwise, fetch JSX for new post
-  const postContent = year < 2023 ? extractHTMLContent(contentToRender) : jsxContent
+  const postContent = jsxContent
 
   return (
     <PageWrapper pageTitle='author | technologist'>
@@ -78,11 +83,7 @@ const BlogPost = () => {
               </div>
             </div>
           </div>
-          {year > 2023 ? (
-            <article data-testid='article'>{jsxContent ? jsxContent : <p>Loading...</p>}</article>
-          ) : (
-            <article data-testid='article' dangerouslySetInnerHTML={{ __html: postContent }}/>
-          )}
+          <article data-testid='article'>{jsxContent ? jsxContent : <p>Loading...</p>}</article>
           {year > 2023 && post.tags.length > 0 && (
             <div className='tags'>
               <BlogTags tags={post.tags} />
