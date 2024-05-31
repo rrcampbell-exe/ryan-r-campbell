@@ -217,6 +217,45 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <img
                   alt="The cover image for a blog post"
                   class="cover-image"
+                  src="/post-content/2024/05/dont-follow-your-passion-part-one-cover-img.jpg"
+                />
+                <h3>
+                  Don't Follow Your Passion. Become the Passionate Craftsman.
+                </h3>
+                <span>
+                  Posted on 
+                  May 31, 2024
+                </span>
+                <p>
+                  There's something better than passion. There's something more than.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
+                  </p>
+                </div>
+                <a
+                  href="/2024/05/31/dont-follow-your-passion-become-the-passionate-craftsman"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  alt="The cover image for a blog post"
+                  class="cover-image"
                   src="/post-content/2024/05/let-there-be-light-dark-cover-img.png"
                 />
                 <h3>
@@ -275,7 +314,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                     FILED UNDER:
                   </p>
                   <p>
-                    BOOK REVIEW, PERSONAL DEVELOPMENT, IDENTITY
+                    BOOK REVIEW, PROFESSIONAL DEVELOPMENT, IDENTITY
                   </p>
                 </div>
                 <a
@@ -464,35 +503,6 @@ exports[`BlogLanding > default snapshot 1`] = `
                 </p>
                 <a
                   href="/2022/02/08/your-first-look-a-scambait-back-cover-teaser/"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <img
-                  alt="The cover image for a blog post"
-                  class="cover-image"
-                  src="/wp-content/uploads/2022/01/Hop-in-My-Step-January-2022-Scambait-Update.png"
-                />
-                <h3>
-                  A Hop In My Step: The Revision Division (And More!)
-                </h3>
-                <span>
-                  Posted on 
-                  January 25, 2022
-                </span>
-                <p>
-                  In the last week, I've completed revisions for the final draft of Scambait, have begun to work on the back cover copy, and I've initiated conversations with book cover designers.
-                </p>
-                <a
-                  href="/2022/01/25/a-hop-in-my-step-the-revision-division-and-more/"
                 >
                   read the full post
                 </a>
@@ -800,6 +810,45 @@ exports[`BlogLanding > default snapshot 1`] = `
               <img
                 alt="The cover image for a blog post"
                 class="cover-image"
+                src="/post-content/2024/05/dont-follow-your-passion-part-one-cover-img.jpg"
+              />
+              <h3>
+                Don't Follow Your Passion. Become the Passionate Craftsman.
+              </h3>
+              <span>
+                Posted on 
+                May 31, 2024
+              </span>
+              <p>
+                There's something better than passion. There's something more than.
+              </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
+                </p>
+              </div>
+              <a
+                href="/2024/05/31/dont-follow-your-passion-become-the-passionate-craftsman"
+              >
+                read the full post
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                alt="The cover image for a blog post"
+                class="cover-image"
                 src="/post-content/2024/05/let-there-be-light-dark-cover-img.png"
               />
               <h3>
@@ -858,7 +907,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                   FILED UNDER:
                 </p>
                 <p>
-                  BOOK REVIEW, PERSONAL DEVELOPMENT, IDENTITY
+                  BOOK REVIEW, PROFESSIONAL DEVELOPMENT, IDENTITY
                 </p>
               </div>
               <a
@@ -1047,35 +1096,6 @@ exports[`BlogLanding > default snapshot 1`] = `
               </p>
               <a
                 href="/2022/02/08/your-first-look-a-scambait-back-cover-teaser/"
-              >
-                read the full post
-              </a>
-              <div
-                class="content-post-underline"
-              />
-            </div>
-          </div>
-          <div>
-            <div
-              class="content-post grow-on-hover"
-            >
-              <img
-                alt="The cover image for a blog post"
-                class="cover-image"
-                src="/wp-content/uploads/2022/01/Hop-in-My-Step-January-2022-Scambait-Update.png"
-              />
-              <h3>
-                A Hop In My Step: The Revision Division (And More!)
-              </h3>
-              <span>
-                Posted on 
-                January 25, 2022
-              </span>
-              <p>
-                In the last week, I've completed revisions for the final draft of Scambait, have begun to work on the back cover copy, and I've initiated conversations with book cover designers.
-              </p>
-              <a
-                href="/2022/01/25/a-hop-in-my-step-the-revision-division-and-more/"
               >
                 read the full post
               </a>

@@ -295,6 +295,40 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <h3>
+                    Don't Follow Your Passion. Become the Passionate Craftsman.
+                  </h3>
+                  <span>
+                    Posted on 
+                    May 31, 2024
+                  </span>
+                  <p>
+                    There's something better than passion. There's something more than.
+                  </p>
+                  <div
+                    class="teaser-tags"
+                  >
+                    <p>
+                      FILED UNDER:
+                    </p>
+                    <p>
+                      PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
+                    </p>
+                  </div>
+                  <a
+                    href="/2024/05/31/dont-follow-your-passion-become-the-passionate-craftsman"
+                  >
+                    read the full post
+                  </a>
+                  <div
+                    class="content-post-underline"
+                  />
+                </div>
+              </div>
+              <div>
+                <div
+                  class="content-post grow-on-hover"
+                >
+                  <h3>
                     Let There Be light-dark()
                   </h3>
                   <span>
@@ -345,45 +379,11 @@ exports[`GeneralLanding > default snapshot 1`] = `
                       FILED UNDER:
                     </p>
                     <p>
-                      BOOK REVIEW, PERSONAL DEVELOPMENT, IDENTITY
+                      BOOK REVIEW, PROFESSIONAL DEVELOPMENT, IDENTITY
                     </p>
                   </div>
                   <a
                     href="/2024/05/23/book-review-the-good-enough-job"
-                  >
-                    read the full post
-                  </a>
-                  <div
-                    class="content-post-underline"
-                  />
-                </div>
-              </div>
-              <div>
-                <div
-                  class="content-post grow-on-hover"
-                >
-                  <h3>
-                    Welcome to the New Ryan R. Campbell (Or at Least the New Website)
-                  </h3>
-                  <span>
-                    Posted on 
-                    May 3, 2024
-                  </span>
-                  <p>
-                    It's been a while—nearly two years, to be exact—but golly, do I have some updates.
-                  </p>
-                  <div
-                    class="teaser-tags"
-                  >
-                    <p>
-                      FILED UNDER:
-                    </p>
-                    <p>
-                      SITE MIGRATION, WEB DEVELOPMENT, ON WRITING
-                    </p>
-                  </div>
-                  <a
-                    href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
                   >
                     read the full post
                   </a>
@@ -1109,6 +1109,40 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <h3>
+                  Don't Follow Your Passion. Become the Passionate Craftsman.
+                </h3>
+                <span>
+                  Posted on 
+                  May 31, 2024
+                </span>
+                <p>
+                  There's something better than passion. There's something more than.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
+                  </p>
+                </div>
+                <a
+                  href="/2024/05/31/dont-follow-your-passion-become-the-passionate-craftsman"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <h3>
                   Let There Be light-dark()
                 </h3>
                 <span>
@@ -1159,45 +1193,11 @@ exports[`GeneralLanding > default snapshot 1`] = `
                     FILED UNDER:
                   </p>
                   <p>
-                    BOOK REVIEW, PERSONAL DEVELOPMENT, IDENTITY
+                    BOOK REVIEW, PROFESSIONAL DEVELOPMENT, IDENTITY
                   </p>
                 </div>
                 <a
                   href="/2024/05/23/book-review-the-good-enough-job"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <h3>
-                  Welcome to the New Ryan R. Campbell (Or at Least the New Website)
-                </h3>
-                <span>
-                  Posted on 
-                  May 3, 2024
-                </span>
-                <p>
-                  It's been a while—nearly two years, to be exact—but golly, do I have some updates.
-                </p>
-                <div
-                  class="teaser-tags"
-                >
-                  <p>
-                    FILED UNDER:
-                  </p>
-                  <p>
-                    SITE MIGRATION, WEB DEVELOPMENT, ON WRITING
-                  </p>
-                </div>
-                <a
-                  href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
                 >
                   read the full post
                 </a>
