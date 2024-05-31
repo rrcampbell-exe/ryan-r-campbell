@@ -1,5 +1,25 @@
 const posts = [
   {
+    id: 10091,
+    date: "2024-05-31T06:00:00",
+    slug: "dont-follow-your-passion-become-the-passionate-craftsman",
+    link: "https://ryanrcampbell.com/2024/05/31/dont-follow-your-passion-become-the-passionate-craftsman",
+    title: {
+      rendered: "Don't Follow Your Passion. Become the Passionate Craftsman."
+    },
+    content: {
+      rendered:
+        '',
+      protected: false
+    },
+    excerpt: {
+      rendered: "Don't follow your passion. There's something better. There's something more than.",
+      protected: false
+    },
+    tags: ['Passionate Craftsman', 'Professional Development', 'Identity'],
+    episode_featured_image: "/post-content/2024/05/dont-follow-your-passion-part-one-cover-img.jpg"
+  },
+  {
     id: 10090,
     date: "2024-05-24T06:00:00",
     slug: "let-there-be-light-dark",
@@ -36,7 +56,7 @@ const posts = [
       rendered: "The right book. The right time. Right on.",
       protected: false
     },
-    tags: ['Book Review', 'Personal Development', 'Identity'],
+    tags: ['Book Review', 'Professional Development', 'Identity'],
     episode_featured_image: "/post-content/2024/05/book-review-the-good-enough-job-cover-img.png",
     featured_image_alt: "The book cover for The Good Enough Job rests on a white table alongside a green succulent plant."
   },
