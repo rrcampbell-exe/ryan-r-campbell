@@ -1,5 +1,5 @@
 import React from 'react'
-import { CodeSpan,NotificationBanner, CodeBlock } from '../../../../../components'
+import { CodeSpan, NotificationBanner, CodeBlock } from '../../../../../components'
 import { Link } from 'react-router-dom'
 
 const LetThereBeLightDark = () => {
