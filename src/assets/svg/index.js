@@ -11,5 +11,6 @@ import MicrophoneSVG from './MicrophoneSVG'
 import LightBulbSVG from './LightBulbSVG'
 import CopySVG from './CopySVG'
 import CheckmarkSVG from './CheckmarkSVG'
+import BullhornSVG from './BullhornSVG'
 
-export { BrowserSVG, LaptopSVG, ManagementSVG, CloseSVG, ExternalLinkSVG, HamburgerIcon, MoonSVG, QuotesSVG, RobotSVG, SunSVG, CalendarSVG, MicrophoneSVG, LightBulbSVG, CopySVG, CheckmarkSVG }
+export { BrowserSVG, LaptopSVG, ManagementSVG, CloseSVG, ExternalLinkSVG, HamburgerIcon, MoonSVG, QuotesSVG, RobotSVG, SunSVG, CalendarSVG, MicrophoneSVG, LightBulbSVG, CopySVG, CheckmarkSVG, BullhornSVG }

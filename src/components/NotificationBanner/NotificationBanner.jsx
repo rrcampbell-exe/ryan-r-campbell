@@ -1,9 +1,19 @@
 import React from 'react'
-import { CalendarSVG, LightBulbSVG } from '../../assets/svg'
+import { CalendarSVG, LightBulbSVG, BullhornSVG } from '../../assets/svg'
 
 const NotificationBanner = ({ title, text, type, colorScheme }) => {
 
-  const svg = type === 'tip' ? <LightBulbSVG /> : <CalendarSVG />
+  let svg
+  switch(type) {
+    case 'tip':
+      svg = <LightBulbSVG />
+      break
+    case 'announcement':
+      svg = <BullhornSVG />
+      break
+    default:
+      svg = <CalendarSVG />
+  }
 
   return (
     <div className={`NotificationBanner ${colorScheme ? colorScheme : ''}`}>
