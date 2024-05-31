@@ -13,7 +13,7 @@ const posts = [
       protected: false
     },
     excerpt: {
-      rendered: "Don't follow your passion. There's something better. There's something more than.",
+      rendered: "There's something better than passion. There's something more than.",
       protected: false
     },
     tags: ['Passionate Craftsman', 'Professional Development', 'Identity'],
