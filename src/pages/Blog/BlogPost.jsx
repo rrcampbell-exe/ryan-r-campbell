@@ -59,19 +59,31 @@ const BlogPost = () => {
     excerpt: { rendered: excerpt = '' } = {} 
   } = post || {}
 
-  // if post is a legacy post, render the content as is; otherwise, fetch JSX for new post
-  const postContent = year < 2023 ? extractHTMLContent(contentToRender) : jsxContent
-
   // set document title for blog post
   useDocumentTitle(title)
 
   // set meta tags for blog post
   useMetaTags([
     { type: 'name', name: 'description', content: excerpt },
+    // designate og:title, og:description, and og:image for facebook, linkedin
     { type: 'property', name: 'og:title', content: title },
     { type: 'property', name: 'og:description', content: excerpt },
-    { type: 'property', name: 'og:image', content: episode_featured_image }
+    { type: 'property', name: 'og:image', content: episode_featured_image },
+    // designate properties for twitter
+    { type: 'property', name: 'twitter:title', content: title },
+    { type: 'property', name: 'twitter:description', content: excerpt },
+    { type: 'property', name: 'twitter:image', content: episode_featured_image },
+    // designate properties for pinterest
+    { type: 'property', name: 'pinterest:title', content: title },
+    { type: 'property', name: 'pinterest:description', content: excerpt },
+    { type: 'property', name: 'pinterest:image', content: episode_featured_image },
+    // designate properties for google
+    { type: 'property', name: 'google:title', content: title },
+    { type: 'property', name: 'google:description', content: excerpt }
   ])
+
+  // if post is a legacy post, render the content as is; otherwise, fetch JSX for new post
+  const postContent = year < 2023 ? extractHTMLContent(contentToRender) : jsxContent
 
   return (
     <PageWrapper pageTitle='author | technologist'>
