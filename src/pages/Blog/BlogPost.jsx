@@ -70,16 +70,16 @@ const BlogPost = () => {
     { type: 'property', name: 'og:description', content: excerpt },
     { type: 'property', name: 'og:site_name', content: 'Ryan R. Campbell - Keep Curious' },
     { type: 'property', name: 'og:url', content: `https://www.ryanrcampbell.com/${slug}` },
-    { type: 'property', name: 'og:image', content: episode_featured_image },
+    { type: 'property', name: 'og:image', content: `https://www.ryanrcampbell.com/${episode_featured_image}` },
     // designate properties for twitter
-    { type: 'property', name: 'twitter:card', content: "summary_large_image" },
+    { type: 'property', name: 'twitter:card', content: 'summary_large_image' },
     { type: 'property', name: 'twitter:title', content: title },
     { type: 'property', name: 'twitter:description', content: excerpt },
-    { type: 'property', name: 'twitter:image', content: episode_featured_image },
+    { type: 'property', name: 'twitter:image', content: `https://www.ryanrcampbell.com/${episode_featured_image}` },
     // designate properties for pinterest
     { type: 'property', name: 'pinterest:title', content: title },
     { type: 'property', name: 'pinterest:description', content: excerpt },
-    { type: 'property', name: 'pinterest:image', content: episode_featured_image },
+    { type: 'property', name: 'pinterest:image', content: `https://www.ryanrcampbell.com/${episode_featured_image}` },
     // designate properties for google
     { type: 'property', name: 'google:title', content: title },
     { type: 'property', name: 'google:description', content: excerpt }
