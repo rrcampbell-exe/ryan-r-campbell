@@ -56,7 +56,7 @@ const BlogPost = () => {
     episode_featured_image = '', 
     featured_image_alt = '', 
     content: { rendered: contentToRender = '' } = {}, 
-    excerpt: { rendered: excerpt = '' } = {} 
+    excerpt: { rendered: excerpt = '' } = {}
   } = post || {}
 
   // set document title for blog post
@@ -65,11 +65,14 @@ const BlogPost = () => {
   // set meta tags for blog post
   useMetaTags([
     { type: 'name', name: 'description', content: excerpt },
-    // designate og:title, og:description, and og:image for facebook, linkedin
+    // designate og:title, og:description, og:site_name, og:url, and og:image for open graph protocol
     { type: 'property', name: 'og:title', content: title },
     { type: 'property', name: 'og:description', content: excerpt },
+    { type: 'property', name: 'og:site_name', content: 'Ryan R. Campbell - Keep Curious' },
+    { type: 'property', name: 'og:url', content: `https://www.ryanrcampbell.com/${slug}` },
     { type: 'property', name: 'og:image', content: episode_featured_image },
     // designate properties for twitter
+    { type: 'property', name: 'twitter:card', content: "summary_large_image" },
     { type: 'property', name: 'twitter:title', content: title },
     { type: 'property', name: 'twitter:description', content: excerpt },
     { type: 'property', name: 'twitter:image', content: episode_featured_image },
