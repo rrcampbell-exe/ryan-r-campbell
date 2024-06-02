@@ -49,8 +49,15 @@ const BlogPost = () => {
     </PageWrapper>
   )
 
-  // destructuring post object
-  const { title: { rendered: title }, date, episode_featured_image, featured_image_alt, content: { rendered: contentToRender }, excerpt: { rendered: excerpt } } = post
+  // destructuring post object with default values
+  const { 
+    title: { rendered: title = '' } = {}, 
+    date, 
+    episode_featured_image = '', 
+    featured_image_alt = '', 
+    content: { rendered: contentToRender = '' } = {}, 
+    excerpt: { rendered: excerpt = '' } = {} 
+  } = post || {}
 
   // if post is a legacy post, render the content as is; otherwise, fetch JSX for new post
   const postContent = year < 2023 ? extractHTMLContent(contentToRender) : jsxContent
