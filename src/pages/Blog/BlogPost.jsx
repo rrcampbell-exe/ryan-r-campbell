@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 import { fetchPost, formatDate, extractHTMLContent } from '../../utils'
 import { shortBio } from '../../constants'
 import { NotFound, Contact, PageWrapper, NotificationBanner, BlogTags, BlogFooter } from '../../components'
+import { useMetaTags, useDocumentTitle } from '../../hooks'
 
 // TODO: need to sanitize remaining HTML of comments related to divi
 // TODO: need to remove footer contents with book recommendation at the end
@@ -49,10 +50,21 @@ const BlogPost = () => {
   )
 
   // destructuring post object
-  const { title: { rendered: title }, date, episode_featured_image, featured_image_alt, content: { rendered: contentToRender } } = post
+  const { title: { rendered: title }, date, episode_featured_image, featured_image_alt, content: { rendered: contentToRender }, excerpt: { rendered: excerpt } } = post
 
   // if post is a legacy post, render the content as is; otherwise, fetch JSX for new post
   const postContent = year < 2023 ? extractHTMLContent(contentToRender) : jsxContent
+
+  // set document title for blog post
+  useDocumentTitle(title)
+
+  // set meta tags for blog post
+  useMetaTags([
+    { type: 'name', name: 'description', content: excerpt },
+    { type: 'property', name: 'og:title', content: title },
+    { type: 'property', name: 'og:description', content: excerpt },
+    { type: 'property', name: 'og:image', content: episode_featured_image }
+  ])
 
   return (
     <PageWrapper pageTitle='author | technologist'>
