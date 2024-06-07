@@ -117,7 +117,7 @@ const BlogPost = () => {
           ) : (
             <article data-testid='article' dangerouslySetInnerHTML={{ __html: postContent }}/>
           )}
-          {year > 2023 && post.tags.length > 0 && (
+          {year > 2021 && post.tags.length > 0 && (
             <div className='tags'>
               <BlogTags tags={post.tags} />
             </div>
