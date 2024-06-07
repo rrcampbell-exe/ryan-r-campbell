@@ -46,7 +46,7 @@ describe('BlogLanding', () => {
     expect(posts.length).toBe(18)
   })
   test('should show all posts when button is clicked', () => {
-    const { getByText, container } = render(
+    const { getByText } = render(
       <ContextAndRouterProvider>
         <BlogLanding />
       </ContextAndRouterProvider>
