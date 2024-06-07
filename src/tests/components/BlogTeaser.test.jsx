@@ -46,7 +46,7 @@ describe('BlogTeaser', () => {
     const coverImage = container.querySelector('.cover-image')
     expect(coverImage).not.toBeInTheDocument()
   })
-  test('should render tags for posts newer than 2023', () => {
+  test('should render tags for posts newer than 2021', () => {
     const { container } = render(
       <ContextAndRouterProvider>
         <BlogTeaser postsToDisplay={1} postsPage={1} />
@@ -56,7 +56,7 @@ describe('BlogTeaser', () => {
     const tags = container.querySelector('.teaser-tags')
     expect(tags).toBeInTheDocument()
   })
-  test('should not render tags for posts older than 2023', () => {
+  test('should not render tags for posts older than 2022', () => {
     const { container } = render(
       <ContextAndRouterProvider>
         <BlogTeaser postsToDisplay={1} postsPage={1} />
