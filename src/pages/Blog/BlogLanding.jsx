@@ -27,7 +27,7 @@ const BlogLanding = () => {
     if (filteredPosts.length < 9) return filteredPosts.length
     return 9
   }
-  const numberOfPostsShown = postsQtyToDisplay * postsPage
+  const numberOfPostsShown = postsQtyToDisplay(tag, filteredPosts) * postsPage
   const allBlogPostsShown = numberOfPostsShown >= totalPostsQty
 
   const buttonText = allBlogPostsShown ? 'all blog posts shown' : 'load more posts'
