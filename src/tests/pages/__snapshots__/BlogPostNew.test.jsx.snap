@@ -281,17 +281,17 @@ exports[`BlogPost > default snapshot 1`] = `
                   class="tags-container"
                 >
                   <span
-                    class="tag"
+                    class="tag grow-on-hover"
                   >
                     Site Migration
                   </span>
                   <span
-                    class="tag"
+                    class="tag grow-on-hover"
                   >
                     Web Development
                   </span>
                   <span
-                    class="tag"
+                    class="tag grow-on-hover"
                   >
                     On Writing
                   </span>
@@ -629,17 +629,17 @@ exports[`BlogPost > default snapshot 1`] = `
                 class="tags-container"
               >
                 <span
-                  class="tag"
+                  class="tag grow-on-hover"
                 >
                   Site Migration
                 </span>
                 <span
-                  class="tag"
+                  class="tag grow-on-hover"
                 >
                   Web Development
                 </span>
                 <span
-                  class="tag"
+                  class="tag grow-on-hover"
                 >
                   On Writing
                 </span>
