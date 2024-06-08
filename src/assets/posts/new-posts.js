@@ -97,7 +97,7 @@ const posts = [
       rendered: "It's been a while—nearly two years, to be exact—but golly, do I have some updates.",
       protected: false
     },
-    tags: ['Site Migration', 'Web Development', 'On Writing'],
+    tags: ['Site Migration', 'Web Development', 'Writing'],
     episode_featured_image: "/post-content/2024/05/welcome-to-the-new-site-cover-img.png",
     featured_image_alt: "A cut-out image of Ryan R. Campbell next to text that welcomes visitors to the new website."
   }
