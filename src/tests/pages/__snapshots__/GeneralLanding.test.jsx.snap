@@ -295,6 +295,40 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <h3>
+                    New Feature: Introducing Blog Tags!
+                  </h3>
+                  <span>
+                    Posted on 
+                    June 8, 2024
+                  </span>
+                  <p>
+                    Blog tags are now available for posts published in 2022 or later.
+                  </p>
+                  <div
+                    class="teaser-tags"
+                  >
+                    <p>
+                      FILED UNDER:
+                    </p>
+                    <p>
+                      WEB DEVELOPMENT, NEW FEATURES, SITE MIGRATION
+                    </p>
+                  </div>
+                  <a
+                    href="/2024/06/08/new-feature-introducing-blog-tags"
+                  >
+                    read the full post
+                  </a>
+                  <div
+                    class="content-post-underline"
+                  />
+                </div>
+              </div>
+              <div>
+                <div
+                  class="content-post grow-on-hover"
+                >
+                  <h3>
                     Don't Follow Your Passion. Become the Passionate Craftsman.
                   </h3>
                   <span>
@@ -350,40 +384,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   </div>
                   <a
                     href="/2024/05/24/let-there-be-light-dark"
-                  >
-                    read the full post
-                  </a>
-                  <div
-                    class="content-post-underline"
-                  />
-                </div>
-              </div>
-              <div>
-                <div
-                  class="content-post grow-on-hover"
-                >
-                  <h3>
-                    Book Review: The Good Enough Job
-                  </h3>
-                  <span>
-                    Posted on 
-                    May 23, 2024
-                  </span>
-                  <p>
-                    The right book. The right time. Right on.
-                  </p>
-                  <div
-                    class="teaser-tags"
-                  >
-                    <p>
-                      FILED UNDER:
-                    </p>
-                    <p>
-                      BOOK REVIEW, PROFESSIONAL DEVELOPMENT, IDENTITY
-                    </p>
-                  </div>
-                  <a
-                    href="/2024/05/23/book-review-the-good-enough-job"
                   >
                     read the full post
                   </a>
@@ -1109,6 +1109,40 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <h3>
+                  New Feature: Introducing Blog Tags!
+                </h3>
+                <span>
+                  Posted on 
+                  June 8, 2024
+                </span>
+                <p>
+                  Blog tags are now available for posts published in 2022 or later.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    WEB DEVELOPMENT, NEW FEATURES, SITE MIGRATION
+                  </p>
+                </div>
+                <a
+                  href="/2024/06/08/new-feature-introducing-blog-tags"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <h3>
                   Don't Follow Your Passion. Become the Passionate Craftsman.
                 </h3>
                 <span>
@@ -1164,40 +1198,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </div>
                 <a
                   href="/2024/05/24/let-there-be-light-dark"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <h3>
-                  Book Review: The Good Enough Job
-                </h3>
-                <span>
-                  Posted on 
-                  May 23, 2024
-                </span>
-                <p>
-                  The right book. The right time. Right on.
-                </p>
-                <div
-                  class="teaser-tags"
-                >
-                  <p>
-                    FILED UNDER:
-                  </p>
-                  <p>
-                    BOOK REVIEW, PROFESSIONAL DEVELOPMENT, IDENTITY
-                  </p>
-                </div>
-                <a
-                  href="/2024/05/23/book-review-the-good-enough-job"
                 >
                   read the full post
                 </a>

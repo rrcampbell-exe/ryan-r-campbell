@@ -217,6 +217,45 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <img
                   alt="The cover image for a blog post"
                   class="cover-image"
+                  src="/post-content/2024/06/new-feature-introducing-blog-tags-cover-img.png"
+                />
+                <h3>
+                  New Feature: Introducing Blog Tags!
+                </h3>
+                <span>
+                  Posted on 
+                  June 8, 2024
+                </span>
+                <p>
+                  Blog tags are now available for posts published in 2022 or later.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    WEB DEVELOPMENT, NEW FEATURES, SITE MIGRATION
+                  </p>
+                </div>
+                <a
+                  href="/2024/06/08/new-feature-introducing-blog-tags"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  alt="The cover image for a blog post"
+                  class="cover-image"
                   src="/post-content/2024/05/dont-follow-your-passion-part-one-cover-img.jpg"
                 />
                 <h3>
@@ -514,45 +553,6 @@ exports[`BlogLanding > default snapshot 1`] = `
                 </div>
                 <a
                   href="/2022/02/23/the-scambait-cover-reveal/"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <img
-                  alt="The cover image for a blog post"
-                  class="cover-image"
-                  src="/wp-content/uploads/2022/02/Scambait-Cover-Copy-Blog-Post-Header.jpg"
-                />
-                <h3>
-                  Your First Look: A Scambait Back Cover Teaser!
-                </h3>
-                <span>
-                  Posted on 
-                  February 8, 2022
-                </span>
-                <p>
-                  The work to publish Scambait is progressing nicely, but I need your help to continue—and I've got a teaser in exchange for your help.
-                </p>
-                <div
-                  class="teaser-tags"
-                >
-                  <p>
-                    FILED UNDER:
-                  </p>
-                  <p>
-                    SCAMBAIT, SELF PUBLISHING, BOOK MARKETING
-                  </p>
-                </div>
-                <a
-                  href="/2022/02/08/your-first-look-a-scambait-back-cover-teaser/"
                 >
                   read the full post
                 </a>
@@ -860,6 +860,45 @@ exports[`BlogLanding > default snapshot 1`] = `
               <img
                 alt="The cover image for a blog post"
                 class="cover-image"
+                src="/post-content/2024/06/new-feature-introducing-blog-tags-cover-img.png"
+              />
+              <h3>
+                New Feature: Introducing Blog Tags!
+              </h3>
+              <span>
+                Posted on 
+                June 8, 2024
+              </span>
+              <p>
+                Blog tags are now available for posts published in 2022 or later.
+              </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  WEB DEVELOPMENT, NEW FEATURES, SITE MIGRATION
+                </p>
+              </div>
+              <a
+                href="/2024/06/08/new-feature-introducing-blog-tags"
+              >
+                read the full post
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                alt="The cover image for a blog post"
+                class="cover-image"
                 src="/post-content/2024/05/dont-follow-your-passion-part-one-cover-img.jpg"
               />
               <h3>
@@ -1157,45 +1196,6 @@ exports[`BlogLanding > default snapshot 1`] = `
               </div>
               <a
                 href="/2022/02/23/the-scambait-cover-reveal/"
-              >
-                read the full post
-              </a>
-              <div
-                class="content-post-underline"
-              />
-            </div>
-          </div>
-          <div>
-            <div
-              class="content-post grow-on-hover"
-            >
-              <img
-                alt="The cover image for a blog post"
-                class="cover-image"
-                src="/wp-content/uploads/2022/02/Scambait-Cover-Copy-Blog-Post-Header.jpg"
-              />
-              <h3>
-                Your First Look: A Scambait Back Cover Teaser!
-              </h3>
-              <span>
-                Posted on 
-                February 8, 2022
-              </span>
-              <p>
-                The work to publish Scambait is progressing nicely, but I need your help to continue—and I've got a teaser in exchange for your help.
-              </p>
-              <div
-                class="teaser-tags"
-              >
-                <p>
-                  FILED UNDER:
-                </p>
-                <p>
-                  SCAMBAIT, SELF PUBLISHING, BOOK MARKETING
-                </p>
-              </div>
-              <a
-                href="/2022/02/08/your-first-look-a-scambait-back-cover-teaser/"
               >
                 read the full post
               </a>
