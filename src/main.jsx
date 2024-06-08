@@ -19,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='/tech' element={<TechLanding />} />
           <Route path='/:year/:month/:day/:slug/amp?' element={<BlogPost />} />
           <Route path='/blog' element={<BlogLanding />} />
+          <Route path='/blog/:tag?' element={<BlogLanding />} />
           <Route path='/podcasts' element={<PodcastLanding />} />
           <Route path='/podcast/:slug/amp?' element={<PodcastEpisode />} />
           <Route path='/contact' element={<ContactPage />} />

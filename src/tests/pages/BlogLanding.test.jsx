@@ -46,7 +46,7 @@ describe('BlogLanding', () => {
     expect(posts.length).toBe(18)
   })
   test('should show all posts when button is clicked', () => {
-    const { getByText, container } = render(
+    const { getByText } = render(
       <ContextAndRouterProvider>
         <BlogLanding />
       </ContextAndRouterProvider>
@@ -61,5 +61,15 @@ describe('BlogLanding', () => {
 
     const updatedButton = getByText('all blog posts shown')
     expect(updatedButton).toBeInTheDocument()
+  })
+  test('should display "blogger" in the PageWrapper title when no tag is present', () => {
+    const { getByText } = render(
+      <ContextAndRouterProvider>
+        <BlogLanding />
+      </ContextAndRouterProvider>
+    )
+
+    const title = getByText('blogger')
+    expect(title).toBeInTheDocument()
   })
 })

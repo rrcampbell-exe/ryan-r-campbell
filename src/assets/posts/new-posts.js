@@ -1,5 +1,25 @@
 const posts = [
   {
+    id: 10092,
+    date: "2024-06-08T06:00:00",
+    slug: "new-feature-introducing-blog-tags",
+    link: "https://ryanrcampbell.com/2024/06/08/new-feature-introducing-blog-tags",
+    title: {
+      rendered: "New Feature: Introducing Blog Tags!"
+    },
+    content: {
+      rendered:
+        '',
+      protected: false
+    },
+    excerpt: {
+      rendered: "Blog tags are now available for posts published in 2021 or later.",
+      protected: false
+    },
+    tags: ['Web Development', 'New Features', 'Site Migration'],
+    episode_featured_image: "/post-content/2024/06/new-feature-introducing-blog-tags-cover-img.png"
+  },
+  {
     id: 10091,
     date: "2024-05-31T06:00:00",
     slug: "dont-follow-your-passion-become-the-passionate-craftsman",
@@ -77,7 +97,7 @@ const posts = [
       rendered: "It's been a while—nearly two years, to be exact—but golly, do I have some updates.",
       protected: false
     },
-    tags: ['Site Migration', 'Web Development', 'On Writing'],
+    tags: ['Site Migration', 'Web Development', 'Writing'],
     episode_featured_image: "/post-content/2024/05/welcome-to-the-new-site-cover-img.png",
     featured_image_alt: "A cut-out image of Ryan R. Campbell next to text that welcomes visitors to the new website."
   }

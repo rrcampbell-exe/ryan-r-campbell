@@ -217,6 +217,45 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <img
                   alt="The cover image for a blog post"
                   class="cover-image"
+                  src="/post-content/2024/06/new-feature-introducing-blog-tags-cover-img.png"
+                />
+                <h3>
+                  New Feature: Introducing Blog Tags!
+                </h3>
+                <span>
+                  Posted on 
+                  June 8, 2024
+                </span>
+                <p>
+                  Blog tags are now available for posts published in 2021 or later.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    WEB DEVELOPMENT, NEW FEATURES, SITE MIGRATION
+                  </p>
+                </div>
+                <a
+                  href="/2024/06/08/new-feature-introducing-blog-tags"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  alt="The cover image for a blog post"
+                  class="cover-image"
                   src="/post-content/2024/05/dont-follow-your-passion-part-one-cover-img.jpg"
                 />
                 <h3>
@@ -353,7 +392,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                     FILED UNDER:
                   </p>
                   <p>
-                    SITE MIGRATION, WEB DEVELOPMENT, ON WRITING
+                    SITE MIGRATION, WEB DEVELOPMENT, WRITING
                   </p>
                 </div>
                 <a
@@ -385,6 +424,16 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <p>
                   After a couple of years off the speakers' circuit and without a vacation (thanks, pandemic), the last couple of weeks were a welcome reprieve.
                 </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    WRITING, CONFERENCES, VACATION
+                  </p>
+                </div>
                 <a
                   href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
                 >
@@ -414,6 +463,16 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <p>
                   Scambait is finally here! But what comes next?
                 </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    WRITING, NOT A CULT, I PROMISE, WORK IN PROGRESS
+                  </p>
+                </div>
                 <a
                   href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
                 >
@@ -443,6 +502,16 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <p>
                   Scambait is now available from retailers everywhere!
                 </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    SCAMBAIT, BOOK RELEASE, SELF PUBLISHING
+                  </p>
+                </div>
                 <a
                   href="/2022/04/18/happy-book-birthday-to-scambait/"
                 >
@@ -472,37 +541,18 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <p>
                   Surprise! It's time for the SCAMBAIT cover reveal.
                 </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    SCAMBAIT, COVER REVEAL, SELF PUBLISHING
+                  </p>
+                </div>
                 <a
                   href="/2022/02/23/the-scambait-cover-reveal/"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <img
-                  alt="The cover image for a blog post"
-                  class="cover-image"
-                  src="/wp-content/uploads/2022/02/Scambait-Cover-Copy-Blog-Post-Header.jpg"
-                />
-                <h3>
-                  Your First Look: A Scambait Back Cover Teaser!
-                </h3>
-                <span>
-                  Posted on 
-                  February 8, 2022
-                </span>
-                <p>
-                  The work to publish Scambait is progressing nicely, but I need your help to continue—and I've got a teaser in exchange for your help.
-                </p>
-                <a
-                  href="/2022/02/08/your-first-look-a-scambait-back-cover-teaser/"
                 >
                   read the full post
                 </a>
@@ -810,6 +860,45 @@ exports[`BlogLanding > default snapshot 1`] = `
               <img
                 alt="The cover image for a blog post"
                 class="cover-image"
+                src="/post-content/2024/06/new-feature-introducing-blog-tags-cover-img.png"
+              />
+              <h3>
+                New Feature: Introducing Blog Tags!
+              </h3>
+              <span>
+                Posted on 
+                June 8, 2024
+              </span>
+              <p>
+                Blog tags are now available for posts published in 2021 or later.
+              </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  WEB DEVELOPMENT, NEW FEATURES, SITE MIGRATION
+                </p>
+              </div>
+              <a
+                href="/2024/06/08/new-feature-introducing-blog-tags"
+              >
+                read the full post
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                alt="The cover image for a blog post"
+                class="cover-image"
                 src="/post-content/2024/05/dont-follow-your-passion-part-one-cover-img.jpg"
               />
               <h3>
@@ -946,7 +1035,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                   FILED UNDER:
                 </p>
                 <p>
-                  SITE MIGRATION, WEB DEVELOPMENT, ON WRITING
+                  SITE MIGRATION, WEB DEVELOPMENT, WRITING
                 </p>
               </div>
               <a
@@ -978,6 +1067,16 @@ exports[`BlogLanding > default snapshot 1`] = `
               <p>
                 After a couple of years off the speakers' circuit and without a vacation (thanks, pandemic), the last couple of weeks were a welcome reprieve.
               </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  WRITING, CONFERENCES, VACATION
+                </p>
+              </div>
               <a
                 href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
               >
@@ -1007,6 +1106,16 @@ exports[`BlogLanding > default snapshot 1`] = `
               <p>
                 Scambait is finally here! But what comes next?
               </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  WRITING, NOT A CULT, I PROMISE, WORK IN PROGRESS
+                </p>
+              </div>
               <a
                 href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
               >
@@ -1036,6 +1145,16 @@ exports[`BlogLanding > default snapshot 1`] = `
               <p>
                 Scambait is now available from retailers everywhere!
               </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  SCAMBAIT, BOOK RELEASE, SELF PUBLISHING
+                </p>
+              </div>
               <a
                 href="/2022/04/18/happy-book-birthday-to-scambait/"
               >
@@ -1065,37 +1184,18 @@ exports[`BlogLanding > default snapshot 1`] = `
               <p>
                 Surprise! It's time for the SCAMBAIT cover reveal.
               </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  SCAMBAIT, COVER REVEAL, SELF PUBLISHING
+                </p>
+              </div>
               <a
                 href="/2022/02/23/the-scambait-cover-reveal/"
-              >
-                read the full post
-              </a>
-              <div
-                class="content-post-underline"
-              />
-            </div>
-          </div>
-          <div>
-            <div
-              class="content-post grow-on-hover"
-            >
-              <img
-                alt="The cover image for a blog post"
-                class="cover-image"
-                src="/wp-content/uploads/2022/02/Scambait-Cover-Copy-Blog-Post-Header.jpg"
-              />
-              <h3>
-                Your First Look: A Scambait Back Cover Teaser!
-              </h3>
-              <span>
-                Posted on 
-                February 8, 2022
-              </span>
-              <p>
-                The work to publish Scambait is progressing nicely, but I need your help to continue—and I've got a teaser in exchange for your help.
-              </p>
-              <a
-                href="/2022/02/08/your-first-look-a-scambait-back-cover-teaser/"
               >
                 read the full post
               </a>
