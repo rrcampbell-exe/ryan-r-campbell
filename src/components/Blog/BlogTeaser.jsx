@@ -7,7 +7,7 @@ const renderTags = (post) => {
   const postDate = new Date(post.date)
   const postYear = postDate.getUTCFullYear().toString()
 
-  if (parseInt(postYear) > 2021) {
+  if (parseInt(postYear) > 2020) {
     return (
       <div className='teaser-tags'>
         <p>FILED UNDER:</p> 
@@ -25,7 +25,7 @@ const BlogTeaser = ({ postsQtyToDisplay, showCoverImage, postsPage, isTagSearch,
 
   const allPosts = [...posts, ...legacyPosts]
 
-  const teaserPosts = isTagSearch ? filteredPosts : allPosts.slice(0, maxPostIndex)
+  const teaserPosts = isTagSearch ? filteredPosts.slice(0, maxPostIndex) : allPosts.slice(0, maxPostIndex)
 
   return (
     <div className='ContentTeaser' data-testid='blog-teaser'>

@@ -25,10 +25,11 @@ const BlogLanding = () => {
   const postsQtyToDisplay = (tag, filteredPosts) => {
     if (!tag) return 9
     if (filteredPosts.length < 9) return filteredPosts.length
+    if (filteredPosts.length >= 9) return 9
     return 9
   }
   const numberOfPostsShown = postsQtyToDisplay(tag, filteredPosts) * postsPage
-  const allBlogPostsShown = numberOfPostsShown >= totalPostsQty
+  const allBlogPostsShown = !tag ? numberOfPostsShown >= totalPostsQty : numberOfPostsShown >= filteredPosts.length
 
   const buttonText = allBlogPostsShown ? 'all blog posts shown' : 'load more posts'
 
@@ -37,7 +38,7 @@ const BlogLanding = () => {
       <main className='ContentHub'>
         <BlogTeaser postsQtyToDisplay={postsQtyToDisplay(tag, filteredPosts)} showCoverImage postsPage={postsPage} isTagSearch={tag} filteredPosts={filteredPosts} allPosts={allPosts} />
         {/* if tag is undefined or if a tag *is* defined and there are more than 9 posts associated with it, then display load more button */}
-        {(!tag || (tag && postsQtyToDisplay(tag, filteredPosts) > filteredPosts.length)) &&
+        {(!tag || (tag && postsQtyToDisplay(tag, filteredPosts) < filteredPosts.length)) &&
           <div className='content-hub-nav'>
             <button onClick={() => setPostsPage(postsPage + 1)} disabled={allBlogPostsShown}>{buttonText}</button>
           </div>
