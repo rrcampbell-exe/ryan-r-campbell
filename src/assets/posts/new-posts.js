@@ -13,7 +13,7 @@ const posts = [
       protected: false
     },
     excerpt: {
-      rendered: "Blog tags are now available for posts published in 2022 or later.",
+      rendered: "Blog tags are now available for posts published in 2021 or later.",
       protected: false
     },
     tags: ['Web Development', 'New Features', 'Site Migration'],
