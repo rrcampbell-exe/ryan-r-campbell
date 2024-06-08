@@ -74,7 +74,6 @@ code theme-machine`}
   }
 }
 `}
-        showLineNumbers={false}
       />
       <p>We could call it quits here, yes, and say we implemented both a light mode and a dark mode, but... we haven't yet done it with <CodeSpan text='light-dark()' />, which, you know, is the entire point of the post, so let's pivot away from <CodeSpan text='prefers-color-scheme' /> and instead, at long last, implement <CodeSpan text='light-dark()' />.</p>
       <h3>Turning On (or Off!) the Lights: Implementing light-dark()</h3>
