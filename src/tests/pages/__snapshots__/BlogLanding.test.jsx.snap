@@ -227,7 +227,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                   June 8, 2024
                 </span>
                 <p>
-                  Blog tags are now available for posts published in 2022 or later.
+                  Blog tags are now available for posts published in 2021 or later.
                 </p>
                 <div
                   class="teaser-tags"
@@ -392,7 +392,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                     FILED UNDER:
                   </p>
                   <p>
-                    SITE MIGRATION, WEB DEVELOPMENT, ON WRITING
+                    SITE MIGRATION, WEB DEVELOPMENT, WRITING
                   </p>
                 </div>
                 <a
@@ -870,7 +870,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 June 8, 2024
               </span>
               <p>
-                Blog tags are now available for posts published in 2022 or later.
+                Blog tags are now available for posts published in 2021 or later.
               </p>
               <div
                 class="teaser-tags"
@@ -1035,7 +1035,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                   FILED UNDER:
                 </p>
                 <p>
-                  SITE MIGRATION, WEB DEVELOPMENT, ON WRITING
+                  SITE MIGRATION, WEB DEVELOPMENT, WRITING
                 </p>
               </div>
               <a

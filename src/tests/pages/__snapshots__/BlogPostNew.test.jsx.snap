@@ -293,7 +293,7 @@ exports[`BlogPost > default snapshot 1`] = `
                   <span
                     class="tag grow-on-hover"
                   >
-                    On Writing
+                    Writing
                   </span>
                 </div>
               </div>
@@ -641,7 +641,7 @@ exports[`BlogPost > default snapshot 1`] = `
                 <span
                   class="tag grow-on-hover"
                 >
-                  On Writing
+                  Writing
                 </span>
               </div>
             </div>
