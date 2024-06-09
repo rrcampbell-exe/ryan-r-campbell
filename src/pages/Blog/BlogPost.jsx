@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { legacyPosts, posts } from '../../assets/posts'
 import { useParams } from 'react-router-dom'
 import { fetchPost, formatDate, extractHTMLContent } from '../../utils'
@@ -13,6 +13,8 @@ const BlogPost = () => {
   const { year, month, day, slug } = useParams()
   const [jsxContent, setJsxContent] = useState(null)
   const [isError, setIsError] = useState(false)
+  const [isOverflowing, setIsOverflowing] = useState(false)
+  const articleRef = useRef(null)
 
   const postsArr = parseInt(year) < 2023 ? legacyPosts : posts
 
@@ -88,6 +90,28 @@ const BlogPost = () => {
   // if post is a legacy post, render the content as is; otherwise, fetch JSX for new post
   const postContent = year < 2023 ? extractHTMLContent(contentToRender) : jsxContent
 
+    // see if page is longer than viewport height
+    const checkOverflow = () => {
+      if (articleRef.current) {
+        const articleHeight = articleRef.current.scrollHeight
+        const viewportHeight = window.innerHeight
+        setIsOverflowing(articleHeight > viewportHeight)
+      }
+    }
+  
+    useEffect(() => {
+      // Check overflow on initial render
+      checkOverflow()
+  
+      // Check overflow on window resize
+      window.addEventListener('resize', checkOverflow)
+  
+      // Clean up the event listener on component unmount
+      return () => {
+        window.removeEventListener('resize', checkOverflow)
+      }
+    }, [postContent, jsxContent])
+
   return (
     <PageWrapper pageTitle='author | technologist'>
       <main>
@@ -110,18 +134,15 @@ const BlogPost = () => {
                 <p className='bio'>{shortBio}</p>
                 <div className='content-post-underline' />
               </div>
+              <BlogTags tags={post.tags} year={year} tagsQty={post.tags.length} />
             </div>
           </div>
           {year > 2023 ? (
-            <article data-testid='article'>{jsxContent ? jsxContent : <p>Loading...</p>}</article>
+            <article data-testid='article' ref={articleRef}>{jsxContent ? jsxContent : <p>Loading...</p>}</article>
           ) : (
-            <article data-testid='article' dangerouslySetInnerHTML={{ __html: postContent }}/>
+            <article data-testid='article' ref={articleRef} dangerouslySetInnerHTML={{ __html: postContent }}/>
           )}
-          {year > 2020 && post.tags.length > 0 && (
-            <div className='tags'>
-              <BlogTags tags={post.tags} />
-            </div>
-          )}
+          {isOverflowing && <BlogTags tags={post.tags} year={year} tagsQty={post.tags.length} />}
           <BlogFooter post={post} />
         </div>
       </main>
