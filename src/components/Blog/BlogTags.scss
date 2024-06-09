@@ -22,6 +22,15 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  @media (max-width: 600px) {
+    .tags-container {
+      flex-direction: column;
+      .tag {
+        width: fit-content;
+      }
+    }
+  }
 }
 
 .dark-theme {
