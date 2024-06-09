@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import { fetchPost, formatDate, extractHTMLContent } from '../../utils'
 import { shortBio } from '../../constants'
 import { NotFound, Contact, PageWrapper, NotificationBanner, BlogTags, BlogFooter } from '../../components'
-import { useMetaTags, useDocumentTitle } from '../../hooks'
+import { Helmet } from 'react-helmet'
 
 // TODO: need to sanitize remaining HTML of comments related to divi
 // TODO: need to remove footer contents with book recommendation at the end
@@ -59,37 +59,33 @@ const BlogPost = () => {
     excerpt: { rendered: excerpt = '' } = {}
   } = post || {}
 
-  // set document title for blog post
-  useDocumentTitle(title)
-
-  // set meta tags for blog post
-  useMetaTags([
-    { type: 'name', name: 'description', content: excerpt },
-    // designate og:title, og:description, og:site_name, og:url, and og:image for open graph protocol
-    { type: 'property', name: 'og:title', content: title },
-    { type: 'property', name: 'og:description', content: excerpt },
-    { type: 'property', name: 'og:site_name', content: 'Ryan R. Campbell - Keep Curious' },
-    { type: 'property', name: 'og:url', content: `https://www.ryanrcampbell.com/${slug}` },
-    { type: 'property', name: 'og:image', content: `https://www.ryanrcampbell.com/${episode_featured_image}` },
-    // designate properties for twitter
-    { type: 'property', name: 'twitter:card', content: 'summary_large_image' },
-    { type: 'property', name: 'twitter:title', content: title },
-    { type: 'property', name: 'twitter:description', content: excerpt },
-    { type: 'property', name: 'twitter:image', content: `https://www.ryanrcampbell.com/${episode_featured_image}` },
-    // designate properties for pinterest
-    { type: 'property', name: 'pinterest:title', content: title },
-    { type: 'property', name: 'pinterest:description', content: excerpt },
-    { type: 'property', name: 'pinterest:image', content: `https://www.ryanrcampbell.com/${episode_featured_image}` },
-    // designate properties for google
-    { type: 'property', name: 'google:title', content: title },
-    { type: 'property', name: 'google:description', content: excerpt }
-  ])
-
   // if post is a legacy post, render the content as is; otherwise, fetch JSX for new post
   const postContent = year < 2023 ? extractHTMLContent(contentToRender) : jsxContent
 
   return (
     <PageWrapper pageTitle='author | technologist'>
+      <Helmet>
+        <title>{title}</title>
+        <meta name='description' content={excerpt} />
+        {/* designate og:title, og:description, og:site_name, og:url, and og:image for open graph protocol */}
+        <meta property='og:title' content={title} />
+        <meta property='og:description' content={excerpt} />
+        <meta property='og:site_name' content='Ryan R. Campbell - Keep Curious' />
+        <meta property='og:url' content={`https://www.ryanrcampbell.com/${slug}`} />
+        <meta property='og:image' content={`https://www.ryanrcampbell.com/${episode_featured_image}`} />
+        {/* designate properties for twitter */}
+        <meta property='twitter:card' content='summary_large_image' />
+        <meta property='twitter:title' content={title} />
+        <meta property='twitter:description' content={excerpt} />
+        <meta property='twitter:image' content={`https://www.ryanrcampbell.com/${episode_featured_image}`} />
+        {/* designate properties for pinterest */}
+        <meta property='pinterest:title' content={title} />
+        <meta property='pinterest:description' content={excerpt} />
+        <meta property='pinterest:image' content={`https://www.ryanrcampbell.com/${episode_featured_image}`} />
+        {/* designate properties for google */}
+        <meta property='google:title' content={title} />
+        <meta property='google:description' content={excerpt} />
+      </Helmet>
       <main>
         <div className='Post'>
           <div className='masthead'>
