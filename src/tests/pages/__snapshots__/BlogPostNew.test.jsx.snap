@@ -256,6 +256,39 @@ exports[`BlogPost > default snapshot 1`] = `
                     class="content-post-underline"
                   />
                 </div>
+                <div
+                  class="tags"
+                >
+                  <div
+                    class="Blog-tags"
+                  >
+                    <div
+                      class="content-post-underline"
+                    />
+                    <p>
+                      FILED UNDER:
+                    </p>
+                    <div
+                      class="tags-container"
+                    >
+                      <span
+                        class="tag grow-on-hover"
+                      >
+                        Site Migration
+                      </span>
+                      <span
+                        class="tag grow-on-hover"
+                      >
+                        Web Development
+                      </span>
+                      <span
+                        class="tag grow-on-hover"
+                      >
+                        Writing
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <article
@@ -265,39 +298,6 @@ exports[`BlogPost > default snapshot 1`] = `
                 Loading...
               </p>
             </article>
-            <div
-              class="tags"
-            >
-              <div
-                class="Blog-tags"
-              >
-                <div
-                  class="content-post-underline"
-                />
-                <p>
-                  FILED UNDER:
-                </p>
-                <div
-                  class="tags-container"
-                >
-                  <span
-                    class="tag grow-on-hover"
-                  >
-                    Site Migration
-                  </span>
-                  <span
-                    class="tag grow-on-hover"
-                  >
-                    Web Development
-                  </span>
-                  <span
-                    class="tag grow-on-hover"
-                  >
-                    Writing
-                  </span>
-                </div>
-              </div>
-            </div>
             <div
               class="nav-footer"
             >
@@ -604,6 +604,39 @@ exports[`BlogPost > default snapshot 1`] = `
                   class="content-post-underline"
                 />
               </div>
+              <div
+                class="tags"
+              >
+                <div
+                  class="Blog-tags"
+                >
+                  <div
+                    class="content-post-underline"
+                  />
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <div
+                    class="tags-container"
+                  >
+                    <span
+                      class="tag grow-on-hover"
+                    >
+                      Site Migration
+                    </span>
+                    <span
+                      class="tag grow-on-hover"
+                    >
+                      Web Development
+                    </span>
+                    <span
+                      class="tag grow-on-hover"
+                    >
+                      Writing
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <article
@@ -613,39 +646,6 @@ exports[`BlogPost > default snapshot 1`] = `
               Loading...
             </p>
           </article>
-          <div
-            class="tags"
-          >
-            <div
-              class="Blog-tags"
-            >
-              <div
-                class="content-post-underline"
-              />
-              <p>
-                FILED UNDER:
-              </p>
-              <div
-                class="tags-container"
-              >
-                <span
-                  class="tag grow-on-hover"
-                >
-                  Site Migration
-                </span>
-                <span
-                  class="tag grow-on-hover"
-                >
-                  Web Development
-                </span>
-                <span
-                  class="tag grow-on-hover"
-                >
-                  Writing
-                </span>
-              </div>
-            </div>
-          </div>
           <div
             class="nav-footer"
           >
