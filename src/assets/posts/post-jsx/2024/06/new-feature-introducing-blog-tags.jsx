@@ -8,7 +8,7 @@ const NewFeatureIntroducingBlogTags = () => {
   return (
     <>
       <h2>Tag It, Search It</h2>
-      <p>Blog tags are now available for all blog posts dated 2021 or later. These tags can be found at the bottom of each blog post, sorting it into up to three categories.</p>
+      <p>Blog tags are now available for all blog posts dated 2021 or later. These tags can be found at the top (and, depending on post length, the bottom!) of each blog post, sorting it into up to three categories.</p>
       <p>Each tag is clickable and, when clicked, will present you with posts that have been similarly categorized.</p>
       <p>Want to see more posts about <em>Web Development</em>? Click the tag! Want to see only the posts related to <em>Writing</em>? Give it a click!</p>
       <p>Remember, as of this blog post, only posts published in 2021 or later have this feature available, but I'll be updating older posts over time to ensure all posts are eventually categorized appropriately.</p>
