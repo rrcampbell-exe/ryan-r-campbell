@@ -229,6 +229,13 @@ exports[`constants should match snapshots > featuredIn 1`] = `
     "name": "Neurotic Nourishment",
     "src": "./featured-in/Neurotic-Nourishment-Logo.png",
   },
+  {
+    "alt": "The logo for University of Wisconsin Boot Camps",
+    "className": "light",
+    "link": "https://bootcamp.wisconsin.edu/blog/from-publishing-to-web-development-how-ryan-campbell-upskilled-to-land-a-new-career/",
+    "name": "Wisconsin Bootcamps",
+    "src": "./featured-in/Wisconsin-Boot-Camps-Logo.png",
+  },
 ]
 `;
 
