@@ -2759,6 +2759,21 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   />
                 </a>
               </div>
+              <div
+                class="featured-img light grow-on-hover"
+              >
+                <a
+                  data-testid="https://bootcamp.wisconsin.edu/blog/from-publishing-to-web-development-how-ryan-campbell-upskilled-to-land-a-new-career/"
+                  href="https://bootcamp.wisconsin.edu/blog/from-publishing-to-web-development-how-ryan-campbell-upskilled-to-land-a-new-career/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for University of Wisconsin Boot Camps"
+                    src="./featured-in/Wisconsin-Boot-Camps-Logo.png"
+                  />
+                </a>
+              </div>
             </div>
           </div>
           <div
@@ -5591,6 +5606,21 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 <img
                   alt="The logo for the Neurotic Nourishment podcast, which shows host Lindsay Weisner laughing"
                   src="./featured-in/Neurotic-Nourishment-Logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img light grow-on-hover"
+            >
+              <a
+                data-testid="https://bootcamp.wisconsin.edu/blog/from-publishing-to-web-development-how-ryan-campbell-upskilled-to-land-a-new-career/"
+                href="https://bootcamp.wisconsin.edu/blog/from-publishing-to-web-development-how-ryan-campbell-upskilled-to-land-a-new-career/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for University of Wisconsin Boot Camps"
+                  src="./featured-in/Wisconsin-Boot-Camps-Logo.png"
                 />
               </a>
             </div>

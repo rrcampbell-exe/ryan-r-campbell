@@ -54,6 +54,13 @@ const featuredIn = [
     link: 'https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa',
     src: './featured-in/Neurotic-Nourishment-Logo.png',
     className: 'minify',
+  },
+  {
+    name: 'Wisconsin Bootcamps',
+    alt: 'The logo for University of Wisconsin Boot Camps',
+    link: 'https://bootcamp.wisconsin.edu/blog/from-publishing-to-web-development-how-ryan-campbell-upskilled-to-land-a-new-career/',
+    src: './featured-in/Wisconsin-Boot-Camps-Logo.png',
+    className: 'light',
   }
 ]
 
