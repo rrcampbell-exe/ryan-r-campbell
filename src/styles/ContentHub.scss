@@ -93,6 +93,16 @@
     }
   }
 
+  .banner-link {
+    text-decoration: underline;
+    color: var(--main-light-color);
+  }
+
+  .bullhorn-svg {
+    fill: var(--main-light-color);
+    stroke: var(--main-light-color);
+  }
+
   .title {
     margin-bottom: 0;
   }
@@ -189,6 +199,17 @@
       display: none;
     }
   }
+}
+
+// light theme banner link color
+.light-theme .banner-link {
+  color: var(--main-dark-color);
+}
+
+// light theme bullhorn icon color
+.light-theme .bullhorn-svg {
+  fill: var(--main-dark-color);
+  stroke: var(--main-dark-color);
 }
 
 // Styles for content hub
