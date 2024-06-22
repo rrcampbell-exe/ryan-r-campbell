@@ -1,8 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Builds, SubNav, Contact, PageWrapper, Boasts, SkillsCloud } from '../../components'
+import { useScrollToHash } from '../../hooks'
 
 const TechLanding = () => {
+  useScrollToHash()
+
   return (
     <PageWrapper pageTitle='engineer | problem-solver | communicator'>
       <SubNav sections={['about', 'builds', 'skills', 'boasts', 'contact']} />
