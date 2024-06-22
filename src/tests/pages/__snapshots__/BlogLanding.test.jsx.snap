@@ -217,6 +217,45 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <img
                   alt="The cover image for a blog post"
                   class="cover-image"
+                  src="/post-content/2024/06/craftsman-mindset-cover-img.png"
+                />
+                <h3>
+                  Why Skill Triumphs Over Passion: The Craftsman Mindset
+                </h3>
+                <span>
+                  Posted on 
+                  June 22, 2024
+                </span>
+                <p>
+                  "Ask not what your career can do for you. Ask what you can do for your career."
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
+                  </p>
+                </div>
+                <a
+                  href="/2024/06/22/why-skill-triumphs-over-passion-the-craftsman-mindset"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  alt="The cover image for a blog post"
+                  class="cover-image"
                   src="/post-content/2024/06/new-feature-introducing-blog-tags-cover-img.png"
                 />
                 <h3>
@@ -514,45 +553,6 @@ exports[`BlogLanding > default snapshot 1`] = `
                 </div>
                 <a
                   href="/2022/04/18/happy-book-birthday-to-scambait/"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <img
-                  alt="The cover image for a blog post"
-                  class="cover-image"
-                  src="/wp-content/uploads/2022/02/Scambait-Book-Cover-Reveal-Teaser-No-Date.png"
-                />
-                <h3>
-                  The SCAMBAIT Cover Reveal!
-                </h3>
-                <span>
-                  Posted on 
-                  February 23, 2022
-                </span>
-                <p>
-                  Surprise! It's time for the SCAMBAIT cover reveal.
-                </p>
-                <div
-                  class="teaser-tags"
-                >
-                  <p>
-                    FILED UNDER:
-                  </p>
-                  <p>
-                    SCAMBAIT, COVER REVEAL, SELF PUBLISHING
-                  </p>
-                </div>
-                <a
-                  href="/2022/02/23/the-scambait-cover-reveal/"
                 >
                   read the full post
                 </a>
@@ -860,6 +860,45 @@ exports[`BlogLanding > default snapshot 1`] = `
               <img
                 alt="The cover image for a blog post"
                 class="cover-image"
+                src="/post-content/2024/06/craftsman-mindset-cover-img.png"
+              />
+              <h3>
+                Why Skill Triumphs Over Passion: The Craftsman Mindset
+              </h3>
+              <span>
+                Posted on 
+                June 22, 2024
+              </span>
+              <p>
+                "Ask not what your career can do for you. Ask what you can do for your career."
+              </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
+                </p>
+              </div>
+              <a
+                href="/2024/06/22/why-skill-triumphs-over-passion-the-craftsman-mindset"
+              >
+                read the full post
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                alt="The cover image for a blog post"
+                class="cover-image"
                 src="/post-content/2024/06/new-feature-introducing-blog-tags-cover-img.png"
               />
               <h3>
@@ -1157,45 +1196,6 @@ exports[`BlogLanding > default snapshot 1`] = `
               </div>
               <a
                 href="/2022/04/18/happy-book-birthday-to-scambait/"
-              >
-                read the full post
-              </a>
-              <div
-                class="content-post-underline"
-              />
-            </div>
-          </div>
-          <div>
-            <div
-              class="content-post grow-on-hover"
-            >
-              <img
-                alt="The cover image for a blog post"
-                class="cover-image"
-                src="/wp-content/uploads/2022/02/Scambait-Book-Cover-Reveal-Teaser-No-Date.png"
-              />
-              <h3>
-                The SCAMBAIT Cover Reveal!
-              </h3>
-              <span>
-                Posted on 
-                February 23, 2022
-              </span>
-              <p>
-                Surprise! It's time for the SCAMBAIT cover reveal.
-              </p>
-              <div
-                class="teaser-tags"
-              >
-                <p>
-                  FILED UNDER:
-                </p>
-                <p>
-                  SCAMBAIT, COVER REVEAL, SELF PUBLISHING
-                </p>
-              </div>
-              <a
-                href="/2022/02/23/the-scambait-cover-reveal/"
               >
                 read the full post
               </a>
