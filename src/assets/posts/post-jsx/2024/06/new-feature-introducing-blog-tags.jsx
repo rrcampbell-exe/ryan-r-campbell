@@ -2,9 +2,6 @@ import React from 'react'
 import { CodeBlock } from '../../../../../components'
 
 const NewFeatureIntroducingBlogTags = () => {
-  const transformTag = (tag) => {
-    return tag.replace(/ /g, '-').toLowerCase()
-  }
   return (
     <>
       <h2>Tag It, Search It</h2>

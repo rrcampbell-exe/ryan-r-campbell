@@ -1,5 +1,25 @@
 const posts = [
   {
+    id: 10093,
+    date: "2024-06-22T06:00:00",
+    slug: "why-skill-triumphs-over-passion-the-craftsman-mindset",
+    link: "https://ryanrcampbell.com/2024/06/22/why-skill-triumphs-over-passion-the-craftsman-mindset",
+    title: {
+      rendered: "Why Skill Triumphs Over Passion: The Craftsman Mindset"
+    },
+    content: {
+      rendered:
+        '',
+      protected: false
+    },
+    excerpt: {
+      rendered: '"Ask not what your career can do for you. Ask what you can do for your career."',
+      protected: false
+    },
+    tags: ['Passionate Craftsman', 'Professional Development', 'Identity'],
+    episode_featured_image: "/post-content/2024/06/craftsman-mindset-cover-img.png"
+  },
+  {
     id: 10092,
     date: "2024-06-08T06:00:00",
     slug: "new-feature-introducing-blog-tags",

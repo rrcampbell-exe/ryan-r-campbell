@@ -295,6 +295,40 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <h3>
+                    Why Skill Triumphs Over Passion: The Craftsman Mindset
+                  </h3>
+                  <span>
+                    Posted on 
+                    June 22, 2024
+                  </span>
+                  <p>
+                    "Ask not what your career can do for you. Ask what you can do for your career."
+                  </p>
+                  <div
+                    class="teaser-tags"
+                  >
+                    <p>
+                      FILED UNDER:
+                    </p>
+                    <p>
+                      PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
+                    </p>
+                  </div>
+                  <a
+                    href="/2024/06/22/why-skill-triumphs-over-passion-the-craftsman-mindset"
+                  >
+                    read the full post
+                  </a>
+                  <div
+                    class="content-post-underline"
+                  />
+                </div>
+              </div>
+              <div>
+                <div
+                  class="content-post grow-on-hover"
+                >
+                  <h3>
                     New Feature: Introducing Blog Tags!
                   </h3>
                   <span>
@@ -350,40 +384,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   </div>
                   <a
                     href="/2024/05/31/dont-follow-your-passion-become-the-passionate-craftsman"
-                  >
-                    read the full post
-                  </a>
-                  <div
-                    class="content-post-underline"
-                  />
-                </div>
-              </div>
-              <div>
-                <div
-                  class="content-post grow-on-hover"
-                >
-                  <h3>
-                    Let There Be light-dark()
-                  </h3>
-                  <span>
-                    Posted on 
-                    May 24, 2024
-                  </span>
-                  <p>
-                    In the beginning, there was light mode, but lo! After a time, the retinas of webizens did cry out, yearning for reprieve.
-                  </p>
-                  <div
-                    class="teaser-tags"
-                  >
-                    <p>
-                      FILED UNDER:
-                    </p>
-                    <p>
-                      CSS, WEB DEVELOPMENT, SITE MIGRATION
-                    </p>
-                  </div>
-                  <a
-                    href="/2024/05/24/let-there-be-light-dark"
                   >
                     read the full post
                   </a>
@@ -1109,6 +1109,40 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <h3>
+                  Why Skill Triumphs Over Passion: The Craftsman Mindset
+                </h3>
+                <span>
+                  Posted on 
+                  June 22, 2024
+                </span>
+                <p>
+                  "Ask not what your career can do for you. Ask what you can do for your career."
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
+                  </p>
+                </div>
+                <a
+                  href="/2024/06/22/why-skill-triumphs-over-passion-the-craftsman-mindset"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <h3>
                   New Feature: Introducing Blog Tags!
                 </h3>
                 <span>
@@ -1164,40 +1198,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </div>
                 <a
                   href="/2024/05/31/dont-follow-your-passion-become-the-passionate-craftsman"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <h3>
-                  Let There Be light-dark()
-                </h3>
-                <span>
-                  Posted on 
-                  May 24, 2024
-                </span>
-                <p>
-                  In the beginning, there was light mode, but lo! After a time, the retinas of webizens did cry out, yearning for reprieve.
-                </p>
-                <div
-                  class="teaser-tags"
-                >
-                  <p>
-                    FILED UNDER:
-                  </p>
-                  <p>
-                    CSS, WEB DEVELOPMENT, SITE MIGRATION
-                  </p>
-                </div>
-                <a
-                  href="/2024/05/24/let-there-be-light-dark"
                 >
                   read the full post
                 </a>

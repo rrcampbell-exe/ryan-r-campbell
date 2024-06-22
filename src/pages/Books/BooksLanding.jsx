@@ -1,22 +1,11 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Contact, SubNav, Reviews, PageWrapper } from '../../components'
 import { books } from '../../constants'
-import { useLocation } from 'react-router-dom'
 import Tilt from 'react-parallax-tilt'
+import { useScrollToHash } from '../../hooks'
 
 const BooksLanding = () => {
-  const { state } = useLocation()
-
-  useEffect(() => {
-    if (state && state.hash) {
-      const element = document.getElementById(state.hash)
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' })
-      } else {
-        window.scrollTo(top)
-      }
-    }
-  }, [])
+  useScrollToHash()
 
   return (
     <PageWrapper pageTitle='international book awards finalist'>
