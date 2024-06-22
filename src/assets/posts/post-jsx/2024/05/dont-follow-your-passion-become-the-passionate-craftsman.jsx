@@ -8,7 +8,7 @@ const DontFollowYourPassionBecomeThePassionateCraftsman = () => {
       <NotificationBanner
         type='announcement'
         title={<>This is part one of the ongoing <em>passionate craftsman</em> series.</>}
-        text="As new installments are published, they'll be linked here."
+        text={<>You can <Link className='banner-link' to='/blog/passionate-craftsman'>find the full series here</Link>.</>}
       />
       <h2>Don't Follow Your Passion</h2>
       <p>This is the opening salvo of Cal Newport's <em>So Good They Can't Ignore You</em>, which, admittedly, made for a tough opening chapter to a book I'd very much looked forward to reading.</p>
