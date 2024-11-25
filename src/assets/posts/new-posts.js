@@ -1,5 +1,25 @@
 const posts = [
   {
+    id: 10094,
+    date: "2024-11-25T06:00:00",
+    slug: "passion-meets-craft-a-new-framework-for-loving-your-work",
+    link: "https://ryanrcampbell.com/2024/11/25/passion-meets-craft-a-new-framework-for-loving-your-work",
+    title: {
+      rendered: "Passion Meets Craft: A New Framework for Loving Your Work"
+    },
+    content: {
+      rendered:
+        '',
+      protected: false
+    },
+    excerpt: {
+      rendered: 'Passion plus craft equals sustainability and fulfillment. Here\'s how to make it happen.',
+      protected: false
+    },
+    tags: ['Passionate Craftsman', 'Professional Development', 'Identity'],
+    episode_featured_image: "/post-content/2024/11/where-passion-meets-craft-cover-img.png"
+  },
+  {
     id: 10093,
     date: "2024-06-22T06:00:00",
     slug: "why-skill-triumphs-over-passion-the-craftsman-mindset",
