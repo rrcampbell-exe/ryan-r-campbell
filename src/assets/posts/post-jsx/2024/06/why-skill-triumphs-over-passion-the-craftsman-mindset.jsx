@@ -7,7 +7,7 @@ const WhySkillTriumphsOverPassion = () => {
     <>
       <NotificationBanner
         type='announcement'
-        title={<>This is part two of the ongoing <em>passionate craftsman</em> series.</>}
+        title={<>This is part two of three in the <em>passionate craftsman</em> series.</>}
         text={<>You can <Link className='banner-link' to='/blog/passionate-craftsman'>find the full series here</Link>.</>}
       />
       <h2>Why Skill Triumphs Over Passion: The Craftsman Mindset</h2>

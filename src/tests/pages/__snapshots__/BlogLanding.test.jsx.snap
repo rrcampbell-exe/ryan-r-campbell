@@ -217,6 +217,45 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <img
                   alt="The cover image for a blog post"
                   class="cover-image"
+                  src="/post-content/2024/11/where-passion-meets-craft-cover-img.png"
+                />
+                <h3>
+                  Passion Meets Craft: A New Framework for Loving Your Work
+                </h3>
+                <span>
+                  Posted on 
+                  November 25, 2024
+                </span>
+                <p>
+                  Passion plus craft equals sustainability and fulfillment. Here's how to make it happen.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
+                  </p>
+                </div>
+                <a
+                  href="/2024/11/25/passion-meets-craft-a-new-framework-for-loving-your-work"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  alt="The cover image for a blog post"
+                  class="cover-image"
                   src="/post-content/2024/06/craftsman-mindset-cover-img.png"
                 />
                 <h3>
@@ -514,45 +553,6 @@ exports[`BlogLanding > default snapshot 1`] = `
                 </div>
                 <a
                   href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <img
-                  alt="The cover image for a blog post"
-                  class="cover-image"
-                  src="/wp-content/uploads/2022/04/Scambait-Release-Post-Cover-Image.jpg"
-                />
-                <h3>
-                  Happy Book Birthday to Scambait!
-                </h3>
-                <span>
-                  Posted on 
-                  April 18, 2022
-                </span>
-                <p>
-                  Scambait is now available from retailers everywhere!
-                </p>
-                <div
-                  class="teaser-tags"
-                >
-                  <p>
-                    FILED UNDER:
-                  </p>
-                  <p>
-                    SCAMBAIT, BOOK RELEASE, SELF PUBLISHING
-                  </p>
-                </div>
-                <a
-                  href="/2022/04/18/happy-book-birthday-to-scambait/"
                 >
                   read the full post
                 </a>
@@ -860,6 +860,45 @@ exports[`BlogLanding > default snapshot 1`] = `
               <img
                 alt="The cover image for a blog post"
                 class="cover-image"
+                src="/post-content/2024/11/where-passion-meets-craft-cover-img.png"
+              />
+              <h3>
+                Passion Meets Craft: A New Framework for Loving Your Work
+              </h3>
+              <span>
+                Posted on 
+                November 25, 2024
+              </span>
+              <p>
+                Passion plus craft equals sustainability and fulfillment. Here's how to make it happen.
+              </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
+                </p>
+              </div>
+              <a
+                href="/2024/11/25/passion-meets-craft-a-new-framework-for-loving-your-work"
+              >
+                read the full post
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                alt="The cover image for a blog post"
+                class="cover-image"
                 src="/post-content/2024/06/craftsman-mindset-cover-img.png"
               />
               <h3>
@@ -1157,45 +1196,6 @@ exports[`BlogLanding > default snapshot 1`] = `
               </div>
               <a
                 href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
-              >
-                read the full post
-              </a>
-              <div
-                class="content-post-underline"
-              />
-            </div>
-          </div>
-          <div>
-            <div
-              class="content-post grow-on-hover"
-            >
-              <img
-                alt="The cover image for a blog post"
-                class="cover-image"
-                src="/wp-content/uploads/2022/04/Scambait-Release-Post-Cover-Image.jpg"
-              />
-              <h3>
-                Happy Book Birthday to Scambait!
-              </h3>
-              <span>
-                Posted on 
-                April 18, 2022
-              </span>
-              <p>
-                Scambait is now available from retailers everywhere!
-              </p>
-              <div
-                class="teaser-tags"
-              >
-                <p>
-                  FILED UNDER:
-                </p>
-                <p>
-                  SCAMBAIT, BOOK RELEASE, SELF PUBLISHING
-                </p>
-              </div>
-              <a
-                href="/2022/04/18/happy-book-birthday-to-scambait/"
               >
                 read the full post
               </a>

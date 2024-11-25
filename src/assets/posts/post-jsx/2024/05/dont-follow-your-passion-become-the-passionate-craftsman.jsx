@@ -7,7 +7,7 @@ const DontFollowYourPassionBecomeThePassionateCraftsman = () => {
     <>
       <NotificationBanner
         type='announcement'
-        title={<>This is part one of the ongoing <em>passionate craftsman</em> series.</>}
+        title={<>This is part one of three in the <em>passionate craftsman</em> series.</>}
         text={<>You can <Link className='banner-link' to='/blog/passionate-craftsman'>find the full series here</Link>.</>}
       />
       <h2>Don't Follow Your Passion</h2>
