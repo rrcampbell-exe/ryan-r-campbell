@@ -1,5 +1,25 @@
 const posts = [
   {
+    id: 10095,
+    date: "2024-11-26T06:00:00",
+    slug: "strategic-passion-a-playbook-for-aligning-passion-with-mastery",
+    link: "https://ryanrcampbell.com/2024/11/26/strategic-passion-a-playbook-for-aligning-passion-with-mastery",
+    title: {
+      rendered: "Strategic Passion: A Playbook for Aligning Passion with Mastery"
+    },
+    content: {
+      rendered:
+        '',
+      protected: false
+    },
+    excerpt: {
+      rendered: "Marrying passion and craft is paramount, but how do we do it strategically?",
+      protected: false
+    },
+    tags: ['Passionate Craftsman', 'Professional Development', 'Strategy'],
+    episode_featured_image: "/post-content/2024/11/strategic-passion-cover-img.png"
+  },
+  {
     id: 10094,
     date: "2024-11-25T06:00:00",
     slug: "passion-meets-craft-a-new-framework-for-loving-your-work",

@@ -217,6 +217,45 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <img
                   alt="The cover image for a blog post"
                   class="cover-image"
+                  src="/post-content/2024/11/strategic-passion-cover-img.png"
+                />
+                <h3>
+                  Strategic Passion: A Playbook for Aligning Passion with Mastery
+                </h3>
+                <span>
+                  Posted on 
+                  November 26, 2024
+                </span>
+                <p>
+                  Marrying passion and craft is paramount, but how do we do it strategically?
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, STRATEGY
+                  </p>
+                </div>
+                <a
+                  href="/2024/11/26/strategic-passion-a-playbook-for-aligning-passion-with-mastery"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  alt="The cover image for a blog post"
+                  class="cover-image"
                   src="/post-content/2024/11/where-passion-meets-craft-cover-img.png"
                 />
                 <h3>
@@ -514,45 +553,6 @@ exports[`BlogLanding > default snapshot 1`] = `
                 </div>
                 <a
                   href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <img
-                  alt="The cover image for a blog post"
-                  class="cover-image"
-                  src="/wp-content/uploads/2022/05/Not-a-Cult-I-Promise-Announcement-Header-Ryan-R-Campbell.jpg"
-                />
-                <h3>
-                  Not A Cult, I Promise: On What Comes Next
-                </h3>
-                <span>
-                  Posted on 
-                  May 16, 2022
-                </span>
-                <p>
-                  Scambait is finally here! But what comes next?
-                </p>
-                <div
-                  class="teaser-tags"
-                >
-                  <p>
-                    FILED UNDER:
-                  </p>
-                  <p>
-                    WRITING, NOT A CULT, I PROMISE, WORK IN PROGRESS
-                  </p>
-                </div>
-                <a
-                  href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
                 >
                   read the full post
                 </a>
@@ -860,6 +860,45 @@ exports[`BlogLanding > default snapshot 1`] = `
               <img
                 alt="The cover image for a blog post"
                 class="cover-image"
+                src="/post-content/2024/11/strategic-passion-cover-img.png"
+              />
+              <h3>
+                Strategic Passion: A Playbook for Aligning Passion with Mastery
+              </h3>
+              <span>
+                Posted on 
+                November 26, 2024
+              </span>
+              <p>
+                Marrying passion and craft is paramount, but how do we do it strategically?
+              </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, STRATEGY
+                </p>
+              </div>
+              <a
+                href="/2024/11/26/strategic-passion-a-playbook-for-aligning-passion-with-mastery"
+              >
+                read the full post
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                alt="The cover image for a blog post"
+                class="cover-image"
                 src="/post-content/2024/11/where-passion-meets-craft-cover-img.png"
               />
               <h3>
@@ -1157,45 +1196,6 @@ exports[`BlogLanding > default snapshot 1`] = `
               </div>
               <a
                 href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
-              >
-                read the full post
-              </a>
-              <div
-                class="content-post-underline"
-              />
-            </div>
-          </div>
-          <div>
-            <div
-              class="content-post grow-on-hover"
-            >
-              <img
-                alt="The cover image for a blog post"
-                class="cover-image"
-                src="/wp-content/uploads/2022/05/Not-a-Cult-I-Promise-Announcement-Header-Ryan-R-Campbell.jpg"
-              />
-              <h3>
-                Not A Cult, I Promise: On What Comes Next
-              </h3>
-              <span>
-                Posted on 
-                May 16, 2022
-              </span>
-              <p>
-                Scambait is finally here! But what comes next?
-              </p>
-              <div
-                class="teaser-tags"
-              >
-                <p>
-                  FILED UNDER:
-                </p>
-                <p>
-                  WRITING, NOT A CULT, I PROMISE, WORK IN PROGRESS
-                </p>
-              </div>
-              <a
-                href="/2022/05/16/not-a-cult-i-promise-on-what-comes-next/"
               >
                 read the full post
               </a>
