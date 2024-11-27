@@ -19,6 +19,7 @@ import PodcastTeaser from './Podcast/PodcastTeaser'
 import Boasts from './Tech/Boasts'
 import SkillsCloud from './Tech/SkillsCloud'
 import BlogFooter from './Blog/BlogFooter'
+import SubstackRedirect from './SubstackRedirect/SubstackRedirect'
 import { CodeSpan, CodeBlock } from './CodeBlock/CodeBlock'
 
-export { BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound, NotificationBanner, Loading, Quote, TextAndImage, BlogTags, HamburgerMenu, PopText, PodcastTeaser, Boasts, SkillsCloud, BlogFooter, CodeSpan, CodeBlock }
+export { BlogTeaser, Books, Builds, Footer, Header, PageWrapper, SubNav, Contact, Reviews, NotFound, NotificationBanner, Loading, Quote, TextAndImage, BlogTags, HamburgerMenu, PopText, PodcastTeaser, Boasts, SkillsCloud, BlogFooter, CodeSpan, CodeBlock, SubstackRedirect }
