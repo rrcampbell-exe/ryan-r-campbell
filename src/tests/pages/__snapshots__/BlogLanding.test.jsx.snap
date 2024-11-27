@@ -217,6 +217,45 @@ exports[`BlogLanding > default snapshot 1`] = `
                 <img
                   alt="The cover image for a blog post"
                   class="cover-image"
+                  src="/post-content/2024/11/all-blog-posts-now-on-substack-cover-img.png"
+                />
+                <h3>
+                  All Blog Posts Now on Substack!
+                </h3>
+                <span>
+                  Posted on 
+                  November 27, 2024
+                </span>
+                <p>
+                  Click here to visit the new home for all of my blog posts.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    SITE MIGRATION, SUBSTACK
+                  </p>
+                </div>
+                <a
+                  href="/2024/11/27/all-blog-posts-now-on-substack"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <img
+                  alt="The cover image for a blog post"
+                  class="cover-image"
                   src="/post-content/2024/11/strategic-passion-cover-img.png"
                 />
                 <h3>
@@ -514,45 +553,6 @@ exports[`BlogLanding > default snapshot 1`] = `
                 </div>
                 <a
                   href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <img
-                  alt="The cover image for a blog post"
-                  class="cover-image"
-                  src="/wp-content/uploads/2022/05/Ryan-R-Campbell-Lakefly-Conference-and-Puerto-Rico-Recap.jpg"
-                />
-                <h3>
-                  From Conference to Coffee (On the Beach)
-                </h3>
-                <span>
-                  Posted on 
-                  May 19, 2022
-                </span>
-                <p>
-                  After a couple of years off the speakers' circuit and without a vacation (thanks, pandemic), the last couple of weeks were a welcome reprieve.
-                </p>
-                <div
-                  class="teaser-tags"
-                >
-                  <p>
-                    FILED UNDER:
-                  </p>
-                  <p>
-                    WRITING, CONFERENCES, VACATION
-                  </p>
-                </div>
-                <a
-                  href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
                 >
                   read the full post
                 </a>
@@ -860,6 +860,45 @@ exports[`BlogLanding > default snapshot 1`] = `
               <img
                 alt="The cover image for a blog post"
                 class="cover-image"
+                src="/post-content/2024/11/all-blog-posts-now-on-substack-cover-img.png"
+              />
+              <h3>
+                All Blog Posts Now on Substack!
+              </h3>
+              <span>
+                Posted on 
+                November 27, 2024
+              </span>
+              <p>
+                Click here to visit the new home for all of my blog posts.
+              </p>
+              <div
+                class="teaser-tags"
+              >
+                <p>
+                  FILED UNDER:
+                </p>
+                <p>
+                  SITE MIGRATION, SUBSTACK
+                </p>
+              </div>
+              <a
+                href="/2024/11/27/all-blog-posts-now-on-substack"
+              >
+                read the full post
+              </a>
+              <div
+                class="content-post-underline"
+              />
+            </div>
+          </div>
+          <div>
+            <div
+              class="content-post grow-on-hover"
+            >
+              <img
+                alt="The cover image for a blog post"
+                class="cover-image"
                 src="/post-content/2024/11/strategic-passion-cover-img.png"
               />
               <h3>
@@ -1157,45 +1196,6 @@ exports[`BlogLanding > default snapshot 1`] = `
               </div>
               <a
                 href="/2024/05/03/welcome-to-the-new-ryan-r-campbell"
-              >
-                read the full post
-              </a>
-              <div
-                class="content-post-underline"
-              />
-            </div>
-          </div>
-          <div>
-            <div
-              class="content-post grow-on-hover"
-            >
-              <img
-                alt="The cover image for a blog post"
-                class="cover-image"
-                src="/wp-content/uploads/2022/05/Ryan-R-Campbell-Lakefly-Conference-and-Puerto-Rico-Recap.jpg"
-              />
-              <h3>
-                From Conference to Coffee (On the Beach)
-              </h3>
-              <span>
-                Posted on 
-                May 19, 2022
-              </span>
-              <p>
-                After a couple of years off the speakers' circuit and without a vacation (thanks, pandemic), the last couple of weeks were a welcome reprieve.
-              </p>
-              <div
-                class="teaser-tags"
-              >
-                <p>
-                  FILED UNDER:
-                </p>
-                <p>
-                  WRITING, CONFERENCES, VACATION
-                </p>
-              </div>
-              <a
-                href="/2022/05/19/from-conference-to-coffee-on-the-beach/"
               >
                 read the full post
               </a>

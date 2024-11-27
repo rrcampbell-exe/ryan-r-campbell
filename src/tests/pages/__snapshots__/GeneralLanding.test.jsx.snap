@@ -295,6 +295,40 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <h3>
+                    All Blog Posts Now on Substack!
+                  </h3>
+                  <span>
+                    Posted on 
+                    November 27, 2024
+                  </span>
+                  <p>
+                    Click here to visit the new home for all of my blog posts.
+                  </p>
+                  <div
+                    class="teaser-tags"
+                  >
+                    <p>
+                      FILED UNDER:
+                    </p>
+                    <p>
+                      SITE MIGRATION, SUBSTACK
+                    </p>
+                  </div>
+                  <a
+                    href="/2024/11/27/all-blog-posts-now-on-substack"
+                  >
+                    read the full post
+                  </a>
+                  <div
+                    class="content-post-underline"
+                  />
+                </div>
+              </div>
+              <div>
+                <div
+                  class="content-post grow-on-hover"
+                >
+                  <h3>
                     Strategic Passion: A Playbook for Aligning Passion with Mastery
                   </h3>
                   <span>
@@ -350,40 +384,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   </div>
                   <a
                     href="/2024/11/25/passion-meets-craft-a-new-framework-for-loving-your-work"
-                  >
-                    read the full post
-                  </a>
-                  <div
-                    class="content-post-underline"
-                  />
-                </div>
-              </div>
-              <div>
-                <div
-                  class="content-post grow-on-hover"
-                >
-                  <h3>
-                    Why Skill Triumphs Over Passion: The Craftsman Mindset
-                  </h3>
-                  <span>
-                    Posted on 
-                    June 22, 2024
-                  </span>
-                  <p>
-                    "Ask not what your career can do for you. Ask what you can do for your career."
-                  </p>
-                  <div
-                    class="teaser-tags"
-                  >
-                    <p>
-                      FILED UNDER:
-                    </p>
-                    <p>
-                      PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
-                    </p>
-                  </div>
-                  <a
-                    href="/2024/06/22/why-skill-triumphs-over-passion-the-craftsman-mindset"
                   >
                     read the full post
                   </a>
@@ -1109,6 +1109,40 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <h3>
+                  All Blog Posts Now on Substack!
+                </h3>
+                <span>
+                  Posted on 
+                  November 27, 2024
+                </span>
+                <p>
+                  Click here to visit the new home for all of my blog posts.
+                </p>
+                <div
+                  class="teaser-tags"
+                >
+                  <p>
+                    FILED UNDER:
+                  </p>
+                  <p>
+                    SITE MIGRATION, SUBSTACK
+                  </p>
+                </div>
+                <a
+                  href="/2024/11/27/all-blog-posts-now-on-substack"
+                >
+                  read the full post
+                </a>
+                <div
+                  class="content-post-underline"
+                />
+              </div>
+            </div>
+            <div>
+              <div
+                class="content-post grow-on-hover"
+              >
+                <h3>
                   Strategic Passion: A Playbook for Aligning Passion with Mastery
                 </h3>
                 <span>
@@ -1164,40 +1198,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </div>
                 <a
                   href="/2024/11/25/passion-meets-craft-a-new-framework-for-loving-your-work"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <h3>
-                  Why Skill Triumphs Over Passion: The Craftsman Mindset
-                </h3>
-                <span>
-                  Posted on 
-                  June 22, 2024
-                </span>
-                <p>
-                  "Ask not what your career can do for you. Ask what you can do for your career."
-                </p>
-                <div
-                  class="teaser-tags"
-                >
-                  <p>
-                    FILED UNDER:
-                  </p>
-                  <p>
-                    PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
-                  </p>
-                </div>
-                <a
-                  href="/2024/06/22/why-skill-triumphs-over-passion-the-craftsman-mindset"
                 >
                   read the full post
                 </a>
