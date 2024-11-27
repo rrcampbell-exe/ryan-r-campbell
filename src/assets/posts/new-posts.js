@@ -1,5 +1,25 @@
 const posts = [
   {
+    id: 10096,
+    date: "2024-11-27T06:00:00",
+    slug: "all-blog-posts-now-on-substack",
+    link: "https://ryanrcampbell.com/2024/11/27/all-blog-posts-now-on-substack",
+    title: {
+      rendered: "All Blog Posts Now on Substack!"
+    },
+    content: {
+      rendered:
+        '',
+      protected: false
+    },
+    excerpt: {
+      rendered: "Click here to visit the new home for all of my blog posts.",
+      protected: false
+    },
+    tags: ['Site Migration', 'Substack'],
+    episode_featured_image: "/post-content/2024/11/all-blog-posts-now-on-substack-cover-img.png"
+  },
+  {
     id: 10095,
     date: "2024-11-26T06:00:00",
     slug: "strategic-passion-a-playbook-for-aligning-passion-with-mastery",
