@@ -227,7 +227,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                   November 27, 2024
                 </span>
                 <p>
-                  All legacy and future blog posts are now available exclusively on Substack.
+                  All blog posts are now available exclusively on Substack.
                 </p>
                 <div
                   class="teaser-tags"
@@ -870,7 +870,7 @@ exports[`BlogLanding > default snapshot 1`] = `
                 November 27, 2024
               </span>
               <p>
-                All legacy and future blog posts are now available exclusively on Substack.
+                All blog posts are now available exclusively on Substack.
               </p>
               <div
                 class="teaser-tags"

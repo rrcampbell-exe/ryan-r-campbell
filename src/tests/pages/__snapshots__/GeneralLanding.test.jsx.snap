@@ -298,7 +298,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                     Introducing R: On Everything
                   </h3>
                   <p>
-                    All legacy and future blog posts are now available exclusively on Substack.
+                    All blog posts are now available exclusively on Substack.
                   </p>
                   <a
                     href="/2024/11/27/all-blog-posts-now-on-substack"
@@ -1027,7 +1027,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   Introducing R: On Everything
                 </h3>
                 <p>
-                  All legacy and future blog posts are now available exclusively on Substack.
+                  All blog posts are now available exclusively on Substack.
                 </p>
                 <a
                   href="/2024/11/27/all-blog-posts-now-on-substack"
