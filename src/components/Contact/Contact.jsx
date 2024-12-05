@@ -9,7 +9,7 @@ const Contact = () => {
       <h3>author inquiries</h3>
       <p>rrcampbellwrites [at] gmail [dot] com</p>
       <h3>subscribe</h3>
-      <a href='http://eepurl.com/dhBxcv' rel='noopener' target='_blank' className='subscription-link'>subscribe to my newsletter <ExternalLinkSVG /></a>
+      <a href='https://ryanrcampbell.substack.com/subscribe' rel='noopener' target='_blank' className='subscription-link'>subscribe on substack <ExternalLinkSVG /></a>
     </div>
   )
 }
