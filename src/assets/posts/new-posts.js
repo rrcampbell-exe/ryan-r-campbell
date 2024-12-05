@@ -5,7 +5,7 @@ const posts = [
     slug: "all-blog-posts-now-on-substack",
     link: "https://ryanrcampbell.com/2024/11/27/all-blog-posts-now-on-substack",
     title: {
-      rendered: "All Blog Posts Now on Substack!"
+      rendered: "Introducing R: On Everything"
     },
     content: {
       rendered:
@@ -13,7 +13,7 @@ const posts = [
       protected: false
     },
     excerpt: {
-      rendered: "Click here to visit the new home for all of my blog posts.",
+      rendered: "All legacy and future blog posts are now available exclusively on Substack.",
       protected: false
     },
     tags: ['Site Migration', 'Substack'],
