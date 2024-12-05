@@ -30,13 +30,13 @@ describe('ContactPage', () => {
     const authorInquiries = screen.getByText('rrcampbellwrites [at] gmail [dot] com')
     expect(authorInquiries).toBeInTheDocument()
   })
-  test('should have a link to subscribe to the newsletter', () => {
+  test('should have a link to subscribe on substack', () => {
     render(
       <ContextAndRouterProvider>
         <ContactPage />
       </ContextAndRouterProvider>
     )
-    const subscribeLink = screen.getByText('subscribe to my newsletter')
+    const subscribeLink = screen.getByText('subscribe on substack')
     expect(subscribeLink).toBeInTheDocument()
   })
 })

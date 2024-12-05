@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 
-const ExternalRedirect = () => {
+const SubstackRedirect = () => {
   const { slug, tag } = useParams();
 
   useEffect(() => {
@@ -17,4 +17,4 @@ const ExternalRedirect = () => {
   return null
 }
 
-export default ExternalRedirect
+export default SubstackRedirect

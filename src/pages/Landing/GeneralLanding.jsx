@@ -26,10 +26,10 @@ const GeneralLanding = ({ pageNotFound }) => {
         </div>
         <div id='blog' className='section-wrapper'>
           <h2>blog</h2>
-          <BlogTeaser postsToDisplay={3} postsPage={1} />
+          <BlogTeaser postsQtyToDisplay={1} postsPage={1} isGeneralLandingPage />
           <div className='button-container grow-on-hover'>
             <button onClick={() => { navigate('/blog'); window.scrollTo(top) }}>
-                to the blog
+                go to substack
             </button>
           </div>
         </div>

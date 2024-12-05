@@ -220,14 +220,14 @@ exports[`BlogLanding > default snapshot 1`] = `
                   src="/post-content/2024/11/all-blog-posts-now-on-substack-cover-img.png"
                 />
                 <h3>
-                  All Blog Posts Now on Substack!
+                  Introducing R: On Everything
                 </h3>
                 <span>
                   Posted on 
                   November 27, 2024
                 </span>
                 <p>
-                  Click here to visit the new home for all of my blog posts.
+                  All blog posts are now available exclusively on Substack.
                 </p>
                 <div
                   class="teaser-tags"
@@ -596,11 +596,11 @@ exports[`BlogLanding > default snapshot 1`] = `
               </h3>
               <a
                 class="subscription-link"
-                href="http://eepurl.com/dhBxcv"
+                href="https://ryanrcampbell.substack.com/subscribe"
                 rel="noopener"
                 target="_blank"
               >
-                subscribe to my newsletter 
+                subscribe on substack 
                 <svg
                   class="external-link-svg"
                   fill="transparent"
@@ -863,14 +863,14 @@ exports[`BlogLanding > default snapshot 1`] = `
                 src="/post-content/2024/11/all-blog-posts-now-on-substack-cover-img.png"
               />
               <h3>
-                All Blog Posts Now on Substack!
+                Introducing R: On Everything
               </h3>
               <span>
                 Posted on 
                 November 27, 2024
               </span>
               <p>
-                Click here to visit the new home for all of my blog posts.
+                All blog posts are now available exclusively on Substack.
               </p>
               <div
                 class="teaser-tags"
@@ -1239,11 +1239,11 @@ exports[`BlogLanding > default snapshot 1`] = `
             </h3>
             <a
               class="subscription-link"
-              href="http://eepurl.com/dhBxcv"
+              href="https://ryanrcampbell.substack.com/subscribe"
               rel="noopener"
               target="_blank"
             >
-              subscribe to my newsletter 
+              subscribe on substack 
               <svg
                 class="external-link-svg"
                 fill="transparent"

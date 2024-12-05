@@ -270,11 +270,11 @@ exports[`BlogPost > default snapshot 1`] = `
               </h3>
               <a
                 class="subscription-link"
-                href="http://eepurl.com/dhBxcv"
+                href="https://ryanrcampbell.substack.com/subscribe"
                 rel="noopener"
                 target="_blank"
               >
-                subscribe to my newsletter 
+                subscribe on substack 
                 <svg
                   class="external-link-svg"
                   fill="transparent"
@@ -587,11 +587,11 @@ exports[`BlogPost > default snapshot 1`] = `
             </h3>
             <a
               class="subscription-link"
-              href="http://eepurl.com/dhBxcv"
+              href="https://ryanrcampbell.substack.com/subscribe"
               rel="noopener"
               target="_blank"
             >
-              subscribe to my newsletter 
+              subscribe on substack 
               <svg
                 class="external-link-svg"
                 fill="transparent"

@@ -295,101 +295,16 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="content-post grow-on-hover"
                 >
                   <h3>
-                    All Blog Posts Now on Substack!
+                    Introducing R: On Everything
                   </h3>
-                  <span>
-                    Posted on 
-                    November 27, 2024
-                  </span>
                   <p>
-                    Click here to visit the new home for all of my blog posts.
+                    All blog posts are now available exclusively on Substack.
                   </p>
-                  <div
-                    class="teaser-tags"
-                  >
-                    <p>
-                      FILED UNDER:
-                    </p>
-                    <p>
-                      SITE MIGRATION, SUBSTACK
-                    </p>
-                  </div>
                   <a
                     href="/2024/11/27/all-blog-posts-now-on-substack"
                   >
-                    read the full post
+                    visit me on substack here
                   </a>
-                  <div
-                    class="content-post-underline"
-                  />
-                </div>
-              </div>
-              <div>
-                <div
-                  class="content-post grow-on-hover"
-                >
-                  <h3>
-                    Strategic Passion: A Playbook for Aligning Passion with Mastery
-                  </h3>
-                  <span>
-                    Posted on 
-                    November 26, 2024
-                  </span>
-                  <p>
-                    Marrying passion and craft is paramount, but how do we do it strategically?
-                  </p>
-                  <div
-                    class="teaser-tags"
-                  >
-                    <p>
-                      FILED UNDER:
-                    </p>
-                    <p>
-                      PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, STRATEGY
-                    </p>
-                  </div>
-                  <a
-                    href="/2024/11/26/strategic-passion-a-playbook-for-aligning-passion-with-mastery"
-                  >
-                    read the full post
-                  </a>
-                  <div
-                    class="content-post-underline"
-                  />
-                </div>
-              </div>
-              <div>
-                <div
-                  class="content-post grow-on-hover"
-                >
-                  <h3>
-                    Passion Meets Craft: A New Framework for Loving Your Work
-                  </h3>
-                  <span>
-                    Posted on 
-                    November 25, 2024
-                  </span>
-                  <p>
-                    Passion plus craft equals sustainability and fulfillment. Here's how to make it happen.
-                  </p>
-                  <div
-                    class="teaser-tags"
-                  >
-                    <p>
-                      FILED UNDER:
-                    </p>
-                    <p>
-                      PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
-                    </p>
-                  </div>
-                  <a
-                    href="/2024/11/25/passion-meets-craft-a-new-framework-for-loving-your-work"
-                  >
-                    read the full post
-                  </a>
-                  <div
-                    class="content-post-underline"
-                  />
                 </div>
               </div>
             </div>
@@ -397,7 +312,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               class="button-container grow-on-hover"
             >
               <button>
-                to the blog
+                go to substack
               </button>
             </div>
           </div>
@@ -764,11 +679,11 @@ exports[`GeneralLanding > default snapshot 1`] = `
               </h3>
               <a
                 class="subscription-link"
-                href="http://eepurl.com/dhBxcv"
+                href="https://ryanrcampbell.substack.com/subscribe"
                 rel="noopener"
                 target="_blank"
               >
-                subscribe to my newsletter 
+                subscribe on substack 
                 <svg
                   class="external-link-svg"
                   fill="transparent"
@@ -1109,101 +1024,16 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="content-post grow-on-hover"
               >
                 <h3>
-                  All Blog Posts Now on Substack!
+                  Introducing R: On Everything
                 </h3>
-                <span>
-                  Posted on 
-                  November 27, 2024
-                </span>
                 <p>
-                  Click here to visit the new home for all of my blog posts.
+                  All blog posts are now available exclusively on Substack.
                 </p>
-                <div
-                  class="teaser-tags"
-                >
-                  <p>
-                    FILED UNDER:
-                  </p>
-                  <p>
-                    SITE MIGRATION, SUBSTACK
-                  </p>
-                </div>
                 <a
                   href="/2024/11/27/all-blog-posts-now-on-substack"
                 >
-                  read the full post
+                  visit me on substack here
                 </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <h3>
-                  Strategic Passion: A Playbook for Aligning Passion with Mastery
-                </h3>
-                <span>
-                  Posted on 
-                  November 26, 2024
-                </span>
-                <p>
-                  Marrying passion and craft is paramount, but how do we do it strategically?
-                </p>
-                <div
-                  class="teaser-tags"
-                >
-                  <p>
-                    FILED UNDER:
-                  </p>
-                  <p>
-                    PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, STRATEGY
-                  </p>
-                </div>
-                <a
-                  href="/2024/11/26/strategic-passion-a-playbook-for-aligning-passion-with-mastery"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
-              </div>
-            </div>
-            <div>
-              <div
-                class="content-post grow-on-hover"
-              >
-                <h3>
-                  Passion Meets Craft: A New Framework for Loving Your Work
-                </h3>
-                <span>
-                  Posted on 
-                  November 25, 2024
-                </span>
-                <p>
-                  Passion plus craft equals sustainability and fulfillment. Here's how to make it happen.
-                </p>
-                <div
-                  class="teaser-tags"
-                >
-                  <p>
-                    FILED UNDER:
-                  </p>
-                  <p>
-                    PASSIONATE CRAFTSMAN, PROFESSIONAL DEVELOPMENT, IDENTITY
-                  </p>
-                </div>
-                <a
-                  href="/2024/11/25/passion-meets-craft-a-new-framework-for-loving-your-work"
-                >
-                  read the full post
-                </a>
-                <div
-                  class="content-post-underline"
-                />
               </div>
             </div>
           </div>
@@ -1211,7 +1041,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             class="button-container grow-on-hover"
           >
             <button>
-              to the blog
+              go to substack
             </button>
           </div>
         </div>
@@ -1578,11 +1408,11 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </h3>
             <a
               class="subscription-link"
-              href="http://eepurl.com/dhBxcv"
+              href="https://ryanrcampbell.substack.com/subscribe"
               rel="noopener"
               target="_blank"
             >
-              subscribe to my newsletter 
+              subscribe on substack 
               <svg
                 class="external-link-svg"
                 fill="transparent"
