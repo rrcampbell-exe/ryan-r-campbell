@@ -50,7 +50,7 @@ describe('GeneralLanding', () => {
     )
 
     const teasers = container.querySelectorAll('.content-post')
-    expect(teasers.length).toBe(3)
+    expect(teasers.length).toBe(1)
   })
 
   test('should take users to blog landing page when to the blog is clicked', () => {
@@ -60,7 +60,7 @@ describe('GeneralLanding', () => {
       </ContextAndRouterProvider>
     )
 
-    const button = getByText('to the blog')
+    const button = getByText('go to substack')
     fireEvent.click(button)
 
     expect(window.location.pathname).toBe('/blog')

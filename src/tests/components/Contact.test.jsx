@@ -19,14 +19,14 @@ describe('Contact', () => {
   })
   test('should contain a subscription link', () => {
     const { getByText } = render(<Contact />)
-    const subscriptionLink = getByText('subscribe to my newsletter')
+    const subscriptionLink = getByText('subscribe on substack')
     expect(subscriptionLink).toBeInTheDocument()
   })
   test('subscription link should open in a new tab with correct URL', () => {
     const { getByText } = render(<Contact />)
-    const subscriptionLink = getByText('subscribe to my newsletter')
+    const subscriptionLink = getByText('subscribe on substack')
     expect(subscriptionLink).toHaveAttribute('rel', 'noopener')
     expect(subscriptionLink).toHaveAttribute('target', '_blank')
-    expect(subscriptionLink).toHaveAttribute('href', 'http://eepurl.com/dhBxcv')
+    expect(subscriptionLink).toHaveAttribute('href', 'https://ryanrcampbell.substack.com/subscribe')
   })
 })
