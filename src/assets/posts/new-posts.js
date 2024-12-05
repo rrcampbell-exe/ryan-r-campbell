@@ -13,7 +13,7 @@ const posts = [
       protected: false
     },
     excerpt: {
-      rendered: "All legacy and future blog posts are now available exclusively on Substack.",
+      rendered: "All blog posts are now available exclusively on Substack.",
       protected: false
     },
     tags: ['Site Migration', 'Substack'],
