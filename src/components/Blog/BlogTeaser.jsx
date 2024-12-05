@@ -17,7 +17,7 @@ const renderTags = (post) => {
   }
 }
 
-const BlogTeaser = ({ postsQtyToDisplay, showCoverImage, postsPage, isTagSearch, filteredPosts }) => {
+const BlogTeaser = ({ postsQtyToDisplay, showCoverImage, postsPage, isTagSearch, filteredPosts, isGeneralLandingPage }) => {
   const navigate = useNavigate()
   const teaserPostQtyToDisplay = postsQtyToDisplay ? postsQtyToDisplay : 3
 
@@ -34,11 +34,11 @@ const BlogTeaser = ({ postsQtyToDisplay, showCoverImage, postsPage, isTagSearch,
           <div className='content-post grow-on-hover'>
             {showCoverImage && <img className='cover-image' src={post.episode_featured_image} alt={post.featured_image_alt ? post.featured_image_alt : 'The cover image for a blog post'} />}
             <h3>{post.title.rendered}</h3>
-            <span>Posted on {formatDate(post.date)}</span>
+            {!isGeneralLandingPage && <span>Posted on {formatDate(post.date)}</span>}
             <p>{post.excerpt.rendered}</p>
-            {renderTags(post)}
-            <Link to={buildNavURL(post.link)}>read the full post</Link>
-            <div className='content-post-underline' />
+            {!isGeneralLandingPage && renderTags(post)}
+            <Link to={buildNavURL(post.link)}>{isGeneralLandingPage ? 'visit me on substack here' : 'read the full post'}</Link>
+            {!isGeneralLandingPage && <div className='content-post-underline' />}
           </div>
         </div>
       ))}
