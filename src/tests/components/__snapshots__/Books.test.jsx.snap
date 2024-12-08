@@ -93,7 +93,6 @@ exports[`Books > Books default snapshot 1`] = `
             alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
             class="book-cover"
             data-testid="book-cover"
-            src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
           />
           <h3
             class="book-title"
@@ -128,7 +127,6 @@ exports[`Books > Books default snapshot 1`] = `
             alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
             class="book-cover"
             data-testid="book-cover"
-            src="./books/mourning-dove/mourning-dove-flat-cover.png"
           />
           <h3
             class="book-title"

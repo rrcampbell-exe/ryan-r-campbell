@@ -32,32 +32,34 @@ const books = [
   {
     title: 'Imminent Dawn',
     genre: 'Science Fiction',
-    cover: './books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png',
+    // cover: './books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png',
     alt: 'The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry',
     summary: 'The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.',
     fullDescription: {
       paragraphOne: 'When an art-school dropout enrolls in the first round of human trials for an internet-access brain implant, she never expects to find herself at the center of conspiracies stretching from the highest levels of the North American Union government to the lowest dredges of its shadowy hacking collectives.',
       paragraphTwo: ''
     },
-    readMoreLink: './books/imminent-dawn/imminent-dawn-sample-chapter.pdf',
-    buyLink: 'https://www.amazon.com/dp/B07N1Q8C6G',
+    // readMoreLink: './books/imminent-dawn/imminent-dawn-sample-chapter.pdf',
+    // buyLink: 'https://www.amazon.com/dp/B07N1Q8C6G',
     shortPromoDescription: 'The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.',
-    id: 'imminent-dawn'
+    id: 'imminent-dawn',
+    disclaimer: 'As of December 2024, the EMPATHY sci-fi saga is out of print, its first two installments having been de-listed by their original publisher at my request. '
   },
   {
     title: 'Mourning Dove',
     genre: 'Science Fiction',
-    cover: './books/mourning-dove/mourning-dove-flat-cover.png',
+    // cover: './books/mourning-dove/mourning-dove-flat-cover.png',
     alt: 'The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots',
     summary: 'An evocative, sweeping symphony of love, revenge, and desperation in cacophonous times.',
     fullDescription: {
       paragraphOne: 'In the aftermath of the Human/Etech research study, spouse is further pit against spouse, brother against sister, and governments against their people. In the end, all must choose between reclaiming the past or surrendering to an intractable world of their own creation.',
       paragraphTwo: ''
     },
-    readMoreLink: './books/mourning-dove/mourning-dove-sample-chapter.pdf',
-    buyLink: 'https://www.amazon.com/dp/B07QZGSDX6',
+    // readMoreLink: './books/mourning-dove/mourning-dove-sample-chapter.pdf',
+    // buyLink: 'https://www.amazon.com/dp/B07QZGSDX6',
     shortPromoDescription: 'The sequel to International Book Awards finalist, Imminent Dawn.',
-    id: 'mourning-dove'
+    id: 'mourning-dove',
+    disclaimer: 'As of December 2024, the EMPATHY sci-fi saga is out of print, its first two installments having been de-listed by their original publisher at my request. '
   },
 ]
 

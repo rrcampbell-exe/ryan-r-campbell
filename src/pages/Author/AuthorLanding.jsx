@@ -22,7 +22,7 @@ const AuthorLanding = () => {
         </div>
         <div id='books' className='shadow-bg-gray section-wrapper'>
           <h2>books</h2>
-          <Books />
+          <Books hideEmpathy />
         </div>
         <div id='reviews' className='section-wrapper'>
           <h2>reviews</h2>

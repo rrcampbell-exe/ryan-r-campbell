@@ -1639,26 +1639,6 @@ exports[`BooksLanding > default snapshot 1`] = `
               id="imminent-dawn"
             >
               <div
-                class="book-wrapper"
-              >
-                <div>
-                  <img
-                    alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
-                    class="book-cover"
-                    src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
-                  />
-                  <div
-                    class="glare-wrapper"
-                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0; pointer-events: none;"
-                  >
-                    <div
-                      class="glare"
-                      style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px;"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div
                 class="section-wrapper book-metadata"
               >
                 <h2
@@ -1681,18 +1661,18 @@ exports[`BooksLanding > default snapshot 1`] = `
                 <p>
                   When an art-school dropout enrolls in the first round of human trials for an internet-access brain implant, she never expects to find herself at the center of conspiracies stretching from the highest levels of the North American Union government to the lowest dredges of its shadowy hacking collectives.
                 </p>
+                <p>
+                  <em>
+                    As of December 2024, the EMPATHY sci-fi saga is out of print, its first two installments having been de-listed by their original publisher at my request. 
+                  </em>
+                </p>
                 <div
                   class="book-cta-button-container"
                 >
                   <button
-                    data-testid="imminent-dawn"
+                    data-testid="imminent-dawn-disclaimer"
                   >
-                    read a sample
-                  </button>
-                  <button
-                    data-testid="https://www.amazon.com/dp/B07N1Q8C6G"
-                  >
-                    buy this book
+                    learn more
                   </button>
                 </div>
               </div>
@@ -2235,26 +2215,6 @@ exports[`BooksLanding > default snapshot 1`] = `
               id="mourning-dove"
             >
               <div
-                class="book-wrapper"
-              >
-                <div>
-                  <img
-                    alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
-                    class="book-cover"
-                    src="./books/mourning-dove/mourning-dove-flat-cover.png"
-                  />
-                  <div
-                    class="glare-wrapper"
-                    style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0; pointer-events: none;"
-                  >
-                    <div
-                      class="glare"
-                      style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px;"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div
                 class="section-wrapper book-metadata"
               >
                 <h2
@@ -2277,18 +2237,18 @@ exports[`BooksLanding > default snapshot 1`] = `
                 <p>
                   In the aftermath of the Human/Etech research study, spouse is further pit against spouse, brother against sister, and governments against their people. In the end, all must choose between reclaiming the past or surrendering to an intractable world of their own creation.
                 </p>
+                <p>
+                  <em>
+                    As of December 2024, the EMPATHY sci-fi saga is out of print, its first two installments having been de-listed by their original publisher at my request. 
+                  </em>
+                </p>
                 <div
                   class="book-cta-button-container"
                 >
                   <button
-                    data-testid="mourning-dove"
+                    data-testid="mourning-dove-disclaimer"
                   >
-                    read a sample
-                  </button>
-                  <button
-                    data-testid="https://www.amazon.com/dp/B07QZGSDX6"
-                  >
-                    buy this book
+                    learn more
                   </button>
                 </div>
               </div>
@@ -4538,26 +4498,6 @@ exports[`BooksLanding > default snapshot 1`] = `
             id="imminent-dawn"
           >
             <div
-              class="book-wrapper"
-            >
-              <div>
-                <img
-                  alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
-                  class="book-cover"
-                  src="./books/imminent-dawn/imminent-dawn-flat-cover-international-book-awards-sticker.png"
-                />
-                <div
-                  class="glare-wrapper"
-                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0; pointer-events: none;"
-                >
-                  <div
-                    class="glare"
-                    style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px;"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
               class="section-wrapper book-metadata"
             >
               <h2
@@ -4580,18 +4520,18 @@ exports[`BooksLanding > default snapshot 1`] = `
               <p>
                 When an art-school dropout enrolls in the first round of human trials for an internet-access brain implant, she never expects to find herself at the center of conspiracies stretching from the highest levels of the North American Union government to the lowest dredges of its shadowy hacking collectives.
               </p>
+              <p>
+                <em>
+                  As of December 2024, the EMPATHY sci-fi saga is out of print, its first two installments having been de-listed by their original publisher at my request. 
+                </em>
+              </p>
               <div
                 class="book-cta-button-container"
               >
                 <button
-                  data-testid="imminent-dawn"
+                  data-testid="imminent-dawn-disclaimer"
                 >
-                  read a sample
-                </button>
-                <button
-                  data-testid="https://www.amazon.com/dp/B07N1Q8C6G"
-                >
-                  buy this book
+                  learn more
                 </button>
               </div>
             </div>
@@ -5134,26 +5074,6 @@ exports[`BooksLanding > default snapshot 1`] = `
             id="mourning-dove"
           >
             <div
-              class="book-wrapper"
-            >
-              <div>
-                <img
-                  alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
-                  class="book-cover"
-                  src="./books/mourning-dove/mourning-dove-flat-cover.png"
-                />
-                <div
-                  class="glare-wrapper"
-                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; border-radius: 0; pointer-events: none;"
-                >
-                  <div
-                    class="glare"
-                    style="position: absolute; top: 50%; left: 50%; transform-origin: 0% 0%; pointer-events: none; width: 0px; height: 0px;"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
               class="section-wrapper book-metadata"
             >
               <h2
@@ -5176,18 +5096,18 @@ exports[`BooksLanding > default snapshot 1`] = `
               <p>
                 In the aftermath of the Human/Etech research study, spouse is further pit against spouse, brother against sister, and governments against their people. In the end, all must choose between reclaiming the past or surrendering to an intractable world of their own creation.
               </p>
+              <p>
+                <em>
+                  As of December 2024, the EMPATHY sci-fi saga is out of print, its first two installments having been de-listed by their original publisher at my request. 
+                </em>
+              </p>
               <div
                 class="book-cta-button-container"
               >
                 <button
-                  data-testid="mourning-dove"
+                  data-testid="mourning-dove-disclaimer"
                 >
-                  read a sample
-                </button>
-                <button
-                  data-testid="https://www.amazon.com/dp/B07QZGSDX6"
-                >
-                  buy this book
+                  learn more
                 </button>
               </div>
             </div>
