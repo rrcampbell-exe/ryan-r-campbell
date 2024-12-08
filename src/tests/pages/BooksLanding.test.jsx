@@ -20,7 +20,7 @@ describe('BooksLanding', () => {
       </ContextAndRouterProvider>
     )
     const books = container.querySelectorAll('.book-cover')
-    expect(books.length).toBe(4)
+    expect(books.length).toBe(2)
   })
 
   test('clicking read a sample button opens the correct URL in a new tab', () => { 
@@ -35,8 +35,6 @@ describe('BooksLanding', () => {
     // Find the button using the data-testid attribute
     const scambaitSampleButton = getByTestId('scambait')
     const andAmpersandSampleButton = getByTestId('and-ampersand')
-    const imminentDawnSampleButton = getByTestId('imminent-dawn')
-    const mourningDoveSampleButton = getByTestId('mourning-dove')
   
     // Simulate a click event on the button, verify correct URL is opened
     fireEvent.click(scambaitSampleButton)
@@ -44,12 +42,6 @@ describe('BooksLanding', () => {
 
     fireEvent.click(andAmpersandSampleButton)
     expect(window.open).toHaveBeenCalledWith('./books/and-ampersand/glassed-excerpt-from-and-ampersand.pdf', '_blank')
-
-    fireEvent.click(imminentDawnSampleButton)
-    expect(window.open).toHaveBeenCalledWith('./books/imminent-dawn/imminent-dawn-sample-chapter.pdf', '_blank')
-
-    fireEvent.click(mourningDoveSampleButton)
-    expect(window.open).toHaveBeenCalledWith('./books/mourning-dove/mourning-dove-sample-chapter.pdf', '_blank')
   })
 
   test('clicking buy this book button opens the correct URL in a new tab', () => { 
@@ -64,8 +56,6 @@ describe('BooksLanding', () => {
     // Find the button using the data-testid attribute, which for this button is the URL itself
     const scambaitBuyNowButton = getByTestId('https://www.amazon.com/dp/B09SY4P6FR')
     const andAmpersandBuyNowButton = getByTestId('https://www.amazon.com/dp/1736387111')
-    const imminentDawnBuyNowButton = getByTestId('https://www.amazon.com/dp/B07N1Q8C6G')
-    const mourningDoveBuyNowButton = getByTestId('https://www.amazon.com/dp/B07QZGSDX6')
   
     // Simulate a click event on the button, verify correct URL is opened
     fireEvent.click(scambaitBuyNowButton)
@@ -73,11 +63,26 @@ describe('BooksLanding', () => {
 
     fireEvent.click(andAmpersandBuyNowButton)
     expect(window.open).toHaveBeenCalledWith('https://www.amazon.com/dp/1736387111', '_blank')
+  })
 
-    fireEvent.click(imminentDawnBuyNowButton)
-    expect(window.open).toHaveBeenCalledWith('https://www.amazon.com/dp/B07N1Q8C6G', '_blank')
+  test('clicking the learn more button opens the correct URL in a new tab', () => { 
+    vi.spyOn(window, 'open') 
+    // Render the component
+    const { getByTestId } = render(
+      <ContextAndRouterProvider>
+        <BooksLanding />
+      </ContextAndRouterProvider>
+    )
+  
+    // Find the button using the data-testid attribute, which for this button is the URL itself
+    const imminentDawnLearnMoreButton = getByTestId('imminent-dawn-disclaimer')
+    const mourningDoveLearnMoreButton = getByTestId('mourning-dove-disclaimer')
+  
+    // Simulate a click event on the button, verify correct URL is opened
+    fireEvent.click(imminentDawnLearnMoreButton)
+    expect(window.open).toHaveBeenCalledWith('https://ryanrcampbell.substack.com/p/what-happened-to-the-empathy-series', '_blank')
 
-    fireEvent.click(mourningDoveBuyNowButton)
-    expect(window.open).toHaveBeenCalledWith('https://www.amazon.com/dp/B07QZGSDX6', '_blank')
+    fireEvent.click(mourningDoveLearnMoreButton)
+    expect(window.open).toHaveBeenCalledWith('https://ryanrcampbell.substack.com/p/what-happened-to-the-empathy-series', '_blank')
   })
 })

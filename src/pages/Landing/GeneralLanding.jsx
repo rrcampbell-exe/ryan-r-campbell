@@ -35,7 +35,7 @@ const GeneralLanding = ({ pageNotFound }) => {
         </div>
         <div id='books' className='section-wrapper shadow-bg-gray'>
           <h2>books</h2>
-          <Books />
+          <Books hideEmpathy />
           <div className='button-container grow-on-hover'>
             <button onClick={() => { navigate('/author'); window.scrollTo(top) }}>
                 about the author

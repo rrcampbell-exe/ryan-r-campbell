@@ -2,10 +2,12 @@ import React from 'react'
 import { books } from '../../constants'
 import { Link } from 'react-router-dom'
 
-const Books = () => {
+const Books = ({ hideEmpathy }) => {
+  // if hideEmpathy is true, hide the EMPATHY series book covers
+  const booksToDisplay = hideEmpathy ? books.filter((book) => book.id !== 'imminent-dawn' && book.id !== 'mourning-dove') : books
   return (
     <div className='Books' data-testid='books'>
-      {books.map((book) => (
+      {booksToDisplay.map((book) => (
         <Link to={'/books'} state={{ hash: book.id }} key={book.id}>
           <div>
             <div className='book-container grow-on-hover'>
