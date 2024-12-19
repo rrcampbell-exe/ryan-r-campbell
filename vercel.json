@@ -1,43 +1,5 @@
 {
-  "redirects": [
-    {
-      "source": "/:path*",
-      "destination": "https://ryanrcampbell.com/:path*",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "rrcampbellwrites.com"
-        }
-      ]
-    },
-    {
-      "source": "/:path*",
-      "destination": "https://ryanrcampbell.com/:path*",
-      "statusCode": 301,
-      "has": [
-        {
-          "type": "host",
-          "value": "www.rrcampbellwrites.com"
-        }
-      ]
-    }
-  ],
   "rewrites":  [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/assets/(.*)",
-      "headers": [
-        { 
-          "key": "Access-Control-Allow-Origin", 
-          "value": "https://rrcampbellwrites.com, https://www.rrcampbellwrites.com" 
-        }
-      ]
-    }
+    {"source": "/(.*)", "destination": "/"}
   ]
 }
