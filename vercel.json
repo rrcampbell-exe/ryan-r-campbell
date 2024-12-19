@@ -3,7 +3,24 @@
     {
       "source": "/:path*",
       "destination": "https://ryanrcampbell.com/:path*",
-      "statusCode": 301
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "rrcampbellwrites.com"
+        }
+      ]
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://ryanrcampbell.com/:path*",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "www.rrcampbellwrites.com"
+        }
+      ]
     }
   ],
   "rewrites":  [
