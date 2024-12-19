@@ -1,9 +1,15 @@
 {
   "redirects": [
-    {"source": "https://rrcampbellwrites.com/:path*", "destination": "https://ryanrcampbell.com/:path*", "statusCode": 301},
-    {"source": "https://www.rrcampbellwrites.com/:path*", "destination": "https://ryanrcampbell.com/:path*", "statusCode": 301}
+    {
+      "source": "/:path*",
+      "destination": "https://ryanrcampbell.com/:path*",
+      "statusCode": 301
+    }
   ],
   "rewrites":  [
-    {"source": "/(.*)", "destination": "/"}
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
   ]
 }
