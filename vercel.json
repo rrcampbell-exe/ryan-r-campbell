@@ -1,5 +1,32 @@
 {
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://ryanrcampbell.com/:path*",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "rrcampbellwrites.com"
+        }
+      ]
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://ryanrcampbell.com/:path*",
+      "statusCode": 301,
+      "has": [
+        {
+          "type": "host",
+          "value": "www.rrcampbellwrites.com"
+        }
+      ]
+    }
+  ],
   "rewrites":  [
-    {"source": "/(.*)", "destination": "/"}
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }

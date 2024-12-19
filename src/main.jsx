@@ -6,9 +6,6 @@ import { SubstackRedirect } from './components/index.js'
 import './App.css'
 import { ThemeProvider } from './Theme.jsx'
 
-// see if rrcampbellwrites.com is the domain, if so, redirect to ryanrcampbell.com
-if (window.location.hostname === 'rrcampbellwrites.com') window.location.replace('https://ryanrcampbell.com' + window.location.pathname + window.location.search + window.location.hash)
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider>
