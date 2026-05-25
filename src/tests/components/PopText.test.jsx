@@ -1,10 +1,14 @@
-import { describe, expect, test } from 'vitest'
-import { render } from '@testing-library/react'
+import { afterEach, describe, expect, test, vi } from 'vitest'
+import { act, render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
 import { PopText } from '../../components'
 import { popText } from '../../constants'
 
 describe('PopText', () => {
+  afterEach(() => {
+    vi.useRealTimers()
+  })
+
   test('default snapshot', () => {
     const popTextComponent = render(
       <ContextAndRouterProvider>
@@ -32,6 +36,8 @@ describe('PopText', () => {
     expect(content).toBeInTheDocument()
   })
   test('should change content', () => {
+    vi.useFakeTimers()
+
     const { getByText } = render(
       <ContextAndRouterProvider>
         <PopText>          
@@ -44,9 +50,11 @@ describe('PopText', () => {
     const content = getByText('software engineer')
     expect(content).toBeInTheDocument()
 
-    setTimeout(() => {
-      const newContent = getByText('AI enablement builder')
-      expect(newContent).toBeInTheDocument()
-    }, 500)
+    act(() => {
+      vi.advanceTimersByTime(2000)
+    })
+
+    const newContent = getByText('AI enablement builder')
+    expect(newContent).toBeInTheDocument()
   })
 })

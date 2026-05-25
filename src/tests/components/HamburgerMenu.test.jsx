@@ -12,6 +12,15 @@ describe('HamburgerMenu', () => {
     )
     expect(asFragment()).toMatchSnapshot()
   })
+  test('should keep navigation links out of the DOM while closed', () => {
+    const { queryByRole } = render(
+      <ContextAndRouterProvider>
+        <HamburgerMenu />
+      </ContextAndRouterProvider>
+    )
+
+    expect(queryByRole('navigation', { name: 'Site navigation' })).not.toBeInTheDocument()
+  })
   test('should have six link components', () => {
     const { getAllByRole, getByRole } = render(
       <ContextAndRouterProvider>

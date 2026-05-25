@@ -17,16 +17,20 @@ const Builds = ({ buildsToDisplay }) => {
             <p className='build-tile__tech'>{app.technologies}</p>
           </div>
           <div className='build-tile__links'>
-            {app.link && (
-              <a
-                href={app.link}
-                target={app.link.includes('ryanrcampbell.com') ? '' : '_blank'}
-                rel='noopener noreferrer'
-                className='build-tile__link'
-              >
-                {app.linkText}
-              </a>
-            )}
+            {app.link && (() => {
+              const opensInNewTab = !app.link.includes('ryanrcampbell.com')
+
+              return (
+                <a
+                  href={app.link}
+                  target={opensInNewTab ? '_blank' : undefined}
+                  rel={opensInNewTab ? 'noopener noreferrer' : undefined}
+                  className='build-tile__link'
+                >
+                  {app.linkText}
+                </a>
+              )
+            })()}
             {app.gitHub && (
               <a
                 href={app.gitHub}

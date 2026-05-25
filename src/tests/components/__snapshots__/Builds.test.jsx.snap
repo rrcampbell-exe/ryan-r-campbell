@@ -48,8 +48,6 @@ exports[`Builds > default snapshot 1`] = `
         <a
           class="build-tile__link"
           href="https://ryanrcampbell.com/"
-          rel="noopener noreferrer"
-          target=""
         >
           return to the homepage
         </a>

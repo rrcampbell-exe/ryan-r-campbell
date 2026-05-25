@@ -24,4 +24,4 @@
 @import './pages/Contact/ContactPage.scss';
 @import './components/CodeBlock/CodeBlock.scss';
 
-/* EXTERNALLY IMPORTED CSS FILES — slick is imported in main.jsx to avoid postcss-import @charset conflict */
+/* EXTERNALLY IMPORTED CSS FILES */

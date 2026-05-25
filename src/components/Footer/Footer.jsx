@@ -1,10 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
+  const { pathname } = useLocation()
+  const footerId = pathname === '/contact' ? 'site-footer' : 'contact'
+
   return (
-    <footer className='Footer' id='contact'>
+    <footer className='Footer' id={footerId}>
       <div className='footer-inner'>
         <div className='footer-brand'>
           <Link to='/' className='footer-wordmark' aria-label='Home'>
@@ -18,7 +21,11 @@ const Footer = () => {
           <ul>
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/about'>About</Link></li>
-            <li><Link to='/blog'>Writing</Link></li>
+            <li>
+              <a href='https://ryanrcampbell.substack.com' target='_blank' rel='noopener noreferrer'>
+                Writing
+              </a>
+            </li>
             <li><Link to='/books'>Books</Link></li>
             <li><Link to='/podcasts'>Archive</Link></li>
             <li><Link to='/contact'>Contact</Link></li>

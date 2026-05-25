@@ -80,9 +80,11 @@ exports[`AuthorLanding > default snapshot 1`] = `
               data-testid="menu"
             >
               <button
+                aria-controls="mobile-navigation"
                 aria-expanded="false"
                 aria-label="Open navigation menu"
-                class="theme-toggle-button"
+                class="hamburger-trigger"
+                type="button"
               >
                 <svg
                   id="hamburger-icon"
@@ -143,72 +145,6 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   </g>
                 </svg>
               </button>
-              <nav
-                aria-hidden="true"
-                aria-label="Site navigation"
-                class="menu-content"
-              >
-                <div
-                  class="icon-container"
-                >
-                  <button
-                    aria-label="Close navigation menu"
-                    data-testid="close-button"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M20.7457 3.32851C20.3552 2.93798 19.722 2.93798 19.3315 3.32851L12.0371 10.6229L4.74275 3.32851C4.35223 2.93798 3.71906 2.93798 3.32854 3.32851C2.93801 3.71903 2.93801 4.3522 3.32854 4.74272L10.6229 12.0371L3.32856 19.3314C2.93803 19.722 2.93803 20.3551 3.32856 20.7457C3.71908 21.1362 4.35225 21.1362 4.74277 20.7457L12.0371 13.4513L19.3315 20.7457C19.722 21.1362 20.3552 21.1362 20.7457 20.7457C21.1362 20.3551 21.1362 19.722 20.7457 19.3315L13.4513 12.0371L20.7457 4.74272C21.1362 4.3522 21.1362 3.71903 20.7457 3.32851Z"
-                        stroke-width="0.5"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <div
-                  class="link-container"
-                >
-                  <a
-                    class="hamburger-link active"
-                    href="/"
-                  >
-                    home
-                  </a>
-                  <a
-                    class="hamburger-link"
-                    href="/about"
-                  >
-                    about
-                  </a>
-                  <a
-                    class="hamburger-link"
-                    href="https://ryanrcampbell.substack.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    writing
-                  </a>
-                  <a
-                    class="hamburger-link"
-                    href="/books"
-                  >
-                    books
-                  </a>
-                  <a
-                    class="hamburger-link"
-                    href="/podcasts"
-                  >
-                    archive
-                  </a>
-                  <a
-                    class="hamburger-link"
-                    href="/contact"
-                  >
-                    contact
-                  </a>
-                </div>
-              </nav>
             </div>
           </div>
         </header>
@@ -1536,7 +1472,9 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
-                    href="/blog"
+                    href="https://ryanrcampbell.substack.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
                   >
                     Writing
                   </a>
@@ -1725,9 +1663,11 @@ exports[`AuthorLanding > default snapshot 1`] = `
             data-testid="menu"
           >
             <button
+              aria-controls="mobile-navigation"
               aria-expanded="false"
               aria-label="Open navigation menu"
-              class="theme-toggle-button"
+              class="hamburger-trigger"
+              type="button"
             >
               <svg
                 id="hamburger-icon"
@@ -1788,72 +1728,6 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 </g>
               </svg>
             </button>
-            <nav
-              aria-hidden="true"
-              aria-label="Site navigation"
-              class="menu-content"
-            >
-              <div
-                class="icon-container"
-              >
-                <button
-                  aria-label="Close navigation menu"
-                  data-testid="close-button"
-                >
-                  <svg
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M20.7457 3.32851C20.3552 2.93798 19.722 2.93798 19.3315 3.32851L12.0371 10.6229L4.74275 3.32851C4.35223 2.93798 3.71906 2.93798 3.32854 3.32851C2.93801 3.71903 2.93801 4.3522 3.32854 4.74272L10.6229 12.0371L3.32856 19.3314C2.93803 19.722 2.93803 20.3551 3.32856 20.7457C3.71908 21.1362 4.35225 21.1362 4.74277 20.7457L12.0371 13.4513L19.3315 20.7457C19.722 21.1362 20.3552 21.1362 20.7457 20.7457C21.1362 20.3551 21.1362 19.722 20.7457 19.3315L13.4513 12.0371L20.7457 4.74272C21.1362 4.3522 21.1362 3.71903 20.7457 3.32851Z"
-                      stroke-width="0.5"
-                    />
-                  </svg>
-                </button>
-              </div>
-              <div
-                class="link-container"
-              >
-                <a
-                  class="hamburger-link active"
-                  href="/"
-                >
-                  home
-                </a>
-                <a
-                  class="hamburger-link"
-                  href="/about"
-                >
-                  about
-                </a>
-                <a
-                  class="hamburger-link"
-                  href="https://ryanrcampbell.substack.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  writing
-                </a>
-                <a
-                  class="hamburger-link"
-                  href="/books"
-                >
-                  books
-                </a>
-                <a
-                  class="hamburger-link"
-                  href="/podcasts"
-                >
-                  archive
-                </a>
-                <a
-                  class="hamburger-link"
-                  href="/contact"
-                >
-                  contact
-                </a>
-              </div>
-            </nav>
           </div>
         </div>
       </header>
@@ -3181,7 +3055,9 @@ exports[`AuthorLanding > default snapshot 1`] = `
               </li>
               <li>
                 <a
-                  href="/blog"
+                  href="https://ryanrcampbell.substack.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
                   Writing
                 </a>

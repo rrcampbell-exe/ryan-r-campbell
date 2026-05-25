@@ -23,7 +23,7 @@ describe('Header', () => {
     const title = getByText(pageTitle)
     expect(title).toBeInTheDocument()
   })
-  test('should linkn to the home page', () => {
+  test('should link to the home page', () => {
     const { container } = render(
       <ContextAndRouterProvider>
         <Header />

@@ -57,7 +57,9 @@ exports[`Footer > default snapshot 1`] = `
           </li>
           <li>
             <a
-              href="/blog"
+              href="https://ryanrcampbell.substack.com"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Writing
             </a>

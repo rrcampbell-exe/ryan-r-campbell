@@ -2,6 +2,19 @@
   padding-left: 0.25rem;
   position: relative;
 
+  .hamburger-trigger,
+  .menu-close-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: inherit;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+
   #hamburger-icon {
     opacity: 1;
     width: 24px;
@@ -135,4 +148,3 @@
 .menu-open .menu-content {
   transform: translateX(0);
 }
-
