@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { PageWrapper, Contact, SubNav, Loading, PodcastTeaser } from '../../components'
+import { PageWrapper, SubNav, Loading, PodcastTeaser } from '../../components'
 import podcasts from '../../assets/podcasts/pinecast-podcasts'
 
 const PodcastLanding = () => {
@@ -11,7 +11,7 @@ const PodcastLanding = () => {
   const numberOfEpisodesShown = episodesToDisplay * episodesPage
   const allEpisodesShown = numberOfEpisodesShown >= totalEpisodesQty
 
-  const buttonText = allEpisodesShown ? 'all episodes shown' : 'load more episodes'
+  const buttonText = allEpisodesShown ? 'All episodes shown' : 'Load more episodes'
 
   return (
     <PageWrapper pageTitle='podcaster | community-builder'>
@@ -35,10 +35,6 @@ const PodcastLanding = () => {
           <div className='content-hub-nav'>
             <button onClick={() => setEpisodesPage(episodesPage + 1)} disabled={allEpisodesShown}>{buttonText}</button>
           </div>
-        </div>
-        <div id='contact' className='shadow-bg-main-accent section-wrapper'>
-          <h2>contact</h2>
-          <Contact />
         </div>
       </main>
     </PageWrapper>

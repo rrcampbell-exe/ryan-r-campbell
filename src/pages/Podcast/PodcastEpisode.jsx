@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { PageWrapper, Contact, NotFound, Loading } from '../../components'
+import { PageWrapper, NotFound, Loading } from '../../components'
 import { useParams } from 'react-router-dom'
 import { fetchEpisode, findEpisodeUUID, formatDate } from '../../utils'
 
@@ -28,10 +28,6 @@ const PodcastEpisode = () => {
             <NotFound contentType='podcast' />
           </>
         )}
-        <div id='contact' className='shadow-bg-main-accent section-wrapper'>
-          <h2>contact</h2>
-          <Contact />
-        </div>
       </main>
     </PageWrapper>
   )

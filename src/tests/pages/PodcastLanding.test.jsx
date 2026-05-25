@@ -18,12 +18,12 @@ describe('PodcastLanding', () => {
         <PodcastLanding />
       </ContextAndRouterProvider>
     )
-    const loadMoreEpisodesButton = screen.getByText('load more episodes')
+    const loadMoreEpisodesButton = screen.getByText('Load more episodes')
 
     const numberOfClicks = 16
     for (let i = 0; i < numberOfClicks; i++) {
       fireEvent.click(loadMoreEpisodesButton)
     }
-    expect(screen.getByText('all episodes shown')).toBeInTheDocument()
+    expect(screen.getByText('All episodes shown')).toBeInTheDocument()
   })
 })

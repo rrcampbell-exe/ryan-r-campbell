@@ -1,4 +1,6 @@
 .Podcast {
+  margin-top: calc(-1 * var(--space-8));
+
   .about-row {
     padding-top: 2rem;
   }
