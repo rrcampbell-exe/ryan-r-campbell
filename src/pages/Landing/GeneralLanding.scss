@@ -9,11 +9,17 @@
 
   // ── Shared vertical section rhythm ────────────────────────────
   section {
-    padding-top: var(--space-24);
-    padding-bottom: var(--space-24);
+    padding-top: var(--space-12);
+    padding-bottom: var(--space-12);
 
     &:first-of-type {
       padding-top: var(--space-16);
+    }
+
+    @media (max-width: 700px) {
+      &:first-of-type {
+        padding-top: var(--space-8);
+      }
     }
   }
 
@@ -63,6 +69,10 @@
     text-transform: uppercase;
     color: var(--copper);
     margin: 0;
+
+    @media (max-width: 400px) {
+      letter-spacing: 0.1em;
+    }
   }
 
   .gl-hero__name {
@@ -175,9 +185,39 @@
 
     @media (max-width: 700px) {
       flex-direction: row;
-      text-align: left;
+      align-items: center;
       gap: var(--space-4);
+      text-align: left;
       padding: 0;
+    }
+  }
+
+  .gl-metrics__icon {
+    flex-shrink: 0;
+    margin-bottom: var(--space-2);
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      stroke: var(--copper);
+      fill: none;
+      stroke-width: 1.5;
+      opacity: 0.75;
+    }
+
+    @media (max-width: 700px) {
+      margin-bottom: 0;
+    }
+  }
+
+  .gl-metrics__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (max-width: 700px) {
+      align-items: flex-start;
+      gap: var(--space-1);
     }
   }
 
@@ -190,9 +230,8 @@
     margin-bottom: var(--space-2);
 
     @media (max-width: 700px) {
+      font-size: clamp(1.3rem, 5vw, 1.8rem);
       margin-bottom: 0;
-      white-space: nowrap;
-      min-width: 6rem;
     }
   }
 

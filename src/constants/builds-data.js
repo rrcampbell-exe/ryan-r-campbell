@@ -29,7 +29,7 @@ const builds = [
     description: 'This storyline generator for fantasy tabletop roleplaying games inspires players at every stage of gameplay.',
     technologies: 'HTML, JavaScript, CSS, Bootstrap',
     link: 'https://rrcampbell-exe.github.io/yarnsworths-tales/',
-    linkText: 'discover your next d&d adventure',
+    linkText: 'explore the generator',
     gitHub: 'https://github.com/rrcampbell-exe/yarnsworths-tales'
   },
   {

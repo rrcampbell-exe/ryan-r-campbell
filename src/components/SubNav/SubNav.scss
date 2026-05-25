@@ -21,6 +21,8 @@
     margin-right: calc(-1 * var(--space-6));
     padding-left: var(--space-6);
     padding-right: var(--space-6);
+    mask-image: linear-gradient(to right, black 75%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 75%, transparent 100%);
   }
 
   .section a {

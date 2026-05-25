@@ -34,11 +34,18 @@ exports[`Books > Books default snapshot 1`] = `
             The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
           </p>
         </a>
-        <a
-          href="/books"
+        <button
+          class="btn-secondary"
         >
-          read more about scambait
-        </a>
+          <a
+            href="/books"
+          />
+          <a
+            href="/books"
+          >
+            Read more
+          </a>
+        </button>
       </div>
     </div>
     <a
@@ -69,11 +76,18 @@ exports[`Books > Books default snapshot 1`] = `
             A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
           </p>
         </a>
-        <a
-          href="/books"
+        <button
+          class="btn-secondary"
         >
-          read more about and ampersand
-        </a>
+          <a
+            href="/books"
+          />
+          <a
+            href="/books"
+          >
+            Read more
+          </a>
+        </button>
       </div>
     </div>
     <a
@@ -103,11 +117,18 @@ exports[`Books > Books default snapshot 1`] = `
             The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.
           </p>
         </a>
-        <a
-          href="/books"
+        <button
+          class="btn-secondary"
         >
-          read more about imminent dawn
-        </a>
+          <a
+            href="/books"
+          />
+          <a
+            href="/books"
+          >
+            Read more
+          </a>
+        </button>
       </div>
     </div>
     <a
@@ -137,11 +158,18 @@ exports[`Books > Books default snapshot 1`] = `
             An evocative, sweeping symphony of love, revenge, and desperation in cacophonous times.
           </p>
         </a>
-        <a
-          href="/books"
+        <button
+          class="btn-secondary"
         >
-          read more about mourning dove
-        </a>
+          <a
+            href="/books"
+          />
+          <a
+            href="/books"
+          >
+            Read more
+          </a>
+        </button>
       </div>
     </div>
   </div>

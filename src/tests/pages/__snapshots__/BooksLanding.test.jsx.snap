@@ -248,12 +248,12 @@ exports[`BooksLanding > default snapshot 1`] = `
                   <button
                     data-testid="scambait"
                   >
-                    read a sample
+                    Read a sample
                   </button>
                   <button
                     data-testid="https://www.amazon.com/dp/B09SY4P6FR"
                   >
-                    buy this book
+                    Buy this book
                   </button>
                 </div>
               </div>
@@ -558,12 +558,12 @@ exports[`BooksLanding > default snapshot 1`] = `
                   <button
                     data-testid="and-ampersand"
                   >
-                    read a sample
+                    Read a sample
                   </button>
                   <button
                     data-testid="https://www.amazon.com/dp/1736387111"
                   >
-                    buy this book
+                    Buy this book
                   </button>
                 </div>
               </div>
@@ -850,7 +850,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                   <button
                     data-testid="imminent-dawn-disclaimer"
                   >
-                    learn more
+                    Learn more
                   </button>
                 </div>
               </div>
@@ -1098,7 +1098,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                   <button
                     data-testid="mourning-dove-disclaimer"
                   >
-                    learn more
+                    Learn more
                   </button>
                 </div>
               </div>
@@ -1728,12 +1728,12 @@ exports[`BooksLanding > default snapshot 1`] = `
                 <button
                   data-testid="scambait"
                 >
-                  read a sample
+                  Read a sample
                 </button>
                 <button
                   data-testid="https://www.amazon.com/dp/B09SY4P6FR"
                 >
-                  buy this book
+                  Buy this book
                 </button>
               </div>
             </div>
@@ -2038,12 +2038,12 @@ exports[`BooksLanding > default snapshot 1`] = `
                 <button
                   data-testid="and-ampersand"
                 >
-                  read a sample
+                  Read a sample
                 </button>
                 <button
                   data-testid="https://www.amazon.com/dp/1736387111"
                 >
-                  buy this book
+                  Buy this book
                 </button>
               </div>
             </div>
@@ -2330,7 +2330,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                 <button
                   data-testid="imminent-dawn-disclaimer"
                 >
-                  learn more
+                  Learn more
                 </button>
               </div>
             </div>
@@ -2578,7 +2578,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                 <button
                   data-testid="mourning-dove-disclaimer"
                 >
-                  learn more
+                  Learn more
                 </button>
               </div>
             </div>

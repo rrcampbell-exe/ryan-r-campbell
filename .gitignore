@@ -154,3 +154,5 @@ yarn-error.log*
 
 # Archived content
 archive/
+# Playwright / audit screenshots
+.playwright-mcp/

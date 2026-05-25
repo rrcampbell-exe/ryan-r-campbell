@@ -30,6 +30,23 @@
   }
 
   @media (max-width: 600px) {
+    .book-section {
+      padding: 2rem 0;
+      margin: 0;
+      justify-content: center;
+    }
+
+    .book-wrapper {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
+    .book-cover {
+      max-width: 180px;
+    }
+
     .book-metadata {
       width: 100%;
       margin: 0;

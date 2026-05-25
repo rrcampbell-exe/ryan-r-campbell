@@ -165,7 +165,7 @@ exports[`Builds > default snapshot 1`] = `
           rel="noopener noreferrer"
           target="_blank"
         >
-          discover your next d&d adventure
+          explore the generator
         </a>
         <a
           class="build-tile__link build-tile__link--gh"
