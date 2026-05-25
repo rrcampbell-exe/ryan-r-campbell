@@ -36,7 +36,16 @@ describe('ContactPage', () => {
         <ContactPage />
       </ContextAndRouterProvider>
     )
-    const subscribeLink = screen.getByText('subscribe on substack')
+    const subscribeLink = screen.getByText('Substack', { selector: 'a' })
     expect(subscribeLink).toBeInTheDocument()
+  })
+  test('should have a link to connect on LinkedIn', () => {
+    render(
+      <ContextAndRouterProvider>
+        <ContactPage />
+      </ContextAndRouterProvider>
+    )
+    const connectLink = screen.getByText('LinkedIn', { selector: 'a' })
+    expect(connectLink).toBeInTheDocument()
   })
 })
