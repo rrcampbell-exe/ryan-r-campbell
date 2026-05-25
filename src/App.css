@@ -1,92 +1,258 @@
 @import './imported-styles.css';
 
+/* ============================================================
+   DESIGN TOKENS
+   Palette inspired by the deep navy of the headshot backdrop,
+   warm copper as a confident accent, and cream as warm text.
+   ============================================================ */
 :root {
-  --main-dark-color: #242424;
-  --main-light-color: #ffffff;
-  --main-accent-color: #df633b;
-  --shadow: #00000033;
-  --main-accent-shadow: #df643b78;
-  --main-accent-extended: #f36738cc;
-  --cool-dark-color: #8C52FF;
-  --cool-light-color: #E6B6F4;
-  --standard-box-shadow: 0px 4px 8px var(--shadow);
-  --fast-transition: 0.3s;
-  --slow-transition: 0.5s;
+  /* --- Color primitives --- */
+  --midnight:         #0D1B2E;   /* deepest navy — hero bg */
+  --navy:             #152642;   /* rich navy — section bg */
+  --ink:              #1E3552;   /* medium navy — cards, wells */
+  --steel:            #3D5470;   /* border, divider */
+  --slate:            #7C93AA;   /* muted text, labels */
+  --fog:              #B0C0D0;   /* placeholder, disabled */
+  --cream:            #F2EDE3;   /* warm body text on dark */
+  --parchment:        #E8E2D7;   /* secondary text on dark */
+  --white:            #FFFFFF;
 
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  /* Copper accent family */
+  --copper:           #C87941;
+  --copper-light:     #E09A5E;
+  --copper-dim:       #9E5E2F;
+  --copper-glow:      rgba(200, 121, 65, 0.14);
+
+  /* Light-mode surface tones */
+  --surface-light:    #F9F6F1;   /* warm off-white page bg */
+  --surface-card:     #FFFFFF;
+  --text-dark:        #1A2436;
+  --text-muted:       #596678;
+
+  /* --- Semantic aliases (dark theme defaults) --- */
+  --bg-page:          var(--midnight);
+  --bg-section:       var(--navy);
+  --bg-card:          var(--ink);
+  --border-color:     var(--steel);
+  --text-primary:     var(--cream);
+  --text-secondary:   var(--parchment);
+  --text-accent:      var(--copper);
+
+  /* --- Typography --- */
+  --font-display:     'Cormorant Garamond', Georgia, serif;
+  --font-body:        'Outfit', system-ui, sans-serif;
+  --font-mono:        'JetBrains Mono', 'Fira Code', monospace;
+
+  /* --- Spacing scale --- */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+
+  /* --- Effects --- */
+  --shadow-sm:  0 1px 3px rgba(0,0,0,0.3);
+  --shadow-md:  0 4px 12px rgba(0,0,0,0.35);
+  --shadow-lg:  0 8px 30px rgba(0,0,0,0.4);
+  --shadow-copper: 0 0 24px var(--copper-glow);
+
+  /* --- Transitions --- */
+  --fast:   0.2s ease;
+  --medium: 0.35s ease;
+  --slow:   0.55s ease;
+
+  /* --- Radius --- */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  16px;
+  --radius-xl:  24px;
+  --radius-pill: 999px;
+
+  /* --- Layout --- */
+  --page-gutter: clamp(1.5rem, 5vw, 4rem);
+  --content-max: 1200px;
+
+  /* --- Glass morphism --- */
+  --glass-bg:       rgba(255, 255, 255, 0.035);
+  --glass-bg-hover: rgba(255, 255, 255, 0.06);
+  --glass-border:   rgba(255, 255, 255, 0.08);
+  --glass-border-active: rgba(200, 121, 65, 0.4);
+  --glass-blur:     blur(20px);
+
+  /* --- Legacy compat aliases (keep existing component code working) --- */
+  --main-dark-color:      var(--midnight);
+  --main-light-color:     var(--cream);
+  --main-accent-color:    var(--copper);
+  --shadow:               rgba(0,0,0,0.33);
+  --main-accent-shadow:   var(--copper-glow);
+  --main-accent-extended: rgba(200,121,65,0.8);
+  --cool-dark-color:      #4A6FA5;
+  --cool-light-color:     #8BAFD4;
+  --standard-box-shadow:  var(--shadow-md);
+  --fast-transition:      var(--fast);
+  --slow-transition:      var(--slow);
+
+  font-family: var(--font-body);
+  line-height: 1.6;
   font-weight: 400;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   scroll-behavior: smooth;
 }
 
-/* BASE STYLES */
+/* ============================================================
+   BASE RESET & GLOBALS
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body, html {
   margin: 0;
   max-width: 100%;
   overflow-x: hidden;
 }
 
+/* --- Headings: Cormorant Garamond for editorial weight --- */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-top: 0;
 }
 
+h1 { font-size: clamp(2.25rem, 5vw, 3.5rem); }
+h2 { font-size: clamp(1.6rem, 3vw, 2.25rem); }
+h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); }
+
+/* --- Body copy --- */
+p {
+  font-family: var(--font-body);
+  font-weight: 300;
+  line-height: 1.75;
+  margin-top: 0;
+}
+
+/* --- Links --- */
 a {
-  color: var(--main-accent-color);
-  letter-spacing: 0.1rem;
+  color: var(--copper);
+  letter-spacing: 0.02em;
   text-decoration: none;
+  transition: color var(--fast);
 }
 
+a:hover {
+  color: var(--copper-light);
+}
+
+/* --- Buttons --- */
 button {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
   background-color: transparent;
-  color: var(--main-accent-color);
-  box-shadow: var(--standard-box-shadow);
-  padding: 0.5rem 1rem;
-  border-radius: 30px;
-  border: 1px solid var(--main-accent-color);
-  letter-spacing: 0.1rem;
+  color: var(--copper);
+  border: 1px solid var(--copper);
+  border-radius: var(--radius-pill);
+  padding: 0.55rem 1.4rem;
+  cursor: pointer;
+  transition: background-color var(--fast), color var(--fast), box-shadow var(--fast);
 
   &:hover {
-    cursor: pointer;
+    background-color: var(--copper-glow);
+    box-shadow: var(--shadow-copper);
   }
 
   &:disabled {
     cursor: not-allowed;
+    opacity: 0.45;
   }
 }
 
-.grow-on-hover {
+/* Primary filled button variant */
+.btn-primary {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  background-color: var(--copper);
+  color: var(--midnight) !important;
+  border: 1px solid var(--copper);
+  border-radius: var(--radius-pill);
+  padding: 0.65rem 1.75rem;
+  transition: background-color var(--fast), box-shadow var(--fast), transform var(--fast);
+
   &:hover {
-    transform: scale(1.01);
+    background-color: var(--copper-light);
+    border-color: var(--copper-light);
+    box-shadow: var(--shadow-copper);
+    transform: translateY(-1px);
   }
 }
 
-.app-overview-underline, .content-post-underline {
-  background-color: var(--main-dark-color);
+/* Ghost button variant */
+.btn-secondary {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  background-color: transparent;
+  color: var(--cream) !important;
+  border: 1px solid var(--steel);
+  border-radius: var(--radius-pill);
+  padding: 0.65rem 1.75rem;
+  transition: border-color var(--fast), color var(--fast), transform var(--fast);
+
+  &:hover {
+    border-color: var(--copper);
+    color: var(--copper) !important;
+    transform: translateY(-1px);
+  }
 }
 
-.Header a, .Contact a {
-  color: var(--main-dark-color);
+/* ============================================================
+   UTILITY CLASSES
+   ============================================================ */
+.grow-on-hover {
+  transition: transform var(--medium);
+  &:hover { transform: scale(1.015); }
 }
 
-.external-link-svg {
-  stroke: var(--main-dark-color);
+.accent-color { color: var(--copper); }
+
+.section-label {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--copper);
+  margin-bottom: var(--space-6);
 }
 
-#robot-svg {
-  fill: var(--main-dark-color);
+/* Content divider */
+.content-divider {
+  width: 48px;
+  height: 2px;
+  background-color: var(--copper);
+  margin-bottom: var(--space-6);
 }
 
-.accent-color {
-  color: var(--main-accent-color);
-}
+/* ============================================================
+   LEGACY COMPAT: classes used by existing components
+   ============================================================ */
 
-/* ABOUT-RELATED STYLES */
+/* about-row and about-img still used on /author, /tech */
 .about-img {
   border-radius: 50%;
   width: 20rem;
@@ -112,96 +278,131 @@ button {
 }
 
 @media (max-width: 600px) {
-  .about-img {
-    width: 15rem;
-  }
+  .about-img { width: 15rem; }
 }
 
-/* POP CONTENT STYLES */
-.pop-content h2 {
-  color: var(--main-light-color)
+/* Pop-content animation (still used by PopText) */
+.pop-content { animation: fade 2s ease-in-out infinite; }
+
+@keyframes fade {
+  0%, 100% { opacity: 0; }
+  50%       { opacity: 1; }
 }
 
 .pop-text-container {
   width: 15rem;
   margin-left: 1.5rem;
   margin-top: 1rem;
-
-  h2 {
-    margin: 0;
-  }
+  h2 { margin: 0; }
 }
 
-.pop-content {
-  animation: fade 2s ease-in-out infinite;
-} 
+.pop-content h2 { color: var(--main-light-color); }
 
-@keyframes fade {
-  0%, 100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
+/* Section wrapper spacing */
+.section-wrapper { padding-bottom: var(--space-8); }
 
-/* COMMON BACKGROUND SHADOW STYLES */
-.shadow-bg-main-accent, .shadow-bg-gray {
-  margin: 0 -2rem 2rem -2rem;
-  padding: 1rem 2rem;
-}
-
-/* SPECIFIC BACKGROUND STYLES */
-.shadow-bg-main-accent {
-  background-color: var(--main-accent-shadow);
-}
-
+/* Background accent bands — full-bleed using page gutter */
+.shadow-bg-main-accent,
 .shadow-bg-gray {
-  background-color: var(--shadow);
+  margin: 0 calc(-1 * var(--page-gutter)) var(--space-8) calc(-1 * var(--page-gutter));
+  padding: var(--space-4) var(--page-gutter);
 }
 
-/* SECTION WRAPPER STYLES */
-.section-wrapper {
-  padding-bottom: 2rem;
+.shadow-bg-main-accent { background-color: var(--copper-glow); }
+.shadow-bg-gray         { background-color: rgba(0,0,0,0.25); }
+
+/* Underlines used by blog post and builds */
+.app-overview-underline,
+.content-post-underline {
+  height: 1px;
+  background-color: var(--steel);
+  margin: var(--space-4) 0;
 }
 
-/* COMMON STYLES ACROSS THEMES */
-.light-theme, .dark-theme {
-  padding: 1rem 2rem;
-  margin: 0 auto;
-  transition: var(--slow-transition);
+/* ============================================================
+   GLASS UTILITIES
+   ============================================================ */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+}
+
+.glass-panel {
+  background: rgba(13, 27, 46, 0.7);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+}
+
+/* ============================================================
+   THEME WRAPPER — dark only
+   ============================================================ */
+.dark-theme,
+.light-theme {
+  padding: 0 var(--page-gutter) var(--space-4);
+  min-height: 100vh;
+  transition: background-color var(--slow), color var(--slow);
 
   @media (max-width: 600px) {
-    padding: 1rem;
+    padding-left: var(--space-6);
+    padding-right: var(--space-6);
   }
 }
 
-/* LIGHT THEME-SPECIFIC STYLES */
-.light-theme {
-  color: var(--main-dark-color);
-  background-color: var(--main-light-color);
-  border-color: var(--main-dark-color);
-}
-
-/* DARK THEME-SPECIFIC STYLES */
 .dark-theme {
-  color: var(--main-light-color);
-  background-color: var(--main-dark-color);
-  border-color: var(--main-light-color);
+  color: var(--cream);
+  background:
+    radial-gradient(ellipse at 18% 0%, rgba(20, 50, 95, 0.7) 0%, transparent 55%),
+    radial-gradient(ellipse at 82% 70%, rgba(200, 121, 65, 0.07) 0%, transparent 45%),
+    #07101D;
+  border-color: var(--steel);
 
-  .app-overview-underline, .content-post-underline {
-    background-color: var(--main-light-color);
+  --bg-page:        #07101D;
+  --bg-section:     var(--navy);
+  --bg-card:        var(--ink);
+  --border-color:   var(--steel);
+  --text-primary:   var(--cream);
+  --text-secondary: var(--parchment);
+
+  .app-overview-underline,
+  .content-post-underline {
+    background-color: var(--steel);
   }
 
-  .Header a, .Contact a {
-    color: var(--main-light-color);
+  .Header a,
+  .Contact a {
+    color: var(--cream);
   }
 
-  .external-link-svg {
-    stroke: var(--main-light-color);
-  }
-
-  #robot-svg {
-    fill: var(--main-light-color);
-  }
+  .external-link-svg { stroke: var(--cream); }
+  #robot-svg         { fill: var(--cream); }
 }
+
+/* light-theme retained as alias — same dark styling since toggle is removed */
+.light-theme {
+  color: var(--cream);
+  background:
+    radial-gradient(ellipse at 18% 0%, rgba(20, 50, 95, 0.7) 0%, transparent 55%),
+    radial-gradient(ellipse at 82% 70%, rgba(200, 121, 65, 0.07) 0%, transparent 45%),
+    #07101D;
+  border-color: var(--steel);
+
+  --bg-page:        #07101D;
+  --bg-section:     var(--navy);
+  --bg-card:        var(--ink);
+  --border-color:   var(--steel);
+  --text-primary:   var(--cream);
+  --text-secondary: var(--parchment);
+
+  .Header a,
+  .Contact a {
+    color: var(--cream);
+  }
+
+  .external-link-svg { stroke: var(--cream); }
+  #robot-svg         { fill: var(--cream); }
+}
+

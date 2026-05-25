@@ -1,6 +1,7 @@
 /* LOCALLY CREATED SASS FILES */
 @import './components/Header/Header.scss';
 @import './components/Footer/Footer.scss';
+@import './components/Tech/Boasts.scss';
 @import './pages/Landing/GeneralLanding.scss';
 @import './components/Books/Books.scss';
 @import './components/Builds/Builds.scss';
@@ -24,5 +25,3 @@
 @import './components/CodeBlock/CodeBlock.scss';
 
 /* EXTERNALLY IMPORTED CSS FILES */
-@import 'slick-carousel/slick/slick.css';
-@import 'slick-carousel/slick/slick-theme.css';

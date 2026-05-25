@@ -5,235 +5,228 @@ exports[`Builds > default snapshot 1`] = `
   <div
     class="Builds"
   >
-    <div
-      class="build grow-on-hover"
+    <article
+      class="build-tile"
       data-testid="build"
     >
       <div
-        class="app-overview"
+        class="build-tile__logo-wrap"
       >
         <img
           alt="A black-and-white image of Ryan R. Campbell gazing to the right"
-          class="app-logo"
+          class="build-tile__logo"
           src="./builds/ryan-r-campbell-app-logo.png"
         />
+      </div>
+      <div
+        class="build-tile__body"
+      >
         <h3
-          class="app-title"
+          class="build-tile__title"
         >
           The Ryan R. Campbell Website
         </h3>
-        <i
-          class="app-teaser"
+        <p
+          class="build-tile__teaser"
         >
           Books and builds and blogs, oh my!
-        </i>
-        <p>
+        </p>
+        <p
+          class="build-tile__desc"
+        >
           The blog, portfolio, and personal site for author and technologist Ryan R. Campbell.
         </p>
-        <div
-          class="app-overview-underline"
-        />
-      </div>
-      <div
-        class="app-details"
-      >
-        <p>
-          <b>
-            Technologies used: 
-          </b>
+        <p
+          class="build-tile__tech"
+        >
           React, Sass, Vite, react-router, visx, Vitest, @testing-library/react, husky
         </p>
-        <p>
-          <a
-            href="https://ryanrcampbell.com/"
-            rel="noopener"
-            target=""
-          >
-            return to the homepage
-          </a>
-        </p>
-        <p>
-          <a
-            href="https://github.com/rrcampbell-exe/ryan-r-campbell"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            view the ryan r. campbell website on github
-          </a>
-        </p>
       </div>
-    </div>
-    <div
-      class="build grow-on-hover"
+      <div
+        class="build-tile__links"
+      >
+        <a
+          class="build-tile__link"
+          href="https://ryanrcampbell.com/"
+        >
+          return to the homepage
+        </a>
+        <a
+          class="build-tile__link build-tile__link--gh"
+          href="https://github.com/rrcampbell-exe/ryan-r-campbell"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+      </div>
+    </article>
+    <article
+      class="build-tile"
       data-testid="build"
     >
       <div
-        class="app-overview"
+        class="build-tile__logo-wrap"
       >
         <img
           alt="The cartoon outline of a bird against a forest green background"
-          class="app-logo"
+          class="build-tile__logo"
           src="./builds/real-fake-birds-app-logo.png"
         />
+      </div>
+      <div
+        class="build-tile__body"
+      >
         <h3
-          class="app-title"
+          class="build-tile__title"
         >
           Real Fake Birds
         </h3>
-        <i
-          class="app-teaser"
+        <p
+          class="build-tile__teaser"
         >
           Some are real. Some are fake. Tell them apart.
-        </i>
-        <p>
+        </p>
+        <p
+          class="build-tile__desc"
+        >
           Earn badges and extend your streak in this real-or-fake guessing game that puts even the most ardent birders to the test.
         </p>
-        <div
-          class="app-overview-underline"
-        />
-      </div>
-      <div
-        class="app-details"
-      >
-        <p>
-          <b>
-            Technologies used: 
-          </b>
+        <p
+          class="build-tile__tech"
+        >
           React, Node, axios, styled-components, react-router, REST APIs
         </p>
-        <p>
-          <a
-            href="https://www.realfakebirds.app"
-            rel="noopener"
-            target="_blank"
-          >
-            play the game
-          </a>
-        </p>
-        <p>
-          <a
-            href="https://github.com/rrcampbell-exe/real-fake-birds"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            view real fake birds on github
-          </a>
-        </p>
       </div>
-    </div>
-    <div
-      class="build grow-on-hover"
+      <div
+        class="build-tile__links"
+      >
+        <a
+          class="build-tile__link"
+          href="https://www.realfakebirds.app"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          play the game
+        </a>
+        <a
+          class="build-tile__link build-tile__link--gh"
+          href="https://github.com/rrcampbell-exe/real-fake-birds"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+      </div>
+    </article>
+    <article
+      class="build-tile"
       data-testid="build"
     >
       <div
-        class="app-overview"
+        class="build-tile__logo-wrap"
       >
         <img
           alt="The cartoon cat Yarnsworth grins mischieviously"
-          class="app-logo"
+          class="build-tile__logo"
           src="./builds/yarnsworths-tales-app-logo.png"
         />
+      </div>
+      <div
+        class="build-tile__body"
+      >
         <h3
-          class="app-title"
+          class="build-tile__title"
         >
           Yarnsworth's Tales
         </h3>
-        <i
-          class="app-teaser"
+        <p
+          class="build-tile__teaser"
         >
           Trillions of tales await.
-        </i>
-        <p>
+        </p>
+        <p
+          class="build-tile__desc"
+        >
           This storyline generator for fantasy tabletop roleplaying games inspires players at every stage of gameplay.
         </p>
-        <div
-          class="app-overview-underline"
-        />
-      </div>
-      <div
-        class="app-details"
-      >
-        <p>
-          <b>
-            Technologies used: 
-          </b>
+        <p
+          class="build-tile__tech"
+        >
           HTML, JavaScript, CSS, Bootstrap
         </p>
-        <p>
-          <a
-            href="https://rrcampbell-exe.github.io/yarnsworths-tales/"
-            rel="noopener"
-            target="_blank"
-          >
-            discover your next d&d adventure
-          </a>
-        </p>
-        <p>
-          <a
-            href="https://github.com/rrcampbell-exe/yarnsworths-tales"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            view yarnsworth's tales on github
-          </a>
-        </p>
       </div>
-    </div>
-    <div
-      class="build grow-on-hover"
+      <div
+        class="build-tile__links"
+      >
+        <a
+          class="build-tile__link"
+          href="https://rrcampbell-exe.github.io/yarnsworths-tales/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          discover your next d&d adventure
+        </a>
+        <a
+          class="build-tile__link build-tile__link--gh"
+          href="https://github.com/rrcampbell-exe/yarnsworths-tales"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+      </div>
+    </article>
+    <article
+      class="build-tile"
       data-testid="build"
     >
       <div
-        class="app-overview"
+        class="build-tile__logo-wrap"
       >
         <img
           alt="A piece of paper with a folded corner and a lower-case letter I"
-          class="app-logo"
+          class="build-tile__logo"
           src="./builds/file-info-svgrepo-com.png"
-        />
-        <h3
-          class="app-title"
-        >
-          README Generator
-        </h3>
-        <i
-          class="app-teaser"
-        >
-          Make READMEs users will actually read.
-        </i>
-        <p>
-          This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!
-        </p>
-        <div
-          class="app-overview-underline"
         />
       </div>
       <div
-        class="app-details"
+        class="build-tile__body"
       >
-        <p>
-          <b>
-            Technologies used: 
-          </b>
+        <h3
+          class="build-tile__title"
+        >
+          README Generator
+        </h3>
+        <p
+          class="build-tile__teaser"
+        >
+          Make READMEs users will actually read.
+        </p>
+        <p
+          class="build-tile__desc"
+        >
+          This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!
+        </p>
+        <p
+          class="build-tile__tech"
+        >
           Node, Inquirer, fs, JavaScript, ESM
         </p>
-        <p>
-          <a
-            rel="noopener"
-            target="_blank"
-          />
-        </p>
-        <p>
-          <a
-            href="https://github.com/rrcampbell-exe/readme-generator"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            view readme generator on github
-          </a>
-        </p>
       </div>
-    </div>
+      <div
+        class="build-tile__links"
+      >
+        <a
+          class="build-tile__link build-tile__link--gh"
+          href="https://github.com/rrcampbell-exe/readme-generator"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          GitHub
+        </a>
+      </div>
+    </article>
   </div>
 </DocumentFragment>
 `;

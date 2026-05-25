@@ -1,26 +1,56 @@
 .SubNav {
+  position: sticky;
+  top: 3.25rem;
+  z-index: 100;
   display: flex;
-  padding: 0.5rem 0 1rem 0;
+  align-items: center;
+  gap: var(--space-8);
+  margin: 0 calc(-1 * var(--page-gutter)) var(--space-8);
+  padding: var(--space-3) var(--page-gutter);
+  background: rgba(7, 16, 29, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--glass-border);
   overflow-x: auto;
   white-space: nowrap;
-  scrollbar-width: thin;
-  scrollbar-color: var(--main-accent-color) var(--main-dark-color);
-  margin-bottom: 1rem;
-  transition: var(--slow-transition);
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
 
-  // Individual sections of the subnav (e.g. "About", "Reviews", "Contact")
-  .section {
-    border-right: 0.5px solid;
-    padding: 0rem 1rem;
-
-    &:first-child {
-      border-left: 0.5px solid;
-    }
+  @media (max-width: 600px) {
+    margin-left: calc(-1 * var(--space-6));
+    margin-right: calc(-1 * var(--space-6));
+    padding-left: var(--space-6);
+    padding-right: var(--space-6);
   }
-}
 
-.light-theme {
-  .SubNav {
-    scrollbar-color: var(--main-accent-color) var(--main-light-color);
+  .section a {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--slate);
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 0.2rem;
+    transition: color var(--fast);
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: var(--copper);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform var(--medium);
+    }
+
+    &:hover {
+      color: var(--cream);
+      &::after { transform: scaleX(1); }
+    }
   }
 }

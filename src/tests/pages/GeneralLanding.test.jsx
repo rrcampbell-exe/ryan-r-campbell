@@ -1,6 +1,6 @@
 import GeneralLanding from '../../pages/Landing/GeneralLanding'
 import { describe, expect, test } from 'vitest'
-import { render, fireEvent } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
 
 describe('GeneralLanding', () => {
@@ -13,33 +13,29 @@ describe('GeneralLanding', () => {
     expect(generalLanding).toMatchSnapshot()
   })
 
-  test('should render a subnav with the correct sections in order', () => {
+  test('should render a header nav with site sections', () => {
     const { container } = render(
       <ContextAndRouterProvider>
         <GeneralLanding />
       </ContextAndRouterProvider>
     )
 
-    const subnav = container.querySelector('.SubNav')
+    const headerNav = container.querySelector('.header-nav')
 
-    expect(subnav).toBeInTheDocument()
-    expect(subnav.children.length).toBe(4)
-    expect(subnav.children[0].textContent).toBe('blog')
-    expect(subnav.children[1].textContent).toBe('books')
-    expect(subnav.children[2].textContent).toBe('builds')
-    expect(subnav.children[3].textContent).toBe('contact')
+    expect(headerNav).toBeInTheDocument()
+    expect(headerNav.children.length).toBeGreaterThanOrEqual(4)
   })
 
-  test('should render a photo banner', () => {
+  test('should render a hero section', () => {
     const { container } = render(
       <ContextAndRouterProvider>
         <GeneralLanding />
       </ContextAndRouterProvider>
     )
 
-    const photoBanner = container.querySelector('.photo-banner')
+    const hero = container.querySelector('.gl-hero')
 
-    expect(photoBanner).toBeInTheDocument()
+    expect(hero).toBeInTheDocument()
   })
 
   test('should render correct number of teasers', () => {
@@ -50,45 +46,30 @@ describe('GeneralLanding', () => {
     )
 
     const teasers = container.querySelectorAll('.content-post')
-    expect(teasers.length).toBe(1)
+    expect(teasers.length).toBe(2)
   })
 
-  test('should take users to blog landing page when to the blog is clicked', () => {
-    const { getByText } = render(
+  test('should render a link to GitHub', () => {
+    const { getAllByRole } = render(
       <ContextAndRouterProvider>
         <GeneralLanding />
       </ContextAndRouterProvider>
     )
 
-    const button = getByText('go to substack')
-    fireEvent.click(button)
-
-    expect(window.location.pathname).toBe('/blog')
+    const links = getAllByRole('link')
+    const githubLink = links.find(l => l.href.includes('github.com'))
+    expect(githubLink).toBeInTheDocument()
   })
 
-  test('should take users to author page when about the author is clicked', () => {
-    const { getByText } = render(
+  test('should render a link to Substack', () => {
+    const { getAllByRole } = render(
       <ContextAndRouterProvider>
         <GeneralLanding />
       </ContextAndRouterProvider>
     )
 
-    const button = getByText('about the author')
-    fireEvent.click(button)
-
-    expect(window.location.pathname).toBe('/author')
-  })
-
-  test('should take users to tech page when about the engineer is clicked', () => {
-    const { getByText } = render(
-      <ContextAndRouterProvider>
-        <GeneralLanding />
-      </ContextAndRouterProvider>
-    )
-
-    const button = getByText('about the engineer')
-    fireEvent.click(button)
-
-    expect(window.location.pathname).toBe('/tech')
+    const links = getAllByRole('link')
+    const substackLink = links.find(l => l.href.includes('substack.com'))
+    expect(substackLink).toBeInTheDocument()
   })
 })

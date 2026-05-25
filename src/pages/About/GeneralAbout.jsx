@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { PageWrapper, Contact } from '../../components'
+import { PageWrapper } from '../../components'
 import { ShortStory, LongStory } from './AboutContents'
 
 const GeneralAbout = () => {
@@ -31,10 +31,6 @@ const GeneralAbout = () => {
           </div>
         }
       </main>
-      <div id='contact' className='shadow-bg-main-accent section-wrapper'>
-        <h2>contact</h2>
-        <Contact />
-      </div>
     </PageWrapper>
   )
 }

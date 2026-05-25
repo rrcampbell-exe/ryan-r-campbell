@@ -1,51 +1,82 @@
 .Reviews {
-  text-align: center;
-  margin: 0 -2rem;
-  padding: 2rem 0;
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
 
-  .quote-contents {
-    margin: 0 6rem;
-  }
-
-  .quotes-svg {
-    height: 5rem;
-    width: 5rem;
-  }
-
-  .slick-prev:before, .slick-next:before {
-    color: var(--main-dark-color);
-    font-size: 24px;
-  }
-
-  .slick-prev {
-    left: 40px;
-    z-index: 1;
-  }
-
-  .slick-next {
-    right: 40px;
-    z-index: 1;
-  }
-
-  @media (max-width: 600px) {
-    .slick-prev:before, .slick-next:before, button {
-      display: none;
-      box-shadow: none;
+    @media (max-width: 900px) {
+      grid-template-columns: repeat(2, 1fr);
     }
+
+    @media (max-width: 540px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .review-card {
+    margin: 0;
+    padding: var(--space-6);
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-xl);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    transition: border-color var(--medium), background var(--medium);
+
+    &:hover {
+      background: var(--glass-bg-hover);
+      border-color: rgba(255, 255, 255, 0.12);
+    }
+
+    .quotes-svg {
+      height: 2rem;
+      width: 2rem;
+      flex-shrink: 0;
+      fill: var(--copper);
+      opacity: 0.8;
+    }
+  }
+
+  .review-card__quote {
+    font-family: var(--font-display);
+    font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.65;
+    color: var(--parchment);
+    margin: 0;
+    flex: 1;
+  }
+
+  .review-card__attribution {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    border-top: 1px solid var(--glass-border);
+    padding-top: var(--space-4);
+    margin-top: auto;
+
+    cite {
+      font-style: normal;
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      color: var(--cream);
+    }
+  }
+
+  .review-card__book {
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    color: var(--copper-light);
+    letter-spacing: 0.03em;
   }
 }
 
 .Reviews.shadow-bg-gray {
-  padding: 3rem 0;
-  margin-bottom: 0;
-}
-
-.dark-theme {
-  .quotes-svg {
-    filter: invert(100%);
-  }
-
-  .slick-prev:before, .slick-next:before {
-    color: var(--main-light-color);
-  }
+  padding: var(--space-8) var(--page-gutter);
 }

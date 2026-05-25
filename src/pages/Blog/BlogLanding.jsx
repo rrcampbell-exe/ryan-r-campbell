@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { PageWrapper, BlogTeaser, Contact } from '../../components'
+import { PageWrapper, BlogTeaser } from '../../components'
 import { legacyPosts, posts } from '../../assets/posts'
 import { useParams } from 'react-router-dom'
 
@@ -43,10 +43,6 @@ const BlogLanding = () => {
             <button onClick={() => setPostsPage(postsPage + 1)} disabled={allBlogPostsShown}>{buttonText}</button>
           </div>
         }
-        <div id='contact' className='section-wrapper shadow-bg-main-accent'>
-          <h2>contact</h2>
-          <Contact />
-        </div>
       </main>
     </PageWrapper>
   )

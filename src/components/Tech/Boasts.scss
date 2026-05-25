@@ -1,0 +1,101 @@
+// ── Boasts (Selected Impact) ────────────────────────────────────────────────
+// Impact rows: large index number + icon left, achievement bullets right.
+// Intentionally different from .gl-capability-card grid cards.
+
+.Boasts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.boast-row {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: var(--space-12);
+  align-items: start;
+  padding: var(--space-8) 0;
+  border-bottom: 1px solid var(--glass-border);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  @media (max-width: 860px) {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+}
+
+.boast-row__header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding-right: var(--space-8);
+  border-right: 1px solid var(--glass-border);
+  min-height: 100%;
+
+  @media (max-width: 860px) {
+    flex-direction: row;
+    align-items: center;
+    border-right: none;
+    border-bottom: 1px solid var(--glass-border);
+    padding-right: 0;
+    padding-bottom: var(--space-4);
+    gap: var(--space-4);
+  }
+}
+
+.boast-row__icon {
+  svg {
+    width: 2rem;
+    height: 2rem;
+    stroke: var(--copper);
+    fill: none;
+    stroke-width: 1.5;
+    opacity: 0.85;
+  }
+
+  @media (max-width: 860px) {
+    display: none;
+  }
+}
+
+.boast-row__category {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--cream);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.boast-row__achievements {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+
+  li {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(--parchment);
+    line-height: 1.75;
+    padding-left: var(--space-6);
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.65em;
+      width: 12px;
+      height: 1px;
+      background: var(--copper);
+      opacity: 0.6;
+    }
+  }
+}

@@ -1,118 +1,120 @@
 .Header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0.875rem 0;
+  margin: 0 calc(-1 * var(--page-gutter));
+  padding-left: var(--page-gutter);
+  padding-right: var(--page-gutter);
+  background: rgba(7, 16, 29, 0.75);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid var(--glass-border);
+  transition: background var(--medium), border-color var(--medium);
 
-  a {
-    transition: var(--fast-transition);
+  // Wordmark link — no underline, inherit layout flow
+  .wordmark-link {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: opacity var(--fast);
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
-  h1, h2 {
-    margin: 0 auto;
-    padding: 0;
-    transition: var(--fast-transition);
+  // Primary site name — editorial serif
+  .wordmark {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+    letter-spacing: 0.02em;
+    line-height: 1;
+    color: var(--cream);
+    transition: color var(--fast);
+  }
+
+  .wordmark-dot {
+    color: var(--copper);
+  }
+
+  // Subdued page context label
+  .page-subtitle {
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--slate);
+    opacity: 0.7;
   }
 
   .header-toggles {
     display: flex;
-    margin-top: 0.2rem;
+    align-items: center;
+    gap: 0.5rem;
   }
 
-  #moon-svg {
-    stroke: var(--main-light-color);
-    fill: var(--main-light-color);
-    stroke-width: 1.5;
-  }
-  
-  #sun-svg {
-    stroke: var(--main-dark-color);
+  // Desktop inline nav
+  .header-nav {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    margin-left: auto;
+    margin-right: var(--space-8);
+
+    @media (max-width: 860px) {
+      display: none;
+    }
   }
 
-  .header-svg {
-    width: 100%;
-    height: 100%;
-    transition: var(--slow-transition);
-  }
-  
-  #header-dot {
-    display: inline-block;
-    color: var(--main-accent-color);
-    transition: var(--fast-transition);
-  }
-  
-  // ANIMATIONS
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg) scale(1, 1);
-    }
-    50% {
-      transform: rotate(45deg) scale(0.9, 0.9);
-    }
-    100% {
-      transform: rotate(90deg) scale(1, 1);
-    }
-  }
-  
-  @keyframes pulse {
-    0%, 100% {
-      transform: scale(1, 1) rotate(0deg);
-    }
-    50% {
-      transform: scale(0.9, 0.9) rotate(-5deg);
-    }
-  }
-  
-  // THEME TOGGLE BUTTON STYLES
-  .theme-toggle-button {
-    width: 45px;
-    height: 45px;
-    background-color: transparent;
-    border-radius: 50%;
-    border-width: 1px; 
-    border-style: solid;
-    padding: 6px;
-    box-shadow: var(--standard-box-shadow);
-    transition: var(--slow-transition);
+  .header-nav__link {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--slate);
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 0.2rem;
+    transition: color var(--fast);
 
-    // HOVER STATE FOR THEME TOGGLE BUTTONS
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: var(--copper);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform var(--medium);
+    }
+
     &:hover {
-      box-shadow: 0 8px 16px 0 var(--shadow);
-      border-color: var(--main-accent-color);
-    
-      #moon-svg {
-        stroke: var(--main-accent-color);
-        fill: var(--main-accent-color);
-        animation: pulse 3s infinite;
-      }
-    
-      #sun-svg {
-        stroke: var(--main-accent-color);
-        animation: spin 2s infinite;
-      }
-    }
-  }
-  
-  // RESPONSIVE STYLES
-  @media (max-width: 600px) {
-    .theme-toggle-button {
-      width: 30px;
-      height: 30px;
-      padding: 3px;
+      color: var(--cream);
+      &::after { transform: scaleX(1); }
     }
 
-    h1 {
-      font-size: 1.5rem;
-    }
-    h2 {
-      font-size: 1.25rem;
+    &.active {
+      color: var(--cream);
+      &::after { transform: scaleX(1); }
     }
   }
 }
 
-// THEME-SPECIFIC STYLES
-.dark-theme .theme-toggle-button {
-  border-color: var(--main-light-color);
+// Hamburger only needed on mobile when desktop nav is visible
+@media (min-width: 861px) {
+  .Hamburger-menu {
+    display: none;
+  }
 }
 
-.light-theme .theme-toggle-button {
-  border-color: var(--main-dark-color);
-}

@@ -1,47 +1,372 @@
-.General-landing {
-  // TOP OF LANDING PAGE, "HOME OF..."
-  .photo-banner {
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+// ── GeneralLanding — Deep Space Glass redesign ─────────────────────────────
+// Sections share consistent vertical padding. Horizontal gutters come from the
+// .dark-theme wrapper (var(--page-gutter)) — sections never override horizontal
+// spacing except for intentional full-bleed treatments.
 
-  // CONTAINER FOR BOTTOM OF LANDING PAGE SECTIONS (ABOUT THE AUTHOR/ENGINEER, TO THE BLOG)
-  .button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    transition: var(--fast-transition);
-  }
-  
-  // RESPONSIVE STYLES
-  @media (max-width: 600px) {
-    .photo-banner {
-      .pop-text-container {
-        margin-top: 1.5rem;
-      }
+.General-landing {
+  max-width: var(--content-max);
+  margin: 0 auto;
+
+  // ── Shared vertical section rhythm ────────────────────────────
+  section {
+    padding-top: var(--space-24);
+    padding-bottom: var(--space-24);
+
+    &:first-of-type {
+      padding-top: var(--space-16);
     }
   }
-  
+
+  .gl-section-link-row {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: var(--space-8);
+  }
+
+  .gl-section-heading {
+    font-family: var(--font-display);
+    font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+    font-weight: 600;
+    color: var(--cream);
+    margin-bottom: var(--space-8);
+    letter-spacing: -0.01em;
+  }
+
+  // ── HERO ────────────────────────────────────────────────────────
+  .gl-hero {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    align-items: center;
+    gap: var(--space-16);
+    min-height: 80vh;
+
+    @media (max-width: 900px) {
+      grid-template-columns: 1fr;
+      min-height: unset;
+      gap: var(--space-8);
+      padding-top: var(--space-12);
+    }
+  }
+
+  .gl-hero__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    max-width: 580px;
+  }
+
+  .gl-hero__eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--copper);
+    margin: 0;
+  }
+
+  .gl-hero__name {
+    font-family: var(--font-display);
+    font-size: clamp(3.2rem, 8vw, 5.5rem);
+    font-weight: 700;
+    line-height: 1.0;
+    letter-spacing: -0.025em;
+    color: var(--cream);
+    margin: 0;
+  }
+
+  .gl-hero__tagline {
+    font-family: var(--font-body);
+    font-size: clamp(0.95rem, 1.8vw, 1.1rem);
+    font-weight: 300;
+    line-height: 1.85;
+    color: var(--parchment);
+    max-width: 52ch;
+    margin: 0;
+    opacity: 0.9;
+  }
+
+  .gl-hero__ctas {
+    display: flex;
+    gap: var(--space-4);
+    flex-wrap: wrap;
+    margin-top: var(--space-4);
+  }
+
+  // Headshot — portrait frame, studio navy blends with page bg
+  .gl-hero__image {
+    position: relative;
+
+    @media (max-width: 900px) {
+      width: 220px;
+      margin: 0 auto;
+      order: -1;
+    }
+
+    @media (max-width: 480px) {
+      width: 180px;
+    }
+  }
+
+  .gl-hero__photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius-xl);
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.06),
+      0 24px 64px rgba(0, 0, 0, 0.6),
+      0 0 80px rgba(20, 50, 95, 0.35);
+    transition: box-shadow var(--slow);
+
+    &:hover {
+      box-shadow:
+        0 0 0 1px rgba(200, 121, 65, 0.2),
+        0 24px 64px rgba(0, 0, 0, 0.65),
+        0 0 80px rgba(200, 121, 65, 0.1);
+    }
+  }
+
+  // Ambient glow behind headshot
+  .gl-hero__image::after {
+    content: '';
+    position: absolute;
+    inset: -20%;
+    background: radial-gradient(ellipse, rgba(20, 50, 95, 0.4) 0%, transparent 70%);
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  // ── METRICS STRIP ───────────────────────────────────────────────
+  .gl-metrics {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 0;
+    padding: var(--space-8) var(--space-12);
+
+    /* Glass panel full-bleed */
+    margin-left: calc(-1 * var(--page-gutter));
+    margin-right: calc(-1 * var(--page-gutter));
+    padding-left: var(--page-gutter);
+    padding-right: var(--page-gutter);
+    background: rgba(10, 22, 44, 0.7);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 1px solid var(--glass-border);
+    border-bottom: 1px solid var(--glass-border);
+
+    @media (max-width: 700px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-6);
+      padding-top: var(--space-8);
+      padding-bottom: var(--space-8);
+    }
+  }
+
+  .gl-metrics__item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 var(--space-8);
+
+    @media (max-width: 700px) {
+      flex-direction: row;
+      text-align: left;
+      gap: var(--space-4);
+      padding: 0;
+    }
+  }
+
+  .gl-metrics__value {
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    font-weight: 600;
+    color: var(--copper);
+    line-height: 1.1;
+    margin-bottom: var(--space-2);
+
+    @media (max-width: 700px) {
+      margin-bottom: 0;
+      white-space: nowrap;
+      min-width: 6rem;
+    }
+  }
+
+  .gl-metrics__label {
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    font-weight: 400;
+    color: var(--slate);
+    line-height: 1.5;
+    max-width: 15ch;
+
+    @media (max-width: 700px) {
+      max-width: none;
+    }
+  }
+
+  .gl-metrics__divider {
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, var(--glass-border) 20%, var(--glass-border) 80%, transparent);
+    flex-shrink: 0;
+    align-self: stretch;
+
+    @media (max-width: 700px) {
+      display: none;
+    }
+  }
+
+  // ── CAPABILITIES ────────────────────────────────────────────────
+  .gl-capabilities {
+    // vertical padding from shared section rule
+  }
+
+  .gl-capabilities__intro {
+    font-family: var(--font-display);
+    font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--parchment);
+    line-height: 1.7;
+    max-width: 72ch;
+    margin-bottom: var(--space-8);
+    opacity: 0.8;
+  }
+
+  .gl-capabilities__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+    margin-top: var(--space-6);
+
+    @media (max-width: 860px) {
+      grid-template-columns: 1fr;
+      gap: var(--space-4);
+    }
+  }
+
+  .gl-capability-card {
+    position: relative;
+    overflow: hidden;
+    padding: var(--space-8);
+    border-radius: var(--radius-xl);
+
+    /* Glassmorphism */
+    background: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+
+    transition:
+      border-color var(--medium),
+      background var(--medium),
+      transform var(--medium),
+      box-shadow var(--medium);
+
+    &:hover {
+      border-color: var(--glass-border-active);
+      background: var(--glass-bg-hover);
+      transform: translateY(-4px);
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.35), var(--shadow-copper);
+    }
+
+    // Use body font for card headings — display serif was too heavy at this scale
+    h3 {
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--cream);
+      margin-bottom: var(--space-4);
+      letter-spacing: 0.01em;
+      line-height: 1.35;
+    }
+
+    p {
+      font-size: 0.875rem;
+      color: var(--parchment);
+      line-height: 1.85;
+      margin: 0;
+      font-weight: 300;
+      opacity: 0.9;
+    }
+  }
+
+  // Top copper accent bar
+  .gl-capability-card__accent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--copper) 0%, rgba(200, 121, 65, 0.2) 80%, transparent 100%);
+  }
+
+  // ── IMPACT ──────────────────────────────────────────────────────
+  .gl-impact {
+    // Full-bleed treatment
+    margin-left: calc(-1 * var(--page-gutter));
+    margin-right: calc(-1 * var(--page-gutter));
+    padding-left: var(--page-gutter);
+    padding-right: var(--page-gutter);
+    background: rgba(6, 14, 28, 0.55);
+    border-top: 1px solid var(--glass-border);
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  // ── PROJECTS ─────────────────────────────────────────────────────
+  .gl-projects {
+    // Builds component handles its own internal layout
+  }
+
+  // ── WRITING ──────────────────────────────────────────────────────
+  .gl-writing {
+    // Full-bleed treatment
+    margin-left: calc(-1 * var(--page-gutter));
+    margin-right: calc(-1 * var(--page-gutter));
+    padding-left: var(--page-gutter);
+    padding-right: var(--page-gutter);
+    background: rgba(6, 14, 28, 0.55);
+    border-top: 1px solid var(--glass-border);
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .gl-writing__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-8);
+    margin-top: var(--space-6);
+  }
+
+  // ── CONTACT ───────────────────────────────────────────────────────
+  .gl-contact {
+    // Contact component handles its own layout
+  }
 }
 
-// MODAL STYLES
+// ── MODAL ──────────────────────────────────────────────────────────────────
 .modal-content {
   text-align: center;
-  padding: 1rem;
+  padding: 1.5rem;
   margin: -1rem;
-  background-color: var(--main-dark-color);
+  background: rgba(10, 20, 42, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
   height: 100%;
-  border-radius: 4px;
-  color: var(--main-light-color);
+  border-radius: var(--radius-lg);
+  color: var(--cream);
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   h2, h3 {
     margin-top: 1rem;
+    font-family: var(--font-display);
   }
 
   .image-container {
@@ -63,3 +388,4 @@
     }
   }
 }
+
