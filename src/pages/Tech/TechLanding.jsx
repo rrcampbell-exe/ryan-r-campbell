@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Builds, SubNav, Contact, PageWrapper, Boasts, SkillsCloud } from '../../components'
+import { Builds, SubNav, PageWrapper, Boasts, SkillsCloud } from '../../components'
 import { useScrollToHash } from '../../hooks'
 
 const TechLanding = () => {
@@ -8,7 +8,7 @@ const TechLanding = () => {
 
   return (
     <PageWrapper pageTitle='engineer | problem-solver | communicator'>
-      <SubNav sections={['about', 'builds', 'skills', 'boasts', 'contact']} />
+      <SubNav sections={['about', 'builds', 'skills', 'boasts']} />
       <main className='Tech-landing'>
         <div id='about' className='about-row section-wrapper shadow-bg-gray'>
           <div>
@@ -36,10 +36,6 @@ const TechLanding = () => {
         <div id='boasts' className='section-wrapper'>
           <h2>boasts</h2>
           <Boasts />
-        </div>
-        <div id='contact' className='section-wrapper shadow-bg-main-accent'>
-          <h2>contact</h2>
-          <Contact />
         </div>
       </main>
     </PageWrapper>
