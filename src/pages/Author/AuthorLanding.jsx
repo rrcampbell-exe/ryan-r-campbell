@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Books, Contact, SubNav, Reviews, PageWrapper } from '../../components'
+import { Books, SubNav, Reviews, PageWrapper } from '../../components'
 import { featuredIn, awards } from '../../constants'
 
 const AuthorLanding = () => {
   return (
     <PageWrapper pageTitle='international book awards finalist'>
-      <SubNav sections={['about', 'books', 'reviews', 'awards', 'featured-in', 'contact']} />
+      <SubNav sections={['about', 'books', 'reviews', 'awards', 'featured-in']} />
       <main className='Author-landing'>
         <div id='about' className='about-row section-wrapper'>
           <div>
@@ -51,10 +51,6 @@ const AuthorLanding = () => {
               </div>
             ))}
           </div>
-        </div>
-        <div id='contact' className='shadow-bg-main-accent section-wrapper'>
-          <h2>contact</h2>
-          <Contact />
         </div>
       </main>
     </PageWrapper>

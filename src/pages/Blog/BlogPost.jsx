@@ -3,7 +3,7 @@ import { legacyPosts, posts } from '../../assets/posts'
 import { useParams } from 'react-router-dom'
 import { fetchPost, formatDate, extractHTMLContent } from '../../utils'
 import { shortBio } from '../../constants'
-import { NotFound, Contact, PageWrapper, NotificationBanner, BlogTags, BlogFooter } from '../../components'
+import { NotFound, PageWrapper, NotificationBanner, BlogTags, BlogFooter } from '../../components'
 import { useMetaTags, useDocumentTitle } from '../../hooks'
 
 // TODO: need to sanitize remaining HTML of comments related to divi
@@ -42,10 +42,6 @@ const BlogPost = () => {
       <main>
         <div>
           <NotFound contentType='blog post' />
-        </div>
-        <div className='section-wrapper shadow-bg-main-accent'>
-          <h2>contact</h2>
-          <Contact />
         </div>
       </main>
     </PageWrapper>

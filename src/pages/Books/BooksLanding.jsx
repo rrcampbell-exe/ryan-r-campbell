@@ -1,5 +1,5 @@
 import React from 'react'
-import { Contact, SubNav, Reviews, PageWrapper } from '../../components'
+import { SubNav, Reviews, PageWrapper } from '../../components'
 import { books } from '../../constants'
 import Tilt from 'react-parallax-tilt'
 import { useScrollToHash } from '../../hooks'
@@ -9,7 +9,7 @@ const BooksLanding = () => {
 
   return (
     <PageWrapper pageTitle='international book awards finalist'>
-      <SubNav sections={['scambait', 'and-ampersand', 'imminent-dawn', 'mourning-dove', 'contact']} />
+      <SubNav sections={['scambait', 'and-ampersand', 'imminent-dawn', 'mourning-dove']} />
       <main className='Books-landing'>
         {books.map((book, index) => (
           <div key={index}>
@@ -42,10 +42,6 @@ const BooksLanding = () => {
             <Reviews selectReviews bookIdToDisplay={book.id} shadowBg id='reviews' />
           </div>
         ))}
-        <div id='contact' className='shadow-bg-main-accent section-wrapper'>
-          <h2>contact</h2>
-          <Contact />
-        </div>
       </main>
     </PageWrapper>
   )
