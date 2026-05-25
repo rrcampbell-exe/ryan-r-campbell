@@ -1575,6 +1575,15 @@ exports[`AuthorLanding > default snapshot 1`] = `
               <ul>
                 <li>
                   <a
+                    href="https://www.linkedin.com/in/ryan-r-campbell/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="https://ryanrcampbell.substack.com"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -3209,6 +3218,15 @@ exports[`AuthorLanding > default snapshot 1`] = `
               Connect
             </span>
             <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/ryan-r-campbell/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+              </li>
               <li>
                 <a
                   href="https://ryanrcampbell.substack.com"
