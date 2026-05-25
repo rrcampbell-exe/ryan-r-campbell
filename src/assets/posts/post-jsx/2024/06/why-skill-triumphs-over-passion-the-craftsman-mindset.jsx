@@ -61,7 +61,7 @@ const WhySkillTriumphsOverPassion = () => {
       <p>But, in the three years since I made this career transition, I've already found ways to accumulate industry-specific career capital for myself, which has translated to greater autonomy and, as self-determination theory would have it, an increased sense of job satisfaction.</p>
       <p>It may seem that I've just contradicted myself. How can I be beholden to an organization's mission while still having opportunities to pursue that which appeals to me while on the job?</p>
       <p>Because I make time to do the latter.</p>
-      <p>Every Friday afternoon, I have my calendar blocked off with a big red do-not-disturb meeting that reads <em>Exploration Afternoon</em>. During that time, I work on <Link to='/tech' state={{ hash: 'boasts' }}>pet projects</Link> whose purposes range from making me or my team more efficient to building apps that ensure customer support teams are able to resolve client inquiries as quickly as possible.</p>
+      <p>Every Friday afternoon, I have my calendar blocked off with a big red do-not-disturb meeting that reads <em>Exploration Afternoon</em>. During that time, I work on <Link to='/#impact'>pet projects</Link> whose purposes range from making me or my team more efficient to building apps that ensure customer support teams are able to resolve client inquiries as quickly as possible.</p>
       <Quote 
         text="... one's passions need not be aligned with an industry's stereotypes to enjoy success."
       />
