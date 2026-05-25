@@ -2,11 +2,12 @@ import React from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { Books, Builds, BlogTeaser, PageWrapper, Boasts } from '../../components'
 import ReactModal from 'react-modal'
+import { Users, Zap, Award, BrainCircuit } from 'lucide-react'
 
 const METRICS = [
-  { value: '1,200+', label: 'Weekly views on enterprise AI Hub Skills Library' },
-  { value: 'Most Innovative', label: '2024 Developer Experience Hackathon' },
-  { value: '2\u00d7', label: 'International Book Awards Finalist' },
+  { value: '1,200+', label: 'Weekly views on enterprise AI Hub Skills Library', icon: BrainCircuit },
+  { value: 'Most Innovative', label: '2024 Developer Experience Hackathon', icon: Zap },
+  { value: '2×', label: 'International Book Awards Finalist', icon: Award },
 ]
 
 const CAPABILITIES = [
@@ -63,8 +64,11 @@ const GeneralLanding = ({ pageNotFound }) => {
             <React.Fragment key={m.value}>
               {i > 0 && <div className='gl-metrics__divider' aria-hidden='true' />}
               <div className='gl-metrics__item'>
-                <span className='gl-metrics__value'>{m.value}</span>
-                <span className='gl-metrics__label'>{m.label}</span>
+                <div className='gl-metrics__icon' aria-hidden='true'><m.icon /></div>
+                <div className='gl-metrics__text'>
+                  <span className='gl-metrics__value'>{m.value}</span>
+                  <span className='gl-metrics__label'>{m.label}</span>
+                </div>
               </div>
             </React.Fragment>
           ))}
