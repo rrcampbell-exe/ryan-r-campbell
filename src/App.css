@@ -214,6 +214,8 @@ button {
   transition: border-color var(--fast), color var(--fast), transform var(--fast);
 
   &:hover {
+    background-color: transparent;
+    box-shadow: none;
     border-color: var(--copper);
     color: var(--copper) !important;
     transform: translateY(-1px);
@@ -342,7 +344,7 @@ button {
    ============================================================ */
 .dark-theme,
 .light-theme {
-  padding: 0 var(--page-gutter) var(--space-4);
+  padding: 0 var(--page-gutter) 0;
   min-height: 100vh;
   transition: background-color var(--slow), color var(--slow);
 
