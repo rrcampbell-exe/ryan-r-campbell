@@ -7,354 +7,185 @@ exports[`Boasts > Boasts default snapshot 1`] = `
     data-testid="boasts"
   >
     <div
-      class="boast grow-on-hover"
+      class="boast-row"
     >
-      <svg
-        class="boasts-svg"
-        id="Layer_1"
-        version="1.1"
-        viewBox="0 0 512 512"
-        xml:space="preserve"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
+      <div
+        class="boast-row__header"
       >
-        <g>
-          <g>
-            <g>
-              <path
-                d="M501.657,351.677H468.04V123.863c0-22.671-18.444-41.115-41.115-41.115H85.075c-22.671,0-41.115,18.444-41.115,41.115
-        v227.814H10.343C4.631,351.677,0,356.308,0,362.02v14.825c0,28.897,23.51,52.407,52.407,52.407h407.187
-        c28.896,0,52.406-23.51,52.406-52.407V362.02C512,356.308,507.369,351.677,501.657,351.677z M64.646,123.863
-        c0-11.264,9.164-20.428,20.428-20.428h341.851c11.264,0,20.428,9.164,20.428,20.428v227.814H64.646V123.863z M491.313,376.845
-        c0,17.491-14.229,31.72-31.72,31.72H52.407c-17.491,0-31.72-14.229-31.72-31.72v-4.482h470.626V376.845z"
-              />
-              <path
-                d="M416.323,124.121H309.441c-5.713,0-10.343,4.631-10.343,10.343s4.631,10.343,10.343,10.343h106.882
-        c5.713,0,10.343-4.631,10.343-10.343C426.667,128.752,422.036,124.121,416.323,124.121z"
-              />
-              <path
-                d="M274.963,134.465c0-5.713-4.631-10.343-10.343-10.343h-2.759c-5.713,0-10.343,4.631-10.343,10.343
-        s4.631,10.343,10.343,10.343h2.759C270.332,144.808,274.963,140.177,274.963,134.465z"
-              />
-              <path
-                d="M162.909,210.662v-10.343c0-17.11-13.92-31.03-31.03-31.03s-31.03,13.92-31.03,31.03v10.343
-        c0,17.11,13.92,31.03,31.03,31.03S162.909,227.772,162.909,210.662z M142.222,210.662c0,5.703-4.64,10.343-10.343,10.343
-        s-10.343-4.64-10.343-10.343v-10.343c0-5.703,4.64-10.343,10.343-10.343s10.343,4.64,10.343,10.343V210.662z"
-              />
-              <path
-                d="M173.253,258.93c-17.11,0-31.03,13.92-31.03,31.03v10.343c0,17.11,13.92,31.03,31.03,31.03
-        c17.11,0,31.03-13.92,31.03-31.03v-10.343C204.283,272.85,190.363,258.93,173.253,258.93z M183.596,300.304
-        c0,5.703-4.64,10.343-10.343,10.343c-5.703,0-10.343-4.64-10.343-10.343v-10.343c0-5.703,4.64-10.343,10.343-10.343
-        c5.703,0,10.343,4.64,10.343,10.343V300.304z"
-              />
-              <path
-                d="M297.374,258.93c-17.11,0-31.03,13.92-31.03,31.03v10.343c0,17.11,13.92,31.03,31.03,31.03
-        c17.11,0,31.03-13.92,31.03-31.03v-10.343C328.404,272.85,314.484,258.93,297.374,258.93z M307.717,300.304
-        c0,5.703-4.64,10.343-10.343,10.343c-5.703,0-10.343-4.64-10.343-10.343v-10.343c0-5.703,4.64-10.343,10.343-10.343
-        c5.703,0,10.343,4.64,10.343,10.343V300.304z"
-              />
-              <path
-                d="M338.747,169.288c-17.11,0-31.03,13.92-31.03,31.03v10.343c0,17.11,13.92,31.03,31.03,31.03s31.03-13.92,31.03-31.03
-        v-10.343C369.778,183.208,355.858,169.288,338.747,169.288z M349.091,210.662c0,5.703-4.64,10.343-10.343,10.343
-        s-10.343-4.64-10.343-10.343v-10.343c0-5.703,4.64-10.343,10.343-10.343s10.343,4.64,10.343,10.343V210.662z"
-              />
-              <path
-                d="M193.939,169.288c-5.713,0-10.343,4.631-10.343,10.343v51.717c0,5.713,4.631,10.343,10.343,10.343
-        c5.713,0,10.343-4.631,10.343-10.343v-51.717C204.283,173.919,199.652,169.288,193.939,169.288z"
-              />
-              <path
-                d="M111.192,258.93c-5.713,0-10.343,4.631-10.343,10.343v51.717c0,5.713,4.631,10.343,10.343,10.343
-        c5.713,0,10.343-4.631,10.343-10.343v-51.717C121.535,263.561,116.905,258.93,111.192,258.93z"
-              />
-              <path
-                d="M235.313,169.288c-5.713,0-10.343,4.631-10.343,10.343v51.717c0,5.713,4.631,10.343,10.343,10.343
-        c5.713,0,10.343-4.631,10.343-10.343v-51.717C245.657,173.919,241.026,169.288,235.313,169.288z"
-              />
-              <path
-                d="M359.434,258.93c-5.713,0-10.343,4.631-10.343,10.343v51.717c0,5.713,4.631,10.343,10.343,10.343
-        c5.713,0,10.343-4.631,10.343-10.343v-51.717C369.778,263.561,365.147,258.93,359.434,258.93z"
-              />
-              <path
-                d="M266.343,179.631v51.717c0,5.713,4.631,10.343,10.343,10.343s10.343-4.631,10.343-10.343v-51.717
-        c0-5.713-4.631-10.343-10.343-10.343S266.343,173.919,266.343,179.631z"
-              />
-              <path
-                d="M400.808,169.288c-5.713,0-10.343,4.631-10.343,10.343v51.717c0,5.713,4.631,10.343,10.343,10.343
-        s10.343-4.631,10.343-10.343v-51.717C411.152,173.919,406.521,169.288,400.808,169.288z"
-              />
-              <path
-                d="M400.808,258.93c-5.713,0-10.343,4.631-10.343,10.343v51.717c0,5.713,4.631,10.343,10.343,10.343
-        s10.343-4.631,10.343-10.343v-51.717C411.152,263.561,406.521,258.93,400.808,258.93z"
-              />
-              <path
-                d="M235.313,258.93c-5.713,0-10.343,4.631-10.343,10.343v51.717c0,5.713,4.631,10.343,10.343,10.343
-        c5.713,0,10.343-4.631,10.343-10.343v-51.717C245.657,263.561,241.026,258.93,235.313,258.93z"
-              />
-            </g>
-          </g>
-        </g>
-      </svg>
-      <h3
-        class="boast-category"
+        <div
+          aria-hidden="true"
+          class="boast-row__icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-sparkles"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"
+            />
+            <path
+              d="M20 2v4"
+            />
+            <path
+              d="M22 4h-4"
+            />
+            <circle
+              cx="4"
+              cy="20"
+              r="2"
+            />
+          </svg>
+        </div>
+        <h3
+          class="boast-row__category"
+        >
+          AI Enablement & Developer Experience
+        </h3>
+      </div>
+      <ul
+        class="boast-row__achievements"
       >
-        Hackathons
-      </h3>
-      <p>
-        Finalist in 2022 Hack for Good with augmented reality project to ease treatment for pediatric cancer patients
-      </p>
-      <p>
-        Awarded "Most Innovative" in 2024 Developer Experience Hackathon for AI-powered sentiment analysis application
-      </p>
+        <li>
+          Authored the most-downloaded skill on the enterprise AI Hub — accounting for more than 15% of all skill interactions on the platform
+        </li>
+        <li>
+          Drove 1,200+ weekly views to the AI Hub's Skills Library and MCP Registry through architecture decisions and content strategy
+        </li>
+        <li>
+          Presented AI enablement initiatives directly to Northwestern Mutual CEO Tim Gerend
+        </li>
+        <li>
+          Awarded "Most Innovative" in the 2024 Developer Experience Hackathon for an AI-powered sentiment analysis application
+        </li>
+      </ul>
     </div>
     <div
-      class="boast grow-on-hover"
+      class="boast-row"
     >
-      <svg
-        class="boasts-svg"
-        id="Capa_1"
-        version="1.1"
-        viewBox="0 0 60 60"
-        xml:space="preserve"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
+      <div
+        class="boast-row__header"
       >
-        <g>
-          <g>
+        <div
+          aria-hidden="true"
+          class="boast-row__icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-layers"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <path
-              d="M25,15c-3.9,0-7,3.1-7,7v14h2V22c0-2.8,2.2-5,5-5h4v5h2v-5h4c2.8,0,5,2.2,5,5v14h2V22c0-3.9-3.1-7-7-7H25z"
-            />
-            <path
-              d="M29,14h2c2.8,0,5-2.2,5-5V6c0-2.8-2.2-5-5-5h-2c-2.8,0-5,2.2-5,5v3C24,11.8,26.2,14,29,14z M26,6c0-1.7,1.3-3,3-3h2
-          c1.7,0,3,1.3,3,3v3c0,1.7-1.3,3-3,3h-2c-1.7,0-3-1.3-3-3V6z"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="29"
-              y="32"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="29"
-              y="28"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="29"
-              y="24"
+              d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"
             />
             <path
-              d="M48,54c0-1.7-1.3-3-3-3h-2v-5c0-0.6-0.4-1-1-1h-5V23h-2v22h-4v-8h-2v8h-4V23h-2v22h-5c-0.6,0-1,0.4-1,1v5h-2
-          c-1.7,0-3,1.3-3,3v3H0v2h13h34h13v-2H48V54z M14,57v-3c0-0.6,0.4-1,1-1h3h15v-2H19v-4h22v5c0,0.6,0.4,1,1,1h3c0.6,0,1,0.4,1,1v3
-          H14z"
+              d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"
             />
             <path
-              d="M3.3,10.7l1.4-1.4L3.4,8H21V6H3.4l1.3-1.3L3.3,3.3l-3,3c-0.4,0.4-0.4,1,0,1.4L3.3,10.7z"
+              d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"
             />
-            <path
-              d="M3.3,31.7l1.4-1.4L3.4,29H15v-2H3.4l1.3-1.3l-1.4-1.4l-3,3c-0.4,0.4-0.4,1,0,1.4L3.3,31.7z"
-            />
-            <path
-              d="M55.3,19.3l1.4,1.4l3-3c0.4-0.4,0.4-1,0-1.4l-3-3l-1.4,1.4l1.3,1.3H45v2h11.6L55.3,19.3z"
-            />
-            <path
-              d="M56.7,37.3l-1.4,1.4l1.3,1.3H41v2h15.6l-1.3,1.3l1.4,1.4l3-3c0.4-0.4,0.4-1,0-1.4L56.7,37.3z"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="45"
-              y="27"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="49"
-              y="27"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="53"
-              y="27"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="57"
-              y="27"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="1"
-              y="37"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="5"
-              y="37"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="9"
-              y="37"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="13"
-              y="37"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="1"
-              y="15"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="5"
-              y="15"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="9"
-              y="15"
-            />
-            <rect
-              height="2"
-              width="2"
-              x="13"
-              y="15"
-            />
-          </g>
-        </g>
-      </svg>
-      <h3
-        class="boast-category"
+          </svg>
+        </div>
+        <h3
+          class="boast-row__category"
+        >
+          Frontend Architecture & Platform
+        </h3>
+      </div>
+      <ul
+        class="boast-row__achievements"
       >
-        Leadership & Culture
-      </h3>
-      <p>
-        Founded company-internal podcast to better connect teams and discuss pressing technical topics
-      </p>
-      <p>
-        Presented on organizational impact of well-crafted mission statements
-      </p>
-      <p>
-        Frequent contributor to company blog on topics related to sharpening technical and non-technical skills
-      </p>
-      <p>
-        Developed documentation for and trained others on Kubernetes namespace migration
-      </p>
+        <li>
+          Developed and maintained React component architecture used across 12+ microapps in a microfrontend ecosystem
+        </li>
+        <li>
+          Led GraphQL and Apollo Federation migration across enterprise platform services
+        </li>
+        <li>
+          Produced Kubernetes documentation that became the organizational standard for namespace migration onboarding
+        </li>
+        <li>
+          Finalist in 2022 Hack for Good with an augmented reality application to ease treatment for pediatric cancer patients
+        </li>
+      </ul>
     </div>
     <div
-      class="boast grow-on-hover"
+      class="boast-row"
     >
-      <svg
-        class="boasts-svg"
-        id="Layer_1"
-        version="1.1"
-        viewBox="0 0 512 512"
-        xml:space="preserve"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
+      <div
+        class="boast-row__header"
       >
-        <g>
-          <g>
+        <div
+          aria-hidden="true"
+          class="boast-row__icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-users"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <path
-              d="M0,31.67v448.66h512V31.67H0z M496.165,464.495H15.835V121.402h480.33V464.495z M496.165,105.567H15.835V47.505h480.33
-          V105.567z"
+              d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
             />
-          </g>
-        </g>
-        <g>
-          <g>
-            <rect
-              height="15.835"
-              width="21.113"
-              x="39.588"
-              y="68.619"
-            />
-          </g>
-        </g>
-        <g>
-          <g>
-            <rect
-              height="15.835"
-              width="21.113"
-              x="71.258"
-              y="68.619"
-            />
-          </g>
-        </g>
-        <g>
-          <g>
-            <rect
-              height="15.835"
-              width="21.113"
-              x="451.299"
-              y="68.619"
-            />
-          </g>
-        </g>
-        <g>
-          <g>
             <path
-              d="M36.948,142.515v300.866h438.103V142.515H36.948z M459.216,427.546H52.784V158.351h406.433V427.546z"
+              d="M16 3.128a4 4 0 0 1 0 7.744"
             />
-          </g>
-        </g>
-        <g>
-          <g>
-            <polygon
-              points="187.701,214.094 176.505,202.896 86.453,292.948 176.505,383.001 187.701,371.803 108.846,292.948 		"
+            <path
+              d="M22 21v-2a4 4 0 0 0-3-3.87"
             />
-          </g>
-        </g>
-        <g>
-          <g>
-            <polygon
-              points="335.495,202.896 324.299,214.094 403.154,292.948 324.299,371.803 335.495,383.001 425.547,292.948 		"
+            <circle
+              cx="9"
+              cy="7"
+              r="4"
             />
-          </g>
-        </g>
-        <g>
-          <g>
-            <rect
-              height="15.835"
-              transform="matrix(0.4258 -0.9048 0.9048 0.4258 -118.0685 399.8477)"
-              width="198.336"
-              x="156.838"
-              y="285.033"
-            />
-          </g>
-        </g>
-      </svg>
-      <h3
-        class="boast-category"
+          </svg>
+        </div>
+        <h3
+          class="boast-row__category"
+        >
+          Leadership & Culture
+        </h3>
+      </div>
+      <ul
+        class="boast-row__achievements"
       >
-        UI/UX
-      </h3>
-      <p>
-        Created React library of reusable components to streamline implementation of common design patterns
-      </p>
-      <p>
-        Led team initiative to migrate to modern enterprise design system
-      </p>
-      <p>
-        Contributed directly to the codebases of bandwidth-strained teams to squash bugs and improve client experience
-      </p>
-      <p>
-        Exceeded organizational goal of 60% unit testing coverage by achieving 93.9% and 82.7% coverage for new applications
-      </p>
+        <li>
+          Selected as the only Software Engineer III in Northwestern Mutual's inaugural Pathways Mentorship pilot program
+        </li>
+        <li>
+          Co-chaired the Engineering mentorship committee, expanding program reach across the engineering organization
+        </li>
+        <li>
+          Accepted into the Aspiring Leaders program — an invitation-only leadership development cohort
+        </li>
+        <li>
+          Presented at Revel in Tech and the company's internal podcast on technical craft and organizational communication
+        </li>
+      </ul>
     </div>
   </div>
 </DocumentFragment>
