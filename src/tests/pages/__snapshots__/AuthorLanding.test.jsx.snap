@@ -260,12 +260,15 @@ exports[`AuthorLanding > default snapshot 1`] = `
                     <p>
                       The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
                     </p>
-                    <a
-                      href="/books"
+                    <button
+                      class="btn-secondary"
                     >
-                      read more about 
-                      scambait
-                    </a>
+                      <a
+                        href="/books"
+                      >
+                        Read more
+                      </a>
+                    </button>
                   </div>
                 </div>
               </a>
@@ -290,12 +293,15 @@ exports[`AuthorLanding > default snapshot 1`] = `
                     <p>
                       A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
                     </p>
-                    <a
-                      href="/books"
+                    <button
+                      class="btn-secondary"
                     >
-                      read more about 
-                      and ampersand
-                    </a>
+                      <a
+                        href="/books"
+                      >
+                        Read more
+                      </a>
+                    </button>
                   </div>
                 </div>
               </a>
@@ -1843,12 +1849,15 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   <p>
                     The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
                   </p>
-                  <a
-                    href="/books"
+                  <button
+                    class="btn-secondary"
                   >
-                    read more about 
-                    scambait
-                  </a>
+                    <a
+                      href="/books"
+                    >
+                      Read more
+                    </a>
+                  </button>
                 </div>
               </div>
             </a>
@@ -1873,12 +1882,15 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   <p>
                     A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
                   </p>
-                  <a
-                    href="/books"
+                  <button
+                    class="btn-secondary"
                   >
-                    read more about 
-                    and ampersand
-                  </a>
+                    <a
+                      href="/books"
+                    >
+                      Read more
+                    </a>
+                  </button>
                 </div>
               </div>
             </a>

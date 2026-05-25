@@ -151,7 +151,7 @@ exports[`constants should match snapshots > builds 1`] = `
     "description": "This storyline generator for fantasy tabletop roleplaying games inspires players at every stage of gameplay.",
     "gitHub": "https://github.com/rrcampbell-exe/yarnsworths-tales",
     "link": "https://rrcampbell-exe.github.io/yarnsworths-tales/",
-    "linkText": "discover your next d&d adventure",
+    "linkText": "explore the generator",
     "logo": "./builds/yarnsworths-tales-app-logo.png",
     "teaser": "Trillions of tales await.",
     "technologies": "HTML, JavaScript, CSS, Bootstrap",

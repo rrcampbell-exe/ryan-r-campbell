@@ -444,10 +444,12 @@ exports[`AboutContents > LongStory default snapshot 1`] = `
             
         <p>
           But, just as I dedicated myself to getting the absolute most out of my bootcamp experience, I embraced the challenges of my new career as well, all while finding ways to apply my skill set from publishing in the software engineering space. After only seven months as an associate engineer, my commitment to squashing security vulnerabilities, developing documentation for Kubernetes namespace migrations, and starting a company-internal podcast to improve cross-functional communication had earned me a promotion (more on what I've done in the software engineering space can be found in the "boasts" section of 
-          <link
-            to="/tech"
-          />
-          the tech hub).
+          <a
+            href="/#impact"
+          >
+            the tech hub
+          </a>
+          ).
         </p>
         
             
@@ -538,7 +540,7 @@ exports[`AboutContents > ShortStory default snapshot 1`] = `
         </a>
         , or unthreading 
         <a
-          href="/tech"
+          href="/#impact"
         >
           twisted tangles of code
         </a>
