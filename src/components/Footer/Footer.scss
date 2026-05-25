@@ -2,7 +2,7 @@
   margin-top: 0;
   margin-left: calc(-1 * var(--page-gutter));
   margin-right: calc(-1 * var(--page-gutter));
-  padding: var(--space-12) var(--page-gutter) var(--space-2);
+  padding: var(--space-12) var(--page-gutter) 0;
   border-top: 1px solid var(--glass-border);
   background: rgba(4, 9, 20, 0.6);
   backdrop-filter: blur(16px);
@@ -134,7 +134,7 @@
   // Bottom bar
   .footer-bottom {
     border-top: 1px solid var(--glass-border);
-    padding-top: var(--space-4);
+    padding: var(--space-4) 0;
     max-width: var(--content-max);
     margin: 0 auto;
     display: flex;
