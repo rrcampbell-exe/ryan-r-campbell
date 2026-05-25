@@ -33,7 +33,7 @@ exports[`constants should match snapshots > boasts 1`] = `
     "description": [
       "Authored the most-downloaded skill on the enterprise AI Hub — accounting for more than 15% of all skill interactions on the platform",
       "Drove 1,200+ weekly views to the AI Hub's Skills Library and MCP Registry through architecture decisions and content strategy",
-      "Presented AI enablement initiatives directly to Northwestern Mutual CEO Tim Gerend",
+      "Presented AI enablement initiatives directly to executive leadership at Northwestern Mutual",
       "Awarded "Most Innovative" in the 2024 Developer Experience Hackathon for an AI-powered sentiment analysis application",
     ],
     "image": <Sparkles />,
