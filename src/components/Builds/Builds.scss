@@ -1,72 +1,126 @@
+// ── Builds (Selected Projects) ────────────────────────────────────────────
+// Compact glass project tiles in a 2-column grid.
+// Visually distinct from Boasts (impact rows) — tiles vs rows.
+
 .Builds {
-  .build {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    border-radius: 4px;
-    box-shadow: var(--standard-box-shadow);
-    margin-bottom: 2rem;
-    transition: var(--fast-transition);
-    border: 1px solid var(--main-dark-color);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-6);
 
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-    @media (max-width: 600px) {
-      padding: 1rem;
-    }
-  }
-
-  .app-overview {
-    margin-bottom: 0.5rem;
-    display: flex;
-    flex-direction: column;
-
-    p {
-      margin: 0.5rem 0;
-    }
-  }
-
-  .app-teaser {
-    font-size: 0.875rem;
-  }
-
-  .app-overview-underline {
-    width: 2.5rem;
-    height: 2px;
-    margin-top: 0.5rem;
-  }
-
-  .app-logo {
-    border-radius: 4px;
-    height: 5rem;
-    width: 5rem;
-
-    @media (max-width: 600px) {
-      height: 4rem;
-      width: 4rem;
-    }
-  }
-
-  .app-title {
-    margin: 0.5rem 0 0 0;
-  }
-
-  .app-details {
-    p {
-      margin: 0.5rem 0;
-    }
-
-    &:last-child {
-      margin: 0;
-    }
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
   }
 }
 
-.dark-theme {
-  .build {
-    border: 1px solid var(--main-light-color);
+.build-tile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  padding: var(--space-8);
+  border-radius: var(--radius-xl);
+
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+  transition:
+    border-color var(--medium),
+    background var(--medium),
+    transform var(--medium),
+    box-shadow var(--medium);
+
+  &:hover {
+    border-color: var(--glass-border-active);
+    background: var(--glass-bg-hover);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.3);
   }
 }
+
+.build-tile__logo-wrap {
+  display: flex;
+  align-items: flex-start;
+}
+
+.build-tile__logo {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.build-tile__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.build-tile__title {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cream);
+  margin: 0;
+  letter-spacing: 0.005em;
+}
+
+.build-tile__teaser {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--copper-light);
+  margin: 0;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.build-tile__desc {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: var(--parchment);
+  line-height: 1.75;
+  margin: 0;
+  opacity: 0.85;
+}
+
+.build-tile__tech {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--slate);
+  margin: 0;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  opacity: 0.8;
+}
+
+.build-tile__links {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-top: auto;
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--glass-border);
+}
+
+.build-tile__link {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--copper);
+  text-decoration: none;
+  transition: color var(--fast);
+
+  &:hover { color: var(--copper-light); }
+
+  &--gh {
+    color: var(--slate);
+    &:hover { color: var(--cream); }
+  }
+}
+
