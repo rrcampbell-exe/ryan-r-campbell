@@ -12,11 +12,10 @@ const PageWrapper = ({ pageTitle, children, className }) => {
   // ensures legacy redirects from google display page content correctly
   useEffect(() => {
     if (document.referrer.includes('google.com')) {
-      // if window.location.href ends in a slash, remove it
+      // if window.location.href ends in a slash, remove it without triggering a new navigation
       if (window.location.href.endsWith('/') && pathname !== '/') {
-        // remove ending slash from window.location.href and update the history
-        window.location.href = window.location.href.slice(0, -1)
-        window.history.replaceState(null, '', newUrl)
+        const trimmedUrl = window.location.href.slice(0, -1)
+        window.history.replaceState(null, '', trimmedUrl)
       }
     }
   }, [pathname])
