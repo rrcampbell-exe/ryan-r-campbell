@@ -18,8 +18,8 @@ describe('ContactPage', () => {
         <ContactPage />
       </ContextAndRouterProvider>
     )
-    const techInquiries = screen.getByText('campbell [dot] ryan [dot] r [at] gmail [dot] com')
-    expect(techInquiries).toBeInTheDocument()
+    const techInquiries = screen.getAllByText('campbell.ryan.r')
+    expect(techInquiries[0]).toBeInTheDocument()
   })
   test('should have an email for author inquiries', () => {
     render(
@@ -27,8 +27,8 @@ describe('ContactPage', () => {
         <ContactPage />
       </ContextAndRouterProvider>
     )
-    const authorInquiries = screen.getByText('rrcampbellwrites [at] gmail [dot] com')
-    expect(authorInquiries).toBeInTheDocument()
+    const authorInquiries = screen.getAllByText('rrcampbellwrites')
+    expect(authorInquiries[0]).toBeInTheDocument()
   })
   test('should have a link to subscribe on substack', () => {
     render(
