@@ -30,6 +30,15 @@ const Footer = () => {
           <ul>
             <li>
               <a
+                href='https://www.linkedin.com/in/ryan-r-campbell/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
                 href='https://ryanrcampbell.substack.com'
                 target='_blank'
                 rel='noopener noreferrer'
