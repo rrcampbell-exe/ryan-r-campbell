@@ -37,7 +37,7 @@ const BlogTeaser = ({ postsQtyToDisplay, showCoverImage, postsPage, isTagSearch,
             {!isGeneralLandingPage && <span>Posted on {formatDate(post.date)}</span>}
             <p>{post.excerpt.rendered}</p>
             {!isGeneralLandingPage && renderTags(post)}
-            <Link to={buildNavURL(post.link)}>{isGeneralLandingPage ? 'visit me on substack here' : 'read the full post'}</Link>
+            <Link to={buildNavURL(post.link)}>{isGeneralLandingPage ? 'Visit me on Substack here' : 'Read the full post'}</Link>
             {!isGeneralLandingPage && <div className='content-post-underline' />}
           </div>
         </div>

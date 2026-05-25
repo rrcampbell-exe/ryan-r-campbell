@@ -33,9 +33,9 @@ const BooksLanding = () => {
                 {book.fullDescription.paragraphTwo && <p>{book.fullDescription.paragraphTwo}</p>}
                 {book.disclaimer && <p><em>{book.disclaimer}</em></p>}
                 <div className='book-cta-button-container'>
-                  {book.readMoreLink && <button data-testid={book.id} onClick={() => window.open(`${book.readMoreLink}`, '_blank')}>read a sample</button>}
-                  {book.buyLink && <button data-testid={book.buyLink} onClick={() => window.open(`${book.buyLink}`, '_blank')}>buy this book</button>}
-                  {book.disclaimer && <button data-testid={`${book.id}-disclaimer`}onClick={() => window.open('https://ryanrcampbell.substack.com/p/what-happened-to-the-empathy-series', '_blank')}>learn more</button>}
+                  {book.readMoreLink && <button data-testid={book.id} onClick={() => window.open(`${book.readMoreLink}`, '_blank')}>Read a sample</button>}
+                  {book.buyLink && <button data-testid={book.buyLink} onClick={() => window.open(`${book.buyLink}`, '_blank')}>Buy this book</button>}
+                  {book.disclaimer && <button data-testid={`${book.id}-disclaimer`}onClick={() => window.open('https://ryanrcampbell.substack.com/p/what-happened-to-the-empathy-series', '_blank')}>Learn more</button>}
                 </div>
               </div>
             </div>
