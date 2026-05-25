@@ -7,6 +7,8 @@ exports[`HamburgerMenu > default snapshot 1`] = `
     data-testid="menu"
   >
     <button
+      aria-expanded="false"
+      aria-label="Open navigation menu"
       class="theme-toggle-button"
     >
       <svg
@@ -68,14 +70,16 @@ exports[`HamburgerMenu > default snapshot 1`] = `
         </g>
       </svg>
     </button>
-    <div
+    <nav
+      aria-hidden="true"
+      aria-label="Site navigation"
       class="menu-content"
     >
       <div
         class="icon-container"
       >
         <button
-          aria-label="close menu"
+          aria-label="Close navigation menu"
           data-testid="close-button"
         >
           <svg
@@ -106,9 +110,11 @@ exports[`HamburgerMenu > default snapshot 1`] = `
         </a>
         <a
           class="hamburger-link"
-          href="/blog"
+          href="https://ryanrcampbell.substack.com"
+          rel="noopener noreferrer"
+          target="_blank"
         >
-          blog
+          writing
         </a>
         <a
           class="hamburger-link"
@@ -118,21 +124,9 @@ exports[`HamburgerMenu > default snapshot 1`] = `
         </a>
         <a
           class="hamburger-link"
-          href="/author"
-        >
-          author hub
-        </a>
-        <a
-          class="hamburger-link"
-          href="/tech"
-        >
-          tech hub
-        </a>
-        <a
-          class="hamburger-link"
           href="/podcasts"
         >
-          podcasts
+          archive
         </a>
         <a
           class="hamburger-link"
@@ -141,7 +135,7 @@ exports[`HamburgerMenu > default snapshot 1`] = `
           contact
         </a>
       </div>
-    </div>
+    </nav>
   </div>
 </DocumentFragment>
 `;

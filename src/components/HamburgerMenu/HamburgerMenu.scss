@@ -1,91 +1,127 @@
 .Hamburger-menu {
   padding-left: 0.25rem;
+  position: relative;
 
   #hamburger-icon {
-    transition: opacity var(--fast-transition) ease-in-out; // apply transition to opacity
-    opacity: 1; // ensure icon is initially visible
+    opacity: 1;
+    width: 24px;
+    height: 24px;
+    display: block;
     line {
-      stroke: var(--main-dark-color);
-      transition: var(--slow-transition);
+      stroke: var(--cream);
+      transition: stroke var(--fast);
     }
 
-    &:hover {
-      line {
-        stroke: var(--main-accent-color);
-      }
+    &:hover line {
+      stroke: var(--copper);
     }
+  }
+
+  // Dim backdrop when menu is open
+  .menu-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(4, 8, 18, 0.65);
+    z-index: 199;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    animation: fadeIn 0.25s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
   }
 
   .menu-content {
     position: fixed;
     right: 0;
     top: 0;
-    width: 300px;
-    border-left: 1px solid var(--main-dark-color);
-    text-align: right;
-    padding: 1rem 2rem 1rem 1rem;
+    width: 280px;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: var(--main-dark-color);
-    z-index: 1000;
-    box-shadow: -8px 4px 8px var(--shadow);
-    transition: transform 0.75s ease-in-out;
-    transform: translateX(110%); // extra translate applied here so shadow is off-page
+    z-index: 200;
+    padding: 1.5rem 2rem 2rem;
+    text-align: right;
+
+    /* Solid panel — no bleed-through */
+    background: var(--midnight);
+    border-left: 1px solid var(--glass-border);
+    box-shadow: -12px 0 48px rgba(0, 0, 0, 0.7);
+
+    transform: translateX(110%);
+    transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+
+    .icon-container {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: var(--space-6);
+    }
 
     .link-container {
       display: flex;
       flex-direction: column;
       overflow-y: auto;
-      scrollbar-width: none; // hide scrollbar on Firefox
-      -ms-overflow-style: none; // hide scrollbar on IE and Edge
-    }
+      scrollbar-width: none;
 
-    .link-container::-webkit-scrollbar {
-      display: none; //  hide scrollbar on Safari and Chrome
+      &::-webkit-scrollbar { display: none; }
     }
 
     .hamburger-link {
-      margin: 1rem 0;
-      color: var(--main-light-color);
-      font-size: 1.2rem;
-      transition: var(--slow-transition);
+      font-family: var(--font-body);
+      font-weight: 400;
+      font-size: 1rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin: 0.55rem 0;
+      color: var(--parchment);
+      text-decoration: none;
+      display: inline-block;
+      align-self: flex-end;
+      position: relative;
+      padding-bottom: 0.2rem;
+      transition: color var(--fast);
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: var(--copper);
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform var(--medium);
+      }
 
       &:hover {
-        color: var(--main-accent-color);
-        letter-spacing: 0.2rem;
+        color: var(--cream);
+        &::after { transform: scaleX(1); }
       }
     }
 
     .hamburger-link.active {
-      color: var(--main-accent-color);
-      letter-spacing: 0.2rem;
-      border-right: 4px solid var(--main-accent-color);
-      padding-right: 0.5rem;
+      color: var(--copper);
+      &::after { transform: scaleX(1); }
     }
 
     svg {
-      padding: 1rem 0.25rem 1rem 0;
-      stroke: var(--main-light-color);
-      fill: var(--main-light-color);
-      transition: var(--slow-transition);
-      height: 30px;
-      width: 30px;
+      display: block;
+      stroke: none;
+      fill: var(--cream);
+      height: 20px;
+      width: 20px;
+      transition: fill var(--fast);
 
       &:hover {
-        stroke: var(--main-accent-color);
-        fill: var(--main-accent-color);
+        fill: var(--copper);
       }
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 480px) {
       width: 100%;
-
-      svg {
-        height: 20px;
-        width: 20px;
-        padding-top: 0.5rem;
-      }
     }
   }
 
@@ -96,22 +132,7 @@
   }
 }
 
-.dark-theme {
-  #hamburger-icon {
-    line {
-      stroke: var(--main-light-color);
-    }
-  }
-
-  .menu-content {
-    border-color: var(--shadow);
-  }
-}
-
 .menu-open .menu-content {
   transform: translateX(0);
 }
 
-.Hamburger-menu.menu-open .theme-toggle-button {
-  opacity: 0; // hide icon when menu is open
-}
