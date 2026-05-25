@@ -10,7 +10,7 @@ exports[`PopText > default snapshot 1`] = `
           class="pop-content"
         >
           <h2>
-            author
+            software engineer
           </h2>
         </div>
       </div>
@@ -22,7 +22,7 @@ exports[`PopText > default snapshot 1`] = `
         class="pop-content"
       >
         <h2>
-          author
+          software engineer
         </h2>
       </div>
     </div>

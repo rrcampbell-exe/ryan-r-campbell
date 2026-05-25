@@ -29,32 +29,34 @@ exports[`constants should match snapshots > awards 1`] = `
 exports[`constants should match snapshots > boasts 1`] = `
 [
   {
-    "category": "Hackathons",
+    "category": "AI Enablement & Developer Experience",
     "description": [
-      "Finalist in 2022 Hack for Good with augmented reality project to ease treatment for pediatric cancer patients",
-      "Awarded "Most Innovative" in 2024 Developer Experience Hackathon for AI-powered sentiment analysis application",
+      "Authored the most-downloaded skill on the enterprise AI Hub — accounting for more than 15% of all skill interactions on the platform",
+      "Drove 1,200+ weekly views to the AI Hub's Skills Library and MCP Registry through architecture decisions and content strategy",
+      "Presented AI enablement initiatives directly to Northwestern Mutual CEO Tim Gerend",
+      "Awarded "Most Innovative" in the 2024 Developer Experience Hackathon for an AI-powered sentiment analysis application",
     ],
-    "image": <LaptopSVG />,
+    "image": <Sparkles />,
+  },
+  {
+    "category": "Frontend Architecture & Platform",
+    "description": [
+      "Developed and maintained React component architecture used across 12+ microapps in a microfrontend ecosystem",
+      "Led GraphQL and Apollo Federation migration across enterprise platform services",
+      "Produced Kubernetes documentation that became the organizational standard for namespace migration onboarding",
+      "Finalist in 2022 Hack for Good with an augmented reality application to ease treatment for pediatric cancer patients",
+    ],
+    "image": <Layers />,
   },
   {
     "category": "Leadership & Culture",
     "description": [
-      "Founded company-internal podcast to better connect teams and discuss pressing technical topics",
-      "Presented on organizational impact of well-crafted mission statements",
-      "Frequent contributor to company blog on topics related to sharpening technical and non-technical skills",
-      "Developed documentation for and trained others on Kubernetes namespace migration",
+      "Selected as the only Software Engineer III in Northwestern Mutual's inaugural Pathways Mentorship pilot program",
+      "Co-chaired the Engineering mentorship committee, expanding program reach across the engineering organization",
+      "Accepted into the Aspiring Leaders program — an invitation-only leadership development cohort",
+      "Presented at Revel in Tech and the company's internal podcast on technical craft and organizational communication",
     ],
-    "image": <ManagementSVG />,
-  },
-  {
-    "category": "UI/UX",
-    "description": [
-      "Created React library of reusable components to streamline implementation of common design patterns",
-      "Led team initiative to migrate to modern enterprise design system",
-      "Contributed directly to the codebases of bandwidth-strained teams to squash bugs and improve client experience",
-      "Exceeded organizational goal of 60% unit testing coverage by achieving 93.9% and 82.7% coverage for new applications",
-    ],
-    "image": <BrowserSVG />,
+    "image": <Users />,
   },
 ]
 `;
@@ -238,16 +240,24 @@ exports[`constants should match snapshots > featuredIn 1`] = `
 exports[`constants should match snapshots > popText 1`] = `
 [
   {
+    "id": "software-engineer",
+    "text": "software engineer",
+  },
+  {
+    "id": "ai-enablement",
+    "text": "AI enablement builder",
+  },
+  {
     "id": "author",
     "text": "author",
   },
   {
-    "id": "technologist",
-    "text": "technologist",
+    "id": "engineering-leader",
+    "text": "engineering leader",
   },
   {
-    "id": "software-engineer",
-    "text": "software engineer",
+    "id": "developer-advocate",
+    "text": "developer advocate",
   },
   {
     "id": "linguist",
@@ -256,10 +266,6 @@ exports[`constants should match snapshots > popText 1`] = `
   {
     "id": "stargazer",
     "text": "stargazer",
-  },
-  {
-    "id": "pet-padre",
-    "text": "pet padre",
   },
   {
     "id": "traveler",
@@ -469,12 +475,17 @@ exports[`constants should match snapshots > reviews 1`] = `
 ]
 `;
 
-exports[`constants should match snapshots > shortBio 1`] = `"Ryan R. Campbell is an author, technologist, and software engineer. He is a two-time international book awards finalist, the founder of the Writescast Network, and the co-founder of Kill Your Darlings Candle Company."`;
+exports[`constants should match snapshots > shortBio 1`] = `"Ryan R. Campbell is a strategic software engineer and technical leader at Northwestern Mutual, where he drives AI enablement, developer experience, and frontend platform modernization at enterprise scale. He is also a two-time International Book Awards finalist and the founder of the Writescast Network."`;
 
 exports[`constants should match snapshots > skills 1`] = `
-"react react react react react react node node node node express express express HTML5 HTML5 HTML5 CSS CSS CSS CSS GraphQL
-GraphQL GraphQL SQL REST REST REST REST insomnia insomnia insomnia Postman MongoDB apollo apollo apollo jQuery
-vite vite vite webpack jest jest jest vitest vitest vitest typescript typescript kubernetes kubernetes javascript javascript
-javascript javascript styled-components styled-components styled-components styled-components sass sass sass sass redux redux 
-redux react-router-dom react-router-dom vercel vercel"
+"react react react react react react react react typescript typescript typescript typescript
+javascript javascript javascript javascript javascript javascript
+node node node node GraphQL GraphQL GraphQL GraphQL apollo apollo apollo apollo
+HTML5 HTML5 HTML5 CSS CSS CSS CSS sass sass sass sass
+REST REST REST REST vite vite vite vitest vitest vitest
+Docker Docker Docker kubernetes kubernetes kubernetes
+github-copilot github-copilot github-copilot
+CI/CD CI/CD CI/CD microfrontend microfrontend microfrontend
+express express express MongoDB SQL SQL
+redux redux react-router-dom react-router-dom vercel vercel"
 `;

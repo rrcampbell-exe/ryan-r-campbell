@@ -28,7 +28,7 @@ describe('PopText', () => {
       </ContextAndRouterProvider>
     )
 
-    const content = getByText('author')
+    const content = getByText('software engineer')
     expect(content).toBeInTheDocument()
   })
   test('should change content', () => {
@@ -41,11 +41,11 @@ describe('PopText', () => {
         </PopText>
       </ContextAndRouterProvider>
     )
-    const content = getByText('author')
+    const content = getByText('software engineer')
     expect(content).toBeInTheDocument()
 
     setTimeout(() => {
-      const newContent = getByText('technologist')
+      const newContent = getByText('AI enablement builder')
       expect(newContent).toBeInTheDocument()
     }, 500)
   })

@@ -1,32 +1,35 @@
-import { BrowserSVG, LaptopSVG, ManagementSVG } from '../assets/svg'
+import { Sparkles, Layers, Users } from 'lucide-react'
 
 const boasts = [
   {
-    category: 'Hackathons',
+    category: 'AI Enablement & Developer Experience',
     description: [
-      'Finalist in 2022 Hack for Good with augmented reality project to ease treatment for pediatric cancer patients', 
-      'Awarded "Most Innovative" in 2024 Developer Experience Hackathon for AI-powered sentiment analysis application'
+      'Authored the most-downloaded skill on the enterprise AI Hub — accounting for more than 15% of all skill interactions on the platform',
+      'Drove 1,200+ weekly views to the AI Hub\'s Skills Library and MCP Registry through architecture decisions and content strategy',
+      'Presented AI enablement initiatives directly to Northwestern Mutual CEO Tim Gerend',
+      'Awarded "Most Innovative" in the 2024 Developer Experience Hackathon for an AI-powered sentiment analysis application'
     ],
-    image: <LaptopSVG />
+    image: <Sparkles />
+  },
+  {
+    category: 'Frontend Architecture & Platform',
+    description: [
+      'Developed and maintained React component architecture used across 12+ microapps in a microfrontend ecosystem',
+      'Led GraphQL and Apollo Federation migration across enterprise platform services',
+      'Produced Kubernetes documentation that became the organizational standard for namespace migration onboarding',
+      'Finalist in 2022 Hack for Good with an augmented reality application to ease treatment for pediatric cancer patients'
+    ],
+    image: <Layers />
   },
   {
     category: 'Leadership & Culture',
     description: [
-      'Founded company-internal podcast to better connect teams and discuss pressing technical topics',
-      'Presented on organizational impact of well-crafted mission statements', 
-      'Frequent contributor to company blog on topics related to sharpening technical and non-technical skills', 
-      'Developed documentation for and trained others on Kubernetes namespace migration'
+      'Selected as the only Software Engineer III in Northwestern Mutual\'s inaugural Pathways Mentorship pilot program',
+      'Co-chaired the Engineering mentorship committee, expanding program reach across the engineering organization',
+      'Accepted into the Aspiring Leaders program — an invitation-only leadership development cohort',
+      'Presented at Revel in Tech and the company\'s internal podcast on technical craft and organizational communication'
     ],
-    image: <ManagementSVG />
-  },
-  {
-    category: 'UI/UX', 
-    description: ['Created React library of reusable components to streamline implementation of common design patterns', 
-      'Led team initiative to migrate to modern enterprise design system', 
-      'Contributed directly to the codebases of bandwidth-strained teams to squash bugs and improve client experience',
-      'Exceeded organizational goal of 60% unit testing coverage by achieving 93.9% and 82.7% coverage for new applications' 
-    ],
-    image: <BrowserSVG />
+    image: <Users />
   }
 ]
 

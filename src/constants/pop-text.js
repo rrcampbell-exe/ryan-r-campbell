@@ -1,15 +1,23 @@
 const popText = [
   {
+    text: 'software engineer',
+    id: 'software-engineer'
+  },
+  {
+    text: 'AI enablement builder',
+    id: 'ai-enablement'
+  },
+  {
     text: 'author',
     id: 'author'
   },
   {
-    text: 'technologist',
-    id: 'technologist'
+    text: 'engineering leader',
+    id: 'engineering-leader'
   },
   {
-    text: 'software engineer',
-    id: 'software-engineer'
+    text: 'developer advocate',
+    id: 'developer-advocate'
   },
   {
     text: 'linguist',
@@ -18,10 +26,6 @@ const popText = [
   {
     text: 'stargazer',
     id: 'stargazer'
-  },
-  {
-    text: 'pet padre',
-    id: 'pet-padre'
   },
   {
     text: 'traveler',
