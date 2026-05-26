@@ -242,101 +242,66 @@ button {
   margin-bottom: var(--space-6);
 }
 
-/* Content divider */
-.content-divider {
-  width: 48px;
-  height: 2px;
-  background-color: var(--copper);
-  margin-bottom: var(--space-6);
-}
+/* Content divider — intentionally removed: unused */
 
 /* ============================================================
    LEGACY COMPAT: classes used by existing components
    ============================================================ */
 
-/* about-row and about-img still used on /author, /tech */
-.about-img {
+/* media-text-row and feature-img used on /author, /podcasts, etc. */
+.feature-img {
   border-radius: 50%;
   width: 20rem;
   transition: var(--fast-transition);
 }
 
-.about-row {
+.media-text-row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
-.about-description {
+.media-text-row__body {
   flex: 1;
   margin-left: 1.5rem;
   max-width: calc(100% - 20rem);
   min-width: 20rem;
 }
 
-.about-row .about-description:last-child {
+.media-text-row .media-text-row__body:last-child {
   max-width: none;
 }
 
 @media (max-width: 600px) {
-  .about-img { width: 15rem; }
+  .feature-img { width: 15rem; }
 }
 
-/* Pop-content animation (still used by PopText) */
-.pop-content { animation: fade 2s ease-in-out infinite; }
+/* Fade-cycle animation (used by PopText) */
+.fade-cycle { animation: fade 2s ease-in-out infinite; }
 
 @keyframes fade {
   0%, 100% { opacity: 0; }
   50%       { opacity: 1; }
 }
 
-.pop-text-container {
-  width: 15rem;
-  margin-left: 1.5rem;
-  margin-top: 1rem;
-  h2 { margin: 0; }
-}
-
-.pop-content h2 { color: var(--main-light-color); }
+.fade-cycle h2 { color: var(--main-light-color); }
 
 /* Section wrapper spacing */
 .section-wrapper { padding-bottom: var(--space-8); }
 
 /* Background accent bands — full-bleed using page gutter */
-.shadow-bg-main-accent,
-.shadow-bg-gray {
+.section-band {
   margin: 0 calc(-1 * var(--page-gutter)) var(--space-8) calc(-1 * var(--page-gutter));
   padding: var(--space-4) var(--page-gutter);
+  background-color: rgba(0,0,0,0.25);
 }
 
-.shadow-bg-main-accent { background-color: var(--copper-glow); }
-.shadow-bg-gray         { background-color: rgba(0,0,0,0.25); }
-
-/* Underlines used by blog post and builds */
-.app-overview-underline,
+/* Underline used by blog teaser */
 .content-post-underline {
   height: 1px;
   background-color: var(--steel);
   margin: var(--space-4) 0;
-}
-
-/* ============================================================
-   GLASS UTILITIES
-   ============================================================ */
-.glass-card {
-  background: var(--glass-bg);
-  backdrop-filter: var(--glass-blur);
-  -webkit-backdrop-filter: var(--glass-blur);
-  border: 1px solid var(--glass-border);
-  border-radius: var(--radius-lg);
-}
-
-.glass-panel {
-  background: rgba(13, 27, 46, 0.7);
-  backdrop-filter: var(--glass-blur);
-  -webkit-backdrop-filter: var(--glass-blur);
-  border: 1px solid var(--glass-border);
 }
 
 /* ============================================================
@@ -369,7 +334,6 @@ button {
   --text-primary:   var(--cream);
   --text-secondary: var(--parchment);
 
-  .app-overview-underline,
   .content-post-underline {
     background-color: var(--steel);
   }

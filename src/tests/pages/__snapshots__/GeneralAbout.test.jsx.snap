@@ -156,7 +156,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
           >
             <img
               alt="Ryan R. Campbell outdoors with a black baseball cap on"
-              class="about-img"
+              class="feature-img"
               src="./2024-ryan-r-campbell-with-hat-on-outdoors.jpg"
             />
             <h2>
@@ -514,7 +514,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
         >
           <img
             alt="Ryan R. Campbell outdoors with a black baseball cap on"
-            class="about-img"
+            class="feature-img"
             src="./2024-ryan-r-campbell-with-hat-on-outdoors.jpg"
           />
           <h2>

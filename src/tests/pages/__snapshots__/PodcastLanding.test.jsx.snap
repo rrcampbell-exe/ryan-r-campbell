@@ -183,18 +183,18 @@ exports[`PodcastLanding > default snapshot 1`] = `
           class="Podcast"
         >
           <div
-            class="about-row section-wrapper shadow-bg-gray"
+            class="media-text-row section-wrapper section-band"
             id="about"
           >
             <div>
               <img
                 alt="The Writescast Network logo"
-                class="about-img"
+                class="feature-img"
                 src="./podcasts/writescast-network-circle-logo.png"
               />
             </div>
             <div
-              class="section-wrapper about-description"
+              class="section-wrapper media-text-row__body"
             >
               <h2>
                 about
@@ -877,18 +877,18 @@ exports[`PodcastLanding > default snapshot 1`] = `
         class="Podcast"
       >
         <div
-          class="about-row section-wrapper shadow-bg-gray"
+          class="media-text-row section-wrapper section-band"
           id="about"
         >
           <div>
             <img
               alt="The Writescast Network logo"
-              class="about-img"
+              class="feature-img"
               src="./podcasts/writescast-network-circle-logo.png"
             />
           </div>
           <div
-            class="section-wrapper about-description"
+            class="section-wrapper media-text-row__body"
           >
             <h2>
               about

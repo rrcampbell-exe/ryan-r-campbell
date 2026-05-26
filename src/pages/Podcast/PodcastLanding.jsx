@@ -17,11 +17,11 @@ const PodcastLanding = () => {
     <PageWrapper pageTitle='podcaster | community-builder'>
       <SubNav sections={['about', 'podcast-player', 'all-episodes']} />
       <main className='Podcast'>
-        <div id='about' className='about-row section-wrapper shadow-bg-gray'>
+        <div id='about' className='media-text-row section-wrapper section-band'>
           <div>
-            <img className='about-img' src='./podcasts/writescast-network-circle-logo.png' alt='The Writescast Network logo' />
+            <img className='feature-img' src='./podcasts/writescast-network-circle-logo.png' alt='The Writescast Network logo' />
           </div>
-          <div className='section-wrapper about-description'>
+          <div className='section-wrapper media-text-row__body'>
             <h2>about</h2>
             <p>Founded in 2016, the Writescast Network reaches tens of thousands of writers and creatives around the globe. It may have ceased broadcasting new episodes in December of 2020, but it lives on here for streaming any time, anywhere.</p>
           </div>

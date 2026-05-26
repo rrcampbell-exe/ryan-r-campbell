@@ -201,18 +201,18 @@ exports[`AuthorLanding > default snapshot 1`] = `
           class="Author-landing"
         >
           <div
-            class="about-row section-wrapper"
+            class="media-text-row section-wrapper"
             id="about"
           >
             <div>
               <img
                 alt="A headshot of Ryan R. Campbell"
-                class="about-img"
+                class="feature-img"
                 src="./2024-ryan-r-campbell-website-headshot.png"
               />
             </div>
             <div
-              class="section-wrapper about-description"
+              class="section-wrapper media-text-row__body"
             >
               <h2>
                 about
@@ -229,7 +229,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
             </div>
           </div>
           <div
-            class="shadow-bg-gray section-wrapper"
+            class="section-band section-wrapper"
             id="books"
           >
             <h2>
@@ -1213,7 +1213,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
             </div>
           </div>
           <div
-            class="section-wrapper shadow-bg-gray"
+            class="section-wrapper section-band"
             id="awards"
           >
             <h2>
@@ -1790,18 +1790,18 @@ exports[`AuthorLanding > default snapshot 1`] = `
         class="Author-landing"
       >
         <div
-          class="about-row section-wrapper"
+          class="media-text-row section-wrapper"
           id="about"
         >
           <div>
             <img
               alt="A headshot of Ryan R. Campbell"
-              class="about-img"
+              class="feature-img"
               src="./2024-ryan-r-campbell-website-headshot.png"
             />
           </div>
           <div
-            class="section-wrapper about-description"
+            class="section-wrapper media-text-row__body"
           >
             <h2>
               about
@@ -1818,7 +1818,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
           </div>
         </div>
         <div
-          class="shadow-bg-gray section-wrapper"
+          class="section-band section-wrapper"
           id="books"
         >
           <h2>
@@ -2802,7 +2802,7 @@ exports[`AuthorLanding > default snapshot 1`] = `
           </div>
         </div>
         <div
-          class="section-wrapper shadow-bg-gray"
+          class="section-wrapper section-band"
           id="awards"
         >
           <h2>

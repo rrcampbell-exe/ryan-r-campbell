@@ -155,11 +155,11 @@ exports[`PodcastEpisode > default snapshot 1`] = `
             class="NotFound"
           >
             <div
-              class="about-row section-wrapper"
+              class="media-text-row section-wrapper"
             >
               <div>
                 <svg
-                  class="about-img"
+                  class="feature-img"
                   id="robot-svg"
                   viewBox="0 0 256 256"
                   xmlns="http://www.w3.org/2000/svg"
@@ -170,7 +170,7 @@ exports[`PodcastEpisode > default snapshot 1`] = `
                 </svg>
               </div>
               <div
-                class="about-description"
+                class="media-text-row__body"
               >
                 <h2>
                   podcast
@@ -517,11 +517,11 @@ exports[`PodcastEpisode > default snapshot 1`] = `
           class="NotFound"
         >
           <div
-            class="about-row section-wrapper"
+            class="media-text-row section-wrapper"
           >
             <div>
               <svg
-                class="about-img"
+                class="feature-img"
                 id="robot-svg"
                 viewBox="0 0 256 256"
                 xmlns="http://www.w3.org/2000/svg"
@@ -532,7 +532,7 @@ exports[`PodcastEpisode > default snapshot 1`] = `
               </svg>
             </div>
             <div
-              class="about-description"
+              class="media-text-row__body"
             >
               <h2>
                 podcast

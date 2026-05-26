@@ -8,7 +8,7 @@ const Reviews = ({ selectReviews, bookIdToDisplay, shadowBg }) => {
   const reviewsToDisplay = selectReviews ? reviews.filter(review => review.id === bookIdToDisplay) : reviews
 
   return (
-    <div className={`Reviews ${shadowBg ? 'shadow-bg-gray' : ''}`}>
+    <div className={`Reviews ${shadowBg ? 'section-band' : ''}`}>
       <div className='reviews-grid'>
         {reviewsToDisplay.map((review) => (
           <blockquote className='review-card' key={review.quote}>
