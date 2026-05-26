@@ -8,11 +8,11 @@ const AuthorLanding = () => {
     <PageWrapper pageTitle='international book awards finalist'>
       <SubNav sections={['about', 'books', 'reviews', 'awards', 'featured-in']} />
       <main className='Author-landing'>
-        <div id='about' className='about-row section-wrapper'>
+        <div id='about' className='media-text-row section-wrapper'>
           <div>
-            <img className='about-img' src='./2024-ryan-r-campbell-website-headshot.png' alt='A headshot of Ryan R. Campbell' />
+            <img className='feature-img' src='./2024-ryan-r-campbell-website-headshot.png' alt='A headshot of Ryan R. Campbell' />
           </div>
-          <div className='section-wrapper about-description'>
+          <div className='section-wrapper media-text-row__body'>
             <h2>about</h2>
             <p>
               I'm a two-time International Book Awards finalist, the founder of the Writescast Network, and the co-founder of Kill Your Darlings Candle Company. 
@@ -20,7 +20,7 @@ const AuthorLanding = () => {
             <Link data-testid='about-link' to='/about'>learn more about the author</Link>
           </div>
         </div>
-        <div id='books' className='shadow-bg-gray section-wrapper'>
+        <div id='books' className='section-band section-wrapper'>
           <h2>books</h2>
           <Books hideEmpathy />
         </div>
@@ -28,7 +28,7 @@ const AuthorLanding = () => {
           <h2>reviews</h2>
           <Reviews />
         </div>
-        <div id='awards' className='section-wrapper shadow-bg-gray'>
+        <div id='awards' className='section-wrapper section-band'>
           <h2>awards</h2>
           <div className='featured-img-container'>
             {awards.map((award) => (

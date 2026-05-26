@@ -259,7 +259,7 @@ exports[`BooksLanding > default snapshot 1`] = `
               </div>
             </div>
             <div
-              class="Reviews shadow-bg-gray"
+              class="Reviews section-band"
             >
               <div
                 class="reviews-grid"
@@ -569,7 +569,7 @@ exports[`BooksLanding > default snapshot 1`] = `
               </div>
             </div>
             <div
-              class="Reviews shadow-bg-gray"
+              class="Reviews section-band"
             >
               <div
                 class="reviews-grid"
@@ -856,7 +856,7 @@ exports[`BooksLanding > default snapshot 1`] = `
               </div>
             </div>
             <div
-              class="Reviews shadow-bg-gray"
+              class="Reviews section-band"
             >
               <div
                 class="reviews-grid"
@@ -1104,7 +1104,7 @@ exports[`BooksLanding > default snapshot 1`] = `
               </div>
             </div>
             <div
-              class="Reviews shadow-bg-gray"
+              class="Reviews section-band"
             >
               <div
                 class="reviews-grid"
@@ -1739,7 +1739,7 @@ exports[`BooksLanding > default snapshot 1`] = `
             </div>
           </div>
           <div
-            class="Reviews shadow-bg-gray"
+            class="Reviews section-band"
           >
             <div
               class="reviews-grid"
@@ -2049,7 +2049,7 @@ exports[`BooksLanding > default snapshot 1`] = `
             </div>
           </div>
           <div
-            class="Reviews shadow-bg-gray"
+            class="Reviews section-band"
           >
             <div
               class="reviews-grid"
@@ -2336,7 +2336,7 @@ exports[`BooksLanding > default snapshot 1`] = `
             </div>
           </div>
           <div
-            class="Reviews shadow-bg-gray"
+            class="Reviews section-band"
           >
             <div
               class="reviews-grid"
@@ -2584,7 +2584,7 @@ exports[`BooksLanding > default snapshot 1`] = `
             </div>
           </div>
           <div
-            class="Reviews shadow-bg-gray"
+            class="Reviews section-band"
           >
             <div
               class="reviews-grid"

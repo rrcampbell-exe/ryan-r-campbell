@@ -33,7 +33,7 @@ export default defineConfig({
         manualChunks: {
           'react-vendor': ['react', 'react-dom'],
           'router': ['react-router-dom'],
-          'vis': ['@visx/wordcloud', '@visx/text', '@visx/scale', '@visx/responsive'],
+          'vis': ['@visx/wordcloud', '@visx/text', '@visx/scale'],
         }
       }
     }

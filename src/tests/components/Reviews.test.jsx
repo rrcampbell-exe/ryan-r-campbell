@@ -30,7 +30,7 @@ describe('Reviews', () => {
       </ContextAndRouterProvider>
     )
 
-    const reviewsShadowBg = container.querySelector('.Reviews.shadow-bg-gray')
+    const reviewsShadowBg = container.querySelector('.Reviews.section-band')
     expect(reviewsShadowBg).toBeInTheDocument()
   })
   test('should not feature shadow bg by default', () => {
@@ -40,7 +40,7 @@ describe('Reviews', () => {
       </ContextAndRouterProvider>
     )
 
-    const reviewsShadowBg = container.querySelector('.Reviews.shadow-bg-gray')
+    const reviewsShadowBg = container.querySelector('.Reviews.section-band')
     expect(reviewsShadowBg).not.toBeInTheDocument()
   })
 })

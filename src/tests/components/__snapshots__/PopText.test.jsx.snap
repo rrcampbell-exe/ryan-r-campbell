@@ -7,7 +7,7 @@ exports[`PopText > default snapshot 1`] = `
     <div>
       <div>
         <div
-          class="pop-content"
+          class="fade-cycle"
         >
           <h2>
             software engineer
@@ -19,7 +19,7 @@ exports[`PopText > default snapshot 1`] = `
   "container": <div>
     <div>
       <div
-        class="pop-content"
+        class="fade-cycle"
       >
         <h2>
           software engineer

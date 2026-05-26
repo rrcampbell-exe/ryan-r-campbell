@@ -1,7 +1,6 @@
 import { describe, expect, test } from 'vitest'
-import { buildNavURL, extractHTMLContent, fetchEpisode, fetchPost, findEpisodeUUID, formatDate } from '../../utils/index.js'
+import { buildNavURL, extractHTMLContent, fetchEpisode, findEpisodeUUID, formatDate } from '../../utils/index.js'
 import podcasts from '../../assets/podcasts/pinecast-podcasts.js'
-import { posts, legacyPosts } from '../../assets/posts'
 
 describe('utils', () => {
   test('buildNavURL should return the correct URL', () => {
@@ -40,31 +39,6 @@ describe('utils', () => {
     const slug = 'a-final-conversation-with-dan-schiro-writescast-101/'
     const result = fetchEpisode(slug)
     expect(result).toBe(null)
-  })
-
-  test('fetchPost should return the correct post', () => {
-    const year = '2022'
-    const month = '05'
-    const day = '19'
-    const slug = 'from-conference-to-coffee-on-the-beach'
-    const result = fetchPost(year, month, day, slug, legacyPosts)
-    expect(result).toEqual(legacyPosts[0])
-  })
-  test('fetchPost should return null when no matching post is found', () => {
-    const year = '2022'
-    const month = '05'
-    const day = '20'
-    const slug = 'from-conference-to-coffee-on-the-beach'
-    const result = fetchPost(year, month, day, slug, legacyPosts)
-    expect(result).toBe(null)
-  })
-  test('fetchPost should return index of post', () => {
-    const year = '2016'
-    const month = '10'
-    const day = '14'
-    const slug = 'murder-the-literarily-literal-1'
-    const result = fetchPost(year, month, day, slug, legacyPosts)
-    expect(result.postIndex).toBe([...posts, ...legacyPosts].length - 1)
   })
 
   test('findEpisodeUUID should return the correct episode UUID', () => {

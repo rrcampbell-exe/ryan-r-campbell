@@ -153,7 +153,7 @@ exports[`ContactPage > default snapshot 1`] = `
         >
           <img
             alt="Ryan R. Campbell in front of a blurry bookshelf"
-            class="about-img"
+            class="feature-img"
             src="./ryan-r-campbell-bookshelf-background.jpg"
           />
         </div>
@@ -568,7 +568,7 @@ exports[`ContactPage > default snapshot 1`] = `
       >
         <img
           alt="Ryan R. Campbell in front of a blurry bookshelf"
-          class="about-img"
+          class="feature-img"
           src="./ryan-r-campbell-bookshelf-background.jpg"
         />
       </div>
