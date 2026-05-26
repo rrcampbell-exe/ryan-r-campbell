@@ -16,10 +16,9 @@ const builds = [
     title: 'Real Fake Birds',
     teaser: 'Some are real. Some are fake. Tell them apart.',
     description: 'Earn badges and extend your streak in this real-or-fake guessing game that puts even the most ardent birders to the test.',
-    technologies: 'React, Node, axios, styled-components, react-router, REST APIs',
+    technologies: 'OpenAI APIs, Next.js, TypeScript, Supabase, Tailwind CSS, Cloudflare R2, Capacitor, Upstash Redis',
     link: 'https://www.realfakebirds.app',
     linkText: 'play the game',
-    gitHub: 'https://github.com/rrcampbell-exe/real-fake-birds'
   },
   {
     logo: './builds/yarnsworths-tales-app-logo.png',

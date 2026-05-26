@@ -156,10 +156,10 @@
     padding: var(--space-8) var(--space-12);
 
     /* Glass panel full-bleed */
-    margin-left: calc(-1 * var(--page-gutter));
-    margin-right: calc(-1 * var(--page-gutter));
-    padding-left: var(--page-gutter);
-    padding-right: var(--page-gutter);
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-left: calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
     background: rgba(10, 22, 44, 0.7);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
@@ -348,10 +348,10 @@
   // ── IMPACT ──────────────────────────────────────────────────────
   .gl-impact {
     // Full-bleed treatment
-    margin-left: calc(-1 * var(--page-gutter));
-    margin-right: calc(-1 * var(--page-gutter));
-    padding-left: var(--page-gutter);
-    padding-right: var(--page-gutter);
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-left: calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
     background: rgba(6, 14, 28, 0.55);
     border-top: 1px solid var(--glass-border);
     border-bottom: 1px solid var(--glass-border);
@@ -365,10 +365,10 @@
   // ── WRITING ──────────────────────────────────────────────────────
   .gl-writing {
     // Full-bleed treatment
-    margin-left: calc(-1 * var(--page-gutter));
-    margin-right: calc(-1 * var(--page-gutter));
-    padding-left: var(--page-gutter);
-    padding-right: var(--page-gutter);
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-left: calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
     background: rgba(6, 14, 28, 0.55);
     border-top: 1px solid var(--glass-border);
     border-bottom: 1px solid var(--glass-border);

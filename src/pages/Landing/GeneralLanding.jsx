@@ -5,8 +5,8 @@ import ReactModal from 'react-modal'
 import { Users, Zap, Award, BrainCircuit } from 'lucide-react'
 
 const METRICS = [
-  { value: '1,200+', label: 'Weekly views on enterprise AI Hub Skills Library', icon: BrainCircuit },
-  { value: 'Most Innovative', label: '2024 Developer Experience Hackathon', icon: Zap },
+  { value: '1,200+', label: 'Weekly views on enterprise AI Hub', icon: BrainCircuit },
+  { value: 'Most Innovative', label: 'Developer Experience Hackathon', icon: Zap },
   { value: '2×', label: 'International Book Awards Finalist', icon: Award },
 ]
 
@@ -14,7 +14,7 @@ const CAPABILITIES = [
   {
     id: 'ai',
     heading: 'AI Enablement & Developer Experience',
-    body: "Building the tools and content that help engineers move faster and smarter. Architected Northwestern Mutual's enterprise AI Hub — a Skills Library and MCP Registry serving 1,200+ weekly users and hosting the platform's single most-downloaded skill.",
+    body: "Building the tools and content that help engineers move faster and smarter. Architected Northwestern Mutual's enterprise AI Hub — a Skills Library and MCP Registry serving 1,200+ weekly users and the author of the platform's single most-downloaded skill.",
   },
   {
     id: 'platform',
@@ -24,7 +24,7 @@ const CAPABILITIES = [
   {
     id: 'leadership',
     heading: 'Technical Leadership & Communication',
-    body: "Only SE III selected for the inaugural Pathways Mentorship pilot. Co-chaired the engineering mentorship committee. Aspiring Leaders cohort. Presented to the CEO on AI enablement impact.",
+    body: "Only SE III selected as a mentor in engineering mentorship program. Chaired the engineering mentee engagement committee. Aspiring Leaders cohort. Presented to CEO on AI enablement impact.",
   },
 ]
 
@@ -42,8 +42,8 @@ const GeneralLanding = ({ pageNotFound }) => {
             <p className='gl-hero__eyebrow'>Software Engineer · Author · AI Architect</p>
             <h1 className='gl-hero__name'>Ryan R. Campbell</h1>
             <p className='gl-hero__tagline'>
-              Strategic engineer driving AI adoption, developer experience, and platform
-              modernization at enterprise scale — and the author of two award-nominated novels.
+              Strategic engineer driving thoughtful AI adoption, developer experience, and platform
+              modernization at enterprise scale — and an internationally recognized author of fiction.
             </p>
             <div className='gl-hero__ctas'>
               <a href='#impact' className='btn-primary'>See my work</a>

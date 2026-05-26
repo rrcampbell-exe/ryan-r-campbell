@@ -171,7 +171,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               <p
                 class="gl-hero__tagline"
               >
-                Strategic engineer driving AI adoption, developer experience, and platform modernization at enterprise scale — and the author of two award-nominated novels.
+                Strategic engineer driving thoughtful AI adoption, developer experience, and platform modernization at enterprise scale — and an internationally recognized author of fiction.
               </p>
               <div
                 class="gl-hero__ctas"
@@ -285,7 +285,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <span
                   class="gl-metrics__label"
                 >
-                  Weekly views on enterprise AI Hub Skills Library
+                  Weekly views on enterprise AI Hub
                 </span>
               </div>
             </div>
@@ -329,7 +329,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <span
                   class="gl-metrics__label"
                 >
-                  2024 Developer Experience Hackathon
+                  Developer Experience Hackathon
                 </span>
               </div>
             </div>
@@ -411,7 +411,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   AI Enablement & Developer Experience
                 </h3>
                 <p>
-                  Building the tools and content that help engineers move faster and smarter. Architected Northwestern Mutual's enterprise AI Hub — a Skills Library and MCP Registry serving 1,200+ weekly users and hosting the platform's single most-downloaded skill.
+                  Building the tools and content that help engineers move faster and smarter. Architected Northwestern Mutual's enterprise AI Hub — a Skills Library and MCP Registry serving 1,200+ weekly users and the author of the platform's single most-downloaded skill.
                 </p>
               </article>
               <article
@@ -439,7 +439,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   Technical Leadership & Communication
                 </h3>
                 <p>
-                  Only SE III selected for the inaugural Pathways Mentorship pilot. Co-chaired the engineering mentorship committee. Aspiring Leaders cohort. Presented to the CEO on AI enablement impact.
+                  Only SE III selected as a mentor in engineering mentorship program. Chaired the engineering mentee engagement committee. Aspiring Leaders cohort. Presented to CEO on AI enablement impact.
                 </p>
               </article>
             </div>
@@ -506,7 +506,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="boast-row__achievements"
                 >
                   <li>
-                    Authored the most-downloaded skill on the enterprise AI Hub — accounting for more than 15% of all skill interactions on the platform
+                    Authored the most-downloaded skill on the enterprise AI Hub, accounting for more than 15% of all skill interactions on the platform
                   </li>
                   <li>
                     Drove 1,200+ weekly views to the AI Hub's Skills Library and MCP Registry through architecture decisions and content strategy
@@ -625,13 +625,13 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="boast-row__achievements"
                 >
                   <li>
-                    Selected as the only Software Engineer III in Northwestern Mutual's inaugural Pathways Mentorship pilot program
+                    Only Software Engineer III selected to be a mentor in Northwestern Mutual's engineering mentorship program
                   </li>
                   <li>
-                    Co-chaired the Engineering mentorship committee, expanding program reach across the engineering organization
+                    Chaired the Core Enablers mentorship committee, expanding program's reach across engineering, product, and design
                   </li>
                   <li>
-                    Accepted into the Aspiring Leaders program — an invitation-only leadership development cohort
+                    Accepted into the Aspiring Leaders program, an invitation-only leadership development cohort
                   </li>
                   <li>
                     Presented at Revel in Tech and the company's internal podcast on technical craft and organizational communication
@@ -686,7 +686,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <p
                     class="build-tile__tech"
                   >
-                    React, Node, axios, styled-components, react-router, REST APIs
+                    OpenAI APIs, Next.js, TypeScript, Supabase, Tailwind CSS, Cloudflare R2, Capacitor, Upstash Redis
                   </p>
                 </div>
                 <div
@@ -699,14 +699,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                     target="_blank"
                   >
                     play the game
-                  </a>
-                  <a
-                    class="build-tile__link build-tile__link--gh"
-                    href="https://github.com/rrcampbell-exe/real-fake-birds"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    GitHub
                   </a>
                 </div>
               </article>
@@ -1323,7 +1315,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             <p
               class="gl-hero__tagline"
             >
-              Strategic engineer driving AI adoption, developer experience, and platform modernization at enterprise scale — and the author of two award-nominated novels.
+              Strategic engineer driving thoughtful AI adoption, developer experience, and platform modernization at enterprise scale — and an internationally recognized author of fiction.
             </p>
             <div
               class="gl-hero__ctas"
@@ -1437,7 +1429,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               <span
                 class="gl-metrics__label"
               >
-                Weekly views on enterprise AI Hub Skills Library
+                Weekly views on enterprise AI Hub
               </span>
             </div>
           </div>
@@ -1481,7 +1473,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               <span
                 class="gl-metrics__label"
               >
-                2024 Developer Experience Hackathon
+                Developer Experience Hackathon
               </span>
             </div>
           </div>
@@ -1563,7 +1555,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 AI Enablement & Developer Experience
               </h3>
               <p>
-                Building the tools and content that help engineers move faster and smarter. Architected Northwestern Mutual's enterprise AI Hub — a Skills Library and MCP Registry serving 1,200+ weekly users and hosting the platform's single most-downloaded skill.
+                Building the tools and content that help engineers move faster and smarter. Architected Northwestern Mutual's enterprise AI Hub — a Skills Library and MCP Registry serving 1,200+ weekly users and the author of the platform's single most-downloaded skill.
               </p>
             </article>
             <article
@@ -1591,7 +1583,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 Technical Leadership & Communication
               </h3>
               <p>
-                Only SE III selected for the inaugural Pathways Mentorship pilot. Co-chaired the engineering mentorship committee. Aspiring Leaders cohort. Presented to the CEO on AI enablement impact.
+                Only SE III selected as a mentor in engineering mentorship program. Chaired the engineering mentee engagement committee. Aspiring Leaders cohort. Presented to CEO on AI enablement impact.
               </p>
             </article>
           </div>
@@ -1658,7 +1650,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="boast-row__achievements"
               >
                 <li>
-                  Authored the most-downloaded skill on the enterprise AI Hub — accounting for more than 15% of all skill interactions on the platform
+                  Authored the most-downloaded skill on the enterprise AI Hub, accounting for more than 15% of all skill interactions on the platform
                 </li>
                 <li>
                   Drove 1,200+ weekly views to the AI Hub's Skills Library and MCP Registry through architecture decisions and content strategy
@@ -1777,13 +1769,13 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="boast-row__achievements"
               >
                 <li>
-                  Selected as the only Software Engineer III in Northwestern Mutual's inaugural Pathways Mentorship pilot program
+                  Only Software Engineer III selected to be a mentor in Northwestern Mutual's engineering mentorship program
                 </li>
                 <li>
-                  Co-chaired the Engineering mentorship committee, expanding program reach across the engineering organization
+                  Chaired the Core Enablers mentorship committee, expanding program's reach across engineering, product, and design
                 </li>
                 <li>
-                  Accepted into the Aspiring Leaders program — an invitation-only leadership development cohort
+                  Accepted into the Aspiring Leaders program, an invitation-only leadership development cohort
                 </li>
                 <li>
                   Presented at Revel in Tech and the company's internal podcast on technical craft and organizational communication
@@ -1838,7 +1830,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <p
                   class="build-tile__tech"
                 >
-                  React, Node, axios, styled-components, react-router, REST APIs
+                  OpenAI APIs, Next.js, TypeScript, Supabase, Tailwind CSS, Cloudflare R2, Capacitor, Upstash Redis
                 </p>
               </div>
               <div
@@ -1851,14 +1843,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   target="_blank"
                 >
                   play the game
-                </a>
-                <a
-                  class="build-tile__link build-tile__link--gh"
-                  href="https://github.com/rrcampbell-exe/real-fake-birds"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  GitHub
                 </a>
               </div>
             </article>
