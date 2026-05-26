@@ -95,7 +95,7 @@ exports[`Builds > default snapshot 1`] = `
         <p
           class="build-tile__tech"
         >
-          React, Node, axios, styled-components, react-router, REST APIs
+          OpenAI APIs, Next.js, TypeScript, Supabase, Tailwind CSS, Cloudflare R2, Capacitor, Upstash Redis
         </p>
       </div>
       <div
@@ -108,14 +108,6 @@ exports[`Builds > default snapshot 1`] = `
           target="_blank"
         >
           play the game
-        </a>
-        <a
-          class="build-tile__link build-tile__link--gh"
-          href="https://github.com/rrcampbell-exe/real-fake-birds"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          GitHub
         </a>
       </div>
     </article>

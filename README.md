@@ -1,15 +1,11 @@
 # Ryan R. Campbell - Author & Technologist
 
-![license-copyright-blue.png](https://img.shields.io/badge/%C2%A9_2024-Ryan_R._Campbell-blue
+![license-copyright-blue.png](https://img.shields.io/badge/%C2%A9_2026-Ryan_R._Campbell-blue
 )
 
 ## Description
-The website, blog, and portfolio for Ryan R. Campbell.
+The website for software engineer and author Ryan R. Campbell.
 
-### History
-I started blogging in the early 2010s on Blogger before moving to WordPress in 2015. Since that time, I've become a web developer in my own right and, as such, it felt only fitting to finally build out the digital footprint for my personal and professional endeavors from scratch.
-
-For more on my journey to becoming a web developer—as well as what went into creating a backwards-compatible site experience that hosts WordPress-era content—be sure to visit the site's [about page](https://www.ryanrcampbell.com/about) and keep an eye on the [blog](https://www.ryanrcampbell.com/blog).
 
 ## Table of Contents
 - [Features](#features)
@@ -23,34 +19,38 @@ For more on my journey to becoming a web developer—as well as what went into c
  - React
  - Sass
  - Vite
- - react-router
+ - react-router-dom
  - Vercel
+ - @vercel/analytics
+ - @vercel/speed-insights
+ - lucide-react
+ - react-modal
+ - react-parallax-tilt
+ - react-slick
  - Vitest
  - v8
  - @testing-library/react
  - husky
  
- ### Wordcloud
- 
- Code for the Skills wordcloud based on [visx wordcloud documentation](https://airbnb.io/visx/wordcloud).
 
 ## Tests
 This site uses Vitest and @testing-library/react to support its unit testing. These tests can be run by using the `test` or `coverage` scripts in the `package.json`.
 
 As reported by `v8`, this repository features 36 test files with 148 unit tests that ultimately provide coverage for:
 
-- 99.2% of statements
-- 99.2% of lines
+- 98.78% of statements
+- 98.78% of lines
 
 ## License
-© 2024 Ryan R. Campbell. All rights reserved.
+© 2026 Ryan R. Campbell. All rights reserved.
 
 ## Credits
 ### Developed By
 - [Ryan R. Campbell](https://www.github.com/rrcampbell-exe/)
 
 ### SVG Icons
-- [Sun](https://www.svgrepo.com/svg/525084/sun), [Moon](https://www.svgrepo.com/svg/524757/moon-stars), [External Link](https://www.svgrepo.com/svg/510970/external-link), [Laptop](https://www.svgrepo.com/svg/280756/laptop-computer-code), [Browser](https://www.svgrepo.com/svg/214139/browser-website), [Management](https://www.svgrepo.com/svg/109477/management), [Hamburger Menu](https://www.svgrepo.com/svg/491033/hamburger-menu), [Robot](https://www.svgrepo.com/svg/364798/robot-fill), [Close](https://www.svgrepo.com/svg/521564/close), [Calendar](https://www.svgrepo.com/svg/533389/calendar-days), [Light Bulb](https://www.svgrepo.com/svg/479561/light-bulb-line-drawing), [Checkmark](https://www.svgrepo.com/svg/474769/checkmark), [Copy](https://www.svgrepo.com/svg/521581/copy), [Bullhorn](https://www.svgrepo.com/svg/472492/bullhorn), and [Quotation Mark](https://www.svgrepo.com/svg/346784/double-quotes-l) SVG vectors licensed under CC Attribution License and sourced from svgrepo.com.
+- [Sun](https://www.svgrepo.com/svg/525084/sun), [Moon](https://www.svgrepo.com/svg/524757/moon-stars), [External Link](https://www.svgrepo.com/svg/510970/external-link), [Hamburger Menu](https://www.svgrepo.com/svg/491033/hamburger-menu), [Robot](https://www.svgrepo.com/svg/364798/robot-fill), [Close](https://www.svgrepo.com/svg/521564/close), [Calendar](https://www.svgrepo.com/svg/533389/calendar-days), [Light Bulb](https://www.svgrepo.com/svg/479561/light-bulb-line-drawing), [Checkmark](https://www.svgrepo.com/svg/474769/checkmark), [Copy](https://www.svgrepo.com/svg/521581/copy), [Bullhorn](https://www.svgrepo.com/svg/472492/bullhorn), and [Quotation Mark](https://www.svgrepo.com/svg/346784/double-quotes-l) SVG vectors licensed under CC Attribution License and sourced from svgrepo.com.
+- Additional icons (Sparkles, Layers, Users, BrainCircuit, Zap, Award, and others) sourced from [lucide-react](https://lucide.dev/).
 
 ## Questions, Comments, Suggestions
 Please email [Ryan R. Campbell](mailto:campbell.ryan.r@gmail.com) with any questions, to report any bugs, or to make any feature suggestions. You can also [contact Ryan R. Campbell on GitHub](https://www.github.com/rrcampbell-exe/).
