@@ -12,6 +12,9 @@
     "prepare": "husky",
     "coverage": "vitest --coverage"
   },
+  "engines": {
+    "node": ">=22.13.1"
+  },
   "dependencies": {
     "@vercel/analytics": "^1.6.1",
     "@vercel/speed-insights": "^1.3.1",
