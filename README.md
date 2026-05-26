@@ -38,8 +38,8 @@ This site uses Vitest and @testing-library/react to support its unit testing. Th
 
 As reported by `v8`, this repository features 36 test files with 148 unit tests that ultimately provide coverage for:
 
-- 98.78% of statements
-- 98.78% of lines
+- 99.51% of statements
+- 99.51% of lines
 
 ## License
 © 2026 Ryan R. Campbell. All rights reserved.
