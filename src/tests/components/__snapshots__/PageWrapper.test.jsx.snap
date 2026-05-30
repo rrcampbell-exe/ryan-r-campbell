@@ -47,6 +47,12 @@ exports[`PageWrapper > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
+              href="/resume"
+            >
+              resume
+            </a>
+            <a
+              class="header-nav__link"
               href="/ai"
             >
               AI
@@ -205,6 +211,13 @@ exports[`PageWrapper > default snapshot 1`] = `
                     href="/about"
                   >
                     About
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/resume"
+                  >
+                    Resume
                   </a>
                 </li>
                 <li>
@@ -374,6 +387,12 @@ exports[`PageWrapper > default snapshot 1`] = `
           </a>
           <a
             class="header-nav__link"
+            href="/resume"
+          >
+            resume
+          </a>
+          <a
+            class="header-nav__link"
             href="/ai"
           >
             AI
@@ -532,6 +551,13 @@ exports[`PageWrapper > default snapshot 1`] = `
                   href="/about"
                 >
                   About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/resume"
+                >
+                  Resume
                 </a>
               </li>
               <li>
