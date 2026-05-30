@@ -561,11 +561,12 @@ exports[`AboutContents > ShortStory default snapshot 1`] = `
       </p>
       <p>
         And, if you're really up for it, consider reading 
-        <span
-          class="story-toggle-span"
+        <button
+          class="story-toggle-button"
+          type="button"
         >
           the extended version of the story so far
-        </span>
+        </button>
         . I think you might like what you find.
       </p>
     </div>

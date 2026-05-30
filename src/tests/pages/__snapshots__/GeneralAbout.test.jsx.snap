@@ -157,40 +157,76 @@ exports[`GeneralAbout > default snapshot 1`] = `
         <main
           class="About"
         >
-          <div
-            class="about-container"
+          <section
+            class="about-hero"
           >
-            <img
-              alt="Ryan R. Campbell outdoors with a black baseball cap on"
-              class="feature-img"
-              src="./2024-ryan-r-campbell-with-hat-on-outdoors.jpg"
-            />
-            <h2>
-              the story (so far)
-            </h2>
-          </div>
-          <div
-            class=""
-            id="tale-selection"
-          >
-            <h3>
-              Which version would you prefer?
-            </h3>
             <div
-              class="options-container "
+              class="about-hero__content"
             >
-              <div
-                class=" "
+              <p
+                class="section-label"
               >
-                abridged
-              </div>
-              <div
-                class=" "
+                About
+              </p>
+              <h1>
+                the story so far
+              </h1>
+              <p
+                class="about-hero__lede"
               >
-                extended
+                A career built on curiosity, reinvention, and a stubborn refusal to limit myself to one lane.
+              </p>
+              <p
+                class="about-hero__body"
+              >
+                Rather than move from one title to the next, the throughline is wonder, language, creative work, and engineering all braided together.
+              </p>
+              <div
+                class="about-story-selector"
+                id="tale-selection"
+              >
+                <p
+                  class="about-story-selector__label"
+                >
+                  Choose the shape of the story
+                </p>
+                <div
+                  aria-label="Choose story length"
+                  class="about-story-selector__controls"
+                  role="group"
+                >
+                  <button
+                    aria-pressed="false"
+                    class="about-story-selector__button"
+                    type="button"
+                  >
+                    abridged
+                  </button>
+                  <button
+                    aria-pressed="false"
+                    class="about-story-selector__button"
+                    type="button"
+                  >
+                    extended
+                  </button>
+                </div>
+                <p
+                  class="about-story-selector__note"
+                >
+                  Abridged is the quick arc. Extended invites you along the whole winding path.
+                </p>
               </div>
             </div>
-          </div>
+            <div
+              class="about-hero__image"
+            >
+              <img
+                alt="Ryan R. Campbell outdoors with a black baseball cap on"
+                class="about-hero__photo"
+                src="./2024-ryan-r-campbell-with-hat-on-outdoors.jpg"
+              />
+            </div>
+          </section>
         </main>
         <div
           data-testid="analytics"
@@ -528,40 +564,76 @@ exports[`GeneralAbout > default snapshot 1`] = `
       <main
         class="About"
       >
-        <div
-          class="about-container"
+        <section
+          class="about-hero"
         >
-          <img
-            alt="Ryan R. Campbell outdoors with a black baseball cap on"
-            class="feature-img"
-            src="./2024-ryan-r-campbell-with-hat-on-outdoors.jpg"
-          />
-          <h2>
-            the story (so far)
-          </h2>
-        </div>
-        <div
-          class=""
-          id="tale-selection"
-        >
-          <h3>
-            Which version would you prefer?
-          </h3>
           <div
-            class="options-container "
+            class="about-hero__content"
           >
-            <div
-              class=" "
+            <p
+              class="section-label"
             >
-              abridged
-            </div>
-            <div
-              class=" "
+              About
+            </p>
+            <h1>
+              the story so far
+            </h1>
+            <p
+              class="about-hero__lede"
             >
-              extended
+              A career built on curiosity, reinvention, and a stubborn refusal to limit myself to one lane.
+            </p>
+            <p
+              class="about-hero__body"
+            >
+              Rather than move from one title to the next, the throughline is wonder, language, creative work, and engineering all braided together.
+            </p>
+            <div
+              class="about-story-selector"
+              id="tale-selection"
+            >
+              <p
+                class="about-story-selector__label"
+              >
+                Choose the shape of the story
+              </p>
+              <div
+                aria-label="Choose story length"
+                class="about-story-selector__controls"
+                role="group"
+              >
+                <button
+                  aria-pressed="false"
+                  class="about-story-selector__button"
+                  type="button"
+                >
+                  abridged
+                </button>
+                <button
+                  aria-pressed="false"
+                  class="about-story-selector__button"
+                  type="button"
+                >
+                  extended
+                </button>
+              </div>
+              <p
+                class="about-story-selector__note"
+              >
+                Abridged is the quick arc. Extended invites you along the whole winding path.
+              </p>
             </div>
           </div>
-        </div>
+          <div
+            class="about-hero__image"
+          >
+            <img
+              alt="Ryan R. Campbell outdoors with a black baseball cap on"
+              class="about-hero__photo"
+              src="./2024-ryan-r-campbell-with-hat-on-outdoors.jpg"
+            />
+          </div>
+        </section>
       </main>
       <div
         data-testid="analytics"
