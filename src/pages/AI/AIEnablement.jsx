@@ -59,7 +59,7 @@ const AIEnablement = () => {
         <section id='why-thoughtful-ai' className='ai-hero'>
           <div className='ai-hero__copy'>
             <p className='section-label'>AI philosophy</p>
-            <h1>Thoughtful AI enablement begins with judgment, not hype.</h1>
+            <h1>Thoughtful AI enablement begins by looking inward.</h1>
             <p className='ai-lead'>
               Organizations benefit most from AI when they treat it as a disciplined means of solving real problems,
               not as a performance of innovation. The goal is to make better
@@ -89,7 +89,7 @@ const AIEnablement = () => {
             <h2>My philosophy on AI is simple: Be curious. Be strategic. Be honest about what works.</h2>
             <p>
               One-off digital parlor tricks are insufficient. The real challenge is creating the conditions under
-              which teams can apply AI well, learn from the results, and iterate as needed rather than for the sake of doing so.
+              which teams can apply AI well, learn from the results, and iterate as needed—rather than for the sake of doing so.
             </p>
           </div>
 
