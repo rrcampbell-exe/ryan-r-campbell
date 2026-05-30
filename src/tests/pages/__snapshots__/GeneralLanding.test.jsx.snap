@@ -53,6 +53,12 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
+              href="/ai"
+            >
+              AI
+            </a>
+            <a
+              class="header-nav__link"
               href="https://ryanrcampbell.substack.com"
               rel="noopener noreferrer"
               target="_blank"
@@ -442,6 +448,19 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   Only SE III selected as a mentor in engineering mentorship program. Chaired the engineering mentee engagement committee. Aspiring Leaders cohort. Presented to CEO on AI enablement impact.
                 </p>
               </article>
+            </div>
+            <div
+              class="gl-capabilities__cta"
+            >
+              <p>
+                Want the full picture? Read how I think about AI adoption, organizational enablement, and building systems that help teams use these tools well.
+              </p>
+              <a
+                class="btn-secondary"
+                href="/ai"
+              >
+                Read my AI philosophy
+              </a>
             </div>
           </section>
           <section
@@ -1030,6 +1049,13 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
+                    href="/ai"
+                  >
+                    AI
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="https://ryanrcampbell.substack.com"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -1194,6 +1220,12 @@ exports[`GeneralLanding > default snapshot 1`] = `
             href="/about"
           >
             about
+          </a>
+          <a
+            class="header-nav__link"
+            href="/ai"
+          >
+            AI
           </a>
           <a
             class="header-nav__link"
@@ -1586,6 +1618,19 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 Only SE III selected as a mentor in engineering mentorship program. Chaired the engineering mentee engagement committee. Aspiring Leaders cohort. Presented to CEO on AI enablement impact.
               </p>
             </article>
+          </div>
+          <div
+            class="gl-capabilities__cta"
+          >
+            <p>
+              Want the full picture? Read how I think about AI adoption, organizational enablement, and building systems that help teams use these tools well.
+            </p>
+            <a
+              class="btn-secondary"
+              href="/ai"
+            >
+              Read my AI philosophy
+            </a>
           </div>
         </section>
         <section
@@ -2170,6 +2215,13 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   href="/about"
                 >
                   About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/ai"
+                >
+                  AI
                 </a>
               </li>
               <li>

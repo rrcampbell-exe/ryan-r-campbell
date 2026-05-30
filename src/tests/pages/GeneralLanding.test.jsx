@@ -1,6 +1,6 @@
 import GeneralLanding from '../../pages/Landing/GeneralLanding'
 import { describe, expect, test } from 'vitest'
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
 
 describe('GeneralLanding', () => {
@@ -71,5 +71,16 @@ describe('GeneralLanding', () => {
     const links = getAllByRole('link')
     const substackLink = links.find(l => l.href.includes('substack.com'))
     expect(substackLink).toBeInTheDocument()
+  })
+
+  test('should surface the AI page in navigation and content', () => {
+    render(
+      <ContextAndRouterProvider>
+        <GeneralLanding />
+      </ContextAndRouterProvider>
+    )
+
+    expect(screen.getAllByRole('link', { name: 'AI' }).length).toBeGreaterThanOrEqual(2)
+    expect(screen.getByRole('link', { name: /read my ai philosophy/i })).toHaveAttribute('href', '/ai')
   })
 })
