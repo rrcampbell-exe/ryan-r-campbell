@@ -22,6 +22,21 @@ describe('Books', () => {
     )
     expect(asFragment()).toMatchSnapshot()
   })
+  test('should render available book covers with intrinsic dimensions', () => {
+    const { getAllByTestId } = render(
+      <ContextAndRouterProvider>
+        <Books />
+      </ContextAndRouterProvider>
+    )
+
+    const bookCovers = getAllByTestId('book-cover')
+
+    expect(bookCovers).toHaveLength(2)
+    expect(bookCovers[0]).toHaveAttribute('width', '1650')
+    expect(bookCovers[0]).toHaveAttribute('height', '2400')
+    expect(bookCovers[1]).toHaveAttribute('width', '1800')
+    expect(bookCovers[1]).toHaveAttribute('height', '2700')
+  })
   test('should navigate to /books when a book is clicked', () => {
     const { getAllByTestId } = render(
       <ContextAndRouterProvider>

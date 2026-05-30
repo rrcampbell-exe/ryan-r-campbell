@@ -78,6 +78,8 @@ const GeneralAbout = () => {
               className='about-hero__photo'
               src='./2024-ryan-r-campbell-with-hat-on-outdoors.jpg'
               alt='Ryan R. Campbell outdoors with a black baseball cap on'
+              width='1104'
+              height='1120'
             />
           </div>
         </section>

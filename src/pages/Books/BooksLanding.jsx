@@ -15,15 +15,29 @@ const BooksLanding = () => {
           <div key={index}>
             <div id={book.id} className='section-wrapper book-section'>
                 {book.cover && <div className='book-wrapper'>
-                  <Tilt 
-                    glareEnable={true}
-                    perspective={2000}
-                    glareMaxOpacity={0.45}
-                    scale={1.05}
-                    transitionSpeed={1000}
+                  <div
+                    className='book-cover-frame'
+                    style={book.coverWidth && book.coverHeight
+                      ? { aspectRatio: `${book.coverWidth} / ${book.coverHeight}` }
+                      : undefined}
                   >
-                    <img className='book-cover' src={book.cover} alt={book.alt} />
-                  </Tilt>
+                    <Tilt
+                      className='book-cover-tilt'
+                      glareEnable={true}
+                      perspective={2000}
+                      glareMaxOpacity={0.45}
+                      scale={1.05}
+                      transitionSpeed={1000}
+                    >
+                      <img
+                        className='book-cover'
+                        src={book.cover}
+                        alt={book.alt}
+                        width={book.coverWidth}
+                        height={book.coverHeight}
+                      />
+                    </Tilt>
+                  </div>
                 </div>}
               <div className='section-wrapper book-metadata'>
                 <h2 className='book-title'><i>{book.title}</i></h2>

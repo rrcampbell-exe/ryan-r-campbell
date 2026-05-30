@@ -223,7 +223,9 @@ exports[`GeneralAbout > default snapshot 1`] = `
               <img
                 alt="Ryan R. Campbell outdoors with a black baseball cap on"
                 class="about-hero__photo"
+                height="1120"
                 src="./2024-ryan-r-campbell-with-hat-on-outdoors.jpg"
+                width="1104"
               />
             </div>
           </section>
@@ -630,7 +632,9 @@ exports[`GeneralAbout > default snapshot 1`] = `
             <img
               alt="Ryan R. Campbell outdoors with a black baseball cap on"
               class="about-hero__photo"
+              height="1120"
               src="./2024-ryan-r-campbell-with-hat-on-outdoors.jpg"
+              width="1104"
             />
           </div>
         </section>

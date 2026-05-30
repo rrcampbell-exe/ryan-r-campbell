@@ -23,6 +23,22 @@ describe('BooksLanding', () => {
     expect(books.length).toBe(2)
   })
 
+  test('renders book covers with intrinsic dimensions', () => {
+    const { getByAltText } = render(
+      <ContextAndRouterProvider>
+        <BooksLanding />
+      </ContextAndRouterProvider>
+    )
+
+    const scambaitCover = getByAltText(/orange cover of the book scambait/i)
+    const andAmpersandCover = getByAltText(/the black cover of the book and ampersand/i)
+
+    expect(scambaitCover).toHaveAttribute('width', '1650')
+    expect(scambaitCover).toHaveAttribute('height', '2400')
+    expect(andAmpersandCover).toHaveAttribute('width', '1800')
+    expect(andAmpersandCover).toHaveAttribute('height', '2700')
+  })
+
   test('clicking read a sample button opens the correct URL in a new tab', () => { 
     vi.spyOn(window, 'open') 
     // Render the component

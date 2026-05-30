@@ -1,6 +1,6 @@
 import GeneralAbout from '../../pages/About/GeneralAbout'
 import { describe, expect, test } from 'vitest'
-import { render, fireEvent } from '@testing-library/react'
+import { render, fireEvent, screen } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
 
 describe('GeneralAbout', () => {
@@ -77,5 +77,18 @@ describe('GeneralAbout', () => {
     const longStory = queryByTestId('long-story')
     expect(shortStory).not.toBeInTheDocument()
     expect(longStory).not.toBeInTheDocument()
+  })
+
+  test('should reserve the hero image with intrinsic dimensions', () => {
+    render(
+      <ContextAndRouterProvider>
+        <GeneralAbout />
+      </ContextAndRouterProvider>
+    )
+
+    const heroImage = screen.getByAltText('Ryan R. Campbell outdoors with a black baseball cap on')
+
+    expect(heroImage).toHaveAttribute('width', '1104')
+    expect(heroImage).toHaveAttribute('height', '1120')
   })
 })

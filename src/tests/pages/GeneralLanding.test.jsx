@@ -38,6 +38,19 @@ describe('GeneralLanding', () => {
     expect(hero).toBeInTheDocument()
   })
 
+  test('should reserve the hero image with intrinsic dimensions', () => {
+    render(
+      <ContextAndRouterProvider>
+        <GeneralLanding />
+      </ContextAndRouterProvider>
+    )
+
+    const heroImage = screen.getByAltText('Ryan R. Campbell — software engineer and author')
+
+    expect(heroImage).toHaveAttribute('width', '1199')
+    expect(heroImage).toHaveAttribute('height', '1312')
+  })
+
   test('should render correct number of teasers', () => {
     const { container } = render(
       <ContextAndRouterProvider>

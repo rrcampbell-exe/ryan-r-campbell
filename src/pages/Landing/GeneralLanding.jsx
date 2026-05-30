@@ -54,6 +54,8 @@ const GeneralLanding = ({ pageNotFound }) => {
             <img
               src='./2026-ryan-r-campbell-website-headshot.jpg'
               alt='Ryan R. Campbell — software engineer and author'
+              width='1199'
+              height='1312'
               loading='eager'              className='gl-hero__photo'            />
           </div>
         </section>
