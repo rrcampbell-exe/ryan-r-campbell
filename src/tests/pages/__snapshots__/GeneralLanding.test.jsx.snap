@@ -453,7 +453,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               class="gl-capabilities__cta"
             >
               <p>
-                Want the full picture? Read how I think about AI adoption, organizational enablement, and building systems that help teams use these tools well.
+                Want the full picture? Learn more about my thoughts on AI adoption, organizational enablement, and building systems that help teams use these tools well.
               </p>
               <a
                 class="btn-secondary"
@@ -1623,7 +1623,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             class="gl-capabilities__cta"
           >
             <p>
-              Want the full picture? Read how I think about AI adoption, organizational enablement, and building systems that help teams use these tools well.
+              Want the full picture? Learn more about my thoughts on AI adoption, organizational enablement, and building systems that help teams use these tools well.
             </p>
             <a
               class="btn-secondary"

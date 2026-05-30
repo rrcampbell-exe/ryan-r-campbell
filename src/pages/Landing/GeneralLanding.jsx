@@ -92,7 +92,7 @@ const GeneralLanding = ({ pageNotFound }) => {
           </div>
           <div className='gl-capabilities__cta'>
             <p>
-              Want the full picture? Read how I think about AI adoption, organizational enablement,
+              Want the full picture? Learn more about my thoughts on AI adoption, organizational enablement,
               and building systems that help teams use these tools well.
             </p>
             <Link to='/ai' className='btn-secondary'>Read my AI philosophy</Link>
