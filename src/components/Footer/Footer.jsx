@@ -21,6 +21,7 @@ const Footer = () => {
           <ul>
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/about'>About</Link></li>
+            <li><Link to='/resume'>Resume</Link></li>
             <li><Link to='/ai'>AI</Link></li>
             <li>
               <a href='https://ryanrcampbell.substack.com' target='_blank' rel='noopener noreferrer'>

@@ -18,6 +18,7 @@
 @import './components/NotificationBanner/NotificationBanner.scss';
 @import './components/Loading/Loading.scss';
 @import './pages/About/GeneralAbout.scss';
+@import './pages/Resume/ResumePage.scss';
 @import './components/Quote/Quote.scss';
 @import './components/TextAndImage/TextAndImage.scss';
 @import './components/Blog/BlogTags.scss';

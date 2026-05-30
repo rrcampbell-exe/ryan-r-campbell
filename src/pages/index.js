@@ -6,6 +6,7 @@ import BooksLanding from './Books/BooksLanding.jsx'
 import GeneralLanding from './Landing/GeneralLanding.jsx'
 import PodcastEpisode from './Podcast/PodcastEpisode.jsx'
 import PodcastLanding from './Podcast/PodcastLanding.jsx'
+import ResumePage from './Resume/ResumePage.jsx'
 import ContactPage from './Contact/ContactPage.jsx'
 
-export { LongStory, ShortStory, AIEnablement, GeneralAbout, AuthorLanding, BooksLanding, GeneralLanding, PodcastEpisode, PodcastLanding, ContactPage }
+export { LongStory, ShortStory, AIEnablement, GeneralAbout, AuthorLanding, BooksLanding, GeneralLanding, PodcastEpisode, PodcastLanding, ResumePage, ContactPage }
