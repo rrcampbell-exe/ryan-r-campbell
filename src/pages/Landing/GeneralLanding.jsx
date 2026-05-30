@@ -118,7 +118,7 @@ const GeneralLanding = ({ pageNotFound }) => {
               rel='noopener noreferrer'
               className='btn-secondary'
             >
-              View all on GitHub
+              View more on GitHub
             </a>
           </div>
         </section>
