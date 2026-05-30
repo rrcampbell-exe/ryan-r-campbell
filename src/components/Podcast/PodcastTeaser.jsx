@@ -19,7 +19,7 @@ const PodcastTeaser = ({ episodesToDisplay, episodesPage }) => {
             <h3>{episode.title}</h3>
             <span>Released on {formatDate(episode.pubDate)}</span>
             <p>{episode.description}</p>
-            <Link to={episode.link}>listen here</Link>
+            <Link to={episode.link}>Listen here</Link>
             <div className='content-post-underline' />
           </div>
         </div>
