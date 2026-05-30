@@ -106,7 +106,7 @@ describe('PodcastTeaser', () => {
         <PodcastTeaser episodesToDisplay={3} episodesPage={1} />
       </ContextAndRouterProvider>
     )
-    const listenHere = getAllByText('listen here')[0]
+    const listenHere = getAllByText('Listen here')[0]
     expect(listenHere.href).toBe('https://ryanrcampbell.com/podcast/a-final-conversation-with-dan-schiro-writescast-100/')
   })
 })

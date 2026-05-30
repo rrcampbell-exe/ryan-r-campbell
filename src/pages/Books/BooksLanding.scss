@@ -3,24 +3,45 @@
     display: flex;
     padding: 2rem 4rem;
     margin: 0 -2rem;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     align-items: center;
+    gap: 2.5rem;
 
     &:nth-child(even) {
       background-color: var(--shadow);
     }
   }
 
+  .book-wrapper {
+    flex: 0 0 20rem;
+    width: 20rem;
+    max-width: 100%;
+  }
+
   .book-cover {
-    max-width: 20rem;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
     box-shadow: var(--standard-box-shadow);
   }
 
+  .book-cover-frame {
+    width: 100%;
+    overflow: hidden;
+    contain: layout paint;
+  }
+
+  .book-cover-tilt {
+    width: 100%;
+    height: 100%;
+  }
+
   .book-metadata {
-    width: 60%;
-    margin: 0 2rem;
+    flex: 1 1 0;
+    min-width: 0;
+    margin: 0;
   }
 
   .book-cta-button-container {
@@ -33,18 +54,21 @@
     .book-section {
       padding: 2rem 0;
       margin: 0;
+      flex-wrap: wrap;
       justify-content: center;
+      gap: 1rem;
     }
 
     .book-wrapper {
       display: flex;
       justify-content: center;
       width: 100%;
+      flex-basis: 100%;
       margin-bottom: 1rem;
     }
 
-    .book-cover {
-      max-width: 180px;
+    .book-cover-frame {
+      width: min(100%, 180px);
     }
 
     .book-metadata {

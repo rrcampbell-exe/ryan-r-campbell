@@ -44,6 +44,12 @@ exports[`Header > default snapshot 1`] = `
           </a>
           <a
             class="header-nav__link"
+            href="/ai"
+          >
+            AI
+          </a>
+          <a
+            class="header-nav__link"
             href="https://ryanrcampbell.substack.com"
             rel="noopener noreferrer"
             target="_blank"
@@ -178,6 +184,12 @@ exports[`Header > default snapshot 1`] = `
           href="/about"
         >
           about
+        </a>
+        <a
+          class="header-nav__link"
+          href="/ai"
+        >
+          AI
         </a>
         <a
           class="header-nav__link"

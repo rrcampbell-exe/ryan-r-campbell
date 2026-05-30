@@ -21,7 +21,7 @@ describe('HamburgerMenu', () => {
 
     expect(queryByRole('navigation', { name: 'Site navigation' })).not.toBeInTheDocument()
   })
-  test('should have six link components', () => {
+  test('should have seven link components', () => {
     const { getAllByRole, getByRole } = render(
       <ContextAndRouterProvider>
         <HamburgerMenu />
@@ -29,7 +29,7 @@ describe('HamburgerMenu', () => {
     )
     fireEvent.click(getByRole('button', { name: 'Open navigation menu' }))
     const links = getAllByRole('link')
-    expect(links.length).toBe(6)
+    expect(links.length).toBe(7)
   })
   test('should show the active link', () => {
     const { getAllByRole, getByRole } = render(

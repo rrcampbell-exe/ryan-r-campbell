@@ -53,6 +53,12 @@ exports[`ContactPage > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
+              href="/ai"
+            >
+              AI
+            </a>
+            <a
+              class="header-nav__link"
               href="https://ryanrcampbell.substack.com"
               rel="noopener noreferrer"
               target="_blank"
@@ -304,6 +310,13 @@ exports[`ContactPage > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
+                    href="/ai"
+                  >
+                    AI
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="https://ryanrcampbell.substack.com"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -465,6 +478,12 @@ exports[`ContactPage > default snapshot 1`] = `
             href="/about"
           >
             about
+          </a>
+          <a
+            class="header-nav__link"
+            href="/ai"
+          >
+            AI
           </a>
           <a
             class="header-nav__link"
@@ -715,6 +734,13 @@ exports[`ContactPage > default snapshot 1`] = `
                   href="/about"
                 >
                   About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/ai"
+                >
+                  AI
                 </a>
               </li>
               <li>

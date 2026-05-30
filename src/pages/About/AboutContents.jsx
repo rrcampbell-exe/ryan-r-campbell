@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Quote, TextAndImage } from '../../components'
 
-export const ShortStory = ({ setIsShortStory }) =>
+export const ShortStory = ({ onSelectStory }) =>
   <div data-testid='short-story'>
     <h2>a little bit of this, a little bit of that</h2>
     <div>
@@ -11,7 +11,13 @@ export const ShortStory = ({ setIsShortStory }) =>
       <p>And, with a career spanning industries including agriculture, medical devices, regulatory affairs, and publishing, I'd be hard pressed to tell you you're wrong. But, if there's anything I've learned in my travels—both physical and professional—it's that to wander is wonderful, but to wander with a sense of wonder is, if you'll pardon the excessive alliteration, <em>wondrous</em>.</p>
       <p>It's in following that sense of wonder that I've been most comfortable over the years. Whether interviewing dozens (a hundred? more?) of authors and publishing professionals for <Link to='/podcasts'>the Writescast Network</Link>, immersing myself in the <Link to='/author'>writing of another manuscript</Link>, or unthreading <Link to='/#impact'>twisted tangles of code</Link>, curiosity and wonder have served me well as binary north stars.</p>
       <p>So, go on: cultivate <em>your</em> curiosity. Walk with that sense of wonder. Do some exploring of your own and learn all there is to learn.</p>
-      <p>And, if you're really up for it, consider reading <span className='story-toggle-span' onClick={() => { setIsShortStory(false); window.scrollTo(top) }}>the extended version of the story so far</span>. I think you might like what you find.</p>
+      <p>
+        And, if you're really up for it, consider reading{' '}
+        <button type='button' className='story-toggle-button' onClick={() => onSelectStory('long', true)}>
+          the extended version of the story so far
+        </button>
+        . I think you might like what you find.
+      </p>
     </div>
   </div>
 
@@ -122,7 +128,7 @@ export const LongStory = () =>
           `
             <p>Perhaps the biggest adjustment for me was my return to full-time employment outside of the home. After years of focusing on my own projects and workflows, I was thrust into the world of Jira boards and Agile development, and I learned rather quickly there are things no coding bootcamp can prepare you for.</p>
             <p>But, just as I dedicated myself to getting the absolute most out of my bootcamp experience, I embraced the challenges of my new career as well, all while finding ways to apply my skill set from publishing in the software engineering space. After only seven months as an associate engineer, my commitment to squashing security vulnerabilities, developing documentation for Kubernetes namespace migrations, and starting a company-internal podcast to improve cross-functional communication had earned me a promotion (more on what I've done in the software engineering space can be found in the "boasts" section of <a href='/#impact'>the tech hub</a>).</p>
-            <p>In my current role, I continue to complement my burgeoning technical repetoire with skills from my past by speaking at company events, representing my teams in Hackathon presentations, and writing on tech topics for the company-internal blog.</p>
+            <p>In my current role, I continue to complement my burgeoning technical repetoire with skills from my past by speaking at company events, representing my teams in Hackathon presentations, and writing on tech topics for the company-internal blog. That work now also includes a strong focus on <a href='/ai'>thoughtful AI enablement</a>: helping teams adopt AI in ways that are strategic, measurable, and genuinely useful.</p>
           `
         }
       src='/personal-photos/ryan-r-campbell-new-york-podcast.jpg'

@@ -1,6 +1,6 @@
 import GeneralLanding from '../../pages/Landing/GeneralLanding'
 import { describe, expect, test } from 'vitest'
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
 
 describe('GeneralLanding', () => {
@@ -38,6 +38,19 @@ describe('GeneralLanding', () => {
     expect(hero).toBeInTheDocument()
   })
 
+  test('should reserve the hero image with intrinsic dimensions', () => {
+    render(
+      <ContextAndRouterProvider>
+        <GeneralLanding />
+      </ContextAndRouterProvider>
+    )
+
+    const heroImage = screen.getByAltText('Ryan R. Campbell — software engineer and author')
+
+    expect(heroImage).toHaveAttribute('width', '1199')
+    expect(heroImage).toHaveAttribute('height', '1312')
+  })
+
   test('should render correct number of teasers', () => {
     const { container } = render(
       <ContextAndRouterProvider>
@@ -71,5 +84,16 @@ describe('GeneralLanding', () => {
     const links = getAllByRole('link')
     const substackLink = links.find(l => l.href.includes('substack.com'))
     expect(substackLink).toBeInTheDocument()
+  })
+
+  test('should surface the AI page in navigation and content', () => {
+    render(
+      <ContextAndRouterProvider>
+        <GeneralLanding />
+      </ContextAndRouterProvider>
+    )
+
+    expect(screen.getAllByRole('link', { name: 'AI' }).length).toBeGreaterThanOrEqual(2)
+    expect(screen.getByRole('link', { name: /read my ai philosophy/i })).toHaveAttribute('href', '/ai')
   })
 })

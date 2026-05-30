@@ -454,7 +454,13 @@ exports[`AboutContents > LongStory default snapshot 1`] = `
         
             
         <p>
-          In my current role, I continue to complement my burgeoning technical repetoire with skills from my past by speaking at company events, representing my teams in Hackathon presentations, and writing on tech topics for the company-internal blog.
+          In my current role, I continue to complement my burgeoning technical repetoire with skills from my past by speaking at company events, representing my teams in Hackathon presentations, and writing on tech topics for the company-internal blog. That work now also includes a strong focus on 
+          <a
+            href="/ai"
+          >
+            thoughtful AI enablement
+          </a>
+          : helping teams adopt AI in ways that are strategic, measurable, and genuinely useful.
         </p>
         
           
@@ -555,11 +561,12 @@ exports[`AboutContents > ShortStory default snapshot 1`] = `
       </p>
       <p>
         And, if you're really up for it, consider reading 
-        <span
-          class="story-toggle-span"
+        <button
+          class="story-toggle-button"
+          type="button"
         >
           the extended version of the story so far
-        </span>
+        </button>
         . I think you might like what you find.
       </p>
     </div>

@@ -2,6 +2,7 @@
 @import './components/Header/Header.scss';
 @import './components/Footer/Footer.scss';
 @import './components/Tech/Boasts.scss';
+@import './pages/AI/AIEnablement.scss';
 @import './pages/Landing/GeneralLanding.scss';
 @import './components/Books/Books.scss';
 @import './components/Builds/Builds.scss';

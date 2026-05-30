@@ -106,6 +106,10 @@
   // Headshot — portrait frame, studio navy blends with page bg
   .gl-hero__image {
     position: relative;
+    width: 100%;
+    max-width: 360px;
+    justify-self: end;
+    aspect-ratio: 1199 / 1312;
 
     @media (max-width: 900px) {
       width: 220px;
@@ -120,8 +124,9 @@
 
   .gl-hero__photo {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
+    object-fit: cover;
     border-radius: var(--radius-xl);
     box-shadow:
       0 0 0 1px rgba(255, 255, 255, 0.06),
@@ -260,10 +265,6 @@
   }
 
   // ── CAPABILITIES ────────────────────────────────────────────────
-  .gl-capabilities {
-    // vertical padding from shared section rule
-  }
-
   .gl-capabilities__intro {
     font-family: var(--font-display);
     font-size: clamp(1.05rem, 1.8vw, 1.3rem);
@@ -285,6 +286,29 @@
     @media (max-width: 860px) {
       grid-template-columns: 1fr;
       gap: var(--space-4);
+    }
+  }
+
+  .gl-capabilities__cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-6);
+    margin-top: var(--space-8);
+    padding: var(--space-6) var(--space-8);
+    border-left: 2px solid rgba(200, 121, 65, 0.45);
+    background: rgba(255, 255, 255, 0.025);
+    border-radius: var(--radius-lg);
+
+    p {
+      margin: 0;
+      max-width: 58ch;
+      color: var(--parchment);
+    }
+
+    @media (max-width: 860px) {
+      flex-direction: column;
+      align-items: flex-start;
     }
   }
 
@@ -358,10 +382,6 @@
   }
 
   // ── PROJECTS ─────────────────────────────────────────────────────
-  .gl-projects {
-    // Builds component handles its own internal layout
-  }
-
   // ── WRITING ──────────────────────────────────────────────────────
   .gl-writing {
     // Full-bleed treatment
@@ -382,9 +402,6 @@
   }
 
   // ── CONTACT ───────────────────────────────────────────────────────
-  .gl-contact {
-    // Contact component handles its own layout
-  }
 }
 
 // ── MODAL ──────────────────────────────────────────────────────────────────

@@ -3,6 +3,8 @@ const books = [
     title: 'Scambait',
     genre: 'Contemporary Fiction | Humor',
     cover: './books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png',
+    coverWidth: 1650,
+    coverHeight: 2400,
     alt: 'Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side',
     summary: 'The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"',
     fullDescription: {
@@ -18,6 +20,8 @@ const books = [
     title: 'And Ampersand',
     genre: 'Works of Short Fiction',
     cover: './books/and-ampersand/and-ampersand-flat-cover.png',
+    coverWidth: 1800,
+    coverHeight: 2700,
     alt: 'The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively',
     summary: 'A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.',
     fullDescription: {

@@ -5,6 +5,7 @@ import { HamburgerMenu } from '../'
 const NAV_LINKS = [
   { to: '/',         label: 'home' },
   { to: '/about',    label: 'about' },
+  { to: '/ai',       label: 'AI' },
   { href: 'https://ryanrcampbell.substack.com', label: 'writing' },
   { to: '/books',    label: 'books' },
   { to: '/podcasts', label: 'archive' },

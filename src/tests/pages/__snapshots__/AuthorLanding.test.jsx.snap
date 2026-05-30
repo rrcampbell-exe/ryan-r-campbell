@@ -53,6 +53,12 @@ exports[`AuthorLanding > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
+              href="/ai"
+            >
+              AI
+            </a>
+            <a
+              class="header-nav__link"
               href="https://ryanrcampbell.substack.com"
               rel="noopener noreferrer"
               target="_blank"
@@ -246,12 +252,19 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   <div
                     class="book-container grow-on-hover"
                   >
-                    <img
-                      alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
-                      class="book-cover"
-                      data-testid="book-cover"
-                      src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
-                    />
+                    <div
+                      class="book-cover-frame"
+                      style="aspect-ratio: 1650 / 2400;"
+                    >
+                      <img
+                        alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
+                        class="book-cover"
+                        data-testid="book-cover"
+                        height="2400"
+                        src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+                        width="1650"
+                      />
+                    </div>
                     <h3
                       class="book-title"
                     >
@@ -279,12 +292,19 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   <div
                     class="book-container grow-on-hover"
                   >
-                    <img
-                      alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
-                      class="book-cover"
-                      data-testid="book-cover"
-                      src="./books/and-ampersand/and-ampersand-flat-cover.png"
-                    />
+                    <div
+                      class="book-cover-frame"
+                      style="aspect-ratio: 1800 / 2700;"
+                    >
+                      <img
+                        alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
+                        class="book-cover"
+                        data-testid="book-cover"
+                        height="2700"
+                        src="./books/and-ampersand/and-ampersand-flat-cover.png"
+                        width="1800"
+                      />
+                    </div>
                     <h3
                       class="book-title"
                     >
@@ -1478,6 +1498,13 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
+                    href="/ai"
+                  >
+                    AI
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="https://ryanrcampbell.substack.com"
                     rel="noopener noreferrer"
                     target="_blank"
@@ -1639,6 +1666,12 @@ exports[`AuthorLanding > default snapshot 1`] = `
             href="/about"
           >
             about
+          </a>
+          <a
+            class="header-nav__link"
+            href="/ai"
+          >
+            AI
           </a>
           <a
             class="header-nav__link"
@@ -1835,12 +1868,19 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 <div
                   class="book-container grow-on-hover"
                 >
-                  <img
-                    alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
-                    class="book-cover"
-                    data-testid="book-cover"
-                    src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
-                  />
+                  <div
+                    class="book-cover-frame"
+                    style="aspect-ratio: 1650 / 2400;"
+                  >
+                    <img
+                      alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
+                      class="book-cover"
+                      data-testid="book-cover"
+                      height="2400"
+                      src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+                      width="1650"
+                    />
+                  </div>
                   <h3
                     class="book-title"
                   >
@@ -1868,12 +1908,19 @@ exports[`AuthorLanding > default snapshot 1`] = `
                 <div
                   class="book-container grow-on-hover"
                 >
-                  <img
-                    alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
-                    class="book-cover"
-                    data-testid="book-cover"
-                    src="./books/and-ampersand/and-ampersand-flat-cover.png"
-                  />
+                  <div
+                    class="book-cover-frame"
+                    style="aspect-ratio: 1800 / 2700;"
+                  >
+                    <img
+                      alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
+                      class="book-cover"
+                      data-testid="book-cover"
+                      height="2700"
+                      src="./books/and-ampersand/and-ampersand-flat-cover.png"
+                      width="1800"
+                    />
+                  </div>
                   <h3
                     class="book-title"
                   >
@@ -3063,6 +3110,13 @@ exports[`AuthorLanding > default snapshot 1`] = `
                   href="/about"
                 >
                   About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/ai"
+                >
+                  AI
                 </a>
               </li>
               <li>

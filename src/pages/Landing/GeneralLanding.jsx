@@ -54,6 +54,8 @@ const GeneralLanding = ({ pageNotFound }) => {
             <img
               src='./2026-ryan-r-campbell-website-headshot.jpg'
               alt='Ryan R. Campbell — software engineer and author'
+              width='1199'
+              height='1312'
               loading='eager'              className='gl-hero__photo'            />
           </div>
         </section>
@@ -89,6 +91,13 @@ const GeneralLanding = ({ pageNotFound }) => {
                 <p>{cap.body}</p>
               </article>
             ))}
+          </div>
+          <div className='gl-capabilities__cta'>
+            <p>
+              Want the full picture? Learn more about my thoughts on AI adoption, organizational enablement,
+              and building systems that help teams use these tools well.
+            </p>
+            <Link to='/ai' className='btn-secondary'>Read my AI philosophy</Link>
           </div>
         </section>
 

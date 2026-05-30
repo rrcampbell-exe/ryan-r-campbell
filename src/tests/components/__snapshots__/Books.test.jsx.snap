@@ -19,12 +19,19 @@ exports[`Books > Books default snapshot 1`] = `
         <a
           href="/books"
         >
-          <img
-            alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
-            class="book-cover"
-            data-testid="book-cover"
-            src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
-          />
+          <div
+            class="book-cover-frame"
+            style="aspect-ratio: 1650 / 2400;"
+          >
+            <img
+              alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
+              class="book-cover"
+              data-testid="book-cover"
+              height="2400"
+              src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+              width="1650"
+            />
+          </div>
           <h3
             class="book-title"
           >
@@ -61,12 +68,19 @@ exports[`Books > Books default snapshot 1`] = `
         <a
           href="/books"
         >
-          <img
-            alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
-            class="book-cover"
-            data-testid="book-cover"
-            src="./books/and-ampersand/and-ampersand-flat-cover.png"
-          />
+          <div
+            class="book-cover-frame"
+            style="aspect-ratio: 1800 / 2700;"
+          >
+            <img
+              alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
+              class="book-cover"
+              data-testid="book-cover"
+              height="2700"
+              src="./books/and-ampersand/and-ampersand-flat-cover.png"
+              width="1800"
+            />
+          </div>
           <h3
             class="book-title"
           >
@@ -103,11 +117,6 @@ exports[`Books > Books default snapshot 1`] = `
         <a
           href="/books"
         >
-          <img
-            alt="The blue cover of the book Imminent Dawn by Ryan R. Campbell, which shows the silhouette of a woman against a backdrop of stars and circuitry"
-            class="book-cover"
-            data-testid="book-cover"
-          />
           <h3
             class="book-title"
           >
@@ -144,11 +153,6 @@ exports[`Books > Books default snapshot 1`] = `
         <a
           href="/books"
         >
-          <img
-            alt="The golden cover of the book Mourning Dove by Ryan R. Campbell, which features the silhouettes of a woman with a backpack and a cat set against a technothriller-like web of connected dots"
-            class="book-cover"
-            data-testid="book-cover"
-          />
           <h3
             class="book-title"
           >

@@ -67,6 +67,8 @@ exports[`constants should match snapshots > books 1`] = `
     "alt": "Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side",
     "buyLink": "https://www.amazon.com/dp/B09SY4P6FR",
     "cover": "./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png",
+    "coverHeight": 2400,
+    "coverWidth": 1650,
     "fullDescription": {
       "paragraphOne": "Ever since his grandma squandered the family fortune to two-bit hucksters from “Microsoft Tech Support,” corporate do-little Eric Amundsen has spent his workdays wasting the time of Nigerian princes and car warranty salesmen everywhere.",
       "paragraphTwo": "But when Eric's supposedly long-deceased father contacts him through his spam folder, Eric—whose workday mantra isn't exactly “solutions-oriented”—has serious problems to solve.",
@@ -82,6 +84,8 @@ exports[`constants should match snapshots > books 1`] = `
     "alt": "The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively",
     "buyLink": "https://www.amazon.com/dp/1736387111",
     "cover": "./books/and-ampersand/and-ampersand-flat-cover.png",
+    "coverHeight": 2700,
+    "coverWidth": 1800,
     "fullDescription": {
       "paragraphOne": "Your death comes on slowly, while elsewhere, a nameless man fakes his own. Encased in glass, a young man navigates a world meant for those beyond. A mudslide washes away a once romantic weekend, and a childhood swim drowns all illusion of innocence.",
       "paragraphTwo": "These are but some of the tales in this collection of flash fiction, short stories, and freeform prose.",
