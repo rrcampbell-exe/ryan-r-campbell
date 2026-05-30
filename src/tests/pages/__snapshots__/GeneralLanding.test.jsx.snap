@@ -53,6 +53,12 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
+              href="/resume"
+            >
+              resume
+            </a>
+            <a
+              class="header-nav__link"
               href="/ai"
             >
               AI
@@ -731,9 +737,9 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="build-tile__logo-wrap"
                 >
                   <img
-                    alt="The cartoon cat Yarnsworth grins mischieviously"
+                    alt="The logo for Catbird Games"
                     class="build-tile__logo"
-                    src="./builds/yarnsworths-tales-app-logo.png"
+                    src="./builds/catbird-games-gradient-logo.png"
                   />
                 </div>
                 <div
@@ -742,22 +748,22 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <h3
                     class="build-tile__title"
                   >
-                    Yarnsworth's Tales
+                    Catbird Games
                   </h3>
                   <p
                     class="build-tile__teaser"
                   >
-                    Trillions of tales await.
+                    Just a little hard to put down.
                   </p>
                   <p
                     class="build-tile__desc"
                   >
-                    This storyline generator for fantasy tabletop roleplaying games inspires players at every stage of gameplay.
+                    Catbird Games is an indie game development studio owned and operated by Ryan R. Campbell.
                   </p>
                   <p
                     class="build-tile__tech"
                   >
-                    HTML, JavaScript, CSS, Bootstrap
+                    React 19, TypeScript, Vite, Vitest, ESLint, Vercel
                   </p>
                 </div>
                 <div
@@ -765,15 +771,15 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 >
                   <a
                     class="build-tile__link"
-                    href="https://rrcampbell-exe.github.io/yarnsworths-tales/"
+                    href="https://catbirdgames.com/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    explore the generator
+                    join the fun
                   </a>
                   <a
                     class="build-tile__link build-tile__link--gh"
-                    href="https://github.com/rrcampbell-exe/yarnsworths-tales"
+                    href="https://github.com/rrcampbell-exe/catbird-games"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -789,9 +795,9 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="build-tile__logo-wrap"
                 >
                   <img
-                    alt="A piece of paper with a folded corner and a lower-case letter I"
+                    alt="A winter driveway at The Druids Den"
                     class="build-tile__logo"
-                    src="./builds/file-info-svgrepo-com.png"
+                    src="./builds/druids-den-winter-driveway.jpg"
                   />
                 </div>
                 <div
@@ -800,34 +806,34 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <h3
                     class="build-tile__title"
                   >
-                    README Generator
+                    The Druids Den
                   </h3>
                   <p
                     class="build-tile__teaser"
                   >
-                    Make READMEs users will actually read.
+                    A northwoods Wisconsin escape.
                   </p>
                   <p
                     class="build-tile__desc"
                   >
-                    This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!
+                    Nestled on 5½ private acres in the heart of Wisconsin's northwoods, the Druids Den offers a unique woodlands experience for those seeking relaxation and adventure alike.
                   </p>
                   <p
                     class="build-tile__tech"
                   >
-                    Node, Inquirer, fs, JavaScript, ESM
+                    React 19, React Router 7, Vite, Vercel Serverless Functions, PostgreSQL, Prisma, Clerk, Vitest, Testing Library, Resend
                   </p>
                 </div>
                 <div
                   class="build-tile__links"
                 >
                   <a
-                    class="build-tile__link build-tile__link--gh"
-                    href="https://github.com/rrcampbell-exe/readme-generator"
+                    class="build-tile__link"
+                    href="https://druidsdenwi.com/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    GitHub
+                    explore the retreat
                   </a>
                 </div>
               </article>
@@ -841,7 +847,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                View all on GitHub
+                View more on GitHub
               </a>
             </div>
           </section>
@@ -1065,6 +1071,13 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
+                    href="/resume"
+                  >
+                    Resume
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="/ai"
                   >
                     AI
@@ -1236,6 +1249,12 @@ exports[`GeneralLanding > default snapshot 1`] = `
             href="/about"
           >
             about
+          </a>
+          <a
+            class="header-nav__link"
+            href="/resume"
+          >
+            resume
           </a>
           <a
             class="header-nav__link"
@@ -1917,9 +1936,9 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="build-tile__logo-wrap"
               >
                 <img
-                  alt="The cartoon cat Yarnsworth grins mischieviously"
+                  alt="The logo for Catbird Games"
                   class="build-tile__logo"
-                  src="./builds/yarnsworths-tales-app-logo.png"
+                  src="./builds/catbird-games-gradient-logo.png"
                 />
               </div>
               <div
@@ -1928,22 +1947,22 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <h3
                   class="build-tile__title"
                 >
-                  Yarnsworth's Tales
+                  Catbird Games
                 </h3>
                 <p
                   class="build-tile__teaser"
                 >
-                  Trillions of tales await.
+                  Just a little hard to put down.
                 </p>
                 <p
                   class="build-tile__desc"
                 >
-                  This storyline generator for fantasy tabletop roleplaying games inspires players at every stage of gameplay.
+                  Catbird Games is an indie game development studio owned and operated by Ryan R. Campbell.
                 </p>
                 <p
                   class="build-tile__tech"
                 >
-                  HTML, JavaScript, CSS, Bootstrap
+                  React 19, TypeScript, Vite, Vitest, ESLint, Vercel
                 </p>
               </div>
               <div
@@ -1951,15 +1970,15 @@ exports[`GeneralLanding > default snapshot 1`] = `
               >
                 <a
                   class="build-tile__link"
-                  href="https://rrcampbell-exe.github.io/yarnsworths-tales/"
+                  href="https://catbirdgames.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  explore the generator
+                  join the fun
                 </a>
                 <a
                   class="build-tile__link build-tile__link--gh"
-                  href="https://github.com/rrcampbell-exe/yarnsworths-tales"
+                  href="https://github.com/rrcampbell-exe/catbird-games"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -1975,9 +1994,9 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="build-tile__logo-wrap"
               >
                 <img
-                  alt="A piece of paper with a folded corner and a lower-case letter I"
+                  alt="A winter driveway at The Druids Den"
                   class="build-tile__logo"
-                  src="./builds/file-info-svgrepo-com.png"
+                  src="./builds/druids-den-winter-driveway.jpg"
                 />
               </div>
               <div
@@ -1986,34 +2005,34 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <h3
                   class="build-tile__title"
                 >
-                  README Generator
+                  The Druids Den
                 </h3>
                 <p
                   class="build-tile__teaser"
                 >
-                  Make READMEs users will actually read.
+                  A northwoods Wisconsin escape.
                 </p>
                 <p
                   class="build-tile__desc"
                 >
-                  This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!
+                  Nestled on 5½ private acres in the heart of Wisconsin's northwoods, the Druids Den offers a unique woodlands experience for those seeking relaxation and adventure alike.
                 </p>
                 <p
                   class="build-tile__tech"
                 >
-                  Node, Inquirer, fs, JavaScript, ESM
+                  React 19, React Router 7, Vite, Vercel Serverless Functions, PostgreSQL, Prisma, Clerk, Vitest, Testing Library, Resend
                 </p>
               </div>
               <div
                 class="build-tile__links"
               >
                 <a
-                  class="build-tile__link build-tile__link--gh"
-                  href="https://github.com/rrcampbell-exe/readme-generator"
+                  class="build-tile__link"
+                  href="https://druidsdenwi.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  GitHub
+                  explore the retreat
                 </a>
               </div>
             </article>
@@ -2027,7 +2046,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               rel="noopener noreferrer"
               target="_blank"
             >
-              View all on GitHub
+              View more on GitHub
             </a>
           </div>
         </section>
@@ -2247,6 +2266,13 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   href="/about"
                 >
                   About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/resume"
+                >
+                  Resume
                 </a>
               </li>
               <li>

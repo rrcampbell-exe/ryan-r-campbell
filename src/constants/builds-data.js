@@ -21,24 +21,25 @@ const builds = [
     linkText: 'play the game',
   },
   {
-    logo: './builds/yarnsworths-tales-app-logo.png',
-    alt: 'The cartoon cat Yarnsworth grins mischieviously',
-    title: 'Yarnsworth\'s Tales',
-    teaser: 'Trillions of tales await.',
-    description: 'This storyline generator for fantasy tabletop roleplaying games inspires players at every stage of gameplay.',
-    technologies: 'HTML, JavaScript, CSS, Bootstrap',
-    link: 'https://rrcampbell-exe.github.io/yarnsworths-tales/',
-    linkText: 'explore the generator',
-    gitHub: 'https://github.com/rrcampbell-exe/yarnsworths-tales'
+    logo: './builds/catbird-games-gradient-logo.png',
+    alt: 'The logo for Catbird Games',
+    title: 'Catbird Games',
+    teaser: 'Just a little hard to put down.',
+    description: 'Catbird Games is an indie game development studio owned and operated by Ryan R. Campbell.',
+    technologies: 'React 19, TypeScript, Vite, Vitest, ESLint, Vercel',
+    link: 'https://catbirdgames.com/',
+    linkText: 'join the fun',
+    gitHub: 'https://github.com/rrcampbell-exe/catbird-games'
   },
   {
-    logo: './builds/file-info-svgrepo-com.png',
-    alt: 'A piece of paper with a folded corner and a lower-case letter I',
-    title: 'README Generator',
-    teaser: 'Make READMEs users will actually read.',
-    description: 'This command line interface README generator takes user-provided input and bundles it tidily for easy consumption. No formatting required!',
-    technologies: 'Node, Inquirer, fs, JavaScript, ESM',
-    gitHub: 'https://github.com/rrcampbell-exe/readme-generator'
+    logo: './builds/druids-den-winter-driveway.jpg',
+    alt: 'A winter driveway at The Druids Den',
+    title: 'The Druids Den',
+    teaser: 'A northwoods Wisconsin escape.',
+    description: 'Nestled on 5½ private acres in the heart of Wisconsin\'s northwoods, the Druids Den offers a unique woodlands experience for those seeking relaxation and adventure alike.',
+    technologies: 'React 19, React Router 7, Vite, Vercel Serverless Functions, PostgreSQL, Prisma, Clerk, Vitest, Testing Library, Resend',
+    link: 'https://druidsdenwi.com/',
+    linkText: 'explore the retreat'
   }
 ]
 

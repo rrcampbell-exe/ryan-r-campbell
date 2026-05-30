@@ -1,0 +1,391 @@
+.Resume-page {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding-bottom: var(--space-16);
+
+  section {
+    padding-top: clamp(2.5rem, 5vw, var(--space-12));
+    padding-bottom: clamp(2.5rem, 5vw, var(--space-12));
+  }
+
+  .resume-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(18rem, 0.75fr);
+    gap: clamp(var(--space-6), 4vw, var(--space-12));
+    align-items: start;
+    min-height: 48vh;
+  }
+
+  .resume-hero__copy {
+    max-width: 46rem;
+
+    h1 {
+      max-width: 12ch;
+      margin-bottom: var(--space-6);
+      font-size: clamp(3rem, 7vw, 5.2rem);
+      line-height: 0.94;
+      letter-spacing: -0.03em;
+      color: var(--cream);
+    }
+  }
+
+  .resume-hero__lede {
+    max-width: 34ch;
+    margin-bottom: var(--space-4);
+    font-size: clamp(1.08rem, 2vw, 1.28rem);
+    line-height: 1.6;
+    color: var(--parchment);
+  }
+
+  .resume-hero__body {
+    max-width: 58ch;
+    margin-bottom: 0;
+    color: var(--slate);
+  }
+
+  .resume-hero__panel,
+  .resume-card,
+  .resume-impact-card,
+  .resume-role {
+    background: rgba(255, 255, 255, 0.035);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .resume-hero__panel {
+    position: sticky;
+    top: calc(var(--space-12) + 4rem);
+    padding: var(--space-8);
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02)),
+      rgba(10, 22, 44, 0.72);
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at top right, rgba(200, 121, 65, 0.18), transparent 36%),
+        linear-gradient(180deg, transparent, rgba(8, 16, 31, 0.22));
+      pointer-events: none;
+    }
+  }
+
+  .resume-panel__eyebrow {
+    position: relative;
+    z-index: 1;
+    margin-bottom: var(--space-4);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--copper);
+  }
+
+  .resume-panel__list {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding-left: 1.1rem;
+    display: grid;
+    gap: var(--space-4);
+
+    li {
+      color: var(--parchment);
+      line-height: 1.7;
+    }
+  }
+
+  .resume-section {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .resume-section--band {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-left: calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
+    background: linear-gradient(180deg, rgba(9, 19, 35, 0.96), rgba(11, 25, 45, 0.88));
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .resume-section__heading-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1.18fr) minmax(18rem, 0.82fr);
+    gap: clamp(var(--space-4), 3.2vw, var(--space-8));
+    align-items: start;
+    margin-bottom: clamp(var(--space-6), 4vw, var(--space-8));
+
+    h2 {
+      max-width: 20ch;
+      margin-bottom: 0;
+      line-height: 1.02;
+      text-wrap: balance;
+    }
+
+    .section-label {
+      margin-bottom: var(--space-4);
+    }
+
+    > p {
+      margin-bottom: 0;
+      max-width: 44ch;
+      color: var(--parchment);
+      padding-top: 0.35rem;
+    }
+  }
+
+  .resume-competency-grid,
+  .resume-impact-grid,
+  .resume-education-grid {
+    display: grid;
+    gap: var(--space-6);
+  }
+
+  .resume-competency-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .resume-card {
+    padding: var(--space-6) var(--space-8);
+
+    h3 {
+      margin-bottom: var(--space-4);
+      color: var(--cream);
+    }
+  }
+
+  .resume-chip-list,
+  .resume-role__tags {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+
+    li {
+      border-radius: var(--radius-pill);
+      padding: 0.5rem 0.85rem;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--parchment);
+      font-size: 0.84rem;
+      line-height: 1.3;
+    }
+  }
+
+  .resume-impact-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .resume-impact-card {
+    padding: var(--space-6) var(--space-8);
+    min-height: 100%;
+  }
+
+  .resume-impact-card__value {
+    margin-bottom: var(--space-3);
+    font-family: var(--font-display);
+    font-size: clamp(1.9rem, 3vw, 2.6rem);
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    color: var(--cream);
+  }
+
+  .resume-impact-card__label {
+    margin-bottom: 0;
+    color: var(--parchment);
+    line-height: 1.6;
+  }
+
+  .resume-experience-list {
+    display: grid;
+    gap: var(--space-6);
+  }
+
+  .resume-role {
+    padding: var(--space-8);
+  }
+
+  .resume-role__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: var(--space-6);
+    margin-bottom: var(--space-4);
+
+    h3 {
+      margin-bottom: 0.35rem;
+      color: var(--cream);
+    }
+  }
+
+  .resume-role__company {
+    margin-bottom: 0;
+    color: var(--copper);
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+
+  .resume-role__meta {
+    min-width: fit-content;
+    display: grid;
+    gap: 0.35rem;
+    text-align: right;
+    color: var(--slate);
+    font-size: 0.92rem;
+  }
+
+  .resume-role__emphasis {
+    margin-bottom: var(--space-6);
+    color: var(--parchment);
+    font-size: 1rem;
+  }
+
+  .resume-role__tags {
+    margin-bottom: var(--space-6);
+  }
+
+  .resume-role__bullets,
+  .resume-detail-list {
+    margin: 0;
+    padding-left: 1.2rem;
+    display: grid;
+    gap: var(--space-3);
+
+    li {
+      color: var(--slate);
+      line-height: 1.7;
+    }
+  }
+
+  .resume-education-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media (max-width: 1100px) {
+    .resume-impact-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 900px) {
+    .resume-hero,
+    .resume-section__heading-row,
+    .resume-role__header,
+    .resume-competency-grid,
+    .resume-education-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .resume-hero {
+      min-height: auto;
+    }
+
+    .resume-hero__panel {
+      position: relative;
+      top: auto;
+    }
+
+    .resume-role__header {
+      display: grid;
+    }
+
+    .resume-role__meta {
+      text-align: left;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .resume-impact-grid,
+    .resume-competency-grid,
+    .resume-education-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media print {
+    max-width: none;
+    padding-bottom: 0;
+    color: #111;
+
+    section {
+      padding-top: 1.2rem;
+      padding-bottom: 1.2rem;
+      break-inside: avoid;
+    }
+
+    .resume-hero,
+    .resume-section__heading-row,
+    .resume-impact-grid,
+    .resume-competency-grid,
+    .resume-education-grid {
+      display: block;
+    }
+
+    .resume-hero__panel,
+    .resume-card,
+    .resume-impact-card,
+    .resume-role {
+      background: transparent;
+      color: #111;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      box-shadow: none;
+    }
+
+    .resume-hero__panel,
+    .resume-card,
+    .resume-impact-card,
+    .resume-role {
+      padding: 1rem;
+    }
+
+    .resume-section--band {
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+      background: transparent;
+      border-bottom: 0;
+    }
+
+    .resume-panel__eyebrow,
+    .resume-role__company,
+    .resume-impact-card__value,
+    .section-label,
+    h1,
+    h2,
+    h3,
+    p,
+    li,
+    span {
+      color: #111 !important;
+    }
+
+    .resume-chip-list li,
+    .resume-role__tags li {
+      background: transparent;
+      border-color: rgba(0, 0, 0, 0.14);
+    }
+
+    .resume-impact-card,
+    .resume-role,
+    .resume-card {
+      margin-bottom: 0.8rem;
+      break-inside: avoid;
+    }
+  }
+}
+
+@media print {
+  .Header,
+  .Footer,
+  .SubNav,
+  [data-testid='analytics'],
+  [data-testid='speed-insights'] {
+    display: none !important;
+  }
+}
