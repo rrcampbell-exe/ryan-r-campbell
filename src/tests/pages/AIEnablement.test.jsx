@@ -11,7 +11,7 @@ describe('AIEnablement', () => {
       </ContextAndRouterProvider>
     )
 
-    expect(screen.getByRole('heading', { name: /thoughtful ai enablement begins with judgment, not hype/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /thoughtful ai enablement begins by looking inward/i })).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /how organizations position themselves to benefit from ai/i })).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /what good enablement looks like day to day/i })).toBeInTheDocument()
   })
