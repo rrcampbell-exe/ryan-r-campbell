@@ -3,7 +3,7 @@ import { PageWrapper, Contact } from '../../components'
 
 const ContactPage = () => {
   return (
-    <PageWrapper pageTitle='inquirer | inquiree' className='Contact-Page'>
+    <PageWrapper pageTitle='inquirer & inquiree' className='Contact-Page'>
       <div className='contact-container'>
         <div id='contact' className='section-wrapper'>
           <h2>contact (gmail)</h2>
