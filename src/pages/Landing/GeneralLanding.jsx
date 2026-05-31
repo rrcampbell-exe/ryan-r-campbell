@@ -14,7 +14,7 @@ const CAPABILITIES = [
   {
     id: 'ai',
     heading: 'AI Enablement & Developer Experience',
-    body: "Building the tools and content that help engineers move faster and smarter. Architected Northwestern Mutual's enterprise AI Hub — a Skills Library and MCP Registry serving 1,200+ weekly users and the author of the platform's single most-downloaded skill.",
+    body: "Building the tools and content that help engineers move faster and smarter. Architected Northwestern Mutual's enterprise AI Hub, a Skills Library and MCP Registry serving 1,200+ weekly users and the author of the platform's single most-downloaded skill.",
   },
   {
     id: 'platform',
@@ -39,7 +39,7 @@ const GeneralLanding = ({ pageNotFound }) => {
         {/* ── HERO ─────────────────────────────────────────────── */}
         <section id='about' className='gl-hero'>
           <div className='gl-hero__content'>
-            <p className='gl-hero__eyebrow'>Software Engineer · Author · AI Architect</p>
+            <p className='gl-hero__eyebrow'>Software Engineer · Author · AI Integrator</p>
             <h1 className='gl-hero__name'>Ryan R. Campbell</h1>
             <p className='gl-hero__tagline'>
               Strategic engineer driving thoughtful AI adoption, developer experience, and platform
@@ -81,7 +81,7 @@ const GeneralLanding = ({ pageNotFound }) => {
           <p className='section-label'>What I do</p>
           <p className='gl-capabilities__intro'>
             Engineering is communication — between systems, teams, and ideas. I build the technology,
-            the processes, and the people infrastructure that makes organizations move faster.
+            strengthen the processes, and establish the people infrastructure that drives that communication to meaningful results.
           </p>
           <div className='gl-capabilities__grid'>
             {CAPABILITIES.map((cap) => (
