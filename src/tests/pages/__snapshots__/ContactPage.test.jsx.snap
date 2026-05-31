@@ -31,7 +31,7 @@ exports[`ContactPage > default snapshot 1`] = `
               aria-hidden="true"
               class="page-subtitle"
             >
-              inquirer | inquiree
+              inquirer & inquiree
             </span>
           </a>
           <nav
@@ -161,98 +161,118 @@ exports[`ContactPage > default snapshot 1`] = `
           </div>
         </header>
         <div
-          class="about-container"
+          class="contact-container"
         >
-          <img
-            alt="Ryan R. Campbell in front of a blurry bookshelf"
-            class="feature-img"
-            src="./ryan-r-campbell-bookshelf-background.jpg"
-          />
-        </div>
-        <div
-          class="section-wrapper contact-container"
-          id="contact"
-        >
-          <h2>
-            contact (gmail)
-          </h2>
           <div
-            class="Contact"
+            class="section-wrapper"
+            id="contact"
           >
-            <h3>
-              tech inquiries
-            </h3>
-            <p>
-              campbell.ryan.r
-            </p>
-            <h3>
-              author inquiries
-            </h3>
-            <p>
-              rrcampbellwrites
-            </p>
-            <h3>
-              subscribe
-            </h3>
-            <a
-              class="subscription-link"
-              href="https://ryanrcampbell.substack.com/subscribe"
-              rel="noopener"
-              target="_blank"
+            <h2>
+              contact (gmail)
+            </h2>
+            <div
+              class="Contact"
             >
-              <p>
-                subscribe on Substack 
-                <svg
-                  class="external-link-svg"
-                  fill="transparent"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
+              <div
+                class="contact-option"
+              >
+                <h3>
+                  tech inquiries
+                </h3>
+                <p>
+                  campbell.ryan.r
+                </p>
+              </div>
+              <div
+                class="contact-option"
+              >
+                <h3>
+                  author inquiries
+                </h3>
+                <p>
+                  rrcampbellwrites
+                </p>
+              </div>
+              <div
+                class="contact-option"
+              >
+                <h3>
+                  subscribe
+                </h3>
+                <a
+                  class="subscription-link"
+                  href="https://ryanrcampbell.substack.com/subscribe"
+                  rel="noopener"
+                  target="_blank"
                 >
-                  <g
-                    id="Interface / External_Link"
-                  >
-                    <path
-                      d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
-                      id="Vector"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                    />
-                  </g>
-                </svg>
-              </p>
-            </a>
-            <h3>
-              connect
-            </h3>
-            <a
-              class="subscription-link"
-              href="https://www.linkedin.com/in/ryan-r-campbell/"
-              rel="noopener"
-              target="_blank"
-            >
-              <p>
-                connect on LinkedIn 
-                <svg
-                  class="external-link-svg"
-                  fill="transparent"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
+                  <p>
+                    Subscribe on Substack 
+                    <svg
+                      class="external-link-svg"
+                      fill="transparent"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        id="Interface / External_Link"
+                      >
+                        <path
+                          d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                          id="Vector"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                        />
+                      </g>
+                    </svg>
+                  </p>
+                </a>
+              </div>
+              <div
+                class="contact-option"
+              >
+                <h3>
+                  connect
+                </h3>
+                <a
+                  class="subscription-link"
+                  href="https://www.linkedin.com/in/ryan-r-campbell/"
+                  rel="noopener"
+                  target="_blank"
                 >
-                  <g
-                    id="Interface / External_Link"
-                  >
-                    <path
-                      d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
-                      id="Vector"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                    />
-                  </g>
-                </svg>
-              </p>
-            </a>
+                  <p>
+                    Connect on LinkedIn 
+                    <svg
+                      class="external-link-svg"
+                      fill="transparent"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        id="Interface / External_Link"
+                      >
+                        <path
+                          d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                          id="Vector"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                        />
+                      </g>
+                    </svg>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="section-wrapper"
+          >
+            <img
+              alt="Ryan R. Campbell in front of a blurry bookshelf"
+              class="contact-photo"
+              src="./ryan-r-campbell-bookshelf-background.jpg"
+            />
           </div>
         </div>
         <div
@@ -472,7 +492,7 @@ exports[`ContactPage > default snapshot 1`] = `
             aria-hidden="true"
             class="page-subtitle"
           >
-            inquirer | inquiree
+            inquirer & inquiree
           </span>
         </a>
         <nav
@@ -602,98 +622,118 @@ exports[`ContactPage > default snapshot 1`] = `
         </div>
       </header>
       <div
-        class="about-container"
+        class="contact-container"
       >
-        <img
-          alt="Ryan R. Campbell in front of a blurry bookshelf"
-          class="feature-img"
-          src="./ryan-r-campbell-bookshelf-background.jpg"
-        />
-      </div>
-      <div
-        class="section-wrapper contact-container"
-        id="contact"
-      >
-        <h2>
-          contact (gmail)
-        </h2>
         <div
-          class="Contact"
+          class="section-wrapper"
+          id="contact"
         >
-          <h3>
-            tech inquiries
-          </h3>
-          <p>
-            campbell.ryan.r
-          </p>
-          <h3>
-            author inquiries
-          </h3>
-          <p>
-            rrcampbellwrites
-          </p>
-          <h3>
-            subscribe
-          </h3>
-          <a
-            class="subscription-link"
-            href="https://ryanrcampbell.substack.com/subscribe"
-            rel="noopener"
-            target="_blank"
+          <h2>
+            contact (gmail)
+          </h2>
+          <div
+            class="Contact"
           >
-            <p>
-              subscribe on Substack 
-              <svg
-                class="external-link-svg"
-                fill="transparent"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
+            <div
+              class="contact-option"
+            >
+              <h3>
+                tech inquiries
+              </h3>
+              <p>
+                campbell.ryan.r
+              </p>
+            </div>
+            <div
+              class="contact-option"
+            >
+              <h3>
+                author inquiries
+              </h3>
+              <p>
+                rrcampbellwrites
+              </p>
+            </div>
+            <div
+              class="contact-option"
+            >
+              <h3>
+                subscribe
+              </h3>
+              <a
+                class="subscription-link"
+                href="https://ryanrcampbell.substack.com/subscribe"
+                rel="noopener"
+                target="_blank"
               >
-                <g
-                  id="Interface / External_Link"
-                >
-                  <path
-                    d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
-                    id="Vector"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                  />
-                </g>
-              </svg>
-            </p>
-          </a>
-          <h3>
-            connect
-          </h3>
-          <a
-            class="subscription-link"
-            href="https://www.linkedin.com/in/ryan-r-campbell/"
-            rel="noopener"
-            target="_blank"
-          >
-            <p>
-              connect on LinkedIn 
-              <svg
-                class="external-link-svg"
-                fill="transparent"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
+                <p>
+                  Subscribe on Substack 
+                  <svg
+                    class="external-link-svg"
+                    fill="transparent"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      id="Interface / External_Link"
+                    >
+                      <path
+                        d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                        id="Vector"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </g>
+                  </svg>
+                </p>
+              </a>
+            </div>
+            <div
+              class="contact-option"
+            >
+              <h3>
+                connect
+              </h3>
+              <a
+                class="subscription-link"
+                href="https://www.linkedin.com/in/ryan-r-campbell/"
+                rel="noopener"
+                target="_blank"
               >
-                <g
-                  id="Interface / External_Link"
-                >
-                  <path
-                    d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
-                    id="Vector"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                  />
-                </g>
-              </svg>
-            </p>
-          </a>
+                <p>
+                  Connect on LinkedIn 
+                  <svg
+                    class="external-link-svg"
+                    fill="transparent"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      id="Interface / External_Link"
+                    >
+                      <path
+                        d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                        id="Vector"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </g>
+                  </svg>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="section-wrapper"
+        >
+          <img
+            alt="Ryan R. Campbell in front of a blurry bookshelf"
+            class="contact-photo"
+            src="./ryan-r-campbell-bookshelf-background.jpg"
+          />
         </div>
       </div>
       <div
