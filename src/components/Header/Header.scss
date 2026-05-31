@@ -23,6 +23,7 @@
     text-decoration: none;
     color: inherit;
     transition: opacity var(--fast);
+    margin-right: var(--space-4);
 
     &:hover {
       opacity: 0.8;
@@ -73,7 +74,7 @@
     margin-left: auto;
     margin-right: var(--space-8);
 
-    @media (max-width: 860px) {
+    @media (max-width: 900px) {
       display: none;
     }
   }
@@ -116,7 +117,7 @@
 }
 
 // Hamburger only needed on mobile when desktop nav is visible
-@media (min-width: 861px) {
+@media (min-width: 901px) {
   .Hamburger-menu {
     display: none;
   }
