@@ -39,11 +39,11 @@ const GeneralAbout = () => {
             <p className='section-label'>About</p>
             <h1>the story so far</h1>
             <p className='about-hero__lede'>
-              A career built on curiosity, reinvention, and a stubborn refusal to limit myself to one lane.
+              A career built on curiosity, reinvention, and a refusal to remain in one lane.
             </p>
             <p className='about-hero__body'>
-              Rather than move from one title to the next, the throughline is wonder,
-              language, creative work, and engineering all braided together.
+              The throughline to my journey is wonder, language, creative work,
+              and engineering — all woven together.
             </p>
 
             <div id='tale-selection' className='about-story-selector'>

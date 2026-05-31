@@ -180,12 +180,12 @@ exports[`GeneralAbout > default snapshot 1`] = `
               <p
                 class="about-hero__lede"
               >
-                A career built on curiosity, reinvention, and a stubborn refusal to limit myself to one lane.
+                A career built on curiosity, reinvention, and a refusal to remain in one lane.
               </p>
               <p
                 class="about-hero__body"
               >
-                Rather than move from one title to the next, the throughline is wonder, language, creative work, and engineering all braided together.
+                The throughline to my journey is wonder, language, creative work, and engineering — all woven together.
               </p>
               <div
                 class="about-story-selector"
@@ -602,12 +602,12 @@ exports[`GeneralAbout > default snapshot 1`] = `
             <p
               class="about-hero__lede"
             >
-              A career built on curiosity, reinvention, and a stubborn refusal to limit myself to one lane.
+              A career built on curiosity, reinvention, and a refusal to remain in one lane.
             </p>
             <p
               class="about-hero__body"
             >
-              Rather than move from one title to the next, the throughline is wonder, language, creative work, and engineering all braided together.
+              The throughline to my journey is wonder, language, creative work, and engineering — all woven together.
             </p>
             <div
               class="about-story-selector"

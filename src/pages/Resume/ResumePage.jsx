@@ -22,11 +22,11 @@ const ResumePage = () => {
             <h1>Leader. Engineer.
             </h1>
             <p className='resume-hero__lede'>
-              10+ years building scalable web platforms, developer enablement systems, and AI-assisted engineering workflows.
+              10+ years of experience delivering cross-functional technical, operational, and creative solutions in enterprise software, entrepreneurship, and publishing.
             </p>
             <p className='resume-hero__body'>
-              Proven track record driving enterprise AI adoption, standardizing engineering practices, and delivering
-              cross-functional technical initiatives spanning frontend architecture, developer experience, and platform enablement.
+              Proven track record of driving enterprise AI adoption, standardizing engineering practices, and delivering
+              technical initiatives spanning frontend architecture, developer experience, and platform enablement.
             </p>
           </div>
 

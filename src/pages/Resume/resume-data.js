@@ -57,7 +57,7 @@ export const EXPERIENCE = [
     bullets: [
       'Helped design and launch the enterprise AI Hub, including the NM Skills Library and MCP Registry, to support scalable AI adoption and developer enablement across engineering organizations.',
       'Authored the organization\'s most-downloaded AI skill, contributing more than 15% of platform downloads shortly after launch.',
-      'Developed AI-assisted code review and unit testing workflows that improved engineering consistency and accelerated SDLC practices.',
+      'Developed AI-assisted code review, unit testing, and feature flag removal workflows that improved engineering consistency and accelerated SDLC practices.',
       'Presented AI-assisted software engineering workflows and developer tooling concepts to CEO and other executive leadership.',
       'Led qualitative AI adoption research across engineering teams and translated findings into leadership-facing recommendations for future enablement strategy.',
       'Created reusable React component architecture adopted across more than a dozen microapplications and modernized client-facing experiences toward federated GraphQL and static application patterns.',
