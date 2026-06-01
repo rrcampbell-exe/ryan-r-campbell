@@ -1,6 +1,6 @@
 import React from 'react'
 import { SubNav, Reviews, PageWrapper } from '../../components'
-import { books } from '../../constants'
+import { books, featuredIn, awards } from '../../constants'
 import Tilt from 'react-parallax-tilt'
 import { useScrollToHash } from '../../hooks'
 
@@ -9,7 +9,7 @@ const BooksLanding = () => {
 
   return (
     <PageWrapper pageTitle='international book awards finalist'>
-      <SubNav sections={['scambait', 'and-ampersand', 'imminent-dawn', 'mourning-dove']} />
+      <SubNav sections={['scambait', 'and-ampersand', 'imminent-dawn', 'mourning-dove', 'featured-in', 'awards']} />
       <main className='Books-landing'>
         {books.map((book, index) => (
           <div key={index}>
@@ -56,6 +56,30 @@ const BooksLanding = () => {
             <Reviews selectReviews bookIdToDisplay={book.id} shadowBg id='reviews' />
           </div>
         ))}
+        <div id='featured-in' className='section-wrapper'>
+          <h2>featured in</h2>
+          <div className='featured-img-container'>
+            {featuredIn.map((feature) => (
+              <div className={`featured-img ${feature.className} grow-on-hover`} key={feature.alt}>
+                <a data-testid={feature.link} href={feature.link} target='_blank' rel='noopener noreferrer'>
+                  <img src={feature.src} alt={feature.alt}/>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div id='awards' className='section-wrapper section-band'>
+          <h2>awards</h2>
+          <div className='featured-img-container'>
+            {awards.map((award) => (
+              <div className={`featured-img ${award.className} grow-on-hover`} key={award.alt}>
+                <a data-testid={award.link} href={award.link} target='_blank' rel='noopener noreferrer'>
+                  <img src={award.src} alt={award.alt}/>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
       </main>
     </PageWrapper>
   )

@@ -66,9 +66,9 @@ const AIEnablement = () => {
               decisions, reduce waste, and help people do higher-leverage work—not to chase trends or check boxes. 
             </p>
             <p className='ai-lead'>
-              This requires more than tools. It requires strategy, trust, workflow design, and a culture willing to learn in
-              public. When done well, AI becomes a force multiplier for technical craft and organizational clarity. When done poorly, it
-              becomes an accelerant for confusion, poor process, and cultural rot.
+              This requires more than tools. It requires strategy, trust, workflow design, and a culture of
+              public learning. When done well, AI becomes a force multiplier for technical craft and organizational clarity. When done poorly, it
+              becomes an accelerant for confusion, poor processes, and cultural disintegration.
             </p>
           </div>
 
