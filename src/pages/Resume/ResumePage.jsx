@@ -14,7 +14,7 @@ const ResumePage = () => {
 
   return (
     <PageWrapper pageTitle='resume'>
-      <SubNav sections={['competencies', 'selected-impact', 'experience', 'education']} />
+      <SubNav sections={['competencies', 'selected-impact', 'experience', 'education', 'get-in-touch']} />
       <main className='Resume-page'>
         <section className='resume-hero'>
           <div className='resume-hero__copy'>
@@ -47,7 +47,7 @@ const ResumePage = () => {
               <h2>Built for teams that need technical depth, practical AI fluency, and organizational range.</h2>
             </div>
             <p>
-              Strongest in React, TypeScript, GraphQL, Kubernetes, and modern DevOps ecosystems, with a sustained focus on
+              Strongest in React, TypeScript, GraphQL, AI enablement, and modern DevOps ecosystems, with a sustained focus on
               engineering productivity, leadership communication, and durable platform systems.
             </p>
           </div>
@@ -159,6 +159,19 @@ const ResumePage = () => {
                 ))}
               </ul>
             </article>
+          </div>
+        </section>
+
+        <section id='get-in-touch' className='resume-section get-in-touch'>
+          <div>
+            <p className='section-label'>Get in touch</p>
+            <h2>I'm open to conversations about software engineering leadership, AI enablement, and platform delivery.</h2>
+          </div>
+          <div>
+            <p>If you think there might be a fit, please reach out. I'm happy to share more about my experience, approach, and perspective.</p>
+            <button onClick={() => window.open('https://www.linkedin.com/in/ryan-r-campbell/', '_blank')}>
+              Contact me on LinkedIn
+            </button>
           </div>
         </section>
       </main>
