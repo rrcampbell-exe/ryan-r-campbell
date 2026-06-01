@@ -199,6 +199,24 @@ exports[`BooksLanding > default snapshot 1`] = `
               mourning dove
             </a>
           </div>
+          <div
+            class="section"
+          >
+            <a
+              href="#features"
+            >
+              features
+            </a>
+          </div>
+          <div
+            class="section"
+          >
+            <a
+              href="#awards"
+            >
+              awards
+            </a>
+          </div>
         </nav>
         <main
           class="Books-landing"
@@ -1337,6 +1355,210 @@ exports[`BooksLanding > default snapshot 1`] = `
               </div>
             </div>
           </div>
+          <div
+            class="section-wrapper"
+            id="featured-in"
+          >
+            <h2>
+              featured in
+            </h2>
+            <div
+              class="featured-img-container"
+            >
+              <div
+                class="featured-img dark grow-on-hover"
+              >
+                <a
+                  data-testid="https://isthmus.com/arts/books/rr-campbell-imminent-dawn/"
+                  href="https://isthmus.com/arts/books/rr-campbell-imminent-dawn/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The all-capital-letters logo for Isthmus, a publication from Madison, Wisconsin"
+                    src="./featured-in/isthmus-logo.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img dark grow-on-hover"
+              >
+                <a
+                  data-testid="https://getcareerclarity.com/episode95/"
+                  href="https://getcareerclarity.com/episode95/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for the Career Clarity podcast, including the words lucrative, soulful, and joyful"
+                    src="./featured-in/Career-Clarity-Logo.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img  grow-on-hover"
+              >
+                <a
+                  data-testid="https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/"
+                  href="https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for The Lifelong Learner, news from UW-Madison's Continuing Studies department"
+                    src="./featured-in/Lifelong-Learner-Logo-UW.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img light grow-on-hover"
+              >
+                <a
+                  data-testid="https://ryanrcampbell.com/podcasts/"
+                  href="https://ryanrcampbell.com/podcasts/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for the Writescast Network, featuring a pencil, a microphone, and books"
+                    src="./featured-in/The-Writescast-Network-Logo-No-Icons.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img minify grow-on-hover"
+              >
+                <a
+                  data-testid="http://www.wrotepodcast.com/tag/r-r-campbell/"
+                  href="http://www.wrotepodcast.com/tag/r-r-campbell/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for the WROTE podcast, which features each letter of the word in large text"
+                    src="./featured-in/Wrote-Podcast-Logo.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img  grow-on-hover"
+              >
+                <a
+                  data-testid="https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html"
+                  href="https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for the Columbus Journal, which is based out of Columbus, Wisconsin"
+                    src="./featured-in/Columbus-Journal-Logo.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img dark grow-on-hover"
+              >
+                <a
+                  data-testid="https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/"
+                  href="https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for Appleton Monthly, a print magazine from Wisconsin's Fox Valley"
+                    src="./featured-in/Appleton-Monthly-Logo.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img minify grow-on-hover"
+              >
+                <a
+                  data-testid="https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa"
+                  href="https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for the Neurotic Nourishment podcast, which shows host Lindsay Weisner laughing"
+                    src="./featured-in/Neurotic-Nourishment-Logo.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img light grow-on-hover"
+              >
+                <a
+                  data-testid="https://bootcamp.wisconsin.edu/blog/from-publishing-to-web-development-how-ryan-campbell-upskilled-to-land-a-new-career/"
+                  href="https://bootcamp.wisconsin.edu/blog/from-publishing-to-web-development-how-ryan-campbell-upskilled-to-land-a-new-career/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for University of Wisconsin Boot Camps"
+                    src="./featured-in/Wisconsin-Boot-Camps-Logo.png"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="section-wrapper section-band"
+            id="awards"
+          >
+            <h2>
+              awards
+            </h2>
+            <div
+              class="featured-img-container"
+            >
+              <div
+                class="featured-img light award grow-on-hover"
+              >
+                <a
+                  data-testid="https://www.internationalbookawards.com/2022pressrelease.html"
+                  href="https://www.internationalbookawards.com/2022pressrelease.html"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="A wreath containing the words International Book Awards Finalist - 2022 | Humor & Satire"
+                    src="./awards/2022-international-book-awards-finalist-humor-and-satire.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img award grow-on-hover"
+              >
+                <a
+                  data-testid="https://readersfavorite.com/book-review/scambait"
+                  href="https://readersfavorite.com/book-review/scambait"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="The logo for the Readers' Favorite Five Stars award, which is a silver medallion that features five stars"
+                    src="./awards/readers-favorite-five-stars.png"
+                  />
+                </a>
+              </div>
+              <div
+                class="featured-img light award grow-on-hover"
+              >
+                <a
+                  data-testid="https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/"
+                  href="https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="A wreath containing the words International Book Awards Finalist - 2020 | Science Fiction"
+                    src="./awards/2020-international-book-awards-finalist-science-fiction.png"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
         </main>
         <div
           data-testid="analytics"
@@ -1721,6 +1943,24 @@ exports[`BooksLanding > default snapshot 1`] = `
             href="#mourning-dove"
           >
             mourning dove
+          </a>
+        </div>
+        <div
+          class="section"
+        >
+          <a
+            href="#features"
+          >
+            features
+          </a>
+        </div>
+        <div
+          class="section"
+        >
+          <a
+            href="#awards"
+          >
+            awards
           </a>
         </div>
       </nav>
@@ -2858,6 +3098,210 @@ exports[`BooksLanding > default snapshot 1`] = `
                   </span>
                 </footer>
               </blockquote>
+            </div>
+          </div>
+        </div>
+        <div
+          class="section-wrapper"
+          id="featured-in"
+        >
+          <h2>
+            featured in
+          </h2>
+          <div
+            class="featured-img-container"
+          >
+            <div
+              class="featured-img dark grow-on-hover"
+            >
+              <a
+                data-testid="https://isthmus.com/arts/books/rr-campbell-imminent-dawn/"
+                href="https://isthmus.com/arts/books/rr-campbell-imminent-dawn/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The all-capital-letters logo for Isthmus, a publication from Madison, Wisconsin"
+                  src="./featured-in/isthmus-logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img dark grow-on-hover"
+            >
+              <a
+                data-testid="https://getcareerclarity.com/episode95/"
+                href="https://getcareerclarity.com/episode95/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for the Career Clarity podcast, including the words lucrative, soulful, and joyful"
+                  src="./featured-in/Career-Clarity-Logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img  grow-on-hover"
+            >
+              <a
+                data-testid="https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/"
+                href="https://continuingstudies.wisc.edu/blog/isthmus-profiles-sci-fi-author-and-writers-institute-presenter-r-r-campbell/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for The Lifelong Learner, news from UW-Madison's Continuing Studies department"
+                  src="./featured-in/Lifelong-Learner-Logo-UW.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img light grow-on-hover"
+            >
+              <a
+                data-testid="https://ryanrcampbell.com/podcasts/"
+                href="https://ryanrcampbell.com/podcasts/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for the Writescast Network, featuring a pencil, a microphone, and books"
+                  src="./featured-in/The-Writescast-Network-Logo-No-Icons.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img minify grow-on-hover"
+            >
+              <a
+                data-testid="http://www.wrotepodcast.com/tag/r-r-campbell/"
+                href="http://www.wrotepodcast.com/tag/r-r-campbell/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for the WROTE podcast, which features each letter of the word in large text"
+                  src="./featured-in/Wrote-Podcast-Logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img  grow-on-hover"
+            >
+              <a
+                data-testid="https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html"
+                href="https://wiscnews.com/news/community/columbusjournal/news/local/columbus-books-and-beer-event-hosts-sci-fi-author-r-r-campbell/article_17aa664e-3791-57d1-b708-d69688534659.html"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for the Columbus Journal, which is based out of Columbus, Wisconsin"
+                  src="./featured-in/Columbus-Journal-Logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img dark grow-on-hover"
+            >
+              <a
+                data-testid="https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/"
+                href="https://ryanrcampbell.com/2019/08/06/appleton-monthly-features-imminent-dawn/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for Appleton Monthly, a print magazine from Wisconsin's Fox Valley"
+                  src="./featured-in/Appleton-Monthly-Logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img minify grow-on-hover"
+            >
+              <a
+                data-testid="https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa"
+                href="https://podcasters.spotify.com/pod/show/neuroticnourishment/episodes/Season-Three--Episode-1-Suicide--Silence-and-What-Comes-Next-ep0oqa"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for the Neurotic Nourishment podcast, which shows host Lindsay Weisner laughing"
+                  src="./featured-in/Neurotic-Nourishment-Logo.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img light grow-on-hover"
+            >
+              <a
+                data-testid="https://bootcamp.wisconsin.edu/blog/from-publishing-to-web-development-how-ryan-campbell-upskilled-to-land-a-new-career/"
+                href="https://bootcamp.wisconsin.edu/blog/from-publishing-to-web-development-how-ryan-campbell-upskilled-to-land-a-new-career/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for University of Wisconsin Boot Camps"
+                  src="./featured-in/Wisconsin-Boot-Camps-Logo.png"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="section-wrapper section-band"
+          id="awards"
+        >
+          <h2>
+            awards
+          </h2>
+          <div
+            class="featured-img-container"
+          >
+            <div
+              class="featured-img light award grow-on-hover"
+            >
+              <a
+                data-testid="https://www.internationalbookawards.com/2022pressrelease.html"
+                href="https://www.internationalbookawards.com/2022pressrelease.html"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="A wreath containing the words International Book Awards Finalist - 2022 | Humor & Satire"
+                  src="./awards/2022-international-book-awards-finalist-humor-and-satire.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img award grow-on-hover"
+            >
+              <a
+                data-testid="https://readersfavorite.com/book-review/scambait"
+                href="https://readersfavorite.com/book-review/scambait"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="The logo for the Readers' Favorite Five Stars award, which is a silver medallion that features five stars"
+                  src="./awards/readers-favorite-five-stars.png"
+                />
+              </a>
+            </div>
+            <div
+              class="featured-img light award grow-on-hover"
+            >
+              <a
+                data-testid="https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/"
+                href="https://ryanrcampbell.com/2020/07/23/imminent-dawn-named-as-finalist-in-2020-international-book-awards/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="A wreath containing the words International Book Awards Finalist - 2020 | Science Fiction"
+                  src="./awards/2020-international-book-awards-finalist-science-fiction.png"
+                />
+              </a>
             </div>
           </div>
         </div>

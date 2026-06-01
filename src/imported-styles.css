@@ -9,7 +9,6 @@
 @import './components/SubNav/SubNav.scss';
 @import './components/Contact/Contact.scss';
 @import './styles/ContentHub.scss';
-@import './pages/Author/AuthorLanding.scss';
 @import './components/Reviews/Reviews.scss';
 @import './pages/Books/BooksLanding.scss';
 @import './pages/Podcast/Podcast.scss';

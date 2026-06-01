@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { GeneralLanding, AuthorLanding, AIEnablement, GeneralAbout, BooksLanding, PodcastLanding, PodcastEpisode, ResumePage, ContactPage } from './pages/index.js'
+import { GeneralLanding, AIEnablement, GeneralAbout, BooksLanding, PodcastLanding, PodcastEpisode, ResumePage, ContactPage } from './pages/index.js'
 import { Navigate, BrowserRouter, Routes, Route } from 'react-router-dom'
 import { SubstackRedirect } from './components/index.js'
 import './App.css'
@@ -12,8 +12,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<GeneralLanding />} />
-          <Route path='/author/*' element={<Navigate to='/author' />} />
-          <Route path='/author' element={<AuthorLanding />} />
+          <Route path='/author/*' element={<Navigate to='/books' />} />
+          <Route path='/author' element={<BooksLanding />} />
           <Route path='/books/*' element={<Navigate to='/books' />} />
           <Route path='/books' element={<BooksLanding />} />
           <Route path='/ai' element={<AIEnablement />} />
