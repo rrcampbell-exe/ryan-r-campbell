@@ -9,7 +9,7 @@ const BooksLanding = () => {
 
   return (
     <PageWrapper pageTitle='international book awards finalist'>
-      <SubNav sections={['scambait', 'and-ampersand', 'imminent-dawn', 'mourning-dove', 'features', 'awards']} />
+      <SubNav sections={['scambait', 'and-ampersand', 'imminent-dawn', 'mourning-dove', 'featured-in', 'awards']} />
       <main className='Books-landing'>
         {books.map((book, index) => (
           <div key={index}>
