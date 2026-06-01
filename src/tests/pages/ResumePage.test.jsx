@@ -27,7 +27,7 @@ describe('ResumePage', () => {
     const subNav = container.querySelector('.SubNav')
 
     expect(subNav).toBeInTheDocument()
-    expect(subNav.children.length).toBe(4)
+    expect(subNav.children.length).toBe(5)
     expect(screen.getByText(/enterprise ai hub/i)).toBeInTheDocument()
     expect(screen.getByText(/writescast network/i)).toBeInTheDocument()
   })

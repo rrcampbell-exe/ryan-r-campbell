@@ -203,9 +203,9 @@ exports[`BooksLanding > default snapshot 1`] = `
             class="section"
           >
             <a
-              href="#features"
+              href="#featured-in"
             >
-              features
+              featured in
             </a>
           </div>
           <div
@@ -1949,9 +1949,9 @@ exports[`BooksLanding > default snapshot 1`] = `
           class="section"
         >
           <a
-            href="#features"
+            href="#featured-in"
           >
-            features
+            featured in
           </a>
         </div>
         <div
