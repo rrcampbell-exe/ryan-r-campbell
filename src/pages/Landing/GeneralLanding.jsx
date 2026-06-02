@@ -47,7 +47,7 @@ const GeneralLanding = ({ pageNotFound }) => {
             </p>
             <div className='gl-hero__ctas'>
               <a href='#impact' className='btn-primary'>See my work</a>
-              <a href='#contact' className='btn-secondary'>Get in touch</a>
+              <a href='/contact' className='btn-secondary'>Get in touch</a>
             </div>
           </div>
           <div className='gl-hero__image'>

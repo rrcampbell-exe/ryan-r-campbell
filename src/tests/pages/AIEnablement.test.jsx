@@ -26,7 +26,7 @@ describe('AIEnablement', () => {
     const subNav = container.querySelector('.SubNav')
 
     expect(subNav).toBeInTheDocument()
-    expect(subNav.children.length).toBe(5)
+    expect(subNav.children.length).toBe(6)
   })
 
   test('renders practical guidance for AI enablement', () => {

@@ -309,4 +309,32 @@
       border-radius: var(--radius-lg);
     }
   }
+
+  .get-in-touch {
+    display: flex;
+    gap: var(--space-6);
+    
+    > :last-child {
+      margin-top: var(--space-4);  
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-4);
+    }
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+
+      h2 {
+        margin-bottom: 0;
+      }
+
+      > :last-child {
+        margin-top: 0;
+
+        button {
+          width: fit-content;
+        }
+      }
+    }
+  }
 }

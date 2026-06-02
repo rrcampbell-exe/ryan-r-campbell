@@ -54,7 +54,7 @@ const AIEnablement = () => {
 
   return (
     <PageWrapper pageTitle='thoughtful AI enablement'>
-      <SubNav sections={['why-thoughtful-ai', 'core-beliefs', 'operating-model', 'in-practice', 'where-i-come-from']} />
+      <SubNav sections={['why-thoughtful-ai', 'core-beliefs', 'operating-model', 'in-practice', 'where-i-come-from', 'get-in-touch']} />
       <main className='AI-landing'>
         <section id='why-thoughtful-ai' className='ai-hero'>
           <div className='ai-hero__copy'>
@@ -169,6 +169,19 @@ const AIEnablement = () => {
                 Thoughtful AI enablement is about technical architecture, change management, and—most importantly—cultural invitation.
               </p>
             </div>
+          </div>
+        </section>
+
+        <section id='get-in-touch' className='ai-section get-in-touch'>
+          <div>
+            <p className='section-label'>Get in touch</p>
+            <h2>I'm open to conversations about software engineering leadership, AI enablement, and platform delivery.</h2>
+          </div>
+          <div>
+            <p>If you think there might be a fit, please reach out. I'm happy to share more about my experience, approach, and perspective.</p>
+            <button onClick={() => window.open('https://www.linkedin.com/in/ryan-r-campbell/', '_blank')}>
+              Contact me on LinkedIn
+            </button>
           </div>
         </section>
       </main>
