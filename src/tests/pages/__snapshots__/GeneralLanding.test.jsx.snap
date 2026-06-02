@@ -196,7 +196,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </a>
                 <a
                   class="btn-secondary"
-                  href="#contact"
+                  href="/contact"
                 >
                   Get in touch
                 </a>
@@ -1395,7 +1395,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               </a>
               <a
                 class="btn-secondary"
-                href="#contact"
+                href="/contact"
               >
                 Get in touch
               </a>
