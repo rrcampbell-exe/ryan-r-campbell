@@ -32,14 +32,14 @@ const GeneralLanding = ({ pageNotFound }) => {
   const navigate = useNavigate()
 
   return (
-    <PageWrapper pageTitle='Software Engineer & Author'>
+    <PageWrapper pageTitle='Technologist & Author'>
 
       <main className='General-landing'>
 
         {/* ── HERO ─────────────────────────────────────────────── */}
         <section id='about' className='gl-hero'>
           <div className='gl-hero__content'>
-            <p className='gl-hero__eyebrow'>Software Engineer · Author · AI Integrator</p>
+            <p className='gl-hero__eyebrow'>Technologist · Author · AI Integrator</p>
             <h1 className='gl-hero__name'>Ryan R. Campbell</h1>
             <p className='gl-hero__tagline'>
               Strategic engineer driving thoughtful AI adoption, developer experience, and platform

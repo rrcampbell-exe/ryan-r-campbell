@@ -31,7 +31,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               aria-hidden="true"
               class="page-subtitle"
             >
-              Software Engineer & Author
+              Technologist & Author
             </span>
           </a>
           <nav
@@ -173,7 +173,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               <p
                 class="gl-hero__eyebrow"
               >
-                Software Engineer · Author · AI Integrator
+                Technologist · Author · AI Integrator
               </p>
               <h1
                 class="gl-hero__name"
@@ -1230,7 +1230,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             aria-hidden="true"
             class="page-subtitle"
           >
-            Software Engineer & Author
+            Technologist & Author
           </span>
         </a>
         <nav
@@ -1372,7 +1372,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             <p
               class="gl-hero__eyebrow"
             >
-              Software Engineer · Author · AI Integrator
+              Technologist · Author · AI Integrator
             </p>
             <h1
               class="gl-hero__name"
