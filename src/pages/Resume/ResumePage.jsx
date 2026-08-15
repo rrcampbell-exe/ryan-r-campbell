@@ -21,10 +21,10 @@ const ResumePage = () => {
             <h1>Technologist. Strategist. Engineer.
             </h1>
             <p className='resume-hero__lede'>
-              Technical leader and software engineer with 15+ years of experience working across technology, experimentation, education, communication, and organizational change.
+              Technical leader and software engineer with 15+ years of experience working in fields as varied as technology, experimentation, education, communication, and international trade.
             </p>
             <p className='resume-hero__body'>
-              With a career spanning software engineering, education, publishing, entrepreneurship, and organizational change, I build systems, explore ambiguous problems, and help people make sense of complex ideas.
+              I build systems, explore ambiguous problems, and help people make sense of complex ideas across multi-disciplinary domains.
             </p>
           </div>
 
@@ -45,9 +45,9 @@ const ResumePage = () => {
               <h2>Technical depth, product thinking, and the range to move ideas from exploration through implementation.</h2>
             </div>
             <p>
-              My work connects business goals, technical systems, experiments, and the people who need to use them. AI and
-              emerging technology are important areas of expertise alongside software engineering, education, communication,
-              and program delivery.
+              My work connects business goals, technical systems, experiments, and the people who drive them. 
+              Advances in emerging technologies make my expertise in software engineering, education, communication,
+              and program delivery more critical than ever.
             </p>
           </div>
 
@@ -69,7 +69,7 @@ const ResumePage = () => {
           <div className='resume-section__heading-row'>
             <div>
               <p className='section-label'>Selected impact</p>
-              <h2>A career connecting technology, experimentation, communication, and organizational change.</h2>
+              <h2>A career connecting technology, experimentation, communication, and education.</h2>
             </div>
             <p>
               The work spans enterprise platforms, mentorship, publishing, education, and product experimentation. These

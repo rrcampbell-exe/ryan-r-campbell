@@ -13,7 +13,7 @@ describe('ResumePage', () => {
 
     expect(screen.getByRole('heading', { name: /technologist\. strategist\. engineer\./i })).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /technical depth, product thinking, and the range to move ideas from exploration through implementation./i })).toBeInTheDocument()
-    expect(screen.getByRole('heading', { name: /a career connecting technology, experimentation, communication, and organizational change./i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /a career connecting technology, experimentation, communication, and education./i })).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /language, technical practice, and learning across disciplines/i })).toBeInTheDocument()
   })
 
