@@ -45,10 +45,20 @@ describe('GeneralLanding', () => {
       </ContextAndRouterProvider>
     )
 
-    const heroImage = screen.getByAltText('Ryan R. Campbell — software engineer and author')
+    const heroImage = screen.getByAltText('Ryan R. Campbell — technical leader, software engineer, and author')
 
     expect(heroImage).toHaveAttribute('width', '1199')
     expect(heroImage).toHaveAttribute('height', '1312')
+  })
+
+  test('should link the primary work CTA to selected impact', () => {
+    render(
+      <ContextAndRouterProvider>
+        <GeneralLanding />
+      </ContextAndRouterProvider>
+    )
+
+    expect(screen.getByRole('link', { name: 'See my work' })).toHaveAttribute('href', '#impact')
   })
 
   test('should render correct number of teasers', () => {

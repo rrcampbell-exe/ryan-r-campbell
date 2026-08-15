@@ -1,4 +1,3 @@
-import React from 'react'
 import { PageWrapper, SubNav } from '../../components'
 import { useDocumentTitle, useMetaTags, useScrollToHash } from '../../hooks'
 import { AT_A_GLANCE, COMPETENCY_GROUPS, IMPACT_METRICS, EXPERIENCE, EDUCATION, CERTIFICATIONS } from './resume-data'
@@ -7,9 +6,9 @@ const ResumePage = () => {
   useDocumentTitle('Resume | Ryan R. Campbell')
   useScrollToHash()
   useMetaTags([
-    { type: 'name', name: 'description', content: 'Recruiter-friendly resume for Ryan R. Campbell, covering software engineering leadership, AI enablement, and platform delivery experience.' },
+    { type: 'name', name: 'description', content: 'Evergreen resume for Ryan R. Campbell, a technical leader and software engineer with experience across technology, education, experimentation, communication, and organizational enablement.' },
     { type: 'property', name: 'og:title', content: 'Resume | Ryan R. Campbell' },
-    { type: 'property', name: 'og:description', content: 'Senior software engineer and engineering leader with experience in AI enablement, frontend systems, and platform delivery.' },
+    { type: 'property', name: 'og:description', content: 'Technical leader and software engineer with experience across technical delivery, product thinking, education, entrepreneurship, and organizational enablement.' },
   ])
 
   return (
@@ -19,14 +18,13 @@ const ResumePage = () => {
         <section className='resume-hero'>
           <div className='resume-hero__copy'>
             <p className='section-label'>Resume</p>
-            <h1>Leader. Engineer.
+            <h1>Technologist. Strategist. Engineer.
             </h1>
             <p className='resume-hero__lede'>
-              10+ years of experience delivering cross-functional technical, operational, and creative solutions in enterprise software, entrepreneurship, and publishing.
+              Technical leader and software engineer with 15+ years of experience working across technology, experimentation, education, communication, and organizational change.
             </p>
             <p className='resume-hero__body'>
-              Proven track record of driving enterprise AI adoption, standardizing engineering practices, and delivering
-              technical initiatives spanning frontend architecture, developer experience, and platform enablement.
+              With a career spanning software engineering, education, publishing, entrepreneurship, and organizational change, I build systems, explore ambiguous problems, and help people make sense of complex ideas.
             </p>
           </div>
 
@@ -44,11 +42,12 @@ const ResumePage = () => {
           <div className='resume-section__heading-row'>
             <div>
               <p className='section-label'>Core competencies</p>
-              <h2>Built for teams that need technical depth, practical AI fluency, and organizational range.</h2>
+              <h2>Technical depth, product thinking, and the range to move ideas from exploration through implementation.</h2>
             </div>
             <p>
-              Strongest in React, TypeScript, GraphQL, AI enablement, and modern DevOps ecosystems, with a sustained focus on
-              engineering productivity, leadership communication, and durable platform systems.
+              My work connects business goals, technical systems, experiments, and the people who need to use them. AI and
+              emerging technology are important areas of expertise alongside software engineering, education, communication,
+              and program delivery.
             </p>
           </div>
 
@@ -70,10 +69,11 @@ const ResumePage = () => {
           <div className='resume-section__heading-row'>
             <div>
               <p className='section-label'>Selected impact</p>
-              <h2>Recent work has centered on scaled enablement, reusable systems, and measurable adoption.</h2>
+              <h2>A career connecting technology, experimentation, communication, and organizational change.</h2>
             </div>
             <p>
-              The most compelling outcomes combine platform usage, engineering leverage, and executive trust. These metrics are the shortest path through the work.
+              The work spans enterprise platforms, mentorship, publishing, education, and product experimentation. These
+              measures provide a quick view of the scale and variety of that work.
             </p>
           </div>
 
@@ -91,10 +91,11 @@ const ResumePage = () => {
           <div className='resume-section__heading-row'>
             <div>
               <p className='section-label'>Experience</p>
-              <h2>Roles spanning enterprise software, creative entrepreneurship, and operations design.</h2>
+              <h2>Technology, education, entrepreneurship, and operations.</h2>
             </div>
             <p>
-              The throughline is systems thinking: building products, platforms, and workflows that improve clarity, quality, and operational leverage.
+              The throughline is making complicated work clearer and more useful — building products, platforms, programs,
+              and workflows while helping the people around them adopt and improve them.
             </p>
           </div>
 
@@ -134,10 +135,11 @@ const ResumePage = () => {
           <div className='resume-section__heading-row'>
             <div>
               <p className='section-label'>Education & certifications</p>
-              <h2>Formal study in language and communication, paired with leadership and technical certification work.</h2>
+              <h2>Language, technical practice, and learning across disciplines.</h2>
             </div>
             <p>
-              That mix shows up directly in the work: translating technical systems across teams, enabling adoption, and building with both rigor and clarity.
+              That mix shows up directly in the work: translating technical systems across teams, designing learning
+              experiences, enabling adoption, and building with both rigor and clarity.
             </p>
           </div>
 
@@ -165,12 +167,12 @@ const ResumePage = () => {
         <section id='get-in-touch' className='resume-section get-in-touch'>
           <div>
             <p className='section-label'>Get in touch</p>
-            <h2>I'm open to conversations about software engineering leadership, AI enablement, and platform delivery.</h2>
+            <h2>I&apos;m interested in work that demands technical expertise, strategic thinking, and a multidisciplinary perspective.</h2>
           </div>
           <div>
-            <p>If you think there might be a fit, please reach out. I'm happy to share more about my experience, approach, and perspective.</p>
+            <p>If you think there might be a fit, please reach out. I&apos;m happy to share more about my experience, approach, and perspective.</p>
             <button onClick={() => window.open('https://www.linkedin.com/in/ryan-r-campbell/', '_blank')}>
-              Contact me on LinkedIn
+              Get in touch on LinkedIn
             </button>
           </div>
         </section>

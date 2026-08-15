@@ -2,29 +2,35 @@ import React from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { Books, Builds, BlogTeaser, PageWrapper, Boasts } from '../../components'
 import ReactModal from 'react-modal'
-import { Users, Zap, Award, BrainCircuit } from 'lucide-react'
+import PropTypes from 'prop-types'
+import { Zap, Award, BrainCircuit } from 'lucide-react'
 
 const METRICS = [
-  { value: '1,200+', label: 'Weekly views on enterprise AI Hub', icon: BrainCircuit },
+  { value: '1,500+', label: 'Weekly views on the enterprise AI Hub', icon: BrainCircuit },
   { value: 'Most Innovative', label: 'Developer Experience Hackathon', icon: Zap },
   { value: '2×', label: 'International Book Awards Finalist', icon: Award },
 ]
 
 const CAPABILITIES = [
   {
-    id: 'ai',
-    heading: 'AI Enablement & Developer Experience',
-    body: "Building the tools and content that help engineers move faster and smarter. Architected Northwestern Mutual's enterprise AI Hub, a Skills Library and MCP Registry serving 1,200+ weekly users and the author of the platform's single most-downloaded skill.",
+    id: 'technical-leadership',
+    heading: 'Technical Leadership',
+    body: "Understanding how things work and making them work better defines what I do: building software, shaping technical architecture, and leading initiatives that span systems, teams, and organizations, from enterprise platforms to emerging technologies.",
   },
   {
-    id: 'platform',
-    heading: 'Frontend Architecture & Platform',
-    body: 'React component architecture across 12+ microapps in an enterprise microfrontend ecosystem. GraphQL and Apollo Federation migration. High test coverage in complex, distributed codebases.',
+    id: 'product-experimentation',
+    heading: 'Product & Experimentation',
+    body: "I thrive in the messy space between \"something isn't working\" and \"here's a better way.\" Experimentation, feedback, prototyping, and iteration lead us to better answers, clarifying which ideas deserve attention—and which are better left behind.",
   },
   {
-    id: 'leadership',
-    heading: 'Technical Leadership & Communication',
-    body: "Only SE III selected as a mentor in engineering mentorship program. Chaired the engineering mentee engagement committee. Aspiring Leaders cohort. Presented to CEO on AI enablement impact.",
+    id: 'education-communication',
+    heading: 'Education & Communication',
+    body: "Making complicated things easier to understand has been the beating heart of my career. Whether I'm teaching, writing, publishing, designing workshops, or creating learning experiences for unique audiences, I care about clarity without flattening the complexity that makes an idea interesting.",
+  },
+  {
+    id: 'organizational-enablement',
+    heading: 'Organizational Enablement',
+    body: "Technology doesn't change organizations. People do. I help teams navigate the space between a new idea and the people who have to make it real—through mentorship, collaboration, communication, and thoughtful adoption.",
   },
 ]
 
@@ -32,28 +38,30 @@ const GeneralLanding = ({ pageNotFound }) => {
   const navigate = useNavigate()
 
   return (
-    <PageWrapper pageTitle='Technologist & Author'>
+    <PageWrapper pageTitle='Technologist, Strategist & Author'>
 
       <main className='General-landing'>
 
         {/* ── HERO ─────────────────────────────────────────────── */}
         <section id='about' className='gl-hero'>
           <div className='gl-hero__content'>
-            <p className='gl-hero__eyebrow'>Technologist · Author · AI Integrator</p>
+            <p className='gl-hero__eyebrow'>Technologist · Strategist · Author</p>
             <h1 className='gl-hero__name'>Ryan R. Campbell</h1>
             <p className='gl-hero__tagline'>
-              Strategic engineer driving thoughtful AI adoption, developer experience, and platform
-              modernization at enterprise scale — and an internationally recognized author of fiction.
+              From enabling enterprise technology and AI adoption to authoring internationally recognized 
+              fiction, my work is driven by curiosity, experimentation, and a fascination with making 
+              complex ideas easier to understand.
             </p>
             <div className='gl-hero__ctas'>
-              <a href='#impact' className='btn-primary'>See my work</a>
+              <a href='/resume' className='btn-primary'>View my resume</a>
+              <a href='#impact' className='btn-secondary'>See my work</a>
               <a href='/contact' className='btn-secondary'>Get in touch</a>
             </div>
           </div>
           <div className='gl-hero__image'>
             <img
               src='./2026-ryan-r-campbell-website-headshot.jpg'
-              alt='Ryan R. Campbell — software engineer and author'
+              alt='Ryan R. Campbell — technical leader, software engineer, and author'
               width='1199'
               height='1312'
               loading='eager'              className='gl-hero__photo'            />
@@ -80,8 +88,8 @@ const GeneralLanding = ({ pageNotFound }) => {
         <section id='capabilities' className='gl-capabilities'>
           <p className='section-label'>What I do</p>
           <p className='gl-capabilities__intro'>
-            Engineering is communication — between systems, teams, and ideas. I build the technology,
-            strengthen the processes, and establish the people infrastructure that drives that communication to meaningful results.
+            Systems, people, ideas, and possibilities — the boundaries between these blend best when connected by thoughtful communication. I build the technology, explore the 
+            questions, and create the conditions for meaningful connection between them.
           </p>
           <div className='gl-capabilities__grid'>
             {CAPABILITIES.map((cap) => (
@@ -94,8 +102,8 @@ const GeneralLanding = ({ pageNotFound }) => {
           </div>
           <div className='gl-capabilities__cta'>
             <p>
-              Want the full picture? Learn more about my thoughts on AI adoption, organizational enablement,
-              and building systems that help teams use these tools well.
+              AI has become one of the most interesting places where these threads converge. What happens when powerful technology meets real people, real organizations, and imperfect 
+              systems? The answer depends on adopting it without losing sight of good judgment, trust, or the humans doing the work.
             </p>
             <Link to='/ai' className='btn-secondary'>Read my AI philosophy</Link>
           </div>
@@ -104,6 +112,9 @@ const GeneralLanding = ({ pageNotFound }) => {
         {/* ── SELECTED IMPACT ───────────────────────────────────── */}
         <section id='impact' className='gl-impact'>
           <p className='section-label'>Selected impact</p>
+          <p className='gl-impact__intro'>
+            The work is varied. The underlying questions are often the same.
+          </p>
           <Boasts />
         </section>
 
@@ -172,3 +183,7 @@ const GeneralLanding = ({ pageNotFound }) => {
 }
 
 export default GeneralLanding
+
+GeneralLanding.propTypes = {
+  pageNotFound: PropTypes.bool,
+}

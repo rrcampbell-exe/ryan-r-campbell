@@ -48,80 +48,23 @@ exports[`Boasts > Boasts default snapshot 1`] = `
         <h3
           class="boast-row__category"
         >
-          AI Enablement & Developer Experience
+          Building & Experimentation
         </h3>
       </div>
       <ul
         class="boast-row__achievements"
       >
         <li>
-          Authored the most-downloaded skill on the enterprise AI Hub, accounting for more than 15% of all skill interactions on the platform
+          Led the definition, design, and launch of Northwestern Mutual's enterprise AI Hub, including the NM Skills Library and MCP Registry
         </li>
         <li>
-          Drove 1,200+ weekly views to the AI Hub's Skills Library and MCP Registry through architecture decisions and content strategy
+          Authored the organization's most-downloaded AI skill, contributing more than 15% of platform downloads
         </li>
         <li>
-          Presented AI enablement initiatives directly to executive leadership at Northwestern Mutual
+          Awarded "Most Innovative" in the 2024 Developer Experience Hackathon for an AI-powered application that analyzed internal Slack data
         </li>
         <li>
-          Awarded "Most Innovative" in the 2024 Developer Experience Hackathon for an AI-powered sentiment analysis application
-        </li>
-      </ul>
-    </div>
-    <div
-      class="boast-row"
-    >
-      <div
-        class="boast-row__header"
-      >
-        <div
-          aria-hidden="true"
-          class="boast-row__icon"
-        >
-          <svg
-            aria-hidden="true"
-            class="lucide lucide-layers"
-            fill="none"
-            height="24"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"
-            />
-            <path
-              d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"
-            />
-            <path
-              d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"
-            />
-          </svg>
-        </div>
-        <h3
-          class="boast-row__category"
-        >
-          Frontend Architecture & Platform
-        </h3>
-      </div>
-      <ul
-        class="boast-row__achievements"
-      >
-        <li>
-          Developed and maintained React component architecture used across 12+ microapps in a microfrontend ecosystem
-        </li>
-        <li>
-          Led GraphQL and Apollo Federation migration across enterprise platform services
-        </li>
-        <li>
-          Produced Kubernetes documentation that became the organizational standard for namespace migration onboarding
-        </li>
-        <li>
-          Finalist in 2022 Hack for Good with an augmented reality application to ease treatment for pediatric cancer patients
+          Identified customer demand for a new pizza size and redesigned dough specifications and production workflows to support three sizes
         </li>
       </ul>
     </div>
@@ -167,23 +110,77 @@ exports[`Boasts > Boasts default snapshot 1`] = `
         <h3
           class="boast-row__category"
         >
-          Leadership & Culture
+          Leading & Enabling
         </h3>
       </div>
       <ul
         class="boast-row__achievements"
       >
         <li>
-          Only Software Engineer III selected to be a mentor in Northwestern Mutual's engineering mentorship program
+          Led cross-organizational research into AI adoption and translated findings into practical implementation recommendations
         </li>
         <li>
-          Chaired the Core Enablers mentorship committee, expanding program's reach across engineering, product, and design
+          Presented enterprise innovation strategy and organizational enablement recommendations to executive leadership, including the CEO
         </li>
         <li>
-          Accepted into the Aspiring Leaders program, an invitation-only leadership development cohort
+          Served as a primary mentor for interns and junior engineers through architecture reviews, onboarding, code reviews, and career conversations
         </li>
         <li>
-          Presented at Revel in Tech and the company's internal podcast on technical craft and organizational communication
+          Co-chaired the Pathways Mentorship Program engagement committee to facilitate mentorship and talent development initiatives
+        </li>
+      </ul>
+    </div>
+    <div
+      class="boast-row"
+    >
+      <div
+        class="boast-row__header"
+      >
+        <div
+          aria-hidden="true"
+          class="boast-row__icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-book-open"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 7v14"
+            />
+            <path
+              d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"
+            />
+          </svg>
+        </div>
+        <h3
+          class="boast-row__category"
+        >
+          Teaching & Communicating
+        </h3>
+      </div>
+      <ul
+        class="boast-row__achievements"
+      >
+        <li>
+          Designed and delivered educational programming, workshops, and presentations for UW Continuing Studies, the UW Writers' Institute, and Lakefly Writers Conference
+        </li>
+        <li>
+          Built and grew the Writescast Network into a podcast platform producing 120+ episodes and reaching tens of thousands of listeners
+        </li>
+        <li>
+          Published multiple award-recognized books while managing editing, production, marketing, distribution, and operations
+        </li>
+        <li>
+          Founded and operated an independent publishing and education business, managing its strategy, technology, audience development, and day-to-day operations
         </li>
       </ul>
     </div>

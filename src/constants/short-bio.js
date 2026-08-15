@@ -1,3 +1,3 @@
-const shortBio = 'Ryan R. Campbell is a strategic software engineer and technical leader at Northwestern Mutual, where he drives AI enablement, developer experience, and frontend platform modernization at enterprise scale. He is also a two-time International Book Awards finalist and the founder of the Writescast Network.'
+const shortBio = 'Ryan R. Campbell is a technical leader and software engineer at Northwestern Mutual, where he works across enterprise platforms, experimentation, AI adoption, and organizational enablement. He is also a founder, educator, author, and podcast creator whose work spans publishing, learning, and digital media.'
 
 export default shortBio
