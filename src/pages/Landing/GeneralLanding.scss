@@ -265,7 +265,7 @@
   }
 
   // ── CAPABILITIES ────────────────────────────────────────────────
-  .gl-capabilities__intro {
+  .gl-capabilities__intro, .gl-impact__intro {
     font-family: var(--font-display);
     font-size: clamp(1.05rem, 1.8vw, 1.3rem);
     font-weight: 400;
@@ -279,7 +279,7 @@
 
   .gl-capabilities__grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: var(--space-6);
     margin-top: var(--space-6);
 

@@ -31,7 +31,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               aria-hidden="true"
               class="page-subtitle"
             >
-              Technologist & Author
+              Technologist, Strategist & Author
             </span>
           </a>
           <nav
@@ -173,7 +173,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               <p
                 class="gl-hero__eyebrow"
               >
-                Technologist · Author · AI Integrator
+                Technologist · Strategist · Author
               </p>
               <h1
                 class="gl-hero__name"
@@ -183,13 +183,19 @@ exports[`GeneralLanding > default snapshot 1`] = `
               <p
                 class="gl-hero__tagline"
               >
-                Strategic engineer driving thoughtful AI adoption, developer experience, and platform modernization at enterprise scale — and an internationally recognized author of fiction.
+                From enabling enterprise technology and AI adoption to authoring internationally recognized fiction, my work is driven by curiosity, experimentation, and a fascination with making complex ideas easier to understand.
               </p>
               <div
                 class="gl-hero__ctas"
               >
                 <a
                   class="btn-primary"
+                  href="/resume"
+                >
+                  View my resume
+                </a>
+                <a
+                  class="btn-secondary"
                   href="#impact"
                 >
                   See my work
@@ -206,7 +212,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               class="gl-hero__image"
             >
               <img
-                alt="Ryan R. Campbell — software engineer and author"
+                alt="Ryan R. Campbell — technical leader, software engineer, and author"
                 class="gl-hero__photo"
                 height="1312"
                 loading="eager"
@@ -294,12 +300,12 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <span
                   class="gl-metrics__value"
                 >
-                  1,200+
+                  1,500+
                 </span>
                 <span
                   class="gl-metrics__label"
                 >
-                  Weekly views on enterprise AI Hub
+                  Weekly views on the enterprise AI Hub
                 </span>
               </div>
             </div>
@@ -409,7 +415,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             <p
               class="gl-capabilities__intro"
             >
-              Engineering is communication — between systems, teams, and ideas. I build the technology, strengthen the processes, and establish the people infrastructure that drives that communication to meaningful results.
+              Systems, people, ideas, and possibilities — the boundaries between these blend best when connected by thoughtful communication. I build the technology, explore the questions, and create the conditions for meaningful connection between them.
             </p>
             <div
               class="gl-capabilities__grid"
@@ -422,10 +428,10 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="gl-capability-card__accent"
                 />
                 <h3>
-                  AI Enablement & Developer Experience
+                  Technical Leadership
                 </h3>
                 <p>
-                  Building the tools and content that help engineers move faster and smarter. Architected Northwestern Mutual's enterprise AI Hub, a Skills Library and MCP Registry serving 1,200+ weekly users and the author of the platform's single most-downloaded skill.
+                  Understanding how things work and making them work better defines what I do: building software, shaping technical architecture, and leading initiatives that span systems, teams, and organizations, from enterprise platforms to emerging technologies.
                 </p>
               </article>
               <article
@@ -436,10 +442,10 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="gl-capability-card__accent"
                 />
                 <h3>
-                  Frontend Architecture & Platform
+                  Product & Experimentation
                 </h3>
                 <p>
-                  React component architecture across 12+ microapps in an enterprise microfrontend ecosystem. GraphQL and Apollo Federation migration. High test coverage in complex, distributed codebases.
+                  I thrive in the messy space between "something isn't working" and "here's a better way." Experimentation, feedback, prototyping, and iteration lead us to better answers, clarifying which ideas deserve attention—and which are better left behind.
                 </p>
               </article>
               <article
@@ -450,10 +456,24 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="gl-capability-card__accent"
                 />
                 <h3>
-                  Technical Leadership & Communication
+                  Education & Communication
                 </h3>
                 <p>
-                  Only SE III selected as a mentor in engineering mentorship program. Chaired the engineering mentee engagement committee. Aspiring Leaders cohort. Presented to CEO on AI enablement impact.
+                  Making complicated things easier to understand has been the beating heart of my career. Whether I'm teaching, writing, publishing, designing workshops, or creating learning experiences for unique audiences, I care about clarity without flattening the complexity that makes an idea interesting.
+                </p>
+              </article>
+              <article
+                class="gl-capability-card"
+              >
+                <div
+                  aria-hidden="true"
+                  class="gl-capability-card__accent"
+                />
+                <h3>
+                  Organizational Enablement
+                </h3>
+                <p>
+                  Technology doesn't change organizations. People do. I help teams navigate the space between a new idea and the people who have to make it real—through mentorship, collaboration, communication, and thoughtful adoption.
                 </p>
               </article>
             </div>
@@ -461,7 +481,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               class="gl-capabilities__cta"
             >
               <p>
-                Want the full picture? Learn more about my thoughts on AI adoption, organizational enablement, and building systems that help teams use these tools well.
+                AI has become one of the most interesting places where these threads converge. What happens when powerful technology meets real people, real organizations, and imperfect systems? The answer depends on adopting it without losing sight of good judgment, trust, or the humans doing the work.
               </p>
               <a
                 class="btn-secondary"
@@ -479,6 +499,11 @@ exports[`GeneralLanding > default snapshot 1`] = `
               class="section-label"
             >
               Selected impact
+            </p>
+            <p
+              class="gl-impact__intro"
+            >
+              The work is varied. The underlying questions are often the same.
             </p>
             <div
               class="Boasts"
@@ -526,80 +551,23 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <h3
                     class="boast-row__category"
                   >
-                    AI Enablement & Developer Experience
+                    Building & Experimentation
                   </h3>
                 </div>
                 <ul
                   class="boast-row__achievements"
                 >
                   <li>
-                    Authored the most-downloaded skill on the enterprise AI Hub, accounting for more than 15% of all skill interactions on the platform
+                    Led the definition, design, and launch of Northwestern Mutual's enterprise AI Hub, including the NM Skills Library and MCP Registry
                   </li>
                   <li>
-                    Drove 1,200+ weekly views to the AI Hub's Skills Library and MCP Registry through architecture decisions and content strategy
+                    Authored the organization's most-downloaded AI skill, contributing more than 15% of platform downloads
                   </li>
                   <li>
-                    Presented AI enablement initiatives directly to executive leadership at Northwestern Mutual
+                    Awarded "Most Innovative" in the 2024 Developer Experience Hackathon for an AI-powered application that analyzed internal Slack data
                   </li>
                   <li>
-                    Awarded "Most Innovative" in the 2024 Developer Experience Hackathon for an AI-powered sentiment analysis application
-                  </li>
-                </ul>
-              </div>
-              <div
-                class="boast-row"
-              >
-                <div
-                  class="boast-row__header"
-                >
-                  <div
-                    aria-hidden="true"
-                    class="boast-row__icon"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class="lucide lucide-layers"
-                      fill="none"
-                      height="24"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"
-                      />
-                      <path
-                        d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"
-                      />
-                      <path
-                        d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"
-                      />
-                    </svg>
-                  </div>
-                  <h3
-                    class="boast-row__category"
-                  >
-                    Frontend Architecture & Platform
-                  </h3>
-                </div>
-                <ul
-                  class="boast-row__achievements"
-                >
-                  <li>
-                    Developed and maintained React component architecture used across 12+ microapps in a microfrontend ecosystem
-                  </li>
-                  <li>
-                    Led GraphQL and Apollo Federation migration across enterprise platform services
-                  </li>
-                  <li>
-                    Produced Kubernetes documentation that became the organizational standard for namespace migration onboarding
-                  </li>
-                  <li>
-                    Finalist in 2022 Hack for Good with an augmented reality application to ease treatment for pediatric cancer patients
+                    Identified customer demand for a new pizza size and redesigned dough specifications and production workflows to support three sizes
                   </li>
                 </ul>
               </div>
@@ -645,23 +613,77 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <h3
                     class="boast-row__category"
                   >
-                    Leadership & Culture
+                    Leading & Enabling
                   </h3>
                 </div>
                 <ul
                   class="boast-row__achievements"
                 >
                   <li>
-                    Only Software Engineer III selected to be a mentor in Northwestern Mutual's engineering mentorship program
+                    Led cross-organizational research into AI adoption and translated findings into practical implementation recommendations
                   </li>
                   <li>
-                    Chaired the Core Enablers mentorship committee, expanding program's reach across engineering, product, and design
+                    Presented enterprise innovation strategy and organizational enablement recommendations to executive leadership, including the CEO
                   </li>
                   <li>
-                    Accepted into the Aspiring Leaders program, an invitation-only leadership development cohort
+                    Served as a primary mentor for interns and junior engineers through architecture reviews, onboarding, code reviews, and career conversations
                   </li>
                   <li>
-                    Presented at Revel in Tech and the company's internal podcast on technical craft and organizational communication
+                    Co-chaired the Pathways Mentorship Program engagement committee to facilitate mentorship and talent development initiatives
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="boast-row"
+              >
+                <div
+                  class="boast-row__header"
+                >
+                  <div
+                    aria-hidden="true"
+                    class="boast-row__icon"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-book-open"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 7v14"
+                      />
+                      <path
+                        d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"
+                      />
+                    </svg>
+                  </div>
+                  <h3
+                    class="boast-row__category"
+                  >
+                    Teaching & Communicating
+                  </h3>
+                </div>
+                <ul
+                  class="boast-row__achievements"
+                >
+                  <li>
+                    Designed and delivered educational programming, workshops, and presentations for UW Continuing Studies, the UW Writers' Institute, and Lakefly Writers Conference
+                  </li>
+                  <li>
+                    Built and grew the Writescast Network into a podcast platform producing 120+ episodes and reaching tens of thousands of listeners
+                  </li>
+                  <li>
+                    Published multiple award-recognized books while managing editing, production, marketing, distribution, and operations
+                  </li>
+                  <li>
+                    Founded and operated an independent publishing and education business, managing its strategy, technology, audience development, and day-to-day operations
                   </li>
                 </ul>
               </div>
@@ -1230,7 +1252,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             aria-hidden="true"
             class="page-subtitle"
           >
-            Technologist & Author
+            Technologist, Strategist & Author
           </span>
         </a>
         <nav
@@ -1372,7 +1394,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             <p
               class="gl-hero__eyebrow"
             >
-              Technologist · Author · AI Integrator
+              Technologist · Strategist · Author
             </p>
             <h1
               class="gl-hero__name"
@@ -1382,13 +1404,19 @@ exports[`GeneralLanding > default snapshot 1`] = `
             <p
               class="gl-hero__tagline"
             >
-              Strategic engineer driving thoughtful AI adoption, developer experience, and platform modernization at enterprise scale — and an internationally recognized author of fiction.
+              From enabling enterprise technology and AI adoption to authoring internationally recognized fiction, my work is driven by curiosity, experimentation, and a fascination with making complex ideas easier to understand.
             </p>
             <div
               class="gl-hero__ctas"
             >
               <a
                 class="btn-primary"
+                href="/resume"
+              >
+                View my resume
+              </a>
+              <a
+                class="btn-secondary"
                 href="#impact"
               >
                 See my work
@@ -1405,7 +1433,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             class="gl-hero__image"
           >
             <img
-              alt="Ryan R. Campbell — software engineer and author"
+              alt="Ryan R. Campbell — technical leader, software engineer, and author"
               class="gl-hero__photo"
               height="1312"
               loading="eager"
@@ -1493,12 +1521,12 @@ exports[`GeneralLanding > default snapshot 1`] = `
               <span
                 class="gl-metrics__value"
               >
-                1,200+
+                1,500+
               </span>
               <span
                 class="gl-metrics__label"
               >
-                Weekly views on enterprise AI Hub
+                Weekly views on the enterprise AI Hub
               </span>
             </div>
           </div>
@@ -1608,7 +1636,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
           <p
             class="gl-capabilities__intro"
           >
-            Engineering is communication — between systems, teams, and ideas. I build the technology, strengthen the processes, and establish the people infrastructure that drives that communication to meaningful results.
+            Systems, people, ideas, and possibilities — the boundaries between these blend best when connected by thoughtful communication. I build the technology, explore the questions, and create the conditions for meaningful connection between them.
           </p>
           <div
             class="gl-capabilities__grid"
@@ -1621,10 +1649,10 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="gl-capability-card__accent"
               />
               <h3>
-                AI Enablement & Developer Experience
+                Technical Leadership
               </h3>
               <p>
-                Building the tools and content that help engineers move faster and smarter. Architected Northwestern Mutual's enterprise AI Hub, a Skills Library and MCP Registry serving 1,200+ weekly users and the author of the platform's single most-downloaded skill.
+                Understanding how things work and making them work better defines what I do: building software, shaping technical architecture, and leading initiatives that span systems, teams, and organizations, from enterprise platforms to emerging technologies.
               </p>
             </article>
             <article
@@ -1635,10 +1663,10 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="gl-capability-card__accent"
               />
               <h3>
-                Frontend Architecture & Platform
+                Product & Experimentation
               </h3>
               <p>
-                React component architecture across 12+ microapps in an enterprise microfrontend ecosystem. GraphQL and Apollo Federation migration. High test coverage in complex, distributed codebases.
+                I thrive in the messy space between "something isn't working" and "here's a better way." Experimentation, feedback, prototyping, and iteration lead us to better answers, clarifying which ideas deserve attention—and which are better left behind.
               </p>
             </article>
             <article
@@ -1649,10 +1677,24 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="gl-capability-card__accent"
               />
               <h3>
-                Technical Leadership & Communication
+                Education & Communication
               </h3>
               <p>
-                Only SE III selected as a mentor in engineering mentorship program. Chaired the engineering mentee engagement committee. Aspiring Leaders cohort. Presented to CEO on AI enablement impact.
+                Making complicated things easier to understand has been the beating heart of my career. Whether I'm teaching, writing, publishing, designing workshops, or creating learning experiences for unique audiences, I care about clarity without flattening the complexity that makes an idea interesting.
+              </p>
+            </article>
+            <article
+              class="gl-capability-card"
+            >
+              <div
+                aria-hidden="true"
+                class="gl-capability-card__accent"
+              />
+              <h3>
+                Organizational Enablement
+              </h3>
+              <p>
+                Technology doesn't change organizations. People do. I help teams navigate the space between a new idea and the people who have to make it real—through mentorship, collaboration, communication, and thoughtful adoption.
               </p>
             </article>
           </div>
@@ -1660,7 +1702,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             class="gl-capabilities__cta"
           >
             <p>
-              Want the full picture? Learn more about my thoughts on AI adoption, organizational enablement, and building systems that help teams use these tools well.
+              AI has become one of the most interesting places where these threads converge. What happens when powerful technology meets real people, real organizations, and imperfect systems? The answer depends on adopting it without losing sight of good judgment, trust, or the humans doing the work.
             </p>
             <a
               class="btn-secondary"
@@ -1678,6 +1720,11 @@ exports[`GeneralLanding > default snapshot 1`] = `
             class="section-label"
           >
             Selected impact
+          </p>
+          <p
+            class="gl-impact__intro"
+          >
+            The work is varied. The underlying questions are often the same.
           </p>
           <div
             class="Boasts"
@@ -1725,80 +1772,23 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <h3
                   class="boast-row__category"
                 >
-                  AI Enablement & Developer Experience
+                  Building & Experimentation
                 </h3>
               </div>
               <ul
                 class="boast-row__achievements"
               >
                 <li>
-                  Authored the most-downloaded skill on the enterprise AI Hub, accounting for more than 15% of all skill interactions on the platform
+                  Led the definition, design, and launch of Northwestern Mutual's enterprise AI Hub, including the NM Skills Library and MCP Registry
                 </li>
                 <li>
-                  Drove 1,200+ weekly views to the AI Hub's Skills Library and MCP Registry through architecture decisions and content strategy
+                  Authored the organization's most-downloaded AI skill, contributing more than 15% of platform downloads
                 </li>
                 <li>
-                  Presented AI enablement initiatives directly to executive leadership at Northwestern Mutual
+                  Awarded "Most Innovative" in the 2024 Developer Experience Hackathon for an AI-powered application that analyzed internal Slack data
                 </li>
                 <li>
-                  Awarded "Most Innovative" in the 2024 Developer Experience Hackathon for an AI-powered sentiment analysis application
-                </li>
-              </ul>
-            </div>
-            <div
-              class="boast-row"
-            >
-              <div
-                class="boast-row__header"
-              >
-                <div
-                  aria-hidden="true"
-                  class="boast-row__icon"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-layers"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"
-                    />
-                    <path
-                      d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"
-                    />
-                    <path
-                      d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"
-                    />
-                  </svg>
-                </div>
-                <h3
-                  class="boast-row__category"
-                >
-                  Frontend Architecture & Platform
-                </h3>
-              </div>
-              <ul
-                class="boast-row__achievements"
-              >
-                <li>
-                  Developed and maintained React component architecture used across 12+ microapps in a microfrontend ecosystem
-                </li>
-                <li>
-                  Led GraphQL and Apollo Federation migration across enterprise platform services
-                </li>
-                <li>
-                  Produced Kubernetes documentation that became the organizational standard for namespace migration onboarding
-                </li>
-                <li>
-                  Finalist in 2022 Hack for Good with an augmented reality application to ease treatment for pediatric cancer patients
+                  Identified customer demand for a new pizza size and redesigned dough specifications and production workflows to support three sizes
                 </li>
               </ul>
             </div>
@@ -1844,23 +1834,77 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <h3
                   class="boast-row__category"
                 >
-                  Leadership & Culture
+                  Leading & Enabling
                 </h3>
               </div>
               <ul
                 class="boast-row__achievements"
               >
                 <li>
-                  Only Software Engineer III selected to be a mentor in Northwestern Mutual's engineering mentorship program
+                  Led cross-organizational research into AI adoption and translated findings into practical implementation recommendations
                 </li>
                 <li>
-                  Chaired the Core Enablers mentorship committee, expanding program's reach across engineering, product, and design
+                  Presented enterprise innovation strategy and organizational enablement recommendations to executive leadership, including the CEO
                 </li>
                 <li>
-                  Accepted into the Aspiring Leaders program, an invitation-only leadership development cohort
+                  Served as a primary mentor for interns and junior engineers through architecture reviews, onboarding, code reviews, and career conversations
                 </li>
                 <li>
-                  Presented at Revel in Tech and the company's internal podcast on technical craft and organizational communication
+                  Co-chaired the Pathways Mentorship Program engagement committee to facilitate mentorship and talent development initiatives
+                </li>
+              </ul>
+            </div>
+            <div
+              class="boast-row"
+            >
+              <div
+                class="boast-row__header"
+              >
+                <div
+                  aria-hidden="true"
+                  class="boast-row__icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-book-open"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 7v14"
+                    />
+                    <path
+                      d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"
+                    />
+                  </svg>
+                </div>
+                <h3
+                  class="boast-row__category"
+                >
+                  Teaching & Communicating
+                </h3>
+              </div>
+              <ul
+                class="boast-row__achievements"
+              >
+                <li>
+                  Designed and delivered educational programming, workshops, and presentations for UW Continuing Studies, the UW Writers' Institute, and Lakefly Writers Conference
+                </li>
+                <li>
+                  Built and grew the Writescast Network into a podcast platform producing 120+ episodes and reaching tens of thousands of listeners
+                </li>
+                <li>
+                  Published multiple award-recognized books while managing editing, production, marketing, distribution, and operations
+                </li>
+                <li>
+                  Founded and operated an independent publishing and education business, managing its strategy, technology, audience development, and day-to-day operations
                 </li>
               </ul>
             </div>

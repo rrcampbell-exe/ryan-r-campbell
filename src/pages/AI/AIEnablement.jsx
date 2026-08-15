@@ -1,4 +1,3 @@
-import React from 'react'
 import { PageWrapper, SubNav } from '../../components'
 import { useDocumentTitle, useScrollToHash } from '../../hooks'
 
@@ -175,10 +174,10 @@ const AIEnablement = () => {
         <section id='get-in-touch' className='ai-section get-in-touch'>
           <div>
             <p className='section-label'>Get in touch</p>
-            <h2>I'm open to conversations about software engineering leadership, AI enablement, and platform delivery.</h2>
+            <h2>I&apos;m open to opportunities where technical expertise, product thinking, and a multidisciplinary perspective can be useful.</h2>
           </div>
           <div>
-            <p>If you think there might be a fit, please reach out. I'm happy to share more about my experience, approach, and perspective.</p>
+            <p>If you think there might be a fit, please reach out. I&apos;m happy to share more about my experience, approach, and perspective.</p>
             <button onClick={() => window.open('https://www.linkedin.com/in/ryan-r-campbell/', '_blank')}>
               Contact me on LinkedIn
             </button>
