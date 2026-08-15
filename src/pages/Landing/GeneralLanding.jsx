@@ -89,7 +89,7 @@ const GeneralLanding = ({ pageNotFound }) => {
           <p className='section-label'>What I do</p>
           <p className='gl-capabilities__intro'>
             Systems, people, ideas, and possibilities — the boundaries between these blend best when connected by thoughtful communication. I build the technology, explore the 
-            questions, and create the conditions for meaningful connection between them.
+            questions, and create the conditions for meaningful exchange across all frontiers.
           </p>
           <div className='gl-capabilities__grid'>
             {CAPABILITIES.map((cap) => (
