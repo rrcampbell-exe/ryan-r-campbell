@@ -24,8 +24,11 @@ const BlogTeaser = ({ postsQtyToDisplay, showCoverImage, postsPage, isTagSearch,
   const maxPostIndex = postsPage * teaserPostQtyToDisplay
 
   const allPosts = [...posts, ...legacyPosts]
+  const postsForTeaser = isGeneralLandingPage
+    ? allPosts.filter(post => post.slug !== 'all-blog-posts-now-on-substack')
+    : allPosts
 
-  const teaserPosts = isTagSearch ? filteredPosts.slice(0, maxPostIndex) : allPosts.slice(0, maxPostIndex)
+  const teaserPosts = isTagSearch ? filteredPosts.slice(0, maxPostIndex) : postsForTeaser.slice(0, maxPostIndex)
 
   return (
     <div className='ContentTeaser' data-testid='blog-teaser'>

@@ -26,6 +26,18 @@ describe('BlogTeaser', () => {
     const posts = container.querySelectorAll('.content-post')
     expect(posts.length).toBe(3)
   })
+  test('should show the latest posts on the general landing page', () => {
+    const expectedPosts = posts.filter(post => post.slug !== 'all-blog-posts-now-on-substack').slice(0, 2)
+    const { container } = render(
+      <ContextAndRouterProvider>
+        <BlogTeaser postsQtyToDisplay={2} postsPage={1} isGeneralLandingPage />
+      </ContextAndRouterProvider>
+    )
+
+    const teaserTitles = Array.from(container.querySelectorAll('.content-post h3')).map(title => title.textContent)
+
+    expect(teaserTitles).toEqual(expectedPosts.map(post => post.title.rendered))
+  })
   test('should display cover image when showCoverImage is true', () => {
     const { container } = render(
       <ContextAndRouterProvider>
