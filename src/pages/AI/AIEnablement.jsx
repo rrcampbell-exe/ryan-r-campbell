@@ -60,8 +60,8 @@ const AIEnablement = () => {
             <p className='section-label'>AI philosophy</p>
             <h1>Thoughtful AI enablement begins by looking inward.</h1>
             <p className='ai-lead'>
-              Organizations benefit most from AI when they treat it as a disciplined means of solving real problems,
-              not as a performance of innovation. The goal is to make better
+              Organizations benefit most from AI when they treat it as a disciplined means of solving real problems 
+              rather than a performance of innovation. The goal is to make better
               decisions, reduce waste, and help people do higher-leverage work—not to chase trends or check boxes. 
             </p>
             <p className='ai-lead'>
@@ -88,7 +88,7 @@ const AIEnablement = () => {
             <h2>My philosophy on AI is simple: Be curious. Be strategic. Be honest about what works.</h2>
             <p>
               One-off digital parlor tricks are insufficient. The real challenge is creating the conditions under
-              which teams can apply AI well, learn from the results, and iterate as needed—rather than for the sake of doing so.
+              which teams can apply AI well, learn from the results, and iterate as needed—instead of for the sake of doing so.
             </p>
           </div>
 
@@ -174,7 +174,7 @@ const AIEnablement = () => {
         <section id='get-in-touch' className='ai-section get-in-touch'>
           <div>
             <p className='section-label'>Get in touch</p>
-            <h2>I&apos;m open to opportunities where technical expertise, product thinking, and a multidisciplinary perspective can be useful.</h2>
+            <h2>I&apos;m open to opportunities where technical expertise, product thinking, and multidisciplinary perspectives collide.</h2>
           </div>
           <div>
             <p>If you think there might be a fit, please reach out. I&apos;m happy to share more about my experience, approach, and perspective.</p>
