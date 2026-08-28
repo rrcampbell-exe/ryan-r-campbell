@@ -85470,6 +85470,28 @@ exports[`assets should match snapshots > posts 1`] = `
       "protected": false,
       "rendered": "",
     },
+    "date": "2026-08-22T06:00:00",
+    "episode_featured_image": "/post-content/2024/11/the-gospel-of-inevitability-cover-img.png",
+    "excerpt": {
+      "protected": false,
+      "rendered": "On AI, agency, and the future we choose to build.",
+    },
+    "id": 10097,
+    "link": "https://www.r-on-everything.com/p/the-gospel-of-inevitability",
+    "slug": "the-gospel-of-inevitability",
+    "tags": [
+      "Artificial Intelligence",
+      "Attention Economy",
+    ],
+    "title": {
+      "rendered": "The Gospel of Inevitability",
+    },
+  },
+  {
+    "content": {
+      "protected": false,
+      "rendered": "",
+    },
     "date": "2024-11-26T06:00:00",
     "episode_featured_image": "/post-content/2024/11/strategic-passion-cover-img.png",
     "excerpt": {
