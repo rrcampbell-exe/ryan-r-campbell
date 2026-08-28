@@ -24,6 +24,7 @@ const posts = [
     date: "2026-08-22T06:00:00",
     slug: "the-gospel-of-inevitability",
     link: "https://www.r-on-everything.com/p/the-gospel-of-inevitability",
+    redirectToSubstack: true,
     title: {
       rendered: "The Gospel of Inevitability"
     },

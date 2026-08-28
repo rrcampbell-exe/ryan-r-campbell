@@ -87,6 +87,17 @@ describe('BlogTeaser', () => {
 
     expect(latestPost.link).toContain(window.location.pathname)
   })
+  test('should link flagged posts directly to Substack', () => {
+    const { container } = render(
+      <ContextAndRouterProvider>
+        <BlogTeaser postsQtyToDisplay={2} postsPage={1} />
+      </ContextAndRouterProvider>
+    )
+
+    const substackPost = Array.from(container.querySelectorAll('.content-post')).find(post => post.querySelector('h3').textContent === 'The Gospel of Inevitability')
+
+    expect(substackPost.querySelector('a').getAttribute('href')).toBe('https://www.r-on-everything.com/p/the-gospel-of-inevitability')
+  })
   test('should show a properly formatted date', () => {
     const { container } = render(
       <ContextAndRouterProvider>

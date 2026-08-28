@@ -17,6 +17,8 @@ const renderTags = (post) => {
   }
 }
 
+const getPostURL = (post) => post.redirectToSubstack ? post.link : buildNavURL(post.link)
+
 const BlogTeaser = ({ postsQtyToDisplay, showCoverImage, postsPage, isTagSearch, filteredPosts, isGeneralLandingPage }) => {
   const navigate = useNavigate()
   const teaserPostQtyToDisplay = postsQtyToDisplay ? postsQtyToDisplay : 3
@@ -33,14 +35,16 @@ const BlogTeaser = ({ postsQtyToDisplay, showCoverImage, postsPage, isTagSearch,
   return (
     <div className='ContentTeaser' data-testid='blog-teaser'>
       {teaserPosts.map((post) => (
-        <div onClick={() => navigate(buildNavURL(post.link))} key={post.id}>
+        <div onClick={() => post.redirectToSubstack ? window.location.replace(post.link) : navigate(getPostURL(post))} key={post.id}>
           <div className='content-post grow-on-hover'>
             {showCoverImage && <img className='cover-image' src={post.episode_featured_image} alt={post.featured_image_alt ? post.featured_image_alt : 'The cover image for a blog post'} />}
             <h3>{post.title.rendered}</h3>
             {!isGeneralLandingPage && <span>Posted on {formatDate(post.date)}</span>}
             <p>{post.excerpt.rendered}</p>
             {!isGeneralLandingPage && renderTags(post)}
-            <Link to={buildNavURL(post.link)}>{isGeneralLandingPage ? 'Visit me on Substack here' : 'Read the full post'}</Link>
+            {post.redirectToSubstack
+              ? <a href={getPostURL(post)}>{isGeneralLandingPage ? 'Visit me on Substack here' : 'Read the full post'}</a>
+              : <Link to={getPostURL(post)}>{isGeneralLandingPage ? 'Visit me on Substack here' : 'Read the full post'}</Link>}
             {!isGeneralLandingPage && <div className='content-post-underline' />}
           </div>
         </div>

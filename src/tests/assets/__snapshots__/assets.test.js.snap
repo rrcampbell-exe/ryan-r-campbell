@@ -85478,6 +85478,7 @@ exports[`assets should match snapshots > posts 1`] = `
     },
     "id": 10097,
     "link": "https://www.r-on-everything.com/p/the-gospel-of-inevitability",
+    "redirectToSubstack": true,
     "slug": "the-gospel-of-inevitability",
     "tags": [
       "Artificial Intelligence",
