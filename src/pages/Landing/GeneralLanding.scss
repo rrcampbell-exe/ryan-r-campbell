@@ -401,6 +401,36 @@
     margin-top: var(--space-6);
   }
 
+  .gl-writing__posts {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 480px);
+    align-items: start;
+    gap: var(--space-8);
+
+    .gl-writing__embed {
+      grid-column: 2;
+      grid-row: 1 / span 2;
+    }
+
+    @media (max-width: 1199px) {
+      grid-template-columns: minmax(0, 1fr);
+
+      .gl-writing__embed {
+        display: none;
+      }
+    }
+  }
+
+  .gl-writing__embed {
+    display: block;
+    justify-self: start;
+    max-width: 100%;
+
+    @media (min-width: 521px) {
+      transform: translate(-15px, -75px);
+    }
+  }
+
   // ── CONTACT ───────────────────────────────────────────────────────
 }
 

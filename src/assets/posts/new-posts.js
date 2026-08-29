@@ -41,6 +41,27 @@ const posts = [
     episode_featured_image: "/post-content/2024/11/the-gospel-of-inevitability-cover-img.png"
   },
   {
+    id: 10098,
+    date: "2025-03-01T06:00:00",
+    slug: "want-meaningful-success-mastery-makes-it-happen",
+    link: "https://www.r-on-everything.com/p/want-meaningful-success-mastery-makes-it-happen",
+    redirectToSubstack: true,
+    title: {
+      rendered: "Want Meaningful Success? Here’s How Mastery Makes It Happen"
+    },
+    content: {
+      rendered:
+        '',
+      protected: false
+    },
+    excerpt: {
+      rendered: "Hard work helps, but smart strategy wins—master both for success.",
+      protected: false
+    },
+    tags: ['Passionate Craftsman', 'Professional Development', 'Strategy'],
+    episode_featured_image: "/post-content/2025/03/want-meaningful-success-cover-img.png"
+  },
+  {
     id: 10095,
     date: "2024-11-26T06:00:00",
     slug: "strategic-passion-a-playbook-for-aligning-passion-with-mastery",

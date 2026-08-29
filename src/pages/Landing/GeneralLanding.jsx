@@ -140,16 +140,15 @@ const GeneralLanding = ({ pageNotFound }) => {
           <div className='gl-writing__grid'>
             <div className='gl-writing__posts'>
               <BlogTeaser postsQtyToDisplay={2} postsPage={1} isGeneralLandingPage />
-              <div className='gl-section-link-row'>
-                <a
-                  href='https://ryanrcampbell.substack.com'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='btn-secondary'
-                >
-                  Read on Substack
-                </a>
-              </div>
+              <iframe
+                className='gl-writing__embed'
+                src='https://www.r-on-everything.com/embed?transparent=1&light=1'
+                width='480'
+                height='320'
+                style={{ border: '0', background: 'transparent' }}
+                frameBorder='0'
+                scrolling='no'
+              />
             </div>
             <div className='gl-writing__books'>
               <Books hideEmpathy />

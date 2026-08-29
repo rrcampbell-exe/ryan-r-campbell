@@ -85493,6 +85493,30 @@ exports[`assets should match snapshots > posts 1`] = `
       "protected": false,
       "rendered": "",
     },
+    "date": "2025-03-01T06:00:00",
+    "episode_featured_image": "/post-content/2025/03/want-meaningful-success-cover-img.png",
+    "excerpt": {
+      "protected": false,
+      "rendered": "Hard work helps, but smart strategy wins—master both for success.",
+    },
+    "id": 10098,
+    "link": "https://www.r-on-everything.com/p/want-meaningful-success-mastery-makes-it-happen",
+    "redirectToSubstack": true,
+    "slug": "want-meaningful-success-mastery-makes-it-happen",
+    "tags": [
+      "Passionate Craftsman",
+      "Professional Development",
+      "Strategy",
+    ],
+    "title": {
+      "rendered": "Want Meaningful Success? Here’s How Mastery Makes It Happen",
+    },
+  },
+  {
+    "content": {
+      "protected": false,
+      "rendered": "",
+    },
     "date": "2024-11-26T06:00:00",
     "episode_featured_image": "/post-content/2024/11/strategic-passion-cover-img.png",
     "excerpt": {

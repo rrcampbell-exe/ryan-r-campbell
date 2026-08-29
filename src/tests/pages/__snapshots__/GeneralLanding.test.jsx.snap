@@ -914,31 +914,28 @@ exports[`GeneralLanding > default snapshot 1`] = `
                       class="content-post grow-on-hover"
                     >
                       <h3>
-                        Strategic Passion: A Playbook for Aligning Passion with Mastery
+                        Want Meaningful Success? Here’s How Mastery Makes It Happen
                       </h3>
                       <p>
-                        Marrying passion and craft is paramount, but how do we do it strategically?
+                        Hard work helps, but smart strategy wins—master both for success.
                       </p>
                       <a
-                        href="/2024/11/26/strategic-passion-a-playbook-for-aligning-passion-with-mastery"
+                        href="https://www.r-on-everything.com/p/want-meaningful-success-mastery-makes-it-happen"
                       >
                         Visit me on Substack here
                       </a>
                     </div>
                   </div>
                 </div>
-                <div
-                  class="gl-section-link-row"
-                >
-                  <a
-                    class="btn-secondary"
-                    href="https://ryanrcampbell.substack.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    Read on Substack
-                  </a>
-                </div>
+                <iframe
+                  class="gl-writing__embed"
+                  frameborder="0"
+                  height="320"
+                  scrolling="no"
+                  src="https://www.r-on-everything.com/embed?transparent=1&light=1"
+                  style="border: 0px; background: transparent;"
+                  width="480"
+                />
               </div>
               <div
                 class="gl-writing__books"
@@ -2135,31 +2132,28 @@ exports[`GeneralLanding > default snapshot 1`] = `
                     class="content-post grow-on-hover"
                   >
                     <h3>
-                      Strategic Passion: A Playbook for Aligning Passion with Mastery
+                      Want Meaningful Success? Here’s How Mastery Makes It Happen
                     </h3>
                     <p>
-                      Marrying passion and craft is paramount, but how do we do it strategically?
+                      Hard work helps, but smart strategy wins—master both for success.
                     </p>
                     <a
-                      href="/2024/11/26/strategic-passion-a-playbook-for-aligning-passion-with-mastery"
+                      href="https://www.r-on-everything.com/p/want-meaningful-success-mastery-makes-it-happen"
                     >
                       Visit me on Substack here
                     </a>
                   </div>
                 </div>
               </div>
-              <div
-                class="gl-section-link-row"
-              >
-                <a
-                  class="btn-secondary"
-                  href="https://ryanrcampbell.substack.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Read on Substack
-                </a>
-              </div>
+              <iframe
+                class="gl-writing__embed"
+                frameborder="0"
+                height="320"
+                scrolling="no"
+                src="https://www.r-on-everything.com/embed?transparent=1&light=1"
+                style="border: 0px; background: transparent;"
+                width="480"
+              />
             </div>
             <div
               class="gl-writing__books"
