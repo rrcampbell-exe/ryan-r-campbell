@@ -81,7 +81,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               class="header-nav__link"
               href="/podcasts"
             >
-              archive
+              podcasts
             </a>
           </nav>
           <div
@@ -1122,7 +1122,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <a
                     href="/podcasts"
                   >
-                    Archive
+                    Podcasts
                   </a>
                 </li>
                 <li>
@@ -1299,7 +1299,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             class="header-nav__link"
             href="/podcasts"
           >
-            archive
+            podcasts
           </a>
         </nav>
         <div
@@ -2340,7 +2340,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <a
                   href="/podcasts"
                 >
-                  Archive
+                  Podcasts
                 </a>
               </li>
               <li>

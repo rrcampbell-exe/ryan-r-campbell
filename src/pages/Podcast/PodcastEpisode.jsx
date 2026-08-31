@@ -11,7 +11,7 @@ const PodcastEpisode = () => {
   const uuid = findEpisodeUUID(episode)
 
   return (
-    <PageWrapper pageTitle='podcaster | community-builder'>
+    <PageWrapper pageTitle='podcaster | community builder'>
       <main className='Podcast'>
         {(episode && uuid) ? (
           <>
