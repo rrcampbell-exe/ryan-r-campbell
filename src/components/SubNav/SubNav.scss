@@ -55,4 +55,23 @@
       &::after { transform: scaleX(1); }
     }
   }
+
+  &__tabs {
+    display: flex;
+    gap: var(--space-8);
+  }
+
+  .header-nav__link {
+    appearance: none;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 0;
+    padding: 0 0 0.2rem;
+
+    &:focus-visible {
+      outline: 1px solid var(--copper);
+      outline-offset: 4px;
+    }
+  }
 }

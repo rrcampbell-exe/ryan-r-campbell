@@ -9,7 +9,7 @@ const NAV_LINKS = [
   { to: '/ai',       label: 'AI' },
   { href: 'https://ryanrcampbell.substack.com', label: 'writing' },
   { to: '/books',    label: 'books' },
-  { to: '/podcasts', label: 'archive' },
+  { to: '/podcasts', label: 'podcasts' },
 ]
 
 const Header = ({ pageTitle }) => {

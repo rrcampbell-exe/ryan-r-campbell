@@ -79,7 +79,7 @@
     }
   }
 
-  .header-nav__link {
+  @at-root .Header .header-nav__link, .SubNav .header-nav__link {
     font-family: var(--font-body);
     font-size: 0.8rem;
     font-weight: 400;
@@ -113,6 +113,14 @@
       color: var(--cream);
       &::after { transform: scaleX(1); }
     }
+  }
+}
+
+.SubNav .header-nav__link[aria-selected='true'] {
+  color: var(--cream);
+
+  &::after {
+    transform: scaleX(1);
   }
 }
 
