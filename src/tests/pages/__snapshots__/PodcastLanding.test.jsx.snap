@@ -220,19 +220,46 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 R: On Everything
               </h1>
               <p>
-                At the intersection of technology, work, creativity, and culture.
+                In an ever-changing world, staying human requires more than keeping up. It requires paying attention to what's changing us.
+              </p>
+              <p>
+                In 
+                <strong>
+                  R: On Everything
+                </strong>
+                , author and technologist Ryan R. Campbell follows that inquiry wherever it leads—from artificial intelligence and the future of work to creativity, culture, consciousness, and the strange business of being human.
+              </p>
+              <p>
+                Blending personal stories, research, and philosophical inquiry, each episode challenges easy answers, uncovers possibilities hiding between the extremes, and asks how we might live, work, and create with greater curiosity and agency.
               </p>
               <p>
                 The podcast debuts on September 17, 2026. Watch for the trailer on September 10, 2026.
               </p>
-              <a
-                class="btn-secondary"
-                href="https://www.r-on-everything.com/"
-                rel="noopener noreferrer"
-                target="_blank"
+              <p>
+                <strong>
+                  Keep curious.
+                </strong>
+              </p>
+              <div
+                class="Podcast__button-container"
               >
-                Visit R: On Everything
-              </a>
+                <a
+                  class="btn-primary"
+                  href="https://pnc.st/s/r-on-everything"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Subscribe now
+                </a>
+                <a
+                  class="btn-secondary"
+                  href="https://www.r-on-everything.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Visit R: On Everything
+                </a>
+              </div>
             </div>
           </section>
         </main>
@@ -642,19 +669,46 @@ exports[`PodcastLanding > default snapshot 1`] = `
               R: On Everything
             </h1>
             <p>
-              At the intersection of technology, work, creativity, and culture.
+              In an ever-changing world, staying human requires more than keeping up. It requires paying attention to what's changing us.
+            </p>
+            <p>
+              In 
+              <strong>
+                R: On Everything
+              </strong>
+              , author and technologist Ryan R. Campbell follows that inquiry wherever it leads—from artificial intelligence and the future of work to creativity, culture, consciousness, and the strange business of being human.
+            </p>
+            <p>
+              Blending personal stories, research, and philosophical inquiry, each episode challenges easy answers, uncovers possibilities hiding between the extremes, and asks how we might live, work, and create with greater curiosity and agency.
             </p>
             <p>
               The podcast debuts on September 17, 2026. Watch for the trailer on September 10, 2026.
             </p>
-            <a
-              class="btn-secondary"
-              href="https://www.r-on-everything.com/"
-              rel="noopener noreferrer"
-              target="_blank"
+            <p>
+              <strong>
+                Keep curious.
+              </strong>
+            </p>
+            <div
+              class="Podcast__button-container"
             >
-              Visit R: On Everything
-            </a>
+              <a
+                class="btn-primary"
+                href="https://pnc.st/s/r-on-everything"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Subscribe now
+              </a>
+              <a
+                class="btn-secondary"
+                href="https://www.r-on-everything.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Visit R: On Everything
+              </a>
+            </div>
           </div>
         </section>
       </main>

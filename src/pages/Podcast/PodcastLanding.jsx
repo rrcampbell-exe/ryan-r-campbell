@@ -33,9 +33,15 @@ const PodcastLanding = () => {
             <div className='section-wrapper media-text-row__body'>
               <p className='Podcast__eyebrow'>Coming soon</p>
               <h1>R: On Everything</h1>
-              <p>At the intersection of technology, work, creativity, and culture.</p>
+              <p>In an ever-changing world, staying human requires more than keeping up. It requires paying attention to what's changing us.</p>
+              <p>In <strong>R: On Everything</strong>, author and technologist Ryan R. Campbell follows that inquiry wherever it leads—from artificial intelligence and the future of work to creativity, culture, consciousness, and the strange business of being human.</p>
+              <p>Blending personal stories, research, and philosophical inquiry, each episode challenges easy answers, uncovers possibilities hiding between the extremes, and asks how we might live, work, and create with greater curiosity and agency.</p>
               <p>The podcast debuts on September 17, 2026. Watch for the trailer on September 10, 2026.</p>
-              <a className='btn-secondary' href='https://www.r-on-everything.com/' target='_blank' rel='noopener noreferrer'>Visit R: On Everything</a>
+              <p><strong>Keep curious.</strong></p>
+              <div className='Podcast__button-container'>
+                <a className='btn-primary' href='https://pnc.st/s/r-on-everything' target='_blank' rel='noopener noreferrer'>Subscribe now</a>
+                <a className='btn-secondary' href='https://www.r-on-everything.com/' target='_blank' rel='noopener noreferrer'>Visit R: On Everything</a>
+              </div>
             </div>
           </section>
         ) : (
