@@ -37,7 +37,7 @@ describe('PodcastLanding', () => {
     expect(screen.getByRole('tab', { name: 'R: On Everything' })).toHaveAttribute('aria-selected', 'true')
     expect(screen.getByRole('heading', { name: 'R: On Everything' })).toBeInTheDocument()
     expect(screen.getByAltText('R: On Everything podcast cover art')).toBeInTheDocument()
-    expect(screen.getByText('At the intersection of technology, work, creativity, and culture.')).toBeInTheDocument()
+    expect(screen.getByText('In an ever-changing world, staying human requires more than keeping up. It requires paying attention to what\'s changing us.')).toBeInTheDocument()
     expect(screen.getByRole('link', { name: 'Visit R: On Everything' })).toHaveAttribute('href', 'https://www.r-on-everything.com/')
     expect(screen.queryByTitle('A playlist of the 100 most-recent Writescast Network episodes')).not.toBeInTheDocument()
   })

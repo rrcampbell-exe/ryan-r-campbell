@@ -29,6 +29,12 @@
   &__announcement a {
     margin-top: var(--space-2);
   }
+
+  &__button-container {
+    a {
+      margin: var(--space-4) var(--space-8) 0 0;
+    }
+  }
   
   .podcast-player {
     padding: 0 4rem;
