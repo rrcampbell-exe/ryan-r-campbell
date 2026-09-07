@@ -94,9 +94,9 @@ describe('BlogTeaser', () => {
       </ContextAndRouterProvider>
     )
 
-    const substackPost = Array.from(container.querySelectorAll('.content-post')).find(post => post.querySelector('h3').textContent === 'The Gospel of Inevitability')
+    const substackPost = Array.from(container.querySelectorAll('.content-post')).find(post => post.querySelector('h3').textContent === 'Why Your Brain May Need More Chaos')
 
-    expect(substackPost.querySelector('a').getAttribute('href')).toBe('https://www.r-on-everything.com/p/the-gospel-of-inevitability')
+    expect(substackPost.querySelector('a').getAttribute('href')).toBe('https://www.r-on-everything.com/p/in-praise-of-entropy')
   })
   test('should show a properly formatted date', () => {
     const { container } = render(

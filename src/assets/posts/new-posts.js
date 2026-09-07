@@ -20,6 +20,27 @@ const posts = [
     episode_featured_image: "/post-content/2024/11/all-blog-posts-now-on-substack-cover-img.png"
   },
   {
+    id: 10099,
+    date: "2026-08-22T06:00:00",
+    slug: "in-praise-of-entropy",
+    link: "https://www.r-on-everything.com/p/in-praise-of-entropy",
+    redirectToSubstack: true,
+    title: {
+      rendered: "Why Your Brain May Need More Chaos"
+    },
+    content: {
+      rendered:
+        '',
+      protected: false
+    },
+    excerpt: {
+      rendered: "Healthy minds, organizations, and lives need room to come apart.",
+      protected: false
+    },
+    tags: ['Artificial Intelligence', 'Attention Economy'],
+    episode_featured_image: "/post-content/2024/11/in-praise-of-entropy-cover-img.png"
+  },
+  {
     id: 10097,
     date: "2026-08-22T06:00:00",
     slug: "the-gospel-of-inevitability",
