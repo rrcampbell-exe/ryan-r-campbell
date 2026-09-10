@@ -36,12 +36,16 @@ const PodcastLanding = () => {
               <p>In an ever-changing world, staying human requires more than keeping up. It requires paying attention to what's changing us.</p>
               <p>In <strong>R: On Everything</strong>, author and technologist Ryan R. Campbell follows that inquiry wherever it leads—from artificial intelligence and the future of work to creativity, culture, consciousness, and the strange business of being human.</p>
               <p>Blending personal stories, research, and philosophical inquiry, each episode challenges easy answers, uncovers possibilities hiding between the extremes, and asks how we might live, work, and create with greater curiosity and agency.</p>
-              <p>The podcast debuts on September 17, 2026. Watch for the trailer on September 10, 2026.</p>
+              <p>The podcast debuts on September 17, 2026. You can listen to the trailer now below.</p>
               <p><strong>Keep curious.</strong></p>
               <div className='Podcast__button-container'>
                 <a className='btn-primary' href='https://pnc.st/s/r-on-everything' target='_blank' rel='noopener noreferrer'>Subscribe now</a>
                 <a className='btn-secondary' href='https://www.r-on-everything.com/' target='_blank' rel='noopener noreferrer'>Visit R: On Everything</a>
               </div>
+            </div>
+            <div className='Podcast__platform-container'>
+              <iframe src="https://pinecast.com/player/a34066de-8552-4af2-aa5a-aeb12cb3c0d4?theme=flat" seamless height={200} style={{ border: '0' }} className="pinecast-embed" frameBorder="0" width="100%"></iframe>
+              <iframe src='https://pnc.st/s/r-on-everything/embed' seamless scrolling='no' height={40} className='pinecast-embed' frameBorder='0' width='100%'></iframe>
             </div>
           </section>
         ) : (

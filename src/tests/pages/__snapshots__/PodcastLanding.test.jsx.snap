@@ -233,7 +233,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 Blending personal stories, research, and philosophical inquiry, each episode challenges easy answers, uncovers possibilities hiding between the extremes, and asks how we might live, work, and create with greater curiosity and agency.
               </p>
               <p>
-                The podcast debuts on September 17, 2026. Watch for the trailer on September 10, 2026.
+                The podcast debuts on September 17, 2026. You can listen to the trailer now below.
               </p>
               <p>
                 <strong>
@@ -260,6 +260,28 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   Visit R: On Everything
                 </a>
               </div>
+            </div>
+            <div
+              class="Podcast__platform-container"
+            >
+              <iframe
+                class="pinecast-embed"
+                frameborder="0"
+                height="200"
+                seamless=""
+                src="https://pinecast.com/player/a34066de-8552-4af2-aa5a-aeb12cb3c0d4?theme=flat"
+                style="border: 0px;"
+                width="100%"
+              />
+              <iframe
+                class="pinecast-embed"
+                frameborder="0"
+                height="40"
+                scrolling="no"
+                seamless=""
+                src="https://pnc.st/s/r-on-everything/embed"
+                width="100%"
+              />
             </div>
           </section>
         </main>
@@ -682,7 +704,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
               Blending personal stories, research, and philosophical inquiry, each episode challenges easy answers, uncovers possibilities hiding between the extremes, and asks how we might live, work, and create with greater curiosity and agency.
             </p>
             <p>
-              The podcast debuts on September 17, 2026. Watch for the trailer on September 10, 2026.
+              The podcast debuts on September 17, 2026. You can listen to the trailer now below.
             </p>
             <p>
               <strong>
@@ -709,6 +731,28 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 Visit R: On Everything
               </a>
             </div>
+          </div>
+          <div
+            class="Podcast__platform-container"
+          >
+            <iframe
+              class="pinecast-embed"
+              frameborder="0"
+              height="200"
+              seamless=""
+              src="https://pinecast.com/player/a34066de-8552-4af2-aa5a-aeb12cb3c0d4?theme=flat"
+              style="border: 0px;"
+              width="100%"
+            />
+            <iframe
+              class="pinecast-embed"
+              frameborder="0"
+              height="40"
+              scrolling="no"
+              seamless=""
+              src="https://pnc.st/s/r-on-everything/embed"
+              width="100%"
+            />
           </div>
         </section>
       </main>
