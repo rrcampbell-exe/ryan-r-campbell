@@ -265,7 +265,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
               class="Podcast__platform-container"
             >
               <iframe
-                class="pinecast-embed"
+                class="pinecast-embed pinecast-player"
                 frameborder="0"
                 height="200"
                 seamless=""
@@ -736,7 +736,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
             class="Podcast__platform-container"
           >
             <iframe
-              class="pinecast-embed"
+              class="pinecast-embed pinecast-player"
               frameborder="0"
               height="200"
               seamless=""
