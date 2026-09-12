@@ -85470,7 +85470,30 @@ exports[`assets should match snapshots > posts 1`] = `
       "protected": false,
       "rendered": "",
     },
-    "date": "2026-08-22T06:00:00",
+    "date": "2026-09-11T06:00:00",
+    "episode_featured_image": "/post-content/2024/11/the-surveillance-state-has-a-logo-cover-img.png",
+    "excerpt": {
+      "protected": false,
+      "rendered": "The real flock are those who are standing up to it.",
+    },
+    "id": 10100,
+    "link": "https://www.r-on-everything.com/p/the-surveillance-state-has-a-logo",
+    "redirectToSubstack": true,
+    "slug": "the-surveillance-state-has-a-logo",
+    "tags": [
+      "Artificial Intelligence",
+      "Attention Economy",
+    ],
+    "title": {
+      "rendered": "The Surveillance State Has a Logo",
+    },
+  },
+  {
+    "content": {
+      "protected": false,
+      "rendered": "",
+    },
+    "date": "2026-09-03T06:00:00",
     "episode_featured_image": "/post-content/2024/11/in-praise-of-entropy-cover-img.png",
     "excerpt": {
       "protected": false,

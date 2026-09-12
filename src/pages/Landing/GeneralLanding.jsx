@@ -121,17 +121,7 @@ const GeneralLanding = ({ pageNotFound }) => {
         {/* ── PROJECTS ─────────────────────────────────────────── */}
         <section id='projects' className='gl-projects'>
           <p className='section-label'>Selected projects</p>
-          <Builds buildsToDisplay={3} />
-          <div className='gl-section-link-row'>
-            <a
-              href='https://github.com/rrcampbell-exe'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='btn-secondary'
-            >
-              View more on GitHub
-            </a>
-          </div>
+          <Builds />
         </section>
 
         {/* ── WRITING ──────────────────────────────────────────── */}

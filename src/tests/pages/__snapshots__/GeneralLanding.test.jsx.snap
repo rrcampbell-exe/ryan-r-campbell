@@ -709,9 +709,9 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   class="build-tile__logo-wrap"
                 >
                   <img
-                    alt="The cartoon outline of a bird against a forest green background"
+                    alt="Cover art for the "R on Everything" podcast"
                     class="build-tile__logo"
-                    src="./builds/real-fake-birds-app-logo.png"
+                    src="./podcasts/r-on-everything-podcast-cover-art.png"
                   />
                 </div>
                 <div
@@ -720,92 +720,41 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <h3
                     class="build-tile__title"
                   >
-                    Real Fake Birds
+                    The R: On Everything Podcast
                   </h3>
                   <p
                     class="build-tile__teaser"
                   >
-                    Some are real. Some are fake. Tell them apart.
+                    At the intersection of technology, work, leadership, and culture.
                   </p>
                   <p
                     class="build-tile__desc"
                   >
-                    Earn badges and extend your streak in this real-or-fake guessing game that puts even the most ardent birders to the test.
+                    Ryan R. Campbell delves into the nuances of technology, work, leadership, and culture, offering insights and thought-provoking discussions.
                   </p>
                   <p
                     class="build-tile__tech"
-                  >
-                    OpenAI APIs, Next.js, TypeScript, Supabase, Tailwind CSS, Cloudflare R2, Capacitor, Upstash Redis
-                  </p>
-                </div>
-                <div
-                  class="build-tile__links"
-                >
-                  <a
-                    class="build-tile__link"
-                    href="https://www.realfakebirds.app"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    play the game
-                  </a>
-                </div>
-              </article>
-              <article
-                class="build-tile"
-                data-testid="build"
-              >
-                <div
-                  class="build-tile__logo-wrap"
-                >
-                  <img
-                    alt="The logo for Catbird Games"
-                    class="build-tile__logo"
-                    src="./builds/catbird-games-gradient-logo.png"
+                  />
+                  <iframe
+                    class="pinecast-embed"
+                    frameborder="0"
+                    height="24"
+                    scrolling="no"
+                    seamless=""
+                    src="https://pnc.st/s/r-on-everything/embed"
+                    width="100%"
                   />
                 </div>
                 <div
-                  class="build-tile__body"
-                >
-                  <h3
-                    class="build-tile__title"
-                  >
-                    Catbird Games
-                  </h3>
-                  <p
-                    class="build-tile__teaser"
-                  >
-                    Just a little hard to put down.
-                  </p>
-                  <p
-                    class="build-tile__desc"
-                  >
-                    Catbird Games is an indie game development studio owned and operated by Ryan R. Campbell.
-                  </p>
-                  <p
-                    class="build-tile__tech"
-                  >
-                    React 19, TypeScript, Vite, Vitest, ESLint, Vercel
-                  </p>
-                </div>
-                <div
                   class="build-tile__links"
                 >
                   <a
                     class="build-tile__link"
-                    href="https://catbirdgames.com/"
+                    href="https://r-on-everything.com/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    join the fun
-                  </a>
-                  <a
-                    class="build-tile__link build-tile__link--gh"
-                    href="https://github.com/rrcampbell-exe/catbird-games"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    GitHub
+                    listen to the podcast
                   </a>
                 </div>
               </article>
@@ -842,9 +791,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   </p>
                   <p
                     class="build-tile__tech"
-                  >
-                    React 19, React Router 7, Vite, Vercel Serverless Functions, PostgreSQL, Prisma, Clerk, Vitest, Testing Library, Resend
-                  </p>
+                  />
                 </div>
                 <div
                   class="build-tile__links"
@@ -859,18 +806,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   </a>
                 </div>
               </article>
-            </div>
-            <div
-              class="gl-section-link-row"
-            >
-              <a
-                class="btn-secondary"
-                href="https://github.com/rrcampbell-exe"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                View more on GitHub
-              </a>
             </div>
           </section>
           <section
@@ -897,13 +832,13 @@ exports[`GeneralLanding > default snapshot 1`] = `
                       class="content-post grow-on-hover"
                     >
                       <h3>
-                        Why Your Brain May Need More Chaos
+                        The Surveillance State Has a Logo
                       </h3>
                       <p>
-                        Healthy minds, organizations, and lives need room to come apart.
+                        The real flock are those who are standing up to it.
                       </p>
                       <a
-                        href="https://www.r-on-everything.com/p/in-praise-of-entropy"
+                        href="https://www.r-on-everything.com/p/the-surveillance-state-has-a-logo"
                       >
                         Visit me on Substack here
                       </a>
@@ -914,13 +849,13 @@ exports[`GeneralLanding > default snapshot 1`] = `
                       class="content-post grow-on-hover"
                     >
                       <h3>
-                        The Gospel of Inevitability
+                        Why Your Brain May Need More Chaos
                       </h3>
                       <p>
-                        On AI, agency, and the future we choose to build.
+                        Healthy minds, organizations, and lives need room to come apart.
                       </p>
                       <a
-                        href="https://www.r-on-everything.com/p/the-gospel-of-inevitability"
+                        href="https://www.r-on-everything.com/p/in-praise-of-entropy"
                       >
                         Visit me on Substack here
                       </a>
@@ -1927,9 +1862,9 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="build-tile__logo-wrap"
               >
                 <img
-                  alt="The cartoon outline of a bird against a forest green background"
+                  alt="Cover art for the "R on Everything" podcast"
                   class="build-tile__logo"
-                  src="./builds/real-fake-birds-app-logo.png"
+                  src="./podcasts/r-on-everything-podcast-cover-art.png"
                 />
               </div>
               <div
@@ -1938,92 +1873,41 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <h3
                   class="build-tile__title"
                 >
-                  Real Fake Birds
+                  The R: On Everything Podcast
                 </h3>
                 <p
                   class="build-tile__teaser"
                 >
-                  Some are real. Some are fake. Tell them apart.
+                  At the intersection of technology, work, leadership, and culture.
                 </p>
                 <p
                   class="build-tile__desc"
                 >
-                  Earn badges and extend your streak in this real-or-fake guessing game that puts even the most ardent birders to the test.
+                  Ryan R. Campbell delves into the nuances of technology, work, leadership, and culture, offering insights and thought-provoking discussions.
                 </p>
                 <p
                   class="build-tile__tech"
-                >
-                  OpenAI APIs, Next.js, TypeScript, Supabase, Tailwind CSS, Cloudflare R2, Capacitor, Upstash Redis
-                </p>
-              </div>
-              <div
-                class="build-tile__links"
-              >
-                <a
-                  class="build-tile__link"
-                  href="https://www.realfakebirds.app"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  play the game
-                </a>
-              </div>
-            </article>
-            <article
-              class="build-tile"
-              data-testid="build"
-            >
-              <div
-                class="build-tile__logo-wrap"
-              >
-                <img
-                  alt="The logo for Catbird Games"
-                  class="build-tile__logo"
-                  src="./builds/catbird-games-gradient-logo.png"
+                />
+                <iframe
+                  class="pinecast-embed"
+                  frameborder="0"
+                  height="24"
+                  scrolling="no"
+                  seamless=""
+                  src="https://pnc.st/s/r-on-everything/embed"
+                  width="100%"
                 />
               </div>
               <div
-                class="build-tile__body"
-              >
-                <h3
-                  class="build-tile__title"
-                >
-                  Catbird Games
-                </h3>
-                <p
-                  class="build-tile__teaser"
-                >
-                  Just a little hard to put down.
-                </p>
-                <p
-                  class="build-tile__desc"
-                >
-                  Catbird Games is an indie game development studio owned and operated by Ryan R. Campbell.
-                </p>
-                <p
-                  class="build-tile__tech"
-                >
-                  React 19, TypeScript, Vite, Vitest, ESLint, Vercel
-                </p>
-              </div>
-              <div
                 class="build-tile__links"
               >
                 <a
                   class="build-tile__link"
-                  href="https://catbirdgames.com/"
+                  href="https://r-on-everything.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  join the fun
-                </a>
-                <a
-                  class="build-tile__link build-tile__link--gh"
-                  href="https://github.com/rrcampbell-exe/catbird-games"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  GitHub
+                  listen to the podcast
                 </a>
               </div>
             </article>
@@ -2060,9 +1944,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </p>
                 <p
                   class="build-tile__tech"
-                >
-                  React 19, React Router 7, Vite, Vercel Serverless Functions, PostgreSQL, Prisma, Clerk, Vitest, Testing Library, Resend
-                </p>
+                />
               </div>
               <div
                 class="build-tile__links"
@@ -2077,18 +1959,6 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </a>
               </div>
             </article>
-          </div>
-          <div
-            class="gl-section-link-row"
-          >
-            <a
-              class="btn-secondary"
-              href="https://github.com/rrcampbell-exe"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              View more on GitHub
-            </a>
           </div>
         </section>
         <section
@@ -2115,13 +1985,13 @@ exports[`GeneralLanding > default snapshot 1`] = `
                     class="content-post grow-on-hover"
                   >
                     <h3>
-                      Why Your Brain May Need More Chaos
+                      The Surveillance State Has a Logo
                     </h3>
                     <p>
-                      Healthy minds, organizations, and lives need room to come apart.
+                      The real flock are those who are standing up to it.
                     </p>
                     <a
-                      href="https://www.r-on-everything.com/p/in-praise-of-entropy"
+                      href="https://www.r-on-everything.com/p/the-surveillance-state-has-a-logo"
                     >
                       Visit me on Substack here
                     </a>
@@ -2132,13 +2002,13 @@ exports[`GeneralLanding > default snapshot 1`] = `
                     class="content-post grow-on-hover"
                   >
                     <h3>
-                      The Gospel of Inevitability
+                      Why Your Brain May Need More Chaos
                     </h3>
                     <p>
-                      On AI, agency, and the future we choose to build.
+                      Healthy minds, organizations, and lives need room to come apart.
                     </p>
                     <a
-                      href="https://www.r-on-everything.com/p/the-gospel-of-inevitability"
+                      href="https://www.r-on-everything.com/p/in-praise-of-entropy"
                     >
                       Visit me on Substack here
                     </a>

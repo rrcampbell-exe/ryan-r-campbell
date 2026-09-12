@@ -1,11 +1,10 @@
 import React from 'react'
 import { builds } from '../../constants'
 
-const Builds = ({ buildsToDisplay }) => {
-  const buildsToRender = buildsToDisplay ? builds.slice(1, buildsToDisplay + 1) : builds
+const Builds = ({}) => {
   return (
     <div className='Builds'>
-      {buildsToRender.map((app) => (
+      {builds.map((app) => (
         <article className='build-tile' key={app.logo} data-testid='build'>
           <div className='build-tile__logo-wrap'>
             <img className='build-tile__logo' src={app.logo} alt={app.alt} />
@@ -15,6 +14,9 @@ const Builds = ({ buildsToDisplay }) => {
             <p className='build-tile__teaser'>{app.teaser}</p>
             <p className='build-tile__desc'>{app.description}</p>
             <p className='build-tile__tech'>{app.technologies}</p>
+            {app.isPodcast && (
+              <iframe src='https://pnc.st/s/r-on-everything/embed' seamless scrolling='no' height={24} className='pinecast-embed' frameBorder='0' width='100%'></iframe>
+            )}
           </div>
           <div className='build-tile__links'>
             {app.link && (() => {

@@ -13,9 +13,9 @@ exports[`Builds > default snapshot 1`] = `
         class="build-tile__logo-wrap"
       >
         <img
-          alt="A black-and-white image of Ryan R. Campbell gazing to the right"
+          alt="Cover art for the "R on Everything" podcast"
           class="build-tile__logo"
-          src="./builds/ryan-r-campbell-app-logo.png"
+          src="./podcasts/r-on-everything-podcast-cover-art.png"
         />
       </div>
       <div
@@ -24,148 +24,41 @@ exports[`Builds > default snapshot 1`] = `
         <h3
           class="build-tile__title"
         >
-          The Ryan R. Campbell Website
+          The R: On Everything Podcast
         </h3>
         <p
           class="build-tile__teaser"
         >
-          Books and builds and blogs, oh my!
+          At the intersection of technology, work, leadership, and culture.
         </p>
         <p
           class="build-tile__desc"
         >
-          The blog, portfolio, and personal site for author and technologist Ryan R. Campbell.
+          Ryan R. Campbell delves into the nuances of technology, work, leadership, and culture, offering insights and thought-provoking discussions.
         </p>
         <p
           class="build-tile__tech"
-        >
-          React, Sass, Vite, react-router, visx, Vitest, @testing-library/react, husky
-        </p>
-      </div>
-      <div
-        class="build-tile__links"
-      >
-        <a
-          class="build-tile__link"
-          href="https://ryanrcampbell.com/"
-        >
-          return to the homepage
-        </a>
-        <a
-          class="build-tile__link build-tile__link--gh"
-          href="https://github.com/rrcampbell-exe/ryan-r-campbell"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          GitHub
-        </a>
-      </div>
-    </article>
-    <article
-      class="build-tile"
-      data-testid="build"
-    >
-      <div
-        class="build-tile__logo-wrap"
-      >
-        <img
-          alt="The cartoon outline of a bird against a forest green background"
-          class="build-tile__logo"
-          src="./builds/real-fake-birds-app-logo.png"
+        />
+        <iframe
+          class="pinecast-embed"
+          frameborder="0"
+          height="24"
+          scrolling="no"
+          seamless=""
+          src="https://pnc.st/s/r-on-everything/embed"
+          width="100%"
         />
       </div>
       <div
-        class="build-tile__body"
-      >
-        <h3
-          class="build-tile__title"
-        >
-          Real Fake Birds
-        </h3>
-        <p
-          class="build-tile__teaser"
-        >
-          Some are real. Some are fake. Tell them apart.
-        </p>
-        <p
-          class="build-tile__desc"
-        >
-          Earn badges and extend your streak in this real-or-fake guessing game that puts even the most ardent birders to the test.
-        </p>
-        <p
-          class="build-tile__tech"
-        >
-          OpenAI APIs, Next.js, TypeScript, Supabase, Tailwind CSS, Cloudflare R2, Capacitor, Upstash Redis
-        </p>
-      </div>
-      <div
         class="build-tile__links"
       >
         <a
           class="build-tile__link"
-          href="https://www.realfakebirds.app"
+          href="https://r-on-everything.com/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          play the game
-        </a>
-      </div>
-    </article>
-    <article
-      class="build-tile"
-      data-testid="build"
-    >
-      <div
-        class="build-tile__logo-wrap"
-      >
-        <img
-          alt="The logo for Catbird Games"
-          class="build-tile__logo"
-          src="./builds/catbird-games-gradient-logo.png"
-        />
-      </div>
-      <div
-        class="build-tile__body"
-      >
-        <h3
-          class="build-tile__title"
-        >
-          Catbird Games
-        </h3>
-        <p
-          class="build-tile__teaser"
-        >
-          Just a little hard to put down.
-        </p>
-        <p
-          class="build-tile__desc"
-        >
-          Catbird Games is an indie game development studio owned and operated by Ryan R. Campbell.
-        </p>
-        <p
-          class="build-tile__tech"
-        >
-          React 19, TypeScript, Vite, Vitest, ESLint, Vercel
-        </p>
-      </div>
-      <div
-        class="build-tile__links"
-      >
-        <a
-          class="build-tile__link"
-          href="https://catbirdgames.com/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          join the fun
-        </a>
-        <a
-          class="build-tile__link build-tile__link--gh"
-          href="https://github.com/rrcampbell-exe/catbird-games"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          GitHub
+          listen to the podcast
         </a>
       </div>
     </article>
@@ -202,9 +95,7 @@ exports[`Builds > default snapshot 1`] = `
         </p>
         <p
           class="build-tile__tech"
-        >
-          React 19, React Router 7, Vite, Vercel Serverless Functions, PostgreSQL, Prisma, Clerk, Vitest, Testing Library, Resend
-        </p>
+        />
       </div>
       <div
         class="build-tile__links"
