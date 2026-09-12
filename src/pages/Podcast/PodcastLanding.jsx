@@ -44,7 +44,7 @@ const PodcastLanding = () => {
               </div>
             </div>
             <div className='Podcast__platform-container'>
-              <iframe src="https://pinecast.com/player/a34066de-8552-4af2-aa5a-aeb12cb3c0d4?theme=flat" seamless height={200} style={{ border: '0' }} className="pinecast-embed" frameBorder="0" width="100%"></iframe>
+              <iframe src="https://pinecast.com/player/a34066de-8552-4af2-aa5a-aeb12cb3c0d4?theme=flat" seamless height={200} style={{ border: '0' }} className="pinecast-embed pinecast-player" frameBorder="0" width="100%"></iframe>
               <iframe src='https://pnc.st/s/r-on-everything/embed' seamless scrolling='no' height={40} className='pinecast-embed' frameBorder='0' width='100%'></iframe>
             </div>
           </section>

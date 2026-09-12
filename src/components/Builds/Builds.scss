@@ -97,7 +97,7 @@
   opacity: 0.8;
 }
 
-.pinecast-embed {
+.pinecast-embed:not(.pinecast-player) {
   display: block;
   width: 100%;
   height: 24px;
