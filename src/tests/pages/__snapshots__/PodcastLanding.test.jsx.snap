@@ -233,9 +233,6 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 Blending personal stories, research, and philosophical inquiry, each episode challenges easy answers, uncovers possibilities hiding between the extremes, and asks how we might live, work, and create with greater curiosity and agency.
               </p>
               <p>
-                The podcast debuts on September 17, 2026. You can listen to the trailer now below.
-              </p>
-              <p>
                 <strong>
                   Keep curious.
                 </strong>
@@ -267,10 +264,10 @@ exports[`PodcastLanding > default snapshot 1`] = `
               <iframe
                 class="pinecast-embed pinecast-player"
                 frameborder="0"
-                height="200"
+                height="400"
                 seamless=""
-                src="https://pinecast.com/player/a34066de-8552-4af2-aa5a-aeb12cb3c0d4?theme=flat"
-                style="border: 0px;"
+                src="https://pinecast.com/embed/player_playlist/r-on-everything?color.primary=%230D1B2E&color.secondary=%23152642&color.accent=%231E3552"
+                style="border: 2px solid rgb(158, 94, 47); border-radius: 4px; padding: 8px;"
                 width="100%"
               />
               <iframe
@@ -704,9 +701,6 @@ exports[`PodcastLanding > default snapshot 1`] = `
               Blending personal stories, research, and philosophical inquiry, each episode challenges easy answers, uncovers possibilities hiding between the extremes, and asks how we might live, work, and create with greater curiosity and agency.
             </p>
             <p>
-              The podcast debuts on September 17, 2026. You can listen to the trailer now below.
-            </p>
-            <p>
               <strong>
                 Keep curious.
               </strong>
@@ -738,10 +732,10 @@ exports[`PodcastLanding > default snapshot 1`] = `
             <iframe
               class="pinecast-embed pinecast-player"
               frameborder="0"
-              height="200"
+              height="400"
               seamless=""
-              src="https://pinecast.com/player/a34066de-8552-4af2-aa5a-aeb12cb3c0d4?theme=flat"
-              style="border: 0px;"
+              src="https://pinecast.com/embed/player_playlist/r-on-everything?color.primary=%230D1B2E&color.secondary=%23152642&color.accent=%231E3552"
+              style="border: 2px solid rgb(158, 94, 47); border-radius: 4px; padding: 8px;"
               width="100%"
             />
             <iframe
