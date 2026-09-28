@@ -85470,6 +85470,52 @@ exports[`assets should match snapshots > posts 1`] = `
       "protected": false,
       "rendered": "",
     },
+    "date": "2026-09-24T06:00:00",
+    "episode_featured_image": "/post-content/2024/11/the-abcs-of-leading-people-through-cover-img.png",
+    "excerpt": {
+      "protected": false,
+      "rendered": "Ask what the change is taking from them—and what you can put back.",
+    },
+    "id": 10102,
+    "link": "https://www.r-on-everything.com/p/the-abcs-of-leading-people-through",
+    "redirectToSubstack": true,
+    "slug": "the-abcs-of-leading-people-through",
+    "tags": [
+      "Artificial Intelligence",
+      "Attention Economy",
+    ],
+    "title": {
+      "rendered": "Before You Call Someone Resistant to Change",
+    },
+  },
+  {
+    "content": {
+      "protected": false,
+      "rendered": "",
+    },
+    "date": "2026-09-17T06:00:00",
+    "episode_featured_image": "/post-content/2024/11/introducing-r-on-everything-the-podcast-cover-img.png",
+    "excerpt": {
+      "protected": false,
+      "rendered": "What’s bringing me back—and what changes when ideas are shared aloud.",
+    },
+    "id": 10101,
+    "link": "https://www.r-on-everything.com/p/introducing-r-on-everything-the-podcast",
+    "redirectToSubstack": true,
+    "slug": "introducing-r-on-everything-the-podcast",
+    "tags": [
+      "Artificial Intelligence",
+      "Attention Economy",
+    ],
+    "title": {
+      "rendered": "I'm Returning to Podcasting After Six Years Away",
+    },
+  },
+  {
+    "content": {
+      "protected": false,
+      "rendered": "",
+    },
     "date": "2026-09-11T06:00:00",
     "episode_featured_image": "/post-content/2024/11/the-surveillance-state-has-a-logo-cover-img.png",
     "excerpt": {
