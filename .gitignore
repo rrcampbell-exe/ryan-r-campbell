@@ -154,5 +154,10 @@ yarn-error.log*
 
 # Archived content
 archive/
+
+# Locally managed public content
+/public/post-content/
+/public/wp-content/
+
 # Playwright / audit screenshots
 .playwright-mcp/
