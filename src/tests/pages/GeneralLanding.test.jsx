@@ -33,7 +33,7 @@ describe('GeneralLanding', () => {
       </ContextAndRouterProvider>
     )
 
-    const hero = container.querySelector('.gl-hero')
+    const hero = container.querySelector('.editorial-hero')
 
     expect(hero).toBeInTheDocument()
   })
@@ -51,14 +51,14 @@ describe('GeneralLanding', () => {
     expect(heroImage).toHaveAttribute('height', '1312')
   })
 
-  test('should link the primary work CTA to selected impact', () => {
+  test('should link the primary work CTA to the work page', () => {
     render(
       <ContextAndRouterProvider>
         <GeneralLanding />
       </ContextAndRouterProvider>
     )
 
-    expect(screen.getByRole('link', { name: 'See my work' })).toHaveAttribute('href', '#impact')
+    expect(screen.getByRole('link', { name: 'Explore my professional work' })).toHaveAttribute('href', '/work')
   })
 
   test('should render correct number of teasers', () => {
@@ -103,7 +103,7 @@ describe('GeneralLanding', () => {
       </ContextAndRouterProvider>
     )
 
-    expect(screen.getAllByRole('link', { name: 'AI' }).length).toBeGreaterThanOrEqual(2)
+    expect(screen.getAllByRole('link', { name: 'AI' }).length).toBeGreaterThanOrEqual(1)
     expect(screen.getByRole('link', { name: /read my ai philosophy/i })).toHaveAttribute('href', '/ai')
   })
 })
