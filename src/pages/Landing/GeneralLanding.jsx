@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { Books, BlogTeaser, PageWrapper } from '../../components'
 import ReactModal from 'react-modal'
@@ -57,7 +56,7 @@ const GeneralLanding = ({ pageNotFound }) => {
             </div>
           </div>
           <div className='editorial-writing__grid'>
-            <BlogTeaser postsQtyToDisplay={2} postsPage={1} isGeneralLandingPage />
+            <BlogTeaser postsQtyToDisplay={2} isGeneralLandingPage />
             <iframe
               className='editorial-writing__embed'
               title='Subscribe to Ryan R. Campbell&apos;s blog'

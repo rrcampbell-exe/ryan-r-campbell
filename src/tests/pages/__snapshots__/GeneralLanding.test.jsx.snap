@@ -293,40 +293,11 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 class="ContentTeaser"
                 data-testid="blog-teaser"
               >
-                <div>
-                  <div
-                    class="content-post grow-on-hover"
-                  >
-                    <h3>
-                      Before You Call Someone Resistant to Change
-                    </h3>
-                    <p>
-                      Ask what the change is taking from them—and what you can put back.
-                    </p>
-                    <a
-                      href="https://www.r-on-everything.com/p/the-abcs-of-leading-people-through"
-                    >
-                      Visit me on Substack here
-                    </a>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="content-post grow-on-hover"
-                  >
-                    <h3>
-                      I'm Returning to Podcasting After Six Years Away
-                    </h3>
-                    <p>
-                      What’s bringing me back—and what changes when ideas are shared aloud.
-                    </p>
-                    <a
-                      href="https://www.r-on-everything.com/p/introducing-r-on-everything-the-podcast"
-                    >
-                      Visit me on Substack here
-                    </a>
-                  </div>
-                </div>
+                <p
+                  role="status"
+                >
+                  Loading latest essays...
+                </p>
               </div>
               <iframe
                 class="editorial-writing__embed"
@@ -965,40 +936,11 @@ exports[`GeneralLanding > default snapshot 1`] = `
               class="ContentTeaser"
               data-testid="blog-teaser"
             >
-              <div>
-                <div
-                  class="content-post grow-on-hover"
-                >
-                  <h3>
-                    Before You Call Someone Resistant to Change
-                  </h3>
-                  <p>
-                    Ask what the change is taking from them—and what you can put back.
-                  </p>
-                  <a
-                    href="https://www.r-on-everything.com/p/the-abcs-of-leading-people-through"
-                  >
-                    Visit me on Substack here
-                  </a>
-                </div>
-              </div>
-              <div>
-                <div
-                  class="content-post grow-on-hover"
-                >
-                  <h3>
-                    I'm Returning to Podcasting After Six Years Away
-                  </h3>
-                  <p>
-                    What’s bringing me back—and what changes when ideas are shared aloud.
-                  </p>
-                  <a
-                    href="https://www.r-on-everything.com/p/introducing-r-on-everything-the-podcast"
-                  >
-                    Visit me on Substack here
-                  </a>
-                </div>
-              </div>
+              <p
+                role="status"
+              >
+                Loading latest essays...
+              </p>
             </div>
             <iframe
               class="editorial-writing__embed"

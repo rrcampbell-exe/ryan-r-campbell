@@ -1,7 +1,9 @@
 import GeneralLanding from '../../pages/Landing/GeneralLanding'
-import { describe, expect, test } from 'vitest'
-import { render, screen } from '@testing-library/react'
+import { afterEach, describe, expect, test, vi } from 'vitest'
+import { render, screen, waitFor } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
+
+afterEach(() => vi.unstubAllGlobals())
 
 describe('GeneralLanding', () => {
   test('default snapshot', () => {
@@ -61,15 +63,25 @@ describe('GeneralLanding', () => {
     expect(screen.getByRole('link', { name: 'Explore my professional work' })).toHaveAttribute('href', '/work')
   })
 
-  test('should render correct number of teasers', () => {
+  test('should render correct number of teasers', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => [
+        { id: 'latest', title: { rendered: 'Latest essay' }, excerpt: { rendered: 'Latest excerpt' }, link: 'https://www.r-on-everything.com/p/latest' },
+        { id: 'previous', title: { rendered: 'Previous essay' }, excerpt: { rendered: 'Previous excerpt' }, link: 'https://www.r-on-everything.com/p/previous' }
+      ]
+    }))
+
     const { container } = render(
       <ContextAndRouterProvider>
         <GeneralLanding />
       </ContextAndRouterProvider>
     )
 
-    const teasers = container.querySelectorAll('.content-post')
-    expect(teasers.length).toBe(2)
+    await waitFor(() => {
+      const teasers = container.querySelectorAll('.content-post')
+      expect(teasers.length).toBe(2)
+    })
   })
 
   test('should render a link to GitHub', () => {
