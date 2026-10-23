@@ -8,16 +8,10 @@ exports[`Books > Books default snapshot 1`] = `
   >
     <a
       href="/books"
-    />
-    <div>
-      <a
-        href="/books"
-      />
-      <div
-        class="book-container grow-on-hover"
-      >
-        <a
-          href="/books"
+    >
+      <div>
+        <div
+          class="book-container grow-on-hover"
         >
           <div
             class="book-cover-frame"
@@ -40,33 +34,20 @@ exports[`Books > Books default snapshot 1`] = `
           <p>
             The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
           </p>
-        </a>
-        <button
-          class="btn-secondary"
-        >
-          <a
-            href="/books"
-          />
-          <a
-            href="/books"
+          <span
+            class="btn-secondary book-read-more"
           >
             Read more
-          </a>
-        </button>
+          </span>
+        </div>
       </div>
-    </div>
+    </a>
     <a
       href="/books"
-    />
-    <div>
-      <a
-        href="/books"
-      />
-      <div
-        class="book-container grow-on-hover"
-      >
-        <a
-          href="/books"
+    >
+      <div>
+        <div
+          class="book-container grow-on-hover"
         >
           <div
             class="book-cover-frame"
@@ -89,33 +70,20 @@ exports[`Books > Books default snapshot 1`] = `
           <p>
             A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
           </p>
-        </a>
-        <button
-          class="btn-secondary"
-        >
-          <a
-            href="/books"
-          />
-          <a
-            href="/books"
+          <span
+            class="btn-secondary book-read-more"
           >
             Read more
-          </a>
-        </button>
+          </span>
+        </div>
       </div>
-    </div>
+    </a>
     <a
       href="/books"
-    />
-    <div>
-      <a
-        href="/books"
-      />
-      <div
-        class="book-container grow-on-hover"
-      >
-        <a
-          href="/books"
+    >
+      <div>
+        <div
+          class="book-container grow-on-hover"
         >
           <h3
             class="book-title"
@@ -125,33 +93,20 @@ exports[`Books > Books default snapshot 1`] = `
           <p>
             The International Book Awards finalist and first installment in the EMPATHY sci-fi saga.
           </p>
-        </a>
-        <button
-          class="btn-secondary"
-        >
-          <a
-            href="/books"
-          />
-          <a
-            href="/books"
+          <span
+            class="btn-secondary book-read-more"
           >
             Read more
-          </a>
-        </button>
+          </span>
+        </div>
       </div>
-    </div>
+    </a>
     <a
       href="/books"
-    />
-    <div>
-      <a
-        href="/books"
-      />
-      <div
-        class="book-container grow-on-hover"
-      >
-        <a
-          href="/books"
+    >
+      <div>
+        <div
+          class="book-container grow-on-hover"
         >
           <h3
             class="book-title"
@@ -161,21 +116,14 @@ exports[`Books > Books default snapshot 1`] = `
           <p>
             An evocative, sweeping symphony of love, revenge, and desperation in cacophonous times.
           </p>
-        </a>
-        <button
-          class="btn-secondary"
-        >
-          <a
-            href="/books"
-          />
-          <a
-            href="/books"
+          <span
+            class="btn-secondary book-read-more"
           >
             Read more
-          </a>
-        </button>
+          </span>
+        </div>
       </div>
-    </div>
+    </a>
   </div>
 </DocumentFragment>
 `;

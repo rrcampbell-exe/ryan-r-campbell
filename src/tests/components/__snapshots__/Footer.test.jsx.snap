@@ -57,25 +57,18 @@ exports[`Footer > default snapshot 1`] = `
           </li>
           <li>
             <a
-              href="/resume"
-            >
-              Resume
-            </a>
-          </li>
-          <li>
-            <a
-              href="/ai"
-            >
-              AI
-            </a>
-          </li>
-          <li>
-            <a
               href="https://ryanrcampbell.substack.com"
               rel="noopener noreferrer"
               target="_blank"
             >
-              Writing
+              Read
+            </a>
+          </li>
+          <li>
+            <a
+              href="/podcasts"
+            >
+              Listen
             </a>
           </li>
           <li>
@@ -87,9 +80,23 @@ exports[`Footer > default snapshot 1`] = `
           </li>
           <li>
             <a
-              href="/podcasts"
+              href="/work"
             >
-              Podcasts
+              Work
+            </a>
+          </li>
+          <li>
+            <a
+              href="/resume"
+            >
+              Resume
+            </a>
+          </li>
+          <li>
+            <a
+              href="/ai"
+            >
+              AI
             </a>
           </li>
           <li>
