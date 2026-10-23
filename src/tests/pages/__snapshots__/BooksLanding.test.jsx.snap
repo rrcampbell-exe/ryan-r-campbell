@@ -47,29 +47,17 @@ exports[`BooksLanding > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
-              href="/about"
+              href="/podcasts"
             >
-              about
+              listen
             </a>
             <a
               class="header-nav__link"
-              href="/resume"
-            >
-              resume
-            </a>
-            <a
-              class="header-nav__link"
-              href="/ai"
-            >
-              AI
-            </a>
-            <a
-              class="header-nav__link"
-              href="https://ryanrcampbell.substack.com"
+              href="https://r-on-everything.com"
               rel="noopener noreferrer"
               target="_blank"
             >
-              writing
+              read
             </a>
             <a
               class="header-nav__link"
@@ -79,9 +67,15 @@ exports[`BooksLanding > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
-              href="/podcasts"
+              href="/work"
             >
-              podcasts
+              work
+            </a>
+            <a
+              class="header-nav__link"
+              href="/about"
+            >
+              about
             </a>
           </nav>
           <div
@@ -1621,25 +1615,18 @@ exports[`BooksLanding > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
-                    href="/resume"
-                  >
-                    Resume
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/ai"
-                  >
-                    AI
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="https://ryanrcampbell.substack.com"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    Writing
+                    Read
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/podcasts"
+                  >
+                    Listen
                   </a>
                 </li>
                 <li>
@@ -1651,9 +1638,23 @@ exports[`BooksLanding > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
-                    href="/podcasts"
+                    href="/work"
                   >
-                    Podcasts
+                    Work
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/resume"
+                  >
+                    Resume
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/ai"
+                  >
+                    AI
                   </a>
                 </li>
                 <li>
@@ -1793,29 +1794,17 @@ exports[`BooksLanding > default snapshot 1`] = `
           </a>
           <a
             class="header-nav__link"
-            href="/about"
+            href="/podcasts"
           >
-            about
+            listen
           </a>
           <a
             class="header-nav__link"
-            href="/resume"
-          >
-            resume
-          </a>
-          <a
-            class="header-nav__link"
-            href="/ai"
-          >
-            AI
-          </a>
-          <a
-            class="header-nav__link"
-            href="https://ryanrcampbell.substack.com"
+            href="https://r-on-everything.com"
             rel="noopener noreferrer"
             target="_blank"
           >
-            writing
+            read
           </a>
           <a
             class="header-nav__link"
@@ -1825,9 +1814,15 @@ exports[`BooksLanding > default snapshot 1`] = `
           </a>
           <a
             class="header-nav__link"
-            href="/podcasts"
+            href="/work"
           >
-            podcasts
+            work
+          </a>
+          <a
+            class="header-nav__link"
+            href="/about"
+          >
+            about
           </a>
         </nav>
         <div
@@ -3367,25 +3362,18 @@ exports[`BooksLanding > default snapshot 1`] = `
               </li>
               <li>
                 <a
-                  href="/resume"
-                >
-                  Resume
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/ai"
-                >
-                  AI
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://ryanrcampbell.substack.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Writing
+                  Read
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/podcasts"
+                >
+                  Listen
                 </a>
               </li>
               <li>
@@ -3397,9 +3385,23 @@ exports[`BooksLanding > default snapshot 1`] = `
               </li>
               <li>
                 <a
-                  href="/podcasts"
+                  href="/work"
                 >
-                  Podcasts
+                  Work
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/resume"
+                >
+                  Resume
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/ai"
+                >
+                  AI
                 </a>
               </li>
               <li>

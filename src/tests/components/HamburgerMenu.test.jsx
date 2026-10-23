@@ -29,7 +29,7 @@ describe('HamburgerMenu', () => {
     )
     fireEvent.click(getByRole('button', { name: 'Open navigation menu' }))
     const links = getAllByRole('link')
-    expect(links.length).toBe(8)
+    expect(links.length).toBe(9)
   })
   test('should show the active link', () => {
     const { getAllByRole, getByRole } = render(

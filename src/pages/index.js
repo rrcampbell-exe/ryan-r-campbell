@@ -7,5 +7,6 @@ import PodcastEpisode from './Podcast/PodcastEpisode.jsx'
 import PodcastLanding from './Podcast/PodcastLanding.jsx'
 import ResumePage from './Resume/ResumePage.jsx'
 import ContactPage from './Contact/ContactPage.jsx'
+import WorkPage from './Work/WorkPage.jsx'
 
-export { LongStory, ShortStory, AIEnablement, GeneralAbout, BooksLanding, GeneralLanding, PodcastEpisode, PodcastLanding, ResumePage, ContactPage }
+export { LongStory, ShortStory, AIEnablement, GeneralAbout, BooksLanding, GeneralLanding, PodcastEpisode, PodcastLanding, ResumePage, ContactPage, WorkPage }

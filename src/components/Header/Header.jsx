@@ -4,12 +4,11 @@ import { HamburgerMenu } from '../'
 
 const NAV_LINKS = [
   { to: '/',         label: 'home' },
-  { to: '/about',    label: 'about' },
-  { to: '/resume',   label: 'resume' },
-  { to: '/ai',       label: 'AI' },
-  { href: 'https://ryanrcampbell.substack.com', label: 'writing' },
+  { to: '/podcasts', label: 'listen' },
+  { href: 'https://r-on-everything.com', label: 'read' },
   { to: '/books',    label: 'books' },
-  { to: '/podcasts', label: 'podcasts' },
+  { to: '/work',     label: 'work' },
+  { to: '/about',    label: 'about' },
 ]
 
 const Header = ({ pageTitle }) => {

@@ -1,111 +1,71 @@
-import { describe, expect, test } from 'vitest'
-import { render } from '@testing-library/react'
+import { afterEach, describe, expect, test, vi } from 'vitest'
+import { cleanup, render, screen, waitFor } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
 import { BlogTeaser } from '../../components'
-import { posts } from '../../assets/posts'
-import { formatDate } from '../../utils'
 
-const latestPost = posts[0]
+const feedPosts = [
+  {
+    id: 'latest-post',
+    date: '2026-10-22T14:04:33.000Z',
+    link: 'https://www.r-on-everything.com/p/latest-post',
+    title: { rendered: 'Latest essay' },
+    excerpt: { rendered: 'The latest essay excerpt.' }
+  },
+  {
+    id: 'previous-post',
+    date: '2026-10-08T14:07:06.000Z',
+    link: 'https://www.r-on-everything.com/p/previous-post',
+    title: { rendered: 'Previous essay' },
+    excerpt: { rendered: 'The previous essay excerpt.' }
+  }
+]
+
+const renderTeaser = (props = {}) =>
+  render(
+    <ContextAndRouterProvider>
+      <BlogTeaser isGeneralLandingPage postsQtyToDisplay={2} {...props} />
+    </ContextAndRouterProvider>
+  )
 
 describe('BlogTeaser', () => {
-  test('default snapshot', () => {
-    const blogTeaser = render(
-      <ContextAndRouterProvider>
-        <BlogTeaser />
-      </ContextAndRouterProvider>
-    )
-    expect(blogTeaser).toMatchSnapshot()
+  afterEach(() => {
+    cleanup()
+    vi.unstubAllGlobals()
   })
-  test('should render correct number of posts', () => {
-    const { container } = render(
-      <ContextAndRouterProvider>
-        <BlogTeaser postsToDisplay={3} postsPage={1} />
-      </ContextAndRouterProvider>
-    )
 
-    const posts = container.querySelectorAll('.content-post')
-    expect(posts.length).toBe(3)
+  test('renders the latest posts returned by the feed API', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => feedPosts
+    }))
+
+    renderTeaser()
+
+    expect(await screen.findByRole('heading', { name: 'Latest essay' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Previous essay' })).toBeInTheDocument()
+    expect(screen.getByText('The latest essay excerpt.')).toBeInTheDocument()
+    expect(screen.getAllByRole('link', { name: 'Visit me on Substack here' })[0]).toHaveAttribute('href', feedPosts[0].link)
+    expect(fetch).toHaveBeenCalledWith('/api/latest-posts')
   })
-  test('should show the latest posts on the general landing page', () => {
-    const expectedPosts = posts.filter(post => post.slug !== 'all-blog-posts-now-on-substack').slice(0, 2)
-    const { container } = render(
-      <ContextAndRouterProvider>
-        <BlogTeaser postsQtyToDisplay={2} postsPage={1} isGeneralLandingPage />
-      </ContextAndRouterProvider>
-    )
 
-    const teaserTitles = Array.from(container.querySelectorAll('.content-post h3')).map(title => title.textContent)
+  test('limits displayed posts to the requested quantity', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => feedPosts
+    }))
 
-    expect(teaserTitles).toEqual(expectedPosts.map(post => post.title.rendered))
+    renderTeaser({ postsQtyToDisplay: 1 })
+
+    expect(await screen.findByRole('heading', { name: 'Latest essay' })).toBeInTheDocument()
+    await waitFor(() => expect(screen.queryByRole('heading', { name: 'Previous essay' })).not.toBeInTheDocument())
   })
-  test('should display cover image when showCoverImage is true', () => {
-    const { container } = render(
-      <ContextAndRouterProvider>
-        <BlogTeaser postsToDisplay={1} postsPage={1} showCoverImage />
-      </ContextAndRouterProvider>
-    )
 
-    const coverImage = container.querySelector('.cover-image')
-    expect(coverImage).toBeInTheDocument()
-  })
-  test('should not display cover image when showCoverImage is false', () => {
-    const { container } = render(
-      <ContextAndRouterProvider>
-        <BlogTeaser postsToDisplay={1} postsPage={1} />
-      </ContextAndRouterProvider>
-    )
+  test('shows an error with a Substack link when the feed request fails', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: false }))
 
-    const coverImage = container.querySelector('.cover-image')
-    expect(coverImage).not.toBeInTheDocument()
-  })
-  test('should render tags for posts newer than 2020', () => {
-    const { container } = render(
-      <ContextAndRouterProvider>
-        <BlogTeaser postsToDisplay={1} postsPage={1} />
-      </ContextAndRouterProvider>
-    )
+    renderTeaser()
 
-    const tags = container.querySelector('.teaser-tags')
-    expect(tags).toBeInTheDocument()
-  })
-  test('should not render tags for posts older than 2021', () => {
-    const { container } = render(
-      <ContextAndRouterProvider>
-        <BlogTeaser postsToDisplay={1} postsPage={1} />
-      </ContextAndRouterProvider>
-    )
-
-    const tags = container.querySelectorAll('.teaser-tags')
-    expect(tags).not.toHaveLength(posts.length + 1)
-  })
-  test('should point to the correct post', () => {
-    render(
-      <ContextAndRouterProvider>
-        <BlogTeaser postsToDisplay={1} postsPage={1} />
-      </ContextAndRouterProvider>
-    )
-
-    expect(latestPost.link).toContain(window.location.pathname)
-  })
-  test('should link flagged posts directly to Substack', () => {
-    const { container } = render(
-      <ContextAndRouterProvider>
-        <BlogTeaser postsQtyToDisplay={2} postsPage={1} />
-      </ContextAndRouterProvider>
-    )
-
-    const substackPost = Array.from(container.querySelectorAll('.content-post')).filter(post => post.querySelector('h3'))[1]
-
-    expect(substackPost.querySelector('a').getAttribute('href')).toContain('https://www.r-on-everything.com')
-  })
-  test('should show a properly formatted date', () => {
-    const { container } = render(
-      <ContextAndRouterProvider>
-        <BlogTeaser postsToDisplay={1} postsPage={1} />
-      </ContextAndRouterProvider>
-    )
-
-    const date = container.querySelector('span')
-    expect(date.textContent).toContain(formatDate(latestPost.date))
+    expect(await screen.findByRole('alert')).toHaveTextContent('Latest essays are unavailable right now.')
+    expect(screen.getByRole('link', { name: 'Read them on Substack.' })).toHaveAttribute('href', 'https://www.r-on-everything.com')
   })
 })

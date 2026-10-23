@@ -30,9 +30,7 @@ const Books = ({ hideEmpathy }) => {
               )}
               <h3 className='book-title'>{book.title}</h3>
               <p>{book.summary}</p>
-              <button className='btn-secondary'>
-                <Link to={'/books'} state={{ hash: book.id }}>Read more</Link>
-              </button>
+              <span className='btn-secondary book-read-more'>Read more</span>
             </div>
           </div>
         </Link>

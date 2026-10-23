@@ -1,56 +1,52 @@
-import React from 'react'
-import { posts, legacyPosts } from '../../assets/posts'
-import { formatDate, buildNavURL } from '../../utils'
-import { Link, useNavigate } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import PropTypes from 'prop-types'
+import { formatDate } from '../../utils'
 
-const renderTags = (post) => {
-  const postDate = new Date(post.date)
-  const postYear = postDate.getUTCFullYear().toString()
+const BlogTeaser = ({ postsQtyToDisplay, isGeneralLandingPage }) => {
+  const [feedPosts, setFeedPosts] = useState([])
+  const [isLoading, setIsLoading] = useState(true)
+  const [hasError, setHasError] = useState(false)
 
-  if (parseInt(postYear) > 2020) {
-    return (
-      <div className='teaser-tags'>
-        <p>FILED UNDER:</p> 
-        <p>{post.tags.join(', ').toUpperCase()}</p>
-      </div>
-    )
-  }
-}
+  useEffect(() => {
+    fetch('/api/latest-posts')
+      .then((response) => (response.ok ? response.json() : Promise.reject(response)))
+      .then((data) => {
+        if (!Array.isArray(data)) throw new Error('The latest-posts API returned an invalid response')
+        setFeedPosts(data)
+      })
+      .catch(() => setHasError(true))
+      .finally(() => setIsLoading(false))
+  }, [])
 
-const getPostURL = (post) => post.redirectToSubstack ? post.link : buildNavURL(post.link)
-
-const BlogTeaser = ({ postsQtyToDisplay, showCoverImage, postsPage, isTagSearch, filteredPosts, isGeneralLandingPage }) => {
-  const navigate = useNavigate()
-  const teaserPostQtyToDisplay = postsQtyToDisplay ? postsQtyToDisplay : 3
-
-  const maxPostIndex = postsPage * teaserPostQtyToDisplay
-
-  const allPosts = [...posts, ...legacyPosts]
-  const postsForTeaser = isGeneralLandingPage
-    ? allPosts.filter(post => post.slug !== 'all-blog-posts-now-on-substack')
-    : allPosts
-
-  const teaserPosts = isTagSearch ? filteredPosts.slice(0, maxPostIndex) : postsForTeaser.slice(0, maxPostIndex)
+  const teaserPosts = feedPosts.slice(0, postsQtyToDisplay || 3)
 
   return (
     <div className='ContentTeaser' data-testid='blog-teaser'>
+      {isLoading && <p role='status'>Loading latest essays...</p>}
+      {hasError && (
+        <p role='alert'>
+          Latest essays are unavailable right now.{' '}
+          <a href='https://www.r-on-everything.com'>Read them on Substack.</a>
+        </p>
+      )}
       {teaserPosts.map((post) => (
-        <div onClick={() => post.redirectToSubstack ? window.location.replace(post.link) : navigate(getPostURL(post))} key={post.id}>
+        <div key={post.id}>
           <div className='content-post grow-on-hover'>
-            {showCoverImage && <img className='cover-image' src={post.episode_featured_image} alt={post.featured_image_alt ? post.featured_image_alt : 'The cover image for a blog post'} />}
             <h3>{post.title.rendered}</h3>
             {!isGeneralLandingPage && <span>Posted on {formatDate(post.date)}</span>}
             <p>{post.excerpt.rendered}</p>
-            {!isGeneralLandingPage && renderTags(post)}
-            {post.redirectToSubstack
-              ? <a href={getPostURL(post)}>{isGeneralLandingPage ? 'Visit me on Substack here' : 'Read the full post'}</a>
-              : <Link to={getPostURL(post)}>{isGeneralLandingPage ? 'Visit me on Substack here' : 'Read the full post'}</Link>}
+            <a href={post.link}>{isGeneralLandingPage ? 'Visit me on Substack here' : 'Read the full post'}</a>
             {!isGeneralLandingPage && <div className='content-post-underline' />}
           </div>
         </div>
       ))}
     </div>
   )
+}
+
+BlogTeaser.propTypes = {
+  postsQtyToDisplay: PropTypes.number,
+  isGeneralLandingPage: PropTypes.bool,
 }
 
 export default BlogTeaser

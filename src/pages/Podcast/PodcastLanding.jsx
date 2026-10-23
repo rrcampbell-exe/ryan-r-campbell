@@ -31,7 +31,7 @@ const PodcastLanding = () => {
               <img className='feature-img' src='./podcasts/r-on-everything-podcast-cover-art.png' alt='R: On Everything podcast cover art' />
             </div>
             <div className='section-wrapper media-text-row__body'>
-              <p className='Podcast__eyebrow'>Coming soon</p>
+              <p className='Podcast__eyebrow'>The flagship show</p>
               <h1>R: On Everything</h1>
               <p>In an ever-changing world, staying human requires more than keeping up. It requires paying attention to what's changing us.</p>
               <p>In <strong>R: On Everything</strong>, author and technologist Ryan R. Campbell follows that inquiry wherever it leads—from artificial intelligence and the future of work to creativity, culture, consciousness, and the strange business of being human.</p>

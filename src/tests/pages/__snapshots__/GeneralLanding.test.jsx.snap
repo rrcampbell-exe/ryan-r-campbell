@@ -47,29 +47,17 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
-              href="/about"
+              href="/podcasts"
             >
-              about
+              listen
             </a>
             <a
               class="header-nav__link"
-              href="/resume"
-            >
-              resume
-            </a>
-            <a
-              class="header-nav__link"
-              href="/ai"
-            >
-              AI
-            </a>
-            <a
-              class="header-nav__link"
-              href="https://ryanrcampbell.substack.com"
+              href="https://r-on-everything.com"
               rel="noopener noreferrer"
               target="_blank"
             >
-              writing
+              read
             </a>
             <a
               class="header-nav__link"
@@ -79,9 +67,15 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
-              href="/podcasts"
+              href="/work"
             >
-              podcasts
+              work
+            </a>
+            <a
+              class="header-nav__link"
+              href="/about"
+            >
+              about
             </a>
           </nav>
           <div
@@ -164,56 +158,59 @@ exports[`GeneralLanding > default snapshot 1`] = `
           class="General-landing"
         >
           <section
-            class="gl-hero"
-            id="about"
+            class="editorial-hero"
           >
             <div
-              class="gl-hero__content"
+              class="editorial-hero__copy"
             >
               <p
-                class="gl-hero__eyebrow"
+                class="section-label"
               >
                 Technologist · Strategist · Author
               </p>
-              <h1
-                class="gl-hero__name"
-              >
+              <h1>
                 Ryan R. Campbell
               </h1>
               <p
-                class="gl-hero__tagline"
+                class="editorial-hero__lede"
               >
-                From enabling enterprise technology and AI adoption to authoring internationally recognized fiction, my work is driven by curiosity, experimentation, and a fascination with making complex ideas easier to understand.
+                I build systems, explore difficult questions, and make complex ideas easier to understand. My work moves between technology, writing, teaching, and the strange business of being human.
               </p>
               <div
-                class="gl-hero__ctas"
+                class="editorial-hero__actions"
               >
                 <a
                   class="btn-primary"
-                  href="/resume"
+                  href="/podcasts"
                 >
-                  View my resume
+                  Listen to the podcast
                 </a>
                 <a
                   class="btn-secondary"
-                  href="#impact"
+                  href="https://ryanrcampbell.substack.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
                 >
-                  See my work
+                  Read the latest essay
                 </a>
                 <a
-                  class="btn-secondary"
-                  href="/contact"
+                  class="text-link"
+                  href="/work"
                 >
-                  Get in touch
+                  Explore my work →
                 </a>
               </div>
+              <p
+                class="editorial-hero__byline"
+              >
+                R: On Everything is my podcast and blog about artificial intelligence, creativity, culture, consciousness, and curiosity.
+              </p>
             </div>
             <div
-              class="gl-hero__image"
+              class="editorial-hero__art"
             >
               <img
                 alt="Ryan R. Campbell — technical leader, software engineer, and author"
-                class="gl-hero__photo"
                 height="1312"
                 loading="eager"
                 src="./2026-ryan-r-campbell-website-headshot.jpg"
@@ -222,746 +219,232 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </div>
           </section>
           <section
-            aria-label="Key achievements"
-            class="gl-metrics"
+            class="editorial-feature"
           >
             <div
-              class="gl-metrics__item"
+              class="editorial-section-heading"
             >
-              <div
-                aria-hidden="true"
-                class="gl-metrics__icon"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="lucide lucide-brain-circuit"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
+              <div>
+                <p
+                  class="section-label"
                 >
-                  <path
-                    d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"
-                  />
-                  <path
-                    d="M9 13a4.5 4.5 0 0 0 3-4"
-                  />
-                  <path
-                    d="M6.003 5.125A3 3 0 0 0 6.401 6.5"
-                  />
-                  <path
-                    d="M3.477 10.896a4 4 0 0 1 .585-.396"
-                  />
-                  <path
-                    d="M6 18a4 4 0 0 1-1.967-.516"
-                  />
-                  <path
-                    d="M12 13h4"
-                  />
-                  <path
-                    d="M12 18h6a2 2 0 0 1 2 2v1"
-                  />
-                  <path
-                    d="M12 8h8"
-                  />
-                  <path
-                    d="M16 8V5a2 2 0 0 1 2-2"
-                  />
-                  <circle
-                    cx="16"
-                    cy="13"
-                    r=".5"
-                  />
-                  <circle
-                    cx="18"
-                    cy="3"
-                    r=".5"
-                  />
-                  <circle
-                    cx="20"
-                    cy="21"
-                    r=".5"
-                  />
-                  <circle
-                    cx="20"
-                    cy="8"
-                    r=".5"
-                  />
-                </svg>
+                  R: On Everything
+                </p>
+                <h2>
+                  A podcast about staying curious.
+                </h2>
               </div>
-              <div
-                class="gl-metrics__text"
-              >
-                <span
-                  class="gl-metrics__value"
-                >
-                  1,500+
-                </span>
-                <span
-                  class="gl-metrics__label"
-                >
-                  Weekly views on the enterprise AI Hub
-                </span>
-              </div>
+              <p>
+                Each episode follows a question wherever it leads, looking for the possibilities hiding between easy extremes.
+              </p>
             </div>
             <div
-              aria-hidden="true"
-              class="gl-metrics__divider"
-            />
-            <div
-              class="gl-metrics__item"
+              class="editorial-feature__grid"
             >
               <div
-                aria-hidden="true"
-                class="gl-metrics__icon"
+                class="editorial-feature__copy"
               >
-                <svg
-                  aria-hidden="true"
-                  class="lucide lucide-zap"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
+                <h3>
+                  R: On Everything
+                </h3>
+                <p>
+                  In an ever-changing world, staying human requires more than keeping up. It requires paying attention to what's changing us.
+                </p>
+                <p>
+                  Blending personal stories, research, and philosophical inquiry, the show asks how we might live, work, and create with greater curiosity and agency.
+                </p>
+                <a
+                  class="text-link"
+                  href="/podcasts"
                 >
-                  <path
-                    d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
-                  />
-                </svg>
+                  Explore the podcast →
+                </a>
               </div>
-              <div
-                class="gl-metrics__text"
-              >
-                <span
-                  class="gl-metrics__value"
-                >
-                  Most Innovative
-                </span>
-                <span
-                  class="gl-metrics__label"
-                >
-                  Developer Experience Hackathon
-                </span>
-              </div>
-            </div>
-            <div
-              aria-hidden="true"
-              class="gl-metrics__divider"
-            />
-            <div
-              class="gl-metrics__item"
-            >
-              <div
-                aria-hidden="true"
-                class="gl-metrics__icon"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="lucide lucide-award"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
-                  />
-                  <circle
-                    cx="12"
-                    cy="8"
-                    r="6"
-                  />
-                </svg>
-              </div>
-              <div
-                class="gl-metrics__text"
-              >
-                <span
-                  class="gl-metrics__value"
-                >
-                  2×
-                </span>
-                <span
-                  class="gl-metrics__label"
-                >
-                  International Book Awards Finalist
-                </span>
-              </div>
+              <iframe
+                frameborder="0"
+                height="320"
+                src="https://pinecast.com/embed/player_playlist/r-on-everything?color.primary=%230D1B2E&color.secondary=%23152642&color.accent=%231E3552"
+                title="R: On Everything podcast player"
+                width="100%"
+              />
             </div>
           </section>
           <section
-            class="gl-capabilities"
-            id="capabilities"
+            class="editorial-writing"
           >
-            <p
-              class="section-label"
-            >
-              What I do
-            </p>
-            <p
-              class="gl-capabilities__intro"
-            >
-              Systems, people, ideas, and possibilities — the boundaries between these blend best when connected by thoughtful communication. I build the technology, explore the questions, and create the conditions for meaningful exchange across all frontiers.
-            </p>
             <div
-              class="gl-capabilities__grid"
+              class="editorial-section-heading"
             >
-              <article
-                class="gl-capability-card"
-              >
-                <div
-                  aria-hidden="true"
-                  class="gl-capability-card__accent"
-                />
-                <h3>
-                  Technical Leadership
-                </h3>
-                <p>
-                  Understanding how things work and making them work better defines what I do: building software, shaping technical architecture, and leading initiatives that span systems, teams, and organizations, from enterprise platforms to emerging technologies.
+              <div>
+                <p
+                  class="section-label"
+                >
+                  Writing
                 </p>
-              </article>
-              <article
-                class="gl-capability-card"
-              >
-                <div
-                  aria-hidden="true"
-                  class="gl-capability-card__accent"
-                />
-                <h3>
-                  Product & Experimentation
-                </h3>
-                <p>
-                  I thrive in the messy space between "something isn't working" and "here's a better way." Experimentation, feedback, prototyping, and iteration lead us to better answers, clarifying which ideas deserve attention—and which are better left behind.
-                </p>
-              </article>
-              <article
-                class="gl-capability-card"
-              >
-                <div
-                  aria-hidden="true"
-                  class="gl-capability-card__accent"
-                />
-                <h3>
-                  Education & Communication
-                </h3>
-                <p>
-                  Making complicated things easier to understand has been the beating heart of my career. Whether I'm teaching, writing, publishing, designing workshops, or creating learning experiences for unique audiences, I care about clarity without flattening the complexity that makes an idea interesting.
-                </p>
-              </article>
-              <article
-                class="gl-capability-card"
-              >
-                <div
-                  aria-hidden="true"
-                  class="gl-capability-card__accent"
-                />
-                <h3>
-                  Organizational Enablement
-                </h3>
-                <p>
-                  Technology doesn't change organizations. People do. I help teams navigate the space between a new idea and the people who have to make it real—through mentorship, collaboration, communication, and thoughtful adoption.
-                </p>
-              </article>
+                <h2>
+                  Latest essays and reflections.
+                </h2>
+              </div>
             </div>
             <div
-              class="gl-capabilities__cta"
+              class="editorial-writing__grid"
             >
-              <p>
-                AI has become one of the most interesting places where these threads converge. What happens when powerful technology meets real people, real organizations, and imperfect systems? The answer depends on adopting it without losing sight of good judgment, trust, or the humans doing the work.
-              </p>
-              <a
-                class="btn-secondary"
-                href="/ai"
+              <div
+                class="ContentTeaser"
+                data-testid="blog-teaser"
               >
-                Read my AI philosophy
+                <p
+                  role="status"
+                >
+                  Loading latest essays...
+                </p>
+              </div>
+              <iframe
+                class="editorial-writing__embed"
+                frameborder="0"
+                height="320"
+                scrolling="no"
+                src="https://www.r-on-everything.com/embed?transparent=1&light=1"
+                title="Subscribe to Ryan R. Campbell's blog"
+                width="480"
+              />
+            </div>
+            <a
+              class="editorial-section-link text-link"
+              href="https://ryanrcampbell.substack.com"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Read everything on Substack →
+            </a>
+          </section>
+          <section
+            class="editorial-books"
+          >
+            <div
+              class="editorial-section-heading"
+            >
+              <div>
+                <p
+                  class="section-label"
+                >
+                  Books
+                </p>
+                <h2>
+                  Stories and the work behind the questions.
+                </h2>
+              </div>
+            </div>
+            <div
+              class="Books"
+              data-testid="books"
+            >
+              <a
+                href="/books"
+              >
+                <div>
+                  <div
+                    class="book-container grow-on-hover"
+                  >
+                    <div
+                      class="book-cover-frame"
+                      style="aspect-ratio: 1650 / 2400;"
+                    >
+                      <img
+                        alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
+                        class="book-cover"
+                        data-testid="book-cover"
+                        height="2400"
+                        src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+                        width="1650"
+                      />
+                    </div>
+                    <h3
+                      class="book-title"
+                    >
+                      Scambait
+                    </h3>
+                    <p>
+                      The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
+                    </p>
+                    <span
+                      class="btn-secondary book-read-more"
+                    >
+                      Read more
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="/books"
+              >
+                <div>
+                  <div
+                    class="book-container grow-on-hover"
+                  >
+                    <div
+                      class="book-cover-frame"
+                      style="aspect-ratio: 1800 / 2700;"
+                    >
+                      <img
+                        alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
+                        class="book-cover"
+                        data-testid="book-cover"
+                        height="2700"
+                        src="./books/and-ampersand/and-ampersand-flat-cover.png"
+                        width="1800"
+                      />
+                    </div>
+                    <h3
+                      class="book-title"
+                    >
+                      And Ampersand
+                    </h3>
+                    <p>
+                      A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
+                    </p>
+                    <span
+                      class="btn-secondary book-read-more"
+                    >
+                      Read more
+                    </span>
+                  </div>
+                </div>
               </a>
             </div>
+            <a
+              class="editorial-section-link text-link"
+              href="/books"
+            >
+              Visit the author archive →
+            </a>
           </section>
           <section
-            class="gl-impact"
-            id="impact"
+            class="editorial-work-note"
           >
             <p
               class="section-label"
             >
-              Selected impact
+              Beyond the publication
             </p>
-            <p
-              class="gl-impact__intro"
-            >
-              The work is varied. The underlying questions are often the same.
+            <h2>
+              I also build systems, lead technical work, and help organizations make complex ideas useful.
+            </h2>
+            <p>
+              For professional background, selected projects, and evidence of impact, visit the work archive.
             </p>
-            <div
-              class="Boasts"
-              data-testid="boasts"
+            <a
+              class="btn-secondary"
+              href="/work"
             >
-              <div
-                class="boast-row"
-              >
-                <div
-                  class="boast-row__header"
-                >
-                  <div
-                    aria-hidden="true"
-                    class="boast-row__icon"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class="lucide lucide-sparkles"
-                      fill="none"
-                      height="24"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"
-                      />
-                      <path
-                        d="M20 2v4"
-                      />
-                      <path
-                        d="M22 4h-4"
-                      />
-                      <circle
-                        cx="4"
-                        cy="20"
-                        r="2"
-                      />
-                    </svg>
-                  </div>
-                  <h3
-                    class="boast-row__category"
-                  >
-                    Building & Experimentation
-                  </h3>
-                </div>
-                <ul
-                  class="boast-row__achievements"
-                >
-                  <li>
-                    Led the definition, design, and launch of Northwestern Mutual's enterprise AI Hub, including the NM Skills Library and MCP Registry
-                  </li>
-                  <li>
-                    Authored the organization's most-downloaded AI skill, contributing more than 15% of platform downloads
-                  </li>
-                  <li>
-                    Awarded "Most Innovative" in the 2024 Developer Experience Hackathon for an AI-powered application that analyzed internal Slack data
-                  </li>
-                  <li>
-                    Identified customer demand for a new pizza size and redesigned dough specifications and production workflows to support three sizes
-                  </li>
-                </ul>
-              </div>
-              <div
-                class="boast-row"
-              >
-                <div
-                  class="boast-row__header"
-                >
-                  <div
-                    aria-hidden="true"
-                    class="boast-row__icon"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class="lucide lucide-users"
-                      fill="none"
-                      height="24"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
-                      />
-                      <path
-                        d="M16 3.128a4 4 0 0 1 0 7.744"
-                      />
-                      <path
-                        d="M22 21v-2a4 4 0 0 0-3-3.87"
-                      />
-                      <circle
-                        cx="9"
-                        cy="7"
-                        r="4"
-                      />
-                    </svg>
-                  </div>
-                  <h3
-                    class="boast-row__category"
-                  >
-                    Leading & Enabling
-                  </h3>
-                </div>
-                <ul
-                  class="boast-row__achievements"
-                >
-                  <li>
-                    Led cross-organizational research into AI adoption and translated findings into practical implementation recommendations
-                  </li>
-                  <li>
-                    Presented enterprise innovation strategy and organizational enablement recommendations to executive leadership, including the CEO
-                  </li>
-                  <li>
-                    Served as a primary mentor for interns and junior engineers through architecture reviews, onboarding, code reviews, and career conversations
-                  </li>
-                  <li>
-                    Co-chaired the Pathways Mentorship Program engagement committee to facilitate mentorship and talent development initiatives
-                  </li>
-                </ul>
-              </div>
-              <div
-                class="boast-row"
-              >
-                <div
-                  class="boast-row__header"
-                >
-                  <div
-                    aria-hidden="true"
-                    class="boast-row__icon"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class="lucide lucide-book-open"
-                      fill="none"
-                      height="24"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      viewBox="0 0 24 24"
-                      width="24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M12 7v14"
-                      />
-                      <path
-                        d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"
-                      />
-                    </svg>
-                  </div>
-                  <h3
-                    class="boast-row__category"
-                  >
-                    Teaching & Communicating
-                  </h3>
-                </div>
-                <ul
-                  class="boast-row__achievements"
-                >
-                  <li>
-                    Designed and delivered educational programming, workshops, and presentations for UW Continuing Studies, the UW Writers' Institute, and Lakefly Writers Conference
-                  </li>
-                  <li>
-                    Built and grew the Writescast Network into a podcast platform producing 120+ episodes and reaching tens of thousands of listeners
-                  </li>
-                  <li>
-                    Published multiple award-recognized books while managing editing, production, marketing, distribution, and operations
-                  </li>
-                  <li>
-                    Founded and operated an independent publishing and education business, managing its strategy, technology, audience development, and day-to-day operations
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </section>
-          <section
-            class="gl-projects"
-            id="projects"
-          >
-            <p
-              class="section-label"
+              Explore my professional work
+            </a>
+            <a
+              class="text-link"
+              href="/ai"
             >
-              Selected projects
-            </p>
-            <div
-              class="Builds"
-            >
-              <article
-                class="build-tile"
-                data-testid="build"
-              >
-                <div
-                  class="build-tile__logo-wrap"
-                >
-                  <img
-                    alt="Cover art for the "R on Everything" podcast"
-                    class="build-tile__logo"
-                    src="./podcasts/r-on-everything-podcast-cover-art.png"
-                  />
-                </div>
-                <div
-                  class="build-tile__body"
-                >
-                  <h3
-                    class="build-tile__title"
-                  >
-                    The R: On Everything Podcast
-                  </h3>
-                  <p
-                    class="build-tile__teaser"
-                  >
-                    At the intersection of technology, work, leadership, and culture.
-                  </p>
-                  <p
-                    class="build-tile__desc"
-                  >
-                    Ryan R. Campbell delves into the nuances of technology, work, leadership, and culture, offering insights and thought-provoking discussions.
-                  </p>
-                  <p
-                    class="build-tile__tech"
-                  />
-                  <iframe
-                    class="pinecast-embed"
-                    frameborder="0"
-                    height="24"
-                    scrolling="no"
-                    seamless=""
-                    src="https://pnc.st/s/r-on-everything/embed"
-                    width="100%"
-                  />
-                </div>
-                <div
-                  class="build-tile__links"
-                >
-                  <a
-                    class="build-tile__link"
-                    href="https://r-on-everything.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    listen to the podcast
-                  </a>
-                </div>
-              </article>
-              <article
-                class="build-tile"
-                data-testid="build"
-              >
-                <div
-                  class="build-tile__logo-wrap"
-                >
-                  <img
-                    alt="A winter driveway at The Druids Den"
-                    class="build-tile__logo"
-                    src="./builds/druids-den-winter-driveway.jpg"
-                  />
-                </div>
-                <div
-                  class="build-tile__body"
-                >
-                  <h3
-                    class="build-tile__title"
-                  >
-                    The Druids Den
-                  </h3>
-                  <p
-                    class="build-tile__teaser"
-                  >
-                    A northwoods Wisconsin escape.
-                  </p>
-                  <p
-                    class="build-tile__desc"
-                  >
-                    Nestled on 5½ private acres in the heart of Wisconsin's northwoods, the Druids Den offers a unique woodlands experience for those seeking relaxation and adventure alike.
-                  </p>
-                  <p
-                    class="build-tile__tech"
-                  />
-                </div>
-                <div
-                  class="build-tile__links"
-                >
-                  <a
-                    class="build-tile__link"
-                    href="https://druidsdenwi.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    explore the retreat
-                  </a>
-                </div>
-              </article>
-            </div>
-          </section>
-          <section
-            class="gl-writing"
-            id="writing"
-          >
-            <p
-              class="section-label"
-            >
-              Writing
-            </p>
-            <div
-              class="gl-writing__grid"
-            >
-              <div
-                class="gl-writing__posts"
-              >
-                <div
-                  class="ContentTeaser"
-                  data-testid="blog-teaser"
-                >
-                  <div>
-                    <div
-                      class="content-post grow-on-hover"
-                    >
-                      <h3>
-                        Before You Call Someone Resistant to Change
-                      </h3>
-                      <p>
-                        Ask what the change is taking from them—and what you can put back.
-                      </p>
-                      <a
-                        href="https://www.r-on-everything.com/p/the-abcs-of-leading-people-through"
-                      >
-                        Visit me on Substack here
-                      </a>
-                    </div>
-                  </div>
-                  <div>
-                    <div
-                      class="content-post grow-on-hover"
-                    >
-                      <h3>
-                        I'm Returning to Podcasting After Six Years Away
-                      </h3>
-                      <p>
-                        What’s bringing me back—and what changes when ideas are shared aloud.
-                      </p>
-                      <a
-                        href="https://www.r-on-everything.com/p/introducing-r-on-everything-the-podcast"
-                      >
-                        Visit me on Substack here
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <iframe
-                  class="gl-writing__embed"
-                  frameborder="0"
-                  height="320"
-                  scrolling="no"
-                  src="https://www.r-on-everything.com/embed?transparent=1&light=1"
-                  style="border: 0px; background: transparent;"
-                  width="480"
-                />
-              </div>
-              <div
-                class="gl-writing__books"
-              >
-                <div
-                  class="Books"
-                  data-testid="books"
-                >
-                  <a
-                    href="/books"
-                  >
-                    <div>
-                      <div
-                        class="book-container grow-on-hover"
-                      >
-                        <div
-                          class="book-cover-frame"
-                          style="aspect-ratio: 1650 / 2400;"
-                        >
-                          <img
-                            alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
-                            class="book-cover"
-                            data-testid="book-cover"
-                            height="2400"
-                            src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
-                            width="1650"
-                          />
-                        </div>
-                        <h3
-                          class="book-title"
-                        >
-                          Scambait
-                        </h3>
-                        <p>
-                          The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
-                        </p>
-                        <button
-                          class="btn-secondary"
-                        >
-                          <a
-                            href="/books"
-                          >
-                            Read more
-                          </a>
-                        </button>
-                      </div>
-                    </div>
-                  </a>
-                  <a
-                    href="/books"
-                  >
-                    <div>
-                      <div
-                        class="book-container grow-on-hover"
-                      >
-                        <div
-                          class="book-cover-frame"
-                          style="aspect-ratio: 1800 / 2700;"
-                        >
-                          <img
-                            alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
-                            class="book-cover"
-                            data-testid="book-cover"
-                            height="2700"
-                            src="./books/and-ampersand/and-ampersand-flat-cover.png"
-                            width="1800"
-                          />
-                        </div>
-                        <h3
-                          class="book-title"
-                        >
-                          And Ampersand
-                        </h3>
-                        <p>
-                          A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
-                        </p>
-                        <button
-                          class="btn-secondary"
-                        >
-                          <a
-                            href="/books"
-                          >
-                            Read more
-                          </a>
-                        </button>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
+              Read my AI philosophy →
+            </a>
           </section>
         </main>
         <div
@@ -1025,25 +508,18 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
-                    href="/resume"
-                  >
-                    Resume
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/ai"
-                  >
-                    AI
-                  </a>
-                </li>
-                <li>
-                  <a
                     href="https://ryanrcampbell.substack.com"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    Writing
+                    Read
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/podcasts"
+                  >
+                    Listen
                   </a>
                 </li>
                 <li>
@@ -1055,9 +531,23 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
-                    href="/podcasts"
+                    href="/work"
                   >
-                    Podcasts
+                    Work
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/resume"
+                  >
+                    Resume
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/ai"
+                  >
+                    AI
                   </a>
                 </li>
                 <li>
@@ -1200,29 +690,17 @@ exports[`GeneralLanding > default snapshot 1`] = `
           </a>
           <a
             class="header-nav__link"
-            href="/about"
+            href="/podcasts"
           >
-            about
+            listen
           </a>
           <a
             class="header-nav__link"
-            href="/resume"
-          >
-            resume
-          </a>
-          <a
-            class="header-nav__link"
-            href="/ai"
-          >
-            AI
-          </a>
-          <a
-            class="header-nav__link"
-            href="https://ryanrcampbell.substack.com"
+            href="https://r-on-everything.com"
             rel="noopener noreferrer"
             target="_blank"
           >
-            writing
+            read
           </a>
           <a
             class="header-nav__link"
@@ -1232,9 +710,15 @@ exports[`GeneralLanding > default snapshot 1`] = `
           </a>
           <a
             class="header-nav__link"
-            href="/podcasts"
+            href="/work"
           >
-            podcasts
+            work
+          </a>
+          <a
+            class="header-nav__link"
+            href="/about"
+          >
+            about
           </a>
         </nav>
         <div
@@ -1317,56 +801,59 @@ exports[`GeneralLanding > default snapshot 1`] = `
         class="General-landing"
       >
         <section
-          class="gl-hero"
-          id="about"
+          class="editorial-hero"
         >
           <div
-            class="gl-hero__content"
+            class="editorial-hero__copy"
           >
             <p
-              class="gl-hero__eyebrow"
+              class="section-label"
             >
               Technologist · Strategist · Author
             </p>
-            <h1
-              class="gl-hero__name"
-            >
+            <h1>
               Ryan R. Campbell
             </h1>
             <p
-              class="gl-hero__tagline"
+              class="editorial-hero__lede"
             >
-              From enabling enterprise technology and AI adoption to authoring internationally recognized fiction, my work is driven by curiosity, experimentation, and a fascination with making complex ideas easier to understand.
+              I build systems, explore difficult questions, and make complex ideas easier to understand. My work moves between technology, writing, teaching, and the strange business of being human.
             </p>
             <div
-              class="gl-hero__ctas"
+              class="editorial-hero__actions"
             >
               <a
                 class="btn-primary"
-                href="/resume"
+                href="/podcasts"
               >
-                View my resume
+                Listen to the podcast
               </a>
               <a
                 class="btn-secondary"
-                href="#impact"
+                href="https://ryanrcampbell.substack.com"
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                See my work
+                Read the latest essay
               </a>
               <a
-                class="btn-secondary"
-                href="/contact"
+                class="text-link"
+                href="/work"
               >
-                Get in touch
+                Explore my work →
               </a>
             </div>
+            <p
+              class="editorial-hero__byline"
+            >
+              R: On Everything is my podcast and blog about artificial intelligence, creativity, culture, consciousness, and curiosity.
+            </p>
           </div>
           <div
-            class="gl-hero__image"
+            class="editorial-hero__art"
           >
             <img
               alt="Ryan R. Campbell — technical leader, software engineer, and author"
-              class="gl-hero__photo"
               height="1312"
               loading="eager"
               src="./2026-ryan-r-campbell-website-headshot.jpg"
@@ -1375,746 +862,232 @@ exports[`GeneralLanding > default snapshot 1`] = `
           </div>
         </section>
         <section
-          aria-label="Key achievements"
-          class="gl-metrics"
+          class="editorial-feature"
         >
           <div
-            class="gl-metrics__item"
+            class="editorial-section-heading"
           >
-            <div
-              aria-hidden="true"
-              class="gl-metrics__icon"
-            >
-              <svg
-                aria-hidden="true"
-                class="lucide lucide-brain-circuit"
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
+            <div>
+              <p
+                class="section-label"
               >
-                <path
-                  d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"
-                />
-                <path
-                  d="M9 13a4.5 4.5 0 0 0 3-4"
-                />
-                <path
-                  d="M6.003 5.125A3 3 0 0 0 6.401 6.5"
-                />
-                <path
-                  d="M3.477 10.896a4 4 0 0 1 .585-.396"
-                />
-                <path
-                  d="M6 18a4 4 0 0 1-1.967-.516"
-                />
-                <path
-                  d="M12 13h4"
-                />
-                <path
-                  d="M12 18h6a2 2 0 0 1 2 2v1"
-                />
-                <path
-                  d="M12 8h8"
-                />
-                <path
-                  d="M16 8V5a2 2 0 0 1 2-2"
-                />
-                <circle
-                  cx="16"
-                  cy="13"
-                  r=".5"
-                />
-                <circle
-                  cx="18"
-                  cy="3"
-                  r=".5"
-                />
-                <circle
-                  cx="20"
-                  cy="21"
-                  r=".5"
-                />
-                <circle
-                  cx="20"
-                  cy="8"
-                  r=".5"
-                />
-              </svg>
+                R: On Everything
+              </p>
+              <h2>
+                A podcast about staying curious.
+              </h2>
             </div>
-            <div
-              class="gl-metrics__text"
-            >
-              <span
-                class="gl-metrics__value"
-              >
-                1,500+
-              </span>
-              <span
-                class="gl-metrics__label"
-              >
-                Weekly views on the enterprise AI Hub
-              </span>
-            </div>
+            <p>
+              Each episode follows a question wherever it leads, looking for the possibilities hiding between easy extremes.
+            </p>
           </div>
           <div
-            aria-hidden="true"
-            class="gl-metrics__divider"
-          />
-          <div
-            class="gl-metrics__item"
+            class="editorial-feature__grid"
           >
             <div
-              aria-hidden="true"
-              class="gl-metrics__icon"
+              class="editorial-feature__copy"
             >
-              <svg
-                aria-hidden="true"
-                class="lucide lucide-zap"
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
+              <h3>
+                R: On Everything
+              </h3>
+              <p>
+                In an ever-changing world, staying human requires more than keeping up. It requires paying attention to what's changing us.
+              </p>
+              <p>
+                Blending personal stories, research, and philosophical inquiry, the show asks how we might live, work, and create with greater curiosity and agency.
+              </p>
+              <a
+                class="text-link"
+                href="/podcasts"
               >
-                <path
-                  d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
-                />
-              </svg>
+                Explore the podcast →
+              </a>
             </div>
-            <div
-              class="gl-metrics__text"
-            >
-              <span
-                class="gl-metrics__value"
-              >
-                Most Innovative
-              </span>
-              <span
-                class="gl-metrics__label"
-              >
-                Developer Experience Hackathon
-              </span>
-            </div>
-          </div>
-          <div
-            aria-hidden="true"
-            class="gl-metrics__divider"
-          />
-          <div
-            class="gl-metrics__item"
-          >
-            <div
-              aria-hidden="true"
-              class="gl-metrics__icon"
-            >
-              <svg
-                aria-hidden="true"
-                class="lucide lucide-award"
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
-                />
-                <circle
-                  cx="12"
-                  cy="8"
-                  r="6"
-                />
-              </svg>
-            </div>
-            <div
-              class="gl-metrics__text"
-            >
-              <span
-                class="gl-metrics__value"
-              >
-                2×
-              </span>
-              <span
-                class="gl-metrics__label"
-              >
-                International Book Awards Finalist
-              </span>
-            </div>
+            <iframe
+              frameborder="0"
+              height="320"
+              src="https://pinecast.com/embed/player_playlist/r-on-everything?color.primary=%230D1B2E&color.secondary=%23152642&color.accent=%231E3552"
+              title="R: On Everything podcast player"
+              width="100%"
+            />
           </div>
         </section>
         <section
-          class="gl-capabilities"
-          id="capabilities"
+          class="editorial-writing"
         >
-          <p
-            class="section-label"
-          >
-            What I do
-          </p>
-          <p
-            class="gl-capabilities__intro"
-          >
-            Systems, people, ideas, and possibilities — the boundaries between these blend best when connected by thoughtful communication. I build the technology, explore the questions, and create the conditions for meaningful exchange across all frontiers.
-          </p>
           <div
-            class="gl-capabilities__grid"
+            class="editorial-section-heading"
           >
-            <article
-              class="gl-capability-card"
-            >
-              <div
-                aria-hidden="true"
-                class="gl-capability-card__accent"
-              />
-              <h3>
-                Technical Leadership
-              </h3>
-              <p>
-                Understanding how things work and making them work better defines what I do: building software, shaping technical architecture, and leading initiatives that span systems, teams, and organizations, from enterprise platforms to emerging technologies.
+            <div>
+              <p
+                class="section-label"
+              >
+                Writing
               </p>
-            </article>
-            <article
-              class="gl-capability-card"
-            >
-              <div
-                aria-hidden="true"
-                class="gl-capability-card__accent"
-              />
-              <h3>
-                Product & Experimentation
-              </h3>
-              <p>
-                I thrive in the messy space between "something isn't working" and "here's a better way." Experimentation, feedback, prototyping, and iteration lead us to better answers, clarifying which ideas deserve attention—and which are better left behind.
-              </p>
-            </article>
-            <article
-              class="gl-capability-card"
-            >
-              <div
-                aria-hidden="true"
-                class="gl-capability-card__accent"
-              />
-              <h3>
-                Education & Communication
-              </h3>
-              <p>
-                Making complicated things easier to understand has been the beating heart of my career. Whether I'm teaching, writing, publishing, designing workshops, or creating learning experiences for unique audiences, I care about clarity without flattening the complexity that makes an idea interesting.
-              </p>
-            </article>
-            <article
-              class="gl-capability-card"
-            >
-              <div
-                aria-hidden="true"
-                class="gl-capability-card__accent"
-              />
-              <h3>
-                Organizational Enablement
-              </h3>
-              <p>
-                Technology doesn't change organizations. People do. I help teams navigate the space between a new idea and the people who have to make it real—through mentorship, collaboration, communication, and thoughtful adoption.
-              </p>
-            </article>
+              <h2>
+                Latest essays and reflections.
+              </h2>
+            </div>
           </div>
           <div
-            class="gl-capabilities__cta"
+            class="editorial-writing__grid"
           >
-            <p>
-              AI has become one of the most interesting places where these threads converge. What happens when powerful technology meets real people, real organizations, and imperfect systems? The answer depends on adopting it without losing sight of good judgment, trust, or the humans doing the work.
-            </p>
-            <a
-              class="btn-secondary"
-              href="/ai"
+            <div
+              class="ContentTeaser"
+              data-testid="blog-teaser"
             >
-              Read my AI philosophy
+              <p
+                role="status"
+              >
+                Loading latest essays...
+              </p>
+            </div>
+            <iframe
+              class="editorial-writing__embed"
+              frameborder="0"
+              height="320"
+              scrolling="no"
+              src="https://www.r-on-everything.com/embed?transparent=1&light=1"
+              title="Subscribe to Ryan R. Campbell's blog"
+              width="480"
+            />
+          </div>
+          <a
+            class="editorial-section-link text-link"
+            href="https://ryanrcampbell.substack.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Read everything on Substack →
+          </a>
+        </section>
+        <section
+          class="editorial-books"
+        >
+          <div
+            class="editorial-section-heading"
+          >
+            <div>
+              <p
+                class="section-label"
+              >
+                Books
+              </p>
+              <h2>
+                Stories and the work behind the questions.
+              </h2>
+            </div>
+          </div>
+          <div
+            class="Books"
+            data-testid="books"
+          >
+            <a
+              href="/books"
+            >
+              <div>
+                <div
+                  class="book-container grow-on-hover"
+                >
+                  <div
+                    class="book-cover-frame"
+                    style="aspect-ratio: 1650 / 2400;"
+                  >
+                    <img
+                      alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
+                      class="book-cover"
+                      data-testid="book-cover"
+                      height="2400"
+                      src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
+                      width="1650"
+                    />
+                  </div>
+                  <h3
+                    class="book-title"
+                  >
+                    Scambait
+                  </h3>
+                  <p>
+                    The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
+                  </p>
+                  <span
+                    class="btn-secondary book-read-more"
+                  >
+                    Read more
+                  </span>
+                </div>
+              </div>
+            </a>
+            <a
+              href="/books"
+            >
+              <div>
+                <div
+                  class="book-container grow-on-hover"
+                >
+                  <div
+                    class="book-cover-frame"
+                    style="aspect-ratio: 1800 / 2700;"
+                  >
+                    <img
+                      alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
+                      class="book-cover"
+                      data-testid="book-cover"
+                      height="2700"
+                      src="./books/and-ampersand/and-ampersand-flat-cover.png"
+                      width="1800"
+                    />
+                  </div>
+                  <h3
+                    class="book-title"
+                  >
+                    And Ampersand
+                  </h3>
+                  <p>
+                    A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
+                  </p>
+                  <span
+                    class="btn-secondary book-read-more"
+                  >
+                    Read more
+                  </span>
+                </div>
+              </div>
             </a>
           </div>
+          <a
+            class="editorial-section-link text-link"
+            href="/books"
+          >
+            Visit the author archive →
+          </a>
         </section>
         <section
-          class="gl-impact"
-          id="impact"
+          class="editorial-work-note"
         >
           <p
             class="section-label"
           >
-            Selected impact
+            Beyond the publication
           </p>
-          <p
-            class="gl-impact__intro"
-          >
-            The work is varied. The underlying questions are often the same.
+          <h2>
+            I also build systems, lead technical work, and help organizations make complex ideas useful.
+          </h2>
+          <p>
+            For professional background, selected projects, and evidence of impact, visit the work archive.
           </p>
-          <div
-            class="Boasts"
-            data-testid="boasts"
+          <a
+            class="btn-secondary"
+            href="/work"
           >
-            <div
-              class="boast-row"
-            >
-              <div
-                class="boast-row__header"
-              >
-                <div
-                  aria-hidden="true"
-                  class="boast-row__icon"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-sparkles"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"
-                    />
-                    <path
-                      d="M20 2v4"
-                    />
-                    <path
-                      d="M22 4h-4"
-                    />
-                    <circle
-                      cx="4"
-                      cy="20"
-                      r="2"
-                    />
-                  </svg>
-                </div>
-                <h3
-                  class="boast-row__category"
-                >
-                  Building & Experimentation
-                </h3>
-              </div>
-              <ul
-                class="boast-row__achievements"
-              >
-                <li>
-                  Led the definition, design, and launch of Northwestern Mutual's enterprise AI Hub, including the NM Skills Library and MCP Registry
-                </li>
-                <li>
-                  Authored the organization's most-downloaded AI skill, contributing more than 15% of platform downloads
-                </li>
-                <li>
-                  Awarded "Most Innovative" in the 2024 Developer Experience Hackathon for an AI-powered application that analyzed internal Slack data
-                </li>
-                <li>
-                  Identified customer demand for a new pizza size and redesigned dough specifications and production workflows to support three sizes
-                </li>
-              </ul>
-            </div>
-            <div
-              class="boast-row"
-            >
-              <div
-                class="boast-row__header"
-              >
-                <div
-                  aria-hidden="true"
-                  class="boast-row__icon"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-users"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
-                    />
-                    <path
-                      d="M16 3.128a4 4 0 0 1 0 7.744"
-                    />
-                    <path
-                      d="M22 21v-2a4 4 0 0 0-3-3.87"
-                    />
-                    <circle
-                      cx="9"
-                      cy="7"
-                      r="4"
-                    />
-                  </svg>
-                </div>
-                <h3
-                  class="boast-row__category"
-                >
-                  Leading & Enabling
-                </h3>
-              </div>
-              <ul
-                class="boast-row__achievements"
-              >
-                <li>
-                  Led cross-organizational research into AI adoption and translated findings into practical implementation recommendations
-                </li>
-                <li>
-                  Presented enterprise innovation strategy and organizational enablement recommendations to executive leadership, including the CEO
-                </li>
-                <li>
-                  Served as a primary mentor for interns and junior engineers through architecture reviews, onboarding, code reviews, and career conversations
-                </li>
-                <li>
-                  Co-chaired the Pathways Mentorship Program engagement committee to facilitate mentorship and talent development initiatives
-                </li>
-              </ul>
-            </div>
-            <div
-              class="boast-row"
-            >
-              <div
-                class="boast-row__header"
-              >
-                <div
-                  aria-hidden="true"
-                  class="boast-row__icon"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-book-open"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M12 7v14"
-                    />
-                    <path
-                      d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"
-                    />
-                  </svg>
-                </div>
-                <h3
-                  class="boast-row__category"
-                >
-                  Teaching & Communicating
-                </h3>
-              </div>
-              <ul
-                class="boast-row__achievements"
-              >
-                <li>
-                  Designed and delivered educational programming, workshops, and presentations for UW Continuing Studies, the UW Writers' Institute, and Lakefly Writers Conference
-                </li>
-                <li>
-                  Built and grew the Writescast Network into a podcast platform producing 120+ episodes and reaching tens of thousands of listeners
-                </li>
-                <li>
-                  Published multiple award-recognized books while managing editing, production, marketing, distribution, and operations
-                </li>
-                <li>
-                  Founded and operated an independent publishing and education business, managing its strategy, technology, audience development, and day-to-day operations
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section
-          class="gl-projects"
-          id="projects"
-        >
-          <p
-            class="section-label"
+            Explore my professional work
+          </a>
+          <a
+            class="text-link"
+            href="/ai"
           >
-            Selected projects
-          </p>
-          <div
-            class="Builds"
-          >
-            <article
-              class="build-tile"
-              data-testid="build"
-            >
-              <div
-                class="build-tile__logo-wrap"
-              >
-                <img
-                  alt="Cover art for the "R on Everything" podcast"
-                  class="build-tile__logo"
-                  src="./podcasts/r-on-everything-podcast-cover-art.png"
-                />
-              </div>
-              <div
-                class="build-tile__body"
-              >
-                <h3
-                  class="build-tile__title"
-                >
-                  The R: On Everything Podcast
-                </h3>
-                <p
-                  class="build-tile__teaser"
-                >
-                  At the intersection of technology, work, leadership, and culture.
-                </p>
-                <p
-                  class="build-tile__desc"
-                >
-                  Ryan R. Campbell delves into the nuances of technology, work, leadership, and culture, offering insights and thought-provoking discussions.
-                </p>
-                <p
-                  class="build-tile__tech"
-                />
-                <iframe
-                  class="pinecast-embed"
-                  frameborder="0"
-                  height="24"
-                  scrolling="no"
-                  seamless=""
-                  src="https://pnc.st/s/r-on-everything/embed"
-                  width="100%"
-                />
-              </div>
-              <div
-                class="build-tile__links"
-              >
-                <a
-                  class="build-tile__link"
-                  href="https://r-on-everything.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  listen to the podcast
-                </a>
-              </div>
-            </article>
-            <article
-              class="build-tile"
-              data-testid="build"
-            >
-              <div
-                class="build-tile__logo-wrap"
-              >
-                <img
-                  alt="A winter driveway at The Druids Den"
-                  class="build-tile__logo"
-                  src="./builds/druids-den-winter-driveway.jpg"
-                />
-              </div>
-              <div
-                class="build-tile__body"
-              >
-                <h3
-                  class="build-tile__title"
-                >
-                  The Druids Den
-                </h3>
-                <p
-                  class="build-tile__teaser"
-                >
-                  A northwoods Wisconsin escape.
-                </p>
-                <p
-                  class="build-tile__desc"
-                >
-                  Nestled on 5½ private acres in the heart of Wisconsin's northwoods, the Druids Den offers a unique woodlands experience for those seeking relaxation and adventure alike.
-                </p>
-                <p
-                  class="build-tile__tech"
-                />
-              </div>
-              <div
-                class="build-tile__links"
-              >
-                <a
-                  class="build-tile__link"
-                  href="https://druidsdenwi.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  explore the retreat
-                </a>
-              </div>
-            </article>
-          </div>
-        </section>
-        <section
-          class="gl-writing"
-          id="writing"
-        >
-          <p
-            class="section-label"
-          >
-            Writing
-          </p>
-          <div
-            class="gl-writing__grid"
-          >
-            <div
-              class="gl-writing__posts"
-            >
-              <div
-                class="ContentTeaser"
-                data-testid="blog-teaser"
-              >
-                <div>
-                  <div
-                    class="content-post grow-on-hover"
-                  >
-                    <h3>
-                      Before You Call Someone Resistant to Change
-                    </h3>
-                    <p>
-                      Ask what the change is taking from them—and what you can put back.
-                    </p>
-                    <a
-                      href="https://www.r-on-everything.com/p/the-abcs-of-leading-people-through"
-                    >
-                      Visit me on Substack here
-                    </a>
-                  </div>
-                </div>
-                <div>
-                  <div
-                    class="content-post grow-on-hover"
-                  >
-                    <h3>
-                      I'm Returning to Podcasting After Six Years Away
-                    </h3>
-                    <p>
-                      What’s bringing me back—and what changes when ideas are shared aloud.
-                    </p>
-                    <a
-                      href="https://www.r-on-everything.com/p/introducing-r-on-everything-the-podcast"
-                    >
-                      Visit me on Substack here
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <iframe
-                class="gl-writing__embed"
-                frameborder="0"
-                height="320"
-                scrolling="no"
-                src="https://www.r-on-everything.com/embed?transparent=1&light=1"
-                style="border: 0px; background: transparent;"
-                width="480"
-              />
-            </div>
-            <div
-              class="gl-writing__books"
-            >
-              <div
-                class="Books"
-                data-testid="books"
-              >
-                <a
-                  href="/books"
-                >
-                  <div>
-                    <div
-                      class="book-container grow-on-hover"
-                    >
-                      <div
-                        class="book-cover-frame"
-                        style="aspect-ratio: 1650 / 2400;"
-                      >
-                        <img
-                          alt="Orange cover of the book Scambait by Ryan R. Campbell, which displays the book title and shows the main character sitting at a desk with a computer and his Saint Bernard at his side"
-                          class="book-cover"
-                          data-testid="book-cover"
-                          height="2400"
-                          src="./books/scambait/scambait-flat-cover-international-book-awards-readers-favorite-sticker.png"
-                          width="1650"
-                        />
-                      </div>
-                      <h3
-                        class="book-title"
-                      >
-                        Scambait
-                      </h3>
-                      <p>
-                        The International Book Awards finalist in Humor and Satire that asks, "Who scams the scammers?"
-                      </p>
-                      <button
-                        class="btn-secondary"
-                      >
-                        <a
-                          href="/books"
-                        >
-                          Read more
-                        </a>
-                      </button>
-                    </div>
-                  </div>
-                </a>
-                <a
-                  href="/books"
-                >
-                  <div>
-                    <div
-                      class="book-container grow-on-hover"
-                    >
-                      <div
-                        class="book-cover-frame"
-                        style="aspect-ratio: 1800 / 2700;"
-                      >
-                        <img
-                          alt="The black cover of the book And Ampersand by Ryan R. Campbell, which features two large ampersands in gold and white, respectively"
-                          class="book-cover"
-                          data-testid="book-cover"
-                          height="2700"
-                          src="./books/and-ampersand/and-ampersand-flat-cover.png"
-                          width="1800"
-                        />
-                      </div>
-                      <h3
-                        class="book-title"
-                      >
-                        And Ampersand
-                      </h3>
-                      <p>
-                        A collection of short fiction that begins with endings, ends with beginnings, and elevates feel over form.
-                      </p>
-                      <button
-                        class="btn-secondary"
-                      >
-                        <a
-                          href="/books"
-                        >
-                          Read more
-                        </a>
-                      </button>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
+            Read my AI philosophy →
+          </a>
         </section>
       </main>
       <div
@@ -2178,25 +1151,18 @@ exports[`GeneralLanding > default snapshot 1`] = `
               </li>
               <li>
                 <a
-                  href="/resume"
-                >
-                  Resume
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/ai"
-                >
-                  AI
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://ryanrcampbell.substack.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Writing
+                  Read
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/podcasts"
+                >
+                  Listen
                 </a>
               </li>
               <li>
@@ -2208,9 +1174,23 @@ exports[`GeneralLanding > default snapshot 1`] = `
               </li>
               <li>
                 <a
-                  href="/podcasts"
+                  href="/work"
                 >
-                  Podcasts
+                  Work
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/resume"
+                >
+                  Resume
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/ai"
+                >
+                  AI
                 </a>
               </li>
               <li>
