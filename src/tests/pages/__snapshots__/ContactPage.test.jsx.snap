@@ -8,6 +8,12 @@ exports[`ContactPage > default snapshot 1`] = `
       <div
         class="undefined Contact-Page"
       >
+        <a
+          class="skip-to-main"
+          href="#main-content"
+        >
+          Skip to main content
+        </a>
         <header
           class="Header"
         >
@@ -31,7 +37,7 @@ exports[`ContactPage > default snapshot 1`] = `
               aria-hidden="true"
               class="page-subtitle"
             >
-              inquirer & inquiree
+              inquirer | inquiree
             </span>
           </a>
           <nav
@@ -73,9 +79,21 @@ exports[`ContactPage > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
+              href="/resume"
+            >
+              résumé
+            </a>
+            <a
+              class="header-nav__link"
               href="/about"
             >
               about
+            </a>
+            <a
+              class="header-nav__link"
+              href="/contact"
+            >
+              contact
             </a>
           </nav>
           <div
@@ -154,16 +172,18 @@ exports[`ContactPage > default snapshot 1`] = `
             </div>
           </div>
         </header>
-        <div
+        <main
           class="contact-container"
+          id="main-content"
+          tabindex="-1"
         >
           <div
             class="section-wrapper"
             id="contact"
           >
-            <h2>
-              contact (gmail)
-            </h2>
+            <h1>
+              Contact
+            </h1>
             <div
               class="Contact"
             >
@@ -171,10 +191,10 @@ exports[`ContactPage > default snapshot 1`] = `
                 class="contact-option"
               >
                 <h3>
-                  tech inquiries
+                  professional inquiries
                 </h3>
                 <p>
-                  campbell.ryan.r
+                  campbell.ryan.r (gmail)
                 </p>
               </div>
               <div
@@ -184,7 +204,7 @@ exports[`ContactPage > default snapshot 1`] = `
                   author inquiries
                 </h3>
                 <p>
-                  rrcampbellwrites
+                  rrcampbellwrites (gmail)
                 </p>
               </div>
               <div
@@ -196,7 +216,7 @@ exports[`ContactPage > default snapshot 1`] = `
                 <a
                   class="subscription-link"
                   href="https://ryanrcampbell.substack.com/subscribe"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <p>
@@ -231,7 +251,7 @@ exports[`ContactPage > default snapshot 1`] = `
                 <a
                   class="subscription-link"
                   href="https://www.linkedin.com/in/ryan-r-campbell/"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <p>
@@ -263,12 +283,14 @@ exports[`ContactPage > default snapshot 1`] = `
             class="section-wrapper"
           >
             <img
-              alt="Ryan R. Campbell in front of a blurry bookshelf"
+              alt="Ryan R. Campbell wearing a cap with a pheasant design and a black hoodie."
               class="contact-photo"
-              src="./ryan-r-campbell-bookshelf-background.jpg"
+              height="1448"
+              src="/personal-photos/ryan_r_campbell-pheasant_hat-black_sweatshirt.jpg"
+              width="1086"
             />
           </div>
-        </div>
+        </main>
         <div
           data-testid="analytics"
         />
@@ -301,7 +323,7 @@ exports[`ContactPage > default snapshot 1`] = `
               <p
                 class="footer-tagline"
               >
-                Software engineer & author based in Milwaukee, WI.
+                software engineer & author.
               </p>
             </div>
             <nav
@@ -330,7 +352,7 @@ exports[`ContactPage > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
-                    href="https://ryanrcampbell.substack.com"
+                    href="https://r-on-everything.com"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -362,7 +384,7 @@ exports[`ContactPage > default snapshot 1`] = `
                   <a
                     href="/resume"
                   >
-                    Resume
+                    Résumé
                   </a>
                 </li>
                 <li>
@@ -434,7 +456,7 @@ exports[`ContactPage > default snapshot 1`] = `
                   <p
                     class="footer-contact__label"
                   >
-                    tech inquiries
+                    professional
                   </p>
                   <p>
                     campbell.ryan.r
@@ -444,7 +466,7 @@ exports[`ContactPage > default snapshot 1`] = `
                   <p
                     class="footer-contact__label"
                   >
-                    author inquiries
+                    authorly
                   </p>
                   <p>
                     rrcampbellwrites
@@ -470,6 +492,12 @@ exports[`ContactPage > default snapshot 1`] = `
     <div
       class="undefined Contact-Page"
     >
+      <a
+        class="skip-to-main"
+        href="#main-content"
+      >
+        Skip to main content
+      </a>
       <header
         class="Header"
       >
@@ -493,7 +521,7 @@ exports[`ContactPage > default snapshot 1`] = `
             aria-hidden="true"
             class="page-subtitle"
           >
-            inquirer & inquiree
+            inquirer | inquiree
           </span>
         </a>
         <nav
@@ -535,9 +563,21 @@ exports[`ContactPage > default snapshot 1`] = `
           </a>
           <a
             class="header-nav__link"
+            href="/resume"
+          >
+            résumé
+          </a>
+          <a
+            class="header-nav__link"
             href="/about"
           >
             about
+          </a>
+          <a
+            class="header-nav__link"
+            href="/contact"
+          >
+            contact
           </a>
         </nav>
         <div
@@ -616,16 +656,18 @@ exports[`ContactPage > default snapshot 1`] = `
           </div>
         </div>
       </header>
-      <div
+      <main
         class="contact-container"
+        id="main-content"
+        tabindex="-1"
       >
         <div
           class="section-wrapper"
           id="contact"
         >
-          <h2>
-            contact (gmail)
-          </h2>
+          <h1>
+            Contact
+          </h1>
           <div
             class="Contact"
           >
@@ -633,10 +675,10 @@ exports[`ContactPage > default snapshot 1`] = `
               class="contact-option"
             >
               <h3>
-                tech inquiries
+                professional inquiries
               </h3>
               <p>
-                campbell.ryan.r
+                campbell.ryan.r (gmail)
               </p>
             </div>
             <div
@@ -646,7 +688,7 @@ exports[`ContactPage > default snapshot 1`] = `
                 author inquiries
               </h3>
               <p>
-                rrcampbellwrites
+                rrcampbellwrites (gmail)
               </p>
             </div>
             <div
@@ -658,7 +700,7 @@ exports[`ContactPage > default snapshot 1`] = `
               <a
                 class="subscription-link"
                 href="https://ryanrcampbell.substack.com/subscribe"
-                rel="noopener"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <p>
@@ -693,7 +735,7 @@ exports[`ContactPage > default snapshot 1`] = `
               <a
                 class="subscription-link"
                 href="https://www.linkedin.com/in/ryan-r-campbell/"
-                rel="noopener"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <p>
@@ -725,12 +767,14 @@ exports[`ContactPage > default snapshot 1`] = `
           class="section-wrapper"
         >
           <img
-            alt="Ryan R. Campbell in front of a blurry bookshelf"
+            alt="Ryan R. Campbell wearing a cap with a pheasant design and a black hoodie."
             class="contact-photo"
-            src="./ryan-r-campbell-bookshelf-background.jpg"
+            height="1448"
+            src="/personal-photos/ryan_r_campbell-pheasant_hat-black_sweatshirt.jpg"
+            width="1086"
           />
         </div>
-      </div>
+      </main>
       <div
         data-testid="analytics"
       />
@@ -763,7 +807,7 @@ exports[`ContactPage > default snapshot 1`] = `
             <p
               class="footer-tagline"
             >
-              Software engineer & author based in Milwaukee, WI.
+              software engineer & author.
             </p>
           </div>
           <nav
@@ -792,7 +836,7 @@ exports[`ContactPage > default snapshot 1`] = `
               </li>
               <li>
                 <a
-                  href="https://ryanrcampbell.substack.com"
+                  href="https://r-on-everything.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -824,7 +868,7 @@ exports[`ContactPage > default snapshot 1`] = `
                 <a
                   href="/resume"
                 >
-                  Resume
+                  Résumé
                 </a>
               </li>
               <li>
@@ -896,7 +940,7 @@ exports[`ContactPage > default snapshot 1`] = `
                 <p
                   class="footer-contact__label"
                 >
-                  tech inquiries
+                  professional
                 </p>
                 <p>
                   campbell.ryan.r
@@ -906,7 +950,7 @@ exports[`ContactPage > default snapshot 1`] = `
                 <p
                   class="footer-contact__label"
                 >
-                  author inquiries
+                  authorly
                 </p>
                 <p>
                   rrcampbellwrites

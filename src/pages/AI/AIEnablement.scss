@@ -331,7 +331,8 @@
       > :last-child {
         margin-top: 0;
 
-        button {
+        .btn-primary,
+        .btn-secondary {
           width: fit-content;
         }
       }

@@ -1,4 +1,19 @@
 .Books-landing {
+  .books-page-heading {
+    max-width: var(--content-max);
+    margin: 0 auto;
+    padding-top: var(--space-8);
+
+    .section-label {
+      margin-bottom: var(--space-2);
+    }
+
+    h1 {
+      margin-bottom: 0;
+      color: var(--cream);
+    }
+  }
+
   // BOOK STYLES
   .book-section {
     display: flex;
@@ -52,6 +67,10 @@
   }
 
   @media (max-width: 600px) {
+    .books-page-heading {
+      padding-top: var(--space-6);
+    }
+
     .book-section {
       padding: 2rem 0;
       margin: 0;

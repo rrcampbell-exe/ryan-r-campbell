@@ -8,6 +8,12 @@ exports[`GeneralAbout > default snapshot 1`] = `
       <div
         class="undefined"
       >
+        <a
+          class="skip-to-main"
+          href="#main-content"
+        >
+          Skip to main content
+        </a>
         <header
           class="Header"
         >
@@ -73,9 +79,21 @@ exports[`GeneralAbout > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
+              href="/resume"
+            >
+              résumé
+            </a>
+            <a
+              class="header-nav__link"
               href="/about"
             >
               about
+            </a>
+            <a
+              class="header-nav__link"
+              href="/contact"
+            >
+              contact
             </a>
           </nav>
           <div
@@ -156,6 +174,8 @@ exports[`GeneralAbout > default snapshot 1`] = `
         </header>
         <main
           class="About"
+          id="main-content"
+          tabindex="-1"
         >
           <section
             class="about-hero"
@@ -181,6 +201,12 @@ exports[`GeneralAbout > default snapshot 1`] = `
               >
                 The throughline to my journey is wonder, language, creative work, and engineering — all woven together.
               </p>
+              <a
+                class="about-hero__link"
+                href="/work"
+              >
+                Selected work →
+              </a>
               <div
                 class="about-story-selector"
                 id="tale-selection"
@@ -262,7 +288,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
               <p
                 class="footer-tagline"
               >
-                Software engineer & author based in Milwaukee, WI.
+                software engineer & author.
               </p>
             </div>
             <nav
@@ -291,7 +317,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
-                    href="https://ryanrcampbell.substack.com"
+                    href="https://r-on-everything.com"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -323,7 +349,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
                   <a
                     href="/resume"
                   >
-                    Resume
+                    Résumé
                   </a>
                 </li>
                 <li>
@@ -395,7 +421,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
                   <p
                     class="footer-contact__label"
                   >
-                    tech inquiries
+                    professional
                   </p>
                   <p>
                     campbell.ryan.r
@@ -405,7 +431,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
                   <p
                     class="footer-contact__label"
                   >
-                    author inquiries
+                    authorly
                   </p>
                   <p>
                     rrcampbellwrites
@@ -431,6 +457,12 @@ exports[`GeneralAbout > default snapshot 1`] = `
     <div
       class="undefined"
     >
+      <a
+        class="skip-to-main"
+        href="#main-content"
+      >
+        Skip to main content
+      </a>
       <header
         class="Header"
       >
@@ -496,9 +528,21 @@ exports[`GeneralAbout > default snapshot 1`] = `
           </a>
           <a
             class="header-nav__link"
+            href="/resume"
+          >
+            résumé
+          </a>
+          <a
+            class="header-nav__link"
             href="/about"
           >
             about
+          </a>
+          <a
+            class="header-nav__link"
+            href="/contact"
+          >
+            contact
           </a>
         </nav>
         <div
@@ -579,6 +623,8 @@ exports[`GeneralAbout > default snapshot 1`] = `
       </header>
       <main
         class="About"
+        id="main-content"
+        tabindex="-1"
       >
         <section
           class="about-hero"
@@ -604,6 +650,12 @@ exports[`GeneralAbout > default snapshot 1`] = `
             >
               The throughline to my journey is wonder, language, creative work, and engineering — all woven together.
             </p>
+            <a
+              class="about-hero__link"
+              href="/work"
+            >
+              Selected work →
+            </a>
             <div
               class="about-story-selector"
               id="tale-selection"
@@ -685,7 +737,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
             <p
               class="footer-tagline"
             >
-              Software engineer & author based in Milwaukee, WI.
+              software engineer & author.
             </p>
           </div>
           <nav
@@ -714,7 +766,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
               </li>
               <li>
                 <a
-                  href="https://ryanrcampbell.substack.com"
+                  href="https://r-on-everything.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -746,7 +798,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
                 <a
                   href="/resume"
                 >
-                  Resume
+                  Résumé
                 </a>
               </li>
               <li>
@@ -818,7 +870,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
                 <p
                   class="footer-contact__label"
                 >
-                  tech inquiries
+                  professional
                 </p>
                 <p>
                   campbell.ryan.r
@@ -828,7 +880,7 @@ exports[`GeneralAbout > default snapshot 1`] = `
                 <p
                   class="footer-contact__label"
                 >
-                  author inquiries
+                  authorly
                 </p>
                 <p>
                   rrcampbellwrites

@@ -1,16 +1,19 @@
-import React from 'react'
 import { SubNav, Reviews, PageWrapper } from '../../components'
 import { books, featuredIn, awards } from '../../constants'
 import Tilt from 'react-parallax-tilt'
-import { useScrollToHash } from '../../hooks'
+import { useDocumentTitle } from '../../hooks'
 
 const BooksLanding = () => {
-  useScrollToHash()
+  useDocumentTitle('Books | Ryan R. Campbell')
 
   return (
     <PageWrapper pageTitle='international book awards finalist'>
       <SubNav sections={['scambait', 'and-ampersand', 'imminent-dawn', 'mourning-dove', 'featured-in', 'awards']} />
-      <main className='Books-landing'>
+      <main id='main-content' tabIndex={-1} className='Books-landing'>
+        <header className='books-page-heading'>
+          <p className='section-label'>Published works</p>
+          <h1>Books</h1>
+        </header>
         {books.map((book, index) => (
           <div key={index}>
             <div id={book.id} className='section-wrapper book-section'>

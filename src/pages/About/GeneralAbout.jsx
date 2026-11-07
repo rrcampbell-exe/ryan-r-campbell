@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { PageWrapper } from '../../components'
+import { useDocumentTitle } from '../../hooks'
 import { ShortStory, LongStory } from './AboutContents'
 
 const STORY_OPTIONS = [
@@ -17,6 +19,7 @@ const STORY_OPTIONS = [
 
 const GeneralAbout = () => {
   const [selectedStory, setSelectedStory] = useState(null)
+  useDocumentTitle('About | Ryan R. Campbell')
 
   const handleSelectStory = (version, shouldScroll = false) => {
     setSelectedStory(version)
@@ -33,7 +36,7 @@ const GeneralAbout = () => {
 
   return (
     <PageWrapper pageTitle='spinner of yarns'>
-      <main className='About'>
+      <main id='main-content' tabIndex={-1} className='About'>
         <section className='about-hero'>
           <div className='about-hero__content'>
             <p className='section-label'>About</p>
@@ -42,9 +45,9 @@ const GeneralAbout = () => {
               A career built on curiosity, reinvention, and a refusal to remain in one lane.
             </p>
             <p className='about-hero__body'>
-              The throughline to my journey is wonder, language, creative work,
-              and engineering — all woven together.
+              The throughline to my journey is wonder, language, creative work, and engineering — all woven together.
             </p>
+            <Link to='/work' className='about-hero__link'>Selected work →</Link>
 
             <div id='tale-selection' className='about-story-selector'>
               <p className='about-story-selector__label'>Choose the shape of the story</p>

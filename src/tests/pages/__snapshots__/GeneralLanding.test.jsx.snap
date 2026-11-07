@@ -8,6 +8,12 @@ exports[`GeneralLanding > default snapshot 1`] = `
       <div
         class="undefined"
       >
+        <a
+          class="skip-to-main"
+          href="#main-content"
+        >
+          Skip to main content
+        </a>
         <header
           class="Header"
         >
@@ -31,7 +37,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               aria-hidden="true"
               class="page-subtitle"
             >
-              Technologist, Strategist & Author
+              Software Engineer & Author
             </span>
           </a>
           <nav
@@ -73,9 +79,21 @@ exports[`GeneralLanding > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
+              href="/resume"
+            >
+              résumé
+            </a>
+            <a
+              class="header-nav__link"
               href="/about"
             >
               about
+            </a>
+            <a
+              class="header-nav__link"
+              href="/contact"
+            >
+              contact
             </a>
           </nav>
           <div
@@ -156,6 +174,8 @@ exports[`GeneralLanding > default snapshot 1`] = `
         </header>
         <main
           class="General-landing"
+          id="main-content"
+          tabindex="-1"
         >
           <section
             class="editorial-hero"
@@ -163,18 +183,13 @@ exports[`GeneralLanding > default snapshot 1`] = `
             <div
               class="editorial-hero__copy"
             >
-              <p
-                class="section-label"
-              >
-                Technologist · Strategist · Author
-              </p>
               <h1>
                 Ryan R. Campbell
               </h1>
               <p
                 class="editorial-hero__lede"
               >
-                I build systems, explore difficult questions, and make complex ideas easier to understand. My work moves between technology, writing, teaching, and the strange business of being human.
+                My work moves between technology, writing, teaching, and the strange business of being human.
               </p>
               <div
                 class="editorial-hero__actions"
@@ -187,7 +202,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </a>
                 <a
                   class="btn-secondary"
-                  href="https://ryanrcampbell.substack.com"
+                  href="https://ryanrcampbell.substack.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -200,17 +215,12 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   Explore my work →
                 </a>
               </div>
-              <p
-                class="editorial-hero__byline"
-              >
-                R: On Everything is my podcast and blog about artificial intelligence, creativity, culture, consciousness, and curiosity.
-              </p>
             </div>
             <div
               class="editorial-hero__art"
             >
               <img
-                alt="Ryan R. Campbell — technical leader, software engineer, and author"
+                alt="Portrait of Ryan R. Campbell"
                 height="1312"
                 loading="eager"
                 src="./2026-ryan-r-campbell-website-headshot.jpg"
@@ -294,10 +304,77 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 data-testid="blog-teaser"
               >
                 <p
+                  class="ContentTeaser__loadingStatus"
                   role="status"
                 >
                   Loading latest essays...
                 </p>
+                <div>
+                  <div
+                    aria-hidden="true"
+                    class="content-post content-post--skeleton"
+                  >
+                    <h3
+                      class="content-post-skeleton__title"
+                    >
+                      <span
+                        class="content-post-skeleton__line content-post-skeleton__line--title"
+                      />
+                      <span
+                        class="content-post-skeleton__line content-post-skeleton__line--titleShort"
+                      />
+                    </h3>
+                    <p
+                      class="content-post-skeleton__excerpt"
+                    >
+                      <span
+                        class="content-post-skeleton__line"
+                      />
+                      <span
+                        class="content-post-skeleton__line"
+                      />
+                      <span
+                        class="content-post-skeleton__line content-post-skeleton__line--excerptShort"
+                      />
+                    </p>
+                    <span
+                      class="content-post-skeleton__line content-post-skeleton__link"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div
+                    aria-hidden="true"
+                    class="content-post content-post--skeleton"
+                  >
+                    <h3
+                      class="content-post-skeleton__title"
+                    >
+                      <span
+                        class="content-post-skeleton__line content-post-skeleton__line--title"
+                      />
+                      <span
+                        class="content-post-skeleton__line content-post-skeleton__line--titleShort"
+                      />
+                    </h3>
+                    <p
+                      class="content-post-skeleton__excerpt"
+                    >
+                      <span
+                        class="content-post-skeleton__line"
+                      />
+                      <span
+                        class="content-post-skeleton__line"
+                      />
+                      <span
+                        class="content-post-skeleton__line content-post-skeleton__line--excerptShort"
+                      />
+                    </p>
+                    <span
+                      class="content-post-skeleton__line content-post-skeleton__link"
+                    />
+                  </div>
+                </div>
               </div>
               <iframe
                 class="editorial-writing__embed"
@@ -315,7 +392,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               rel="noopener noreferrer"
               target="_blank"
             >
-              Read everything on Substack →
+              Read more on Substack →
             </a>
           </section>
           <section
@@ -340,7 +417,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               data-testid="books"
             >
               <a
-                href="/books"
+                href="/books#scambait"
               >
                 <div>
                   <div
@@ -376,7 +453,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </div>
               </a>
               <a
-                href="/books"
+                href="/books#and-ampersand"
               >
                 <div>
                   <div
@@ -416,7 +493,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               class="editorial-section-link text-link"
               href="/books"
             >
-              Visit the author archive →
+              See all my books →
             </a>
           </section>
           <section
@@ -425,26 +502,34 @@ exports[`GeneralLanding > default snapshot 1`] = `
             <p
               class="section-label"
             >
-              Beyond the publication
+              Selected work
             </p>
             <h2>
-              I also build systems, lead technical work, and help organizations make complex ideas useful.
+              Software, research, teaching, and independent projects.
             </h2>
-            <p>
-              For professional background, selected projects, and evidence of impact, visit the work archive.
-            </p>
-            <a
-              class="btn-secondary"
-              href="/work"
+            <nav
+              aria-label="Selected work examples"
+              class="editorial-work-note__links"
             >
-              Explore my professional work
-            </a>
-            <a
-              class="text-link"
-              href="/ai"
-            >
-              Read my AI philosophy →
-            </a>
+              <a
+                class="text-link"
+                href="/work#money-movement-application-migration"
+              >
+                Financial software migration →
+              </a>
+              <a
+                class="text-link"
+                href="/work#ai-adoption-survey"
+              >
+                AI adoption research →
+              </a>
+              <a
+                class="text-link"
+                href="/work#public-projects"
+              >
+                Independent projects →
+              </a>
+            </nav>
           </section>
         </main>
         <div
@@ -479,7 +564,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               <p
                 class="footer-tagline"
               >
-                Software engineer & author based in Milwaukee, WI.
+                software engineer & author.
               </p>
             </div>
             <nav
@@ -508,7 +593,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
-                    href="https://ryanrcampbell.substack.com"
+                    href="https://r-on-everything.com"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -540,7 +625,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <a
                     href="/resume"
                   >
-                    Resume
+                    Résumé
                   </a>
                 </li>
                 <li>
@@ -612,7 +697,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <p
                     class="footer-contact__label"
                   >
-                    tech inquiries
+                    professional
                   </p>
                   <p>
                     campbell.ryan.r
@@ -622,7 +707,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                   <p
                     class="footer-contact__label"
                   >
-                    author inquiries
+                    authorly
                   </p>
                   <p>
                     rrcampbellwrites
@@ -651,6 +736,12 @@ exports[`GeneralLanding > default snapshot 1`] = `
     <div
       class="undefined"
     >
+      <a
+        class="skip-to-main"
+        href="#main-content"
+      >
+        Skip to main content
+      </a>
       <header
         class="Header"
       >
@@ -674,7 +765,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             aria-hidden="true"
             class="page-subtitle"
           >
-            Technologist, Strategist & Author
+            Software Engineer & Author
           </span>
         </a>
         <nav
@@ -716,9 +807,21 @@ exports[`GeneralLanding > default snapshot 1`] = `
           </a>
           <a
             class="header-nav__link"
+            href="/resume"
+          >
+            résumé
+          </a>
+          <a
+            class="header-nav__link"
             href="/about"
           >
             about
+          </a>
+          <a
+            class="header-nav__link"
+            href="/contact"
+          >
+            contact
           </a>
         </nav>
         <div
@@ -799,6 +902,8 @@ exports[`GeneralLanding > default snapshot 1`] = `
       </header>
       <main
         class="General-landing"
+        id="main-content"
+        tabindex="-1"
       >
         <section
           class="editorial-hero"
@@ -806,18 +911,13 @@ exports[`GeneralLanding > default snapshot 1`] = `
           <div
             class="editorial-hero__copy"
           >
-            <p
-              class="section-label"
-            >
-              Technologist · Strategist · Author
-            </p>
             <h1>
               Ryan R. Campbell
             </h1>
             <p
               class="editorial-hero__lede"
             >
-              I build systems, explore difficult questions, and make complex ideas easier to understand. My work moves between technology, writing, teaching, and the strange business of being human.
+              My work moves between technology, writing, teaching, and the strange business of being human.
             </p>
             <div
               class="editorial-hero__actions"
@@ -830,7 +930,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               </a>
               <a
                 class="btn-secondary"
-                href="https://ryanrcampbell.substack.com"
+                href="https://ryanrcampbell.substack.com/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -843,17 +943,12 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 Explore my work →
               </a>
             </div>
-            <p
-              class="editorial-hero__byline"
-            >
-              R: On Everything is my podcast and blog about artificial intelligence, creativity, culture, consciousness, and curiosity.
-            </p>
           </div>
           <div
             class="editorial-hero__art"
           >
             <img
-              alt="Ryan R. Campbell — technical leader, software engineer, and author"
+              alt="Portrait of Ryan R. Campbell"
               height="1312"
               loading="eager"
               src="./2026-ryan-r-campbell-website-headshot.jpg"
@@ -937,10 +1032,77 @@ exports[`GeneralLanding > default snapshot 1`] = `
               data-testid="blog-teaser"
             >
               <p
+                class="ContentTeaser__loadingStatus"
                 role="status"
               >
                 Loading latest essays...
               </p>
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="content-post content-post--skeleton"
+                >
+                  <h3
+                    class="content-post-skeleton__title"
+                  >
+                    <span
+                      class="content-post-skeleton__line content-post-skeleton__line--title"
+                    />
+                    <span
+                      class="content-post-skeleton__line content-post-skeleton__line--titleShort"
+                    />
+                  </h3>
+                  <p
+                    class="content-post-skeleton__excerpt"
+                  >
+                    <span
+                      class="content-post-skeleton__line"
+                    />
+                    <span
+                      class="content-post-skeleton__line"
+                    />
+                    <span
+                      class="content-post-skeleton__line content-post-skeleton__line--excerptShort"
+                    />
+                  </p>
+                  <span
+                    class="content-post-skeleton__line content-post-skeleton__link"
+                  />
+                </div>
+              </div>
+              <div>
+                <div
+                  aria-hidden="true"
+                  class="content-post content-post--skeleton"
+                >
+                  <h3
+                    class="content-post-skeleton__title"
+                  >
+                    <span
+                      class="content-post-skeleton__line content-post-skeleton__line--title"
+                    />
+                    <span
+                      class="content-post-skeleton__line content-post-skeleton__line--titleShort"
+                    />
+                  </h3>
+                  <p
+                    class="content-post-skeleton__excerpt"
+                  >
+                    <span
+                      class="content-post-skeleton__line"
+                    />
+                    <span
+                      class="content-post-skeleton__line"
+                    />
+                    <span
+                      class="content-post-skeleton__line content-post-skeleton__line--excerptShort"
+                    />
+                  </p>
+                  <span
+                    class="content-post-skeleton__line content-post-skeleton__link"
+                  />
+                </div>
+              </div>
             </div>
             <iframe
               class="editorial-writing__embed"
@@ -958,7 +1120,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             rel="noopener noreferrer"
             target="_blank"
           >
-            Read everything on Substack →
+            Read more on Substack →
           </a>
         </section>
         <section
@@ -983,7 +1145,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             data-testid="books"
           >
             <a
-              href="/books"
+              href="/books#scambait"
             >
               <div>
                 <div
@@ -1019,7 +1181,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               </div>
             </a>
             <a
-              href="/books"
+              href="/books#and-ampersand"
             >
               <div>
                 <div
@@ -1059,7 +1221,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             class="editorial-section-link text-link"
             href="/books"
           >
-            Visit the author archive →
+            See all my books →
           </a>
         </section>
         <section
@@ -1068,26 +1230,34 @@ exports[`GeneralLanding > default snapshot 1`] = `
           <p
             class="section-label"
           >
-            Beyond the publication
+            Selected work
           </p>
           <h2>
-            I also build systems, lead technical work, and help organizations make complex ideas useful.
+            Software, research, teaching, and independent projects.
           </h2>
-          <p>
-            For professional background, selected projects, and evidence of impact, visit the work archive.
-          </p>
-          <a
-            class="btn-secondary"
-            href="/work"
+          <nav
+            aria-label="Selected work examples"
+            class="editorial-work-note__links"
           >
-            Explore my professional work
-          </a>
-          <a
-            class="text-link"
-            href="/ai"
-          >
-            Read my AI philosophy →
-          </a>
+            <a
+              class="text-link"
+              href="/work#money-movement-application-migration"
+            >
+              Financial software migration →
+            </a>
+            <a
+              class="text-link"
+              href="/work#ai-adoption-survey"
+            >
+              AI adoption research →
+            </a>
+            <a
+              class="text-link"
+              href="/work#public-projects"
+            >
+              Independent projects →
+            </a>
+          </nav>
         </section>
       </main>
       <div
@@ -1122,7 +1292,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
             <p
               class="footer-tagline"
             >
-              Software engineer & author based in Milwaukee, WI.
+              software engineer & author.
             </p>
           </div>
           <nav
@@ -1151,7 +1321,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
               </li>
               <li>
                 <a
-                  href="https://ryanrcampbell.substack.com"
+                  href="https://r-on-everything.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -1183,7 +1353,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <a
                   href="/resume"
                 >
-                  Resume
+                  Résumé
                 </a>
               </li>
               <li>
@@ -1255,7 +1425,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <p
                   class="footer-contact__label"
                 >
-                  tech inquiries
+                  professional
                 </p>
                 <p>
                   campbell.ryan.r
@@ -1265,7 +1435,7 @@ exports[`GeneralLanding > default snapshot 1`] = `
                 <p
                   class="footer-contact__label"
                 >
-                  author inquiries
+                  authorly
                 </p>
                 <p>
                   rrcampbellwrites

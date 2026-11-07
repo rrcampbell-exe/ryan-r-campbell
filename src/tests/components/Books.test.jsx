@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { act, render } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
 import { Books } from '../../components'
 
@@ -37,17 +37,17 @@ describe('Books', () => {
     expect(bookCovers[1]).toHaveAttribute('width', '1800')
     expect(bookCovers[1]).toHaveAttribute('height', '2700')
   })
-  test('should navigate to /books when a book is clicked', () => {
+  test('links each book card to its section on /books', () => {
     const { getAllByTestId } = render(
       <ContextAndRouterProvider>
         <Books />
       </ContextAndRouterProvider>
     )
 
-    const book = getAllByTestId('book-cover')[0]
-    act(() => {
-      book.click()
-    })
-    expect(window.location.pathname).toBe('/books')
+    const bookLinks = getAllByTestId('book-cover').map((cover) => cover.closest('a'))
+    expect(bookLinks.map((link) => link.getAttribute('href'))).toEqual([
+      '/books#scambait',
+      '/books#and-ampersand',
+    ])
   })
 })

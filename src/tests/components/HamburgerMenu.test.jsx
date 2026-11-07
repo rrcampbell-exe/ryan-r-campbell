@@ -42,4 +42,22 @@ describe('HamburgerMenu', () => {
     const activeLink = links.find(link => link.classList.contains('active'))
     expect(activeLink).toBeInTheDocument()
   })
+
+  test('closes on Escape and returns focus to the menu opener', () => {
+    const { getByRole, queryByRole } = render(
+      <ContextAndRouterProvider>
+        <HamburgerMenu />
+      </ContextAndRouterProvider>
+    )
+    const opener = getByRole('button', { name: 'Open navigation menu' })
+
+    fireEvent.click(opener)
+    const navigation = getByRole('navigation', { name: 'Site navigation' })
+    fireEvent.keyDown(getByRole('link', { name: 'home' }), { key: 'Escape' })
+
+    expect(queryByRole('navigation', { name: 'Site navigation' })).not.toBeInTheDocument()
+    expect(opener).toHaveAttribute('aria-expanded', 'false')
+    expect(opener).toHaveFocus()
+    expect(navigation).not.toBeInTheDocument()
+  })
 })

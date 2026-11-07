@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 import { Quote, TextAndImage } from '../../components'
 
@@ -6,10 +6,10 @@ export const ShortStory = ({ onSelectStory }) =>
   <div data-testid='short-story'>
     <h2>a little bit of this, a little bit of that</h2>
     <div>
-      <p>Author. Technologist. Podcast. Blogger. The list goes on.</p>
-      <p>In an adult life of transitions from pizza-slinging pyscholinguist to international sales support to international book awards finalist, it'd be easy to view the bounce-about nature of my path as that of a wanderer.</p>
+      <p>Author. Technologist. Podcaster. Blogger. The list goes on.</p>
+      <p>In an adult life of transitions from pizza-slinging psycholinguist to international sales support to international book awards finalist, it'd be easy to view the bounce-about nature of my path as that of a wanderer.</p>
       <p>And, with a career spanning industries including agriculture, medical devices, regulatory affairs, and publishing, I'd be hard pressed to tell you you're wrong. But, if there's anything I've learned in my travels—both physical and professional—it's that to wander is wonderful, but to wander with a sense of wonder is, if you'll pardon the excessive alliteration, <em>wondrous</em>.</p>
-      <p>It's in following that sense of wonder that I've been most comfortable over the years. Whether interviewing dozens (a hundred? more?) of authors and publishing professionals for <Link to='/podcasts'>the Writescast Network</Link>, immersing myself in the <Link to='/author'>writing of another manuscript</Link>, or unthreading <Link to='/#impact'>twisted tangles of code</Link>, curiosity and wonder have served me well as binary north stars.</p>
+      <p>It's in following that sense of wonder that I've been most comfortable over the years. Whether interviewing dozens (a hundred? more?) of authors and publishing professionals for <Link to='/podcasts'>the Writescast Network</Link>, immersing myself in the <Link to='/author'>writing of another manuscript</Link>, or unthreading <Link to='/work#software-and-product'>twisted tangles of code</Link>, curiosity and wonder have served me well as binary north stars.</p>
       <p>So, go on: cultivate <em>your</em> curiosity. Walk with that sense of wonder. Do some exploring of your own and learn all there is to learn.</p>
       <p>
         And, if you're really up for it, consider reading{' '}
@@ -20,6 +20,10 @@ export const ShortStory = ({ onSelectStory }) =>
       </p>
     </div>
   </div>
+
+ShortStory.propTypes = {
+  onSelectStory: PropTypes.func.isRequired,
+}
 
 export const LongStory = () =>
   <div data-testid='long-story'>
@@ -141,4 +145,3 @@ export const LongStory = () =>
       <p>Besides, if whatever you're doing isn't working out, there's nothing a trip to Brazil won't fix.</p>
     </div>
   </div>
-

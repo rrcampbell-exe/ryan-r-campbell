@@ -33,6 +33,21 @@ describe('BlogTeaser', () => {
     vi.unstubAllGlobals()
   })
 
+  test('shows an accessible, content-shaped skeleton while loading', () => {
+    vi.stubGlobal('fetch', vi.fn(() => new Promise(() => {})))
+
+    const { container } = renderTeaser({ isGeneralLandingPage: false })
+
+    expect(screen.getByRole('status')).toHaveTextContent('Loading latest essays...')
+
+    const skeletons = container.querySelectorAll('.content-post--skeleton')
+    expect(skeletons).toHaveLength(2)
+    expect(skeletons[0]).toHaveAttribute('aria-hidden', 'true')
+    expect(skeletons[0].querySelector('.content-post-skeleton__title')).toBeInTheDocument()
+    expect(skeletons[0].querySelector('.content-post-skeleton__date')).toBeInTheDocument()
+    expect(skeletons[0].querySelectorAll('.content-post-skeleton__line')).toHaveLength(7)
+  })
+
   test('renders the latest posts returned by the feed API', async () => {
     vi.stubGlobal('fetch', vi.fn().mockResolvedValue({
       ok: true,
@@ -46,6 +61,19 @@ describe('BlogTeaser', () => {
     expect(screen.getByText('The latest essay excerpt.')).toBeInTheDocument()
     expect(screen.getAllByRole('link', { name: 'Visit me on Substack here' })[0]).toHaveAttribute('href', feedPosts[0].link)
     expect(fetch).toHaveBeenCalledWith('/api/latest-posts')
+  })
+
+  test('reports the latest feed permalink to its parent', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => feedPosts
+    }))
+    const onLatestPostChange = vi.fn()
+
+    renderTeaser({ onLatestPostChange })
+
+    await screen.findByRole('heading', { name: 'Latest essay' })
+    await waitFor(() => expect(onLatestPostChange).toHaveBeenLastCalledWith(feedPosts[0].link))
   })
 
   test('limits displayed posts to the requested quantity', async () => {
@@ -66,6 +94,6 @@ describe('BlogTeaser', () => {
     renderTeaser()
 
     expect(await screen.findByRole('alert')).toHaveTextContent('Latest essays are unavailable right now.')
-    expect(screen.getByRole('link', { name: 'Read them on Substack.' })).toHaveAttribute('href', 'https://www.r-on-everything.com')
+    expect(screen.getByRole('link', { name: 'Browse the Substack archive.' })).toHaveAttribute('href', 'https://ryanrcampbell.substack.com/')
   })
 })

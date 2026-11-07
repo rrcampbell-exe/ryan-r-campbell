@@ -79,6 +79,40 @@ describe('GeneralAbout', () => {
     expect(longStory).not.toBeInTheDocument()
   })
 
+  test('uses the original editorial opening and links quietly to selected work', () => {
+    render(
+      <ContextAndRouterProvider>
+        <GeneralAbout />
+      </ContextAndRouterProvider>
+    )
+
+    expect(screen.getByText('A career built on curiosity, reinvention, and a refusal to remain in one lane.')).toBeInTheDocument()
+    expect(screen.getByText('The throughline to my journey is wonder, language, creative work, and engineering — all woven together.')).toBeInTheDocument()
+    expect(screen.getByRole('link', { name: /selected work/i })).toHaveAttribute('href', '/work')
+  })
+
+  test('sets an about-specific document title', () => {
+    render(
+      <ContextAndRouterProvider>
+        <GeneralAbout />
+      </ContextAndRouterProvider>
+    )
+
+    expect(document.title).toBe('About | Ryan R. Campbell')
+  })
+
+  test('uses the corrected role and spelling in the abridged story', () => {
+    render(
+      <ContextAndRouterProvider>
+        <GeneralAbout />
+      </ContextAndRouterProvider>
+    )
+
+    fireEvent.click(screen.getByRole('button', { name: 'abridged' }))
+    expect(screen.getByText(/author\. technologist\. podcaster\. blogger\./i)).toBeInTheDocument()
+    expect(screen.getByText(/pizza-slinging psycholinguist/i)).toBeInTheDocument()
+  })
+
   test('should reserve the hero image with intrinsic dimensions', () => {
     render(
       <ContextAndRouterProvider>

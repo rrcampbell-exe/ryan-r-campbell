@@ -98,4 +98,4 @@ Sun, Moon, External Link, Hamburger Menu, Robot, Close, Calendar, Light Bulb, Ch
 
 ## Contact
 
-For questions, bug reports, or feature suggestions, email [Ryan R. Campbell](mailto:campbell.ryan@gmail.com) or [contact him on GitHub](https://github.com/rrcampbell-exe/).
+For questions, bug reports, or feature suggestions, email [Ryan R. Campbell](mailto:campbell.ryan.r@gmail.com) or [contact him on GitHub](https://github.com/rrcampbell-exe/).

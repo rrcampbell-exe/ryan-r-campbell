@@ -34,4 +34,14 @@ describe('Header', () => {
     expect(homeLink).toBeInTheDocument()
     expect(homeLink.getAttribute('href')).toBe('/')
   })
+
+  test('should expose the résumé in the desktop navigation', () => {
+    const { getByRole } = render(
+      <ContextAndRouterProvider>
+        <Header />
+      </ContextAndRouterProvider>
+    )
+
+    expect(getByRole('link', { name: 'résumé' })).toHaveAttribute('href', '/resume')
+  })
 })

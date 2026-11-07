@@ -49,6 +49,12 @@
     color: var(--slate);
   }
 
+  .about-hero__link {
+    width: fit-content;
+    color: var(--copper);
+    text-underline-offset: 0.2em;
+  }
+
   .about-story-selector {
     margin-top: var(--space-4);
     padding: var(--space-6);

@@ -75,6 +75,10 @@
   /* --- Layout --- */
   --page-gutter: clamp(1.5rem, 5vw, 4rem);
   --content-max: 1200px;
+  --site-header-height: 3.375rem;
+  --site-subnav-height: 0px;
+  --sticky-stack-height: calc(var(--site-header-height) + var(--site-subnav-height));
+  --anchor-offset: calc(var(--sticky-stack-height) + var(--space-4));
 
   /* --- Glass morphism --- */
   --glass-bg:       rgba(255, 255, 255, 0.035);
@@ -116,7 +120,40 @@
 body, html {
   margin: 0;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+main[id='main-content'] [id] {
+  scroll-margin-top: var(--anchor-offset);
+}
+
+main[id='main-content'] {
+  scroll-margin-top: var(--anchor-offset);
+}
+
+.skip-to-main {
+  position: fixed;
+  top: var(--space-2);
+  left: var(--page-gutter);
+  z-index: 1000;
+  padding: var(--space-3) var(--space-4);
+  transform: translateY(-200%);
+  border: 1px solid var(--copper);
+  border-radius: var(--radius-md);
+  background: var(--midnight);
+  color: var(--cream);
+  text-decoration: none;
+  box-shadow: var(--shadow-md);
+
+  &:focus-visible {
+    transform: translateY(0);
+    outline: 2px solid var(--copper-light);
+    outline-offset: 3px;
+  }
+}
+
+main#main-content:focus {
+  outline: none;
 }
 
 /* --- Headings: Cormorant Garamond for editorial weight --- */
@@ -371,4 +408,3 @@ button {
   .external-link-svg { stroke: var(--cream); }
   #robot-svg         { fill: var(--cream); }
 }
-
