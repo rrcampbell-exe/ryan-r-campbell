@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 const Footer = () => {
@@ -13,7 +12,7 @@ const Footer = () => {
           <Link to='/' className='footer-wordmark' aria-label='Home'>
             ryan r<span className='footer-dot'>.</span> campbell
           </Link>
-          <p className='footer-tagline'>Software engineer &amp; author based in Milwaukee, WI.</p>
+          <p className='footer-tagline'>software engineer &amp; author.</p>
         </div>
 
         <nav className='footer-nav' aria-label='Footer navigation'>
@@ -22,14 +21,14 @@ const Footer = () => {
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/about'>About</Link></li>
             <li>
-              <a href='https://ryanrcampbell.substack.com' target='_blank' rel='noopener noreferrer'>
+              <a href='https://r-on-everything.com' target='_blank' rel='noopener noreferrer'>
                 Read
               </a>
             </li>
             <li><Link to='/podcasts'>Listen</Link></li>
             <li><Link to='/books'>Books</Link></li>
             <li><Link to='/work'>Work</Link></li>
-            <li><Link to='/resume'>Resume</Link></li>
+            <li><Link to='/resume'>Résumé</Link></li>
             <li><Link to='/ai'>AI</Link></li>
             <li><Link to='/contact'>Contact</Link></li>
           </ul>
@@ -72,11 +71,11 @@ const Footer = () => {
           <span className='footer-nav-label'>Contact (Gmail)</span>
           <div className='footer-contact__grid'>
             <div>
-              <p className='footer-contact__label'>tech inquiries</p>
+              <p className='footer-contact__label'>professional</p>
               <p>campbell.ryan.r</p>
             </div>
             <div>
-              <p className='footer-contact__label'>author inquiries</p>
+              <p className='footer-contact__label'>authorly</p>
               <p>rrcampbellwrites</p>
             </div>
           </div>

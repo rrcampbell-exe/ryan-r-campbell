@@ -1,31 +1,47 @@
 import { Link, useNavigate } from 'react-router-dom'
+import { useState } from 'react'
 import { Books, BlogTeaser, PageWrapper } from '../../components'
+import { useDocumentTitle, useMetaTags } from '../../hooks'
 import ReactModal from 'react-modal'
 import PropTypes from 'prop-types'
 
 const GeneralLanding = ({ pageNotFound }) => {
   const navigate = useNavigate()
+  const [latestEssayLink, setLatestEssayLink] = useState(null)
+  useDocumentTitle('Ryan R. Campbell')
+  useMetaTags([
+    { type: 'name', name: 'description', content: 'Ryan R. Campbell works across software engineering, product development, AI adoption, and writing.' },
+    { type: 'property', name: 'og:title', content: 'Ryan R. Campbell' },
+    { type: 'property', name: 'og:description', content: 'Ryan R. Campbell works across software engineering, product development, AI adoption, and writing.' },
+    { type: 'property', name: 'twitter:title', content: 'Ryan R. Campbell' },
+    { type: 'property', name: 'twitter:description', content: 'Ryan R. Campbell works across software engineering, product development, AI adoption, and writing.' },
+  ])
 
   return (
-    <PageWrapper pageTitle='Technologist, Strategist & Author'>
+    <PageWrapper pageTitle='Software Engineer & Author'>
 
-      <main className='General-landing'>
+      <main id='main-content' tabIndex={-1} className='General-landing'>
         <section className='editorial-hero'>
           <div className='editorial-hero__copy'>
-            <p className='section-label'>Technologist · Strategist · Author</p>
             <h1>Ryan R. Campbell</h1>
             <p className='editorial-hero__lede'>
-              I build systems, explore difficult questions, and make complex ideas easier to understand. My work moves between technology, writing, teaching, and the strange business of being human.
+              My work moves between technology, writing, teaching, and the strange business of being human.
             </p>
             <div className='editorial-hero__actions'>
               <Link to='/podcasts' className='btn-primary'>Listen to the podcast</Link>
-              <a href='https://ryanrcampbell.substack.com' target='_blank' rel='noopener noreferrer' className='btn-secondary'>Read the latest essay</a>
+              <a
+                href={latestEssayLink || 'https://ryanrcampbell.substack.com/'}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='btn-secondary'
+              >
+                Read the latest essay
+              </a>
               <Link to='/work' className='text-link'>Explore my work →</Link>
             </div>
-            <p className='editorial-hero__byline'>R: On Everything is my podcast and blog about artificial intelligence, creativity, culture, consciousness, and curiosity.</p>
           </div>
           <div className='editorial-hero__art'>
-            <img src='./2026-ryan-r-campbell-website-headshot.jpg' alt='Ryan R. Campbell — technical leader, software engineer, and author' width='1199' height='1312' loading='eager' />
+            <img src='./2026-ryan-r-campbell-website-headshot.jpg' alt='Portrait of Ryan R. Campbell' width='1199' height='1312' loading='eager' />
           </div>
         </section>
 
@@ -56,7 +72,12 @@ const GeneralLanding = ({ pageNotFound }) => {
             </div>
           </div>
           <div className='editorial-writing__grid'>
-            <BlogTeaser postsQtyToDisplay={2} isGeneralLandingPage />
+            <BlogTeaser
+              postsQtyToDisplay={2}
+              isGeneralLandingPage
+              onLatestPostChange={setLatestEssayLink}
+              showFallbackArchiveLink={false}
+            />
             <iframe
               className='editorial-writing__embed'
               title='Subscribe to Ryan R. Campbell&apos;s blog'
@@ -67,7 +88,7 @@ const GeneralLanding = ({ pageNotFound }) => {
               scrolling='no'
             />
           </div>
-          <a href='https://ryanrcampbell.substack.com' target='_blank' rel='noopener noreferrer' className='editorial-section-link text-link'>Read everything on Substack →</a>
+          <a href='https://ryanrcampbell.substack.com' target='_blank' rel='noopener noreferrer' className='editorial-section-link text-link'>Read more on Substack →</a>
         </section>
 
         <section className='editorial-books'>
@@ -78,15 +99,17 @@ const GeneralLanding = ({ pageNotFound }) => {
             </div>
           </div>
           <Books hideEmpathy />
-          <Link to='/books' className='editorial-section-link text-link'>Visit the author archive →</Link>
+          <Link to='/books' className='editorial-section-link text-link'>See all my books →</Link>
         </section>
 
         <section className='editorial-work-note'>
-          <p className='section-label'>Beyond the publication</p>
-          <h2>I also build systems, lead technical work, and help organizations make complex ideas useful.</h2>
-          <p>For professional background, selected projects, and evidence of impact, visit the work archive.</p>
-          <Link to='/work' className='btn-secondary'>Explore my professional work</Link>
-          <Link to='/ai' className='text-link'>Read my AI philosophy →</Link>
+          <p className='section-label'>Selected work</p>
+          <h2>Software, research, teaching, and independent projects.</h2>
+          <nav className='editorial-work-note__links' aria-label='Selected work examples'>
+            <Link to='/work#money-movement-application-migration' className='text-link'>Financial software migration →</Link>
+            <Link to='/work#ai-adoption-survey' className='text-link'>AI adoption research →</Link>
+            <Link to='/work#public-projects' className='text-link'>Independent projects →</Link>
+          </nav>
         </section>
 
       </main>

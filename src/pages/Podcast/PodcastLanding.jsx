@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { PageWrapper, SubNav, Loading, PodcastTeaser } from '../../components'
 import podcasts from '../../assets/podcasts/pinecast-podcasts'
+import { useDocumentTitle } from '../../hooks'
 
 const PodcastLanding = () => {
+  useDocumentTitle('Podcasts | Ryan R. Campbell')
   const [activePodcast, setActivePodcast] = useState('r-on-everything')
   const [episodesPage, setEpisodesPage] = useState(1)
   const [isLoaded, setIsLoaded] = useState(false)
@@ -15,7 +17,7 @@ const PodcastLanding = () => {
   const buttonText = allEpisodesShown ? 'All episodes shown' : 'Load more episodes'
 
   return (
-    <PageWrapper pageTitle='podcaster | community builder'>
+    <PageWrapper pageTitle='podcaster | community-builder'>
       <SubNav
         tabs={[
           { id: 'r-on-everything', label: 'R: On Everything' },
@@ -24,7 +26,7 @@ const PodcastLanding = () => {
         activeTab={activePodcast}
         onTabChange={setActivePodcast}
       />
-      <main className='Podcast'>
+      <main id='main-content' tabIndex={-1} className='Podcast'>
         {activePodcast === 'r-on-everything' ? (
           <section id='r-on-everything-panel' className='Podcast__announcement media-text-row section-wrapper section-band' role='tabpanel' aria-labelledby='r-on-everything-tab'>
             <div>
@@ -33,7 +35,7 @@ const PodcastLanding = () => {
             <div className='section-wrapper media-text-row__body'>
               <p className='Podcast__eyebrow'>The flagship show</p>
               <h1>R: On Everything</h1>
-              <p>In an ever-changing world, staying human requires more than keeping up. It requires paying attention to what's changing us.</p>
+              <p>In an ever-changing world, staying human requires more than keeping up. It requires paying attention to what&apos;s changing us.</p>
               <p>In <strong>R: On Everything</strong>, author and technologist Ryan R. Campbell follows that inquiry wherever it leads—from artificial intelligence and the future of work to creativity, culture, consciousness, and the strange business of being human.</p>
               <p>Blending personal stories, research, and philosophical inquiry, each episode challenges easy answers, uncovers possibilities hiding between the extremes, and asks how we might live, work, and create with greater curiosity and agency.</p>
               {/* <p>The podcast debuts on September 17, 2026. You can listen to the trailer now below.</p> */}

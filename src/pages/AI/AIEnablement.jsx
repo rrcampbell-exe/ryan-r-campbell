@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom'
 import { PageWrapper, SubNav } from '../../components'
-import { useDocumentTitle, useScrollToHash } from '../../hooks'
+import { useDocumentTitle } from '../../hooks'
 
 const PRINCIPLES = [
   {
     heading: 'Start with a real problem',
-    body: 'AI on its own is not a strategy. It is a toolset. By beginning with definable problems, we ensure we\'re putting those tools to their best use instead of those cited in trend reports or vendor demos.'
+    body: 'AI on its own is not a strategy. It is a toolset. Start with a concrete problem, then decide whether AI is a useful way to address it.'
   },
   {
     heading: 'AI is a force multiplier',
@@ -40,21 +41,19 @@ const OPERATING_MODEL = [
 ]
 
 const PRACTICES = [
-  'Frame AI efforts around explicit hypotheses and revisit them quickly.',
+  'Start with a workflow you can improve.',
   'Integrate AI into daily workflows instead of isolating it as a novelty.',
   'Use shared guardrails so teams can move faster without guessing where the edges are.',
   'Study logs, real user behavior, and developer pain points to find the next worthwhile use case.',
-  'Scale only the experiments that demonstrably improve quality, speed, or user experience.'
+  'Check whether people still use it after the pilot.'
 ]
 
 const AIEnablement = () => {
   useDocumentTitle('Thoughtful AI Enablement | Ryan R. Campbell')
-  useScrollToHash()
-
   return (
     <PageWrapper pageTitle='thoughtful AI enablement'>
       <SubNav sections={['why-thoughtful-ai', 'core-beliefs', 'operating-model', 'in-practice', 'where-i-come-from', 'get-in-touch']} />
-      <main className='AI-landing'>
+      <main id='main-content' tabIndex={-1} className='AI-landing'>
         <section id='why-thoughtful-ai' className='ai-hero'>
           <div className='ai-hero__copy'>
             <p className='section-label'>AI philosophy</p>
@@ -107,8 +106,7 @@ const AIEnablement = () => {
           <div className='ai-section__heading-row'>
             <h2>How organizations position themselves to benefit from AI</h2>
             <p>
-              The organizations that will benefit most are not necessarily the ones making the loudest announcements. They are
-              the ones building shared enablement, creating feedback loops, and aligning experiments to real operational needs.
+              Teams benefit when they build shared guidance, create feedback loops, and test ideas against real operational needs.
             </p>
           </div>
 
@@ -174,13 +172,13 @@ const AIEnablement = () => {
         <section id='get-in-touch' className='ai-section get-in-touch'>
           <div>
             <p className='section-label'>Get in touch</p>
-            <h2>I&apos;m open to opportunities where technical expertise, product thinking, and multidisciplinary perspectives collide.</h2>
+            <h2>Internal AI Hub</h2>
           </div>
           <div>
-            <p>If you think there might be a fit, please reach out. I&apos;m happy to share more about my experience, approach, and perspective.</p>
-            <button onClick={() => window.open('https://www.linkedin.com/in/ryan-r-campbell/', '_blank')}>
-              Contact me on LinkedIn
-            </button>
+            <p>I led the first implementation of a place for engineers to find and share reusable AI workflows.</p>
+            <Link to='/work#internal-ai-hub' className='btn-primary'>Read the AI Hub story</Link>
+            <Link to='/work#ai-adoption-survey' className='text-link'>Read the AI adoption research story</Link>
+            <a href='mailto:campbell.ryan.r@gmail.com' className='btn-secondary'>Professional inquiries</a>
           </div>
         </section>
       </main>

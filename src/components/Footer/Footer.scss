@@ -112,6 +112,18 @@
       gap: var(--space-4);
     }
 
+    a {
+      display: inline-block;
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: var(--slate);
+      text-decoration: none;
+      overflow-wrap: anywhere;
+      transition: color var(--fast);
+
+      &:hover { color: var(--cream); }
+    }
+
     p {
       font-size: 0.8rem;
       font-weight: 300;
@@ -131,6 +143,10 @@
     margin-bottom: var(--space-1) !important;
   }
 
+  @media (max-width: 540px) {
+    .footer-contact .footer-contact__grid { grid-template-columns: 1fr; }
+  }
+
   // Bottom bar
   .footer-bottom {
     border-top: 1px solid var(--glass-border);
@@ -148,4 +164,3 @@
     }
   }
 }
-

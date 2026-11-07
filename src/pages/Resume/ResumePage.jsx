@@ -1,131 +1,122 @@
+import { Link } from 'react-router-dom'
 import { PageWrapper, SubNav } from '../../components'
-import { useDocumentTitle, useMetaTags, useScrollToHash } from '../../hooks'
-import { AT_A_GLANCE, COMPETENCY_GROUPS, IMPACT_METRICS, EXPERIENCE, EDUCATION, CERTIFICATIONS } from './resume-data'
+import { useDocumentTitle, useMetaTags } from '../../hooks'
+import {
+  CERTIFICATIONS,
+  EARLIER_EXPERIENCE,
+  EDUCATION,
+  NORTHWESTERN_MUTUAL_ROLES,
+  SELECTED_WORK,
+  TECHNICAL_SKILLS,
+} from './resume-data'
 
 const ResumePage = () => {
-  useDocumentTitle('Resume | Ryan R. Campbell')
-  useScrollToHash()
+  useDocumentTitle('Résumé | Ryan R. Campbell')
   useMetaTags([
-    { type: 'name', name: 'description', content: 'Evergreen resume for Ryan R. Campbell, a technical leader and software engineer with experience across technology, education, experimentation, communication, and organizational enablement.' },
-    { type: 'property', name: 'og:title', content: 'Resume | Ryan R. Campbell' },
-    { type: 'property', name: 'og:description', content: 'Technical leader and software engineer with experience across technical delivery, product thinking, education, entrepreneurship, and organizational enablement.' },
+    { type: 'name', name: 'description', content: 'Ryan R. Campbell is a Software Engineer III with experience in frontend applications, APIs, infrastructure, AI adoption research, teaching, and small business operations.' },
+    { type: 'property', name: 'og:title', content: 'Résumé | Ryan R. Campbell' },
+    { type: 'property', name: 'og:description', content: 'A résumé spanning client software, APIs, infrastructure, AI adoption, workshops, and business ownership.' },
+    { type: 'property', name: 'twitter:title', content: 'Résumé | Ryan R. Campbell' },
+    { type: 'property', name: 'twitter:description', content: 'A résumé spanning client software, APIs, infrastructure, AI adoption, workshops, and business ownership.' },
   ])
 
   return (
-    <PageWrapper pageTitle='resume'>
-      <SubNav sections={['competencies', 'selected-impact', 'experience', 'education', 'get-in-touch']} />
-      <main className='Resume-page'>
+    <PageWrapper pageTitle='Software Engineer'>
+      <SubNav sections={['selected-impact', 'experience', 'competencies', 'additional-experience', 'education', 'get-in-touch']} />
+      <main id='main-content' tabIndex={-1} className='Resume-page'>
         <section className='resume-hero'>
           <div className='resume-hero__copy'>
-            <p className='section-label'>Resume</p>
-            <h1>Technologist. Strategist. Engineer.
-            </h1>
+            <p className='section-label'>Résumé</p>
+            <h1>Professional experience</h1>
             <p className='resume-hero__lede'>
-              Technical leader and software engineer with 15+ years of experience working in fields as varied as technology, experimentation, education, communication, and international trade.
+              In my current software engineering role, I&apos;ve shipped changes across web interfaces, APIs, and infrastructure. I&apos;ve also led research on AI adoption, taught workshops for designers and engineers, and facilitated panels for C-suite executives. Beyond my work as a software engineer, my background includes running a small business, teaching writing, and publishing.
             </p>
-            <p className='resume-hero__body'>
-              I build systems, explore ambiguous problems, and help people make sense of complex ideas across multi-disciplinary domains.
-            </p>
+            <p className='resume-location'>Milwaukee, Wisconsin</p>
+            <nav className='resume-hero__actions' aria-label='Professional links'>
+              <Link to='/work' className='btn-primary'>Selected work</Link>
+              <a href='https://github.com/rrcampbell-exe' target='_blank' rel='noopener noreferrer' className='btn-secondary'>GitHub</a>
+              <a href='https://www.linkedin.com/in/ryan-r-campbell/' target='_blank' rel='noopener noreferrer' className='btn-secondary'>LinkedIn</a>
+            </nav>
           </div>
+        </section>
 
-          <aside className='resume-hero__panel'>
-            <p className='resume-panel__eyebrow'>At a glance</p>
-            <ul className='resume-panel__list'>
-              {AT_A_GLANCE.map((item) => (
-                <li key={item}>{item}</li>
+        <section id='selected-impact' className='resume-section resume-section--selected'>
+          <div className='resume-section__heading-row'>
+            <div>
+              <p className='section-label'>Selected work</p>
+              <h2>Software delivery, AI adoption, and an independent business.</h2>
+            </div>
+          </div>
+          <ul className='resume-selected-work'>
+            {SELECTED_WORK.map((item) => (
+              <li key={item.href}>
+                <Link to={item.href}>{item.label}</Link>
+                <span>{item.evidence}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section id='experience' className='resume-section'>
+          <div className='resume-section__heading-row'>
+            <div className='resume-section__employer'>
+              <p className='section-label'>Experience</p>
+              <div className='resume-section__employer-heading'>
+                <h2>Northwestern Mutual</h2>
+                <span>Milwaukee, WI</span>
+              </div>
+            </div>
+          </div>
+          <div className='resume-experience-list'>
+            <div className='resume-role resume-role--employer'>
+              {NORTHWESTERN_MUTUAL_ROLES.map((role) => (
+                <section className='resume-role__position' key={role.title}>
+                  <div className='resume-role__header'>
+                    <h3>{role.title}</h3>
+                    <span className='resume-role__period'>{role.period}</span>
+                  </div>
+                  <ul className='resume-role__bullets'>
+                    {role.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}
+                  </ul>
+                </section>
               ))}
-            </ul>
-          </aside>
+            </div>
+          </div>
         </section>
 
         <section id='competencies' className='resume-section'>
           <div className='resume-section__heading-row'>
             <div>
-              <p className='section-label'>Core competencies</p>
-              <h2>Technical depth, product thinking, and the range to move ideas from exploration through implementation.</h2>
+              <p className='section-label'>Technical skills</p>
+              <h2>Tools and practices I use to build and ship web applications.</h2>
             </div>
-            <p>
-              My work connects business goals, technical systems, experiments, and the people who drive them. 
-              Advances in emerging technologies make my expertise in software engineering, education, communication,
-              and program delivery more critical than ever.
-            </p>
           </div>
-
-          <div className='resume-competency-grid'>
-            {COMPETENCY_GROUPS.map((group) => (
+          <div className='resume-skills-grid'>
+            {TECHNICAL_SKILLS.map((group) => (
               <article className='resume-card' key={group.title}>
                 <h3>{group.title}</h3>
-                <ul className='resume-chip-list'>
-                  {group.items.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
+                <p>{group.items.join(' · ')}</p>
               </article>
             ))}
           </div>
         </section>
 
-        <section id='selected-impact' className='resume-section resume-section--band'>
+        <section id='additional-experience' className='resume-section'>
           <div className='resume-section__heading-row'>
             <div>
-              <p className='section-label'>Selected impact</p>
-              <h2>A career connecting technology, experimentation, communication, and education.</h2>
+              <p className='section-label'>Additional experience</p>
+              <h2>Business ownership, writing, procurement, and operations.</h2>
             </div>
-            <p>
-              The work spans enterprise platforms, mentorship, publishing, education, and product experimentation. These
-              measures provide a quick view of the scale and variety of that work.
-            </p>
           </div>
-
-          <div className='resume-impact-grid'>
-            {IMPACT_METRICS.map((metric) => (
-              <article className='resume-impact-card' key={metric.label}>
-                <p className='resume-impact-card__value'>{metric.value}</p>
-                <p className='resume-impact-card__label'>{metric.label}</p>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section id='experience' className='resume-section'>
-          <div className='resume-section__heading-row'>
-            <div>
-              <p className='section-label'>Experience</p>
-              <h2>Technology, education, entrepreneurship, and operations.</h2>
-            </div>
-            <p>
-              The throughline is making complicated work clearer and more useful — building products, platforms, programs,
-              and workflows while helping the people around them adopt and improve them.
-            </p>
-          </div>
-
-          <div className='resume-experience-list'>
-            {EXPERIENCE.map((role) => (
-              <article className='resume-role' key={`${role.company}-${role.period}`}>
-                <div className='resume-role__header'>
-                  <div>
-                    <h3>{role.title}</h3>
-                    <p className='resume-role__company'>{role.company}</p>
-                  </div>
-                  <div className='resume-role__meta'>
-                    <span>{role.period}</span>
-                    <span>{role.location}</span>
-                  </div>
+          <div className='resume-earlier-work'>
+            {EARLIER_EXPERIENCE.map((role) => (
+              <article className='resume-earlier-role' key={role.company}>
+                <div>
+                  <h3>{role.company}</h3>
+                  <p>{role.location ? `${role.title} · ${role.location}` : role.title}</p>
                 </div>
-
-                <p className='resume-role__emphasis'>{role.emphasis}</p>
-
-                <ul className='resume-role__tags' aria-label={`${role.company} focus areas`}>
-                  {role.highlights.map((highlight) => (
-                    <li key={highlight}>{highlight}</li>
-                  ))}
-                </ul>
-
-                <ul className='resume-role__bullets'>
-                  {role.bullets.map((bullet) => (
-                    <li key={bullet}>{bullet}</li>
-                  ))}
-                </ul>
+                <p className='resume-earlier-role__period'>{role.period}</p>
+                <p className='resume-earlier-role__detail'>{role.detail}</p>
               </article>
             ))}
           </div>
@@ -134,31 +125,21 @@ const ResumePage = () => {
         <section id='education' className='resume-section resume-section--education'>
           <div className='resume-section__heading-row'>
             <div>
-              <p className='section-label'>Education & certifications</p>
-              <h2>Language, technical practice, and learning across disciplines.</h2>
+              <p className='section-label'>Education &amp; credentials</p>
+              <h2>Formal study and continued learning.</h2>
             </div>
-            <p>
-              That mix shows up directly in the work: translating technical systems across teams, designing learning
-              experiences, enabling adoption, and building with both rigor and clarity.
-            </p>
           </div>
-
           <div className='resume-education-grid'>
             <article className='resume-card'>
               <h3>Education</h3>
               <ul className='resume-detail-list'>
-                {EDUCATION.map((entry) => (
-                  <li key={entry}>{entry}</li>
-                ))}
+                {EDUCATION.map((entry) => <li key={entry}>{entry}</li>)}
               </ul>
             </article>
-
             <article className='resume-card'>
-              <h3>Certifications & programs</h3>
+              <h3>Certifications &amp; programs</h3>
               <ul className='resume-detail-list'>
-                {CERTIFICATIONS.map((entry) => (
-                  <li key={entry}>{entry}</li>
-                ))}
+                {CERTIFICATIONS.map((entry) => <li key={entry}>{entry}</li>)}
               </ul>
             </article>
           </div>

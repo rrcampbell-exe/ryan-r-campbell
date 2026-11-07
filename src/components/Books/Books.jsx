@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 import { books } from '../../constants'
 import { Link } from 'react-router-dom'
 
@@ -8,7 +8,7 @@ const Books = ({ hideEmpathy }) => {
   return (
     <div className='Books' data-testid='books'>
       {booksToDisplay.map((book) => (
-        <Link to={'/books'} state={{ hash: book.id }} key={book.id}>
+        <Link to={`/books#${book.id}`} key={book.id}>
           <div>
             <div className='book-container grow-on-hover'>
               {book.cover && (
@@ -40,3 +40,7 @@ const Books = ({ hideEmpathy }) => {
 }
 
 export default Books
+
+Books.propTypes = {
+  hideEmpathy: PropTypes.bool,
+}

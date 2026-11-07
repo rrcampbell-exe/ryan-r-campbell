@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { PageWrapper, NotFound, Loading } from '../../components'
 import { useParams } from 'react-router-dom'
 import { fetchEpisode, findEpisodeUUID, formatDate } from '../../utils'
+import { useDocumentTitle } from '../../hooks'
 
 const PodcastEpisode = () => {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -9,10 +10,13 @@ const PodcastEpisode = () => {
 
   const episode = fetchEpisode(slug)
   const uuid = findEpisodeUUID(episode)
+  useDocumentTitle(episode?.title
+    ? `${episode.title} | R: On Everything | Ryan R. Campbell`
+    : 'Podcasts | Ryan R. Campbell')
 
   return (
-    <PageWrapper pageTitle='podcaster | community builder'>
-      <main className='Podcast'>
+    <PageWrapper pageTitle='podcaster | community-builder'>
+      <main id='main-content' tabIndex={-1} className='Podcast'>
         {(episode && uuid) ? (
           <>
             <h3>{episode.title}</h3>
