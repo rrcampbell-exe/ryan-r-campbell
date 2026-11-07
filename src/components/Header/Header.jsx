@@ -1,4 +1,4 @@
-import React from 'react'
+import PropTypes from 'prop-types'
 import { Link, NavLink } from 'react-router-dom'
 import { HamburgerMenu } from '../'
 
@@ -8,7 +8,9 @@ const NAV_LINKS = [
   { href: 'https://r-on-everything.com', label: 'read' },
   { to: '/books',    label: 'books' },
   { to: '/work',     label: 'work' },
+  { to: '/resume',   label: 'résumé' },
   { to: '/about',    label: 'about' },
+  { to: '/contact',  label: 'contact' },
 ]
 
 const Header = ({ pageTitle }) => {
@@ -54,5 +56,9 @@ const Header = ({ pageTitle }) => {
     </header>
   )
 }
-export default Header
 
+Header.propTypes = {
+  pageTitle: PropTypes.string,
+}
+
+export default Header
