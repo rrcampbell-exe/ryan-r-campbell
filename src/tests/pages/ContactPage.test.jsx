@@ -12,14 +12,13 @@ describe('ContactPage', () => {
     )
     expect(contactPage).toMatchSnapshot()
   })
-  test('should have an email for tech inquiries', () => {
+  test('should show the professional Gmail username', () => {
     render(
       <ContextAndRouterProvider>
         <ContactPage />
       </ContextAndRouterProvider>
     )
-    const techInquiries = screen.getAllByText('campbell.ryan.r')
-    expect(techInquiries[0]).toBeInTheDocument()
+    expect(screen.getByText('campbell.ryan.r (gmail)')).toBeInTheDocument()
   })
   test('should have an email for author inquiries', () => {
     render(
@@ -47,5 +46,44 @@ describe('ContactPage', () => {
     )
     const connectLink = screen.getByText('LinkedIn', { selector: 'a' })
     expect(connectLink).toBeInTheDocument()
+  })
+
+  test('should label the contact page', () => {
+    render(
+      <ContextAndRouterProvider>
+        <ContactPage />
+      </ContextAndRouterProvider>
+    )
+
+    expect(screen.getByRole('heading', { name: 'Contact' })).toBeInTheDocument()
+  })
+
+  test('uses the pheasant hat portrait on the contact page', () => {
+    render(
+      <ContextAndRouterProvider>
+        <ContactPage />
+      </ContextAndRouterProvider>
+    )
+
+    const portrait = screen.getByRole('img', {
+      name: 'Ryan R. Campbell wearing a cap with a pheasant design and a black hoodie.',
+    })
+
+    expect(portrait).toHaveAttribute(
+      'src',
+      '/personal-photos/ryan_r_campbell-pheasant_hat-black_sweatshirt.jpg'
+    )
+    expect(portrait).toHaveAttribute('width', '1086')
+    expect(portrait).toHaveAttribute('height', '1448')
+  })
+
+  test('sets a contact-specific document title', () => {
+    render(
+      <ContextAndRouterProvider>
+        <ContactPage />
+      </ContextAndRouterProvider>
+    )
+
+    expect(document.title).toBe('Contact | Ryan R. Campbell')
   })
 })

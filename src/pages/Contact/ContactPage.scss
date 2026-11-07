@@ -16,6 +16,12 @@
       width: 100%;
     }
 
+    @media (max-width: 600px) {
+      .Contact {
+        grid-template-columns: 1fr;
+      }
+    }
+
     .section-wrapper {
       display: flex;
       flex-direction: column;
@@ -28,6 +34,7 @@
     .contact-photo {
       width: 100%;
       max-width: 320px;
+      height: auto;
       object-fit: cover;
       border-radius: var(--radius-xl);
       box-shadow:
@@ -35,7 +42,7 @@
         0 24px 64px rgba(0, 0, 0, 0.6),
         0 0 80px rgba(20, 50, 95, 0.35);
       justify-self: end;
-      aspect-ratio: 69 / 70;
+      aspect-ratio: 1 / 1;
     }
 
     @media (max-width: 900px) {
