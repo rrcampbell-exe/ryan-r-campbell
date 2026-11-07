@@ -2,7 +2,12 @@ import { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import { formatDate } from '../../utils'
 
-const BlogTeaser = ({ postsQtyToDisplay, isGeneralLandingPage }) => {
+const BlogTeaser = ({
+  postsQtyToDisplay,
+  isGeneralLandingPage,
+  onLatestPostChange,
+  showFallbackArchiveLink = true,
+}) => {
   const [feedPosts, setFeedPosts] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const [hasError, setHasError] = useState(false)
@@ -18,15 +23,43 @@ const BlogTeaser = ({ postsQtyToDisplay, isGeneralLandingPage }) => {
       .finally(() => setIsLoading(false))
   }, [])
 
+  useEffect(() => {
+    onLatestPostChange?.(feedPosts[0]?.link || null)
+  }, [feedPosts, onLatestPostChange])
+
   const teaserPosts = feedPosts.slice(0, postsQtyToDisplay || 3)
 
   return (
     <div className='ContentTeaser' data-testid='blog-teaser'>
-      {isLoading && <p role='status'>Loading latest essays...</p>}
+      {isLoading && (
+        <>
+          <p className='ContentTeaser__loadingStatus' role='status'>Loading latest essays...</p>
+          {Array.from({ length: postsQtyToDisplay || 3 }, (_, index) => (
+            <div key={`loading-${index}`}>
+              <div className='content-post content-post--skeleton' aria-hidden='true'>
+                <h3 className='content-post-skeleton__title'>
+                  <span className='content-post-skeleton__line content-post-skeleton__line--title' />
+                  <span className='content-post-skeleton__line content-post-skeleton__line--titleShort' />
+                </h3>
+                {!isGeneralLandingPage && (
+                  <span className='content-post-skeleton__line content-post-skeleton__date' />
+                )}
+                <p className='content-post-skeleton__excerpt'>
+                  <span className='content-post-skeleton__line' />
+                  <span className='content-post-skeleton__line' />
+                  <span className='content-post-skeleton__line content-post-skeleton__line--excerptShort' />
+                </p>
+                <span className='content-post-skeleton__line content-post-skeleton__link' />
+                {!isGeneralLandingPage && <div className='content-post-underline' />}
+              </div>
+            </div>
+          ))}
+        </>
+      )}
       {hasError && (
         <p role='alert'>
           Latest essays are unavailable right now.{' '}
-          <a href='https://www.r-on-everything.com'>Read them on Substack.</a>
+          {showFallbackArchiveLink && <a href='https://ryanrcampbell.substack.com/'>Browse the Substack archive.</a>}
         </p>
       )}
       {teaserPosts.map((post) => (
@@ -47,6 +80,8 @@ const BlogTeaser = ({ postsQtyToDisplay, isGeneralLandingPage }) => {
 BlogTeaser.propTypes = {
   postsQtyToDisplay: PropTypes.number,
   isGeneralLandingPage: PropTypes.bool,
+  onLatestPostChange: PropTypes.func,
+  showFallbackArchiveLink: PropTypes.bool,
 }
 
 export default BlogTeaser
