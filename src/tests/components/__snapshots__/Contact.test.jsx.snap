@@ -9,10 +9,10 @@ exports[`Contact > default snapshot 1`] = `
       class="contact-option"
     >
       <h3>
-        tech inquiries
+        professional inquiries
       </h3>
       <p>
-        campbell.ryan.r
+        campbell.ryan.r (gmail)
       </p>
     </div>
     <div
@@ -22,7 +22,7 @@ exports[`Contact > default snapshot 1`] = `
         author inquiries
       </h3>
       <p>
-        rrcampbellwrites
+        rrcampbellwrites (gmail)
       </p>
     </div>
     <div
@@ -34,7 +34,7 @@ exports[`Contact > default snapshot 1`] = `
       <a
         class="subscription-link"
         href="https://ryanrcampbell.substack.com/subscribe"
-        rel="noopener"
+        rel="noopener noreferrer"
         target="_blank"
       >
         <p>
@@ -69,7 +69,7 @@ exports[`Contact > default snapshot 1`] = `
       <a
         class="subscription-link"
         href="https://www.linkedin.com/in/ryan-r-campbell/"
-        rel="noopener"
+        rel="noopener noreferrer"
         target="_blank"
       >
         <p>

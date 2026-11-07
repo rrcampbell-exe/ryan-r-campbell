@@ -23,7 +23,7 @@ describe('AIEnablement', () => {
       </ContextAndRouterProvider>
     )
 
-    const subNav = container.querySelector('.SubNav')
+    const subNav = container.querySelector('.SubNav__desktop-links')
 
     expect(subNav).toBeInTheDocument()
     expect(subNav.children.length).toBe(6)
@@ -38,5 +38,17 @@ describe('AIEnablement', () => {
 
     expect(screen.getByText(/build a platform, not a pile of demos/i)).toBeInTheDocument()
     expect(screen.getByText(/measure both outcomes and sentiment/i)).toBeInTheDocument()
+  })
+
+  test('links to both the AI Hub and adoption story and uses the professional email', () => {
+    render(
+      <ContextAndRouterProvider>
+        <AIEnablement />
+      </ContextAndRouterProvider>
+    )
+
+    expect(screen.getByRole('link', { name: 'Read the AI Hub story' })).toHaveAttribute('href', '/work#internal-ai-hub')
+    expect(screen.getByRole('link', { name: 'Read the AI adoption research story' })).toHaveAttribute('href', '/work#ai-adoption-survey')
+    expect(screen.getByRole('link', { name: 'Professional inquiries' })).toHaveAttribute('href', 'mailto:campbell.ryan.r@gmail.com')
   })
 })

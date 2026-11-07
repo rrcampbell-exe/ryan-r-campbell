@@ -1,6 +1,6 @@
 import { BooksLanding } from '../../pages'
-import { describe, expect, test } from 'vitest'
-import { render, fireEvent } from '@testing-library/react'
+import { describe, expect, test, vi } from 'vitest'
+import { render, fireEvent, screen, waitFor } from '@testing-library/react'
 import ContextAndRouterProvider from '../test-utils'
 
 describe('BooksLanding', () => {
@@ -21,6 +21,19 @@ describe('BooksLanding', () => {
     )
     const books = container.querySelectorAll('.book-cover')
     expect(books.length).toBe(2)
+  })
+
+  test('starts with one page-level heading and descriptive browser title', async () => {
+    render(
+      <ContextAndRouterProvider>
+        <BooksLanding />
+      </ContextAndRouterProvider>
+    )
+
+    expect(screen.getAllByRole('heading', { level: 1 })).toHaveLength(1)
+    expect(screen.getByRole('heading', { name: 'Books', level: 1 })).toBeInTheDocument()
+    expect(screen.getByText('Published works')).toBeInTheDocument()
+    await waitFor(() => expect(document.title).toBe('Books | Ryan R. Campbell'))
   })
 
   test('renders book covers with intrinsic dimensions', () => {

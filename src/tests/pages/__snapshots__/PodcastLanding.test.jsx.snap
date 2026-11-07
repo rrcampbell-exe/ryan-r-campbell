@@ -8,6 +8,12 @@ exports[`PodcastLanding > default snapshot 1`] = `
       <div
         class="undefined"
       >
+        <a
+          class="skip-to-main"
+          href="#main-content"
+        >
+          Skip to main content
+        </a>
         <header
           class="Header"
         >
@@ -31,7 +37,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
               aria-hidden="true"
               class="page-subtitle"
             >
-              podcaster | community builder
+              podcaster | community-builder
             </span>
           </a>
           <nav
@@ -73,9 +79,21 @@ exports[`PodcastLanding > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
+              href="/resume"
+            >
+              résumé
+            </a>
+            <a
+              class="header-nav__link"
               href="/about"
             >
               about
+            </a>
+            <a
+              class="header-nav__link"
+              href="/contact"
+            >
+              contact
             </a>
           </nav>
           <div
@@ -188,6 +206,8 @@ exports[`PodcastLanding > default snapshot 1`] = `
         </nav>
         <main
           class="Podcast"
+          id="main-content"
+          tabindex="-1"
         >
           <section
             aria-labelledby="r-on-everything-tab"
@@ -308,7 +328,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
               <p
                 class="footer-tagline"
               >
-                Software engineer & author based in Milwaukee, WI.
+                software engineer & author.
               </p>
             </div>
             <nav
@@ -337,7 +357,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
-                    href="https://ryanrcampbell.substack.com"
+                    href="https://r-on-everything.com"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -369,7 +389,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   <a
                     href="/resume"
                   >
-                    Resume
+                    Résumé
                   </a>
                 </li>
                 <li>
@@ -441,7 +461,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   <p
                     class="footer-contact__label"
                   >
-                    tech inquiries
+                    professional
                   </p>
                   <p>
                     campbell.ryan.r
@@ -451,7 +471,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                   <p
                     class="footer-contact__label"
                   >
-                    author inquiries
+                    authorly
                   </p>
                   <p>
                     rrcampbellwrites
@@ -477,6 +497,12 @@ exports[`PodcastLanding > default snapshot 1`] = `
     <div
       class="undefined"
     >
+      <a
+        class="skip-to-main"
+        href="#main-content"
+      >
+        Skip to main content
+      </a>
       <header
         class="Header"
       >
@@ -500,7 +526,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
             aria-hidden="true"
             class="page-subtitle"
           >
-            podcaster | community builder
+            podcaster | community-builder
           </span>
         </a>
         <nav
@@ -542,9 +568,21 @@ exports[`PodcastLanding > default snapshot 1`] = `
           </a>
           <a
             class="header-nav__link"
+            href="/resume"
+          >
+            résumé
+          </a>
+          <a
+            class="header-nav__link"
             href="/about"
           >
             about
+          </a>
+          <a
+            class="header-nav__link"
+            href="/contact"
+          >
+            contact
           </a>
         </nav>
         <div
@@ -657,6 +695,8 @@ exports[`PodcastLanding > default snapshot 1`] = `
       </nav>
       <main
         class="Podcast"
+        id="main-content"
+        tabindex="-1"
       >
         <section
           aria-labelledby="r-on-everything-tab"
@@ -777,7 +817,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
             <p
               class="footer-tagline"
             >
-              Software engineer & author based in Milwaukee, WI.
+              software engineer & author.
             </p>
           </div>
           <nav
@@ -806,7 +846,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
               </li>
               <li>
                 <a
-                  href="https://ryanrcampbell.substack.com"
+                  href="https://r-on-everything.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -838,7 +878,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 <a
                   href="/resume"
                 >
-                  Resume
+                  Résumé
                 </a>
               </li>
               <li>
@@ -910,7 +950,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 <p
                   class="footer-contact__label"
                 >
-                  tech inquiries
+                  professional
                 </p>
                 <p>
                   campbell.ryan.r
@@ -920,7 +960,7 @@ exports[`PodcastLanding > default snapshot 1`] = `
                 <p
                   class="footer-contact__label"
                 >
-                  author inquiries
+                  authorly
                 </p>
                 <p>
                   rrcampbellwrites

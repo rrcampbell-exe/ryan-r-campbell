@@ -8,6 +8,12 @@ exports[`BooksLanding > default snapshot 1`] = `
       <div
         class="undefined"
       >
+        <a
+          class="skip-to-main"
+          href="#main-content"
+        >
+          Skip to main content
+        </a>
         <header
           class="Header"
         >
@@ -73,9 +79,21 @@ exports[`BooksLanding > default snapshot 1`] = `
             </a>
             <a
               class="header-nav__link"
+              href="/resume"
+            >
+              résumé
+            </a>
+            <a
+              class="header-nav__link"
               href="/about"
             >
               about
+            </a>
+            <a
+              class="header-nav__link"
+              href="/contact"
+            >
+              contact
             </a>
           </nav>
           <div
@@ -155,66 +173,126 @@ exports[`BooksLanding > default snapshot 1`] = `
           </div>
         </header>
         <nav
-          class="SubNav"
+          aria-label="On this page"
+          class="SubNav SubNav--sections"
         >
           <div
-            class="section"
+            class="SubNav__desktop-links"
           >
-            <a
-              href="#scambait"
+            <div
+              class="section"
             >
-              scambait
-            </a>
+              <a
+                href="#scambait"
+              >
+                Scambait
+              </a>
+            </div>
+            <div
+              class="section"
+            >
+              <a
+                href="#and-ampersand"
+              >
+                And ampersand
+              </a>
+            </div>
+            <div
+              class="section"
+            >
+              <a
+                href="#imminent-dawn"
+              >
+                Imminent Dawn
+              </a>
+            </div>
+            <div
+              class="section"
+            >
+              <a
+                href="#mourning-dove"
+              >
+                Mourning Dove
+              </a>
+            </div>
+            <div
+              class="section"
+            >
+              <a
+                href="#featured-in"
+              >
+                Featured in
+              </a>
+            </div>
+            <div
+              class="section"
+            >
+              <a
+                href="#awards"
+              >
+                Awards
+              </a>
+            </div>
           </div>
-          <div
-            class="section"
+          <details
+            class="SubNav__disclosure"
           >
-            <a
-              href="#and-ampersand"
+            <summary>
+              On this page
+            </summary>
+            <div
+              class="SubNav__mobile-links"
             >
-              and ampersand
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#imminent-dawn"
-            >
-              imminent dawn
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#mourning-dove"
-            >
-              mourning dove
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#featured-in"
-            >
-              featured in
-            </a>
-          </div>
-          <div
-            class="section"
-          >
-            <a
-              href="#awards"
-            >
-              awards
-            </a>
-          </div>
+              <a
+                href="#scambait"
+              >
+                Scambait
+              </a>
+              <a
+                href="#and-ampersand"
+              >
+                And ampersand
+              </a>
+              <a
+                href="#imminent-dawn"
+              >
+                Imminent Dawn
+              </a>
+              <a
+                href="#mourning-dove"
+              >
+                Mourning Dove
+              </a>
+              <a
+                href="#featured-in"
+              >
+                Featured in
+              </a>
+              <a
+                href="#awards"
+              >
+                Awards
+              </a>
+            </div>
+          </details>
         </nav>
         <main
           class="Books-landing"
+          id="main-content"
+          tabindex="-1"
         >
+          <header
+            class="books-page-heading"
+          >
+            <p
+              class="section-label"
+            >
+              Published works
+            </p>
+            <h1>
+              Books
+            </h1>
+          </header>
           <div>
             <div
               class="section-wrapper book-section"
@@ -1586,7 +1664,7 @@ exports[`BooksLanding > default snapshot 1`] = `
               <p
                 class="footer-tagline"
               >
-                Software engineer & author based in Milwaukee, WI.
+                software engineer & author.
               </p>
             </div>
             <nav
@@ -1615,7 +1693,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                 </li>
                 <li>
                   <a
-                    href="https://ryanrcampbell.substack.com"
+                    href="https://r-on-everything.com"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -1647,7 +1725,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                   <a
                     href="/resume"
                   >
-                    Resume
+                    Résumé
                   </a>
                 </li>
                 <li>
@@ -1719,7 +1797,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                   <p
                     class="footer-contact__label"
                   >
-                    tech inquiries
+                    professional
                   </p>
                   <p>
                     campbell.ryan.r
@@ -1729,7 +1807,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                   <p
                     class="footer-contact__label"
                   >
-                    author inquiries
+                    authorly
                   </p>
                   <p>
                     rrcampbellwrites
@@ -1755,6 +1833,12 @@ exports[`BooksLanding > default snapshot 1`] = `
     <div
       class="undefined"
     >
+      <a
+        class="skip-to-main"
+        href="#main-content"
+      >
+        Skip to main content
+      </a>
       <header
         class="Header"
       >
@@ -1820,9 +1904,21 @@ exports[`BooksLanding > default snapshot 1`] = `
           </a>
           <a
             class="header-nav__link"
+            href="/resume"
+          >
+            résumé
+          </a>
+          <a
+            class="header-nav__link"
             href="/about"
           >
             about
+          </a>
+          <a
+            class="header-nav__link"
+            href="/contact"
+          >
+            contact
           </a>
         </nav>
         <div
@@ -1902,66 +1998,126 @@ exports[`BooksLanding > default snapshot 1`] = `
         </div>
       </header>
       <nav
-        class="SubNav"
+        aria-label="On this page"
+        class="SubNav SubNav--sections"
       >
         <div
-          class="section"
+          class="SubNav__desktop-links"
         >
-          <a
-            href="#scambait"
+          <div
+            class="section"
           >
-            scambait
-          </a>
+            <a
+              href="#scambait"
+            >
+              Scambait
+            </a>
+          </div>
+          <div
+            class="section"
+          >
+            <a
+              href="#and-ampersand"
+            >
+              And ampersand
+            </a>
+          </div>
+          <div
+            class="section"
+          >
+            <a
+              href="#imminent-dawn"
+            >
+              Imminent Dawn
+            </a>
+          </div>
+          <div
+            class="section"
+          >
+            <a
+              href="#mourning-dove"
+            >
+              Mourning Dove
+            </a>
+          </div>
+          <div
+            class="section"
+          >
+            <a
+              href="#featured-in"
+            >
+              Featured in
+            </a>
+          </div>
+          <div
+            class="section"
+          >
+            <a
+              href="#awards"
+            >
+              Awards
+            </a>
+          </div>
         </div>
-        <div
-          class="section"
+        <details
+          class="SubNav__disclosure"
         >
-          <a
-            href="#and-ampersand"
+          <summary>
+            On this page
+          </summary>
+          <div
+            class="SubNav__mobile-links"
           >
-            and ampersand
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#imminent-dawn"
-          >
-            imminent dawn
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#mourning-dove"
-          >
-            mourning dove
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#featured-in"
-          >
-            featured in
-          </a>
-        </div>
-        <div
-          class="section"
-        >
-          <a
-            href="#awards"
-          >
-            awards
-          </a>
-        </div>
+            <a
+              href="#scambait"
+            >
+              Scambait
+            </a>
+            <a
+              href="#and-ampersand"
+            >
+              And ampersand
+            </a>
+            <a
+              href="#imminent-dawn"
+            >
+              Imminent Dawn
+            </a>
+            <a
+              href="#mourning-dove"
+            >
+              Mourning Dove
+            </a>
+            <a
+              href="#featured-in"
+            >
+              Featured in
+            </a>
+            <a
+              href="#awards"
+            >
+              Awards
+            </a>
+          </div>
+        </details>
       </nav>
       <main
         class="Books-landing"
+        id="main-content"
+        tabindex="-1"
       >
+        <header
+          class="books-page-heading"
+        >
+          <p
+            class="section-label"
+          >
+            Published works
+          </p>
+          <h1>
+            Books
+          </h1>
+        </header>
         <div>
           <div
             class="section-wrapper book-section"
@@ -3333,7 +3489,7 @@ exports[`BooksLanding > default snapshot 1`] = `
             <p
               class="footer-tagline"
             >
-              Software engineer & author based in Milwaukee, WI.
+              software engineer & author.
             </p>
           </div>
           <nav
@@ -3362,7 +3518,7 @@ exports[`BooksLanding > default snapshot 1`] = `
               </li>
               <li>
                 <a
-                  href="https://ryanrcampbell.substack.com"
+                  href="https://r-on-everything.com"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -3394,7 +3550,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                 <a
                   href="/resume"
                 >
-                  Resume
+                  Résumé
                 </a>
               </li>
               <li>
@@ -3466,7 +3622,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                 <p
                   class="footer-contact__label"
                 >
-                  tech inquiries
+                  professional
                 </p>
                 <p>
                   campbell.ryan.r
@@ -3476,7 +3632,7 @@ exports[`BooksLanding > default snapshot 1`] = `
                 <p
                   class="footer-contact__label"
                 >
-                  author inquiries
+                  authorly
                 </p>
                 <p>
                   rrcampbellwrites

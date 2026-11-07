@@ -13,9 +13,9 @@ exports[`Builds > default snapshot 1`] = `
         class="build-tile__logo-wrap"
       >
         <img
-          alt="Cover art for the "R on Everything" podcast"
+          alt="A cartoon bird on a forest-green background, the Real Fake Birds app logo"
           class="build-tile__logo"
-          src="./podcasts/r-on-everything-podcast-cover-art.png"
+          src="./builds/real-fake-birds-app-logo.png"
         />
       </div>
       <div
@@ -24,41 +24,94 @@ exports[`Builds > default snapshot 1`] = `
         <h3
           class="build-tile__title"
         >
-          The R: On Everything Podcast
+          Real Fake Birds
         </h3>
         <p
           class="build-tile__teaser"
         >
-          At the intersection of technology, work, leadership, and culture.
+          Some are real. Some are fake. Tell them apart.
         </p>
         <p
           class="build-tile__desc"
         >
-          Ryan R. Campbell delves into the nuances of technology, work, leadership, and culture, offering insights and thought-provoking discussions.
+          The real names come from eBird. The game saves progress on your device and can sync it if you sign in.
         </p>
         <p
           class="build-tile__tech"
-        />
-        <iframe
-          class="pinecast-embed"
-          frameborder="0"
-          height="24"
-          scrolling="no"
-          seamless=""
-          src="https://pnc.st/s/r-on-everything/embed"
-          width="100%"
-        />
+        >
+          Next.js, TypeScript, eBird, OpenAI APIs
+        </p>
       </div>
       <div
         class="build-tile__links"
       >
         <a
           class="build-tile__link"
-          href="https://r-on-everything.com/"
+          href="https://www.realfakebirds.app/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          listen to the podcast
+          Play Real Fake Birds
+        </a>
+        <a
+          aria-label="View source for Real Fake Birds on GitHub"
+          class="build-tile__link build-tile__link--gh"
+          href="https://github.com/rrcampbell-exe/real-fake-birds"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          View source
+        </a>
+      </div>
+    </article>
+    <article
+      class="build-tile"
+      data-testid="build"
+    >
+      <div
+        class="build-tile__logo-wrap"
+      >
+        <img
+          alt="Blue favicon for Ryan R. Campbell"
+          class="build-tile__logo"
+          src="./2026-blue-favicon-ryan-r-campbell.png"
+        />
+      </div>
+      <div
+        class="build-tile__body"
+      >
+        <h3
+          class="build-tile__title"
+        >
+          This website
+        </h3>
+        <p
+          class="build-tile__teaser"
+        >
+          The digital home for Ryan R. Campbell
+        </p>
+        <p
+          class="build-tile__desc"
+        >
+          This site brings together essays, books, a podcast, and public projects. I built it with React; its source is available to explore.
+        </p>
+        <p
+          class="build-tile__tech"
+        >
+          React, Vite, Sass, React Router, Vitest
+        </p>
+      </div>
+      <div
+        class="build-tile__links"
+      >
+        <a
+          aria-label="View source for This website on GitHub"
+          class="build-tile__link build-tile__link--gh"
+          href="https://github.com/rrcampbell-exe/ryan-r-campbell"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          View source
         </a>
       </div>
     </article>
@@ -86,12 +139,12 @@ exports[`Builds > default snapshot 1`] = `
         <p
           class="build-tile__teaser"
         >
-          A northwoods Wisconsin escape.
+          A cabin rental in northern Wisconsin.
         </p>
         <p
           class="build-tile__desc"
         >
-          Nestled on 5½ private acres in the heart of Wisconsin's northwoods, the Druids Den offers a unique woodlands experience for those seeking relaxation and adventure alike.
+          The website for our cabin in the heart of Wisconsin's northwoods. Visitors can explore a photo gallery, a regional field guide, and learn more about how to book their stay.
         </p>
         <p
           class="build-tile__tech"
@@ -102,11 +155,75 @@ exports[`Builds > default snapshot 1`] = `
       >
         <a
           class="build-tile__link"
-          href="https://druidsdenwi.com/"
+          href="https://www.druidsdenwi.com/"
           rel="noopener noreferrer"
           target="_blank"
         >
-          explore the retreat
+          Visit The Druids Den
+        </a>
+        <a
+          aria-label="View source for The Druids Den on GitHub"
+          class="build-tile__link build-tile__link--gh"
+          href="https://github.com/rrcampbell-exe/druids-den"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          View source
+        </a>
+      </div>
+    </article>
+    <article
+      class="build-tile"
+      data-testid="build"
+    >
+      <div
+        class="build-tile__logo-wrap"
+      >
+        <img
+          alt="Cover art for the R: On Everything podcast"
+          class="build-tile__logo"
+          src="./podcasts/r-on-everything-podcast-cover-art.png"
+        />
+      </div>
+      <div
+        class="build-tile__body"
+      >
+        <h3
+          class="build-tile__title"
+        >
+          R: On Everything
+        </h3>
+        <p
+          class="build-tile__teaser"
+        >
+          A podcast about technology, work, and culture.
+        </p>
+        <p
+          class="build-tile__desc"
+        >
+          I write and produce a podcast about technology, work, and culture.
+        </p>
+        <p
+          class="build-tile__tech"
+        />
+        <iframe
+          class="pinecast-embed"
+          frameborder="0"
+          height="24"
+          scrolling="no"
+          seamless=""
+          src="https://pnc.st/s/r-on-everything/embed"
+          width="100%"
+        />
+      </div>
+      <div
+        class="build-tile__links"
+      >
+        <a
+          class="build-tile__link"
+          href="/podcasts"
+        >
+          Listen to the podcast
         </a>
       </div>
     </article>

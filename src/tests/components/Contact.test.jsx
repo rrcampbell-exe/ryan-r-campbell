@@ -7,10 +7,11 @@ describe('Contact', () => {
     const { asFragment } = render(<Contact />)
     expect(asFragment()).toMatchSnapshot()
   })
-  test('should contain tech inquiries', () => {
+  test('should show the professional Gmail username for inquiries', () => {
     const { getByText } = render(<Contact />)
-    const techInquiries = getByText('tech inquiries')
-    expect(techInquiries).toBeInTheDocument()
+    const professionalInquiries = getByText('professional inquiries')
+    expect(professionalInquiries).toBeInTheDocument()
+    expect(getByText('campbell.ryan.r (gmail)')).toBeInTheDocument()
   })
   test('should contain author inquiries', () => {
     const { getByText } = render(<Contact />)
@@ -25,7 +26,7 @@ describe('Contact', () => {
   test('subscription link should open in a new tab with correct URL', () => {
     const { getByText } = render(<Contact />)
     const subscriptionLink = getByText('Subscribe on Substack', { selector: 'p' })
-    expect(subscriptionLink.parentElement).toHaveAttribute('rel', 'noopener') 
+    expect(subscriptionLink.parentElement).toHaveAttribute('rel', 'noopener noreferrer')
     expect(subscriptionLink.parentElement).toHaveAttribute('target', '_blank')
     expect(subscriptionLink.parentElement).toHaveAttribute('href', 'https://ryanrcampbell.substack.com/subscribe')
   })
