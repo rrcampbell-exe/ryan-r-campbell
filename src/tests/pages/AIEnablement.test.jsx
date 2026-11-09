@@ -47,8 +47,8 @@ describe('AIEnablement', () => {
       </ContextAndRouterProvider>
     )
 
-    expect(screen.getByRole('link', { name: 'Read the AI Hub story' })).toHaveAttribute('href', '/work#internal-ai-hub')
-    expect(screen.getByRole('link', { name: 'Read the AI adoption research story' })).toHaveAttribute('href', '/work#ai-adoption-survey')
-    expect(screen.getByRole('link', { name: 'Professional inquiries' })).toHaveAttribute('href', 'mailto:campbell.ryan.r@gmail.com')
+    expect(screen.getByRole('link', { name: 'The AI Hub story' })).toHaveAttribute('href', '/work#internal-ai-hub')
+    expect(screen.getByRole('link', { name: 'AI adoption research' })).toHaveAttribute('href', '/work#ai-adoption-survey')
+    expect(screen.getByRole('link', { name: 'Get in touch →' })).toHaveAttribute('href', '/contact')
   })
 })
