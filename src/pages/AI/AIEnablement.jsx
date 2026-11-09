@@ -176,9 +176,11 @@ const AIEnablement = () => {
           </div>
           <div>
             <p>I led the first implementation of a place for engineers to find and share reusable AI workflows.</p>
-            <Link to='/work#internal-ai-hub' className='btn-primary'>Read the AI Hub story</Link>
-            <Link to='/work#ai-adoption-survey' className='text-link'>Read the AI adoption research story</Link>
-            <a href='mailto:campbell.ryan.r@gmail.com' className='btn-secondary'>Professional inquiries</a>
+            <div className='get-in-touch__links'>
+              <Link to='/work#internal-ai-hub' className='btn-primary'>The AI Hub story</Link>
+              <Link to='/work#ai-adoption-survey' className='btn-secondary'>AI adoption research</Link>
+              <Link to='/contact' className='text-link'>Get in touch →</Link>
+            </div>
           </div>
         </section>
       </main>
